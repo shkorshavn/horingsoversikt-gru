@@ -1,6 +1,7 @@
 # Kildekartlegging – Høringsoversikt Gjøvikregionen
 
 Sprint 0. Undersøkt 29. september 2026 av Claude Code.
+Versjon 2: Nye Veier ble undersøkt på nytt via Innlandet-siden Svein anviste (avsnitt 3.1).
 
 Alle tall er et øyeblikksbilde fra undersøkelsesdagen. Alle kall er gjort med User-Agent
 `HoringsoversiktGRU/0.1 (+mailto:svein-havar@gjovikregionen.no)`, med minst 0,3 sekunder mellom
@@ -24,7 +25,7 @@ Ingen av de anbefalte kildene trenger Playwright.
 |---|---|---|---|---|---|---|
 | 1 | Stortinget (komitéhøringer) | 1 | aktiv | API (data.stortinget.no) | 1 i sesjon 2025–26 + 7 i 2026–27 | Nei (egen kanal) |
 | 2 | Regjeringen.no (alle departementer) | 1/2 | aktiv | HTML | 58 | – |
-| 3 | Nye Veier AS | 1 | **inaktiv** | – | – | Nei |
+| 3 | Nye Veier AS (Innlandet) | 1 | aktiv | HTML + søkeordfilter | 0 (siste frist 03.07.26) | Nei |
 | 4 | Statens vegvesen – regelverk | 1 | aktiv | HTML | 12 | Nei |
 | 4b | Statens vegvesen – vegprosjekter | 1 | aktiv | HTML | 7 (hele landet) | Nei |
 | 5 | Jernbanedirektoratet | 1 | **inaktiv** | – | – | Delvis (via SD) |
@@ -65,7 +66,9 @@ Ingen av de anbefalte kildene trenger Playwright.
 | 39 | Statsforvalteren i Innlandet | 1 | aktiv | HTML | 1 | Nei |
 | – | Gjøvik kommunes postliste | – | aktiv (etter OK fra Svein) | API (ACOS «nye-innsyn», JSON) | – | – |
 
-**Resultat:** 21 kilder anbefales aktive, 17 anbefales inaktive, og 1 (Udir) må avklares.
+**Resultat:** 22 kilder anbefales aktive, 16 anbefales inaktive, og 1 (Udir) må avklares.
+Nye Veier ble endret fra inaktiv til aktiv i v2, etter at Svein pekte på
+Innlandet-oppdateringene.
 Statens vegvesen og NVE har to delkilder hver, med hver sin innhentingsmetode.
 
 **Om «Dekket av regjeringen.no»:** Jeg gikk gjennom de 200 nyeste høringene på regjeringen.no
@@ -122,12 +125,30 @@ av departementet X. Det har jeg ikke kontrollert høring for høring.
 
 ## 3. Transport, samferdsel og infrastruktur
 
-### 3.1 Nye Veier AS – inaktiv
-Nye Veier har ingen samlet høringsliste. Høringer og offentlig ettersyn ligger under hvert
-enkelt prosjekt (f.eks. `/prosjekter/e6-kvaenangsfjellet/horing-og-offentlig-ettersyn/`).
-Sitemapet har ingen høringsside, og `/prosjekter/` gir 404. Reguleringsplaner på høring
-kunngjøres i tillegg av vertskommunen. **Forslag:** `aktiv: false`. Aktuelle strekninger i
-Innlandet (bl.a. E6 Moelv–Roterud) kan følges manuelt.
+### 3.1 Nye Veier AS – aktiv (endret i v2, etter tips fra Svein)
+- **URL:** `https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/`
+- **Metode:** HTML (UIkit). Hver oppdatering er en `article.uk-news-card` med tittel og lenke
+  (`h1 > a`), dato (`dd.MM.yyyy` i `span.uk-text-semibold`), ingress og prosjektmerke
+  (`uk-label`, f.eks. «Rv. 4 Hunndalen - Mjøsbrua»). Siden bruker HTML-entiteter for æ, ø og å,
+  som må dekodes.
+- **Volum:** Alle 64 oppdateringer (juni 2024 – september 2026) ligger på én side, uten
+  paginering.
+- **Filtrering:** Siden er en nyhetsstrøm, ikke en høringsliste. Høringer må plukkes ut med
+  søkeord i tittel og ingress. Søkeordene «høring», «offentlig ettersyn», «varsel om oppstart»,
+  «varslingsområde», «planprogram», «reguleringsplan» og «merknad» ga 10 treff blant 64
+  oppføringer. Minst 2 av treffene var falske (grunnundersøkelser, elfenbenslav), så søkeordene
+  må justeres og testes i sprint 4.
+- **Frist:** Bare i fritekst på detaljsiden, i ulike former: «Frist for merknader er
+  23.05.2025», «innen 3. juli 2026» og «Frist for å levere innspill var 7. april» (uten år).
+- **Høringsparter:** Noen ganger listet i teksten, f.eks. Miljødirektoratet, Statsforvalteren,
+  NVE, Innlandet fylkeskommune og Lillehammer kommune for Gausadeltaet. Det finnes ingen fast
+  struktur.
+- **Relevans:** Svært høy. Rv. 4 Hunndalen–Mjøsbrua går gjennom Gjøvik. Varselet om E6
+  Moelv–Roterud (2025) ba om kopi av merknader til postmottak@gjovik.kommune.no.
+- **Åpne i dag:** 0. Siste frist var 3. juli 2026 (E6 Elstad–Fryasletta).
+- **robots.txt:** gir 404, altså ingen begrensninger.
+- **Andre regioner:** Bare Innlandet er relevant. Jeg har ikke undersøkt om det finnes
+  tilsvarende sider for andre regioner. Planene kunngjøres i tillegg av vertskommunene.
 
 ### 3.2 Statens vegvesen – aktiv (to delkilder)
 - **a) Regelverkshøringer:** `https://www.vegvesen.no/fag/publikasjoner/hoeringer/`. HTML med
@@ -442,7 +463,7 @@ Bør godkjennes av Svein (spørsmål 2).
 | `d.M.yyyy` | Landbruksdir. (tabeller) |
 | Norsk tekstdato med år («9. november 2026», «mandag 12. oktober 2026») | DMP, Ldir, DSB, Bufdir, Arbeidstilsynet, IFK, Riksantikvaren |
 | Norsk tekstdato **uten år** («1. oktober», «16. oktober kl. 23:59») | Digdir, Statsforvalteren |
-| Fritekst i ingress («Høringsfristen er 30.september 2026» – uten mellomrom) | Riksantikvaren, IFK, Politiet |
+| Fritekst i ingress eller brødtekst («Høringsfristen er 30.september 2026» – uten mellomrom, «innen 3. juli 2026») | Riksantikvaren, IFK, Politiet, Nye Veier |
 | Kompakt `ddMMyyyy` i fritekst («Frist 01102026») | Politiet |
 | ISO uten tidssone (`2026-11-06T23:59:59`) | NVE konsesjon |
 | ISO med tid (`2026-09-28T12:25:04+00:00`) | Skatteetaten |
@@ -459,7 +480,9 @@ entiteter på regjeringen.no, som må dekodes.
 1. **Robots.txt sperrer to aktuelle API-er:** Udir (`hoering-publisering.udir.no`) og eInnsyn
    (`api.einnsyn.no`). Vi respekterer sperrene til Svein har bestemt noe annet.
 2. **Frister i fritekst og uten årstall** (Riksantikvaren, Digdir, Statsforvalteren, Politiet,
-   IFK). Det gir risiko for feil frist. Tiltak: egen, grundig testet datoparser, og å regne
+   IFK, Nye Veier). Det gir risiko for feil frist. Nye Veier har i tillegg en nyhetsstrøm der
+   høringer må skilles fra andre nyheter med søkeord, noe som gir risiko for både falske og
+   manglende treff. Tiltak: egen, grundig testet datoparser, og å regne
    fristen som «neste forekomst etter publiseringsdato» når årstallet mangler.
 3. **Høringslister i PDF** (Vegvesen, Ldir, DMP, Arbeidstilsynet). Regionflagget i sprint 6 kan
    bli ufullstendig for disse. Vegvesenet sperrer i tillegg `*.pdf` i robots.txt.
@@ -493,9 +516,10 @@ entiteter på regjeringen.no, som må dekodes.
 6. **Vegvesenets prosjekthøringer:** Hele landet eller bare Innlandet? Listen har ikke
    fylkesfelt, så filtrering krever at detaljsiden eller prosjektsiden hentes.
    Forslag: bare Innlandet.
-7. **Kilder foreslått inaktive** (17 stk., se tabellen i avsnitt 1). Er du enig, særlig for
-   Nye Veier, Jernbanedirektoratet og Bane NOR (prioritet 1)? For disse er alternativet å følge
-   plansakene via kommunene eller manuelt.
+7. **Kilder foreslått inaktive** (16 stk., se tabellen i avsnitt 1). Er du enig, særlig for
+   Jernbanedirektoratet og Bane NOR (prioritet 1)? Kjenner du til tilsvarende sider for dem,
+   slik som Nye Veiers Innlandet-side? Alternativet er å følge plansakene via kommunene eller
+   manuelt.
 8. **Arkivverket** heter nå Nasjonalarkivet. Skal kilden hete det i `sources.yaml` og på
    nettsiden?
 9. **Python og git:** Kan jeg installere Python 3.12 (f.eks. med `winget`) og Git for Windows på

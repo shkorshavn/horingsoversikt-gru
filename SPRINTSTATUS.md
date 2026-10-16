@@ -7,7 +7,7 @@ Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjen
 | Sprint | Navn | Status | Godkjent av Svein | Dato | Kommentar |
 |---|---|---|---|---|---|
 | 0 | Kartlegging av kilder | Godkjent | JA | 16.10.2026 | Rapport v4: docs/sprinter/sprint-00-rapport-v4.md. Godkjent i chat 16.10.2026 kl. 15.13 |
-| 1 | Grunnmur og fem kjernekilder | Ikke startet | | | |
+| 1 | Grunnmur og fem kjernekilder | Plan til godkjenning | | | Plan: docs/sprinter/sprint-01-plan.md |
 | 2 | Nettsiden | Ikke startet | | | |
 | 3 | Automatisering og publisering | Ikke startet | | | |
 | 4 | Direktorater, prioritet 1 | Ikke startet | | | |

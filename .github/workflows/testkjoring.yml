@@ -1,8 +1,9 @@
 # Testkjøring mot ekte data (sprint 1).
 #
 # Startes bare manuelt (Actions → Testkjøring → Run workflow). Kjører tester og
-# innhenting, og lagrer resultat og rå kildesider som vedlegg til kjøringen.
-# Committer ingenting. Den ukentlige, automatiske kjøringen kommer i sprint 3.
+# innhenting, og lagrer resultat, logg og rå kildesider som vedlegg til kjøringen
+# og på grenen `testkjoring` (overskrives hver gang). Hovedgrenen `main` røres
+# ikke. Den ukentlige, automatiske kjøringen kommer i sprint 3.
 name: Testkjøring
 
 on:
@@ -14,7 +15,7 @@ on:
         default: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   testkjoring:
@@ -41,11 +42,11 @@ jobs:
       - name: Hent rå kildesider
         if: ${{ inputs.hent_raa }}
         continue-on-error: true
-        run: python verktoy/hent_raa.py --ut raa/
+        run: python verktoy/hent_raa.py --ut raa/ 2>&1 | tee hent_raa.log
 
       - name: Innhenting mot ekte data
         continue-on-error: true
-        run: python -m horinger.kjor --utdata ut/ --raa raa-kjoring/
+        run: python -m horinger.kjor --utdata ut/ --raa raa-kjoring/ 2>&1 | tee kjor.log
 
       - name: Last opp resultat
         if: always()
@@ -56,5 +57,19 @@ jobs:
             ut/
             raa/
             raa-kjoring/
+            *.log
           if-no-files-found: warn
           retention-days: 14
+
+      - name: Legg resultatet på grenen testkjoring
+        if: always()
+        run: |
+          mkdir -p /tmp/resultat
+          cp -r ut raa raa-kjoring *.log /tmp/resultat/ 2>/dev/null || true
+          cd /tmp/resultat
+          git init -q -b testkjoring
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Testkjøring ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" testkjoring

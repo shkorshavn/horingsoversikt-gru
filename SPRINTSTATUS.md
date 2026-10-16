@@ -1,6 +1,6 @@
 # Sprintstatus – Høringsoversikt Gjøvikregionen
 
-**Kolonnen «Godkjent av Svein» fylles bare ut av Svein.** Claude Code skal aldri endre den, og skal ikke starte en ny sprint før forrige sprint har `JA` og dato her.
+**Kolonnen «Godkjent av Svein» viser Sveins godkjenning.** Svein fyller den ut selv, eller godkjenner i chatten med en uttrykkelig melding («Sprint N: JA <dato>»), som Claude da fører inn her med henvisning til meldingen. Claude godkjenner aldri selv, og starter ikke en ny sprint før forrige sprint har `JA` og dato her.
 
 Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjenning · Godkjent
 
@@ -20,5 +20,8 @@ Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjen
 
 1. Les rapporten i `docs/sprinter/sprint-NN-rapport.md`.
 2. Gjør kontrollene under «Hva Svein bør sjekke selv».
-3. Skriv `JA` og dato i sprintens rad, og sett status til «Godkjent». Ønsker du endringer, skriv dem i kommentarkolonnen i stedet og be Claude Code rette dem.
-4. Commit endringen, og skriv «Start sprint N» til Claude Code.
+3. Godkjenn på en av to måter:
+   - **I chatten:** skriv f.eks. «Sprint 1: JA 23.10.2026». Claude fører det inn her og committer.
+   - **I GitHub:** skriv `JA` og dato i sprintens rad, sett status til «Godkjent» og commit.
+4. Ønsker du endringer i stedet, si det i chatten eller skriv dem i kommentarkolonnen, og be Claude rette dem.
+5. Skriv «Start sprint N» til Claude når du vil gå videre.

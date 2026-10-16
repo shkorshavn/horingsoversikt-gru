@@ -17,7 +17,11 @@ All kommunikasjon, dokumentasjon og alt brukergrensesnitt skal være på norsk b
 
 2. **Sjekk porten før du starter.** Før du gjør noe arbeid på en sprint, skal du lese `SPRINTSTATUS.md`. Hvis forrige sprint ikke har `JA` i kolonnen «Godkjent av Svein» med dato, skal du ikke starte. Svar i stedet: «Sprint N er ikke godkjent ennå. Jeg venter på godkjenning før jeg går videre.» og stopp.
 
-3. **Du godkjenner aldri selv.** Du skal aldri skrive, endre eller slette innholdet i kolonnen «Godkjent av Svein», verken i filen eller via git. Bare Svein fyller ut den kolonnen. Muntlig godkjenning i chatten er ikke nok; godkjenningen må stå i filen.
+3. **Du godkjenner aldri selv.** En sprint er godkjent bare når Svein har godkjent den på en av disse to måtene:
+   - **I filen:** Svein skriver `JA` og dato i kolonnen «Godkjent av Svein» selv.
+   - **I chatten:** Svein skriver en uttrykkelig godkjenning som nevner sprintnummeret og «JA», f.eks. «Sprint 1: JA 23.10.2026». Da fører du inn godkjenningen i `SPRINTSTATUS.md`: `JA` i kolonnen «Godkjent av Svein», datoen han oppga (eller dagens dato), status «Godkjent», og i kommentarkolonnen «Godkjent i chat» med tidspunktet for meldingen. Du committer straks, og siterer meldingen hans ordrett i commit-meldingen.
+
+   Godkjenning i chatten gjelder bare når den kommer **etter** at rapporten for sprinten er levert. Generelle svar som «ser bra ut», «kjør på» eller «planen er godkjent» er ikke en godkjenning av sprinten. Er du i tvil om en melding er en godkjenning, spør. Du skal aldri føre inn en godkjenning ut fra antakelser, og aldri endre eller slette en godkjenning som allerede står i filen.
 
 4. **Plan før kode.** Hver sprint starter med at du legger fram en plan: hva som skal bygges, hvilke filer som berøres, hvordan det skal testes og hvilke risikoer du ser. Sett status til «Plan til godkjenning» og vent på Sveins OK før du skriver kode.
 

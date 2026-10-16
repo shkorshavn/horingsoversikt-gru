@@ -17,6 +17,17 @@ RV4 = re.compile(r"\b(?:rv|riksveg|riksvei)\.?\s*4(?!\d)", re.IGNORECASE)
 E6 = re.compile(r"\bE\s?6(?!\d)", re.IGNORECASE)
 
 
+# Postadresser som «postboks 1010 Nordre Ål, 2605 Lillehammer» – Vegvesenets sentrale
+# adresse står i nesten alle høringer og må ikke gi geografisk treff.
+# Krever komma foran postnummeret, slik at «… 2026 Gjøvik kommune» ikke fjernes.
+_POSTADRESSE = re.compile(r",\s*\d{4}\s+[A-ZÆØÅ][\wæøåÆØÅ-]*(?:\s+[A-ZÆØÅ][\wæøåÆØÅ-]*)?")
+
+
+def fjern_postadresser(tekst: str) -> str:
+    """Fjerner «postnummer sted» fra teksten før geografisk vurdering."""
+    return _POSTADRESSE.sub(" ", tekst or "")
+
+
 def _ordmonster(navn: list[str]) -> re.Pattern[str] | None:
     """Lager et mønster som treffer hele ord, med stor forbokstav som i stedsnavn."""
     if not navn:
@@ -42,7 +53,7 @@ class GeografiFilter:
 
     def vurder(self, tekst: str) -> Treff:
         """Vurderer om teksten er relevant, og oppgir grunnen."""
-        tekst = tekst or ""
+        tekst = fjern_postadresser(tekst)
         if self.kommuner and (m := self.kommuner.search(tekst)):
             return Treff(True, f"kommune: {m.group(0)}")
         if RV4.search(tekst):

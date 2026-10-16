@@ -27,6 +27,7 @@ def filter_():
         "Riksveg 4 gjennom Oslo",
         "E6 Gardermoen–Eidsvoll, ny reguleringsplan",
         "E 6 ved Ullensaker",
+        "Høringsfrist 11. november 2026 Gjøvik kommune er berørt",
     ],
 )
 def test_relevant(filter_, tekst):
@@ -44,6 +45,9 @@ def test_relevant(filter_, tekst):
         "Rv. 40 Kongsberg",
         "E16 Sandvika–Wøyen",
         "stangenes lengde og gran-trær",
+        "Merknader sendes til Statens vegvesen, postboks 1010 Nordre Ål, 2605 Lillehammer "
+        "innan 30. oktober 2026.",
+        "Kontakt: Statens vegvesen, Postboks 1010, 2815 Gjøvik",
     ],
 )
 def test_ikke_relevant(filter_, tekst):
@@ -53,3 +57,8 @@ def test_ikke_relevant(filter_, tekst):
 def test_grunn_oppgis(filter_):
     assert filter_.vurder("Rv. 4 Lygna").grunn == "rv. 4"
     assert filter_.vurder("E6 ved Eidsvoll").grunn == "E6 og Eidsvoll"
+
+
+def test_kommune_i_tekst_teller_selv_om_adresse_fjernes(filter_):
+    tekst = "Planen gjelder Hunndalen i Gjøvik. Postboks 1010 Nordre Ål, 2605 Lillehammer."
+    assert filter_.vurder(tekst).grunn == "kommune: Gjøvik"

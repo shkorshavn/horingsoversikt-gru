@@ -51,17 +51,17 @@ lett kan legges til eller fjernes. Filteret brukes på Vegvesenets prosjekthøri
 sprinten, og kan senere brukes på andre landsdekkende lister (NVE-konsesjoner, Bane NOR, Nye
 Veier) i sprint 4.
 
-En høring regnes som relevant hvis tittelen, prosjektnavnet eller detaljsiden nevner en av
-disse kommunene eller vegene:
+En høring regnes som relevant hvis tittelen, prosjektnavnet eller detaljsiden oppfyller én av
+disse reglene (avklart med Svein 16.10.2026):
 
-| Område | Kommuner / veger |
+| Regel | Kommuner / veger |
 |---|---|
-| Gjøvikregionen | Gjøvik, Østre Toten, Vestre Toten, Søndre Land, Nordre Land |
-| Naboregioner | Hadeland (Gran, Lunner, Jevnaker), Lillehammer-regionen (Lillehammer, Gausdal, Øyer), Hamar-regionen (Hamar, Ringsaker, Stange, Løten), Valdres (Etnedal, Sør-Aurdal, Nord-Aurdal, Vestre Slidre, Øystre Slidre, Vang) |
-| Traseen til Oslo | Nittedal og Oslo, samt veg **rv. 4** i alle skrivemåter («Rv. 4», «rv4», «riksveg 4») |
+| Gjøvikregionen | Nevner Gjøvik, Østre Toten, Vestre Toten, Søndre Land eller Nordre Land |
+| Naboregioner | Nevner Hadeland (Gran, Lunner, Jevnaker), Lillehammer-regionen (Lillehammer, Gausdal, Øyer), Hamar-regionen (Hamar, Ringsaker, Stange, Løten) eller Valdres (Etnedal, Sør-Aurdal, Nord-Aurdal, Vestre Slidre, Øystre Slidre, Vang) |
+| Rv. 4 | Nevner rv. 4 (i alle skrivemåter: «Rv. 4», «rv4», «riksveg 4»). Gjelder hele strekningen, også i Nittedal og Oslo |
+| E6 mot Oslo | Nevner E6 **og** en av kommunene langs E6 sør for Mjøsa: Eidsvoll, Ullensaker, Lillestrøm. E6 alene tas ikke med, fordi det gir treff over hele landet. E6 i Innlandet fanges opp av kommunereglene over |
 
-Treff på bare «Oslo» kan gi mange irrelevante prosjekter i byen. Forslag: Oslo og Nittedal tas
-bare med når høringen også gjelder rv. 4. Se spørsmål 1.
+Oslo og Nittedal tas bare med når høringen gjelder rv. 4.
 
 ### Tester
 | Fil | Hva testes |
@@ -69,7 +69,7 @@ bare med når høringen også gjelder rv. 4. Se spørsmål 1.
 | `tests/test_datoer.py` | Alle datoformatene over, inkludert årsskifte for datoer uten år og tomme Stortinget-datoer |
 | `tests/test_stortinget.py` | Sesjons-ID før og etter 1. oktober (f.eks. 30.09.2026 → 2025-2026, 01.10.2026 → 2026-2027), og tolkning av et lagret API-svar |
 | `tests/test_regjeringen.py`, `test_vegvesen.py`, `test_innlandet_fk.py`, `test_statsforvalteren.py` | Tolkning av lagrede kopier av kildesidene, og at listen ikke er tom (fanger strukturendringer) |
-| `tests/test_geografi.py` | At filteret treffer kommuner og skrivemåter av rv. 4, og ikke slår til på lignende ord (f.eks. «Gran» i «Granåsen», «Stange» i «stangenes»), og regelen for Oslo/Nittedal |
+| `tests/test_geografi.py` | At filteret treffer kommunene og skrivemåtene av rv. 4 og E6, og ikke slår til på lignende ord (f.eks. «Gran» i «Granåsen», «Stange» i «stangenes»). At Oslo og Nittedal bare gir treff sammen med rv. 4, og at E6 alene ikke gir treff |
 | `tests/test_kjor.py` | At én kilde som feiler ikke stopper de andre, og at feilen havner i `status.json` |
 
 De lagrede kildesidene (`tests/fixtures/`) hentes én gang via GitHub Actions, siden miljøet mitt
@@ -117,11 +117,4 @@ direktorater (sprint 4–5), høringsparter og regionflagg (sprint 6), postlista
 KI-sammendrag (sprint 8).
 
 ## Spørsmål til Svein før start
-Spørsmål 1–3 i forrige versjon av planen er besvart (se «Avklaringer»). Ett nytt:
-
-1. **Geografisk filter:** Stemmer listen over kommuner og veger i «Geografisk filter»?
-   Særlig:
-   - Skal «traseen ned til Oslo» bare være **rv. 4** (Gjøvik–Hadeland–Nittedal–Oslo), eller også
-     **E6** fra Mjøsbrua til Oslo (Eidsvoll, Ullensaker, Gardermoen)?
-   - Er det greit at Oslo og Nittedal bare tas med når høringen gjelder rv. 4?
-   - Mangler det kommuner, f.eks. Ringerike eller Nordre Follo?
+Alle spørsmål er besvart (se «Avklaringer» og «Geografisk filter»). Planen venter bare på godkjenning.

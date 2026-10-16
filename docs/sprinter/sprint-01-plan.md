@@ -16,6 +16,11 @@ Fra Svein 16.10.2026:
   liste i `sources.yaml` (`ekskluder_departementer`), slik at de lett kan tas inn igjen.
 - Kjøring skjer ukentlig (settes opp i sprint 3).
 - Testing mot ekte data skjer via GitHub Actions, fordi miljøet mitt ikke når kildene.
+- Testkjøringsworkflowen kan lages nå, så lenge den bare kan startes manuelt (svar 2).
+- User-Agent beholdes inntil videre (svar 3).
+- **Statens vegvesen: også prosjekthøringene** skal med, avgrenset til det som er relevant for
+  Gjøvikregionen og naboregionene, inkludert hele traseen ned til Oslo (svar 1). Se
+  «Geografisk filter» under.
 
 ## Hva som bygges
 
@@ -36,9 +41,27 @@ Fra Svein 16.10.2026:
 |---|---|---|
 | Stortinget | JSON-API (`/eksport/horinger?format=json`) | Sesjons-ID beregnes ut fra dato (ny sesjon 1. oktober). Spør **både nåværende og neste sesjon**, fordi høringer for neste sesjon publiseres før sesjonsstart. Åpen/lukket avgjøres av fristen, ikke `horing_status`. Bruker `innspillsfrist` for skriftlige høringer og `anmodningsfrist_dato_tid` (påmelding) for muntlige |
 | Regjeringen.no | HTML, bare `?page=N` (resten er sperret i robots.txt) | Blar til to hele sider uten «På høring». Alle feltene hentes fra listen, så detaljsidene trengs ikke i denne sprinten (høringsinstanser hentes i sprint 6). Dekoder HTML-entiteter. ED, BFD og UD filtreres bort |
-| Statens vegvesen | HTML, én side | **Bare regelverkshøringene** (`/fag/publikasjoner/hoeringer/`). Se spørsmål 1 |
+| Statens vegvesen | HTML, to lister | **a) Regelverkshøringene** (`/fag/publikasjoner/hoeringer/`), alle tas med. **b) Prosjekthøringene** (`/vegprosjekter/hoeringer-vegprosjekter/`), som gjelder hele landet, filtreres med det geografiske filteret. Listen har ikke kommune- eller fylkesfelt, så filteret ser på prosjektnavn og tittel, og ved behov detaljsiden |
 | Innlandet fylkeskommune | HTML | Frist hentes fra fritekst i ingressen. Publiseringsdato finnes ikke i kilden og blir stående tom |
 | Statsforvalteren i Innlandet | HTML | Frist står uten år. Året hentes fra publiseringsdatoen (detaljsiden) eller adressen (`/2026/10/…`) |
+
+### Geografisk filter
+Et felles filter i `horinger/geografi.py`, styrt av en liste i `sources.yaml`, slik at områder
+lett kan legges til eller fjernes. Filteret brukes på Vegvesenets prosjekthøringer i denne
+sprinten, og kan senere brukes på andre landsdekkende lister (NVE-konsesjoner, Bane NOR, Nye
+Veier) i sprint 4.
+
+En høring regnes som relevant hvis tittelen, prosjektnavnet eller detaljsiden nevner en av
+disse kommunene eller vegene:
+
+| Område | Kommuner / veger |
+|---|---|
+| Gjøvikregionen | Gjøvik, Østre Toten, Vestre Toten, Søndre Land, Nordre Land |
+| Naboregioner | Hadeland (Gran, Lunner, Jevnaker), Lillehammer-regionen (Lillehammer, Gausdal, Øyer), Hamar-regionen (Hamar, Ringsaker, Stange, Løten), Valdres (Etnedal, Sør-Aurdal, Nord-Aurdal, Vestre Slidre, Øystre Slidre, Vang) |
+| Traseen til Oslo | Nittedal og Oslo, samt veg **rv. 4** i alle skrivemåter («Rv. 4», «rv4», «riksveg 4») |
+
+Treff på bare «Oslo» kan gi mange irrelevante prosjekter i byen. Forslag: Oslo og Nittedal tas
+bare med når høringen også gjelder rv. 4. Se spørsmål 1.
 
 ### Tester
 | Fil | Hva testes |
@@ -46,6 +69,7 @@ Fra Svein 16.10.2026:
 | `tests/test_datoer.py` | Alle datoformatene over, inkludert årsskifte for datoer uten år og tomme Stortinget-datoer |
 | `tests/test_stortinget.py` | Sesjons-ID før og etter 1. oktober (f.eks. 30.09.2026 → 2025-2026, 01.10.2026 → 2026-2027), og tolkning av et lagret API-svar |
 | `tests/test_regjeringen.py`, `test_vegvesen.py`, `test_innlandet_fk.py`, `test_statsforvalteren.py` | Tolkning av lagrede kopier av kildesidene, og at listen ikke er tom (fanger strukturendringer) |
+| `tests/test_geografi.py` | At filteret treffer kommuner og skrivemåter av rv. 4, og ikke slår til på lignende ord (f.eks. «Gran» i «Granåsen», «Stange» i «stangenes»), og regelen for Oslo/Nittedal |
 | `tests/test_kjor.py` | At én kilde som feiler ikke stopper de andre, og at feilen havner i `status.json` |
 
 De lagrede kildesidene (`tests/fixtures/`) hentes én gang via GitHub Actions, siden miljøet mitt
@@ -93,11 +117,11 @@ direktorater (sprint 4–5), høringsparter og regionflagg (sprint 6), postlista
 KI-sammendrag (sprint 8).
 
 ## Spørsmål til Svein før start
-1. **Statens vegvesen:** Kilden har to deler: regelverkshøringer og høringer i vegprosjekter.
-   Prosjekthøringene gjelder hele landet og må filtreres på Innlandet via detaljsidene
-   (spørsmål 6 i kartleggingen). Forslag: bare regelverkshøringene i sprint 1, og
-   prosjekthøringene, filtrert på Innlandet, i sprint 4. Greit?
-2. **Testkjøringsworkflowen** er en liten forskuttering fra sprint 3, men trengs for å teste mot
-   ekte data. Greit at den lages nå, så lenge den bare kan startes manuelt?
-3. **User-Agent:** Skal den fortsatt inneholde svein-havar@gjovikregionen.no, eller en generell
-   adresse som post@gjovikregionen.no? (Repoet er offentlig.)
+Spørsmål 1–3 i forrige versjon av planen er besvart (se «Avklaringer»). Ett nytt:
+
+1. **Geografisk filter:** Stemmer listen over kommuner og veger i «Geografisk filter»?
+   Særlig:
+   - Skal «traseen ned til Oslo» bare være **rv. 4** (Gjøvik–Hadeland–Nittedal–Oslo), eller også
+     **E6** fra Mjøsbrua til Oslo (Eidsvoll, Ullensaker, Gardermoen)?
+   - Er det greit at Oslo og Nittedal bare tas med når høringen gjelder rv. 4?
+   - Mangler det kommuner, f.eks. Ringerike eller Nordre Follo?

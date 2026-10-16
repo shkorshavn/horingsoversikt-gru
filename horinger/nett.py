@@ -138,7 +138,11 @@ class Nett:
         self.antall_kall += 1
         if svar.status_code >= 500:
             raise SperretAvRobots(f"{robots_url} svarte {svar.status_code}")
-        robots = Robots.tolk(svar.text, self.user_agent) if svar.status_code == 200 else Robots()
+        robots = (
+            Robots.tolk(svar.text.lstrip("\ufeff"), self.user_agent)
+            if svar.status_code == 200
+            else Robots()
+        )
         self._robots[vert] = robots
         self._lagre_raa(robots_url, svar)
         return robots

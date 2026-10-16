@@ -1,0 +1,79 @@
+import json
+from datetime import date
+from pathlib import Path
+
+import pytest
+
+from horinger.kilder.stortinget import Stortinget, neste_sesjon, sesjon_for, tolk_horing
+
+FIXTURES = Path(__file__).parent / "fixtures"
+KONFIG = {"navn": "Stortinget", "kategori": "Regjeringen og Stortinget", "prioritet": 1}
+
+
+@pytest.mark.parametrize(
+    "dato, forventet",
+    [
+        (date(2026, 9, 30), "2025-2026"),
+        (date(2026, 10, 1), "2026-2027"),
+        (date(2026, 12, 31), "2026-2027"),
+        (date(2027, 1, 1), "2026-2027"),
+        (date(2027, 9, 30), "2026-2027"),
+    ],
+)
+def test_sesjon_for(dato, forventet):
+    assert sesjon_for(dato) == forventet
+
+
+def test_spor_naa_og_neste_sesjon():
+    k = Stortinget(KONFIG, nett=None)
+    assert k.sesjoner(date(2026, 9, 30)) == ["2025-2026", "2026-2027"]
+    assert k.sesjoner(date(2026, 10, 1)) == ["2026-2027", "2027-2028"]
+    assert neste_sesjon("2026-2027") == "2027-2028"
+
+
+def _data():
+    return json.loads((FIXTURES / "stortinget_2026-2027.json").read_text(encoding="utf-8"))
+
+
+def test_tolker_ekte_svar():
+    horinger = Stortinget(KONFIG, nett=None).tolk(_data())
+    assert len(horinger) > 0
+    for h in horinger:
+        assert h.instans.startswith("Stortinget")
+        assert h.lenke.startswith("https://www.stortinget.no/")
+        assert h.tittel
+
+
+def test_skriftlig_horing_bruker_innspillsfrist():
+    rad = next(r for r in _data()["horinger_liste"] if r["id"] == 10005899)
+    felter = tolk_horing(rad)
+    assert felter["tittel"] == (
+        "Representantforslag om en tydelig og forpliktende integreringskontrakt"
+    )
+    assert felter["instans"] == "Stortinget, Kommunal- og forvaltningskomiteen"
+    assert felter["frist"] == date(2026, 10, 7)
+    assert felter["frist_tekst"] == "Frist for skriftlig innspill: 07.10.2026 kl. 23:59"
+    assert felter["lenke"].endswith("?h=10005899")
+
+
+def test_muntlig_horing_bruker_pameldingsfrist():
+    rad = next(r for r in _data()["horinger_liste"] if r["id"] == 10005959)
+    felter = tolk_horing(rad)
+    assert felter["instans"] == "Stortinget, Samferdselskomiteen"
+    assert felter["frist"] == date(2026, 10, 14)  # seneste av de to fristene
+    assert felter["frist_tekst"] == (
+        "Påmeldingsfrist: 12.10.2026 kl. 23:59. Frist for skriftlig innspill: 14.10.2026 kl. 23:59"
+    )
+    assert felter["ingress"].startswith("Muntlig høring 19.10.2026.")
+
+
+def test_muntlig_horing_uten_frister_bruker_hoeringsdagen():
+    rad = next(r for r in _data()["horinger_liste"] if r["id"] == 10005976)
+    felter = tolk_horing(rad)
+    assert felter["frist"] == date(2026, 11, 13)
+    assert felter["frist_tekst"].startswith("Ingen frist oppgitt.")
+
+
+def test_avlyst_horing_tas_ikke_med():
+    rad = dict(_data()["horinger_liste"][0], horing_status="Avlyst")
+    assert tolk_horing(rad) is None

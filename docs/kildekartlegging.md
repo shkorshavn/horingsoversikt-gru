@@ -4,6 +4,10 @@ Sprint 0. Undersøkt 29. september 2026 av Claude Code.
 Versjon 2: Nye Veier ble undersøkt på nytt via Innlandet-siden Svein anviste (avsnitt 3.1).
 Versjon 3: Jernbanedirektoratet og Bane NOR ble undersøkt på nytt via sidene Svein anviste
 (avsnitt 3.3 og 3.4).
+Versjon 4 (16. oktober 2026): Ny kontroll av hovedkildene og et utvalg direktorater, kartlegging
+av selve søkeforespørselen mot Gjøvik-postlista, og kryssjekk av postlista mot kildene. Alt nytt
+står samlet i **avsnitt 13**. Avsnitt 1–12 er beholdt som øyeblikksbilde fra 29. september,
+med henvisninger der funnene er endret.
 
 Alle tall er et øyeblikksbilde fra undersøkelsesdagen. Alle kall er gjort med User-Agent
 `HoringsoversiktGRU/0.1 (+mailto:svein-havar@gjovikregionen.no)`, med minst 0,3 sekunder mellom
@@ -218,7 +222,7 @@ av departementet X. Det har jeg ikke kontrollert høring for høring.
 
 ### 3.5 Nkom – aktiv
 - `https://nkom.no/hoeringer` (Enonic, statisk HTML). Siden viste i dag «Denne siden har ingen
-  undersider enda», altså ingen åpne høringer. Avsluttede høringer ligger på
+  undersider enda», altså ingen åpne høringer. **(v4: 16.10 lå én høring der, se 13.2.)** Avsluttede høringer ligger på
   `https://nkom.no/tidligere-horinger`, med tekstlig periode (f.eks. «13. april til 15. mai 2026»).
 - Frist og høringsparter må hentes fra detaljsiden, der fristen står i fritekst.
 
@@ -485,7 +489,7 @@ Sivilombudet publiserer bare høringsuttalelser. **Forslag:** `aktiv: false`.
   bør bare lagre treff på høringssøkeordene. For avsendere som ikke er virksomheter, bør bare
   tittel og lenke lagres.
 - Jeg har bare sett svaret fra `overviewInit`. Selve søkeforespørselen (request body) må
-  kartlegges nøyaktig i sprint 7. Et samtykkevindu for informasjonskapsler blokkerte søket
+  kartlegges nøyaktig i sprint 7. **(v4: Søkeforespørselen er nå kartlagt, se 13.3.)** Et samtykkevindu for informasjonskapsler blokkerte søket
   i nettleseren, og jeg godtok det ikke på vegne av Svein.
 
 ### 9.3 Alternativ 3: Playwright
@@ -535,6 +539,8 @@ entiteter på regjeringen.no, som må dekodes.
 5. **Nasjonale lister med lokalt innhold** (NVE-konsesjoner, Vegvesenets prosjekthøringer,
    DSB-samtykker, Miljødirektoratets enkeltutslipp) gir mye støy uten filter på fylke eller tema.
 6. **Stortinget:** Høringer i neste sesjon kommer før sesjonsstart, og statusfeltet henger etter.
+   **(v4:** Påmeldingsfristen er ofte kortere enn én uke. Med ukentlig kjøring vil mange
+   Stortingshøringer være utløpt før de vises. Se 13.1 og spørsmål 10.**)**
 7. **Strukturendringer:** Flere kilder bruker udokumenterte interne endepunkter (Miljødir., NVE,
    Gjøvik). Disse kan endres uten varsel. Tester per kilde (spesifikasjonen, avsnitt 7) fanger
    det opp.
@@ -567,3 +573,123 @@ entiteter på regjeringen.no, som må dekodes.
    nettsiden?
 9. **Python og git:** Kan jeg installere Python 3.12 (f.eks. med `winget`) og Git for Windows på
    denne PC-en i starten av sprint 1, eller vil du gjøre det selv?
+
+Nye spørsmål i versjon 4 (begrunnelse i avsnitt 13):
+
+10. **Oppdateringsfrekvens:** Skal innhentingen kjøre **daglig** (hverdager kl. 06) i stedet for
+    ukentlig? Stortingets påmeldingsfrister er ofte under en uke. Daglig kjøring koster ingenting
+    ekstra i GitHub Actions. Forslag: daglig for kildene, og postlista samtidig.
+11. **Inaktive kilder:** Postlista viser at Gjøvik har mottatt høringer fra departementer som ikke
+    ble funnet i de 40 nyeste oppføringene på regjeringen.no (13.4). Det svekker antakelsen
+    «dekket via departementet» for flere inaktive kilder. Vil du likevel godkjenne de 14 inaktive
+    nå, og la postlisteseksjonen «uten treff» fange hullene?
+
+---
+
+## 13. Kontroll 16. oktober 2026 (versjon 4)
+
+Utført av Claude i en egen økt. Kontrollen er gjort med WebFetch (Anthropics henteverktøy, med
+egen User-Agent) og i Sveins Chrome-nettleser (Claude in Chrome, bare lesing, vanlig
+nettleser-User-Agent). Ingen skjemaer er sendt inn, og ingen samtykker er godtatt. Skallet i
+økten hadde ikke nettilgang til kildene, så robots.txt er ikke lest på nytt. Der ingenting er
+nevnt under, er funnene fra 29. september ikke kontrollert på nytt.
+
+### 13.1 Hovedkildene
+
+| Kilde | 16.10.2026 | Endring fra 29.09 |
+|---|---|---|
+| Stortinget | 11 planlagte høringer om statsbudsjettet 2027. **Alle** hadde påmeldingsfrist 8.–12. oktober, altså utløpt da kontrollen ble gjort. | Bekrefter risiko 6. Spurt med `/eksport/horinger` uten `sesjonid` og uten `format=json` (XML). Feltene `skriftlig` og `innspillsfrist` (avsnitt 2.1) ble ikke sett i XML-svaret og er ikke kontrollert på nytt. |
+| Regjeringen.no | Side 1 og 2 (publisert 13.08–16.10): 35 «På høring», 5 «Under behandling». Side 4 (publisert 19.–26.06) hadde fortsatt 6 åpne. Side 8 (februar) hadde ingen. | Samme mønster som før. |
+| Statens vegvesen – regelverk | 5 med frist fra og med 16.10 (av ~449). Siden avviser WebFetch, men virker i nettleser. | 12 → 5. Avviser automatiske verktøy, se risiko 12. |
+| Innlandet fylkeskommune | 2 åpne: «Oppstart av reguleringsplanarbeid for fv. 213 Skog bru i Ringsaker» (frist 13.11) og planprogrammet for nettinfrastruktur (frist 11.11). | Vigga bru er ute av listen, Skog bru er ny. Fristen står som fritekst i ingressen, som før. |
+| Statsforvalteren | 1: Frivillig vern av skog – syv områder (frist 16.10). | Uendret. Berører blant annet Gjøvik. |
+
+### 13.2 Utvalgte direktorater
+
+| Kilde | 16.10.2026 |
+|---|---|
+| Miljødirektoratet | `/hoeringer/` viser mange åpne med «Frist: dd.mm.åååå \| saksnr \| tema», frister 16.–27. oktober øverst. Avviser WebFetch på gammel adresse (`/aktuelt/horinger/`), virker i nettleser. |
+| NVE | Indekssiden lenker til forskrifter, konsesjonssaker, skredfare, veiledere og RME, som beskrevet i 4.2. |
+| Udir | `udir.no/om-udir/hoyringar/` viste minst 8 saker på høring i nettleseren, med frister 30.10.2026–05.01.2027, bl.a. organisering av skoledagen for 1. og 2. trinn (16.11). Nettleseren hentet listen fra `hoering-publisering.udir.no/api`, i tråd med 5.1. **Postlista viser at Udir sender høringer direkte til kommunene (13.4).** Styrker spørsmål 1. |
+| Helsedirektoratet | 2 under «Ute på høring» (frist 03.12.2026 og 01.02.2027) og 2 under behandling. |
+| Landbruksdirektoratet | «På høring nå»: 2 oppføringer, frister 16.10 og 12.10 (den siste allerede utløpt, men fortsatt under «På høring nå»). Parseren må bruke fristen, ikke seksjonen. |
+| Nkom | 1 høring: utlysningsvilkår og tildelingsregler for lokale FM-sendernett (publisert 30.09). |
+| Bufdir | 1 under behandling (frist 3. august 2026). Ingen åpne. |
+| DiBK | 0 åpne, 28 avsluttede. Uendret. |
+| Arbeidstilsynet | Ingen åpne. Uendret. |
+
+### 13.3 Gjøvik-postlista: søkeforespørselen er kartlagt
+
+Avsnitt 9.2 manglet selve søkeforespørselen. Den ble fanget opp i nettleseren 16.10 ved å søke
+på «høring» og bla til side 2. Det ble ikke vist noe samtykkevindu denne gangen.
+
+```
+POST https://www.gjovik.kommune.no/api/presentation/v2/nye-innsyn/overview
+Content-Type: application/json
+DeviceType: desktop
+X-ANTI-CSRF: 1
+
+{"type":0,"keyValues":[
+  {"key":"searchTerm","value":"høring"},
+  {"key":"Type","value":"dt-ee0f97cc__bfb2__4549__9555__c2dcc5131630-I!S0Dmg6"},
+  {"key":"page","value":"1"}]}
+```
+
+- Endepunktet er `overview` (søk), ikke `overviewInit` (oppstart).
+- Svar: `content.searchItems` med `totalItemCount`, `pageCount`, `pageSize` (10), `hasNextPage`
+  og `items[]`. Hvert treff har feltene beskrevet i 9.2. `content.sortOptions` viser
+  sorteringen «Dato (nyest)» (standard) og «Dato (eldst)».
+- **Dokumenttypefilteret virker:** `Type` = inngående dokument ga 848 treff på «høring», mot
+  1 106 uten filter.
+- **Datofilteret virket ikke slik jeg prøvde det:** `FromDate`/`ToDate` som `keyValues`, både med
+  `dd.MM.yyyy` og ISO, ga samme 848 treff. Riktig parameterform må finnes i sprint 7. Det er ikke
+  kritisk: Sorteringen er nyeste først, så innhentingen kan bla til den møter journalposter
+  eldre enn 14 dager.
+- **Forsinkelse:** Nyeste inngående journalpost var datert 13.10 da søket ble gjort 16.10,
+  altså tre dager, i tråd med arkivplanen.
+- **Støy som må filtreres bort:** Inngående høringssvar til kommunens egne planer, f.eks.
+  «Høringsuttalelse – Kommunedelplan for natur, klima og miljø …», «Høringssvar – …»,
+  «Svar på høring – …» og «Innspill til varsel om oppstart …».
+- **Avsendernavn** er uensartet og avkortet til ca. 30 tegn, f.eks. «Arbeids- Og
+  Inkluderingsdepart» og «Norges Vassdrags- Og Energidir». Normaliseringen i sprint 7 må tåle
+  avvikende store bokstaver og avkorting.
+- Omtrent 15 kall ble gjort mot endepunktet under kartleggingen, med pause mellom kallene i skriptene.
+
+### 13.4 Kryssjekk: postlista mot kildene
+
+Utvalg av inngående høringsbrev til Gjøvik kommune (journaldato 21.09–13.10), sjekket mot kildene:
+
+| Journaldato | Avsender (som i postlista) | Tittel (forkortet) | Funnet i kilde? |
+|---|---|---|---|
+| 01.10 | Innlandet fylkeskommune | Høring – Regional plan for nettinfrastrukturen – Planprogram | **Ja.** Fylkets høringsliste, frist 11.11.2026 |
+| 09.10 | Statens vegvesen | Høring – Endring i vegtrafikkloven – Unntak fra forvaltningsloven | **Ja.** Vegvesenets liste, ref. 20-38820, publisert 08.10, frist 09.01.2027 |
+| 07.10 | Kunnskapsdepartementet | Høring om … opplæringsloven og privatskoleloven … smågruppeundervisning … leksehjelp | **Ja.** Regjeringen.no, publisert 07.10, frist 07.01.2027 |
+| 01.10 | Kunnskapsdepartementet | Høring – Presisering at skolene kan tilby elevene å være med på gudstjenester … | **Ja.** Regjeringen.no, publisert 30.09, frist 06.01.2027 |
+| 21.09 | Utdanningsdirektoratet | Høring om endringer i organisering av skoledagen … | **Ja,** i Udirs liste (frist 16.11). Men Udir er «må avklares» (5.1) |
+| 08.10 | Arbeids- og inkluderingsdepartementet | Høring – Forslag til endringer i integreringsloven m.m. | **Nei.** Ikke blant de 40 nyeste på regjeringen.no (publisert 13.08–16.10) |
+| 24.09 | Helse- og omsorgsdepartementet | Høring – Endringer i sykepleieres og farmasøyters rett til å rekvirere … | **Nei.** Ikke blant de 40 nyeste på regjeringen.no |
+| 13.10 | Skatteetaten | Høring – Forslag til endringer på skatteregnskapsområdet | **Ja.** Skatteetatens liste (7.8), publisert 28.09 (stikkprøve i rapport v3) |
+| 02.10 | Statens vegvesen | Høring – Revisjon av regelverket om vekter og dimensjoner | **Uavklart.** Ikke blant de 5 åpne. Søk fant en høring om ny forskrift om vekter og dimensjoner (26-183316) i listen; fristen er ikke kontrollert |
+| 22.09 | NVE | Høring av detaljplan for miljø og landskap for dam Beritknappen | Ikke kontrollert. Detaljplaner for dammer er ikke blant NVEs delkilder i 4.2 |
+| 25.09 | Kultur- og likestillingsdepartementet | Høring – Surveyundersøkelse i arbeidet med ny idrettsmelding | Ikke funnet. Er trolig en spørreundersøkelse, ikke en ordinær høring |
+
+**Hva det betyr:**
+
+1. Koblingen i sprint 7 har gode testtilfeller: seks sikre samsvar på tvers av fem kilder (fylket, Vegvesenet, regjeringen.no, Udir og Skatteetaten).
+2. **To departementshøringer som Gjøvik har mottatt, ble ikke funnet i de 40 nyeste
+   oppføringene på regjeringen.no.** Mulige forklaringer: de er publisert med en annen tittel,
+   ligger lenger bak i listen, er sendt direkte til kommunene uten publisering, eller er sendt
+   av en etat på vegne av departementet. Det er ikke undersøkt videre. Det svekker antakelsen
+   «Antatt (via X)» for flere inaktive kilder (IMDi og NAV via AID, Helsetilsynet og FHI via
+   HOD), og gjør seksjonen «Høringsbrev i postlista uten treff» viktigere. Se spørsmål 11.
+3. Postlista fanger også høringer som ingen kildeliste dekker (f.eks. NVEs detaljplan for dam
+   Beritknappen og Vegvesenets lokale skiltsaker).
+
+### 13.5 Nye risikoer
+
+12. **Automatisk henting avvises av enkelte nettsteder.** Vegvesen.no og miljodirektoratet.no
+    (gammel adresse) svarte med feil til WebFetch, men virket i nettleser. Henting fra GitHub
+    Actions må testes tidlig i sprint 1 og 3. Hvis de avviser også derfra, trengs en annen
+    løsning.
+13. **Seksjon er ikke det samme som status.** Landbruksdirektoratet hadde en utløpt høring under
+    «På høring nå». Alle parsere må avgjøre om en høring er åpen ut fra fristen.

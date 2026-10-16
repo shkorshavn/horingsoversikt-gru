@@ -6,7 +6,7 @@ Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjen
 
 | Sprint | Navn | Status | Godkjent av Svein | Dato | Kommentar |
 |---|---|---|---|---|---|
-| 0 | Kartlegging av kilder | Ikke startet | | | |
+| 0 | Kartlegging av kilder | Til godkjenning | | | Rapport v4: docs/sprinter/sprint-00-rapport-v4.md |
 | 1 | Grunnmur og fem kjernekilder | Ikke startet | | | |
 | 2 | Nettsiden | Ikke startet | | | |
 | 3 | Automatisering og publisering | Ikke startet | | | |

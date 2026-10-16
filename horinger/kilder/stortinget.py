@@ -15,6 +15,8 @@ from horinger.modell import Hoering
 
 API = "https://data.stortinget.no/eksport/horinger?sesjonid={sesjon}&format=json"
 LENKE = "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h={id}"
+PROGRAM = "https://data.stortinget.no/eksport/horingsprogram?horingid={id}&format=json"
+KONTROLLHORING = 2  # `type` i API-et
 
 
 def sesjon_for(dato: date) -> str:
@@ -63,6 +65,8 @@ def tolk_horing(rad: dict) -> dict | None:
                 else ""
             )
         ingress = "Muntlig høring" + (f" {hoeringsdag:%d.%m.%Y}." if hoeringsdag else ".")
+    if rad.get("type") == KONTROLLHORING:
+        ingress = "Kontrollhøring. " + ingress
     if henvisning:
         ingress += f" {henvisning}."
 
@@ -90,14 +94,34 @@ class Stortinget(Kilde):
         resultat: list[Hoering] = []
         for sesjon in self.sesjoner():
             data = self.nett.hent(API.format(sesjon=sesjon)).json()
-            resultat.extend(self.tolk(data))
+            resultat.extend(self.tolk(data, hent_program=True))
         return resultat
 
-    def tolk(self, data: dict) -> list[Hoering]:
-        """Tolker ett API-svar."""
+    def tolk(self, data: dict, hent_program: bool = False) -> list[Hoering]:
+        """Tolker ett API-svar.
+
+        Kontrollhøringer har en egen høringstittel på stortinget.no som API-et bare
+        gir via høringsprogrammet, og bare når programmet er publisert.
+        """
         resultat = []
         for rad in data.get("horinger_liste") or []:
             felter = tolk_horing(rad)
-            if felter:
-                resultat.append(self.lag_hoering(**felter))
+            if not felter:
+                continue
+            if hent_program and rad.get("type") == KONTROLLHORING:
+                tittel = self.programtittel(rad["id"])
+                if tittel:
+                    felter["tittel"] = tittel
+            resultat.append(self.lag_hoering(**felter))
         return resultat
+
+    def programtittel(self, hoering_id: int) -> str:
+        """Høringstittelen fra høringsprogrammet, eller tom streng."""
+        try:
+            program = self.nett.hent(PROGRAM.format(id=hoering_id)).json()
+        except Exception:  # noqa: BLE001 – tittelen er et tillegg, ikke kritisk
+            return ""
+        for dag in program.get("horingsprogram_liste") or []:
+            if dag.get("tittel"):
+                return " ".join(dag["tittel"].split())
+        return ""

@@ -76,3 +76,37 @@ def test_muntlig_horing_uten_frister_bruker_hoeringsdagen():
 def test_avlyst_horing_tas_ikke_med():
     rad = dict(_data()["horinger_liste"][0], horing_status="Avlyst")
     assert tolk_horing(rad) is None
+
+
+class _ProgramNett:
+    def __init__(self, program):
+        self.program = program
+        self.kall = []
+
+    def hent(self, url, **_):
+        self.kall.append(url)
+        program = self.program
+
+        class Svar:
+            def json(self):
+                return program
+
+        return Svar()
+
+
+def test_kontrollhoring_bruker_programtittel_nar_den_finnes():
+    nett = _ProgramNett(
+        {"horingsprogram_liste": [{"tittel": "Høring om: Oppfølging av rammeavtaler"}]}
+    )
+    horinger = Stortinget(KONFIG, nett).tolk(_data(), hent_program=True)
+    kontroll = next(h for h in horinger if h.lenke.endswith("?h=10005976"))
+    assert kontroll.tittel == "Høring om: Oppfølging av rammeavtaler"
+    assert kontroll.ingress.startswith("Kontrollhøring.")
+    assert len(nett.kall) == 2  # bare de to kontrollhøringene
+
+
+def test_kontrollhoring_uten_program_beholder_sakstittel():
+    nett = _ProgramNett({"horingsprogram_liste": []})
+    horinger = Stortinget(KONFIG, nett).tolk(_data(), hent_program=True)
+    kontroll = next(h for h in horinger if h.lenke.endswith("?h=10005976"))
+    assert kontroll.tittel.startswith("Redegjørelse av forsvarsministeren")

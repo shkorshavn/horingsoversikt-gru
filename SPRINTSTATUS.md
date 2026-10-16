@@ -7,7 +7,7 @@ Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjen
 | Sprint | Navn | Status | Godkjent av Svein | Dato | Kommentar |
 |---|---|---|---|---|---|
 | 0 | Kartlegging av kilder | Godkjent | JA | 16.10.2026 | Rapport v4: docs/sprinter/sprint-00-rapport-v4.md. Godkjent i chat 16.10.2026 kl. 15.13 |
-| 1 | Grunnmur og fem kjernekilder | Pågår | | | Plan: docs/sprinter/sprint-01-plan.md (plan godkjent av Svein i chat 16.10.2026 kl. 16.36) |
+| 1 | Grunnmur og fem kjernekilder | Til godkjenning | | | Rapport: docs/sprinter/sprint-01-rapport.md. Regjeringen.no avviser GitHub Actions (se rapporten) |
 | 2 | Nettsiden | Ikke startet | | | |
 | 3 | Automatisering og publisering | Ikke startet | | | |
 | 4 | Direktorater, prioritet 1 | Ikke startet | | | |

@@ -1,0 +1,60 @@
+# Testkjøring mot ekte data (sprint 1).
+#
+# Startes bare manuelt (Actions → Testkjøring → Run workflow). Kjører tester og
+# innhenting, og lagrer resultat og rå kildesider som vedlegg til kjøringen.
+# Committer ingenting. Den ukentlige, automatiske kjøringen kommer i sprint 3.
+name: Testkjøring
+
+on:
+  workflow_dispatch:
+    inputs:
+      hent_raa:
+        description: "Hent rå kildesider til testdata"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  testkjoring:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer avhengigheter
+        run: pip install -r requirements.txt
+
+      - name: Kodekvalitet (ruff)
+        run: |
+          ruff check .
+          ruff format --check .
+
+      - name: Tester (pytest)
+        run: pytest -v
+
+      - name: Hent rå kildesider
+        if: ${{ inputs.hent_raa }}
+        continue-on-error: true
+        run: python verktoy/hent_raa.py --ut raa/
+
+      - name: Innhenting mot ekte data
+        continue-on-error: true
+        run: python -m horinger.kjor --utdata ut/ --raa raa-kjoring/
+
+      - name: Last opp resultat
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultat
+          path: |
+            ut/
+            raa/
+            raa-kjoring/
+          if-no-files-found: warn
+          retention-days: 14

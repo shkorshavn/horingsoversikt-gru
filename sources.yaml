@@ -1,0 +1,457 @@
+# Kildeliste for høringsoversikten.
+#
+# Grunnlag: docs/kildekartlegging.md (sprint 0, godkjent 16.10.2026).
+#
+# Felter per kilde:
+#   navn       visningsnavn
+#   kategori   gruppe på nettsiden
+#   prioritet  1 = alltid relevant, 2 = ofte, 3 = av og til
+#   url        liste- eller API-adresse
+#   metode     api | html | json-i-html | rss
+#   modul      kildemodul i horinger/kilder/ (bare for kilder som er bygget)
+#   aktiv      true = hentes i dag
+#   anbefalt   anbefaling fra kartleggingen: aktiv | inaktiv
+#   sprint     sprinten kilden bygges i
+#   merknad    kort begrunnelse
+#
+# En kilde hentes bare når både `aktiv: true` og `modul` er satt.
+
+felles:
+  user_agent: "HoringsoversiktGRU/0.1 (+mailto:svein-havar@gjovikregionen.no)"
+  pause_sekunder: 1.5
+  tidsavbrudd_sekunder: 30
+
+  # Departementer på regjeringen.no som ikke skal tas med (Svein 16.10.2026).
+  ekskluder_departementer:
+    - Energidepartementet
+    - Barne- og familiedepartementet
+    - Utenriksdepartementet
+
+  # Geografisk filter for landsdekkende lister (avklart med Svein 16.10.2026).
+  # Oslo og Nittedal står bevisst ikke i `kommuner`: de tas bare med når høringen
+  # gjelder rv. 4. Rv. 4 og E6 håndteres i horinger/geografi.py.
+  geografi:
+    kommuner:
+      # Gjøvikregionen
+      - Gjøvik
+      - Østre Toten
+      - Vestre Toten
+      - Søndre Land
+      - Nordre Land
+      # Hadeland
+      - Gran
+      - Lunner
+      - Jevnaker
+      # Lillehammer-regionen
+      - Lillehammer
+      - Gausdal
+      - Øyer
+      # Hamar-regionen
+      - Hamar
+      - Ringsaker
+      - Stange
+      - Løten
+      # Valdres
+      - Etnedal
+      - Sør-Aurdal
+      - Nord-Aurdal
+      - Vestre Slidre
+      - Øystre Slidre
+      - Vang
+    # E6 tas bare med sammen med en av disse kommunene.
+    e6_kommuner:
+      - Eidsvoll
+      - Ullensaker
+      - Lillestrøm
+
+kategorier:
+  - Regjeringen og Stortinget
+  - Transport, samferdsel og infrastruktur
+  - Miljø, klima, energi og beredskap
+  - Oppvekst, utdanning, kultur og integrering
+  - Helse, omsorg og velferd
+  - Styring, digitalisering, juss og eiendom
+  - Regionale ledd
+
+kilder:
+  # --- Regjeringen og Stortinget ---
+  - navn: Stortinget
+    kategori: Regjeringen og Stortinget
+    prioritet: 1
+    url: https://data.stortinget.no/eksport/horinger
+    metode: api
+    modul: stortinget
+    aktiv: true
+    anbefalt: aktiv
+    sprint: 1
+    merknad: Spør både nåværende og neste sesjon. Fristen avgjør om høringen er åpen.
+
+  - navn: Regjeringen.no
+    kategori: Regjeringen og Stortinget
+    prioritet: 1
+    url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/
+    metode: html
+    modul: regjeringen
+    aktiv: true
+    anbefalt: aktiv
+    sprint: 1
+    merknad: Bare ?page= er tillatt i robots.txt. Departementer i ekskluder_departementer filtreres bort.
+
+  # --- Transport, samferdsel og infrastruktur ---
+  - navn: Statens vegvesen
+    kategori: Transport, samferdsel og infrastruktur
+    prioritet: 1
+    url: https://www.vegvesen.no/fag/publikasjoner/hoeringer/
+    prosjekt_url: https://www.vegvesen.no/vegprosjekter/hoeringer-vegprosjekter/
+    metode: html
+    modul: vegvesen
+    aktiv: true
+    anbefalt: aktiv
+    sprint: 1
+    merknad: Regelverkshøringer (alle) og prosjekthøringer (geografisk filtrert).
+
+  - navn: Nye Veier
+    kategori: Transport, samferdsel og infrastruktur
+    prioritet: 1
+    url: https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Jernbanedirektoratet
+    kategori: Transport, samferdsel og infrastruktur
+    prioritet: 1
+    url: https://www.jernbanedirektoratet.no/wp-json/wp/v2/posts
+    metode: api
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Bane NOR
+    kategori: Transport, samferdsel og infrastruktur
+    prioritet: 1
+    url: https://www.banenor.no/nb-no/sitemap.xml
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Nkom
+    kategori: Transport, samferdsel og infrastruktur
+    prioritet: 2
+    url: https://nkom.no/hoeringer
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  # --- Miljø, klima, energi og beredskap ---
+  - navn: Miljødirektoratet
+    kategori: Miljø, klima, energi og beredskap
+    prioritet: 1
+    url: https://www.miljodirektoratet.no/hearingslistpage/gethearings
+    metode: api
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: NVE
+    kategori: Miljø, klima, energi og beredskap
+    prioritet: 1
+    url: https://www.nve.no/om-nve/hoeringer/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+    merknad: To delkilder (forskrifter og konsesjoner). Crawl-delay 20 sekunder.
+
+  - navn: DSB
+    kategori: Miljø, klima, energi og beredskap
+    prioritet: 1
+    url: https://www.dsb.no/rss/rss-dsb---horinger/
+    metode: rss
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Landbruksdirektoratet
+    kategori: Miljø, klima, energi og beredskap
+    prioritet: 2
+    url: https://www.landbruksdirektoratet.no/nb/om-direktoratet/horinger
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: DSA
+    kategori: Miljø, klima, energi og beredskap
+    prioritet: 3
+    url: https://www.dsa.no/horinger-og-tillatelser
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Mest petroleumstillatelser, lav relevans.
+
+  # --- Oppvekst, utdanning, kultur og integrering ---
+  - navn: Utdanningsdirektoratet
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 1
+    url: https://www.udir.no/om-udir/hoyringar/
+    metode: api
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 4
+    merknad: Droppet av Svein 16.10.2026. Datakilden er sperret i robots.txt.
+
+  - navn: IMDi
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 1
+    url: https://www.imdi.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 4
+    merknad: Ingen høringsside.
+
+  - navn: Bufdir
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 1
+    url: https://www.bufdir.no/om/hoeringer/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Kulturdirektoratet
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 2
+    url: https://www.kulturdirektoratet.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Ingen høringsside.
+
+  - navn: Riksantikvaren
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 2
+    url: https://riksantikvaren.no/siste-nytt/horinger-og-kunngjoringer/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Nasjonalarkivet
+    kategori: Oppvekst, utdanning, kultur og integrering
+    prioritet: 2
+    url: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/riksarkivarens-horinger/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+    merknad: Tidligere Arkivverket.
+
+  # --- Helse, omsorg og velferd ---
+  - navn: Helsedirektoratet
+    kategori: Helse, omsorg og velferd
+    prioritet: 1
+    url: https://www.helsedirektoratet.no/horinger
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: NAV
+    kategori: Helse, omsorg og velferd
+    prioritet: 1
+    url: https://www.nav.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 4
+    merknad: Ingen høringsside.
+
+  - navn: Direktoratet for medisinske produkter
+    kategori: Helse, omsorg og velferd
+    prioritet: 2
+    url: https://www.dmp.no/om-oss/horinger
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Folkehelseinstituttet
+    kategori: Helse, omsorg og velferd
+    prioritet: 2
+    url: https://www.fhi.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Publiserer bare egne høringssvar.
+
+  - navn: Mattilsynet
+    kategori: Helse, omsorg og velferd
+    prioritet: 2
+    url: https://www.mattilsynet.no/hoeringer
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Arbeidstilsynet
+    kategori: Helse, omsorg og velferd
+    prioritet: 2
+    url: https://www.arbeidstilsynet.no/regelverk/horinger/
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Statens helsetilsyn
+    kategori: Helse, omsorg og velferd
+    prioritet: 2
+    url: https://www.helsetilsynet.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Publiserer bare egne uttalelser.
+
+  # --- Styring, digitalisering, juss og eiendom ---
+  - navn: Digdir
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 1
+    url: https://www.digdir.no/standarder/hoyringar/1502
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: DFØ
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 1
+    url: https://www.dfo.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 4
+    merknad: Ingen samlet høringsside.
+
+  - navn: DiBK
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 1
+    url: https://www.dibk.no/regelverk/horinger/hoyringar
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 4
+
+  - navn: Kartverket
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.kartverket.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Ingen høringsside.
+
+  - navn: UDI
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.udi.no/om-udi/horinger-og-horingsuttalelser/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Viser bare egne høringssvar.
+
+  - navn: Politidirektoratet
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=103
+    metode: html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Innlandet politidistrikt
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=203
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+    merknad: Sender ikke ut egne høringer.
+
+  - navn: Skatteetaten
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.skatteetaten.no/rettskilder/type/horinger/
+    metode: json-i-html
+    aktiv: false
+    anbefalt: aktiv
+    sprint: 5
+
+  - navn: Datatilsynet
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.datatilsynet.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+
+  - navn: SSB
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 2
+    url: https://www.ssb.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+
+  - navn: Konkurransetilsynet
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 3
+    url: https://konkurransetilsynet.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+
+  - navn: Sivilombudet
+    kategori: Styring, digitalisering, juss og eiendom
+    prioritet: 3
+    url: https://www.sivilombudet.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 5
+
+  # --- Regionale ledd ---
+  - navn: Innlandet fylkeskommune
+    kategori: Regionale ledd
+    prioritet: 1
+    url: https://innlandetfylke.no/politikk/horinger/
+    metode: html
+    modul: innlandet_fk
+    aktiv: true
+    anbefalt: aktiv
+    sprint: 1
+    merknad: Fristen står i fritekst. Publiseringsdato mangler i kilden.
+
+  - navn: Statsforvalteren i Innlandet
+    kategori: Regionale ledd
+    prioritet: 1
+    url: https://www.statsforvalteren.no/innlandet/horinger/
+    metode: html
+    modul: statsforvalteren
+    aktiv: true
+    anbefalt: aktiv
+    sprint: 1
+    merknad: Fristen står uten årstall.

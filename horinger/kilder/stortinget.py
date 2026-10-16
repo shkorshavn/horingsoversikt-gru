@@ -47,20 +47,21 @@ def tolk_horing(rad: dict) -> dict | None:
         frist_tekst = f"Frist for skriftlig innspill: {_tekst_tid(frist_tid)}" if frist_tid else ""
         ingress = "Skriftlig høring."
     else:
+        # Muntlige høringer: Stortingets sider viser bare fristen for å søke om å delta.
+        # API-ets `innspillsfrist` vises ikke der, og brukes derfor ikke (stikkprøve
+        # 16.10.2026, høring 10005957 og 10005977).
         pamelding = tolk_ms_dato(rad.get("anmodningsfrist_dato_tid"))
-        innspill = tolk_ms_dato(rad.get("innspillsfrist"))
         hoeringsdag = tolk_ms_dato(rad.get("start_dato"))
-        deler = []
         if pamelding:
-            deler.append(f"Påmeldingsfrist: {_tekst_tid(pamelding)}")
-        if innspill:
-            deler.append(f"Frist for skriftlig innspill: {_tekst_tid(innspill)}")
-        if not deler and hoeringsdag:
-            deler.append(f"Ingen frist oppgitt. Høringen holdes {hoeringsdag:%d.%m.%Y}")
-        # Seneste frist: høringen er aktuell så lenge én av fristene er åpen.
-        frister = [t for t in (pamelding, innspill) if t]
-        frist_tid = max(frister) if frister else hoeringsdag
-        frist_tekst = ". ".join(deler)
+            frist_tid = pamelding
+            frist_tekst = f"Frist for å søke om å delta: {_tekst_tid(pamelding)}"
+        else:
+            frist_tid = hoeringsdag
+            frist_tekst = (
+                f"Ingen frist oppgitt. Høringen holdes {hoeringsdag:%d.%m.%Y}"
+                if hoeringsdag
+                else ""
+            )
         ingress = "Muntlig høring" + (f" {hoeringsdag:%d.%m.%Y}." if hoeringsdag else ".")
     if henvisning:
         ingress += f" {henvisning}."

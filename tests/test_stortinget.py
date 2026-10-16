@@ -57,14 +57,13 @@ def test_skriftlig_horing_bruker_innspillsfrist():
 
 
 def test_muntlig_horing_bruker_pameldingsfrist():
-    rad = next(r for r in _data()["horinger_liste"] if r["id"] == 10005959)
+    # Stortingets side for høring 10005977 viser bare «Frist for å søke» 26.10.2026 kl. 13.00
+    rad = next(r for r in _data()["horinger_liste"] if r["id"] == 10005977)
     felter = tolk_horing(rad)
-    assert felter["instans"] == "Stortinget, Samferdselskomiteen"
-    assert felter["frist"] == date(2026, 10, 14)  # seneste av de to fristene
-    assert felter["frist_tekst"] == (
-        "Påmeldingsfrist: 12.10.2026 kl. 23:59. Frist for skriftlig innspill: 14.10.2026 kl. 23:59"
-    )
-    assert felter["ingress"].startswith("Muntlig høring 19.10.2026.")
+    assert felter["instans"] == "Stortinget, Næringskomiteen"
+    assert felter["frist"] == date(2026, 10, 26)
+    assert felter["frist_tekst"] == "Frist for å søke om å delta: 26.10.2026 kl. 13:00"
+    assert felter["ingress"].startswith("Muntlig høring 04.11.2026.")
 
 
 def test_muntlig_horing_uten_frister_bruker_hoeringsdagen():

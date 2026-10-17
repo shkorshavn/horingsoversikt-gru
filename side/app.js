@@ -168,7 +168,9 @@
   }
 
   function hoeringsrad(h) {
-    var tittel = el("h2", null, [el("a", { href: h.lenke, tekst: h.tittel })]);
+    // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
+    var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
+    var tittel = el("h2", null, [trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel })]);
     var detaljer = el("p", { klasse: "detaljer" }, [
       h.kategori ? el("span", { klasse: "tema", tekst: h.kategori }) : null,
       h.frist_tekst ? el("span", { tekst: h.frist_tekst }) : null,

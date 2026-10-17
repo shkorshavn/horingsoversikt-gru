@@ -42,7 +42,7 @@ def _h(id_, frist, **ekstra):
 
 HORINGER = {
     "generert": "2026-10-17T10:05:00+02:00",
-    "antall": 9,
+    "antall": 10,
     "horinger": [
         _h(
             "d31",
@@ -68,6 +68,7 @@ HORINGER = {
         _h("utlopt", "2026-10-16", tittel="Utløpt i går"),
         _h("prio3", "2026-10-25", tittel="Lav prioritet", prioritet=3),
         _h("ukjent", None, tittel="Uten frist"),
+        _h("farlig", "2026-11-12", tittel="Lenke uten http", lenke="javascript:alert(1)"),
         _h(
             "fylke",
             "2026-11-11",
@@ -175,11 +176,12 @@ def test_sortert_pa_frist_uten_utlopte_og_prio3(side):
         'Høring om æ, ø og å; «sitat» og "anførsel"',
         "Fjorten dager",
         "Regional plan",
+        "Lenke uten http",
         "Tretti dager",
         "Høring om barnehageloven",
         "Uten frist",
     ]
-    assert side.inner_text("#antall") == "Viser 7 høringer (8 åpne totalt)"
+    assert side.inner_text("#antall") == "Viser 8 høringer (9 åpne totalt)"
 
 
 @pytest.mark.parametrize(
@@ -252,7 +254,7 @@ def test_tom_visning_og_nullstill(side):
     assert side.is_visible("#tom")
     assert side.is_disabled("#eksport")
     side.click("#nullstill-tom")
-    assert len(_titler(side)) == 7
+    assert len(_titler(side)) == 8
     assert side.is_hidden("#tom")
 
 
@@ -306,8 +308,8 @@ def test_statusoversikt(side):
     assert "Nettstedet avviste innhentingen (feilkode 403)." in regj.inner_text()
     assert regj.locator("td").nth(1).inner_text() == "–"
     vegvesen = rader.nth(2)
-    # Åpne høringer fra kilden (5 i testdataene), ikke antall hentet (448)
-    assert vegvesen.locator("td").nth(1).inner_text() == "5"
+    # Åpne høringer fra kilden (6 i testdataene), ikke antall hentet (448)
+    assert vegvesen.locator("td").nth(1).inner_text() == "6"
     assert side.inner_text("#antall-inaktive") == "2"
     assert "1 kilde kunne ikke hentes" in side.inner_text("#status-ingress")
     assert "17. oktober 2026 kl. 10.05" in side.inner_text("#oppdatert")
@@ -337,7 +339,7 @@ def test_mangler_horinger(nettleser, server, tmp_path):
 
 def test_mangler_status(nettleser, server, tmp_path):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path, status=None)))
-    assert len(_titler(side)) == 7
+    assert len(_titler(side)) == 8
     assert side.inner_text("#status-ingress") == "Status for kildene er ikke tilgjengelig."
     assert side.is_hidden("#status-tabell")
     side.close()
@@ -417,3 +419,9 @@ def test_ingen_eksterne_foresporsler(nettleser, server, tmp_path):
 def test_filtre_kan_ikke_foldes_sammen_pa_pc(side):
     side.click("#filtre-boks summary")
     assert side.locator("#filtre-boks").evaluate("d => d.open")
+
+
+def test_lenker_som_ikke_er_nettadresser_blir_tekst(side):
+    rad = side.locator('.hoering[data-id="farlig"] h2')
+    assert rad.locator("a").count() == 0
+    assert rad.inner_text() == "Lenke uten http"

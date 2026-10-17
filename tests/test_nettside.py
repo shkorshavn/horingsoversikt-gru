@@ -391,3 +391,29 @@ def test_tastatur_kommer_til_sok_og_listen(side):
     assert side.evaluate("document.activeElement.className") == "hopp"
     side.keyboard.press("Enter")
     assert side.evaluate("document.activeElement.id") == "liste"
+
+
+def test_ingen_eksterne_foresporsler(nettleser, server, tmp_path):
+    url = server(_lag_nettsted(tmp_path))
+    side = nettleser.new_page()
+    side.add_init_script(f"window.HORINGER_I_DAG = '{I_DAG}';")
+    adresser = []
+    side.on("request", lambda r: adresser.append(r.url))
+    side.goto(url + "/index.html")
+    side.wait_for_selector("html[data-klar]")
+    eksterne = [a for a in adresser if not a.startswith(url)]
+    assert eksterne == []
+    assert {a.rsplit("/", 1)[-1] for a in adresser} >= {
+        "index.html",
+        "stil.css",
+        "app.js",
+        "logo.svg",
+        "horinger.json",
+        "status.json",
+    }
+    side.close()
+
+
+def test_filtre_kan_ikke_foldes_sammen_pa_pc(side):
+    side.click("#filtre-boks summary")
+    assert side.locator("#filtre-boks").evaluate("d => d.open")

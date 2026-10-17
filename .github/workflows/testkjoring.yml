@@ -40,7 +40,8 @@ jobs:
           ruff format --check .
 
       - name: Tester (pytest)
-        run: pytest -v
+        shell: bash
+        run: pytest -v 2>&1 | tee pytest.log
 
       - name: Hent rå kildesider
         if: ${{ inputs.hent_raa }}

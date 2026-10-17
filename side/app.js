@@ -318,7 +318,14 @@
     document.getElementById("nullstill").addEventListener("click", nullstill);
     document.getElementById("nullstill-tom").addEventListener("click", nullstill);
     document.getElementById("eksport").addEventListener("click", lastNedCsv);
-    if (window.matchMedia("(max-width: 52rem)").matches) document.getElementById("filtre-boks").open = false;
+    // Filtrene kan foldes sammen bare på smal skjerm. På bred skjerm står de alltid åpne.
+    var smal = window.matchMedia("(max-width: 52rem)");
+    var boks = document.getElementById("filtre-boks");
+    if (smal.matches) boks.open = false;
+    boks.querySelector("summary").addEventListener("click", function (e) {
+      if (!smal.matches) e.preventDefault();
+    });
+    smal.addEventListener("change", function () { if (!smal.matches) boks.open = true; });
 
     Promise.allSettled([hentJson("data/horinger.json"), hentJson("data/status.json")]).then(function (svar) {
       var oppdatert = document.getElementById("oppdatert");

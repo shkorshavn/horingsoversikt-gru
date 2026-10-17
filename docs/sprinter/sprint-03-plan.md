@@ -103,8 +103,8 @@ Jeg har ikke tilgang til repoets innstillinger herfra, så disse stegene gjør d
 - Hele sjekklisten A–J, inkludert stikkprøver av regjeringen.no nå som den kan hentes.
 
 ## Risikoer
-1. **PC-oppsettet kan stoppe på rettigheter** hvis PC-en styres av kommunens IT. Da trengs IT
-   eller en annen maskin.
+1. **PC-oppsettet** krever administratorrettigheter for å installere tjenesten. Svein har det
+   (avklart 17.10).
 2. **GitHub forsinker noen ganger planlagte kjøringer** med opptil en time. Tidspunktsjekken
    tåler dette ved å godta kjøringer mellom kl. 10.00 og 11.59.
 3. **GitHub slår av planlagte kjøringer** i offentlige repoer etter 60 dager uten aktivitet. Den
@@ -116,11 +116,10 @@ Jeg har ikke tilgang til repoets innstillinger herfra, så disse stegene gjør d
 Postlista (sprint 7), som spesifikasjonen plasserer i samme kjøring, legges inn der.
 Egendefinert adresse (f.eks. horinger.gjovikregionen.no) er ikke med.
 
-## Spørsmål til Svein før start
-1. **Utløpte høringer:** Er det greit at bryteren viser høringer som gikk ut de siste 30 dagene?
-2. **Adresse:** Siden vil ligge på https://shkorshavn.github.io/horingsoversikt-gru/. Greit inntil
-   videre?
-3. **PC-en:** Er det GRUs egen PC som du kan installere programmer på, eller styres den av
-   kommunens IT-avdeling? Hvis den styres av IT, bør de spørres før vi installerer noe.
-4. **Valg av forsøk:** Er det greit med nye forsøk på regjeringen.no tirsdag–fredag kl. 10 de
-   ukene PC-en ikke var på mandag?
+## Avklart med Svein 17.10.2026
+1. Bryteren for utløpte høringer viser de som gikk ut de siste 30 dagene.
+2. Adressen https://shkorshavn.github.io/horingsoversikt-gru/ brukes inntil videre.
+3. PC-en er GRUs egen og administreres av Svein. Han kan installere programmer selv.
+4. Nye forsøk på regjeringen.no tirsdag–fredag kl. 10 de ukene PC-en ikke var på mandag.
+
+Planen venter bare på godkjenning.

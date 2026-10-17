@@ -41,9 +41,28 @@ nettsteder, og ingen sporing. Alt ligger i repoet.
 - Datoer og «dager igjen» regnes i norsk tid.
 
 ### Visuelt uttrykk
-Rent og nøkternt, i stil med offentlige nettsider: god luft, tydelig typografi i systemets
-egen skrift, én dempet aksentfarge og tydelige fristfarger. Bruker GRUs profil hvis du har
-farger og logo du vil ha med (se spørsmål 2).
+Bygger på Gjøvikregionens designsystem (https://www.gjovikregionen.no/test/design-system),
+hentet 17.10.2026:
+
+| Bruk | Farge (designsystemet) | Kode |
+|---|---|---|
+| Overskrifter, tekst, lenker, knapper og logo | Skogsgrønn 700 | `#05423b` |
+| Sekundær tekst | Skogsgrønn 300 | `#366f68` |
+| Bakgrunn, skillelinjer | Beige 500 | `#fefaf0` |
+| Fremheving, valgte filtre | Turkis 700 / 300 | `#baf2e3` / `#dbfff5` |
+| Frist under 14 dager, feil | Oransje 700 / 100, med burgunder tekst | `#ff6e3d` / `#ffbba5`, `#540024` |
+| Frist 14–30 dager | Rosa 300 | `#f8cee1` |
+| Frist over 30 dager, ok-status | Grønn 700 / 100 | `#b5de75` / `#e2f6c2` |
+
+- **Logo:** Gjøvikregionen-logoen (SVG) fra designsystemet, i skogsgrønn.
+- **Skrift:** Designsystemet bruker Satoshi. Den lastes fra Gjøvikregionens eget nettsted, og
+  jeg kan ikke hente skriftfilene herfra. Siden bruker derfor systemets skrift, med Satoshi
+  først i listen, slik at den brukes der den er installert. Skriften kan legges inn i repoet
+  senere hvis du ønsker det.
+- Alle fargekombinasjoner kontrolleres mot kontrastkravet i WCAG 2.1 AA før bruk. De lyse
+  fristfargene brukes som bakgrunn bak mørk tekst, ikke som tekstfarge.
+- Merk: Designsystemet ligger under `/test/` på nettstedet og kan bli endret. Fargene samles
+  i variabler øverst i stilarket, slik at de er enkle å oppdatere.
 
 ## Utenfor omfang (senere sprinter)
 Spesifikasjonen nevner tre ting for nettsiden som avhenger av data som ikke finnes ennå. De
@@ -83,10 +102,10 @@ Publisering på GitHub Pages skjer i sprint 3.
 3. **Kontrast i fristfargene** kan være vanskelig å få innenfor AA, særlig gult. Fargene
    velges og kontrolleres mot kravet før bruk.
 
-## Spørsmål til Svein før start
-1. **Funksjoner som venter:** Er du enig i at «Ny»-merke, utløpte høringer og de to filtrene
-   for høringsparter og postlista bygges i sprint 3, 6 og 7, slik tabellen over viser?
-2. **Profil:** Har GRU farger, logo eller skrift som siden bør bruke? Hvis ja, send meg
-   fargekodene eller en lenke til profilen, eller last opp logoen. Hvis ikke, lager jeg et
-   nøytralt, profesjonelt uttrykk.
-3. **Tittel på siden:** Forslag «Høringer – Gjøvikregionen». Passer det?
+## Avklart med Svein 17.10.2026
+1. «Ny»-merke og utløpte høringer bygges i sprint 3, filtrene for høringsparter og postlista i
+   sprint 6 og 7.
+2. Logo og farger hentes fra Gjøvikregionens designsystem (se «Visuelt uttrykk»).
+3. Tittel: «Høringer – Gjøvikregionen».
+
+Planen venter bare på godkjenning.

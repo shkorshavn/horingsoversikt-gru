@@ -18,7 +18,28 @@ Sprint 1: Grunnmur og fem kjernekilder.
 | Statsforvalteren i Innlandet | Virker |
 | Regjeringen.no | Bygget, men regjeringen.no avviser GitHub Actions (robotsjekk). Se sprintrapport 1 |
 
-Nettside, ukentlig kjøring og flere kilder kommer i senere sprinter.
+Sprint 2: nettsiden er bygget. Publisering, ukentlig kjøring og flere kilder kommer i senere sprinter.
+
+## Nettsiden
+
+Siden består av `index.html` og mappen `side/` (stil, skript, logo), og leser
+`data/horinger.json` og `data/status.json`. Den har ingen eksterne avhengigheter og ingen
+sporing. Farger og logo er hentet fra Gjøvikregionens designsystem.
+
+For å se siden lokalt må den åpnes via en webserver, fordi nettleseren ikke lar en lokal fil
+lese JSON:
+
+```bash
+python -m http.server 8000
+```
+
+og gå til http://localhost:8000.
+
+Filtrene lagres i adressen (f.eks. `?q=barnehage&niva=Regjeringen`), slik at en filtrert
+visning kan deles som lenke. Dagens dato og «dager igjen» regnes i norsk tid.
+
+`data/` inneholder foreløpig resultatet fra en testkjøring. Fra sprint 3 oppdateres filene av
+den ukentlige kjøringen.
 
 ## Kjøre lokalt
 
@@ -44,6 +65,14 @@ ruff format --check .
 
 Testene bruker lagrede kopier av kildesidene i `tests/fixtures/`. Kopiene kan fornyes
 med `python verktoy/hent_raa.py --ut raa/`.
+
+Testene av nettsiden (`tests/test_nettside.py`) kjører siden i Chromium og sjekker
+tilgjengelighet med axe-core. De krever:
+
+```bash
+python -m playwright install chromium
+npm install --no-save axe-core@4.10.2   # eller sett AXE_STI til axe.min.js
+```
 
 ## Testkjøring i GitHub Actions
 

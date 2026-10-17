@@ -29,7 +29,10 @@ jobs:
           python-version: "3.12"
 
       - name: Installer avhengigheter
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          npm install --no-save axe-core@4.10.2
 
       - name: Kodekvalitet (ruff)
         run: |

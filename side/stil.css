@@ -1,0 +1,229 @@
+/* Høringer – Gjøvikregionen
+   Farger fra Gjøvikregionens designsystem (gjovikregionen.no/test/design-system, 17.10.2026).
+   Alle tekstkombinasjoner er kontrollert mot WCAG 2.1 AA (se sprintrapport 2). */
+
+:root {
+  --skog-700: #05423b;  /* tekst, lenker, knapper, logo */
+  --skog-300: #366f68;  /* sekundær tekst (5,5:1 mot beige) */
+  --beige: #fefaf0;     /* bakgrunn */
+  --hvit: #ffffff;
+  --turkis-700: #baf2e3;
+  --turkis-300: #dbfff5;
+  --burgunder: #540024;
+  --oransje-700: #ff6e3d;
+  --oransje-100: #ffbba5;
+  --rosa-700: #efb0cd;
+  --rosa-300: #f8cee1;
+  --gronn-700: #b5de75;
+  --gronn-100: #e2f6c2;
+  --linje: #e4ddc9;
+
+  --skrift: Satoshi, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --rom: 1rem;
+  --bredde: 72rem;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--beige);
+  color: var(--skog-700);
+  font-family: var(--skrift);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a { color: var(--skog-700); text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 3px solid var(--skog-700);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--turkis-700);
+}
+
+.skjult {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.hopp {
+  position: absolute; left: 1rem; top: -4rem; z-index: 10;
+  background: var(--skog-700); color: var(--beige);
+  padding: 0.6rem 1rem; border-radius: 0 0 6px 6px; font-weight: 600;
+}
+.hopp:focus { top: 0; }
+
+/* ---------- Topp ---------- */
+
+.topp { border-bottom: 1px solid var(--linje); background: var(--hvit); }
+.topp-indre {
+  max-width: var(--bredde); margin: 0 auto;
+  padding: 1.5rem var(--rom) 1.75rem;
+  display: grid; gap: 1.25rem; grid-template-columns: auto 1fr; align-items: start;
+}
+.logo { display: block; width: 12.5rem; height: auto; margin-top: 0.35rem; }
+.topp-tekst { border-left: 1px solid var(--linje); padding-left: 1.25rem; max-width: 42rem; }
+h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.35rem; font-weight: 700; letter-spacing: -0.01em; }
+.ingress { margin: 0 0 0.5rem; }
+.oppdatert { margin: 0; color: var(--skog-300); font-size: 0.9375rem; }
+
+/* ---------- Ramme ---------- */
+
+.ramme {
+  max-width: var(--bredde); margin: 0 auto;
+  padding: 1.5rem var(--rom) 3rem;
+  display: grid; grid-template-columns: 16rem 1fr; gap: 2rem; align-items: start;
+}
+.ramme > * { min-width: 0; }
+.innhold h2, .instans, .beskrivelse { overflow-wrap: break-word; }
+table { table-layout: auto; }
+.feiltekst { overflow-wrap: anywhere; }
+
+/* ---------- Filtre ---------- */
+
+.filtre { position: sticky; top: 1rem; }
+.filtre details > summary { list-style: none; cursor: default; }
+.filtre details > summary::-webkit-details-marker { display: none; }
+.filtre h2 { font-size: 1.125rem; margin: 0 0 0.75rem; }
+
+.felt { margin: 0 0 1.1rem; padding: 0; border: 0; }
+.felt > label,
+legend { display: block; font-weight: 600; margin-bottom: 0.3rem; font-size: 0.9375rem; padding: 0; }
+
+input[type="search"],
+select {
+  width: 100%; font: inherit; color: var(--skog-700);
+  background: var(--hvit); border: 1px solid var(--skog-300); border-radius: 6px;
+  padding: 0.55rem 0.65rem; min-height: 2.75rem;
+}
+input[type="search"]::placeholder { color: var(--skog-300); }
+
+.valg { display: flex; gap: 0.5rem; align-items: center; padding: 0.2rem 0; font-size: 0.9375rem; cursor: pointer; }
+.valg input { width: 1.15rem; height: 1.15rem; accent-color: var(--skog-700); margin: 0; }
+
+.knapp {
+  font: inherit; font-weight: 600; font-size: 0.9375rem;
+  background: var(--skog-700); color: var(--beige);
+  border: 2px solid var(--skog-700); border-radius: 6px;
+  padding: 0.5rem 1rem; min-height: 2.75rem; cursor: pointer;
+}
+.knapp:hover { background: var(--skog-300); border-color: var(--skog-300); }
+.knapp-stille { background: transparent; color: var(--skog-700); }
+.knapp-stille:hover { background: var(--turkis-300); border-color: var(--skog-700); }
+
+/* ---------- Verktøylinje og forklaring ---------- */
+
+.verktoy { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
+.antall { margin: 0; font-weight: 600; font-size: 1.0625rem; }
+
+.forklaring { list-style: none; margin: 0 0 1rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 1.25rem; font-size: 0.875rem; color: var(--skog-300); }
+.forklaring li { display: flex; align-items: center; gap: 0.4rem; }
+.prikk { width: 0.85rem; height: 0.85rem; border-radius: 3px; display: inline-block; border: 1px solid var(--skog-700); }
+.prikk.snart { background: var(--oransje-700); }
+.prikk.middels { background: var(--rosa-700); }
+.prikk.godtid { background: var(--gronn-700); }
+
+/* ---------- Listen ---------- */
+
+.liste { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--skog-700); }
+.liste:focus { outline: none; }
+
+.hoering {
+  display: grid; grid-template-columns: 7.5rem 1fr; gap: 1.25rem;
+  padding: 1.1rem 0; border-bottom: 1px solid var(--linje);
+}
+
+/* Fristen er sidens bærende element: dato som et kalenderblad, med dager igjen under. */
+.frist {
+  align-self: start; text-align: center;
+  border-radius: 6px; padding: 0.55rem 0.4rem 0.6rem;
+  border-left: 6px solid transparent;
+  background: var(--hvit);
+}
+.frist .dag { display: block; font-size: 2.125rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.frist .maned { display: block; font-size: 0.9375rem; font-weight: 600; margin-top: 0.15rem; }
+.frist .igjen { display: block; font-size: 0.8125rem; margin-top: 0.4rem; line-height: 1.25; }
+
+.frist.snart { background: var(--oransje-100); border-left-color: var(--oransje-700); color: var(--burgunder); }
+.frist.middels { background: var(--rosa-300); border-left-color: var(--rosa-700); }
+.frist.godtid { background: var(--gronn-100); border-left-color: var(--gronn-700); }
+.frist.utlopt { background: transparent; border: 1px dashed var(--skog-300); color: var(--skog-300); }
+.frist.ukjent { background: transparent; border: 1px dashed var(--skog-300); }
+
+.innhold { min-width: 0; }
+.innhold h2 { font-size: 1.125rem; line-height: 1.35; margin: 0 0 0.3rem; font-weight: 700; }
+.innhold h2 a { text-decoration: none; }
+.innhold h2 a:hover,
+.innhold h2 a:focus-visible { text-decoration: underline; }
+.instans { margin: 0 0 0.35rem; font-weight: 600; font-size: 0.9375rem; }
+.beskrivelse { margin: 0 0 0.45rem; max-width: 65ch; }
+.detaljer { margin: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; font-size: 0.875rem; color: var(--skog-300); }
+.tema { background: var(--turkis-300); color: var(--skog-700); border-radius: 4px; padding: 0.05rem 0.45rem; }
+
+/* ---------- Meldinger ---------- */
+
+.melding { padding: 1.25rem; border: 1px solid var(--linje); border-radius: 6px; background: var(--hvit); margin-top: 1rem; }
+.melding p { margin: 0 0 0.75rem; }
+.melding-feil { background: var(--oransje-100); color: var(--burgunder); border-color: var(--oransje-700); }
+.melding-feil p { margin: 0; }
+
+/* ---------- Status ---------- */
+
+.status { margin-top: 3rem; padding-top: 1.25rem; border-top: 2px solid var(--skog-700); }
+.status h2 { font-size: 1.25rem; margin: 0 0 0.35rem; }
+.status-ingress { margin: 0 0 1rem; color: var(--skog-300); font-size: 0.9375rem; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; background: var(--hvit); }
+th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--linje); vertical-align: top; }
+th { font-weight: 600; }
+thead th { background: var(--turkis-300); }
+.tall { text-align: right; font-variant-numeric: tabular-nums; }
+.merke { display: inline-block; border-radius: 4px; padding: 0.05rem 0.45rem; font-weight: 600; font-size: 0.8125rem; }
+.merke.ok { background: var(--gronn-100); }
+.merke.feil { background: var(--oransje-100); color: var(--burgunder); }
+.feiltekst { display: block; margin-top: 0.25rem; color: var(--burgunder); font-size: 0.8125rem; }
+#inaktive { margin-top: 1rem; }
+#inaktive summary { cursor: pointer; font-weight: 600; padding: 0.4rem 0; }
+.inaktive-liste { columns: 2; column-gap: 2rem; margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.9375rem; }
+
+/* ---------- Bunn ---------- */
+
+.bunn { border-top: 1px solid var(--linje); background: var(--hvit); }
+.bunn p { max-width: var(--bredde); margin: 0 auto; padding: 1.25rem var(--rom); font-size: 0.875rem; color: var(--skog-300); }
+
+/* ---------- Smal skjerm ---------- */
+
+@media (max-width: 52rem) {
+  .ramme { grid-template-columns: 1fr; gap: 1rem; padding-top: 1rem; }
+  .filtre { position: static; border: 1px solid var(--linje); border-radius: 6px; background: var(--hvit); padding: 0 0.9rem; }
+  .filtre details > summary { cursor: pointer; padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; }
+  .filtre details > summary::after { content: "Vis"; font-size: 0.875rem; font-weight: 600; text-decoration: underline; }
+  .filtre details[open] > summary::after { content: "Skjul"; }
+  .filtre h2 { margin: 0; }
+}
+
+@media (max-width: 36rem) {
+  .topp-indre { grid-template-columns: 1fr; gap: 0.9rem; padding-top: 1.1rem; }
+  .logo { width: 10rem; margin: 0; }
+  .topp-tekst { border-left: 0; padding-left: 0; }
+  h1 { font-size: 1.75rem; }
+  .hoering { grid-template-columns: 5.25rem 1fr; gap: 0.85rem; }
+  .frist .dag { font-size: 1.75rem; }
+  .inaktive-liste { columns: 1; }
+  th, td { padding: 0.5rem; }
+}
+
+@media print {
+  .filtre, .verktoy .knapp, .hopp, #inaktive { display: none; }
+  .ramme { display: block; }
+  body { background: #fff; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

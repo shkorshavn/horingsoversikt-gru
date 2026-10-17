@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Høringer – Gjøvikregionen</title>
+  <meta name="description" content="Åpne høringer fra Stortinget, departementene, direktorater, Innlandet fylkeskommune og Statsforvalteren i Innlandet, sortert på frist.">
+  <meta name="theme-color" content="#05423b">
+  <link rel="icon" href="side/ikon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="side/stil.css">
+  <script src="side/app.js" defer></script>
+</head>
+<body>
+  <a class="hopp" href="#liste">Hopp til høringene</a>
+
+  <header class="topp">
+    <div class="topp-indre">
+      <img class="logo" src="side/logo.svg" alt="Gjøvikregionen" width="202" height="35">
+      <div class="topp-tekst">
+        <h1>Høringer</h1>
+        <p class="ingress">Åpne høringer fra Stortinget, departementene, direktorater, Innlandet fylkeskommune og Statsforvalteren i Innlandet, sortert etter frist.</p>
+        <p class="oppdatert" id="oppdatert">Henter høringer …</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="ramme">
+    <aside class="filtre" aria-labelledby="filtre-tittel">
+      <details id="filtre-boks" open>
+        <summary><h2 id="filtre-tittel">Filtre</h2></summary>
+        <form id="filterskjema" role="search" aria-label="Filtrer høringene">
+          <div class="felt">
+            <label for="sok">Søk i høringene</label>
+            <input id="sok" name="q" type="search" autocomplete="off" placeholder="F.eks. barnehage eller rv. 4">
+          </div>
+
+          <div class="felt">
+            <label for="kategori">Tema</label>
+            <select id="kategori" name="kategori">
+              <option value="">Alle temaer</option>
+            </select>
+          </div>
+
+          <div class="felt">
+            <label for="niva">Avsender</label>
+            <select id="niva" name="niva">
+              <option value="">Alle avsendere</option>
+            </select>
+          </div>
+
+          <fieldset class="felt">
+            <legend>Prioritet for regionen</legend>
+            <label class="valg"><input type="checkbox" name="prio" value="1" checked> Høy (1)</label>
+            <label class="valg"><input type="checkbox" name="prio" value="2" checked> Middels (2)</label>
+            <label class="valg"><input type="checkbox" name="prio" value="3"> Lav (3)</label>
+          </fieldset>
+
+          <div class="felt">
+            <label class="valg"><input type="checkbox" id="utlopte" name="utlopte" value="1"> Vis høringer med utløpt frist</label>
+          </div>
+
+          <button type="button" class="knapp knapp-stille" id="nullstill">Fjern alle filtre</button>
+        </form>
+      </details>
+    </aside>
+
+    <main id="hoved">
+      <div class="verktoy">
+        <p id="antall" class="antall" role="status" aria-live="polite"></p>
+        <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
+      </div>
+
+      <ul class="forklaring" aria-label="Fargene på fristene">
+        <li><span class="prikk snart" aria-hidden="true"></span>Under 14 dager igjen</li>
+        <li><span class="prikk middels" aria-hidden="true"></span>14–30 dager igjen</li>
+        <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
+      </ul>
+
+      <ol id="liste" class="liste" tabindex="-1" aria-label="Høringer sortert etter frist"></ol>
+
+      <div id="tom" class="melding" hidden>
+        <p>Ingen høringer passer filtrene du har valgt.</p>
+        <button type="button" class="knapp knapp-stille" id="nullstill-tom">Fjern alle filtre</button>
+      </div>
+
+      <div id="feil" class="melding melding-feil" role="alert" hidden></div>
+
+      <section class="status" aria-labelledby="status-tittel">
+        <h2 id="status-tittel">Kildene</h2>
+        <p id="status-ingress" class="status-ingress"></p>
+        <table id="status-tabell">
+          <caption class="skjult">Status for kildene ved siste oppdatering</caption>
+          <thead>
+            <tr><th scope="col">Kilde</th><th scope="col">Status</th><th scope="col" class="tall">Åpne høringer</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <details id="inaktive">
+          <summary>Kilder som ikke overvåkes automatisk ennå (<span id="antall-inaktive">0</span>)</summary>
+          <ul id="inaktive-liste" class="inaktive-liste"></ul>
+        </details>
+      </section>
+    </main>
+  </div>
+
+  <footer class="bunn">
+    <p>Laget av Gjøvikregionen Utvikling. Sjekk alltid frist og høringsdokumenter hos avsenderen før du svarer.</p>
+  </footer>
+</body>
+</html>

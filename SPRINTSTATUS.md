@@ -9,7 +9,7 @@ Gyldige statuser: Ikke startet · Plan til godkjenning · Pågår · Til godkjen
 | 0 | Kartlegging av kilder | Godkjent | JA | 16.10.2026 | Rapport v4: docs/sprinter/sprint-00-rapport-v4.md. Godkjent i chat 16.10.2026 kl. 15.13 |
 | 1 | Grunnmur og fem kjernekilder | Godkjent | JA | 16.10.2026 | Rapport: docs/sprinter/sprint-01-rapport.md. Godkjent i chat 16.10.2026 kl. 17.20 |
 | 2 | Nettsiden | Godkjent | JA | 17.10.2026 | Rapport: docs/sprinter/sprint-02-rapport.md. Godkjent i chat 17.10.2026 kl. 17.23 («dd» tolket som dags dato) |
-| 3 | Automatisering og publisering | Ikke startet | | | Beslutning 16.10.2026: ukentlig kjøring på maskin hos GRU (self-hosted runner), fordi regjeringen.no avviser GitHub Actions. 17.10.2026: Sveins Windows-PC (står bare på når den er i bruk), kjøring mandag kl. 10.00 |
+| 3 | Automatisering og publisering | Plan til godkjenning | | | Plan: docs/sprinter/sprint-03-plan.md. Beslutning 16.10.2026: ukentlig kjøring på maskin hos GRU (self-hosted runner), fordi regjeringen.no avviser GitHub Actions. 17.10.2026: Sveins Windows-PC (står bare på når den er i bruk), kjøring mandag kl. 10.00 |
 | 4 | Direktorater, prioritet 1 | Ikke startet | | | |
 | 5 | Direktorater, prioritet 2 og 3 | Ikke startet | | | |
 | 6 | Høringsparter og regionflagg | Ikke startet | | | |

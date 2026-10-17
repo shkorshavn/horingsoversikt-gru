@@ -5,6 +5,8 @@
 # Felter per kilde:
 #   navn       visningsnavn
 #   kategori   gruppe på nettsiden
+#   niva       forvaltningsnivå for filteret på nettsiden: Stortinget, Regjeringen,
+#              Direktorater og etater, Fylkeskommunen eller Statsforvalteren
 #   prioritet  1 = alltid relevant, 2 = ofte, 3 = av og til
 #   url        liste- eller API-adresse
 #   metode     api | html | json-i-html | rss
@@ -77,6 +79,7 @@ kilder:
   # --- Regjeringen og Stortinget ---
   - navn: Stortinget
     kategori: Regjeringen og Stortinget
+    niva: Stortinget
     prioritet: 1
     url: https://data.stortinget.no/eksport/horinger
     metode: api
@@ -88,6 +91,7 @@ kilder:
 
   - navn: Regjeringen.no
     kategori: Regjeringen og Stortinget
+    niva: Regjeringen
     prioritet: 1
     url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/
     metode: html
@@ -100,6 +104,7 @@ kilder:
   # --- Transport, samferdsel og infrastruktur ---
   - navn: Statens vegvesen
     kategori: Transport, samferdsel og infrastruktur
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.vegvesen.no/fag/publikasjoner/hoeringer/
     prosjekt_url: https://www.vegvesen.no/vegprosjekter/hoeringer-vegprosjekter/
@@ -112,6 +117,7 @@ kilder:
 
   - navn: Nye Veier
     kategori: Transport, samferdsel og infrastruktur
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/
     metode: html
@@ -121,6 +127,7 @@ kilder:
 
   - navn: Jernbanedirektoratet
     kategori: Transport, samferdsel og infrastruktur
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.jernbanedirektoratet.no/wp-json/wp/v2/posts
     metode: api
@@ -130,6 +137,7 @@ kilder:
 
   - navn: Bane NOR
     kategori: Transport, samferdsel og infrastruktur
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.banenor.no/nb-no/sitemap.xml
     metode: html
@@ -139,6 +147,7 @@ kilder:
 
   - navn: Nkom
     kategori: Transport, samferdsel og infrastruktur
+    niva: Direktorater og etater
     prioritet: 2
     url: https://nkom.no/hoeringer
     metode: html
@@ -149,6 +158,7 @@ kilder:
   # --- Miljø, klima, energi og beredskap ---
   - navn: Miljødirektoratet
     kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.miljodirektoratet.no/hearingslistpage/gethearings
     metode: api
@@ -158,6 +168,7 @@ kilder:
 
   - navn: NVE
     kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.nve.no/om-nve/hoeringer/
     metode: html
@@ -168,6 +179,7 @@ kilder:
 
   - navn: DSB
     kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.dsb.no/rss/rss-dsb---horinger/
     metode: rss
@@ -177,6 +189,7 @@ kilder:
 
   - navn: Landbruksdirektoratet
     kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.landbruksdirektoratet.no/nb/om-direktoratet/horinger
     metode: html
@@ -186,6 +199,7 @@ kilder:
 
   - navn: DSA
     kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
     prioritet: 3
     url: https://www.dsa.no/horinger-og-tillatelser
     metode: html
@@ -197,6 +211,7 @@ kilder:
   # --- Oppvekst, utdanning, kultur og integrering ---
   - navn: Utdanningsdirektoratet
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.udir.no/om-udir/hoyringar/
     metode: api
@@ -207,6 +222,7 @@ kilder:
 
   - navn: IMDi
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.imdi.no/
     metode: html
@@ -217,6 +233,7 @@ kilder:
 
   - navn: Bufdir
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.bufdir.no/om/hoeringer/
     metode: html
@@ -226,6 +243,7 @@ kilder:
 
   - navn: Kulturdirektoratet
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.kulturdirektoratet.no/
     metode: html
@@ -236,6 +254,7 @@ kilder:
 
   - navn: Riksantikvaren
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 2
     url: https://riksantikvaren.no/siste-nytt/horinger-og-kunngjoringer/
     metode: html
@@ -245,6 +264,7 @@ kilder:
 
   - navn: Nasjonalarkivet
     kategori: Oppvekst, utdanning, kultur og integrering
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/riksarkivarens-horinger/
     metode: html
@@ -256,6 +276,7 @@ kilder:
   # --- Helse, omsorg og velferd ---
   - navn: Helsedirektoratet
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.helsedirektoratet.no/horinger
     metode: html
@@ -265,6 +286,7 @@ kilder:
 
   - navn: NAV
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.nav.no/
     metode: html
@@ -275,6 +297,7 @@ kilder:
 
   - navn: Direktoratet for medisinske produkter
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.dmp.no/om-oss/horinger
     metode: html
@@ -284,6 +307,7 @@ kilder:
 
   - navn: Folkehelseinstituttet
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.fhi.no/
     metode: html
@@ -294,6 +318,7 @@ kilder:
 
   - navn: Mattilsynet
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.mattilsynet.no/hoeringer
     metode: html
@@ -303,6 +328,7 @@ kilder:
 
   - navn: Arbeidstilsynet
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.arbeidstilsynet.no/regelverk/horinger/
     metode: html
@@ -312,6 +338,7 @@ kilder:
 
   - navn: Statens helsetilsyn
     kategori: Helse, omsorg og velferd
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.helsetilsynet.no/
     metode: html
@@ -323,6 +350,7 @@ kilder:
   # --- Styring, digitalisering, juss og eiendom ---
   - navn: Digdir
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.digdir.no/standarder/hoyringar/1502
     metode: html
@@ -332,6 +360,7 @@ kilder:
 
   - navn: DFØ
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.dfo.no/
     metode: html
@@ -342,6 +371,7 @@ kilder:
 
   - navn: DiBK
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 1
     url: https://www.dibk.no/regelverk/horinger/hoyringar
     metode: html
@@ -351,6 +381,7 @@ kilder:
 
   - navn: Kartverket
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.kartverket.no/
     metode: html
@@ -361,6 +392,7 @@ kilder:
 
   - navn: UDI
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.udi.no/om-udi/horinger-og-horingsuttalelser/
     metode: html
@@ -371,6 +403,7 @@ kilder:
 
   - navn: Politidirektoratet
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=103
     metode: html
@@ -380,6 +413,7 @@ kilder:
 
   - navn: Innlandet politidistrikt
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=203
     metode: html
@@ -390,6 +424,7 @@ kilder:
 
   - navn: Skatteetaten
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.skatteetaten.no/rettskilder/type/horinger/
     metode: json-i-html
@@ -399,6 +434,7 @@ kilder:
 
   - navn: Datatilsynet
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.datatilsynet.no/
     metode: html
@@ -408,6 +444,7 @@ kilder:
 
   - navn: SSB
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 2
     url: https://www.ssb.no/
     metode: html
@@ -417,6 +454,7 @@ kilder:
 
   - navn: Konkurransetilsynet
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 3
     url: https://konkurransetilsynet.no/
     metode: html
@@ -426,6 +464,7 @@ kilder:
 
   - navn: Sivilombudet
     kategori: Styring, digitalisering, juss og eiendom
+    niva: Direktorater og etater
     prioritet: 3
     url: https://www.sivilombudet.no/
     metode: html
@@ -436,6 +475,7 @@ kilder:
   # --- Regionale ledd ---
   - navn: Innlandet fylkeskommune
     kategori: Regionale ledd
+    niva: Fylkeskommunen
     prioritet: 1
     url: https://innlandetfylke.no/politikk/horinger/
     metode: html
@@ -447,6 +487,7 @@ kilder:
 
   - navn: Statsforvalteren i Innlandet
     kategori: Regionale ledd
+    niva: Statsforvalteren
     prioritet: 1
     url: https://www.statsforvalteren.no/innlandet/horinger/
     metode: html

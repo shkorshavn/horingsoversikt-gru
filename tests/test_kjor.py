@@ -79,3 +79,27 @@ def test_skriv_utf8_og_iso(tmp_path):
     assert data["horinger"][0]["frist"] == "2026-11-11"
     status = json.loads((tmp_path / "status.json").read_text(encoding="utf-8"))
     assert status["antall_kall"] == 3
+
+
+def test_niva_fra_konfig_kommer_med_i_json(tmp_path):
+    kilde = GodKilde({"navn": "God", "niva": "Direktorater og etater"}, nett=None)
+    (h,) = kilde.hent()
+    assert h.til_dict()["niva"] == "Direktorater og etater"
+
+
+def test_alle_kilder_har_gyldig_niva():
+    from pathlib import Path
+
+    import yaml
+
+    konfig = yaml.safe_load(
+        (Path(__file__).parent.parent / "sources.yaml").read_text(encoding="utf-8")
+    )
+    gyldige = {
+        "Stortinget",
+        "Regjeringen",
+        "Direktorater og etater",
+        "Fylkeskommunen",
+        "Statsforvalteren",
+    }
+    assert all(k.get("niva") in gyldige for k in konfig["kilder"])

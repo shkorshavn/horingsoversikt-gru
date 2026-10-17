@@ -27,6 +27,7 @@ class Hoering:
     publisert: date | None = None
     ingress: str = ""
     hentet: datetime | None = None
+    niva: str = ""
     id: str = field(default="")
 
     def __post_init__(self) -> None:

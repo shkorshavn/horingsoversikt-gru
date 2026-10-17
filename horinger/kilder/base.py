@@ -47,6 +47,7 @@ class Kilde(ABC):
         return Hoering(
             kilde=self.navn,
             kategori=self.konfig.get("kategori", ""),
+            niva=self.konfig.get("niva", ""),
             prioritet=int(self.konfig.get("prioritet", 3)),
             instans=" ".join(instans.split()),
             tittel=" ".join(tittel.split()),

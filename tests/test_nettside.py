@@ -54,7 +54,7 @@ HORINGER = {
             kilde="Regjeringen.no",
         ),
         _h("d13", "2026-10-30", tittel='Høring om æ, ø og å; «sitat» og "anførsel"'),
-        _h("d14", "2026-10-31", tittel="Fjorten dager"),
+        _h("d14", "2026-10-31", tittel="Fjorten dager", ny=True),
         _h("d30", "2026-11-16", tittel="Tretti dager", ingress="Gjelder rv. 4 ved Gjøvik."),
         _h(
             "d0",
@@ -65,7 +65,6 @@ HORINGER = {
             niva="Stortinget",
             kategori="Regjeringen og Stortinget",
         ),
-        _h("utlopt", "2026-10-16", tittel="Utløpt i går"),
         _h("prio3", "2026-10-25", tittel="Lav prioritet", prioritet=3),
         _h("ukjent", None, tittel="Uten frist"),
         _h("farlig", "2026-11-12", tittel="Lenke uten http", lenke="javascript:alert(1)"),
@@ -81,26 +80,53 @@ HORINGER = {
     ],
 }
 
+ARKIV = {
+    "generert": "2026-10-17T10:05:00+02:00",
+    "antall": 3,
+    "horinger": [
+        _h("utlopt", "2026-10-16", tittel="Utløpt i går", utlopt="2026-10-16"),
+        _h("d-30", "2026-09-17", tittel="Utløpt for 30 dager siden", utlopt="2026-09-17"),
+        _h("gammel", "2026-09-16", tittel="Utløpt for 31 dager siden", utlopt="2026-09-16"),
+    ],
+}
+
+OK = "2026-10-17T10:01:00+02:00"
 STATUS = {
     "generert": "2026-10-17T10:05:00+02:00",
-    "antall_kall": 20,
     "kilder": [
-        {"kilde": "Stortinget", "status": "ok", "antall": 64},
+        {"kilde": "Stortinget", "status": "ok", "hentet": OK, "sist_ok": OK, "antall": 1},
         {
             "kilde": "Regjeringen.no",
+            "kjoring": "pc",
             "status": "feil",
-            "antall": 0,
+            "hentet": OK,
+            "sist_ok": "2026-10-12T10:02:00+02:00",
+            "antall": 1,
             "feil": "HTTPError: 403 Client Error: Forbidden for url: https://x",
         },
-        {"kilde": "Statens vegvesen", "status": "ok", "antall": 448},
-        {"kilde": "Innlandet fylkeskommune", "status": "ok", "antall": 1},
-        {"kilde": "NVE", "status": "ikke overvåket", "antall": 0},
+        {"kilde": "Statens vegvesen", "status": "ok", "hentet": OK, "sist_ok": OK, "antall": 6},
+        {"kilde": "Innlandet fylkeskommune", "status": "ok", "hentet": OK, "sist_ok": OK},
+        {
+            "kilde": "Statsforvalteren i Innlandet",
+            "status": "feil",
+            "hentet": OK,
+            "sist_ok": None,
+            "feil": "ReadTimeout: timed out",
+        },
+        {
+            "kilde": "Miljødirektoratet",
+            "status": "utdatert",
+            "hentet": "2026-10-05T10:01:00+02:00",
+            "sist_ok": "2026-10-05T10:01:00+02:00",
+        },
+        {"kilde": "NVE", "status": "ikke hentet", "antall": 0},
         {"kilde": "DSB", "status": "ikke overvåket", "antall": 0},
+        {"kilde": "Udir", "status": "ikke overvåket", "antall": 0},
     ],
 }
 
 
-def _lag_nettsted(mappe: Path, horinger=HORINGER, status=STATUS) -> Path:
+def _lag_nettsted(mappe: Path, horinger=HORINGER, status=STATUS, arkiv=ARKIV) -> Path:
     shutil.copy(ROT / "index.html", mappe / "index.html")
     shutil.copytree(ROT / "side", mappe / "side")
     (mappe / "data").mkdir()
@@ -111,6 +137,10 @@ def _lag_nettsted(mappe: Path, horinger=HORINGER, status=STATUS) -> Path:
     if status is not None:
         (mappe / "data" / "status.json").write_text(
             json.dumps(status, ensure_ascii=False), encoding="utf-8"
+        )
+    if arkiv is not None:
+        (mappe / "data" / "arkiv.json").write_text(
+            json.dumps(arkiv, ensure_ascii=False), encoding="utf-8"
         )
     return mappe
 
@@ -164,7 +194,7 @@ def side(nettleser, server, tmp_path):
 
 
 def _titler(side: Page) -> list[str]:
-    return side.locator("#liste .hoering h2").all_inner_texts()
+    return side.locator("#liste .hoering h2 > :first-child").all_inner_texts()
 
 
 # ---------- Sortering og standardvisning ----------
@@ -181,7 +211,7 @@ def test_sortert_pa_frist_uten_utlopte_og_prio3(side):
         "Høring om barnehageloven",
         "Uten frist",
     ]
-    assert side.inner_text("#antall") == "Viser 8 høringer (9 åpne totalt)"
+    assert side.inner_text("#antall") == "Viser 8 høringer (9 åpne totalt, 1 ny siste uke)"
 
 
 @pytest.mark.parametrize(
@@ -216,9 +246,16 @@ def test_lenke_til_kilden(side):
 # ---------- Filtre ----------
 
 
-def test_utlopte_kan_vises(side):
+def _vis_utlopte(side):
     side.check("#utlopte")
-    assert "Utløpt i går" in _titler(side)
+    side.wait_for_selector("html[data-arkiv]")
+
+
+def test_utlopte_kan_vises(side):
+    _vis_utlopte(side)
+    titler = _titler(side)
+    assert titler[:2] == ["Utløpt for 30 dager siden", "Utløpt i går"]
+    assert "Utløpt for 31 dager siden" not in titler
     frist = side.locator('.hoering[data-id="utlopt"] .frist')
     assert "utlopt" in frist.get_attribute("class")
     assert frist.locator(".igjen").inner_text() == "Fristen er ute"
@@ -267,10 +304,10 @@ def test_filtre_skrives_til_adressen(side):
 
 def test_filtre_leses_fra_adressen(nettleser, server, tmp_path):
     url = server(_lag_nettsted(tmp_path))
-    side = _apne(nettleser, url, sti="/index.html?q=lav&prio=3&utlopte=1")
-    assert _titler(side) == ["Lav prioritet"]
+    side = _apne(nettleser, url, sti="/index.html?q=i+går&prio=1&utlopte=1")
+    assert _titler(side) == ["Utløpt i går"]
     assert side.is_checked("#utlopte")
-    assert not side.is_checked('input[name="prio"][value="1"]')
+    assert not side.is_checked('input[name="prio"][value="2"]')
     side.close()
 
 
@@ -300,19 +337,96 @@ def test_csv_eksport(side):
 # ---------- Status ----------
 
 
+def _rad(side, kilde):
+    return side.locator("#status-tabell tbody tr").filter(has=side.locator("th", has_text=kilde))
+
+
 def test_statusoversikt(side):
-    rader = side.locator("#status-tabell tbody tr")
-    assert rader.count() == 4
-    regj = rader.nth(1)
-    assert regj.locator("th").inner_text() == "Regjeringen.no"
-    assert "Nettstedet avviste innhentingen (feilkode 403)." in regj.inner_text()
-    assert regj.locator("td").nth(1).inner_text() == "–"
-    vegvesen = rader.nth(2)
-    # Åpne høringer fra kilden (6 i testdataene), ikke antall hentet (448)
-    assert vegvesen.locator("td").nth(1).inner_text() == "6"
+    assert side.locator("#status-tabell tbody tr").count() == 7
+    assert side.locator("#status-tabell thead th").all_inner_texts() == [
+        "Kilde",
+        "Status",
+        "Sist hentet",
+        "Åpne høringer",
+    ]
+    vegvesen = _rad(side, "Statens vegvesen").locator("td")
+    assert vegvesen.nth(0).inner_text() == "Hentet"
+    assert vegvesen.nth(1).inner_text() == "17. oktober 2026 kl. 10.01"
+    assert vegvesen.nth(2).inner_text() == "6"
     assert side.inner_text("#antall-inaktive") == "2"
-    assert "1 kilde kunne ikke hentes" in side.inner_text("#status-ingress")
+    assert "3 kilder kunne ikke hentes" in side.inner_text("#status-ingress")
     assert "17. oktober 2026 kl. 10.05" in side.inner_text("#oppdatert")
+
+
+def test_status_feil_med_tidligere_data(side):
+    regj = _rad(side, "Regjeringen.no").locator("td")
+    tekst = regj.nth(0).inner_text()
+    assert "Feil" in tekst
+    assert "Nettstedet avviste innhentingen (feilkode 403)." in tekst
+    assert "Viser høringene fra 12. oktober 2026 kl. 10.02." in tekst
+    assert "PC hos Gjøvikregionen Utvikling" in tekst
+    assert regj.nth(1).inner_text() == "12. oktober 2026 kl. 10.02"
+    assert regj.nth(2).inner_text() == "1"
+
+
+def test_status_feil_uten_data_utdatert_og_ikke_hentet(side):
+    sf = _rad(side, "Statsforvalteren i Innlandet").locator("td")
+    assert "Høringene herfra mangler i listen." in sf.nth(0).inner_text()
+    assert sf.nth(1).inner_text() == "–" and sf.nth(2).inner_text() == "–"
+    miljo = _rad(side, "Miljødirektoratet").locator("td")
+    assert miljo.nth(0).inner_text().startswith("Utdatert")
+    assert miljo.nth(1).inner_text() == "5. oktober 2026 kl. 10.01"
+    nve = _rad(side, "NVE").locator("td")
+    assert nve.nth(0).inner_text() == "Ikke hentet ennå"
+    assert nve.nth(2).inner_text() == "–"
+
+
+def test_ny_merke(side):
+    assert side.locator(".hoering .ny-merke").count() == 1
+    assert side.locator('.hoering[data-id="d14"] h2').inner_text() == "Fjorten dager Ny"
+    assert side.locator('.hoering[data-id="d14"] h2 a').inner_text() == "Fjorten dager"
+
+
+def test_ingen_advarsel_naar_ferske_data(side):
+    assert side.is_hidden("#advarsel")
+
+
+def test_advarsel_naar_data_er_gamle(nettleser, server, tmp_path):
+    gamle = {**HORINGER, "generert": "2026-10-06T10:05:00+02:00"}
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=gamle)))
+    assert side.is_visible("#advarsel")
+    assert side.inner_text("#advarsel").startswith("Oversikten er ikke oppdatert på 11 dager.")
+    side.close()
+
+
+def test_ingen_advarsel_etter_ti_dager(nettleser, server, tmp_path):
+    # Generert sent 7. oktober norsk tid (som er 7. oktober også i UTC-tid før midnatt).
+    data = {**HORINGER, "generert": "2026-10-07T23:30:00+02:00"}
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=data)))
+    assert side.is_hidden("#advarsel")
+    side.close()
+
+
+def test_arkiv_mangler(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, arkiv=None)))
+    _vis_utlopte(side)
+    assert "Høringer med utløpt frist kunne ikke hentes." in side.inner_text("#antall")
+    assert len(_titler(side)) == 8
+    side.close()
+
+
+def test_arkiv_hentes_bare_ved_behov(nettleser, server, tmp_path):
+    url = server(_lag_nettsted(tmp_path))
+    side = nettleser.new_page()
+    side.add_init_script(f"window.HORINGER_I_DAG = '{I_DAG}';")
+    adresser = []
+    side.on("request", lambda r: adresser.append(r.url))
+    side.goto(url + "/index.html")
+    side.wait_for_selector("html[data-klar]")
+    assert not any(a.endswith("arkiv.json") for a in adresser)
+    _vis_utlopte(side)
+    assert any(a.endswith("arkiv.json") for a in adresser)
+    side.close()
 
 
 def test_feilforklaringer(side):
@@ -363,7 +477,7 @@ def test_tilgjengelighet_axe(nettleser, server, tmp_path, bredde):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path)), bredde=bredde)
     if not side.locator("#filtre-boks").evaluate("d => d.open"):
         side.click("#filtre-boks summary")  # åpne filtrene på mobil, så de også kontrolleres
-    side.check("#utlopte")  # vis alle fristtyper
+    _vis_utlopte(side)  # vis alle fristtyper
     side.add_script_tag(path=str(_axe_sti()))
     resultat = side.evaluate(
         "axe.run(document, {runOnly: {type: 'tag', "
@@ -385,6 +499,10 @@ def test_mobil_uten_vannrett_rulling(nettleser, server, tmp_path):
     side.click("#filtre-boks summary")
     side.fill("#sok", "barnehage")
     assert _titler(side) == ["Høring om barnehageloven"]
+    # «Sist hentet» flyttes inn i statuskolonnen på smal skjerm.
+    assert side.locator("#status-tabell thead .kol-tid").is_hidden()
+    vegvesen = _rad(side, "Statens vegvesen").locator("td").nth(0)
+    assert "Sist hentet 17. oktober 2026 kl. 10.01" in vegvesen.inner_text()
     side.close()
 
 

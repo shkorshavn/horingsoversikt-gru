@@ -16,14 +16,43 @@ Sprint 1: Grunnmur og fem kjernekilder.
 | Statens vegvesen (regelverk og vegprosjekter) | Virker |
 | Innlandet fylkeskommune | Virker |
 | Statsforvalteren i Innlandet | Virker |
-| Regjeringen.no | Bygget, men regjeringen.no avviser GitHub Actions (robotsjekk). Se sprintrapport 1 |
+| Regjeringen.no | Hentes fra GRUs PC, fordi regjeringen.no avviser GitHub Actions (robotsjekk) |
 
-Sprint 2: nettsiden er bygget. Publisering, ukentlig kjøring og flere kilder kommer i senere sprinter.
+Sprint 2: nettsiden er bygget.
+Sprint 3: ukentlig kjøring mandag kl. 10, publisering på
+https://shkorshavn.github.io/horingsoversikt-gru/, merket «Ny» og arkiv for utløpte høringer.
+
+## Slik oppdateres oversikten
+
+```
+Mandag kl. 10 (norsk tid)
+├─ «Ukentlig oppdatering» (GitHub)  henter Stortinget, Vegvesenet, fylkeskommunen
+│                                   og Statsforvalteren → data/kilder/
+├─ «Regjeringen.no (GRUs PC)»       henter regjeringen.no → data/kilder/
+│                                   (nye forsøk tirsdag–fredag hvis PC-en var av)
+└─ «Publiser» (startes av begge)    bygger data/horinger.json, status.json og arkiv.json,
+                                    og publiserer nettsiden på GitHub Pages
+```
+
+- Hver kilde har sin egen fil i `data/kilder/`. Feiler en kilde, beholdes høringene fra
+  forrige vellykkede henting, og `sist_ok` viser når det var.
+- `data/historikk.json` husker når hver høring ble sett første gang. Høringer som er sett
+  første gang de siste sju dagene, merkes «Ny».
+- Høringer med utløpt frist flyttes til `data/arkiv.json`.
+- GitHub bruker UTC. Arbeidsflytene startes både 08.00 og 09.00 UTC, og `horinger.tidsjekk`
+  slipper bare gjennom den som er kl. 10 norsk tid (sommer- og vintertid).
+- Oppsett av GitHub Pages og PC-en: `docs/oppsett-pc.md`.
+
+Alle arbeidsflytene kan også startes manuelt under **Actions → (arbeidsflyt) → Run workflow**.
+«Ukentlig oppdatering» og «Regjeringen.no (GRUs PC)» har feltet «simuler feil», der du kan
+skrive navnet på en kilde som skal late som den feiler. Det brukes bare til å teste
+feilhåndteringen. Kjør arbeidsflyten på nytt uten feltet etterpå.
 
 ## Nettsiden
 
 Siden består av `index.html` og mappen `side/` (stil, skript, logo), og leser
-`data/horinger.json` og `data/status.json`. Den har ingen eksterne avhengigheter og ingen
+`data/horinger.json` og `data/status.json`, og `data/arkiv.json` når brukeren vil se utløpte
+høringer (de siste 30 dagene). Den har ingen eksterne avhengigheter og ingen
 sporing. Farger og logo er hentet fra Gjøvikregionens designsystem.
 
 For å se siden lokalt må den åpnes via en webserver, fordi nettleseren ikke lar en lokal fil
@@ -38,8 +67,7 @@ og gå til http://localhost:8000.
 Filtrene lagres i adressen (f.eks. `?q=barnehage&niva=Regjeringen`), slik at en filtrert
 visning kan deles som lenke. Dagens dato og «dager igjen» regnes i norsk tid.
 
-`data/` inneholder foreløpig resultatet fra en testkjøring. Fra sprint 3 oppdateres filene av
-den ukentlige kjøringen.
+Er oversikten ikke oppdatert på mer enn ti dager, viser siden en advarsel øverst.
 
 ## Kjøre lokalt
 
@@ -47,13 +75,20 @@ Krever Python 3.11 eller nyere.
 
 ```bash
 pip install -r requirements.txt
-python -m horinger.kjor                        # alle aktive kilder
+python -m horinger.kjor                        # alle aktive kilder, og bygg
 python -m horinger.kjor --kilder Stortinget    # bare utvalgte kilder
+python -m horinger.kjor --maskin github --bare-kilder   # som arbeidsflyten på GitHub
+python -m horinger.bygg                        # bare bygg datafilene på nytt
 ```
 
-Resultatet skrives til `data/horinger.json` (åpne høringer, sortert på frist) og
-`data/status.json` (status per kilde). Datoer lagres i ISO 8601, og frister regnes i
-norsk tid.
+Innhentingen skriver ett resultat per kilde til `data/kilder/`. Byggingen lager
+`data/horinger.json` (åpne høringer, sortert på frist), `data/status.json` (status per kilde),
+`data/arkiv.json` (utløpte høringer) og `data/historikk.json` (når hver høring ble sett
+første gang). Datoer lagres i ISO 8601, og frister regnes i norsk tid. Filene skrives alltid
+med LF som linjeskift, også på Windows.
+
+`requirements-kjoring.txt` har det som trengs for å hente og bygge. `requirements.txt` har i
+tillegg verktøyene for testing.
 
 ## Tester og kodekvalitet
 
@@ -88,6 +123,7 @@ Alle kilder står i `sources.yaml`. En kilde hentes når den har `aktiv: true` o
 - `felles.user_agent`, `pause_sekunder` og `tidsavbrudd_sekunder` for alle kall
 - `felles.ekskluder_departementer`: departementer på regjeringen.no som ikke tas med
 - `felles.geografi`: kommunene og vegene som avgjør om en vegprosjekthøring er relevant
+- `kjoring` per kilde: `github` (standard) eller `pc` (hentes på GRUs PC)
 
 ### Legge til en kilde
 

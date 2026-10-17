@@ -1,5 +1,6 @@
 /* Høringer – Gjøvikregionen
    Leser data/horinger.json og data/status.json, filtrerer, sorterer og viser høringene.
+   data/arkiv.json (utløpte høringer) hentes først når brukeren vil se dem.
    Ingen eksterne avhengigheter. Datoer og «dager igjen» regnes i norsk tid. */
 (function () {
   "use strict";
@@ -9,8 +10,10 @@
   var KORTE_MANEDER = ["jan.", "feb.", "mars", "apr.", "mai", "juni", "juli", "aug.",
     "sep.", "okt.", "nov.", "des."];
   var STANDARD_PRIO = ["1", "2"];
+  var ARKIV_DAGER = 30;      // utløpte høringer vises så lenge
+  var UTDATERT_DAGER = 10;   // advarsel når oversikten er eldre enn dette
 
-  var tilstand = { horinger: [], status: null, iDag: null };
+  var tilstand = { horinger: [], arkiv: null, arkivFeilet: false, status: null, iDag: null };
 
   // ---------- Datoer ----------
 
@@ -47,7 +50,16 @@
       timeZone: "Europe/Oslo", year: "numeric", month: "numeric", day: "numeric",
       hour: "2-digit", minute: "2-digit", hourCycle: "h23"
     }).formatToParts(t).forEach(function (x) { p[x.type] = x.value; });
-    return p.day + ". " + MANEDER[+p.month - 1] + " " + p.year + " kl. " + p.hour + "." + p.minute;
+    return +p.day + ". " + MANEDER[+p.month - 1] + " " + p.year + " kl. " + p.hour + "." + p.minute;
+  }
+
+  /** Datoen (ÅÅÅÅ-MM-DD) et tidspunkt med tidssone faller på i norsk tid. */
+  function osloDato(iso) {
+    var t = new Date(iso);
+    if (isNaN(t)) return null;
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Oslo", year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(t);
   }
 
   /** Fristklasse etter antall dager igjen: under 14, 14–30, over 30. */
@@ -124,7 +136,7 @@
     if (v.kategori && h.kategori !== v.kategori) return false;
     if (v.niva && h.niva !== v.niva) return false;
     if (v.prio.indexOf(String(h.prioritet)) === -1) return false;
-    if (!v.utlopte && h.dager !== null && h.dager < 0) return false;
+    if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
       var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori].join(" "));
       var ord = normaliser(v.q).split(/\s+/);
@@ -170,7 +182,11 @@
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
-    var tittel = el("h2", null, [trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel })]);
+    var tittel = el("h2", null, [
+      trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel }),
+      h.ny ? document.createTextNode(" ") : null,
+      h.ny ? el("span", { klasse: "ny-merke", tekst: "Ny" }) : null
+    ]);
     var detaljer = el("p", { klasse: "detaljer" }, [
       h.kategori ? el("span", { klasse: "tema", tekst: h.kategori }) : null,
       h.frist_tekst ? el("span", { tekst: h.frist_tekst }) : null,
@@ -198,15 +214,19 @@
     liste.textContent = "";
     utvalg.forEach(function (h) { liste.appendChild(hoeringsrad(h)); });
 
-    var apne = tilstand.horinger.filter(function (h) { return h.dager === null || h.dager >= 0; }).length;
+    var apne = tilstand.horinger.filter(erApen).length;
+    var nye = tilstand.horinger.filter(function (h) { return erApen(h) && h.ny; }).length;
     var antall = document.getElementById("antall");
     antall.textContent = utvalg.length === 1
       ? "Viser 1 høring"
       : "Viser " + utvalg.length + " høringer";
-    antall.textContent += " (" + apne + " åpne totalt)";
+    antall.textContent += " (" + apne + " åpne totalt" + (nye ? ", " + nye + (nye === 1 ? " ny" : " nye") + " siste uke" : "") + ")";
+    if (v.utlopte && tilstand.arkivFeilet) antall.textContent += ". Høringer med utløpt frist kunne ikke hentes.";
     document.getElementById("tom").hidden = utvalg.length > 0;
     document.getElementById("eksport").disabled = utvalg.length === 0;
   }
+
+  function erApen(h) { return h.dager === null || h.dager >= 0; }
 
   function fyllValg(id, verdier) {
     var s = document.getElementById(id);
@@ -231,6 +251,32 @@
     return "Innhentingen feilet.";
   }
 
+  /** Statuscellen for én kilde: merke og en kort forklaring. */
+  function statusCelle(k) {
+    var celle = el("td");
+    var tekst = null, merke;
+    if (k.status === "ok") merke = el("span", { klasse: "merke ok", tekst: "Hentet" });
+    else if (k.status === "ikke hentet") {
+      merke = el("span", { klasse: "merke venter", tekst: "Ikke hentet ennå" });
+    } else if (k.status === "utdatert") {
+      merke = el("span", { klasse: "merke utdatert", tekst: "Utdatert" });
+      tekst = "Ikke hentet på mer enn en uke. Høringene kan være utdaterte.";
+    } else {
+      merke = el("span", { klasse: "merke feil", tekst: "Feil" });
+      tekst = feilforklaring(k.feil) + (k.sist_ok
+        ? " Viser høringene fra " + norskTidspunkt(k.sist_ok) + "."
+        : " Høringene herfra mangler i listen.");
+    }
+    celle.appendChild(merke);
+    if (tekst) celle.appendChild(el("span", { klasse: "feiltekst", tekst: tekst }));
+    // På smal skjerm skjules kolonnen «Sist hentet», og tidspunktet vises her i stedet.
+    if (k.sist_ok) celle.appendChild(el("span", { klasse: "statustekst bare-smal", tekst: "Sist hentet " + norskTidspunkt(k.sist_ok) }));
+    if (k.kjoring === "pc" && k.status !== "ok") {
+      celle.appendChild(el("span", { klasse: "statustekst", tekst: "Hentes fra en PC hos Gjøvikregionen Utvikling, som må være på." }));
+    }
+    return celle;
+  }
+
   function tegnStatus(status) {
     var tbody = document.querySelector("#status-tabell tbody");
     var inaktiveListe = document.getElementById("inaktive-liste");
@@ -239,19 +285,16 @@
     var kilder = (status && status.kilder) || [];
     var aktive = kilder.filter(function (k) { return k.status !== "ikke overvåket"; });
     var inaktive = kilder.filter(function (k) { return k.status === "ikke overvåket"; });
-    var feil = aktive.filter(function (k) { return k.status === "feil"; }).length;
+    var feil = aktive.filter(function (k) { return k.status === "feil" || k.status === "utdatert"; }).length;
 
     aktive.forEach(function (k) {
-      var ok = k.status === "ok";
-      var statusCelle = el("td", null, [el("span", { klasse: "merke " + (ok ? "ok" : "feil"), tekst: ok ? "Hentet" : "Feil" })]);
-      if (!ok) statusCelle.appendChild(el("span", { klasse: "feiltekst", tekst: feilforklaring(k.feil) }));
-      var apne = tilstand.horinger.filter(function (h) {
-        return h.kilde === k.kilde && (h.dager === null || h.dager >= 0);
-      }).length;
+      var harData = k.status === "ok" || !!k.sist_ok;
+      var apne = tilstand.horinger.filter(function (h) { return h.kilde === k.kilde && erApen(h); }).length;
       tbody.appendChild(el("tr", null, [
         el("th", { scope: "row", tekst: k.kilde }),
-        statusCelle,
-        el("td", { klasse: "tall", tekst: ok ? String(apne) : "–" })
+        statusCelle(k),
+        el("td", { klasse: "kol-tid", tekst: k.sist_ok ? norskTidspunkt(k.sist_ok) : "–" }),
+        el("td", { klasse: "tall", tekst: harData ? String(apne) : "–" })
       ]));
     });
     inaktive.forEach(function (k) { inaktiveListe.appendChild(el("li", { tekst: k.kilde })); });
@@ -259,9 +302,20 @@
     document.getElementById("inaktive").hidden = inaktive.length === 0;
 
     var ingress = aktive.length + " kilder overvåkes automatisk.";
-    if (feil) ingress += " " + feil + (feil === 1 ? " kilde" : " kilder") + " kunne ikke hentes ved siste oppdatering, og høringene derfra mangler i listen.";
+    if (feil) ingress += " " + feil + (feil === 1 ? " kilde" : " kilder") + " kunne ikke hentes ved siste oppdatering. Se forklaringen i tabellen.";
     if (status && status.generert) ingress += " Sist oppdatert " + norskTidspunkt(status.generert) + ".";
     document.getElementById("status-ingress").textContent = ingress;
+  }
+
+  /** Advarsel øverst når oversikten ikke er oppdatert på lenge. */
+  function sjekkAlder(generert) {
+    var boks = document.getElementById("advarsel");
+    var dato = generert ? osloDato(generert) : null;
+    var alder = dato ? dagerMellom(dato, tilstand.iDag) : null;
+    boks.hidden = !(alder !== null && alder > UTDATERT_DAGER);
+    if (!boks.hidden) {
+      boks.textContent = "Oversikten er ikke oppdatert på " + alder + " dager. Nye høringer kan mangle, og frister kan være endret.";
+    }
   }
 
   // ---------- CSV ----------
@@ -305,6 +359,36 @@
     });
   }
 
+  function medDager(h) {
+    h.frist = h.frist ? String(h.frist).slice(0, 10) : null;
+    h.dager = h.frist ? dagerMellom(tilstand.iDag, h.frist) : null;
+    return h;
+  }
+
+  /** Henter arkivet med utløpte høringer første gang de skal vises. */
+  function hentArkiv() {
+    if (tilstand.arkiv !== null || tilstand.arkivFeilet) return Promise.resolve();
+    return hentJson("data/arkiv.json").then(function (data) {
+      var finnes = {};
+      tilstand.horinger.forEach(function (h) { finnes[h.id] = true; });
+      tilstand.arkiv = (data.horinger || []).map(medDager).filter(function (h) {
+        return !finnes[h.id] && h.dager !== null && h.dager < 0 && h.dager >= -ARKIV_DAGER;
+      });
+      tilstand.horinger = tilstand.horinger.concat(tilstand.arkiv);
+    }).catch(function () { tilstand.arkivFeilet = true; }).then(function () {
+      document.documentElement.setAttribute("data-arkiv", tilstand.arkivFeilet ? "feil" : "1");
+    });
+  }
+
+  function oppdater() {
+    if (lesFiltre().utlopte && tilstand.arkiv === null && !tilstand.arkivFeilet) {
+      tegn();
+      hentArkiv().then(tegn);
+    } else {
+      tegn();
+    }
+  }
+
   function nullstill() {
     settFiltre({ q: "", kategori: "", niva: "", prio: STANDARD_PRIO.slice(), utlopte: false });
     tegn();
@@ -314,8 +398,8 @@
   function start() {
     tilstand.iDag = dagensDato();
     var f = skjema();
-    f.addEventListener("input", tegn);
-    f.addEventListener("change", tegn);
+    f.addEventListener("input", oppdater);
+    f.addEventListener("change", oppdater);
     f.addEventListener("submit", function (e) { e.preventDefault(); });
     document.getElementById("nullstill").addEventListener("click", nullstill);
     document.getElementById("nullstill-tom").addEventListener("click", nullstill);
@@ -338,17 +422,17 @@
         document.getElementById("antall").textContent = "";
       } else {
         var data = svar[0].value;
-        tilstand.horinger = (data.horinger || []).map(function (h) {
-          h.frist = h.frist ? String(h.frist).slice(0, 10) : null;
-          h.dager = h.frist ? dagerMellom(tilstand.iDag, h.frist) : null;
-          return h;
-        });
+        tilstand.horinger = (data.horinger || []).map(medDager);
         oppdatert.textContent = data.generert ? "Oppdatert " + norskTidspunkt(data.generert) + "." : "";
+        sjekkAlder(data.generert);
         fyllValg("kategori", unike("kategori"));
         fyllValg("niva", unike("niva"));
         settFiltre(filtreFraAdresse());
-        tegn();
       }
+      var utlopte = svar[0].status === "fulfilled" && lesFiltre().utlopte;
+      return (utlopte ? hentArkiv() : Promise.resolve()).then(function () { return svar; });
+    }).then(function (svar) {
+      if (svar[0].status === "fulfilled") tegn();
       if (svar[1].status === "fulfilled") {
         tegnStatus(svar[1].value);
       } else {

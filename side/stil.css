@@ -72,6 +72,11 @@ a:hover { text-decoration-thickness: 2px; }
 h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.35rem; font-weight: 700; letter-spacing: -0.01em; }
 .ingress { margin: 0 0 0.5rem; }
 .oppdatert { margin: 0; color: var(--skog-300); font-size: 0.9375rem; }
+.advarsel {
+  margin: 0.75rem 0 0; padding: 0.6rem 0.8rem; border-radius: 6px;
+  background: var(--oransje-100); color: var(--burgunder); border-left: 6px solid var(--oransje-700);
+  font-size: 0.9375rem; font-weight: 600;
+}
 
 /* ---------- Ramme ---------- */
 
@@ -164,6 +169,11 @@ input[type="search"]::placeholder { color: var(--skog-300); }
 .instans { margin: 0 0 0.35rem; font-weight: 600; font-size: 0.9375rem; }
 .beskrivelse { margin: 0 0 0.45rem; max-width: 65ch; }
 .detaljer { margin: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; font-size: 0.875rem; color: var(--skog-300); }
+.ny-merke {
+  display: inline-block; vertical-align: 0.15em; margin-left: 0.45rem;
+  background: var(--rosa-700); color: var(--burgunder); border-radius: 4px;
+  padding: 0 0.4rem; font-size: 0.75rem; font-weight: 700; line-height: 1.5;
+}
 .tema { background: var(--turkis-300); color: var(--skog-700); border-radius: 4px; padding: 0.05rem 0.45rem; }
 
 /* ---------- Meldinger ---------- */
@@ -185,7 +195,13 @@ thead th { background: var(--turkis-300); }
 .tall { text-align: right; font-variant-numeric: tabular-nums; }
 .merke { display: inline-block; border-radius: 4px; padding: 0.05rem 0.45rem; font-weight: 600; font-size: 0.8125rem; }
 .merke.ok { background: var(--gronn-100); }
-.merke.feil { background: var(--oransje-100); color: var(--burgunder); }
+.merke.feil,
+.merke.utdatert { background: var(--oransje-100); color: var(--burgunder); }
+.merke.venter { background: transparent; border: 1px dashed var(--skog-300); }
+
+.statustekst { display: block; margin-top: 0.25rem; color: var(--skog-300); font-size: 0.8125rem; }
+.statustekst.bare-smal { display: none; }
+
 .feiltekst { display: block; margin-top: 0.25rem; color: var(--burgunder); font-size: 0.8125rem; }
 #inaktive { margin-top: 1rem; }
 #inaktive summary { cursor: pointer; font-weight: 600; padding: 0.4rem 0; }
@@ -216,6 +232,8 @@ thead th { background: var(--turkis-300); }
   .frist .dag { font-size: 1.75rem; }
   .inaktive-liste { columns: 1; }
   th, td { padding: 0.5rem; }
+  .kol-tid { display: none; }
+  .statustekst.bare-smal { display: block; }
 }
 
 @media print {

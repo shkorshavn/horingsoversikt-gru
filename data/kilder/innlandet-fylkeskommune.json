@@ -1,0 +1,39 @@
+{
+  "kilde": "Innlandet fylkeskommune",
+  "status": "ok",
+  "hentet": "2026-10-17T17:07:43+02:00",
+  "antall": 2,
+  "horinger": [
+    {
+      "kilde": "Innlandet fylkeskommune",
+      "kategori": "Regionale ledd",
+      "prioritet": 1,
+      "instans": "Innlandet fylkeskommune",
+      "tittel": "Planprogram på høring: Regional plan for nettinfrastrukturen for energi",
+      "lenke": "https://innlandetfylke.no/politikk/horinger/planprogram-pa-horing-regional-plan-for-nettinfrastrukturen-for-energi.81920.aspx",
+      "frist": "2026-11-11",
+      "frist_tekst": "Høringsfrist er 11. november 2026.",
+      "publisert": null,
+      "ingress": "Planprogrammet er første fase av arbeidet med regional plan. Høringsfrist er 11. november 2026.",
+      "hentet": "2026-10-17T17:07:39+02:00",
+      "niva": "Fylkeskommunen",
+      "id": "defdb6b438fe"
+    },
+    {
+      "kilde": "Innlandet fylkeskommune",
+      "kategori": "Regionale ledd",
+      "prioritet": 1,
+      "instans": "Innlandet fylkeskommune",
+      "tittel": "Oppstart av reguleringsplanarbeid for fv. 213 Skog bru i Ringsaker kommune",
+      "lenke": "https://innlandetfylke.no/politikk/horinger/oppstart-av-reguleringsplanarbeid-for-fv-213-skog-bru-i-ringsaker-kommune.82328.aspx",
+      "frist": "2026-11-13",
+      "frist_tekst": "Frist for innspill til planarbeidet er 13. november 2026.",
+      "publisert": null,
+      "ingress": "Målet er å skifte ut eksisterende Skog bru med ny bru eller kulvert i samme trasé. Frist for innspill til planarbeidet er 13. november 2026.",
+      "hentet": "2026-10-17T17:07:39+02:00",
+      "niva": "Fylkeskommunen",
+      "id": "72aaf5ad5099"
+    }
+  ],
+  "sist_ok": "2026-10-17T17:07:43+02:00"
+}

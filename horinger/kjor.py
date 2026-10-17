@@ -1,119 +1,106 @@
-"""Kjører alle aktive kilder og skriver data/horinger.json og data/status.json.
+"""Henter høringer fra kildene og lagrer resultatet per kilde i data/kilder/.
+
+Bygger også nettsidens datafiler (se bygg.py), med mindre --bare-kilder er satt.
 
 Bruk:
-    python -m horinger.kjor                       # alle aktive kilder
-    python -m horinger.kjor --kilder Stortinget   # bare utvalgte kilder
-    python -m horinger.kjor --raa raa/            # lagrer også rå svar fra kildene
+    python -m horinger.kjor                          # alle aktive kilder
+    python -m horinger.kjor --maskin github          # kildene som hentes på GitHub
+    python -m horinger.kjor --maskin pc --bare-kilder  # regjeringen.no på Sveins PC
+    python -m horinger.kjor --kilder Stortinget      # bare utvalgte kilder
+    python -m horinger.kjor --raa raa/               # lagrer også rå svar fra kildene
+
+Miljøvariabelen HORINGER_SIMULER_FEIL=<kildenavn> gjør én kilde utilgjengelig i kjøringen.
+Den brukes bare til å teste feilhåndteringen.
 """
 
 from __future__ import annotations
 
 import argparse
-import json
 import logging
+import os
 import time
 import traceback
 from datetime import datetime
 from pathlib import Path
 
-import yaml
-
 from horinger import OSLO
-from horinger.datoer import i_dag
+from horinger.bygg import bygg
+from horinger.filer import les_konfig
 from horinger.kilder import KILDER
-from horinger.modell import Hoering
+from horinger.lager import lagre_kilde
 from horinger.nett import Nett
+
+__all__ = ["les_konfig", "kjor_kilder", "hent_kilde", "velg_kilder", "main"]
 
 log = logging.getLogger("horinger")
 
 ROT = Path(__file__).resolve().parent.parent
 
 
-def les_konfig(sti: Path) -> dict:
-    """Leser sources.yaml."""
-    with open(sti, encoding="utf-8") as fil:
-        return yaml.safe_load(fil)
+class SimulertFeil(Exception):
+    """Brukes når HORINGER_SIMULER_FEIL er satt for en kilde."""
+
+
+def velg_kilder(
+    konfig: dict, utvalg: list[str] | None = None, maskin: str | None = None
+) -> list[dict]:
+    """Aktive kilder med modul, filtrert på navn og på hvilken maskin de hentes fra."""
+    valgt = []
+    for k in konfig["kilder"]:
+        if not k.get("aktiv") or k.get("modul") not in KILDER:
+            continue
+        if utvalg and k["navn"] not in utvalg:
+            continue
+        if maskin and maskin != "alle" and k.get("kjoring", "github") != maskin:
+            continue
+        valgt.append(k)
+    return valgt
+
+
+def hent_kilde(
+    kilde_konfig: dict, nett: Nett, felles: dict, simuler_feil: str | None = None
+) -> dict:
+    """Henter én kilde. Feil fanges og returneres som status, slik at resten kan fortsette."""
+    navn = kilde_konfig["navn"]
+    start = time.monotonic()
+    hentet = datetime.now(OSLO).replace(microsecond=0).isoformat()
+    try:
+        if simuler_feil and simuler_feil == navn:
+            raise SimulertFeil(f"Simulert feil for {navn} (HORINGER_SIMULER_FEIL)")
+        funnet = KILDER[kilde_konfig["modul"]](kilde_konfig, nett, felles).hent()
+        log.info("%s: %d høringer", navn, len(funnet))
+        return {
+            "kilde": navn,
+            "status": "ok",
+            "hentet": hentet,
+            "antall": len(funnet),
+            "sekunder": round(time.monotonic() - start, 1),
+            "horinger": [h.til_dict() for h in funnet],
+        }
+    except Exception as feil:  # noqa: BLE001 – én kilde skal aldri stoppe resten
+        log.error("%s feilet: %s", navn, feil)
+        log.debug(traceback.format_exc())
+        return {
+            "kilde": navn,
+            "status": "feil",
+            "hentet": hentet,
+            "antall": 0,
+            "feil": f"{type(feil).__name__}: {feil}",
+            "sekunder": round(time.monotonic() - start, 1),
+            "horinger": [],
+        }
 
 
 def kjor_kilder(
-    konfig: dict, nett: Nett, utvalg: list[str] | None = None
-) -> tuple[list[Hoering], list[dict]]:
-    """Kjører kildene og samler høringer og status. Én feil stopper ikke resten."""
+    konfig: dict,
+    nett: Nett,
+    utvalg: list[str] | None = None,
+    maskin: str | None = None,
+    simuler_feil: str | None = None,
+) -> list[dict]:
+    """Henter de valgte kildene etter tur."""
     felles = konfig.get("felles", {})
-    alle: list[Hoering] = []
-    status: list[dict] = []
-    for kilde_konfig in konfig["kilder"]:
-        navn = kilde_konfig["navn"]
-        if utvalg and navn not in utvalg:
-            continue
-        modul = kilde_konfig.get("modul")
-        if not kilde_konfig.get("aktiv") or modul not in KILDER:
-            status.append({"kilde": navn, "status": "ikke overvåket", "antall": 0})
-            continue
-        start = time.monotonic()
-        try:
-            kilde = KILDER[modul](kilde_konfig, nett, felles)
-            funnet = kilde.hent()
-            alle.extend(funnet)
-            status.append(
-                {
-                    "kilde": navn,
-                    "status": "ok",
-                    "antall": len(funnet),
-                    "sekunder": round(time.monotonic() - start, 1),
-                }
-            )
-            log.info("%s: %d høringer", navn, len(funnet))
-        except Exception as feil:  # noqa: BLE001 – én kilde skal aldri stoppe resten
-            log.error("%s feilet: %s", navn, feil)
-            log.debug(traceback.format_exc())
-            status.append(
-                {
-                    "kilde": navn,
-                    "status": "feil",
-                    "antall": 0,
-                    "feil": f"{type(feil).__name__}: {feil}",
-                    "sekunder": round(time.monotonic() - start, 1),
-                }
-            )
-    return alle, status
-
-
-def rydd(horinger: list[Hoering]) -> list[Hoering]:
-    """Fjerner utløpte høringer og duplikater, og sorterer på frist."""
-    i_dag_ = i_dag()
-    unike: dict[str, Hoering] = {}
-    for h in horinger:
-        if h.frist is not None and h.frist < i_dag_:
-            continue
-        unike.setdefault(h.id, h)
-    return sorted(unike.values(), key=lambda h: (h.frist is None, h.frist or i_dag_, h.tittel))
-
-
-def skriv(horinger: list[Hoering], status: list[dict], mappe: Path, antall_kall: int) -> None:
-    """Skriver horinger.json og status.json i UTF-8."""
-    mappe.mkdir(parents=True, exist_ok=True)
-    generert = datetime.now(OSLO).replace(microsecond=0).isoformat()
-    (mappe / "horinger.json").write_text(
-        json.dumps(
-            {
-                "generert": generert,
-                "antall": len(horinger),
-                "horinger": [h.til_dict() for h in horinger],
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
-    (mappe / "status.json").write_text(
-        json.dumps(
-            {"generert": generert, "antall_kall": antall_kall, "kilder": status},
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    return [hent_kilde(k, nett, felles, simuler_feil) for k in velg_kilder(konfig, utvalg, maskin)]
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -121,23 +108,44 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--konfig", type=Path, default=ROT / "sources.yaml")
     parser.add_argument("--utdata", type=Path, default=ROT / "data")
+    parser.add_argument("--kildemappe", type=Path, help="Standard: <utdata>/kilder")
     parser.add_argument("--kilder", nargs="*", help="Kjør bare disse kildene (navn)")
+    parser.add_argument(
+        "--maskin",
+        choices=["alle", "github", "pc"],
+        default="alle",
+        help="Kjør bare kildene som hentes fra denne maskinen (feltet `kjoring`)",
+    )
+    parser.add_argument(
+        "--bare-kilder", action="store_true", help="Lagre kilderesultatene uten å bygge"
+    )
     parser.add_argument("--raa", type=Path, help="Mappe for rå svar fra kildene")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     konfig = les_konfig(args.konfig)
     felles = konfig.get("felles", {})
+    kildemappe = args.kildemappe or args.utdata / "kilder"
     nett = Nett(
         user_agent=felles["user_agent"],
         pause=float(felles.get("pause_sekunder", 1.0)),
         tidsavbrudd=float(felles.get("tidsavbrudd_sekunder", 30)),
         raa_mappe=args.raa,
     )
-    horinger, status = kjor_kilder(konfig, nett, args.kilder)
-    horinger = rydd(horinger)
-    skriv(horinger, status, args.utdata, nett.antall_kall)
-    log.info("Ferdig: %d åpne høringer, %d kall", len(horinger), nett.antall_kall)
+    simuler = os.environ.get("HORINGER_SIMULER_FEIL", "").strip() or None
+    resultater = kjor_kilder(konfig, nett, args.kilder, args.maskin, simuler)
+    for r in resultater:
+        lagre_kilde(kildemappe, r)
+    feil = [r["kilde"] for r in resultater if r["status"] != "ok"]
+    log.info(
+        "Hentet %d kilder (%d med feil: %s), %d kall",
+        len(resultater),
+        len(feil),
+        ", ".join(feil) or "ingen",
+        nett.antall_kall,
+    )
+    if not args.bare_kilder:
+        bygg(konfig, kildemappe, args.utdata)
     return 0
 
 

@@ -1,13 +1,13 @@
 import json
-from datetime import date, timedelta
+from datetime import timedelta
 
 import requests
+import yaml
 
 from horinger import kilder
 from horinger.datoer import i_dag
 from horinger.kilder.base import Kilde
-from horinger.kjor import kjor_kilder, rydd, skriv
-from horinger.modell import Hoering
+from horinger.kjor import kjor_kilder, main, velg_kilder
 
 
 class GodKilde(Kilde):
@@ -41,44 +41,66 @@ def _konfig():
 def test_en_feil_stopper_ikke_resten(monkeypatch):
     monkeypatch.setitem(kilder.KILDER, "god", GodKilde)
     monkeypatch.setitem(kilder.KILDER, "feil", FeilendeKilde)
-    horinger, status = kjor_kilder(_konfig(), nett=None)
-    assert len(horinger) == 1
-    per_kilde = {s["kilde"]: s for s in status}
+    resultater = kjor_kilder(_konfig(), nett=None)
+    per_kilde = {r["kilde"]: r for r in resultater}
+    assert set(per_kilde) == {"Feiler", "God"}  # inaktive kilder hentes ikke
     assert per_kilde["Feiler"]["status"] == "feil"
     assert "Timeout" in per_kilde["Feiler"]["feil"]
     assert per_kilde["God"]["status"] == "ok"
-    assert per_kilde["Av"]["status"] == "ikke overvåket"
+    assert per_kilde["God"]["horinger"][0]["tittel"] == "Høring om æ, ø og å"
 
 
-def _h(lenke, frist):
-    return Hoering(
-        kilde="k", kategori="", prioritet=1, instans="i", tittel=lenke, lenke=lenke, frist=frist
+def test_simulert_feil(monkeypatch):
+    monkeypatch.setitem(kilder.KILDER, "god", GodKilde)
+    monkeypatch.setitem(kilder.KILDER, "feil", FeilendeKilde)
+    resultater = kjor_kilder(_konfig(), nett=None, utvalg=["God"], simuler_feil="God")
+    assert resultater[0]["status"] == "feil"
+    assert "SimulertFeil" in resultater[0]["feil"]
+
+
+def test_velg_kilder_etter_maskin():
+    konfig = {
+        "kilder": [
+            {"navn": "A", "modul": "stortinget", "aktiv": True},
+            {"navn": "B", "modul": "regjeringen", "aktiv": True, "kjoring": "pc"},
+        ]
+    }
+    assert [k["navn"] for k in velg_kilder(konfig, maskin="github")] == ["A"]
+    assert [k["navn"] for k in velg_kilder(konfig, maskin="pc")] == ["B"]
+    assert [k["navn"] for k in velg_kilder(konfig, maskin="alle")] == ["A", "B"]
+
+
+def test_main_skriver_kildefil_og_bygger(monkeypatch, tmp_path):
+    monkeypatch.setitem(kilder.KILDER, "god", GodKilde)
+    monkeypatch.setitem(kilder.KILDER, "feil", FeilendeKilde)
+    konfig = tmp_path / "k.yaml"
+    konfig.write_text(
+        yaml.safe_dump({**_konfig(), "felles": {"user_agent": "test", "pause_sekunder": 0}}),
+        encoding="utf-8",
     )
+    monkeypatch.setenv("HORINGER_SIMULER_FEIL", "")
+    assert main(["--konfig", str(konfig), "--utdata", str(tmp_path)]) == 0
+    god = json.loads((tmp_path / "kilder" / "god.json").read_text(encoding="utf-8"))
+    assert god["status"] == "ok" and god["sist_ok"] == god["hentet"]
+    assert (tmp_path / "kilder" / "feiler.json").is_file()
+    data = json.loads((tmp_path / "horinger.json").read_text(encoding="utf-8"))
+    assert data["antall"] == 1
+    status = {s["kilde"]: s for s in json.loads((tmp_path / "status.json").read_text())["kilder"]}
+    assert status["Feiler"]["status"] == "feil"
+    assert status["God"]["antall"] == 1
 
 
-def test_rydd_fjerner_utlopte_og_duplikater():
-    i_dag_ = i_dag()
-    liste = [
-        _h("a", i_dag_ - timedelta(days=1)),
-        _h("b", i_dag_ + timedelta(days=5)),
-        _h("b", i_dag_ + timedelta(days=5)),
-        _h("c", i_dag_),
-        _h("d", None),
-    ]
-    resultat = [h.lenke for h in rydd(liste)]
-    assert resultat == ["c", "b", "d"]
-
-
-def test_skriv_utf8_og_iso(tmp_path):
-    h = _h("https://example.no/æøå", date(2026, 11, 11))
-    h.tittel = "Høring – Østre Toten"
-    skriv([h], [{"kilde": "k", "status": "ok", "antall": 1}], tmp_path, antall_kall=3)
-    tekst = (tmp_path / "horinger.json").read_text(encoding="utf-8")
-    assert "Høring – Østre Toten" in tekst
-    data = json.loads(tekst)
-    assert data["horinger"][0]["frist"] == "2026-11-11"
-    status = json.loads((tmp_path / "status.json").read_text(encoding="utf-8"))
-    assert status["antall_kall"] == 3
+def test_main_bare_kilder_bygger_ikke(monkeypatch, tmp_path):
+    monkeypatch.setitem(kilder.KILDER, "god", GodKilde)
+    monkeypatch.setitem(kilder.KILDER, "feil", FeilendeKilde)
+    konfig = tmp_path / "k.yaml"
+    konfig.write_text(
+        yaml.safe_dump({**_konfig(), "felles": {"user_agent": "test", "pause_sekunder": 0}}),
+        encoding="utf-8",
+    )
+    main(["--konfig", str(konfig), "--utdata", str(tmp_path), "--bare-kilder"])
+    assert (tmp_path / "kilder" / "god.json").is_file()
+    assert not (tmp_path / "horinger.json").exists()
 
 
 def test_niva_fra_konfig_kommer_med_i_json(tmp_path):

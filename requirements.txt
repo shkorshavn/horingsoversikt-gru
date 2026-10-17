@@ -1,7 +1,5 @@
-requests>=2.31
-beautifulsoup4>=4.12
-PyYAML>=6.0
-tzdata>=2024.1
+# Alt som trengs for utvikling og testing.
+-r requirements-kjoring.txt
 pytest>=8.0
 ruff>=0.6
 # Bare for testene av nettsiden. Versjonen må passe med nettleseren Playwright installerer.

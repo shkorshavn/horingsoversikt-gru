@@ -1,207 +1,250 @@
 {
-  "generert": "2026-10-17T17:07:43+02:00",
-  "antall_kall": 21,
+  "generert": "2026-10-17T17:34:38+02:00",
   "kilder": [
     {
       "kilde": "Stortinget",
+      "kjoring": "github",
       "status": "ok",
-      "antall": 64,
-      "sekunder": 6.2
+      "hentet": "2026-10-17T17:07:43+02:00",
+      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "antall": 29
     },
     {
       "kilde": "Regjeringen.no",
+      "kjoring": "pc",
       "status": "feil",
+      "hentet": "2026-10-17T17:07:43+02:00",
+      "sist_ok": null,
       "antall": 0,
-      "feil": "HTTPError: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1",
-      "sekunder": 1.6
+      "feil": "HTTPError: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1"
     },
     {
       "kilde": "Statens vegvesen",
+      "kjoring": "github",
       "status": "ok",
-      "antall": 448,
-      "sekunder": 13.7
+      "hentet": "2026-10-17T17:07:43+02:00",
+      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "antall": 5
     },
     {
       "kilde": "Nye Veier",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Jernbanedirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Bane NOR",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Nkom",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Miljødirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "NVE",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "DSB",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Landbruksdirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "DSA",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Utdanningsdirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "IMDi",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Bufdir",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Kulturdirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Riksantikvaren",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Nasjonalarkivet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Helsedirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "NAV",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Folkehelseinstituttet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Mattilsynet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Arbeidstilsynet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Statens helsetilsyn",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Digdir",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "DFØ",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "DiBK",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Kartverket",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "UDI",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Politidirektoratet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Innlandet politidistrikt",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Skatteetaten",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Datatilsynet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "SSB",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Konkurransetilsynet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Sivilombudet",
+      "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0
     },
     {
       "kilde": "Innlandet fylkeskommune",
+      "kjoring": "github",
       "status": "ok",
-      "antall": 2,
-      "sekunder": 1.9
+      "hentet": "2026-10-17T17:07:43+02:00",
+      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "antall": 2
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
+      "kjoring": "github",
       "status": "ok",
-      "antall": 0,
-      "sekunder": 1.9
+      "hentet": "2026-10-17T17:07:43+02:00",
+      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "antall": 0
     }
   ]
 }

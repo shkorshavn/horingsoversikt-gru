@@ -1,0 +1,4 @@
+# Lagre alle tekstfiler med LF, også når de skrives på Windows (GRUs PC).
+* text=auto eol=lf
+*.png binary
+*.svg text eol=lf

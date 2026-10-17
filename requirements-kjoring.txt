@@ -1,0 +1,5 @@
+# Det som trengs for å hente og bygge (brukes av arbeidsflytene og på GRUs PC).
+requests>=2.31
+beautifulsoup4>=4.12
+PyYAML>=6.0
+tzdata>=2024.1

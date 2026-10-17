@@ -1,0 +1,9 @@
+{
+  "kilde": "Regjeringen.no",
+  "status": "feil",
+  "hentet": "2026-10-17T17:07:43+02:00",
+  "antall": 0,
+  "horinger": [],
+  "feil": "HTTPError: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1",
+  "sist_ok": null
+}

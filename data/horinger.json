@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-17T17:07:43+02:00",
+  "generert": "2026-10-17T17:34:38+02:00",
   "antall": 36,
   "horinger": [
     {
@@ -15,7 +15,9 @@
       "ingress": "Skriftlig høring. Dokument 8:283 S (2025-2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "b86b5628e3d1"
+      "id": "b86b5628e3d1",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -30,7 +32,9 @@
       "ingress": "Skriftlig høring. Dokument 8:3 S (2026–2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "7b96a62136b2"
+      "id": "7b96a62136b2",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -45,7 +49,9 @@
       "ingress": "Skriftlig høring. Dokument 8:315 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "7b92f9af882d"
+      "id": "7b92f9af882d",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -60,7 +66,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 11 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "fdc8d62ff1ef"
+      "id": "fdc8d62ff1ef",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -75,7 +83,9 @@
       "ingress": "Skriftlig høring. Dokument 8:2 S (2026–2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "dd31e3365c74"
+      "id": "dd31e3365c74",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -90,7 +100,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 9 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "d75742ac6ef8"
+      "id": "d75742ac6ef8",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -105,7 +117,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 16 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "7a70777c9946"
+      "id": "7a70777c9946",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -120,7 +134,9 @@
       "ingress": "Skriftlig høring. Meld. St. 13 (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "68585951a2e7"
+      "id": "68585951a2e7",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -135,7 +151,9 @@
       "ingress": "Muntlig høring 04.11.2026. Prop. 112 L (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "2d6434f7897d"
+      "id": "2d6434f7897d",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -150,7 +168,9 @@
       "ingress": "Skriftlig høring. Prop. 108 L (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "3c5369341185"
+      "id": "3c5369341185",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -165,7 +185,9 @@
       "ingress": "Skriftlig høring. Dokument 8:278 S (2025-2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "f5a5f66e526d"
+      "id": "f5a5f66e526d",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -180,7 +202,9 @@
       "ingress": "Skriftlig høring. Dokument 8:305 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "e919a623344f"
+      "id": "e919a623344f",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -195,7 +219,9 @@
       "ingress": "Skriftlig høring. Dokument 8:292 S (2025-2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "385f0468346c"
+      "id": "385f0468346c",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -210,7 +236,9 @@
       "ingress": "Skriftlig høring. Dokument 8:286 S (2025-2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "4737296c2ae0"
+      "id": "4737296c2ae0",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -225,7 +253,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 13 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "b4a560af6edb"
+      "id": "b4a560af6edb",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -240,7 +270,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 12 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "665f3fa994af"
+      "id": "665f3fa994af",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -255,7 +287,9 @@
       "ingress": "Skriftlig høring. Dokument 8:321 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "e9a14bdd7b62"
+      "id": "e9a14bdd7b62",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -270,7 +304,9 @@
       "ingress": "Skriftlig høring. Dokument 8:304 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "67ec81a017fe"
+      "id": "67ec81a017fe",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -285,7 +321,9 @@
       "ingress": "Skriftlig høring. Prop. 111 LS (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "643a43b304c3"
+      "id": "643a43b304c3",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -300,7 +338,9 @@
       "ingress": "Skriftlig høring. Prop. 102 L (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "75567d8c825c"
+      "id": "75567d8c825c",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -315,7 +355,9 @@
       "ingress": "Skriftlig høring. Dokument 8:5 S (2026–2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "63cc40b248f7"
+      "id": "63cc40b248f7",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -330,7 +372,9 @@
       "ingress": "Skriftlig høring. Dokument 8:323 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "6998327d63dc"
+      "id": "6998327d63dc",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -345,7 +389,9 @@
       "ingress": "Skriftlig høring. Dokument 8:317 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "c3023dcf4511"
+      "id": "c3023dcf4511",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -360,7 +406,9 @@
       "ingress": "Skriftlig høring. Dokument 8:311 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "9cc5afca6a10"
+      "id": "9cc5afca6a10",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -375,7 +423,9 @@
       "ingress": "Skriftlig høring. Dokument 8:316 S (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "b58acb7cbf72"
+      "id": "b58acb7cbf72",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -390,7 +440,9 @@
       "ingress": "Skriftlig høring. Prop. 111 LS (2025–2026).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "06015c8343c1"
+      "id": "06015c8343c1",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -405,7 +457,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 14 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "b70f48dec37e"
+      "id": "b70f48dec37e",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -420,7 +474,9 @@
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 8 S (2026-2027).",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "29760107df50"
+      "id": "29760107df50",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -435,7 +491,9 @@
       "ingress": "Planprogrammet er første fase av arbeidet med regional plan. Høringsfrist er 11. november 2026.",
       "hentet": "2026-10-17T17:07:39+02:00",
       "niva": "Fylkeskommunen",
-      "id": "defdb6b438fe"
+      "id": "defdb6b438fe",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -450,7 +508,9 @@
       "ingress": "Målet er å skifte ut eksisterende Skog bru med ny bru eller kulvert i samme trasé. Frist for innspill til planarbeidet er 13. november 2026.",
       "hentet": "2026-10-17T17:07:39+02:00",
       "niva": "Fylkeskommunen",
-      "id": "72aaf5ad5099"
+      "id": "72aaf5ad5099",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Stortinget",
@@ -465,7 +525,9 @@
       "ingress": "Kontrollhøring. Muntlig høring 13.11.2026.",
       "hentet": "2026-10-17T17:07:18+02:00",
       "niva": "Stortinget",
-      "id": "ddda7ca52c53"
+      "id": "ddda7ca52c53",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Statens vegvesen",
@@ -480,7 +542,9 @@
       "ingress": "Forslag til regelendringer som skal bedre trafikksikkerheten og fremkommeligheten for hestebrukere og andre trafikanter. Referanse: 21/79414-62.",
       "hentet": "2026-10-17T17:07:25+02:00",
       "niva": "Direktorater og etater",
-      "id": "a1692dc49017"
+      "id": "a1692dc49017",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Statens vegvesen",
@@ -495,7 +559,9 @@
       "ingress": "Høringen omhandler endringer i ordningen for personlige kjennemerker. Referanse: 26-132234-8.",
       "hentet": "2026-10-17T17:07:25+02:00",
       "niva": "Direktorater og etater",
-      "id": "1ff7317cae1d"
+      "id": "1ff7317cae1d",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Statens vegvesen",
@@ -510,7 +576,9 @@
       "ingress": "Høringen gjelder utfasing av dispensasjonsordningen i førerkortforskriften vedlegg 1 § 45 tredje ledd. Referanse: 26-80489-6.",
       "hentet": "2026-10-17T17:07:25+02:00",
       "niva": "Direktorater og etater",
-      "id": "9cf0a0c2008e"
+      "id": "9cf0a0c2008e",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Statens vegvesen",
@@ -525,7 +593,9 @@
       "ingress": "Forslag til endringer i Statens vegvesens forskrifter ved gjennomføring av ny forvaltningslov. Referanse: 25-228389.",
       "hentet": "2026-10-17T17:07:25+02:00",
       "niva": "Direktorater og etater",
-      "id": "b7139428bdd0"
+      "id": "b7139428bdd0",
+      "forst_sett": "2026-10-17",
+      "ny": false
     },
     {
       "kilde": "Statens vegvesen",
@@ -540,7 +610,9 @@
       "ingress": "Forslag til å gjøre unntak fra forvaltningsloven og gi særskilte saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Referanse: 20-38820.",
       "hentet": "2026-10-17T17:07:25+02:00",
       "niva": "Direktorater og etater",
-      "id": "7bdc37294b5b"
+      "id": "7bdc37294b5b",
+      "forst_sett": "2026-10-17",
+      "ny": false
     }
   ]
 }

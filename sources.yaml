@@ -11,6 +11,7 @@
 #   url        liste- eller API-adresse
 #   metode     api | html | json-i-html | rss
 #   modul      kildemodul i horinger/kilder/ (bare for kilder som er bygget)
+#   kjoring    hvor kilden hentes: github (standard) eller pc (GRUs PC, se docs/oppsett-pc.md)
 #   aktiv      true = hentes i dag
 #   anbefalt   anbefaling fra kartleggingen: aktiv | inaktiv
 #   sprint     sprinten kilden bygges i
@@ -96,6 +97,7 @@ kilder:
     url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/
     metode: html
     modul: regjeringen
+    kjoring: pc  # Cloudflare stopper GitHub; hentes på GRUs PC (se docs/oppsett-pc.md)
     aktiv: true
     anbefalt: aktiv
     sprint: 1

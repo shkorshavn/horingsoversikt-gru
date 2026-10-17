@@ -1,0 +1,4 @@
+# Oppsett for actionlint (kontroll av arbeidsflytene). gru-pc er merkelappen til GRUs PC.
+self-hosted-runner:
+  labels:
+    - gru-pc

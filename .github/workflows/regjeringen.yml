@@ -1,0 +1,68 @@
+# Henter regjeringen.no på GRUs PC (Windows), fordi nettstedet stopper forespørsler fra
+# GitHubs servere. Oppsett av PC-en: docs/oppsett-pc.md.
+#
+# Kjøres mandag kl. 10 norsk tid, med nye forsøk tirsdag–fredag kl. 10 hvis regjeringen.no
+# ikke er hentet de siste seks dagene. Står PC-en av, venter jobben i kø (inntil 24 timer)
+# og kjøres når PC-en og runneren er på igjen.
+#
+# Sikkerhet: Arbeidsflyten startes bare av tidsplanen eller manuelt av noen med
+# skrivetilgang til repoet. Ingen arbeidsflyt i repoet kjører på PC-en for pull requests.
+name: Regjeringen.no (GRUs PC)
+
+on:
+  schedule:
+    - cron: "0 8 * * 1-5"
+    - cron: "0 9 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      simuler_feil:
+        description: "Bare for testing: skriv Regjeringen.no for å late som kilden feiler"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: regjeringen
+  cancel-in-progress: false
+
+jobs:
+  hent:
+    runs-on: [self-hosted, gru-pc]
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: powershell
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Installer avhengigheter
+        run: python -m pip install --user --disable-pip-version-check -r requirements-kjoring.txt
+
+      - name: Er det kl. 10 norsk tid, og trengs en ny henting?
+        id: tid
+        env:
+          HENDELSE: ${{ github.event_name }}
+          TIDSPLAN: ${{ github.event.schedule }}
+        run: python -m horinger.tidsjekk --hendelse "$env:HENDELSE" --cron "$env:TIDSPLAN" --kilde-fil data/kilder/regjeringen-no.json --krev-fersk
+
+      - name: Hent regjeringen.no
+        if: steps.tid.outputs.kjor == 'true'
+        env:
+          HORINGER_SIMULER_FEIL: ${{ inputs.simuler_feil }}
+        run: python -m horinger.kjor --maskin pc --bare-kilder
+
+      - name: Lagre resultatet
+        if: steps.tid.outputs.kjor == 'true'
+        run: >-
+          python verktoy/git_lagre.py data/kilder "Data: regjeringen.no hentet fra GRUs PC"
+
+      - name: Start publiseringen
+        if: steps.tid.outputs.kjor == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python verktoy/start_publisering.py

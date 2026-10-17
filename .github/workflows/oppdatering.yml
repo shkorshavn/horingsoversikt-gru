@@ -1,0 +1,66 @@
+# Ukentlig oppdatering: henter kildene som kan hentes fra GitHub, lagrer resultatet i
+# data/kilder/ og starter publiseringen.
+#
+# GitHub bruker UTC. Arbeidsflyten startes derfor både 08.00 og 09.00 UTC hver mandag, og
+# horinger.tidsjekk slipper bare gjennom den som tilsvarer kl. 10.00 norsk tid.
+# Regjeringen.no hentes ikke her, men på GRUs PC (se regjeringen.yml).
+name: Ukentlig oppdatering
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      simuler_feil:
+        description: "Bare for testing: navnet på en kilde som skal late som den feiler"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: oppdatering
+  cancel-in-progress: false
+
+jobs:
+  hent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Installer avhengigheter
+        run: pip install --disable-pip-version-check -r requirements-kjoring.txt
+
+      - name: Er det kl. 10 norsk tid?
+        id: tid
+        env:
+          HENDELSE: ${{ github.event_name }}
+          TIDSPLAN: ${{ github.event.schedule }}
+        run: python -m horinger.tidsjekk --hendelse "$HENDELSE" --cron "$TIDSPLAN"
+
+      - name: Hent kildene
+        if: steps.tid.outputs.kjor == 'true'
+        env:
+          HORINGER_SIMULER_FEIL: ${{ inputs.simuler_feil }}
+        run: python -m horinger.kjor --maskin github --bare-kilder
+
+      - name: Lagre resultatet
+        if: steps.tid.outputs.kjor == 'true'
+        run: >-
+          python verktoy/git_lagre.py data/kilder "Data: kildene hentet fra GitHub"
+
+      - name: Start publiseringen
+        if: steps.tid.outputs.kjor == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python verktoy/start_publisering.py

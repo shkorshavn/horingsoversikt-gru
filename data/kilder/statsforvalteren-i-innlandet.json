@@ -1,8 +1,9 @@
 {
   "kilde": "Statsforvalteren i Innlandet",
   "status": "ok",
-  "hentet": "2026-10-17T17:07:43+02:00",
+  "hentet": "2026-10-17T17:42:41+02:00",
   "antall": 0,
+  "sekunder": 1.8,
   "horinger": [],
-  "sist_ok": "2026-10-17T17:07:43+02:00"
+  "sist_ok": "2026-10-17T17:42:41+02:00"
 }

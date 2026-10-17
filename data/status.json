@@ -1,12 +1,12 @@
 {
-  "generert": "2026-10-17T17:42:14+02:00",
+  "generert": "2026-10-17T17:43:00+02:00",
   "kilder": [
     {
       "kilde": "Stortinget",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-17T17:07:43+02:00",
-      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "hentet": "2026-10-17T17:42:19+02:00",
+      "sist_ok": "2026-10-17T17:42:19+02:00",
       "antall": 29
     },
     {
@@ -22,8 +22,8 @@
       "kilde": "Statens vegvesen",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-17T17:07:43+02:00",
-      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "hentet": "2026-10-17T17:42:25+02:00",
+      "sist_ok": "2026-10-17T17:42:25+02:00",
       "antall": 5
     },
     {
@@ -234,16 +234,16 @@
       "kilde": "Innlandet fylkeskommune",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-17T17:07:43+02:00",
-      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "hentet": "2026-10-17T17:42:39+02:00",
+      "sist_ok": "2026-10-17T17:42:39+02:00",
       "antall": 2
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-17T17:07:43+02:00",
-      "sist_ok": "2026-10-17T17:07:43+02:00",
+      "hentet": "2026-10-17T17:42:41+02:00",
+      "sist_ok": "2026-10-17T17:42:41+02:00",
       "antall": 0
     }
   ]

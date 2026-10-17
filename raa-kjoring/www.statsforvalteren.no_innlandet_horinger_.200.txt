@@ -1,0 +1,639 @@
+
+<!DOCTYPE html>
+<html lang="nb" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1, shrink-to-fit=no, width=device-width" />
+    <meta name="title" content="H&#xF8;ringer" />
+    <meta name="description" content="" />
+    <meta name="rating" content="General" />
+    <meta name="google-site-verification" content="dgWlVd2WjTao8guTRmFElF2APf5CIECefEnOxN5beO4">
+    <meta property="og:title" content="Høringer"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.statsforvalteren.no/nb/innlandet/horinger/"/>
+<meta property="og:site_name" content="Statsforvalteren i Innlandet"/>
+<meta property="og:locale" content="nb_NO"/>
+<meta name="twitter:title" content="Høringer"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://www.statsforvalteren.no/nb/innlandet/horinger/"/>
+    <link rel="alternate" type="application/rss+xml" href="https://www.statsforvalteren.no/nb/innlandet/nyheter/rss" title="RSS for Statsforvalteren i Innlandet" />
+    <title>H&#xF8;ringer | Statsforvalteren i Innlandet</title>
+    <link rel="icon" type="image/png" sizes="48x48" href="/gfx/StatsforvalterenV2/favicon-48.png">
+    <link rel="icon" type="image/x-icon" sizes="any" href="/gfx/StatsforvalterenV2/favicon.ico">
+        <link rel="canonical" href="https://www.statsforvalteren.no/nb/innlandet/horinger/" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/css/StatsforvalterenV2/main.css?v=9ZKR3JsuMUA8wfYT5oScuyJappK9dawWb0CsU9d8HFs" />
+    <script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=effe446a-4ae7-4359-9cb0-06924e404566;IngestionEndpoint=https://norwayeast-0.in.applicationinsights.azure.com/;LiveEndpoint=https://norwayeast.livediagnostics.monitor.azure.com/;ApplicationId=47c19082-b391-4884-a285-033a3d8d554d', disableCookiesUsage: false }});
+</script>
+
+</head>
+<body>
+    
+    
+        
+    <header class="d-print-none">
+            <nav class="navbar navbar-expand-lg ds-py-0">
+                <div class="container ds-py-4">
+
+                    <div class="d-flex flex-nowrap justify-content-between align-items-center w-100">
+
+                        <!-- Navbar brand -->
+                        <a href="/nb/innlandet/" class="ds-navbar-brand-link d-flex align-items-center ds-gap-2" title="">
+                            <div>
+                                
+
+<svg class="ds-county-governor-icon" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 57 57" fill="none">
+    <g>
+            <path class="ds-county-governor-icon-background" d="M28.8714 56.3683C44.335 56.3683 56.8707 43.8326 56.8707 28.369C56.8707 12.9054 44.335 0.369629 28.8714 0.369629C13.4078 0.369629 0.87207 12.9054 0.87207 28.369C0.87207 43.8326 13.4078 56.3683 28.8714 56.3683Z" />
+            <path class="ds-county-governor-icon-foreground" d="M27.4971 14.1115C27.4971 14.1115 25.951 13.9395 25.6071 13.9395C25.2632 13.7676 24.7488 13.5956 24.7488 13.4237C24.7488 13.2518 24.7488 12.9079 25.0926 13.0798C25.4365 13.2518 25.6085 13.4237 26.2949 13.4237C26.6388 13.4237 26.9826 13.5956 27.1532 13.5956L27.4971 14.1115ZM14.0992 16.6892C14.4431 16.1734 16.1612 14.1128 17.0195 13.7689C17.5353 13.597 18.2218 13.597 18.2218 13.597V16.1734C18.0498 16.1734 17.7059 16.0014 17.3634 16.0014C17.0209 16.0014 15.9892 16.1734 15.9892 16.1734L15.4734 16.5173C16.3318 16.3453 16.6756 16.6892 16.6756 16.6892C16.6756 16.8611 16.8476 17.5476 17.0195 17.5476C17.1915 17.7195 18.0498 17.7195 18.0498 17.7195V18.0634C17.534 18.0634 16.6756 18.5792 16.5037 18.7511C16.1598 19.095 15.8159 19.7814 15.8159 19.7814L15.644 20.2972L15.8159 20.4692C15.8159 20.4692 16.1598 19.9534 16.3318 19.9534C16.6756 19.6095 17.0195 20.1253 17.1901 20.1253C17.3607 20.1253 17.534 19.9534 17.7059 19.7814L17.8779 19.6095V28.5423C17.0195 28.3704 16.3318 28.7142 16.1598 28.8862C15.9879 29.0581 15.8159 29.402 15.8159 29.402H16.8462C17.0182 29.402 17.3621 30.2604 17.3621 30.4323H17.8779V31.4626C17.8779 31.4626 17.7059 31.8065 17.534 31.9784C17.3621 32.3223 17.0182 33.3526 17.0182 33.3526L17.1901 33.6965C17.1901 33.6965 17.3621 33.3526 17.3621 33.1806C17.534 32.8368 17.7059 32.8368 17.7059 32.8368V35.5851H18.5643V32.6648L18.9082 32.8368C19.0801 32.6648 19.7665 31.2907 19.7665 31.2907C19.9385 31.2907 20.4543 31.4626 20.4543 31.4626L20.7982 32.8368H20.9701L27.3265 23.904L27.8423 24.2478L25.2659 27.8545C25.6098 28.3704 25.9537 28.7129 26.1243 29.0568C26.4681 29.9151 26.6401 31.1187 26.6401 31.1187V31.2907C25.9523 31.6345 23.7198 33.3526 23.7198 33.5232C23.3759 33.6951 22.6895 34.3815 22.5176 34.5535C22.0017 35.9277 22.0017 39.5357 22.1737 39.8783C22.1737 40.2221 22.6895 40.7366 22.6895 40.7366C22.6895 40.7366 22.5176 40.7366 22.3456 40.9086C22.1737 41.0805 21.3153 41.9389 21.3153 41.9389C20.7995 42.6266 18.9108 44.3433 18.9108 44.3433C18.395 44.3433 17.8805 44.1714 17.8805 44.1714V43.1411C17.8805 42.9691 17.8805 42.6253 17.7086 42.4533C17.5367 42.1095 17.1928 41.595 17.1928 41.595L16.3344 40.9072H15.8186L16.3344 41.423C16.5064 41.595 16.3344 41.9389 16.3344 41.9389C16.1625 42.1108 15.9906 42.4547 15.9906 42.6266C15.9906 42.7985 16.8489 43.6569 16.8489 43.6569L16.677 43.8288C16.677 43.8288 16.1612 43.485 15.8186 43.313L15.4747 43.1411C15.3028 43.1411 14.6164 43.313 14.4444 43.313C14.2725 43.313 13.5861 44.0008 13.5861 44.0008V44.5166C13.5861 44.5166 13.758 44.3447 13.93 44.3447C14.1019 44.3447 14.2738 44.1727 14.6177 44.1727C14.7896 44.1727 14.7896 44.3447 14.7896 44.3447C14.9616 44.6885 15.1335 44.8605 15.3055 45.0324C15.4774 45.0324 16.6796 44.8605 16.6796 44.8605L16.8516 45.0324C16.3358 45.2043 15.9932 45.7202 15.8213 45.8908C15.6493 46.0614 16.1652 46.7491 16.1652 46.7491C16.1652 47.093 15.3068 47.4369 15.3068 47.4369H15.8226C16.1665 47.2649 16.5104 47.2649 16.681 47.093L17.3687 46.4053L17.5407 45.7175C17.5407 45.3736 17.8845 45.5456 18.399 45.5456C18.6283 45.5456 18.7429 45.6029 18.7429 45.7175C18.7429 45.7175 18.7429 45.8894 18.9148 46.0614C18.9148 46.2333 19.0868 46.7491 19.0868 46.7491H19.2587C19.2587 46.7491 20.289 45.375 20.461 45.375C20.6329 45.203 24.5835 42.4547 24.5835 42.4547C24.9274 42.4547 25.0993 42.4547 25.4418 42.2827C25.9577 41.9388 26.4721 41.4244 26.4721 41.4244V40.566C26.4721 39.8783 26.6441 39.7076 26.816 39.3638C26.988 39.0199 27.5038 38.5054 27.6744 38.1615L27.8463 37.9896C27.8463 37.9896 26.816 36.7874 26.6441 36.4435C26.3002 35.9277 26.3002 35.4132 26.4721 35.0693C27.3305 32.149 27.8463 30.259 27.8463 30.0871V28.8848L28.5341 29.4007V30.431C28.5341 30.7748 28.0183 32.8354 27.8463 33.1793C27.5024 34.5535 26.988 35.7557 27.3305 36.0996C27.6744 36.7874 29.2205 38.3321 29.735 38.676C30.4227 39.0199 33.6856 38.848 33.8575 38.848C35.3459 39.0772 36.1474 39.3065 36.262 39.5357C36.4339 39.7076 37.8081 41.2538 38.152 41.5976C38.8397 42.2854 39.87 44.0021 39.87 44.0021L39.0117 44.174C38.3239 43.4863 37.8094 43.1438 37.4656 42.9718C36.7778 42.6279 36.0914 42.9718 35.7475 42.9718C35.2317 42.9718 35.0597 43.4876 35.0597 43.4876C35.4036 43.4876 35.9181 43.4876 36.09 43.6596C36.262 43.8315 36.262 44.3473 36.4339 44.3473C36.6059 44.5193 37.4642 44.5193 37.4642 44.5193V44.8631C37.2923 44.8631 36.4339 45.0351 36.09 45.0351C35.8608 45.1497 35.6889 45.2643 35.5742 45.379C35.4023 45.5509 34.8865 46.5812 34.8865 46.5812L35.0584 46.9251C35.0584 46.7531 35.9168 46.2373 35.9168 46.2373C36.0887 46.5812 36.4326 46.5812 36.6045 46.5812C37.1203 46.4093 37.8068 45.5509 37.8068 45.5509L38.1506 45.7228L37.8068 46.2386C37.2909 46.7545 37.6348 47.9567 37.6348 47.9567C37.8068 47.9567 37.9787 48.1286 37.9787 48.1286C37.8068 47.7848 38.3226 47.0983 38.3226 47.0983C38.6665 47.2703 39.0103 47.0983 39.1809 46.9264C39.5248 46.7545 39.5248 45.3803 39.5248 45.3803L41.0709 45.0364L42.9609 45.3803L43.1329 45.0364L42.789 44.6925C42.2732 43.8342 42.1012 43.6622 41.9306 43.3184C41.4148 42.1161 39.5262 38.852 39.5262 38.68V37.9923C39.5262 37.8203 38.8384 36.962 38.4959 36.6181C38.152 36.2742 37.4656 36.2742 37.4656 36.2742C36.4353 35.5865 35.4036 34.9 35.4036 34.7281C35.0597 34.2123 33.5136 32.6662 33.1711 32.3236C32.9991 32.1517 31.453 30.7775 31.453 30.7775L32.1408 30.6056C32.1408 30.6056 33.515 31.8078 33.6869 31.9797C34.2027 32.4956 35.233 33.01 35.5769 33.182C38.4972 35.072 39.8714 35.072 40.0433 35.072C42.1052 35.2439 42.9636 34.0417 43.1355 33.8697C43.6513 33.3539 44.3378 31.8078 43.1355 29.9191C42.7917 29.4033 41.4175 27.5147 41.4175 27.5147L44.1658 25.9686V25.6247L42.9636 25.9686C42.9636 25.9686 42.1052 25.7966 41.7614 25.7966H41.4175L40.5591 25.9686V25.6247L44.3378 23.5627V23.0469C44.3378 23.0469 43.1355 23.3908 42.9636 23.3908C42.7917 23.3908 41.9333 23.2189 41.5894 23.2189H41.0736L40.2152 23.3908V23.0469L44.5097 20.6425L44.6816 20.2986L43.3075 20.6425C43.3075 20.6425 42.1052 20.2986 42.1052 20.4705L41.2469 20.6425H41.0749C41.0749 20.4705 42.621 18.5805 42.621 18.4099C43.3088 17.7222 43.9952 16.5199 44.1672 16.348C45.8852 13.5996 44.8549 11.8816 44.511 11.5377C43.1369 9.30517 40.7324 9.81966 40.3885 9.81966C38.156 10.5074 38.156 12.7399 38.156 12.9119C38.156 13.0838 38.156 13.2558 37.8121 13.4277C37.2963 13.9435 36.266 16.0041 36.266 16.0041H36.7818L37.8121 14.9738C37.984 14.8019 37.984 15.1458 37.984 15.3177C37.8121 16.348 37.1257 17.2077 36.9537 17.5502C36.266 18.5805 35.2357 20.8144 35.2357 20.8144H35.7515C36.6099 19.4402 39.3582 17.7222 39.5302 17.5502C40.046 17.0344 39.5302 15.1458 39.5302 15.1458L40.046 15.3177C40.046 15.4896 40.2179 16.0054 40.3898 16.5199V17.7222L40.7337 17.3783C40.9057 17.2064 41.5921 14.9738 41.0776 13.5996C40.9057 13.0838 39.7034 12.5693 39.7034 12.5693C39.5315 11.8816 40.0473 11.1952 40.2192 11.0232C42.1092 9.64905 43.4834 11.0232 43.9979 11.8816C45.0282 13.9435 42.9676 16.348 42.4518 16.6919C41.2495 17.8941 38.3292 20.4705 38.1573 20.8144C36.0954 23.2189 36.9551 24.593 37.2989 25.2808C37.8148 26.1392 40.3912 28.545 40.9057 29.0595C41.764 29.7472 42.4518 30.7775 42.6237 31.1214C43.3115 33.5259 40.9057 33.8697 39.8754 33.6978C37.8134 33.182 34.8931 30.6056 34.3787 30.2617C32.4887 29.0595 31.9742 29.4033 31.9742 29.0595C31.8022 27.6853 31.6303 22.7031 31.6303 22.7031C31.6303 22.5311 31.8022 22.7031 31.9742 22.7031C32.1461 22.875 32.3181 22.875 32.3181 22.7031V21.3289C32.49 20.8131 32.8339 20.1266 33.0058 19.7828C33.8642 17.8928 34.5519 16.5186 34.7239 15.6602C34.8958 14.6299 34.7239 13.0838 34.7239 13.0838C34.8958 12.9119 35.4116 12.0535 35.5822 12.0535V11.0232C35.4103 10.8513 35.0664 10.8513 35.0664 10.8513H34.8945L36.2686 8.78936C36.0967 8.78936 36.0967 8.61742 35.9248 8.78936C35.5809 8.78936 35.237 9.13323 35.237 9.13323C35.0651 9.64905 34.7212 9.64905 34.5493 9.64905C33.8615 9.82099 34.0334 10.3368 34.0334 10.3368C34.2054 10.8526 34.7212 10.6807 34.8918 10.6807L34.376 11.1965L32.486 10.8526L32.3141 10.3368L32.6579 10.5087C33.0018 10.5087 33.1738 10.1649 33.1738 9.99293C33.1738 9.30517 32.486 9.30517 32.486 9.30517C32.486 8.78936 32.1421 8.78936 31.9702 8.78936C31.4544 8.78936 31.2824 9.13323 31.2824 9.13323H31.1105C30.5947 8.96129 30.4227 9.47711 30.4227 9.64905C30.5947 10.5074 31.2811 10.1649 31.2811 10.1649L30.9372 10.6807L29.0472 10.3368L29.3911 9.64905C29.3911 9.64905 29.563 9.82099 29.735 9.82099C30.2508 9.99293 30.4227 9.47711 30.4227 9.30517C30.4227 8.27487 29.3924 8.78936 29.3924 8.78936C28.8766 8.27354 28.7047 8.44548 28.7047 8.44548L29.2205 10.85C29.2205 10.85 27.8463 12.2241 27.8463 12.3961C27.8463 12.568 28.0183 13.4264 28.0183 13.4264L28.5341 14.2847L28.0183 14.9725L30.5947 15.3164L30.2508 16.1747C30.2508 16.1747 27.3305 16.8625 26.6441 17.205C25.7857 17.8928 25.098 18.5792 24.5822 19.2669C24.2383 19.6108 23.5519 22.7031 22.6922 24.2492H24.2383L21.318 30.0897L20.9741 29.9178C20.9741 29.9178 21.146 28.5436 21.146 28.3717C21.146 28.1998 20.9741 27.3414 20.9741 27.3414C20.8022 26.9975 20.1157 26.3111 20.1157 26.3111H19.5999C19.7719 26.483 19.9438 26.9989 19.9438 27.3414C19.9438 27.6839 19.7719 27.6853 19.5999 27.8572C19.428 28.0292 19.428 28.2011 19.428 28.2011L19.9438 29.4033H19.5999C19.428 29.0595 19.0841 28.8875 19.0841 28.8875V18.7525L19.7719 19.0963L19.428 19.6122L20.4583 19.7841L22.6908 21.846L23.5492 19.4416L21.1447 18.2393L20.8008 17.5516L20.1131 17.7235C20.1131 17.5516 19.9411 17.3796 19.9411 17.3796C20.285 17.0357 20.7995 16.3493 20.9714 16.1774C20.9714 15.8335 20.9714 15.6616 21.1434 15.319C21.1434 14.9751 20.9714 14.2887 20.9714 14.2887C20.7995 14.1168 20.4556 13.7729 20.6276 13.9448C20.7995 14.4607 20.4556 15.1471 20.4556 15.1471C20.4556 15.1471 20.2837 15.1471 20.1117 15.319C19.9398 15.319 19.9398 15.491 19.9398 15.491L19.7679 16.6932L19.424 16.3493V13.2571H19.9398V11.1952H19.424V10.3368H18.0498V11.1952H16.8476C15.1295 10.8513 12.7251 8.79069 12.3812 8.44681C12.2092 13.2571 14.0992 16.6919 14.0992 16.6919V16.6892ZM30.9332 13.7689L31.1052 14.4567L28.7007 14.1128L28.5287 13.425L30.9332 13.7689ZM28.7007 12.3947L28.5287 11.8789L29.3871 11.0206L34.1974 11.8789H34.3693L33.511 12.3947C33.511 12.3947 31.9648 11.707 30.4187 11.707C30.4187 11.707 30.7626 12.2228 29.9029 12.5653C29.731 12.5653 29.0446 12.7373 29.0446 12.0495L28.7007 12.3934V12.3947ZM34.3693 12.7373C34.5413 12.7373 34.7132 12.3934 34.8851 12.3934C35.0571 12.3934 35.229 12.5653 35.229 12.5653V12.9092C35.0571 13.2531 34.7132 13.597 34.7132 13.597C34.5413 12.9092 34.3693 12.9092 34.3693 12.7386C34.2547 12.7386 34.2547 12.7386 34.3693 12.7386V12.7373ZM24.7488 21.4982C24.7488 21.4982 25.7791 19.0937 26.2949 18.9217C26.8107 18.7498 27.1532 18.5779 28.3568 18.4059L28.1849 19.0937C28.1849 19.0937 26.8107 19.4376 26.6388 19.6095C26.2949 19.7814 25.6085 21.4995 25.6085 21.6714L24.7501 21.4995L24.7488 21.4982ZM19.0801 30.9468V30.431H19.7679V30.7748L19.0801 30.9468Z" />
+    </g>
+</svg>
+                            </div>
+                            <div class="ds-navbar-brand">
+                                Statsforvalteren
+                                    <br />
+                                    <span class="ds-navbar-brand-2">Innlandet</span>
+                            </div>
+                        </a>
+
+                        <!-- Buttons for smaller devices -->
+                        <div class="ds-navbar-nav d-flex flex-row d-lg-none">
+
+                            <!-- Search button -->
+                                <a href="/nb/innlandet/sok/" class="ds-icon-button ds-icon-button-primary" role="button" aria-label="Søk">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.5 3.25C6.49594 3.25 3.25 6.49594 3.25 10.5C3.25 14.5041 6.49594 17.75 10.5 17.75C12.2319 17.75 13.8219 17.1427 15.0689 16.1295L20.4801 21.5407C20.773 21.8336 21.2478 21.8336 21.5407 21.5407C21.8336 21.2478 21.8336 20.773 21.5407 20.4801L16.1295 15.0689C17.1427 13.8219 17.75 12.2319 17.75 10.5C17.75 6.49594 14.5041 3.25 10.5 3.25ZM4.75 10.5C4.75 7.32436 7.32436 4.75 10.5 4.75C13.6756 4.75 16.25 7.32436 16.25 10.5C16.25 13.6756 13.6756 16.25 10.5 16.25C7.32436 16.25 4.75 13.6756 4.75 10.5Z"></path></svg>
+                                </a>
+
+                            <!-- Navbar toggler -->
+                            <button class="navbar-toggler ds-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Veksle navigasjon" title="">
+                                <span class="ds-icon-button ds-icon-button-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M2.75 6C2.75 5.58579 3.08579 5.25 3.5 5.25H20.5C20.9142 5.25 21.25 5.58579 21.25 6C21.25 6.41421 20.9142 6.75 20.5 6.75H3.5C3.08579 6.75 2.75 6.41421 2.75 6ZM2.75 12C2.75 11.5858 3.08579 11.25 3.5 11.25H20.5C20.9142 11.25 21.25 11.5858 21.25 12C21.25 12.4142 20.9142 12.75 20.5 12.75H3.5C3.08579 12.75 2.75 12.4142 2.75 12ZM3.5 17.25C3.08579 17.25 2.75 17.5858 2.75 18C2.75 18.4142 3.08579 18.75 3.5 18.75H20.5C20.9142 18.75 21.25 18.4142 21.25 18C21.25 17.5858 20.9142 17.25 20.5 17.25H3.5Z"></path></svg>
+                                </span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Collapsible content -->
+                    <div id="navbarNav" class="navbar-collapse collapse ds-pt-3 ds-pt-lg-0" title="">
+                        <div class="navbar-nav ds-navbar-nav ms-auto">
+
+                            <!-- About us -->
+                                <a href="/nb/innlandet/om-oss/" class="ds-button ds-button-tertiary ds-navbar-button align-self-start" role="button">
+                                    Om oss
+                                </a>
+                                <div class="ds-vr d-none d-lg-block"></div>
+
+                            <!-- Language selector -->
+
+                            <!-- State selector -->
+                                <div class="dropdown">
+                                    <a href="#" class="ds-button ds-button-tertiary ds-navbar-button" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Endre Statsforvalter
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M5.96967 9.46967C6.26256 9.17678 6.73744 9.17678 7.03033 9.46967L12 14.4393L16.9697 9.46967C17.2626 9.17678 17.7374 9.17678 18.0303 9.46967C18.3232 9.76256 18.3232 10.2374 18.0303 10.5303L12.5303 16.0303C12.2374 16.3232 11.7626 16.3232 11.4697 16.0303L5.96967 10.5303C5.67678 10.2374 5.67678 9.76256 5.96967 9.46967Z"></path></svg>
+                                    </a>
+                                    <ul class="dropdown-menu ds-navbar-dropdown">
+                                            <li><a href="/nb/agder/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Agder</a></li>
+                                            <li><a href="/nb/innlandet/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Innlandet</a></li>
+                                            <li><a href="/nn/more-og-romsdal/hoyringar/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">M&#xF8;re og Romsdal</a></li>
+                                            <li><a href="/nb/nordland/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Nordland</a></li>
+                                            <li><a href="/nn/rogaland/hoyringar/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Rogaland</a></li>
+                                            <li><a href="/nb/troms-og-finnmark/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Troms og Finnmark</a></li>
+                                            <li><a href="/nb/trondelag/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Tr&#xF8;ndelag</a></li>
+                                            <li><a href="/nb/vestfold-og-telemark/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Vestfold og Telemark</a></li>
+                                            <li><a href="/nn/vestland/hoyringar/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">Vestland</a></li>
+                                            <li><a href="/nb/ostfold-buskerud-oslo-og-akershus/horinger/"  class="dropdown-item ds-button ds-button-tertiary ds-navbar-dropdown-item" data-size="sm">&#xD8;stfold, Buskerud, Oslo og Akershus</a></li>
+                                    </ul>
+                                </div>
+                                <div class="ds-vr d-none d-lg-block"></div>
+
+                            <!-- Color mode toggler -->
+                                <button id="colorModeToggle" type="button" class="ds-icon-button ds-icon-button-tertiary" aria-label="Bytt mellom mørk og lys modus" title="Bytt mellom mørk og lys modus">
+                                    <svg id="colorModeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"></svg>
+                                </button>
+                                <div class="ds-vr d-none d-lg-block"></div>
+
+                            <!-- Search button -->
+                                <a href="/nb/innlandet/sok/" class="ds-button ds-button-primary ds-navbar-button d-none d-lg-flex" role="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.5 3.25C6.49594 3.25 3.25 6.49594 3.25 10.5C3.25 14.5041 6.49594 17.75 10.5 17.75C12.2319 17.75 13.8219 17.1427 15.0689 16.1295L20.4801 21.5407C20.773 21.8336 21.2478 21.8336 21.5407 21.5407C21.8336 21.2478 21.8336 20.773 21.5407 20.4801L16.1295 15.0689C17.1427 13.8219 17.75 12.2319 17.75 10.5C17.75 6.49594 14.5041 3.25 10.5 3.25ZM4.75 10.5C4.75 7.32436 7.32436 4.75 10.5 4.75C13.6756 4.75 16.25 7.32436 16.25 10.5C16.25 13.6756 13.6756 16.25 10.5 16.25C7.32436 16.25 4.75 13.6756 4.75 10.5Z"></path></svg>
+                                    Søk
+                                </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+    </header>
+
+        
+    <div class="ds-breadcrumb-container">
+        <div class="container ds-py-4">
+            <nav aria-label="Breadcrumb">
+                <ol class="d-flex flex-wrap align-items-center ds-gap-2">
+                        <li class="d-flex align-items-center ds-gap-2" >
+                                <a href="/nb/innlandet/" >
+                                    Hjem
+                                </a>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.96967C9.76256 5.67678 10.2374 5.67678 10.5303 5.96967L16.0303 11.4697C16.3232 11.7626 16.3232 12.2374 16.0303 12.5303L10.5303 18.0303C10.2374 18.3232 9.76256 18.3232 9.46967 18.0303C9.17678 17.7374 9.17678 17.2626 9.46967 16.9697L14.4393 12L9.46967 7.03033C9.17678 6.73744 9.17678 6.26256 9.46967 5.96967Z"></path></svg>                        </li>
+                        <li class="d-flex align-items-center ds-gap-2" aria-current="page">
+H&#xF8;ringer                        </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        
+        
+<div class="container ds-pt-18 ds-pb-9">
+    <h1 class="ds-font-weight-bold ds-my-0">H&#xF8;ringer</h1>
+</div>
+
+<div class="container ds-pb-9">
+    <div class="row">
+        <div class="col-lg-4 ds-py-0 ds-py-lg-9">
+            
+    <div class="ds-form ds-header-card d-none d-lg-block d-print-none">
+        <div class="ds-header-card-title">Filtrer</div>
+        <div class="ds-header-card-body d-flex flex-column ds-gap-8">
+                <div id="CategoryFilter" class="d-flex flex-column ds-gap-8">
+                        <div class="d-flex flex-column ds-gap-4">
+                            
+                                <div class="form-check">
+                                    <input id="c490892" class="form-check-input" type="checkbox" name="6490892" onclick="filterUpdate()"/>
+                                    <label for="c490892" class="form-check-label" data-size="short-md">Pressemeldinger</label>
+                                </div>
+                        </div>
+                        <div class="d-flex flex-column ds-gap-4">
+                            <div class="fw-semibold" data-size="short-md">Privatperson</div>
+                                <div class="form-check">
+                                    <input id="c450767450768" class="form-check-input" type="checkbox" name="6450768" onclick="filterUpdate()"/>
+                                    <label for="c450767450768" class="form-check-label" data-size="short-md">Apostille</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450769" class="form-check-input" type="checkbox" name="6450769" onclick="filterUpdate()"/>
+                                    <label for="c450767450769" class="form-check-label" data-size="short-md">Askespredning</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450770" class="form-check-input" type="checkbox" name="6450770" onclick="filterUpdate()"/>
+                                    <label for="c450767450770" class="form-check-label" data-size="short-md">Barnevern</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450771" class="form-check-input" type="checkbox" name="6450771" onclick="filterUpdate()"/>
+                                    <label for="c450767450771" class="form-check-label" data-size="short-md">Biologiske foreldre</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450773" class="form-check-input" type="checkbox" name="6450773" onclick="filterUpdate()"/>
+                                    <label for="c450767450773" class="form-check-label" data-size="short-md">Fri rettshjelp</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450772" class="form-check-input" type="checkbox" name="6450772" onclick="filterUpdate()"/>
+                                    <label for="c450767450772" class="form-check-label" data-size="short-md">F&#xF8;rerkort</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450774" class="form-check-input" type="checkbox" name="6450774" onclick="filterUpdate()"/>
+                                    <label for="c450767450774" class="form-check-label" data-size="short-md">Helseerkl&#xE6;ring offshore</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450775" class="form-check-input" type="checkbox" name="6450775" onclick="filterUpdate()"/>
+                                    <label for="c450767450775" class="form-check-label" data-size="short-md">Natur og friluftsliv</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450777" class="form-check-input" type="checkbox" name="6450777" onclick="filterUpdate()"/>
+                                    <label for="c450767450777" class="form-check-label" data-size="short-md">Separasjon og skilsmisse</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450778" class="form-check-input" type="checkbox" name="6450778" onclick="filterUpdate()"/>
+                                    <label for="c450767450778" class="form-check-label" data-size="short-md">Skole og skolemilj&#xF8;</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450776" class="form-check-input" type="checkbox" name="6450776" onclick="filterUpdate()"/>
+                                    <label for="c450767450776" class="form-check-label" data-size="short-md">Statsborgerseremonier</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450767450779" class="form-check-input" type="checkbox" name="6450779" onclick="filterUpdate()"/>
+                                    <label for="c450767450779" class="form-check-label" data-size="short-md">Vergem&#xE5;l og fremtidsfullmakt</label>
+                                </div>
+                        </div>
+                        <div class="d-flex flex-column ds-gap-4">
+                            <div class="fw-semibold" data-size="short-md">Kommune og tjenesteakt&#xF8;r</div>
+                                <div class="form-check">
+                                    <input id="c450744450760" class="form-check-input" type="checkbox" name="6450760" onclick="filterUpdate()"/>
+                                    <label for="c450744450760" class="form-check-label" data-size="short-md">Barnehage og skole &#x2013; for eiere og ansatte</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450746" class="form-check-input" type="checkbox" name="6450746" onclick="filterUpdate()"/>
+                                    <label for="c450744450746" class="form-check-label" data-size="short-md">Barnevern for ansatte og ledere</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450748" class="form-check-input" type="checkbox" name="6450748" onclick="filterUpdate()"/>
+                                    <label for="c450744450748" class="form-check-label" data-size="short-md">For folkevalgte i kommunen</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744491055" class="form-check-input" type="checkbox" name="6491055" onclick="filterUpdate()"/>
+                                    <label for="c450744491055" class="form-check-label" data-size="short-md">Fritak fra taushetsplikt</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450749" class="form-check-input" type="checkbox" name="6450749" onclick="filterUpdate()"/>
+                                    <label for="c450744450749" class="form-check-label" data-size="short-md">Gravplassforvaltning</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450750" class="form-check-input" type="checkbox" name="6450750" onclick="filterUpdate()"/>
+                                    <label for="c450744450750" class="form-check-label" data-size="short-md">Helse- og omsorgstjenester</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450747" class="form-check-input" type="checkbox" name="6450747" onclick="filterUpdate()"/>
+                                    <label for="c450744450747" class="form-check-label" data-size="short-md">Integrering og bosetting</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744470143" class="form-check-input" type="checkbox" name="6470143" onclick="filterUpdate()"/>
+                                    <label for="c450744470143" class="form-check-label" data-size="short-md">Kommunal forvaltning</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450751" class="form-check-input" type="checkbox" name="6450751" onclick="filterUpdate()"/>
+                                    <label for="c450744450751" class="form-check-label" data-size="short-md">Kommunebilde</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450752" class="form-check-input" type="checkbox" name="6450752" onclick="filterUpdate()"/>
+                                    <label for="c450744450752" class="form-check-label" data-size="short-md">Kommune&#xF8;konomi</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450755" class="form-check-input" type="checkbox" name="6450755" onclick="filterUpdate()"/>
+                                    <label for="c450744450755" class="form-check-label" data-size="short-md">Landbruk for kommunen</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450756" class="form-check-input" type="checkbox" name="6450756" onclick="filterUpdate()"/>
+                                    <label for="c450744450756" class="form-check-label" data-size="short-md">Natur- og milj&#xF8;vern</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450757" class="form-check-input" type="checkbox" name="6450757" onclick="filterUpdate()"/>
+                                    <label for="c450744450757" class="form-check-label" data-size="short-md">Reindrift i kommunale planprosesser</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450758" class="form-check-input" type="checkbox" name="6450758" onclick="filterUpdate()"/>
+                                    <label for="c450744450758" class="form-check-label" data-size="short-md">Samfunns- og arealplanlegging</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450759" class="form-check-input" type="checkbox" name="6450759" onclick="filterUpdate()"/>
+                                    <label for="c450744450759" class="form-check-label" data-size="short-md">Samfunnssikkerhet og beredskap</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450762" class="form-check-input" type="checkbox" name="6450762" onclick="filterUpdate()"/>
+                                    <label for="c450744450762" class="form-check-label" data-size="short-md">Sosiale tjenester i Nav</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450744450765" class="form-check-input" type="checkbox" name="6450765" onclick="filterUpdate()"/>
+                                    <label for="c450744450765" class="form-check-label" data-size="short-md">Tilsyn</label>
+                                </div>
+                        </div>
+                        <div class="d-flex flex-column ds-gap-4">
+                            <div class="fw-semibold" data-size="short-md">N&#xE6;ring/organisasjon</div>
+                                <div class="form-check">
+                                    <input id="c450733450735" class="form-check-input" type="checkbox" name="6450735" onclick="filterUpdate()"/>
+                                    <label for="c450733450735" class="form-check-label" data-size="short-md">Fri rettshjelp for advokater og rettshjelpere</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450736" class="form-check-input" type="checkbox" name="6450736" onclick="filterUpdate()"/>
+                                    <label for="c450733450736" class="form-check-label" data-size="short-md">Landbruksforetak</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450741" class="form-check-input" type="checkbox" name="6450741" onclick="filterUpdate()"/>
+                                    <label for="c450733450741" class="form-check-label" data-size="short-md">Natur og milj&#xF8;</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450738" class="form-check-input" type="checkbox" name="6450738" onclick="filterUpdate()"/>
+                                    <label for="c450733450738" class="form-check-label" data-size="short-md">Reindrift</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450739" class="form-check-input" type="checkbox" name="6450739" onclick="filterUpdate()"/>
+                                    <label for="c450733450739" class="form-check-label" data-size="short-md">Skjenkebevilling til skip</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450742" class="form-check-input" type="checkbox" name="6450742" onclick="filterUpdate()"/>
+                                    <label for="c450733450742" class="form-check-label" data-size="short-md">St&#xF8;tte til politisk parti</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450740" class="form-check-input" type="checkbox" name="6450740" onclick="filterUpdate()"/>
+                                    <label for="c450733450740" class="form-check-label" data-size="short-md">S&#xF8;k om &#xE5; holde s&#xF8;ndags&#xE5;pent</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733493089" class="form-check-input" type="checkbox" name="6493089" onclick="filterUpdate()"/>
+                                    <label for="c450733493089" class="form-check-label" data-size="short-md">Tillatelse til &#xE5; forurense</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450743" class="form-check-input" type="checkbox" name="6450743" onclick="filterUpdate()"/>
+                                    <label for="c450733450743" class="form-check-label" data-size="short-md">Tilsyn med helse offshore</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="c450733450737" class="form-check-input" type="checkbox" name="6450737" onclick="filterUpdate()"/>
+                                    <label for="c450733450737" class="form-check-label" data-size="short-md">Tros- og livsynssamfunn</label>
+                                </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+        </div>
+        <div class="col-lg-8 ds-py-9 d-flex flex-column ds-gap-6">
+<form action="" class="ds-form" method="get">                <div class="input-group">
+                    <input type="text" name="q" value="" class="form-control ds-form-control-search" placeholder="S&#xF8;k" aria-label="S&#xF8;k" aria-describedby="searchButton">
+                    <button id="searchButton" type="submit" class="ds-button ds-button-primary">Søk</button>
+                </div>
+</form>            
+    <div class="ds-form dropdown d-block d-lg-none d-print-none">
+        <button class="ds-filter-dropdown-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Filtrer
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none"><path stroke="currentColor" stroke-width="2" d="M0.799805 1L7.9998 7L15.1998 1"></path></svg>
+        </button>
+        <div class="dropdown-menu">
+            <div class="d-flex flex-column ds-gap-8 ds-p-6">
+                    <div id="CategoryNarrowFilter" class="d-flex flex-column ds-gap-8">
+                            <div class="d-flex flex-column ds-gap-4">
+                                
+                                    <div class="form-check">
+                                        <input id="n-c490892" class="form-check-input" type="checkbox" name="6490892" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c490892" class="form-check-label" data-size="short-md">Pressemeldinger</label>
+                                    </div>
+                            </div>
+                            <div class="d-flex flex-column ds-gap-4">
+                                <div class="fw-semibold" data-size="short-md">Privatperson</div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450768" class="form-check-input" type="checkbox" name="6450768" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450768" class="form-check-label" data-size="short-md">Apostille</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450769" class="form-check-input" type="checkbox" name="6450769" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450769" class="form-check-label" data-size="short-md">Askespredning</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450770" class="form-check-input" type="checkbox" name="6450770" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450770" class="form-check-label" data-size="short-md">Barnevern</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450771" class="form-check-input" type="checkbox" name="6450771" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450771" class="form-check-label" data-size="short-md">Biologiske foreldre</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450773" class="form-check-input" type="checkbox" name="6450773" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450773" class="form-check-label" data-size="short-md">Fri rettshjelp</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450772" class="form-check-input" type="checkbox" name="6450772" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450772" class="form-check-label" data-size="short-md">F&#xF8;rerkort</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450774" class="form-check-input" type="checkbox" name="6450774" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450774" class="form-check-label" data-size="short-md">Helseerkl&#xE6;ring offshore</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450775" class="form-check-input" type="checkbox" name="6450775" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450775" class="form-check-label" data-size="short-md">Natur og friluftsliv</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450777" class="form-check-input" type="checkbox" name="6450777" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450777" class="form-check-label" data-size="short-md">Separasjon og skilsmisse</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450778" class="form-check-input" type="checkbox" name="6450778" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450778" class="form-check-label" data-size="short-md">Skole og skolemilj&#xF8;</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450776" class="form-check-input" type="checkbox" name="6450776" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450776" class="form-check-label" data-size="short-md">Statsborgerseremonier</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450767450779" class="form-check-input" type="checkbox" name="6450779" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450767450779" class="form-check-label" data-size="short-md">Vergem&#xE5;l og fremtidsfullmakt</label>
+                                    </div>
+                            </div>
+                            <div class="d-flex flex-column ds-gap-4">
+                                <div class="fw-semibold" data-size="short-md">Kommune og tjenesteakt&#xF8;r</div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450760" class="form-check-input" type="checkbox" name="6450760" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450760" class="form-check-label" data-size="short-md">Barnehage og skole &#x2013; for eiere og ansatte</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450746" class="form-check-input" type="checkbox" name="6450746" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450746" class="form-check-label" data-size="short-md">Barnevern for ansatte og ledere</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450748" class="form-check-input" type="checkbox" name="6450748" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450748" class="form-check-label" data-size="short-md">For folkevalgte i kommunen</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744491055" class="form-check-input" type="checkbox" name="6491055" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744491055" class="form-check-label" data-size="short-md">Fritak fra taushetsplikt</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450749" class="form-check-input" type="checkbox" name="6450749" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450749" class="form-check-label" data-size="short-md">Gravplassforvaltning</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450750" class="form-check-input" type="checkbox" name="6450750" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450750" class="form-check-label" data-size="short-md">Helse- og omsorgstjenester</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450747" class="form-check-input" type="checkbox" name="6450747" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450747" class="form-check-label" data-size="short-md">Integrering og bosetting</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744470143" class="form-check-input" type="checkbox" name="6470143" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744470143" class="form-check-label" data-size="short-md">Kommunal forvaltning</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450751" class="form-check-input" type="checkbox" name="6450751" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450751" class="form-check-label" data-size="short-md">Kommunebilde</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450752" class="form-check-input" type="checkbox" name="6450752" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450752" class="form-check-label" data-size="short-md">Kommune&#xF8;konomi</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450755" class="form-check-input" type="checkbox" name="6450755" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450755" class="form-check-label" data-size="short-md">Landbruk for kommunen</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450756" class="form-check-input" type="checkbox" name="6450756" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450756" class="form-check-label" data-size="short-md">Natur- og milj&#xF8;vern</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450757" class="form-check-input" type="checkbox" name="6450757" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450757" class="form-check-label" data-size="short-md">Reindrift i kommunale planprosesser</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450758" class="form-check-input" type="checkbox" name="6450758" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450758" class="form-check-label" data-size="short-md">Samfunns- og arealplanlegging</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450759" class="form-check-input" type="checkbox" name="6450759" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450759" class="form-check-label" data-size="short-md">Samfunnssikkerhet og beredskap</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450762" class="form-check-input" type="checkbox" name="6450762" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450762" class="form-check-label" data-size="short-md">Sosiale tjenester i Nav</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450744450765" class="form-check-input" type="checkbox" name="6450765" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450744450765" class="form-check-label" data-size="short-md">Tilsyn</label>
+                                    </div>
+                            </div>
+                            <div class="d-flex flex-column ds-gap-4">
+                                <div class="fw-semibold" data-size="short-md">N&#xE6;ring/organisasjon</div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450735" class="form-check-input" type="checkbox" name="6450735" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450735" class="form-check-label" data-size="short-md">Fri rettshjelp for advokater og rettshjelpere</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450736" class="form-check-input" type="checkbox" name="6450736" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450736" class="form-check-label" data-size="short-md">Landbruksforetak</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450741" class="form-check-input" type="checkbox" name="6450741" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450741" class="form-check-label" data-size="short-md">Natur og milj&#xF8;</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450738" class="form-check-input" type="checkbox" name="6450738" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450738" class="form-check-label" data-size="short-md">Reindrift</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450739" class="form-check-input" type="checkbox" name="6450739" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450739" class="form-check-label" data-size="short-md">Skjenkebevilling til skip</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450742" class="form-check-input" type="checkbox" name="6450742" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450742" class="form-check-label" data-size="short-md">St&#xF8;tte til politisk parti</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450740" class="form-check-input" type="checkbox" name="6450740" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450740" class="form-check-label" data-size="short-md">S&#xF8;k om &#xE5; holde s&#xF8;ndags&#xE5;pent</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733493089" class="form-check-input" type="checkbox" name="6493089" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733493089" class="form-check-label" data-size="short-md">Tillatelse til &#xE5; forurense</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450743" class="form-check-input" type="checkbox" name="6450743" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450743" class="form-check-label" data-size="short-md">Tilsyn med helse offshore</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="n-c450733450737" class="form-check-input" type="checkbox" name="6450737" onclick="filterNarrowUpdate()"/>
+                                        <label for="n-c450733450737" class="form-check-label" data-size="short-md">Tros- og livsynssamfunn</label>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="TimePeriodFilter" class="ds-toggle-button-group d-none d-lg-inline-flex d-print-none" role="group" aria-label="Tidsperiode">
+            <input id="tp0" class="ds-toggle-button-check" type="radio" name="TimePeriodRadio" value="0" checked onchange="filterUpdate()">
+            <label for="tp0" class="ds-toggle-button ds-toggle-button-active" data-size="short-md">Kommende</label>
+            <input id="tp1" class="ds-toggle-button-check" type="radio" name="TimePeriodRadio" value="1"  onchange="filterUpdate()">
+            <label for="tp1" class="ds-toggle-button" data-size="short-md">Tidligere</label>
+    </div>
+    <div id="TimePeriodNarrowFilter" class="ds-toggle-button-group d-inline-flex d-lg-none d-print-none" role="group" aria-label="Tidsperiode">
+            <input id="n-tp0" class="ds-toggle-button-check" type="radio" name="TimePeriodNarrowRadio" value="0" checked onchange="filterNarrowUpdate()">
+            <label for="n-tp0" class="ds-toggle-button ds-toggle-button-active" data-size="short-md">Kommende</label>
+            <input id="n-tp1" class="ds-toggle-button-check" type="radio" name="TimePeriodNarrowRadio" value="1"  onchange="filterNarrowUpdate()">
+            <label for="n-tp1" class="ds-toggle-button" data-size="short-md">Tidligere</label>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-end">
+            <div data-size="short-md">Viser 0 treff.</div>
+            <div class="ds-form d-none d-lg-block d-print-none">
+                <select id="SortSelector" class="form-select" aria-label="Sortering" onchange="filterUpdate()">
+                        <option value="0">Relevans</option>
+                        <option value="30" selected="selected">H&#xF8;ringsfrist</option>
+                </select>
+            </div>
+            <div class="ds-form d-block d-lg-none d-print-none">
+                <select id="SortNarrowSelector" class="form-select" aria-label="Sortering" onchange="filterNarrowUpdate()">
+                        <option value="0">Relevans</option>
+                        <option value="30" selected="selected">H&#xF8;ringsfrist</option>
+                </select>
+            </div>
+    </div>
+
+            
+
+
+        </div>
+    </div>
+</div>
+
+    </main>
+        
+
+<footer class="ds-dark-container d-print-none">
+    <div class="container ds-p-10 ds-p-lg-6" data-color-scheme="dark">
+        <div class="row ds-gy-12 ds-gx-6">
+            <div class="col-lg-4 d-flex order-1 order-lg-1">
+                <div class="ds-footer-content ds-footer-content-border">
+            <div class="d-flex flex-column align-items-start ds-gap-4">
+                    <a href="https://www.statsforvalteren.no/nb/innlandet/om-oss/" >Om Statsforvalteren</a>
+                    <a href="https://styringsportalen.statsforvalteren.no/" >Tildelingsbrev og &#xE5;rsrapporter</a>
+                    <a href="https://www.statsforvalteren.no/nb/innlandet/nyheter/" >Nyheter</a>
+                    <a href="https://www.statsforvalteren.no/nb/innlandet/skjema-og-tjenester/" >Skjemaoversikt</a>
+            </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex order-2 order-lg-3">
+                <div class="ds-footer-content ds-footer-content-border">
+            <div class="d-flex flex-column align-items-start ds-gap-4">
+                    <a href="https://www.statsforvalteren.no/nb/innlandet/om-oss/jobb-hos-oss/" >Jobb hos oss</a>
+                    <a href="https://tilsynskalender.statsforvalteren.no/" >Tilsynskalenderen</a>
+                    <a href="https://www.statsforvalteren.no/nb/innlandet/om-oss/personvern/" >Personvern</a>
+                    <a href="https://uustatus.no/nb/erklaringer/publisert/bb9a60d3-07ae-4b70-9aa6-f6e0616a7a8b" >Tilgjengelighetserkl&#xE6;ring</a>
+            </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex order-3 order-lg-2">
+                <div class="ds-footer-content">
+                    <div class="d-flex flex-column ds-gap-12">
+                        <div class="d-flex flex-column ds-gap-4">
+                            <p class="ds-m-0">Telefon: <a href="tel:+4761266000">61 26 60 00</a></p>
+                            <p class="ds-m-0">E-post: <a href="#" key="n1WY7Vdje9M0cq@OTyl+PDQR28EU.g%p3I4-6KXrkmHNZxsoCfbBLFwtuAz SJv'_i5Gha7e8p'MMPbqRX8yDPqKxiIA+ L0w3" class="xxemxx" title="Send e-post"><span class="yyemyy" key="zH%EfWAke5IB_1iSvw0DYFrJn -UL87uCcqVlxyPt46Oh9Xs.dTpK2Rog+baQ3Zj'N@MGmWcho10BWCieLI0XL@3V10+%aAuet" /></a></p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-none d-lg-block text-center ds-pt-12">
+                        
+
+<svg class="ds-county-governor-icon" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 57 57" fill="none">
+    <g>
+            <path class="ds-county-governor-icon-background ds-always-inverted" d="M28.8714 56.3683C44.335 56.3683 56.8707 43.8326 56.8707 28.369C56.8707 12.9054 44.335 0.369629 28.8714 0.369629C13.4078 0.369629 0.87207 12.9054 0.87207 28.369C0.87207 43.8326 13.4078 56.3683 28.8714 56.3683Z" />
+            <path class="ds-county-governor-icon-foreground ds-always-inverted" d="M27.4971 14.1115C27.4971 14.1115 25.951 13.9395 25.6071 13.9395C25.2632 13.7676 24.7488 13.5956 24.7488 13.4237C24.7488 13.2518 24.7488 12.9079 25.0926 13.0798C25.4365 13.2518 25.6085 13.4237 26.2949 13.4237C26.6388 13.4237 26.9826 13.5956 27.1532 13.5956L27.4971 14.1115ZM14.0992 16.6892C14.4431 16.1734 16.1612 14.1128 17.0195 13.7689C17.5353 13.597 18.2218 13.597 18.2218 13.597V16.1734C18.0498 16.1734 17.7059 16.0014 17.3634 16.0014C17.0209 16.0014 15.9892 16.1734 15.9892 16.1734L15.4734 16.5173C16.3318 16.3453 16.6756 16.6892 16.6756 16.6892C16.6756 16.8611 16.8476 17.5476 17.0195 17.5476C17.1915 17.7195 18.0498 17.7195 18.0498 17.7195V18.0634C17.534 18.0634 16.6756 18.5792 16.5037 18.7511C16.1598 19.095 15.8159 19.7814 15.8159 19.7814L15.644 20.2972L15.8159 20.4692C15.8159 20.4692 16.1598 19.9534 16.3318 19.9534C16.6756 19.6095 17.0195 20.1253 17.1901 20.1253C17.3607 20.1253 17.534 19.9534 17.7059 19.7814L17.8779 19.6095V28.5423C17.0195 28.3704 16.3318 28.7142 16.1598 28.8862C15.9879 29.0581 15.8159 29.402 15.8159 29.402H16.8462C17.0182 29.402 17.3621 30.2604 17.3621 30.4323H17.8779V31.4626C17.8779 31.4626 17.7059 31.8065 17.534 31.9784C17.3621 32.3223 17.0182 33.3526 17.0182 33.3526L17.1901 33.6965C17.1901 33.6965 17.3621 33.3526 17.3621 33.1806C17.534 32.8368 17.7059 32.8368 17.7059 32.8368V35.5851H18.5643V32.6648L18.9082 32.8368C19.0801 32.6648 19.7665 31.2907 19.7665 31.2907C19.9385 31.2907 20.4543 31.4626 20.4543 31.4626L20.7982 32.8368H20.9701L27.3265 23.904L27.8423 24.2478L25.2659 27.8545C25.6098 28.3704 25.9537 28.7129 26.1243 29.0568C26.4681 29.9151 26.6401 31.1187 26.6401 31.1187V31.2907C25.9523 31.6345 23.7198 33.3526 23.7198 33.5232C23.3759 33.6951 22.6895 34.3815 22.5176 34.5535C22.0017 35.9277 22.0017 39.5357 22.1737 39.8783C22.1737 40.2221 22.6895 40.7366 22.6895 40.7366C22.6895 40.7366 22.5176 40.7366 22.3456 40.9086C22.1737 41.0805 21.3153 41.9389 21.3153 41.9389C20.7995 42.6266 18.9108 44.3433 18.9108 44.3433C18.395 44.3433 17.8805 44.1714 17.8805 44.1714V43.1411C17.8805 42.9691 17.8805 42.6253 17.7086 42.4533C17.5367 42.1095 17.1928 41.595 17.1928 41.595L16.3344 40.9072H15.8186L16.3344 41.423C16.5064 41.595 16.3344 41.9389 16.3344 41.9389C16.1625 42.1108 15.9906 42.4547 15.9906 42.6266C15.9906 42.7985 16.8489 43.6569 16.8489 43.6569L16.677 43.8288C16.677 43.8288 16.1612 43.485 15.8186 43.313L15.4747 43.1411C15.3028 43.1411 14.6164 43.313 14.4444 43.313C14.2725 43.313 13.5861 44.0008 13.5861 44.0008V44.5166C13.5861 44.5166 13.758 44.3447 13.93 44.3447C14.1019 44.3447 14.2738 44.1727 14.6177 44.1727C14.7896 44.1727 14.7896 44.3447 14.7896 44.3447C14.9616 44.6885 15.1335 44.8605 15.3055 45.0324C15.4774 45.0324 16.6796 44.8605 16.6796 44.8605L16.8516 45.0324C16.3358 45.2043 15.9932 45.7202 15.8213 45.8908C15.6493 46.0614 16.1652 46.7491 16.1652 46.7491C16.1652 47.093 15.3068 47.4369 15.3068 47.4369H15.8226C16.1665 47.2649 16.5104 47.2649 16.681 47.093L17.3687 46.4053L17.5407 45.7175C17.5407 45.3736 17.8845 45.5456 18.399 45.5456C18.6283 45.5456 18.7429 45.6029 18.7429 45.7175C18.7429 45.7175 18.7429 45.8894 18.9148 46.0614C18.9148 46.2333 19.0868 46.7491 19.0868 46.7491H19.2587C19.2587 46.7491 20.289 45.375 20.461 45.375C20.6329 45.203 24.5835 42.4547 24.5835 42.4547C24.9274 42.4547 25.0993 42.4547 25.4418 42.2827C25.9577 41.9388 26.4721 41.4244 26.4721 41.4244V40.566C26.4721 39.8783 26.6441 39.7076 26.816 39.3638C26.988 39.0199 27.5038 38.5054 27.6744 38.1615L27.8463 37.9896C27.8463 37.9896 26.816 36.7874 26.6441 36.4435C26.3002 35.9277 26.3002 35.4132 26.4721 35.0693C27.3305 32.149 27.8463 30.259 27.8463 30.0871V28.8848L28.5341 29.4007V30.431C28.5341 30.7748 28.0183 32.8354 27.8463 33.1793C27.5024 34.5535 26.988 35.7557 27.3305 36.0996C27.6744 36.7874 29.2205 38.3321 29.735 38.676C30.4227 39.0199 33.6856 38.848 33.8575 38.848C35.3459 39.0772 36.1474 39.3065 36.262 39.5357C36.4339 39.7076 37.8081 41.2538 38.152 41.5976C38.8397 42.2854 39.87 44.0021 39.87 44.0021L39.0117 44.174C38.3239 43.4863 37.8094 43.1438 37.4656 42.9718C36.7778 42.6279 36.0914 42.9718 35.7475 42.9718C35.2317 42.9718 35.0597 43.4876 35.0597 43.4876C35.4036 43.4876 35.9181 43.4876 36.09 43.6596C36.262 43.8315 36.262 44.3473 36.4339 44.3473C36.6059 44.5193 37.4642 44.5193 37.4642 44.5193V44.8631C37.2923 44.8631 36.4339 45.0351 36.09 45.0351C35.8608 45.1497 35.6889 45.2643 35.5742 45.379C35.4023 45.5509 34.8865 46.5812 34.8865 46.5812L35.0584 46.9251C35.0584 46.7531 35.9168 46.2373 35.9168 46.2373C36.0887 46.5812 36.4326 46.5812 36.6045 46.5812C37.1203 46.4093 37.8068 45.5509 37.8068 45.5509L38.1506 45.7228L37.8068 46.2386C37.2909 46.7545 37.6348 47.9567 37.6348 47.9567C37.8068 47.9567 37.9787 48.1286 37.9787 48.1286C37.8068 47.7848 38.3226 47.0983 38.3226 47.0983C38.6665 47.2703 39.0103 47.0983 39.1809 46.9264C39.5248 46.7545 39.5248 45.3803 39.5248 45.3803L41.0709 45.0364L42.9609 45.3803L43.1329 45.0364L42.789 44.6925C42.2732 43.8342 42.1012 43.6622 41.9306 43.3184C41.4148 42.1161 39.5262 38.852 39.5262 38.68V37.9923C39.5262 37.8203 38.8384 36.962 38.4959 36.6181C38.152 36.2742 37.4656 36.2742 37.4656 36.2742C36.4353 35.5865 35.4036 34.9 35.4036 34.7281C35.0597 34.2123 33.5136 32.6662 33.1711 32.3236C32.9991 32.1517 31.453 30.7775 31.453 30.7775L32.1408 30.6056C32.1408 30.6056 33.515 31.8078 33.6869 31.9797C34.2027 32.4956 35.233 33.01 35.5769 33.182C38.4972 35.072 39.8714 35.072 40.0433 35.072C42.1052 35.2439 42.9636 34.0417 43.1355 33.8697C43.6513 33.3539 44.3378 31.8078 43.1355 29.9191C42.7917 29.4033 41.4175 27.5147 41.4175 27.5147L44.1658 25.9686V25.6247L42.9636 25.9686C42.9636 25.9686 42.1052 25.7966 41.7614 25.7966H41.4175L40.5591 25.9686V25.6247L44.3378 23.5627V23.0469C44.3378 23.0469 43.1355 23.3908 42.9636 23.3908C42.7917 23.3908 41.9333 23.2189 41.5894 23.2189H41.0736L40.2152 23.3908V23.0469L44.5097 20.6425L44.6816 20.2986L43.3075 20.6425C43.3075 20.6425 42.1052 20.2986 42.1052 20.4705L41.2469 20.6425H41.0749C41.0749 20.4705 42.621 18.5805 42.621 18.4099C43.3088 17.7222 43.9952 16.5199 44.1672 16.348C45.8852 13.5996 44.8549 11.8816 44.511 11.5377C43.1369 9.30517 40.7324 9.81966 40.3885 9.81966C38.156 10.5074 38.156 12.7399 38.156 12.9119C38.156 13.0838 38.156 13.2558 37.8121 13.4277C37.2963 13.9435 36.266 16.0041 36.266 16.0041H36.7818L37.8121 14.9738C37.984 14.8019 37.984 15.1458 37.984 15.3177C37.8121 16.348 37.1257 17.2077 36.9537 17.5502C36.266 18.5805 35.2357 20.8144 35.2357 20.8144H35.7515C36.6099 19.4402 39.3582 17.7222 39.5302 17.5502C40.046 17.0344 39.5302 15.1458 39.5302 15.1458L40.046 15.3177C40.046 15.4896 40.2179 16.0054 40.3898 16.5199V17.7222L40.7337 17.3783C40.9057 17.2064 41.5921 14.9738 41.0776 13.5996C40.9057 13.0838 39.7034 12.5693 39.7034 12.5693C39.5315 11.8816 40.0473 11.1952 40.2192 11.0232C42.1092 9.64905 43.4834 11.0232 43.9979 11.8816C45.0282 13.9435 42.9676 16.348 42.4518 16.6919C41.2495 17.8941 38.3292 20.4705 38.1573 20.8144C36.0954 23.2189 36.9551 24.593 37.2989 25.2808C37.8148 26.1392 40.3912 28.545 40.9057 29.0595C41.764 29.7472 42.4518 30.7775 42.6237 31.1214C43.3115 33.5259 40.9057 33.8697 39.8754 33.6978C37.8134 33.182 34.8931 30.6056 34.3787 30.2617C32.4887 29.0595 31.9742 29.4033 31.9742 29.0595C31.8022 27.6853 31.6303 22.7031 31.6303 22.7031C31.6303 22.5311 31.8022 22.7031 31.9742 22.7031C32.1461 22.875 32.3181 22.875 32.3181 22.7031V21.3289C32.49 20.8131 32.8339 20.1266 33.0058 19.7828C33.8642 17.8928 34.5519 16.5186 34.7239 15.6602C34.8958 14.6299 34.7239 13.0838 34.7239 13.0838C34.8958 12.9119 35.4116 12.0535 35.5822 12.0535V11.0232C35.4103 10.8513 35.0664 10.8513 35.0664 10.8513H34.8945L36.2686 8.78936C36.0967 8.78936 36.0967 8.61742 35.9248 8.78936C35.5809 8.78936 35.237 9.13323 35.237 9.13323C35.0651 9.64905 34.7212 9.64905 34.5493 9.64905C33.8615 9.82099 34.0334 10.3368 34.0334 10.3368C34.2054 10.8526 34.7212 10.6807 34.8918 10.6807L34.376 11.1965L32.486 10.8526L32.3141 10.3368L32.6579 10.5087C33.0018 10.5087 33.1738 10.1649 33.1738 9.99293C33.1738 9.30517 32.486 9.30517 32.486 9.30517C32.486 8.78936 32.1421 8.78936 31.9702 8.78936C31.4544 8.78936 31.2824 9.13323 31.2824 9.13323H31.1105C30.5947 8.96129 30.4227 9.47711 30.4227 9.64905C30.5947 10.5074 31.2811 10.1649 31.2811 10.1649L30.9372 10.6807L29.0472 10.3368L29.3911 9.64905C29.3911 9.64905 29.563 9.82099 29.735 9.82099C30.2508 9.99293 30.4227 9.47711 30.4227 9.30517C30.4227 8.27487 29.3924 8.78936 29.3924 8.78936C28.8766 8.27354 28.7047 8.44548 28.7047 8.44548L29.2205 10.85C29.2205 10.85 27.8463 12.2241 27.8463 12.3961C27.8463 12.568 28.0183 13.4264 28.0183 13.4264L28.5341 14.2847L28.0183 14.9725L30.5947 15.3164L30.2508 16.1747C30.2508 16.1747 27.3305 16.8625 26.6441 17.205C25.7857 17.8928 25.098 18.5792 24.5822 19.2669C24.2383 19.6108 23.5519 22.7031 22.6922 24.2492H24.2383L21.318 30.0897L20.9741 29.9178C20.9741 29.9178 21.146 28.5436 21.146 28.3717C21.146 28.1998 20.9741 27.3414 20.9741 27.3414C20.8022 26.9975 20.1157 26.3111 20.1157 26.3111H19.5999C19.7719 26.483 19.9438 26.9989 19.9438 27.3414C19.9438 27.6839 19.7719 27.6853 19.5999 27.8572C19.428 28.0292 19.428 28.2011 19.428 28.2011L19.9438 29.4033H19.5999C19.428 29.0595 19.0841 28.8875 19.0841 28.8875V18.7525L19.7719 19.0963L19.428 19.6122L20.4583 19.7841L22.6908 21.846L23.5492 19.4416L21.1447 18.2393L20.8008 17.5516L20.1131 17.7235C20.1131 17.5516 19.9411 17.3796 19.9411 17.3796C20.285 17.0357 20.7995 16.3493 20.9714 16.1774C20.9714 15.8335 20.9714 15.6616 21.1434 15.319C21.1434 14.9751 20.9714 14.2887 20.9714 14.2887C20.7995 14.1168 20.4556 13.7729 20.6276 13.9448C20.7995 14.4607 20.4556 15.1471 20.4556 15.1471C20.4556 15.1471 20.2837 15.1471 20.1117 15.319C19.9398 15.319 19.9398 15.491 19.9398 15.491L19.7679 16.6932L19.424 16.3493V13.2571H19.9398V11.1952H19.424V10.3368H18.0498V11.1952H16.8476C15.1295 10.8513 12.7251 8.79069 12.3812 8.44681C12.2092 13.2571 14.0992 16.6919 14.0992 16.6919V16.6892ZM30.9332 13.7689L31.1052 14.4567L28.7007 14.1128L28.5287 13.425L30.9332 13.7689ZM28.7007 12.3947L28.5287 11.8789L29.3871 11.0206L34.1974 11.8789H34.3693L33.511 12.3947C33.511 12.3947 31.9648 11.707 30.4187 11.707C30.4187 11.707 30.7626 12.2228 29.9029 12.5653C29.731 12.5653 29.0446 12.7373 29.0446 12.0495L28.7007 12.3934V12.3947ZM34.3693 12.7373C34.5413 12.7373 34.7132 12.3934 34.8851 12.3934C35.0571 12.3934 35.229 12.5653 35.229 12.5653V12.9092C35.0571 13.2531 34.7132 13.597 34.7132 13.597C34.5413 12.9092 34.3693 12.9092 34.3693 12.7386C34.2547 12.7386 34.2547 12.7386 34.3693 12.7386V12.7373ZM24.7488 21.4982C24.7488 21.4982 25.7791 19.0937 26.2949 18.9217C26.8107 18.7498 27.1532 18.5779 28.3568 18.4059L28.1849 19.0937C28.1849 19.0937 26.8107 19.4376 26.6388 19.6095C26.2949 19.7814 25.6085 21.4995 25.6085 21.6714L24.7501 21.4995L24.7488 21.4982ZM19.0801 30.9468V30.431H19.7679V30.7748L19.0801 30.9468Z" />
+    </g>
+</svg>
+                    </div>
+                    <div class="d-block d-lg-none text-center ds-pt-22">
+                        
+
+<svg class="ds-county-governor-icon" xmlns="http://www.w3.org/2000/svg" width="145" height="145" viewBox="0 0 57 57" fill="none">
+    <g>
+            <path class="ds-county-governor-icon-background ds-always-inverted" d="M28.8714 56.3683C44.335 56.3683 56.8707 43.8326 56.8707 28.369C56.8707 12.9054 44.335 0.369629 28.8714 0.369629C13.4078 0.369629 0.87207 12.9054 0.87207 28.369C0.87207 43.8326 13.4078 56.3683 28.8714 56.3683Z" />
+            <path class="ds-county-governor-icon-foreground ds-always-inverted" d="M27.4971 14.1115C27.4971 14.1115 25.951 13.9395 25.6071 13.9395C25.2632 13.7676 24.7488 13.5956 24.7488 13.4237C24.7488 13.2518 24.7488 12.9079 25.0926 13.0798C25.4365 13.2518 25.6085 13.4237 26.2949 13.4237C26.6388 13.4237 26.9826 13.5956 27.1532 13.5956L27.4971 14.1115ZM14.0992 16.6892C14.4431 16.1734 16.1612 14.1128 17.0195 13.7689C17.5353 13.597 18.2218 13.597 18.2218 13.597V16.1734C18.0498 16.1734 17.7059 16.0014 17.3634 16.0014C17.0209 16.0014 15.9892 16.1734 15.9892 16.1734L15.4734 16.5173C16.3318 16.3453 16.6756 16.6892 16.6756 16.6892C16.6756 16.8611 16.8476 17.5476 17.0195 17.5476C17.1915 17.7195 18.0498 17.7195 18.0498 17.7195V18.0634C17.534 18.0634 16.6756 18.5792 16.5037 18.7511C16.1598 19.095 15.8159 19.7814 15.8159 19.7814L15.644 20.2972L15.8159 20.4692C15.8159 20.4692 16.1598 19.9534 16.3318 19.9534C16.6756 19.6095 17.0195 20.1253 17.1901 20.1253C17.3607 20.1253 17.534 19.9534 17.7059 19.7814L17.8779 19.6095V28.5423C17.0195 28.3704 16.3318 28.7142 16.1598 28.8862C15.9879 29.0581 15.8159 29.402 15.8159 29.402H16.8462C17.0182 29.402 17.3621 30.2604 17.3621 30.4323H17.8779V31.4626C17.8779 31.4626 17.7059 31.8065 17.534 31.9784C17.3621 32.3223 17.0182 33.3526 17.0182 33.3526L17.1901 33.6965C17.1901 33.6965 17.3621 33.3526 17.3621 33.1806C17.534 32.8368 17.7059 32.8368 17.7059 32.8368V35.5851H18.5643V32.6648L18.9082 32.8368C19.0801 32.6648 19.7665 31.2907 19.7665 31.2907C19.9385 31.2907 20.4543 31.4626 20.4543 31.4626L20.7982 32.8368H20.9701L27.3265 23.904L27.8423 24.2478L25.2659 27.8545C25.6098 28.3704 25.9537 28.7129 26.1243 29.0568C26.4681 29.9151 26.6401 31.1187 26.6401 31.1187V31.2907C25.9523 31.6345 23.7198 33.3526 23.7198 33.5232C23.3759 33.6951 22.6895 34.3815 22.5176 34.5535C22.0017 35.9277 22.0017 39.5357 22.1737 39.8783C22.1737 40.2221 22.6895 40.7366 22.6895 40.7366C22.6895 40.7366 22.5176 40.7366 22.3456 40.9086C22.1737 41.0805 21.3153 41.9389 21.3153 41.9389C20.7995 42.6266 18.9108 44.3433 18.9108 44.3433C18.395 44.3433 17.8805 44.1714 17.8805 44.1714V43.1411C17.8805 42.9691 17.8805 42.6253 17.7086 42.4533C17.5367 42.1095 17.1928 41.595 17.1928 41.595L16.3344 40.9072H15.8186L16.3344 41.423C16.5064 41.595 16.3344 41.9389 16.3344 41.9389C16.1625 42.1108 15.9906 42.4547 15.9906 42.6266C15.9906 42.7985 16.8489 43.6569 16.8489 43.6569L16.677 43.8288C16.677 43.8288 16.1612 43.485 15.8186 43.313L15.4747 43.1411C15.3028 43.1411 14.6164 43.313 14.4444 43.313C14.2725 43.313 13.5861 44.0008 13.5861 44.0008V44.5166C13.5861 44.5166 13.758 44.3447 13.93 44.3447C14.1019 44.3447 14.2738 44.1727 14.6177 44.1727C14.7896 44.1727 14.7896 44.3447 14.7896 44.3447C14.9616 44.6885 15.1335 44.8605 15.3055 45.0324C15.4774 45.0324 16.6796 44.8605 16.6796 44.8605L16.8516 45.0324C16.3358 45.2043 15.9932 45.7202 15.8213 45.8908C15.6493 46.0614 16.1652 46.7491 16.1652 46.7491C16.1652 47.093 15.3068 47.4369 15.3068 47.4369H15.8226C16.1665 47.2649 16.5104 47.2649 16.681 47.093L17.3687 46.4053L17.5407 45.7175C17.5407 45.3736 17.8845 45.5456 18.399 45.5456C18.6283 45.5456 18.7429 45.6029 18.7429 45.7175C18.7429 45.7175 18.7429 45.8894 18.9148 46.0614C18.9148 46.2333 19.0868 46.7491 19.0868 46.7491H19.2587C19.2587 46.7491 20.289 45.375 20.461 45.375C20.6329 45.203 24.5835 42.4547 24.5835 42.4547C24.9274 42.4547 25.0993 42.4547 25.4418 42.2827C25.9577 41.9388 26.4721 41.4244 26.4721 41.4244V40.566C26.4721 39.8783 26.6441 39.7076 26.816 39.3638C26.988 39.0199 27.5038 38.5054 27.6744 38.1615L27.8463 37.9896C27.8463 37.9896 26.816 36.7874 26.6441 36.4435C26.3002 35.9277 26.3002 35.4132 26.4721 35.0693C27.3305 32.149 27.8463 30.259 27.8463 30.0871V28.8848L28.5341 29.4007V30.431C28.5341 30.7748 28.0183 32.8354 27.8463 33.1793C27.5024 34.5535 26.988 35.7557 27.3305 36.0996C27.6744 36.7874 29.2205 38.3321 29.735 38.676C30.4227 39.0199 33.6856 38.848 33.8575 38.848C35.3459 39.0772 36.1474 39.3065 36.262 39.5357C36.4339 39.7076 37.8081 41.2538 38.152 41.5976C38.8397 42.2854 39.87 44.0021 39.87 44.0021L39.0117 44.174C38.3239 43.4863 37.8094 43.1438 37.4656 42.9718C36.7778 42.6279 36.0914 42.9718 35.7475 42.9718C35.2317 42.9718 35.0597 43.4876 35.0597 43.4876C35.4036 43.4876 35.9181 43.4876 36.09 43.6596C36.262 43.8315 36.262 44.3473 36.4339 44.3473C36.6059 44.5193 37.4642 44.5193 37.4642 44.5193V44.8631C37.2923 44.8631 36.4339 45.0351 36.09 45.0351C35.8608 45.1497 35.6889 45.2643 35.5742 45.379C35.4023 45.5509 34.8865 46.5812 34.8865 46.5812L35.0584 46.9251C35.0584 46.7531 35.9168 46.2373 35.9168 46.2373C36.0887 46.5812 36.4326 46.5812 36.6045 46.5812C37.1203 46.4093 37.8068 45.5509 37.8068 45.5509L38.1506 45.7228L37.8068 46.2386C37.2909 46.7545 37.6348 47.9567 37.6348 47.9567C37.8068 47.9567 37.9787 48.1286 37.9787 48.1286C37.8068 47.7848 38.3226 47.0983 38.3226 47.0983C38.6665 47.2703 39.0103 47.0983 39.1809 46.9264C39.5248 46.7545 39.5248 45.3803 39.5248 45.3803L41.0709 45.0364L42.9609 45.3803L43.1329 45.0364L42.789 44.6925C42.2732 43.8342 42.1012 43.6622 41.9306 43.3184C41.4148 42.1161 39.5262 38.852 39.5262 38.68V37.9923C39.5262 37.8203 38.8384 36.962 38.4959 36.6181C38.152 36.2742 37.4656 36.2742 37.4656 36.2742C36.4353 35.5865 35.4036 34.9 35.4036 34.7281C35.0597 34.2123 33.5136 32.6662 33.1711 32.3236C32.9991 32.1517 31.453 30.7775 31.453 30.7775L32.1408 30.6056C32.1408 30.6056 33.515 31.8078 33.6869 31.9797C34.2027 32.4956 35.233 33.01 35.5769 33.182C38.4972 35.072 39.8714 35.072 40.0433 35.072C42.1052 35.2439 42.9636 34.0417 43.1355 33.8697C43.6513 33.3539 44.3378 31.8078 43.1355 29.9191C42.7917 29.4033 41.4175 27.5147 41.4175 27.5147L44.1658 25.9686V25.6247L42.9636 25.9686C42.9636 25.9686 42.1052 25.7966 41.7614 25.7966H41.4175L40.5591 25.9686V25.6247L44.3378 23.5627V23.0469C44.3378 23.0469 43.1355 23.3908 42.9636 23.3908C42.7917 23.3908 41.9333 23.2189 41.5894 23.2189H41.0736L40.2152 23.3908V23.0469L44.5097 20.6425L44.6816 20.2986L43.3075 20.6425C43.3075 20.6425 42.1052 20.2986 42.1052 20.4705L41.2469 20.6425H41.0749C41.0749 20.4705 42.621 18.5805 42.621 18.4099C43.3088 17.7222 43.9952 16.5199 44.1672 16.348C45.8852 13.5996 44.8549 11.8816 44.511 11.5377C43.1369 9.30517 40.7324 9.81966 40.3885 9.81966C38.156 10.5074 38.156 12.7399 38.156 12.9119C38.156 13.0838 38.156 13.2558 37.8121 13.4277C37.2963 13.9435 36.266 16.0041 36.266 16.0041H36.7818L37.8121 14.9738C37.984 14.8019 37.984 15.1458 37.984 15.3177C37.8121 16.348 37.1257 17.2077 36.9537 17.5502C36.266 18.5805 35.2357 20.8144 35.2357 20.8144H35.7515C36.6099 19.4402 39.3582 17.7222 39.5302 17.5502C40.046 17.0344 39.5302 15.1458 39.5302 15.1458L40.046 15.3177C40.046 15.4896 40.2179 16.0054 40.3898 16.5199V17.7222L40.7337 17.3783C40.9057 17.2064 41.5921 14.9738 41.0776 13.5996C40.9057 13.0838 39.7034 12.5693 39.7034 12.5693C39.5315 11.8816 40.0473 11.1952 40.2192 11.0232C42.1092 9.64905 43.4834 11.0232 43.9979 11.8816C45.0282 13.9435 42.9676 16.348 42.4518 16.6919C41.2495 17.8941 38.3292 20.4705 38.1573 20.8144C36.0954 23.2189 36.9551 24.593 37.2989 25.2808C37.8148 26.1392 40.3912 28.545 40.9057 29.0595C41.764 29.7472 42.4518 30.7775 42.6237 31.1214C43.3115 33.5259 40.9057 33.8697 39.8754 33.6978C37.8134 33.182 34.8931 30.6056 34.3787 30.2617C32.4887 29.0595 31.9742 29.4033 31.9742 29.0595C31.8022 27.6853 31.6303 22.7031 31.6303 22.7031C31.6303 22.5311 31.8022 22.7031 31.9742 22.7031C32.1461 22.875 32.3181 22.875 32.3181 22.7031V21.3289C32.49 20.8131 32.8339 20.1266 33.0058 19.7828C33.8642 17.8928 34.5519 16.5186 34.7239 15.6602C34.8958 14.6299 34.7239 13.0838 34.7239 13.0838C34.8958 12.9119 35.4116 12.0535 35.5822 12.0535V11.0232C35.4103 10.8513 35.0664 10.8513 35.0664 10.8513H34.8945L36.2686 8.78936C36.0967 8.78936 36.0967 8.61742 35.9248 8.78936C35.5809 8.78936 35.237 9.13323 35.237 9.13323C35.0651 9.64905 34.7212 9.64905 34.5493 9.64905C33.8615 9.82099 34.0334 10.3368 34.0334 10.3368C34.2054 10.8526 34.7212 10.6807 34.8918 10.6807L34.376 11.1965L32.486 10.8526L32.3141 10.3368L32.6579 10.5087C33.0018 10.5087 33.1738 10.1649 33.1738 9.99293C33.1738 9.30517 32.486 9.30517 32.486 9.30517C32.486 8.78936 32.1421 8.78936 31.9702 8.78936C31.4544 8.78936 31.2824 9.13323 31.2824 9.13323H31.1105C30.5947 8.96129 30.4227 9.47711 30.4227 9.64905C30.5947 10.5074 31.2811 10.1649 31.2811 10.1649L30.9372 10.6807L29.0472 10.3368L29.3911 9.64905C29.3911 9.64905 29.563 9.82099 29.735 9.82099C30.2508 9.99293 30.4227 9.47711 30.4227 9.30517C30.4227 8.27487 29.3924 8.78936 29.3924 8.78936C28.8766 8.27354 28.7047 8.44548 28.7047 8.44548L29.2205 10.85C29.2205 10.85 27.8463 12.2241 27.8463 12.3961C27.8463 12.568 28.0183 13.4264 28.0183 13.4264L28.5341 14.2847L28.0183 14.9725L30.5947 15.3164L30.2508 16.1747C30.2508 16.1747 27.3305 16.8625 26.6441 17.205C25.7857 17.8928 25.098 18.5792 24.5822 19.2669C24.2383 19.6108 23.5519 22.7031 22.6922 24.2492H24.2383L21.318 30.0897L20.9741 29.9178C20.9741 29.9178 21.146 28.5436 21.146 28.3717C21.146 28.1998 20.9741 27.3414 20.9741 27.3414C20.8022 26.9975 20.1157 26.3111 20.1157 26.3111H19.5999C19.7719 26.483 19.9438 26.9989 19.9438 27.3414C19.9438 27.6839 19.7719 27.6853 19.5999 27.8572C19.428 28.0292 19.428 28.2011 19.428 28.2011L19.9438 29.4033H19.5999C19.428 29.0595 19.0841 28.8875 19.0841 28.8875V18.7525L19.7719 19.0963L19.428 19.6122L20.4583 19.7841L22.6908 21.846L23.5492 19.4416L21.1447 18.2393L20.8008 17.5516L20.1131 17.7235C20.1131 17.5516 19.9411 17.3796 19.9411 17.3796C20.285 17.0357 20.7995 16.3493 20.9714 16.1774C20.9714 15.8335 20.9714 15.6616 21.1434 15.319C21.1434 14.9751 20.9714 14.2887 20.9714 14.2887C20.7995 14.1168 20.4556 13.7729 20.6276 13.9448C20.7995 14.4607 20.4556 15.1471 20.4556 15.1471C20.4556 15.1471 20.2837 15.1471 20.1117 15.319C19.9398 15.319 19.9398 15.491 19.9398 15.491L19.7679 16.6932L19.424 16.3493V13.2571H19.9398V11.1952H19.424V10.3368H18.0498V11.1952H16.8476C15.1295 10.8513 12.7251 8.79069 12.3812 8.44681C12.2092 13.2571 14.0992 16.6919 14.0992 16.6919V16.6892ZM30.9332 13.7689L31.1052 14.4567L28.7007 14.1128L28.5287 13.425L30.9332 13.7689ZM28.7007 12.3947L28.5287 11.8789L29.3871 11.0206L34.1974 11.8789H34.3693L33.511 12.3947C33.511 12.3947 31.9648 11.707 30.4187 11.707C30.4187 11.707 30.7626 12.2228 29.9029 12.5653C29.731 12.5653 29.0446 12.7373 29.0446 12.0495L28.7007 12.3934V12.3947ZM34.3693 12.7373C34.5413 12.7373 34.7132 12.3934 34.8851 12.3934C35.0571 12.3934 35.229 12.5653 35.229 12.5653V12.9092C35.0571 13.2531 34.7132 13.597 34.7132 13.597C34.5413 12.9092 34.3693 12.9092 34.3693 12.7386C34.2547 12.7386 34.2547 12.7386 34.3693 12.7386V12.7373ZM24.7488 21.4982C24.7488 21.4982 25.7791 19.0937 26.2949 18.9217C26.8107 18.7498 27.1532 18.5779 28.3568 18.4059L28.1849 19.0937C28.1849 19.0937 26.8107 19.4376 26.6388 19.6095C26.2949 19.7814 25.6085 21.4995 25.6085 21.6714L24.7501 21.4995L24.7488 21.4982ZM19.0801 30.9468V30.431H19.7679V30.7748L19.0801 30.9468Z" />
+    </g>
+</svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/StatsforvalterenV2/application.js?v=CQXTSEf8JlfuGsmF5KrJNG4zUxB9b_XtEbTK_k3uhxY"></script>
+    <script src="/js/JwPlayer/jwplayer.imageshop.js" async="async"></script>
+    <script defer="defer" src="/Util/Find/epi-util/find.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+    <script async src="https://siteimproveanalytics.com/js/siteanalyze_6082938.js"></script>
+</body>
+</html>

@@ -1,0 +1,670 @@
+
+<!doctype html>
+<html lang="nb">
+<head>
+    
+    
+<meta charset="utf-8" />
+<title>Ber om innspel til reguleringsendring | Statens vegvesen</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="format-detection" content="telephone=no">
+<link href="https://www.vegvesen.no/nn/vegprosjekt/europaveg/e39storehaugenforde/nyheitsarkiv/reguleringsendring-2026/" rel="canonical" />
+
+
+
+<meta property="og:title" content="Ber om innspel til reguleringsendring" /><meta name="description" content="Statens vegvesen vurderer &#xE5; flytte tunnelp&#xE5;hogget ved Storehaugen lenger mot nord, og kjem difor med ei reguleringsendring. Frist for innspel er 13/10." /><meta property="og:description" content="Statens vegvesen vurderer &#xE5; flytte tunnelp&#xE5;hogget ved Storehaugen lenger mot nord, og kjem difor med ei reguleringsendring. Frist for innspel er 13/10." /><meta property="og:type" content="website" /> 
+<meta property="og:url" content="https://www.vegvesen.no/nn/vegprosjekt/europaveg/e39storehaugenforde/nyheitsarkiv/reguleringsendring-2026/" />
+
+
+<meta property="og:image" content="https://www.vegvesen.no/globalassets/forsiden/svv-social-share-fallback.jpg" /><meta property="og:image:width" content="1800" /><meta property="og:image:height" content="942" /><meta property="og:site_name" content="Statens vegvesen" /><meta property="og:locale" content="nn_NO" />
+<meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@Presserom" /><meta name="twitter:title" content="Ber om innspel til reguleringsendring" /><meta name="twitter:description" content="Statens vegvesen vurderer &#xE5; flytte tunnelp&#xE5;hogget ved Storehaugen lenger mot nord, og kjem difor med ei reguleringsendring. Frist for innspel er 13/10." /><meta name="twitter:image" content="https://www.vegvesen.no/globalassets/forsiden/svv-social-share-fallback.jpg" /><meta property="fb:app_id" content="1864275973818163" />
+
+
+
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=" data-cbid="e0cf2d31-fc2c-4a2c-aac1-63d5210e69e6" type="text/javascript" data-culture="nb" data-blockingmode="manual">
+</script>
+
+
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        'language': 'nn',
+        'template': 'news',
+        'breadCrumb': 'Vei, trafikk, kjøretøy og førerkort|Veiprosjekter|E39 Storehaugen–Førde|Nyheitsarkiv'
+    });
+</script>
+<!-- Google Tag Manager -->
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FKSPBXS');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script id="clientSettings" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+    window.settingsFromServer = {"userCheckOIDCUrl":"https://oidc-login.atlas.vegvesen.no/idporten/status","userCheckFamUrl":"https://dinside-mellomlagring.atlas.vegvesen.no/log-in-status"};
+</script>
+
+
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFTEticaLt.woff" />
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFT_Etica_Reg.woff" />
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFT_Etica_Semibold.woff" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/ui/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/ui/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/ui/favicon/favicon-16x16.png">
+<link rel="manifest" href="/ui/favicon/site.webmanifest">
+<link rel="mask-icon" href="/ui/favicon/safari-pinned-tab.svg" color="#444f55">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="msapplication-TileColor" content="#444f55">
+<meta name="msapplication-config" content="~/ui/favicon/browserconfig.xml">
+<meta name="theme-color" content="#444f55">
+
+
+    
+    
+
+    <script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+window.ENV='prod';
+</script>
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=ea5e7409-fb9b-43a6-9d01-d39f0b434934;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=0f8e1db3-6afb-4ae0-8a0c-222efca3484e', disableCookiesUsage: true }});
+</script>
+
+    
+    
+
+    
+
+
+        <link rel="stylesheet" href="/dist/client/assets/framework-BJY6duON.css" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+        <link rel="stylesheet" href="/dist/client/assets/tokens-n3AGPIhy.css" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+        <link rel="stylesheet" href="/dist/client/assets/global-B1tHttvz.css" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+        <script src="/dist/client/assets/entry-client-CpgJi5L0.js" type="module" data-frontend-framework-module nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+        <script src="/dist/client/assets/framework.component-BGCvq9cr.js" type="module" data-frontend-framework-module nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+        <script src="/dist/client/assets/global.component-BAwApGzA.js" type="module" data-frontend-framework-module nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+        <script src="/dist/client/assets/chat.component-WcFgTS1F.js" type="module" data-frontend-framework-module nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+
+</head>
+
+
+
+
+
+
+<body class="newsPage" data-vanilla-component="framework">
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FKSPBXS"
+                  height="0" width="0" style="display:none;visibility:hidden" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+<div id="idporten-banner" class="your-page-banner" aria-hidden="true" style="display: none;">
+     <div class="page__container">
+        <div class="your-page-banner__user idporten-bruker" data-hj-masked="">
+            <svg class="icon icon--sm" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-person"></use></svg>
+            <span></span>
+        </div>
+        <a class="your-page-banner__logout" href="https://oidc-login.atlas.vegvesen.no/idporten/logout?returnUrl=https%3a%2f%2fwww.vegvesen.no%2floggut%2f">
+            <svg class="icon" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-logout"></use></svg>
+            <span>Logg ut</span>
+        </a>
+    </div>
+</div>
+
+    
+<header class="site-header">
+    <nav class="site-skip-links" aria-label="Gå til innhold">
+       
+           <a class="skiplinks _js-skiplink-main" href="#mainContent">Gå til hovedinnhold</a>
+      
+    </nav>
+
+    <div class="site-header__content page__container">
+        <div class="site-header__logo">
+            <a href="/">
+                <img src="/globalassets/forsiden/statens-vegvesen-logo-header-2.svg?v=49bd7b" alt="Til forsiden" />
+            </a>
+            <img class="site-header__logo__print" src="/ui/logo/statens-vegvesen-logo-print.svg" alt="Statens Vegvesen" />
+        </div>
+        <div class="site-header__navigation">
+
+            
+
+<button type="button" class="mobile-search-close _js-search-close-mobile">
+    <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-close"></use></svg>
+    Lukk
+</button>
+<button type="button" class="mobile-search-trigger _js-search-open-mobile">
+    <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-search"></use></svg>
+    Søk
+</button>
+<div class="quick-search _js-quick-search">
+    <form method="get" action="/sok/" role="search">
+        <label for="searchText" class="quick-search__label">Søk etter</label>
+        <input id="searchText" name="q" type="search" class="quick-search__input _js-set-focus" placeholder="Søk etter" />
+        <button type="submit" class="quick-search__button" aria-label="Søk">
+            <svg class="icon icon--sm icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-search"></use></svg>
+        </button>
+    </form>
+</div>
+
+
+            <div class="site-header__navigation__wrapper">
+                
+    <nav aria-label="Hovedmeny">
+        <button type="button" class="mobile-menu-close _js-mobile-close" aria-controls="main-nav-mobile">
+            <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-close"></use></svg>
+            Lukk
+        </button>
+        <button type="button" class="mobile-menu-trigger _js-mobile-open" aria-controls="main-nav-mobile">
+            <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-burger"></use></svg>
+            Meny
+        </button>
+
+        <ul id="main-nav-mobile" class="main-nav _js-menu-mobile">
+                <li class="main-nav__your-page">
+                    <a
+                        href="/dinside/"
+                        class="main-nav__item__your-page"
+                    >
+                        Din side
+                    </a>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-55239"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            id="mainMenu"
+                            aria-expanded="false"
+                        >                            Trafikk
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-55239">
+                            <ul>
+                                    <li>
+                                        <a href="/trafikkinformasjon/reiseinformasjon/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/travelinfo_grey.svg?v=49a3b5" alt="" />
+                                            Reiseinformasjon
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/trafikkinformasjon/vei-og-skilt/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/roadsurroundings_grey.svg?v=49a3b5" alt="" />
+                                            Vei og skilt
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/trafikkinformasjon/trafikksikkerhet/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/safety_grey.svg?v=49a3b5" alt="" />
+                                            Trafikksikkerhet
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-39613"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Kj&#xF8;ret&#xF8;y
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-39613">
+                            <ul>
+                                    <li>
+                                        <a href="/kjoretoy/kjop-og-salg/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/buyandsell_grey.svg?v=499fcb" alt="" />
+                                            Kj&#xF8;p og salg
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kjoretoy/eie-og-vedlikeholde/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/maintenance_grey.svg?v=49a007" alt="" />
+                                            Eie og vedlikeholde
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kjoretoy/yrkestransport/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/transport_grey.svg?v=49a005" alt="" />
+                                            Yrkestransport
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-36234"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            F&#xF8;rerkort
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-36234">
+                            <ul>
+                                    <li>
+                                        <a href="/forerkort/ta-forerkort/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/driverlicense_brandnew.svg?v=4a6637" alt="" />
+                                            Ta f&#xF8;rerkort
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/forerkort/har-forerkort/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/driverlicense_hand.svg?v=4a65f8" alt="" />
+                                            Har f&#xF8;rerkort
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/forerkort/yrkessjafor/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/profdriver_education1.svg?v=4a660f" alt="" />
+                                            Utdanning for yrkessj&#xE5;f&#xF8;rer
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-69627"
+                            class="main-nav__item _js-submenu-trigger main-nav--selected"
+                            aria-current="true"
+                            
+                            aria-expanded="false"
+                        >                            Veiprosjekter
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-69627">
+                            <ul>
+                                    <li>
+                                        <a href="/vegprosjekter/finn-vegprosjekt/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/trafficpoi.svg?v=4aa5e4" alt="" />
+                                            Finn veiprosjekter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/prosess/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/puzzle.svg?v=4aa5c0" alt="" />
+                                            Prosessen fram til ny vei
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/nasjonal-transportplan/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/nasjonal-transportplan.svg?v=4aa6c2" alt="" />
+                                            Nasjonal transportplan (NTP)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/hoeringer-vegprosjekter/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/vector.svg?v=4aa6cd" alt="" />
+                                            H&#xF8;ringer veiprosjekter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/veg-og-gate/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/for-deg-med-erfaring.svg?v=4aa705" alt="" />
+                                            For entrepren&#xF8;rer
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-21794"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Fag
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-21794">
+                            <ul>
+                                    <li>
+                                        <a href="/fag/veg-og-gate/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/road_grey.svg?v=49c90a" alt="" />
+                                            Vei og gate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/trafikk/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/cars_grey.svg?v=49c91f" alt="" />
+                                            Trafikk
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/teknologi/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/technology_grey.svg?v=49c914" alt="" />
+                                            Teknologi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/fokusomrader/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/focus_grey.svg?v=49c8f2" alt="" />
+                                            Fokusomr&#xE5;der
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/leverandor/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/infobubble_grey.svg?v=49a3b5" alt="" />
+                                            Leverand&#xF8;r
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/publikasjoner/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/publications_grey.svg?v=49c8fd" alt="" />
+                                            Publikasjoner
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-40720"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Om oss
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-40720">
+                            <ul>
+                                    <li>
+                                        <a href="/om-oss/kontakt-oss/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/contact_grey.svg?v=49a3b5" alt="" />
+                                            Kontakt oss
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/om-organisasjonen/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/organizationchart.svg?v=49c8df" alt="" />
+                                            Om organisasjonen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/jobb/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/employees_grey.svg?v=49a3b5" alt="" />
+                                            Jobb i Statens vegvesen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/presse/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/infobubble_grey.svg?v=49a3b5" alt="" />
+                                            Presse
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+        
+    <main id="mainContent" lang="nn" data-vanilla-component="global">
+        <noscript>
+            <div class="page__wrapper page__wrapper--small-spacing-bottom">
+                <div class="page__container">
+                    <div class="info-message info-message--error info-message--center">
+                        
+
+<p>For at nettsidene skal fungere best mulig for deg, m&aring; du aktivere JavaScript i nettleseren din. Her finner du <a href="https://www.enable-javascript.com/no/" rel="noopener">veiledning til hvordan du aktiverer JavaScript i nettleseren (ekstern lenke)</a>.</p>
+<p>Du kan ogs&aring; bruke nettsidene uten &aring; aktivere JavaScript. <a href="/sok/">Bruk s&oslash;ket</a> eller <a href="/om-oss/om-organisasjonen/om-vegvesenno/nettstedskart/">naviger ved hjelp av nettstedkartet</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </noscript>
+        
+
+
+
+
+
+        
+<div class="page__wrapper">
+    <div class="page__container">
+
+
+
+
+
+<nav class="_js-breadcrumbs breadcrumbs" aria-label="Brødsmulesti">
+    <ol>
+            <li><a href="/">Forsiden</a></li>
+            <li><a href="/vegprosjekter/">Veiprosjekter</a></li>
+            <li><a href="/nn/vegprosjekt/europaveg/e39storehaugenforde/">E39 Storehaugen&#x2013;F&#xF8;rde</a></li>
+            <li><a href="/nn/vegprosjekt/europaveg/e39storehaugenforde/nyheitsarkiv/" aria-current="page">Nyheitsarkiv for E39 Storehaugen-Forde</a></li>
+    </ol>
+</nav>
+
+        <div class="page__container--medium">
+
+            
+
+
+            <div class="page__header">
+                <h1>Ber om innspel til reguleringsendring</h1>
+
+                    <div class="page-information page-information--icon">
+                        <div class="page-information__content">
+                            Publisert <time datetime="2026-09-14 14:20:57Z">14. september 2026</time>
+                        </div>
+                    </div>
+            </div>
+            <div class="article">
+                <p class="abstract">Statens vegvesen vurderer &#xE5; flytte tunnelp&#xE5;hogget ved Storehaugen lenger mot nord, og kjem difor med ei reguleringsendring. Frist for innspel er 13/10.</p>
+
+
+                <div class="editorial">
+                    
+
+<div class="block info-message info-message--standard">
+<p><strong>Vi viser til medieoppslag den siste tida om at reguleringsendring E39 Storehaugen - F&oslash;rde skal vere stoppa. Dette er ikkje rett, og planlegging av omreguleringa held fram, inntil Vegvesenet eventuelt f&aring;r beskjed om noko anna fr&aring; Samferdselsdepartemetet.</strong></p>
+</div>
+<p>Statens vegvesen har ein vedteken detaljreguleringsplan for E39 mellom Storehaugen og F&oslash;rde fr&aring; 16. februar 2023. I samband med optimalisering av vegprosjektet for &aring; redusere kostnadane og nytte meir av eksisterande veg, har ein konkludert med at det er mogleg &aring; flytte tunnelp&aring;hogget ved Storehaugen ca. 600-700 meter lengre nord, fr&aring; Myra til Langeland. Dette vil gje ein kortare tunnel og ein kan nytte meir av eksisterande veg.</p>
+<p>Kryss med fv. 57 vert&nbsp; f&oslash;resl&aring;tt som eit T- kryss med h&oslash;ve til kryssutbetring. Kryss med eksisterande&nbsp; E 39 er f&oslash;resl&aring;tt som eit hankkryss med to T- kryss med h&oslash;gresving av og p&aring;, og med bru over ny E39. Ved Skilbreivegen er det h&oslash;ve til &aring; etablere ein kontrollplass.</p>
+<p>Ny E39 vert om lag 6 km kortare enn dagens veg. Prosjektet vil gje auka trafikktryggleik, betre framkomst og betre regularitet langs E39&nbsp; til F&oslash;rde. Reisetida vert redusert og trafikantane f&aring;r l&aring;gare transportkostnader.</p>
+<p>Arbeidet blir gjort i samarbeid med Sunnfjord kommune, og vi ynskjer oss no innspel p&aring; reguleringsendringa. <strong>Fristen er 13. oktober</strong>, og du kan kome med dine innspel her:</p>
+
+
+<div class="block editorial-block editorial-block--orange">
+    <div class="editorial-block__content">
+        
+
+<p class="related-content related-content--seealso"><a href="https://experience.arcgis.com/experience/0a2502bc2a294c039c340f2cd9c9ee50">Merknadsportal E39 Storehaugen-F&oslash;rde</a></p>
+    </div>
+</div>
+
+<p>F&oslash;rem&aring;let med endring av reguleringsplanen er &aring; sikre nok areal til etablering av nye vegar,&nbsp; anlegg for kollektivtrafikk, kontrollplass og mjuke trafikantar, samt rigg- og anleggsomr&aring;de p&aring; Storehaugen-sida av E39.</p>
+<p>Bygging av tunnel vil gje eit masseoverskot, bruk og&nbsp; plassering av massar er ein del av planarbeidet. N&aring;r reguleringsendringa er vedteken, vil omr&aring;det ved Myra verta tilbakef&oslash;rt/frigjeven.</p>
+<p>Vi vil presisere at det ikkje blir endring&nbsp; p&aring; reguleringsplanen i dagsona p&aring; Bruland-sida.</p>
+<p><strong>Har du sp&oslash;rsm&aring;l - Ta kontakt med planleggingsleiarane:</strong></p>
+<ul class="il-ul">
+<li class="il-li">Jan Terje L&oslash;iteg&aring;rd <span data-e="506E317F6C3F3E7E3E3523352637352610342231373524393F3C7E3E313A6E726763626566726D34397D31243134707222353E35203F3F3E726D3C352270723B3E313C320F726D24353722312470723F3E7E3E3523352637352610342231373524393F3C7E3E313A6A3F243C39313D726D363522387072703C39313D357D3B3E393C7024233B35043B3E391C343C3F383E3E19726D2323313C3370316C"></span></li>
+<li class="il-li">Unni W. W. H&oslash;ivik <span data-e="91AFF0BEADFEFFBFFFF4E2F4E7F6F4E7D1FAF8E7F8FEF9BFF8FFFFE4AFB3A9A2A3A4A7B3ACF5F8BCF0E5F0F5B1B3FEFFBFFFF4E2F4E7F6F4E7D1FAF8E7F8FEF9BFF8FFFFE4ABFEE5FDF8F0FCB3ACF7F4E3F9B1B3B1FDF8F0FCF4BCFAFFF8FDB1E5E2FAF4C5FAFFF8DDF5FDFEF9FFFFD8B3ACE2E2F0FDF2B1F0AD"></span></li>
+</ul>
+                </div>
+
+
+                    <div class="article__horizontal-list">
+                        Aktuelt for fylke:
+Vestland, Sunnfjord                    </div>
+            </div>
+
+            
+
+
+            
+
+
+<div class="page-information page-information--list">
+    <ul class="page-information__content">
+                <li><a class="editorial-link" href="/om-oss/presse/aktuelt/?newsTypes=9614">Sjå alle nyheiter frå Statens vegvesen</a></li>
+    </ul>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        
+
+    </main>
+
+    
+<div hidden data-props="{&#xA;  &quot;key&quot;: &quot;b522612b-3f4f-48b8-8b74-8b8f2e3ae466&quot;,&#xA;  &quot;src&quot;: &quot;https://chat.kindlycdn.com/kindly-chat.js&quot;,&#xA;  &quot;allowManualChat&quot;: false,&#xA;  &quot;showBubble&quot;: false&#xA;}" data-vanilla-component="chat"></div>
+
+<button class="chat__bubble" data-kindly-chat-trigger>
+    <span>Chat med oss</span>
+</button>
+
+    
+<footer class="site-footer">
+    <div class="page__container">
+        <div class="page__container--medium site-footer__row ">
+                <div class="site-footer__row__column">
+                    <h2>Kontakt oss</h2>
+                    
+<ul><li>
+
+<a href="/om-oss/kontakt-oss/">Kontakt Statens vegvesen</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/om-statens-vegvesen/folg-oss-i-sosiale-medier/">F&#xF8;lg oss i sosiale medier</a>
+</li></ul>
+                </div>
+                <div class="site-footer__row__column">
+                    <h2>Om vegvesen.no</h2>
+                    
+<ul><li>
+
+<a href="/om-oss/om-organisasjonen/om-vegvesenno/nettstedskart/">Nettstedskart</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/personvern/">Personvern</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/personvern/vegvesenno-informasjonskapsler/">Informasjonskapsler (cookies)</a>
+</li><li>
+
+<a href="https://uustatus.no/nb/erklaringer/publisert/9e4d3e08-9ae7-42e4-89df-26b152ced243" target="_blank">Tilgjengelighetserkl&#xE6;ring</a>
+</li></ul>
+                </div>
+            <div class="site-footer__row__column">
+                <h2>Statens vegvesen</h2>
+                
+<ul><li>
+
+<a href="/om-oss/om-organisasjonen/">Om organisasjonen</a>
+</li></ul>
+                <div class="site-footer__section">
+                    <p>Org.nr.: 971 032 081</p>
+                </div>
+                
+<ul><li>
+
+<a href="/fag/publikasjoner/statistikk-og-analyser/">Statistikk og analyser</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/innsyn-etter-offentligloven/">Innsyn etter offentligloven</a>
+</li><li>
+
+<a href="/fag/publikasjoner/hoeringer/">Offentlige h&#xF8;ringer</a>
+</li><li>
+
+<a href="/om-oss/kontakt-oss/skjema/">Skjema</a>
+</li></ul>
+            </div>
+            <div class="site-footer__row__column">
+                <h2>Language</h2>
+                
+
+<ul>
+        <li>
+                <span class="language active-language">Bokm&#xE5;l</span>
+
+                <span>(ikke tilgjengelig)</span>
+        </li>
+        <li>
+                <a href="/nn/vegprosjekt/europaveg/e39storehaugenforde/nyheitsarkiv/reguleringsendring-2026/" hreflang="nn" lang="nn" class="_js-language">Nynorsk</a>
+
+        </li>
+        <li>
+                <span class="language">English</span>
+
+                <span>(not available)</span>
+        </li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+
+<script async src='https://siteimproveanalytics.com/js/siteanalyze_3658.js' nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+</script>
+
+    
+
+
+<!-- Skyra -->
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+    window.SKYRA_CONFIG = {
+        org: 'statens-vegvesen'
+    }
+
+    window.addEventListener('CookiebotOnLoad', function () {
+        window.skyraStart = function() {
+            window.skyra.setConsent(Cookiebot.consent?.preferences ?? false);
+        };
+    });
+
+    window.addEventListener('CookiebotOnAccept', function() {
+        window.skyra?.setConsent(Cookiebot.consent.preferences);
+    });
+
+    window.addEventListener('CookiebotOnDecline', function() {
+        window.skyra?.setConsent(false);
+    });
+</script>
+<script src="https://survey.skyra.no/skyra-survey.js" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/scripts/TinyMCE/plugins/codesnipet/prism.css?v=iVXSIx9eFhKMhIA74Esl9Dc0oi1Mz7GhqrqeO0oQJc0" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+    <script async defer src="/scripts/TinyMCE/plugins/codesnipet/prism.js?v=c4HFDk9HS5KuSYwzNNGPKVV0swZVL6bNhdVi_PpVJSw" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ="></script>
+    <script defer="defer" nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=" src="/Util/Find/epi-util/find.js"></script>
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=">
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+
+<script nonce="gCxu6zUxbTJHM20SpPrl7t5q73y2w5tmA8iNqvE0OZQ=" src="/js/eo.min.js" type="text/javascript"></script>
+</body>
+
+
+
+
+</html>
+

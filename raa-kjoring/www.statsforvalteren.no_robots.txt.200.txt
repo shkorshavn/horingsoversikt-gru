@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+Disallow: /EPiServer/
+Disallow: /util/
+Disallow: /Static/

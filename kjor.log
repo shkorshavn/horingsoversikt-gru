@@ -1,0 +1,22 @@
+2026-10-17 15:20:01,762 INFO GET https://data.stortinget.no/eksport/horinger?sesjonid=2026-2027&format=json
+2026-10-17 15:20:03,262 INFO GET https://data.stortinget.no/eksport/horingsprogram?horingid=10005933&format=json
+2026-10-17 15:20:04,762 INFO GET https://data.stortinget.no/eksport/horingsprogram?horingid=10005976&format=json
+2026-10-17 15:20:06,262 INFO GET https://data.stortinget.no/eksport/horinger?sesjonid=2027-2028&format=json
+2026-10-17 15:20:06,448 INFO Stortinget: 64 høringer
+2026-10-17 15:20:07,949 INFO GET https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1
+2026-10-17 15:20:07,980 ERROR Regjeringen.no feilet: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1
+2026-10-17 15:20:09,482 INFO GET https://www.vegvesen.no/fag/publikasjoner/hoeringer/
+2026-10-17 15:20:10,982 INFO GET https://www.vegvesen.no/vegprosjekter/hoeringer-vegprosjekter/
+2026-10-17 15:20:12,482 INFO GET https://www.vegvesen.no/vegprosjekter/riksveg/rv13forlandbru/nyheitsarkiv/reguleringsplan-leggast-pa-offentleg-ettersyn/
+2026-10-17 15:20:13,982 INFO GET https://www.vegvesen.no/vegprosjekter/europaveg/e39grungenbru/nyheitsarkiv/24.-september-2026-varsel-om-planopstart
+2026-10-17 15:20:15,482 INFO GET https://www.vegvesen.no/vegprosjekter/europaveg/e6namdalen/e6mellingsmoenasnes/nyhetsarkiv/horing-e6-fylkesgrensen-trondelag-nordland/
+2026-10-17 15:20:16,982 INFO GET https://www.vegvesen.no/vegprosjekter/riksveg/nisser/nyheitsarkiv/detaljreguleringsplan-steane-vradal/
+2026-10-17 15:20:18,482 INFO GET https://www.vegvesen.no/vegprosjekter/europaveg/e39storehaugenforde/nyheitsarkiv/reguleringsendring-2026/
+2026-10-17 15:20:19,983 INFO GET https://www.vegvesen.no/vegprosjekter/europaveg/e39moskogjolstraholmen/nyheitsarkiv/varsel-om-offentleg-ettersyn-og-hoyring-e39-moskog-jolstraholmen/
+2026-10-17 15:20:21,483 INFO GET https://www.vegvesen.no/vegprosjekter/europaveg/e6namdalen/e6mellingsmoenasnes/nyhetsarkiv/varsel-om-offentlig-ettersyn-og-horing--e6-mellingsmoen-nordland-grense/
+2026-10-17 15:20:21,717 INFO Statens vegvesen: 448 høringer
+2026-10-17 15:20:23,218 INFO GET https://innlandetfylke.no/politikk/horinger/
+2026-10-17 15:20:23,656 INFO Innlandet fylkeskommune: 2 høringer
+2026-10-17 15:20:25,156 INFO GET https://www.statsforvalteren.no/innlandet/horinger/
+2026-10-17 15:20:25,676 INFO Statsforvalteren i Innlandet: 0 høringer
+2026-10-17 15:20:25,678 INFO Ferdig: 36 åpne høringer, 21 kall

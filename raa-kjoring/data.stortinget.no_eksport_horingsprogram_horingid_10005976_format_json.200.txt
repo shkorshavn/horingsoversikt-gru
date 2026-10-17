@@ -1,0 +1,1 @@
+{"respons_dato_tid":"\/Date(1792250404590+0200)\/","versjon":"1.6","horing_id":10005976,"horing_type":2,"horingsprogram_liste":[],"komite":{"respons_dato_tid":"\/Date(1792249321312+0200)\/","versjon":"1.6","id":"KONTROLL","navn":"Kontroll- og konstitusjonskomiteen"}}

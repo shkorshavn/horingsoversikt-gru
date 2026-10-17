@@ -1,0 +1,207 @@
+{
+  "generert": "2026-10-17T17:20:25+02:00",
+  "antall_kall": 21,
+  "kilder": [
+    {
+      "kilde": "Stortinget",
+      "status": "ok",
+      "antall": 64,
+      "sekunder": 6.2
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "status": "feil",
+      "antall": 0,
+      "feil": "HTTPError: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1",
+      "sekunder": 1.5
+    },
+    {
+      "kilde": "Statens vegvesen",
+      "status": "ok",
+      "antall": 448,
+      "sekunder": 13.7
+    },
+    {
+      "kilde": "Nye Veier",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Jernbanedirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Bane NOR",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Nkom",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Miljødirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "NVE",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "DSB",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Landbruksdirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "DSA",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Utdanningsdirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "IMDi",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Bufdir",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Kulturdirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Riksantikvaren",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Nasjonalarkivet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Helsedirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "NAV",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Direktoratet for medisinske produkter",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Folkehelseinstituttet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Mattilsynet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Arbeidstilsynet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Statens helsetilsyn",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Digdir",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "DFØ",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "DiBK",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Kartverket",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "UDI",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Politidirektoratet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Innlandet politidistrikt",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Skatteetaten",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Datatilsynet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "SSB",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Konkurransetilsynet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Sivilombudet",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Innlandet fylkeskommune",
+      "status": "ok",
+      "antall": 2,
+      "sekunder": 1.9
+    },
+    {
+      "kilde": "Statsforvalteren i Innlandet",
+      "status": "ok",
+      "antall": 0,
+      "sekunder": 2.0
+    }
+  ]
+}

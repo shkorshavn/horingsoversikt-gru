@@ -147,3 +147,16 @@ def test_aeoeaa_og_lf(mapper):
         raa = (ut / navn).read_bytes()
         assert b"\r\n" not in raa
     assert "Høring om ærfugl på Åsen" in (ut / "horinger.json").read_text(encoding="utf-8")
+
+
+def test_gamle_hoeringer_fra_for_start_tas_ikke_med(mapper):
+    kilder, ut = mapper
+    gamle = [
+        _h("eldgammel", "2019-03-01"),
+        _h("grense", "2026-09-19"),
+        _h("for-gammel", "2026-09-18"),
+    ]
+    _lagre(kilder, "Stortinget", gamle, MANDAG)
+    bygg(KONFIG, kilder, ut, MANDAG)  # historikken starter 19. oktober
+    assert [h["id"] for h in _les(ut, "arkiv.json")["horinger"]] == ["grense"]
+    assert set(_les(ut, "historikk.json")["forst_sett"]) == {"grense"}

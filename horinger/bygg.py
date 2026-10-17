@@ -28,6 +28,9 @@ log = logging.getLogger("horinger")
 ROT = Path(__file__).resolve().parent.parent
 NY_DAGER = 7
 UTDATERT_DAGER = 8
+# Noen kilder (f.eks. Vegvesenets regelverkshøringer) lister høringer mange år tilbake.
+# Høringer med frist mer enn så mange dager før historikken startet, tas ikke med i arkivet.
+ARKIV_FORAN_START_DAGER = 30
 
 
 def _dato(verdi: str | None) -> date | None:
@@ -75,7 +78,12 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
     }
     opprettet = _dato(historikk["opprettet"])
     forst_sett: dict[str, str] = historikk["forst_sett"]
-    arkiv = {h["id"]: h for h in (les_json(utdata / "arkiv.json") or {}).get("horinger", [])}
+    arkivgrense = opprettet - timedelta(days=ARKIV_FORAN_START_DAGER)
+    arkiv = {
+        h["id"]: h
+        for h in (les_json(utdata / "arkiv.json") or {}).get("horinger", [])
+        if _dato(h["utlopt"]) >= arkivgrense
+    }
     forrige_apne = (les_json(utdata / "horinger.json") or {}).get("horinger", [])
 
     status: list[dict] = []
@@ -90,12 +98,14 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
 
     apne: list[dict] = []
     for h in alle.values():
+        frist = _dato(h.get("frist"))
+        if frist is not None and frist < arkivgrense:
+            continue  # gammel høring fra før oversikten startet
         forst = forst_sett.setdefault(h["id"], i_dag_.isoformat())
         forst_dato = _dato(forst)
         h = dict(h)
         h["forst_sett"] = forst
         h["ny"] = forst_dato > opprettet and (i_dag_ - forst_dato).days < NY_DAGER
-        frist = _dato(h.get("frist"))
         if frist is not None and frist < i_dag_:
             h["ny"] = False
             h["utlopt"] = frist.isoformat()
@@ -128,6 +138,9 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
         utdata / "arkiv.json",
         {"generert": generert, "antall": len(arkivliste), "horinger": arkivliste},
     )
+    # Historikken trenger bare høringer som fortsatt finnes i en kilde eller i arkivet.
+    behold = {h["id"] for h in apne} | set(arkiv)
+    historikk["forst_sett"] = {k: v for k, v in sorted(forst_sett.items()) if k in behold}
     skriv_json(utdata / "historikk.json", historikk)
     oppsummering = {
         "apne": len(apne),

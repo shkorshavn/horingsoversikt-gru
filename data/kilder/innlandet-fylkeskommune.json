@@ -1,7 +1,7 @@
 {
   "kilde": "Innlandet fylkeskommune",
   "status": "ok",
-  "hentet": "2026-10-17T17:42:39+02:00",
+  "hentet": "2026-10-19T17:06:44+02:00",
   "antall": 2,
   "sekunder": 2.0,
   "horinger": [
@@ -16,7 +16,7 @@
       "frist_tekst": "Frist for innspill til planarbeidet er 13. november 2026.",
       "publisert": null,
       "ingress": "Målet er å skifte ut eksisterende Skog bru med ny bru eller kulvert i samme trasé. Frist for innspill til planarbeidet er 13. november 2026.",
-      "hentet": "2026-10-17T17:42:39+02:00",
+      "hentet": "2026-10-19T17:06:44+02:00",
       "niva": "Fylkeskommunen",
       "id": "72aaf5ad5099"
     },
@@ -31,10 +31,10 @@
       "frist_tekst": "Høringsfrist er 11. november 2026.",
       "publisert": null,
       "ingress": "Planprogrammet er første fase av arbeidet med regional plan. Høringsfrist er 11. november 2026.",
-      "hentet": "2026-10-17T17:42:39+02:00",
+      "hentet": "2026-10-19T17:06:44+02:00",
       "niva": "Fylkeskommunen",
       "id": "defdb6b438fe"
     }
   ],
-  "sist_ok": "2026-10-17T17:42:39+02:00"
+  "sist_ok": "2026-10-19T17:06:44+02:00"
 }

@@ -1,9 +1,10 @@
 {
   "kilde": "Statens vegvesen",
-  "status": "ok",
-  "hentet": "2026-10-19T17:06:30+02:00",
-  "antall": 448,
-  "sekunder": 13.7,
+  "status": "feil",
+  "hentet": "2026-10-23T11:34:38+02:00",
+  "antall": 0,
+  "feil": "SperretAvRobots: Kunne ikke hente https://www.vegvesen.no/robots.txt: HTTPSConnectionPool(host='www.vegvesen.no', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='www.vegvesen.no', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "sekunder": 30.3,
   "horinger": [
     {
       "kilde": "Statens vegvesen",

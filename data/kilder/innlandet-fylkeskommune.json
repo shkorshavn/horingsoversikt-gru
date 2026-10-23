@@ -1,9 +1,10 @@
 {
   "kilde": "Innlandet fylkeskommune",
-  "status": "ok",
-  "hentet": "2026-10-19T17:06:44+02:00",
-  "antall": 2,
-  "sekunder": 2.0,
+  "status": "feil",
+  "hentet": "2026-10-23T11:35:08+02:00",
+  "antall": 0,
+  "feil": "SimulertFeil: Simulert feil for Innlandet fylkeskommune (HORINGER_SIMULER_FEIL)",
+  "sekunder": 0.0,
   "horinger": [
     {
       "kilde": "Innlandet fylkeskommune",

@@ -1,13 +1,13 @@
 {
-  "generert": "2026-10-23T11:34:02+02:00",
+  "generert": "2026-10-23T11:35:25+02:00",
   "kilder": [
     {
       "kilde": "Stortinget",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-19T17:06:24+02:00",
-      "sist_ok": "2026-10-19T17:06:24+02:00",
-      "antall": 22
+      "hentet": "2026-10-23T11:34:31+02:00",
+      "sist_ok": "2026-10-23T11:34:31+02:00",
+      "antall": 38
     },
     {
       "kilde": "Regjeringen.no",
@@ -20,10 +20,11 @@
     {
       "kilde": "Statens vegvesen",
       "kjoring": "github",
-      "status": "ok",
-      "hentet": "2026-10-19T17:06:30+02:00",
+      "status": "feil",
+      "hentet": "2026-10-23T11:34:38+02:00",
       "sist_ok": "2026-10-19T17:06:30+02:00",
-      "antall": 5
+      "antall": 5,
+      "feil": "SperretAvRobots: Kunne ikke hente https://www.vegvesen.no/robots.txt: HTTPSConnectionPool(host='www.vegvesen.no', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='www.vegvesen.no', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "kilde": "Nye Veier",
@@ -232,17 +233,18 @@
     {
       "kilde": "Innlandet fylkeskommune",
       "kjoring": "github",
-      "status": "ok",
-      "hentet": "2026-10-19T17:06:44+02:00",
+      "status": "feil",
+      "hentet": "2026-10-23T11:35:08+02:00",
       "sist_ok": "2026-10-19T17:06:44+02:00",
-      "antall": 2
+      "antall": 2,
+      "feil": "SimulertFeil: Simulert feil for Innlandet fylkeskommune (HORINGER_SIMULER_FEIL)"
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-19T17:06:46+02:00",
-      "sist_ok": "2026-10-19T17:06:46+02:00",
+      "hentet": "2026-10-23T11:35:08+02:00",
+      "sist_ok": "2026-10-23T11:35:08+02:00",
       "antall": 0
     }
   ]

@@ -435,6 +435,13 @@ def test_feilforklaringer(side):
     assert side.evaluate(f"{f}('SperretAvRobots: x er sperret i robots.txt')").startswith(
         "Nettstedet tillater ikke"
     )
+    # Nettverksfeil ved henting av robots.txt (Vegvesenet 23.10.2026) er ikke en sperre.
+    nettverk = (
+        "RobotsUtilgjengelig: Kunne ikke hente https://www.vegvesen.no/robots.txt: "
+        "HTTPSConnectionPool(host='www.vegvesen.no', port=443): Max retries exceeded "
+        "(Caused by NewConnectionError('[Errno 101] Network is unreachable'))"
+    )
+    assert side.evaluate(f"{f}({nettverk!r})") == "Fikk ikke kontakt med nettstedet."
     assert side.evaluate(f"{f}('HTTPError: 500 Server Error')") == (
         "Nettstedet svarte med en feil (feilkode 500)."
     )

@@ -243,11 +243,11 @@
   function feilforklaring(feil) {
     var f = String(feil || "");
     var kode = f.match(/\b(4\d\d|5\d\d)\b/);
-    if (/robots/i.test(f)) return "Nettstedet tillater ikke automatisk innhenting av denne siden.";
+    if (/SperretAvRobots|sperret i robots/i.test(f)) return "Nettstedet tillater ikke automatisk innhenting av denne siden.";
     if (/timeout|timed out|tidsavbrudd/i.test(f)) return "Nettstedet svarte ikke i tide.";
+    if (/connection|resolve|ssl|unreachable/i.test(f)) return "Fikk ikke kontakt med nettstedet.";
     if (kode && kode[1] === "403") return "Nettstedet avviste innhentingen (feilkode 403).";
     if (kode) return "Nettstedet svarte med en feil (feilkode " + kode[1] + ").";
-    if (/connection|resolve|ssl/i.test(f)) return "Fikk ikke kontakt med nettstedet.";
     return "Innhentingen feilet.";
   }
 

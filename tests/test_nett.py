@@ -43,3 +43,21 @@ def test_robots_tom_er_alt_tillatt():
 def test_robots_flere_agenter_i_samme_gruppe():
     tekst = "User-agent: googlebot\nUser-agent: *\nDisallow: /sok/\n"
     assert not Robots.tolk(tekst, AGENT).tillatt("/sok/x")
+
+
+def test_nettverksfeil_ved_robots_er_ikke_sperre(monkeypatch):
+    import pytest
+    import requests
+
+    from horinger.nett import Nett, RobotsUtilgjengelig, SperretAvRobots
+
+    nett = Nett(user_agent="test", pause=0, tidsavbrudd=1)
+
+    def feiler(*_a, **_k):
+        raise requests.ConnectionError("[Errno 101] Network is unreachable")
+
+    monkeypatch.setattr(nett.okt, "get", feiler)
+    with pytest.raises(RobotsUtilgjengelig) as feil:
+        nett.hent("https://www.vegvesen.no/x")
+    assert not isinstance(feil.value, SperretAvRobots)
+    assert nett.antall_kall == 0

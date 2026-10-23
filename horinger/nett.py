@@ -18,6 +18,10 @@ class SperretAvRobots(Exception):
     """Adressen er sperret i nettstedets robots.txt."""
 
 
+class RobotsUtilgjengelig(Exception):
+    """robots.txt kunne ikke hentes (nettverksfeil eller serverfeil), så ingenting hentes."""
+
+
 @dataclass
 class _Regel:
     tillat: bool
@@ -134,10 +138,10 @@ class Nett:
         try:
             svar = self.okt.get(robots_url, timeout=self.tidsavbrudd)
         except requests.RequestException as feil:
-            raise SperretAvRobots(f"Kunne ikke hente {robots_url}: {feil}") from feil
+            raise RobotsUtilgjengelig(f"Kunne ikke hente {robots_url}: {feil}") from feil
         self.antall_kall += 1
         if svar.status_code >= 500:
-            raise SperretAvRobots(f"{robots_url} svarte {svar.status_code}")
+            raise RobotsUtilgjengelig(f"{robots_url} svarte {svar.status_code}")
         robots = (
             Robots.tolk(svar.text.lstrip("\ufeff"), self.user_agent)
             if svar.status_code == 200

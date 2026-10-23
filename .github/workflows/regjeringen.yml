@@ -34,7 +34,9 @@ jobs:
     timeout-minutes: 30
     defaults:
       run:
-        shell: powershell
+        # cmd, ikke PowerShell: Windows stopper PowerShell-skript som standard
+        # (execution policy), og den innstillingen skal ikke endres på PC-en.
+        shell: cmd
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -48,7 +50,7 @@ jobs:
         env:
           HENDELSE: ${{ github.event_name }}
           TIDSPLAN: ${{ github.event.schedule }}
-        run: python -m horinger.tidsjekk --hendelse "$env:HENDELSE" --cron "$env:TIDSPLAN" --kilde-fil data/kilder/regjeringen-no.json --krev-fersk
+        run: python -m horinger.tidsjekk --hendelse "%HENDELSE%" --cron "%TIDSPLAN%" --kilde-fil data/kilder/regjeringen-no.json --krev-fersk
 
       - name: Hent regjeringen.no
         if: steps.tid.outputs.kjor == 'true'

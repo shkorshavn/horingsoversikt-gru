@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-19T17:07:02+02:00",
+  "generert": "2026-10-23T11:34:02+02:00",
   "kilder": [
     {
       "kilde": "Stortinget",
@@ -7,16 +7,15 @@
       "status": "ok",
       "hentet": "2026-10-19T17:06:24+02:00",
       "sist_ok": "2026-10-19T17:06:24+02:00",
-      "antall": 29
+      "antall": 22
     },
     {
       "kilde": "Regjeringen.no",
       "kjoring": "pc",
-      "status": "feil",
-      "hentet": "2026-10-17T17:07:43+02:00",
-      "sist_ok": null,
-      "antall": 0,
-      "feil": "HTTPError: 403 Client Error: Forbidden for url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/?page=1"
+      "status": "ok",
+      "hentet": "2026-10-23T11:33:35+02:00",
+      "sist_ok": "2026-10-23T11:33:35+02:00",
+      "antall": 52
     },
     {
       "kilde": "Statens vegvesen",

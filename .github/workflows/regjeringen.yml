@@ -24,9 +24,10 @@ permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: regjeringen
-  cancel-in-progress: false
+# Ingen «concurrency»-gruppe her: Den ville latt jobben fra 09.00 UTC avbryte jobben fra
+# 08.00 UTC mens begge venter på at PC-en slås på, og om sommeren er det 08.00-jobben som
+# er kl. 10 norsk tid. PC-en kjører uansett én jobb om gangen, og tidsjekken slipper bare
+# gjennom én av dem.
 
 jobs:
   hent:

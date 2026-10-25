@@ -63,7 +63,7 @@ HORINGER = {
             instans="Stortinget, Justiskomiteen",
             kilde="Stortinget",
             niva="Stortinget",
-            kategori="Regjeringen og Stortinget",
+            kategori="Stortinget",
         ),
         _h("prio3", "2026-10-25", tittel="Lav prioritet", prioritet=3),
         _h("ukjent", None, tittel="Uten frist"),
@@ -550,3 +550,13 @@ def test_lenker_som_ikke_er_nettadresser_blir_tekst(side):
     rad = side.locator('.hoering[data-id="farlig"] h2')
     assert rad.locator("a").count() == 0
     assert rad.inner_text() == "Lenke uten http"
+
+
+def test_foreslatt_prioritet_vises(side):
+    flagg = side.locator('.hoering[data-id="d13"] .prio')
+    assert flagg.inner_text() == "Foreslått prioritet: høy"
+    assert "prio-1" in flagg.get_attribute("class")
+    side.check('input[name="prio"][value="3"]')
+    lav = side.locator('.hoering[data-id="prio3"] .prio')
+    assert lav.inner_text() == "Foreslått prioritet: lav"
+    assert side.locator("#liste .hoering").count() == side.locator("#liste .prio").count()

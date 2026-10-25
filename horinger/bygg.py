@@ -31,6 +31,8 @@ UTDATERT_DAGER = 8
 # Noen kilder (f.eks. Vegvesenets regelverkshøringer) lister høringer mange år tilbake.
 # Høringer med frist mer enn så mange dager før historikken startet, tas ikke med i arkivet.
 ARKIV_FORAN_START_DAGER = 30
+# Felt i høringene som alltid følger kildens oppsett i sources.yaml.
+KONFIGFELT = ("kategori", "niva", "prioritet")
 
 
 def _dato(verdi: str | None) -> date | None:
@@ -93,8 +95,11 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
         if kilde_konfig.get("aktiv") and kilde_konfig.get("modul") in KILDER:
             lagret = les_kilde(kildemappe, kilde_konfig["navn"])
         status.append(kildestatus(kilde_konfig, lagret, naa))
+        # Tema, avsender og prioritet tas fra gjeldende sources.yaml, slik at endringer der
+        # slår inn ved neste bygging uten ny henting.
+        fra_konfig = {f: kilde_konfig[f] for f in KONFIGFELT if f in kilde_konfig}
         for h in (lagret or {}).get("horinger", []):
-            alle.setdefault(h["id"], h)
+            alle.setdefault(h["id"], {**h, **fra_konfig})
 
     apne: list[dict] = []
     for h in alle.values():

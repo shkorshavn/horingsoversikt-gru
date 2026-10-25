@@ -7,7 +7,7 @@ import pytest
 from horinger.kilder.stortinget import Stortinget, neste_sesjon, sesjon_for, tolk_horing
 
 FIXTURES = Path(__file__).parent / "fixtures"
-KONFIG = {"navn": "Stortinget", "kategori": "Regjeringen og Stortinget", "prioritet": 1}
+KONFIG = {"navn": "Stortinget", "kategori": "Stortinget", "prioritet": 1}
 
 
 @pytest.mark.parametrize(

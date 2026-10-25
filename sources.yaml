@@ -68,7 +68,8 @@ felles:
       - Lillestrøm
 
 kategorier:
-  - Regjeringen og Stortinget
+  - Stortinget
+  - Regjeringen og departementene
   - Transport, samferdsel og infrastruktur
   - Miljø, klima, energi og beredskap
   - Oppvekst, utdanning, kultur og integrering
@@ -77,9 +78,9 @@ kategorier:
   - Regionale ledd
 
 kilder:
-  # --- Regjeringen og Stortinget ---
+  # --- Stortinget og regjeringen (to egne temaer, Svein 25.10.2026) ---
   - navn: Stortinget
-    kategori: Regjeringen og Stortinget
+    kategori: Stortinget
     niva: Stortinget
     prioritet: 1
     url: https://data.stortinget.no/eksport/horinger
@@ -91,7 +92,7 @@ kilder:
     merknad: Spør både nåværende og neste sesjon. Fristen avgjør om høringen er åpen.
 
   - navn: Regjeringen.no
-    kategori: Regjeringen og Stortinget
+    kategori: Regjeringen og departementene
     niva: Regjeringen
     prioritet: 1
     url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/

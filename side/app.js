@@ -10,6 +10,7 @@
   var KORTE_MANEDER = ["jan.", "feb.", "mars", "apr.", "mai", "juni", "juli", "aug.",
     "sep.", "okt.", "nov.", "des."];
   var STANDARD_PRIO = ["1", "2"];
+  var PRIO_NAVN = { "1": "høy", "2": "middels", "3": "lav" };
   var ARKIV_DAGER = 30;      // utløpte høringer vises så lenge
   var UTDATERT_DAGER = 10;   // advarsel når oversikten er eldre enn dette
 
@@ -187,7 +188,9 @@
       h.ny ? document.createTextNode(" ") : null,
       h.ny ? el("span", { klasse: "ny-merke", tekst: "Ny" }) : null
     ]);
+    var prioNavn = PRIO_NAVN[String(h.prioritet)];
     var detaljer = el("p", { klasse: "detaljer" }, [
+      prioNavn ? el("span", { klasse: "prio prio-" + h.prioritet, tekst: "Foreslått prioritet: " + prioNavn }) : null,
       h.kategori ? el("span", { klasse: "tema", tekst: h.kategori }) : null,
       h.frist_tekst ? el("span", { tekst: h.frist_tekst }) : null,
       h.kilde && String(h.instans).indexOf(h.kilde) !== 0 ? el("span", { tekst: "Kilde: " + h.kilde }) : null

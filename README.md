@@ -69,6 +69,9 @@ visning kan deles som lenke. Dagens dato og «dager igjen» regnes i norsk tid.
 
 Er oversikten ikke oppdatert på mer enn ti dager, viser siden en advarsel øverst.
 
+Hver høring har et flagg med foreslått prioritet (høy, middels eller lav). Foreløpig følger
+prioriteten kilden (`prioritet` i `sources.yaml`). Stortinget og regjeringen er egne temaer.
+
 ## Kjøre lokalt
 
 Krever Python 3.11 eller nyere.

@@ -160,3 +160,38 @@ def test_gamle_hoeringer_fra_for_start_tas_ikke_med(mapper):
     bygg(KONFIG, kilder, ut, MANDAG)  # historikken starter 19. oktober
     assert [h["id"] for h in _les(ut, "arkiv.json")["horinger"]] == ["grense"]
     assert set(_les(ut, "historikk.json")["forst_sett"]) == {"grense"}
+
+
+def test_tema_avsender_og_prioritet_fra_gjeldende_konfig(mapper):
+    kilder, ut = mapper
+    gammel = {**_h("a", "2026-12-01"), "kategori": "Regjeringen og Stortinget", "prioritet": 1}
+    _lagre(kilder, "Stortinget", [gammel], MANDAG)
+    konfig = {
+        "kilder": [
+            {
+                "navn": "Stortinget",
+                "modul": "stortinget",
+                "aktiv": True,
+                "kategori": "Stortinget",
+                "niva": "Stortinget",
+                "prioritet": 2,
+            }
+        ]
+    }
+    bygg(konfig, kilder, ut, MANDAG)
+    (h,) = _les(ut, "horinger.json")["horinger"]
+    assert (h["kategori"], h["niva"], h["prioritet"]) == ("Stortinget", "Stortinget", 2)
+
+
+def test_stortinget_og_regjeringen_er_egne_temaer():
+    from pathlib import Path
+
+    import yaml
+
+    konfig = yaml.safe_load(
+        (Path(__file__).parent.parent / "sources.yaml").read_text(encoding="utf-8")
+    )
+    tema = {k["navn"]: k["kategori"] for k in konfig["kilder"]}
+    assert tema["Stortinget"] == "Stortinget"
+    assert tema["Regjeringen.no"] == "Regjeringen og departementene"
+    assert set(tema.values()) <= set(konfig["kategorier"])

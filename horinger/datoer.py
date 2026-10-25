@@ -38,7 +38,7 @@ _TEKST = re.compile(
 _MS = re.compile(r"/Date\((-?\d+)([+-]\d{4})?\)/")
 # Strengere variant for hele detaljsider: ordet må stå først i et ord, og «innenfor» teller ikke.
 _FRIST_ORD_STRENG = re.compile(
-    r"(?<![\wæøå])(høringsfrist\w*|høyringsfrist\w*|merknadsfrist\w*|frist\w*|innen(?!for)"
+    r"(?<![\wæøå])(høringsfrist\w*|høyringsfrist\w*|merknadsfrist\w*|frist\w*|innen(?![\wæøå])"
     r"|innspill\w*)",
     re.IGNORECASE,
 )
@@ -143,7 +143,7 @@ def setning_med_frist(tekst: str, maks: int = 200) -> str:
     Foretrekker setninger med «frist», deretter «innen». «15. mars» deler ikke setningen.
     """
     setninger = _SETNINGSSKILLE.split(" ".join((tekst or "").split()))
-    for monster in (r"(?i)h[øo]y?ringsfrist|(?<![\wæøå])frist", r"(?i)(?<![\wæøå])innen(?!for)"):
+    for monster in (r"(?i)h[øo]y?ringsfrist|(?<![\wæøå])frist", r"(?i)(?<![\wæøå])innen(?![\wæøå])"):
         for setning in setninger:
             treff = re.search(monster, setning)
             if not treff:
@@ -159,7 +159,7 @@ def setning_med_frist(tekst: str, maks: int = 200) -> str:
 
 
 _FRIST_MANED = re.compile(
-    rf"(?<![\wæøå])(?:høringsfrist\w*|høyringsfrist\w*|frist\w*|innen(?!for))"
+    rf"(?<![\wæøå])(?:høringsfrist\w*|høyringsfrist\w*|frist\w*|innen(?![\wæøå]))"
     rf"[^.\d]{{0,40}}?(?<!\d\.\s)(?<!\d\.)\b({_MANED_MONSTER})\s+(\d{{4}})",
     re.IGNORECASE,
 )

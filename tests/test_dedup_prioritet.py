@@ -199,3 +199,9 @@ def test_ingress_kuttes_ved_helt_ord():
     assert kort.endswith("energimerkeforskriften…")
     assert len(kort) <= 101
     assert kort_ingress("kort tekst") == "kort tekst"
+
+
+def test_innenriks_er_ikke_fristord():
+    """Skatteetaten 25.10.2026: «innenriks kvotepliktig sjøfart» ble tatt for en frist."""
+    assert frist_etter_ord("gjelder innenriks sjøfart fra 1. januar 2027") is None
+    assert setning_med_frist("Dette gjelder innenriks sjøfart fra 1. januar.") == ""

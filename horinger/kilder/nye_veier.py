@@ -9,18 +9,16 @@ og befaringer bort, selv om de nevner reguleringsplanen.
 
 from __future__ import annotations
 
-from datetime import timedelta
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from horinger.datoer import frist_etter_ord, fristtekst, i_dag, setning_med_frist, tolk_punktumdato
-from horinger.kilder.base import Kilde
+from horinger.kilder.base import NYHET_MAKS_ALDER, Kilde
 from horinger.modell import Hoering
 from horinger.sokeord import Sokeord
 
 INSTANS = "Nye Veier"
-NY_DAGER = timedelta(days=120)
 
 
 def tolk_liste(html: str, base: str) -> list[dict]:
@@ -61,7 +59,7 @@ class NyeVeier(Kilde):
         """Henter listen og detaljsidene til nye oppslag med søkeord."""
         url = self.konfig["url"]
         sokeord = Sokeord(self.konfig.get("sokeord", []), self.konfig.get("utelat_ord", []))
-        grense = i_dag() - NY_DAGER
+        grense = i_dag() - NYHET_MAKS_ALDER
         resultat = []
         for h in tolk_liste(self.nett.hent(url).text, url):
             tekst = f"{h['tittel']} {h['prosjekt']} {h['ingress']}"

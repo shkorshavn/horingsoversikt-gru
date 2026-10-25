@@ -10,17 +10,15 @@ som tekst uten dato (Svein 25.10.2026), og oppslaget faller bort etter 120 dager
 from __future__ import annotations
 
 import html as html_lib
-from datetime import timedelta
 
 from bs4 import BeautifulSoup
 
 from horinger.datoer import frist_etter_ord, i_dag, setning_med_frist, tolk_iso
-from horinger.kilder.base import Kilde
+from horinger.kilder.base import NYHET_MAKS_ALDER, Kilde
 from horinger.modell import Hoering
 from horinger.sokeord import Sokeord
 
 INSTANS = "Jernbanedirektoratet"
-NY_DAGER = timedelta(days=120)
 
 
 def _tekst(html: str) -> str:
@@ -60,4 +58,4 @@ class Jernbanedirektoratet(Kilde):
         """Søker etter «høring» i nyhetene via WordPress-API-et."""
         sokeord = Sokeord(self.konfig.get("sokeord", []), self.konfig.get("utelat_ord", []))
         data = self.nett.hent(self.konfig["url"]).json()
-        return [self.lag_hoering(**f) for f in tolk(data, sokeord, i_dag() - NY_DAGER)]
+        return [self.lag_hoering(**f) for f in tolk(data, sokeord, i_dag() - NYHET_MAKS_ALDER)]

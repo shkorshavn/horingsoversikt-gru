@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import re
 import xml.etree.ElementTree as ET
-from datetime import date, timedelta
+from datetime import date
 
 from bs4 import BeautifulSoup
 
@@ -23,12 +23,11 @@ from horinger.datoer import (
     tolk_tekstdato,
 )
 from horinger.geografi import GeografiFilter
-from horinger.kilder.base import Kilde
+from horinger.kilder.base import NYHET_MAKS_ALDER, Kilde
 from horinger.modell import Hoering
 from horinger.sokeord import Sokeord
 
 INSTANS = "Bane NOR"
-NY_DAGER = timedelta(days=120)
 _NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 _PUBLISERT = re.compile(r"Publisert:\s*(\d{1,2}\.\s*\w+\s+\d{4})")
 
@@ -77,7 +76,7 @@ class BaneNor(Kilde):
         sokeord = Sokeord(self.konfig.get("sokeord", []), self.konfig.get("utelat_ord", []))
         geografi = GeografiFilter(self.felles.get("geografi", {}))
         adresser = tolk_sitemap(
-            self.nett.hent(self.konfig["url"]).text, sokeord, i_dag() - NY_DAGER
+            self.nett.hent(self.konfig["url"]).text, sokeord, i_dag() - NYHET_MAKS_ALDER
         )
         resultat = []
         for adresse in adresser[: int(self.konfig.get("maks_sider", 15))]:

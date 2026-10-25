@@ -9,7 +9,7 @@ i hele landet og tas bare med når de treffer geografien (som Vegvesenets prosje
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from datetime import date, timedelta
+from datetime import date
 from email.utils import parsedate_to_datetime
 
 from bs4 import BeautifulSoup
@@ -17,11 +17,10 @@ from bs4 import BeautifulSoup
 from horinger import OSLO
 from horinger.datoer import frist_etter_ord, i_dag, setning_med_frist
 from horinger.geografi import GeografiFilter
-from horinger.kilder.base import Kilde
+from horinger.kilder.base import NYHET_MAKS_ALDER, Kilde
 from horinger.modell import Hoering
 
 INSTANS = "Direktoratet for samfunnssikkerhet og beredskap (DSB)"
-NY_DAGER = timedelta(days=120)
 
 
 def tolk_rss(xml: str) -> list[dict]:
@@ -63,7 +62,7 @@ class Dsb(Kilde):
     def hent(self) -> list[Hoering]:
         """Henter RSS og detaljsidene til nye oppslag."""
         geografi = GeografiFilter(self.felles.get("geografi", {}))
-        grense = i_dag() - NY_DAGER
+        grense = i_dag() - NYHET_MAKS_ALDER
         resultat = []
         for h in tolk_rss(self.nett.hent(self.konfig["url"]).text):
             if h["publisert"] and h["publisert"] < grense:

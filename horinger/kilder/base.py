@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 from horinger import OSLO
 from horinger.modell import Hoering
 from horinger.nett import Nett
+
+# Kilder der høringene står i en nyhetsstrøm eller RSS (DSB, Nye Veier, Jernbanedirektoratet,
+# Bane NOR): oppslag eldre enn dette åpnes ikke. Holder antall kall nede, og hindrer at gamle
+# oppslag uten eksakt frist blir stående som åpne.
+NYHET_MAKS_ALDER = timedelta(days=120)
 
 
 class Kilde(ABC):

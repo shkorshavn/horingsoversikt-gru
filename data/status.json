@@ -1,13 +1,13 @@
 {
-  "generert": "2026-10-25T17:15:52+01:00",
+  "generert": "2026-10-25T17:32:09+01:00",
   "kilder": [
     {
       "kilde": "Stortinget",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-23T11:37:09+02:00",
-      "sist_ok": "2026-10-23T11:37:09+02:00",
-      "antall": 37
+      "hentet": "2026-10-25T17:29:21+01:00",
+      "sist_ok": "2026-10-25T17:29:21+01:00",
+      "antall": 38
     },
     {
       "kilde": "Regjeringen.no",
@@ -21,26 +21,32 @@
       "kilde": "Statens vegvesen",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-23T11:37:17+02:00",
-      "sist_ok": "2026-10-23T11:37:17+02:00",
+      "hentet": "2026-10-25T17:29:28+01:00",
+      "sist_ok": "2026-10-25T17:29:28+01:00",
       "antall": 7
     },
     {
       "kilde": "Nye Veier",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:29:42+01:00",
+      "sist_ok": "2026-10-25T17:29:42+01:00",
       "antall": 0
     },
     {
       "kilde": "Jernbanedirektoratet",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:29:44+01:00",
+      "sist_ok": "2026-10-25T17:29:44+01:00",
       "antall": 0
     },
     {
       "kilde": "Bane NOR",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:29:46+01:00",
+      "sist_ok": "2026-10-25T17:29:46+01:00",
       "antall": 0
     },
     {
@@ -52,20 +58,26 @@
     {
       "kilde": "Miljødirektoratet",
       "kjoring": "github",
-      "status": "ikke hentet",
-      "antall": 0
+      "status": "ok",
+      "hentet": "2026-10-25T17:29:52+01:00",
+      "sist_ok": "2026-10-25T17:29:52+01:00",
+      "antall": 11
     },
     {
       "kilde": "NVE",
       "kjoring": "github",
-      "status": "ikke hentet",
-      "antall": 0
+      "status": "ok",
+      "hentet": "2026-10-25T17:29:54+01:00",
+      "sist_ok": "2026-10-25T17:29:54+01:00",
+      "antall": 1
     },
     {
       "kilde": "DSB",
       "kjoring": "github",
-      "status": "ikke hentet",
-      "antall": 0
+      "status": "ok",
+      "hentet": "2026-10-25T17:31:34+01:00",
+      "sist_ok": "2026-10-25T17:31:34+01:00",
+      "antall": 1
     },
     {
       "kilde": "Landbruksdirektoratet",
@@ -94,7 +106,9 @@
     {
       "kilde": "Bufdir",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:31:38+01:00",
+      "sist_ok": "2026-10-25T17:31:38+01:00",
       "antall": 0
     },
     {
@@ -118,8 +132,10 @@
     {
       "kilde": "Helsedirektoratet",
       "kjoring": "github",
-      "status": "ikke hentet",
-      "antall": 0
+      "status": "ok",
+      "hentet": "2026-10-25T17:31:39+01:00",
+      "sist_ok": "2026-10-25T17:31:39+01:00",
+      "antall": 2
     },
     {
       "kilde": "NAV",
@@ -160,7 +176,9 @@
     {
       "kilde": "Digdir",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:31:41+01:00",
+      "sist_ok": "2026-10-25T17:31:41+01:00",
       "antall": 0
     },
     {
@@ -172,7 +190,9 @@
     {
       "kilde": "DiBK",
       "kjoring": "github",
-      "status": "ikke hentet",
+      "status": "ok",
+      "hentet": "2026-10-25T17:31:48+01:00",
+      "sist_ok": "2026-10-25T17:31:48+01:00",
       "antall": 0
     },
     {
@@ -233,16 +253,16 @@
       "kilde": "Innlandet fylkeskommune",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-23T11:37:31+02:00",
-      "sist_ok": "2026-10-23T11:37:31+02:00",
+      "hentet": "2026-10-25T17:31:50+01:00",
+      "sist_ok": "2026-10-25T17:31:50+01:00",
       "antall": 4
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-23T11:37:34+02:00",
-      "sist_ok": "2026-10-23T11:37:34+02:00",
+      "hentet": "2026-10-25T17:31:53+01:00",
+      "sist_ok": "2026-10-25T17:31:53+01:00",
       "antall": 0
     }
   ]

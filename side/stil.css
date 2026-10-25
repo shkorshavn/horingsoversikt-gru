@@ -241,7 +241,7 @@ thead th { background: var(--turkis-300); }
   .hoering { grid-template-columns: 5.25rem 1fr; gap: 0.85rem; }
   .frist .dag { font-size: 1.75rem; }
   .inaktive-liste { columns: 1; }
-  th, td { padding: 0.5rem; }
+  th, td { padding: 0.5rem; hyphens: auto; overflow-wrap: anywhere; }
   .kol-tid { display: none; }
   .statustekst.bare-smal { display: block; }
 }

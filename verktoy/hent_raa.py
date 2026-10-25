@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from pathlib import Path
 
@@ -28,6 +29,21 @@ ADRESSER = [
     "https://www.vegvesen.no/vegprosjekter/hoeringer-vegprosjekter/",
     "https://innlandetfylke.no/politikk/horinger/",
     "https://www.statsforvalteren.no/innlandet/horinger/",
+    # Sprint 4: direktorater og etater med prioritet 1
+    "https://www.miljodirektoratet.no/hearingslistpage/gethearings?skip=0&searchTerm=&searchExpired=false",
+    "https://www.miljodirektoratet.no/hearingslistpage/gethearings?skip=20&searchTerm=&searchExpired=false",
+    "https://www.nve.no/om-nve/hoeringer/",
+    "https://www.nve.no/om-nve/regelverk/forskriftsendringer-paa-hoering/",
+    "https://www.nve.no/umbraco/api/license/getall?caseType=00&county=00&filterText=&municipality=00&pageNumber=1&pageSize=100&progress=0&size=0&stadium=20&type=0",
+    "https://www.dsb.no/rss/rss-dsb---horinger/",
+    "https://www.dsb.no/horinger/horinger/",
+    "https://www.helsedirektoratet.no/horinger",
+    "https://www.bufdir.no/om/hoeringer/",
+    "https://www.digdir.no/standarder/hoyringar/1502",
+    "https://www.dibk.no/regelverk/horinger/hoyringar",
+    "https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/",
+    "https://www.jernbanedirektoratet.no/wp-json/wp/v2/posts?search=h%C3%B8ring&per_page=50&_fields=date,link,title,content",
+    "https://www.banenor.no/nb-no/sitemap.xml",
 ]
 
 
@@ -39,15 +55,17 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     felles = les_konfig(ROT / "sources.yaml")["felles"]
     nett = Nett(felles["user_agent"], pause=float(felles["pause_sekunder"]), raa_mappe=args.ut)
+    egne = os.environ.get("HENT_RAA_ADRESSER", "").split()
+    adresser = egne or ADRESSER
     feil = 0
-    for url in ADRESSER:
+    for url in adresser:
         try:
             svar = nett.hent(url)
             logging.info("OK %s %s (%d byte)", svar.status_code, url, len(svar.content))
         except Exception as e:  # noqa: BLE001
             feil += 1
             logging.error("FEIL %s: %s", url, e)
-    logging.info("%d av %d adresser feilet", feil, len(ADRESSER))
+    logging.info("%d av %d adresser feilet", feil, len(adresser))
     return 0
 
 

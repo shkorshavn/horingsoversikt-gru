@@ -13,6 +13,10 @@ on:
         description: "Hent rå kildesider til testdata"
         type: boolean
         default: true
+      adresser:
+        description: "Bare for utforsking: egne adresser å hente rått (mellomrom mellom), i stedet for standardlisten"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -46,6 +50,8 @@ jobs:
       - name: Hent rå kildesider
         if: ${{ inputs.hent_raa }}
         continue-on-error: true
+        env:
+          HENT_RAA_ADRESSER: ${{ inputs.adresser }}
         run: python verktoy/hent_raa.py --ut raa/ 2>&1 | tee hent_raa.log
 
       - name: Innhenting mot ekte data

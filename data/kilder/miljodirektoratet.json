@@ -1,9 +1,10 @@
 {
   "kilde": "Miljødirektoratet",
-  "status": "ok",
-  "hentet": "2026-10-25T17:29:52+01:00",
-  "antall": 11,
-  "sekunder": 1.8,
+  "status": "feil",
+  "hentet": "2026-10-25T17:34:16+01:00",
+  "antall": 0,
+  "feil": "SimulertFeil: Simulert feil for Miljødirektoratet (HORINGER_SIMULER_FEIL)",
+  "sekunder": 0.0,
   "horinger": [
     {
       "kilde": "Miljødirektoratet",

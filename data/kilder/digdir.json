@@ -1,9 +1,9 @@
 {
   "kilde": "Digdir",
   "status": "ok",
-  "hentet": "2026-10-25T17:31:41+01:00",
+  "hentet": "2026-10-25T17:36:04+01:00",
   "antall": 6,
-  "sekunder": 6.3,
+  "sekunder": 6.2,
   "horinger": [
     {
       "kilde": "Digdir",
@@ -16,7 +16,7 @@
       "frist_tekst": "Høyringsfrist 01.09.2020",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "47e36c3c88b4"
     },
@@ -31,7 +31,7 @@
       "frist_tekst": "Høyringsfrist 29.10.2019.",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c70229c2db19"
     },
@@ -46,7 +46,7 @@
       "frist_tekst": "Høringsfrist 25.11.2018",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "d344fa00436f"
     },
@@ -61,7 +61,7 @@
       "frist_tekst": "Høringsfrist 19.10.2018",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c21ade734d53"
     },
@@ -76,7 +76,7 @@
       "frist_tekst": "Høringsfrist 13.09.2018",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "08c8f2ba6dd9"
     },
@@ -91,10 +91,10 @@
       "frist_tekst": "Høringsfrist 03.11.2017.",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:31:41+01:00",
+      "hentet": "2026-10-25T17:36:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c5924ccc1c62"
     }
   ],
-  "sist_ok": "2026-10-25T17:31:41+01:00"
+  "sist_ok": "2026-10-25T17:36:04+01:00"
 }

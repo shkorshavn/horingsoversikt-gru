@@ -2,7 +2,7 @@
 
 Reglene er avklart med Svein 16.10.2026 og styres fra `geografi` i sources.yaml:
 
-- høringer som nevner en kommune i `kommuner`, er relevante
+- høringer som nevner en kommune i `kommuner` eller et tettsted i `steder`, er relevante
 - høringer som gjelder rv. 4, er relevante (hele strekningen, også Nittedal og Oslo)
 - høringer som gjelder E6, er relevante bare sammen med en kommune i `e6_kommuner`
 - Oslo og Nittedal står ikke i `kommuner`, og gir derfor bare treff sammen med rv. 4
@@ -49,6 +49,7 @@ class GeografiFilter:
 
     def __init__(self, konfig: dict) -> None:
         self.kommuner = _ordmonster(konfig.get("kommuner", []))
+        self.steder = _ordmonster(konfig.get("steder", []))
         self.e6_kommuner = _ordmonster(konfig.get("e6_kommuner", []))
 
     def vurder(self, tekst: str) -> Treff:
@@ -56,6 +57,8 @@ class GeografiFilter:
         tekst = fjern_postadresser(tekst)
         if self.kommuner and (m := self.kommuner.search(tekst)):
             return Treff(True, f"kommune: {m.group(0)}")
+        if self.steder and (m := self.steder.search(tekst)):
+            return Treff(True, f"sted: {m.group(0)}")
         if RV4.search(tekst):
             return Treff(True, "rv. 4")
         if E6.search(tekst) and self.e6_kommuner and (m := self.e6_kommuner.search(tekst)):

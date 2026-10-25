@@ -142,7 +142,8 @@
     if (v.prio.indexOf(String(h.prioritet)) === -1) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
-      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori].join(" "));
+      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori,
+        (h.ogsa || []).map(function (o) { return o.kilde; }).join(" ")].join(" "));
       var ord = normaliser(v.q).split(/\s+/);
       for (var i = 0; i < ord.length; i++) if (tekst.indexOf(ord[i]) === -1) return false;
     }
@@ -221,6 +222,18 @@
     return blokk;
   }
 
+  /** «Også på regjeringen.no» når samme høring er publisert av flere kilder. */
+  function ogsaLenker(h) {
+    var ogsa = (h.ogsa || []).filter(function (o) { return /^https?:\/\//i.test(String(o.lenke || "")); });
+    if (!ogsa.length) return null;
+    var span = el("span", { klasse: "ogsa" }, [document.createTextNode("Også på ")]);
+    ogsa.forEach(function (o, i) {
+      if (i) span.appendChild(document.createTextNode(" og "));
+      span.appendChild(el("a", { href: o.lenke, tekst: o.kilde }));
+    });
+    return span;
+  }
+
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
@@ -231,10 +244,14 @@
     ]);
     var prioNavn = PRIO_NAVN[String(h.prioritet)];
     var detaljer = el("p", { klasse: "detaljer" }, [
-      prioNavn ? el("span", { klasse: "prio prio-" + h.prioritet, tekst: "Foreslått prioritet: " + prioNavn }) : null,
+      prioNavn ? el("span", {
+        klasse: "prio prio-" + h.prioritet,
+        tekst: "Foreslått prioritet: " + prioNavn + (h.prioritet_grunn ? " (" + h.prioritet_grunn + ")" : "")
+      }) : null,
       h.kategori ? el("span", { klasse: "tema", tekst: h.kategori }) : null,
       h.frist_tekst ? el("span", { tekst: h.frist_tekst }) : null,
-      h.kilde && String(h.instans).indexOf(h.kilde) !== 0 ? el("span", { tekst: "Kilde: " + h.kilde }) : null
+      h.kilde && String(h.instans).indexOf(h.kilde) !== 0 ? el("span", { tekst: "Kilde: " + h.kilde }) : null,
+      ogsaLenker(h)
     ]);
     var innhold = el("div", { klasse: "innhold" }, [
       tittel,

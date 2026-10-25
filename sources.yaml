@@ -30,6 +30,14 @@ felles:
     - Barne- og familiedepartementet
     - Utenriksdepartementet
 
+  # Løft til høy prioritet (Svein 25.10.2026): høringer med middels eller lav prioritet blir
+  # høy når tittel eller ingress inneholder et av disse ordene eller en kommune i geografien.
+  # Se horinger/prioritet.py.
+  prioritet_loft:
+    ord: [kommune, kommunen, kommunene, kommuner, kommunal, kommunale, kommunalt, kommunenes,
+          fylkeskommune, fylkeskommunen, fylkeskommunene, fylkeskommunal, fylkeskommunale,
+          plan- og bygningsloven, plan- og bygningslova, Innlandet]
+
   # Geografisk filter for landsdekkende lister (avklart med Svein 16.10.2026).
   # Oslo og Nittedal står bevisst ikke i `kommuner`: de tas bare med når høringen
   # gjelder rv. 4. Rv. 4 og E6 håndteres i horinger/geografi.py.
@@ -61,6 +69,12 @@ felles:
       - Vestre Slidre
       - Øystre Slidre
       - Vang
+    # Tettsteder i kommunene over (sprint 4). Sider nevner ofte stedet, ikke kommunen
+    # (f.eks. «reguleringsarbeid i Moelv» hos Bane NOR). Bare entydige navn er tatt med.
+    steder:
+      [Raufoss, Lena, Skreia, Kapp, Bøverbru, Eina, Reinsvoll, Hunndalen, Biri, Snertingdal,
+       Redalen, Dokka, Odnes, Torpa, Brandbu, Jaren, Harestua, Tretten, Follebu, Fåberg,
+       Moelv, Brumunddal, Ottestad, Fagernes, Bagn, Beitostølen, Mjøsbrua]
     # E6 tas bare med sammen med en av disse kommunene.
     e6_kommuner:
       - Eidsvoll
@@ -94,7 +108,12 @@ kilder:
   - navn: Regjeringen.no
     kategori: Regjeringen og departementene
     niva: Regjeringen
-    prioritet: 1
+    # Departementene har ulik prioritet (SPESIFIKASJON.md, avsnitt 2; Svein 25.10.2026).
+    prioritet: 2
+    prioritet_instans:
+      1: [Kommunal- og distriktsdepartementet, Kunnskapsdepartementet,
+          Helse- og omsorgsdepartementet, Arbeids- og inkluderingsdepartementet,
+          Digitaliserings- og forvaltningsdepartementet, Finansdepartementet]
     url: https://www.regjeringen.no/no/dokument/hoyringar/id1763/
     metode: html
     modul: regjeringen
@@ -124,19 +143,28 @@ kilder:
     prioritet: 1
     url: https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/
     metode: html
-    aktiv: false
+    modul: nye_veier
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    sokeord: [høring, offentlig ettersyn, varsel om oppstart, varslingsområde, planprogram,
+              reguleringsplan, detaljregulering, merknad, innspill]
+    merknad: Nyhetsstrøm for Innlandet. Søkeord + krav om frist på detaljsiden. Oppslag eldre enn 120 dager hoppes over.
 
   - navn: Jernbanedirektoratet
     kategori: Transport, samferdsel og infrastruktur
     niva: Direktorater og etater
     prioritet: 1
-    url: https://www.jernbanedirektoratet.no/wp-json/wp/v2/posts
+    url: https://www.jernbanedirektoratet.no/wp-json/wp/v2/posts?search=h%C3%B8ring&per_page=50&_fields=date,link,title,content
     metode: api
-    aktiv: false
+    modul: jernbanedirektoratet
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    sokeord: [skal på høring, sender på høring, sendes på høring, sendt på høring,
+              ut på høring, høringsperioden]
+    utelat_ord: [tentativ ruteplan]
+    merknad: WordPress-API med søk på «høring». Vag frist vises som tekst (Svein 25.10.2026). Oppslag eldre enn 120 dager hoppes over.
 
   - navn: Bane NOR
     kategori: Transport, samferdsel og infrastruktur
@@ -144,9 +172,15 @@ kilder:
     prioritet: 1
     url: https://www.banenor.no/nb-no/sitemap.xml
     metode: html
-    aktiv: false
+    modul: bane_nor
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    sokeord: [regulering, reguleringsplan, reguleringsarbeid, horing, høring, planprogram,
+              varsel om oppstart, ettersyn, planarbeid]
+    utelat_ord: [innkomne merknader, godkjent, vedtatt, avsluttet, passert]
+    maks_sider: 15
+    merknad: "Sitemap: sider endret siste 120 dager med søkeord i adressen. Krever frist og geografisk treff."
 
   - navn: Nkom
     kategori: Transport, samferdsel og infrastruktur
@@ -165,9 +199,12 @@ kilder:
     prioritet: 1
     url: https://www.miljodirektoratet.no/hearingslistpage/gethearings
     metode: api
-    aktiv: false
+    modul: miljodirektoratet
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    utelat_tema: [Olje og gass]
+    merknad: JSON-endepunktet høringssiden bruker. Olje og gass tas ikke med (Svein 25.10.2026).
 
   - navn: NVE
     kategori: Miljø, klima, energi og beredskap
@@ -175,10 +212,11 @@ kilder:
     prioritet: 1
     url: https://www.nve.no/om-nve/hoeringer/
     metode: html
-    aktiv: false
+    modul: nve
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
-    merknad: To delkilder (forskrifter og konsesjoner). Crawl-delay 20 sekunder.
+    merknad: "To delkilder: forskriftsendringer (HTML + detaljside) og konsesjonssaker (JSON, samme geografi som Vegvesenet, Svein 25.10.2026). Crawl-delay 20 sekunder."
 
   - navn: DSB
     kategori: Miljø, klima, energi og beredskap
@@ -186,9 +224,11 @@ kilder:
     prioritet: 1
     url: https://www.dsb.no/rss/rss-dsb---horinger/
     metode: rss
-    aktiv: false
+    modul: dsb
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    merknad: RSS + detaljside for fristen. Samtykkehøringer (farlig stoff) bare med geografisk treff.
 
   - navn: Landbruksdirektoratet
     kategori: Miljø, klima, energi og beredskap
@@ -240,9 +280,11 @@ kilder:
     prioritet: 1
     url: https://www.bufdir.no/om/hoeringer/
     metode: html
-    aktiv: false
+    modul: bufdir
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    merknad: HTML. Høringer med frist i dag eller senere.
 
   - navn: Kulturdirektoratet
     kategori: Oppvekst, utdanning, kultur og integrering
@@ -283,9 +325,11 @@ kilder:
     prioritet: 1
     url: https://www.helsedirektoratet.no/horinger
     metode: html
-    aktiv: false
+    modul: helsedirektoratet
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    merknad: HTML, seksjonen «Ute på høring».
 
   - navn: NAV
     kategori: Helse, omsorg og velferd
@@ -357,9 +401,11 @@ kilder:
     prioritet: 1
     url: https://www.digdir.no/standarder/hoyringar/1502
     metode: html
-    aktiv: false
+    modul: digdir
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    merknad: "HTML. Frist uten årstall: året fra detaljsidens «Laga», ferdig behandlede utelates."
 
   - navn: DFØ
     kategori: Styring, digitalisering, juss og eiendom
@@ -378,9 +424,11 @@ kilder:
     prioritet: 1
     url: https://www.dibk.no/regelverk/horinger/hoyringar
     metode: html
-    aktiv: false
+    modul: dibk
+    aktiv: true
     anbefalt: aktiv
     sprint: 4
+    merknad: HTML. Høringer på oppdrag fra KDD, kan også ligge på regjeringen.no (dedupliseres).
 
   - navn: Kartverket
     kategori: Styring, digitalisering, juss og eiendom

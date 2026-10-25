@@ -62,3 +62,9 @@ def test_grunn_oppgis(filter_):
 def test_kommune_i_tekst_teller_selv_om_adresse_fjernes(filter_):
     tekst = "Planen gjelder Hunndalen i Gjøvik. Postboks 1010 Nordre Ål, 2605 Lillehammer."
     assert filter_.vurder(tekst).grunn == "kommune: Gjøvik"
+
+
+def test_tettsted_gir_treff():
+    filter_ = GeografiFilter({"kommuner": ["Ringsaker"], "steder": ["Moelv"]})
+    assert filter_.vurder("Starter reguleringsarbeid i Moelv").grunn == "sted: Moelv"
+    assert not filter_.vurder("Starter reguleringsarbeid i Moss").relevant

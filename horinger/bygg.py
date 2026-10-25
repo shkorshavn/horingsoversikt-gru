@@ -19,9 +19,11 @@ from pathlib import Path
 
 from horinger import OSLO
 from horinger.datoer import i_dag
+from horinger.dedup import dedupliser
 from horinger.filer import les_json, les_konfig, skriv_json
 from horinger.kilder import KILDER
 from horinger.lager import les_kilde
+from horinger.prioritet import Prioritet
 
 log = logging.getLogger("horinger")
 
@@ -32,7 +34,7 @@ UTDATERT_DAGER = 8
 # Høringer med frist mer enn så mange dager før historikken startet, tas ikke med i arkivet.
 ARKIV_FORAN_START_DAGER = 30
 # Felt i høringene som alltid følger kildens oppsett i sources.yaml.
-KONFIGFELT = ("kategori", "niva", "prioritet")
+KONFIGFELT = ("kategori", "niva")
 
 
 def _dato(verdi: str | None) -> date | None:
@@ -90,16 +92,23 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
 
     status: list[dict] = []
     alle: dict[str, dict] = {}
+    prioritet = Prioritet(konfig.get("felles", {}))
     for kilde_konfig in konfig["kilder"]:
         lagret = None
         if kilde_konfig.get("aktiv") and kilde_konfig.get("modul") in KILDER:
             lagret = les_kilde(kildemappe, kilde_konfig["navn"])
         status.append(kildestatus(kilde_konfig, lagret, naa))
-        # Tema, avsender og prioritet tas fra gjeldende sources.yaml, slik at endringer der
-        # slår inn ved neste bygging uten ny henting.
+        # Tema og avsender tas fra gjeldende sources.yaml, og prioriteten beregnes på nytt,
+        # slik at endringer der slår inn ved neste bygging uten ny henting.
         fra_konfig = {f: kilde_konfig[f] for f in KONFIGFELT if f in kilde_konfig}
         for h in (lagret or {}).get("horinger", []):
-            alle.setdefault(h["id"], {**h, **fra_konfig})
+            if h["id"] in alle:
+                continue
+            h = {**h, **fra_konfig}
+            h["prioritet"], h["prioritet_grunn"] = prioritet.vurder(h, kilde_konfig)
+            alle[h["id"]] = h
+    # Samme høring fra flere kilder vises én gang (etatens versjon, med lenke til den andre).
+    alle = {h["id"]: h for h in dedupliser(list(alle.values()))}
 
     apne: list[dict] = []
     for h in alle.values():

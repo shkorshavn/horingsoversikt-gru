@@ -36,6 +36,12 @@ _TEKST = re.compile(
 )
 # /Date(1760997540000+0200)/
 _MS = re.compile(r"/Date\((-?\d+)([+-]\d{4})?\)/")
+# Strengere variant for hele detaljsider: ordet må stå først i et ord, og «innenfor» teller ikke.
+_FRIST_ORD_STRENG = re.compile(
+    r"(?<![\wæøå])(høringsfrist\w*|høyringsfrist\w*|merknadsfrist\w*|frist\w*|innen(?!for)"
+    r"|innspill\w*)",
+    re.IGNORECASE,
+)
 # Ord som innleder en frist i fritekst
 _FRIST_ORD = re.compile(
     r"(høringsfrist|høyringsfrist|frist|innen|merknadsfrist|innspill)", re.IGNORECASE
@@ -111,6 +117,56 @@ def finn_frist(tekst: str, referanse: date | None = None) -> date | None:
         if dato:
             return dato
     return tolk_dato(tekst, referanse)
+
+
+def frist_etter_ord(tekst: str, referanse: date | None = None) -> date | None:
+    """Som finn_frist, men bare datoer som står rett etter et fristord.
+
+    Brukes på hele detaljsider, der første dato i teksten ofte er noe annet enn fristen
+    (publiseringsdato, datoer i forskriftstitler o.l.).
+    """
+    tekst = " ".join((tekst or "").split())
+    for ord_treff in _FRIST_ORD_STRENG.finditer(tekst):
+        rest = tekst[ord_treff.end() : ord_treff.end() + 60]
+        dato = tolk_dato(rest, referanse)
+        if dato:
+            return dato
+    return None
+
+
+_SETNINGSSKILLE = re.compile(r"[.!?]\s+(?=[A-ZÆØÅ])")
+
+
+def setning_med_frist(tekst: str, maks: int = 200) -> str:
+    """Setningen der fristen nevnes, til visning når fristen er vag.
+
+    Foretrekker setninger med «frist», deretter «innen». «15. mars» deler ikke setningen.
+    """
+    setninger = _SETNINGSSKILLE.split(" ".join((tekst or "").split()))
+    for monster in (r"(?i)h[øo]y?ringsfrist|(?<![\wæøå])frist", r"(?i)(?<![\wæøå])innen(?!for)"):
+        for setning in setninger:
+            treff = re.search(monster, setning)
+            if not treff:
+                continue
+            setning = setning.strip()
+            if len(setning) <= maks:
+                return setning
+            # Lang «setning» (f.eks. punktlister uten punktum): vis et utsnitt rundt fristen.
+            start = max(0, treff.start() - maks // 3)
+            utsnitt = setning[start : start + maks].strip()
+            return ("…" if start else "") + utsnitt + "…"
+    return ""
+
+
+def fristtekst(frist: date | None, setning: str, maks: int = 120) -> str:
+    """Teksten som vises ved siden av fristen.
+
+    Setningen fra kilden brukes når den er kort. Ellers vises bare datoen. Uten dato vises
+    setningen uansett, fordi den da er den eneste opplysningen om fristen.
+    """
+    if frist is None or (setning and len(setning) <= maks):
+        return setning
+    return f"Frist: {frist.strftime('%d.%m.%Y')}"
 
 
 def tolk_ms_dato(verdi: str | None) -> datetime | None:

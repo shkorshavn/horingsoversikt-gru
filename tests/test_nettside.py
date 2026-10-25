@@ -55,7 +55,17 @@ HORINGER = {
         ),
         _h("d13", "2026-10-30", tittel='Høring om æ, ø og å; «sitat» og "anførsel"'),
         _h("d14", "2026-10-31", tittel="Fjorten dager", ny=True, forst_sett="2026-10-15"),
-        _h("d30", "2026-11-16", tittel="Tretti dager", ingress="Gjelder rv. 4 ved Gjøvik."),
+        _h(
+            "d30",
+            "2026-11-16",
+            tittel="Tretti dager",
+            ingress="Gjelder rv. 4 ved Gjøvik.",
+            prioritet_grunn="gjelder regionen",
+            ogsa=[
+                {"kilde": "Regjeringen.no", "lenke": "https://www.regjeringen.no/x"},
+                {"kilde": "Farlig", "lenke": "javascript:alert(1)"},
+            ],
+        ),
         _h(
             "d0",
             "2026-10-17",
@@ -630,3 +640,19 @@ def test_utskrift_er_kompakt(nettleser, server, tmp_path):
     sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
     assert 1 <= sider <= 3, sider
     side.close()
+
+
+# ---------- Sprint 4: grunn for prioritet og «Også på» ----------
+
+
+def test_grunn_for_prioritet(side):
+    flagg = side.locator('.hoering[data-id="d30"] .prio')
+    assert flagg.inner_text() == "Foreslått prioritet: høy (gjelder regionen)"
+
+
+def test_ogsa_publisert(side):
+    ogsa = side.locator('.hoering[data-id="d30"] .ogsa')
+    assert ogsa.inner_text() == "Også på Regjeringen.no"
+    assert ogsa.locator("a").count() == 1  # lenken som ikke er en nettadresse, er tatt bort
+    assert ogsa.locator("a").get_attribute("href") == "https://www.regjeringen.no/x"
+    assert side.locator(".ogsa").count() == 1

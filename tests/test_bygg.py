@@ -195,3 +195,56 @@ def test_stortinget_og_regjeringen_er_egne_temaer():
     assert tema["Stortinget"] == "Stortinget"
     assert tema["Regjeringen.no"] == "Regjeringen og departementene"
     assert set(tema.values()) <= set(konfig["kategorier"])
+
+
+def test_prioritet_og_dedup_i_byggingen(mapper):
+    kilder, ut = mapper
+    konfig = {
+        "felles": {"prioritet_loft": {"ord": ["kommunene"]}, "geografi": {"kommuner": ["Gjøvik"]}},
+        "kilder": [
+            {"navn": "DiBK", "modul": "dibk", "aktiv": True, "prioritet": 1},
+            {
+                "navn": "Regjeringen.no",
+                "modul": "regjeringen",
+                "aktiv": True,
+                "prioritet": 2,
+                "prioritet_instans": {1: ["Kunnskapsdepartementet"]},
+            },
+        ],
+    }
+    dibk = _h(
+        "a", "2026-12-01", "DiBK", "Forslag til endringer i klimakrav i byggteknisk forskrift"
+    )
+    regj = [
+        {
+            **_h(
+                "b",
+                "2026-12-01",
+                "Regjeringen.no",
+                "Høring – endringer i klimakrav i byggteknisk forskrift",
+            ),
+            "instans": "Kommunal- og distriktsdepartementet",
+        },
+        {
+            **_h("c", "2026-12-02", "Regjeringen.no", "Høring om skolemat"),
+            "instans": "Kunnskapsdepartementet",
+        },
+        {
+            **_h("d", "2026-12-03", "Regjeringen.no", "Høring om tilfluktsrom"),
+            "instans": "Justis- og beredskapsdepartementet",
+            "ingress": "Gjelder kommunene.",
+        },
+        {
+            **_h("e", "2026-12-04", "Regjeringen.no", "Høring om forsvar"),
+            "instans": "Forsvarsdepartementet",
+        },
+    ]
+    _lagre(kilder, "DiBK", [dibk], MANDAG)
+    _lagre(kilder, "Regjeringen.no", regj, MANDAG)
+    bygg(konfig, kilder, ut, MANDAG)
+    h = {x["id"]: x for x in _les(ut, "horinger.json")["horinger"]}
+    assert set(h) == {"a", "c", "d", "e"}  # b er slått sammen med a
+    assert h["a"]["ogsa"] == [{"kilde": "Regjeringen.no", "lenke": "https://example.no/b"}]
+    assert (h["c"]["prioritet"], h["c"]["prioritet_grunn"]) == (1, "")
+    assert (h["d"]["prioritet"], h["d"]["prioritet_grunn"]) == (1, "gjelder kommunene")
+    assert (h["e"]["prioritet"], h["e"]["prioritet_grunn"]) == (2, "")

@@ -21,13 +21,45 @@ Sprint 1: Grunnmur og fem kjernekilder.
 Sprint 2: nettsiden er bygget.
 Sprint 3: ukentlig kjøring mandag kl. 10, publisering på
 https://shkorshavn.github.io/horingsoversikt-gru/, merket «Ny» og arkiv for utløpte høringer.
+Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per departement.
+
+## Etatens side eller regjeringen.no
+
+Spesifikasjonen ber om at valget dokumenteres per etat. Alle etatene under hentes fra egen
+side, fordi høringene der i hovedsak **ikke** ligger på regjeringen.no (kontrollert 25.10.2026:
+ingen av etatenes åpne høringer fantes blant de 52 på regjeringen.no). Når samme høring likevel
+finnes begge steder, vises den én gang, med etaten som høringsinstans og lenken «Også på
+regjeringen.no» (`horinger/dedup.py`).
+
+| Etat | Hentes fra | Hvorfor |
+|---|---|---|
+| Miljødirektoratet | Egen høringsliste (JSON) | Forskrifter og tillatelser sendes ut av direktoratet selv. Olje og gass utelates |
+| NVE | Egen side (forskrifter) og konsesjonsdatabasen | Konsesjonssaker finnes bare hos NVE. Konsesjoner filtreres på geografi |
+| DSB | Egen RSS og detaljsider | Forskrifter og samtykkehøringer sendes ut av DSB |
+| Helsedirektoratet | Egen høringsliste | Faglige retningslinjer og veiledere finnes ikke på regjeringen.no |
+| Bufdir | Egen høringsliste | Retningslinjer og tilskuddsforskrifter fra Bufdir |
+| Digdir | Egen høringsliste for standarder | IT-standarder og Referansekatalogen |
+| DiBK | Egen høringsliste | TEK og SAK sendes ut av DiBK på oppdrag fra KDD |
+| Nye Veier | Oppdateringer fra Innlandet | Planvarsler etter plan- og bygningsloven, ikke på regjeringen.no |
+| Jernbanedirektoratet | Nyheter (WordPress-API) | Ingen høringsside. Utredninger på høring omtales i nyhetene |
+| Bane NOR | Sitemap og prosjektsider | Planvarsler etter plan- og bygningsloven, ikke på regjeringen.no |
+| Udir, IMDi, NAV, DFØ | Ikke overvåket (`aktiv: false`) | Udir: datakilden er sperret i robots.txt (droppet av Svein 16.10.2026). IMDi og NAV: ingen høringsside, regelverket sendes ut av AID. DFØ: ingen samlet høringsside, regelverket sendes ut av NFD |
+
+## Foreslått prioritet
+
+Hver høring får foreslått prioritet høy, middels eller lav (`horinger/prioritet.py`):
+utgangspunktet er kildens `prioritet`. På regjeringen.no har KDD, KD, HOD, AID, DFD og FIN høy,
+og de andre departementene middels (`prioritet_instans`). En høring med middels eller lav
+prioritet løftes til høy når tittel eller ingress nevner kommunene, fylkeskommunen, plan- og
+bygningsloven, Innlandet eller et sted i regionen (`felles.prioritet_loft` og `geografi`).
+Siden viser da grunnen, for eksempel «Foreslått prioritet: høy (gjelder kommunene)».
 
 ## Slik oppdateres oversikten
 
 ```
 Mandag kl. 10 (norsk tid)
-├─ «Ukentlig oppdatering» (GitHub)  henter Stortinget, Vegvesenet, fylkeskommunen
-│                                   og Statsforvalteren → data/kilder/
+├─ «Ukentlig oppdatering» (GitHub)  henter Stortinget, Vegvesenet, fylkeskommunen,
+│                                   Statsforvalteren og direktoratene → data/kilder/
 ├─ «Regjeringen.no (GRUs PC)»       henter regjeringen.no → data/kilder/
 │                                   (nye forsøk tirsdag–fredag hvis PC-en var av)
 └─ «Publiser» (startes av begge)    bygger data/horinger.json, status.json og arkiv.json,

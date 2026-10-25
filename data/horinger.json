@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-25T16:58:20+01:00",
+  "generert": "2026-10-25T17:15:52+01:00",
   "antall": 100,
   "horinger": [
     {
@@ -16,6 +16,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2d6434f7897d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -33,13 +34,14 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "3c5369341185",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Landbruks- og matdepartementet",
       "tittel": "Høring – Konsekvensutredning av Håmmålsfjellet-Sålekinna som vinterbeite for Fosen reinbeitedistrikt",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-konsekvensutredning-av-hammalsfjellet-salekinna-som-vinterbeite-for-fosen-reinbeitedistrikt/id3171549/",
@@ -50,6 +52,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "fd2a80340640",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -67,6 +70,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "f5a5f66e526d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -84,6 +88,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "e919a623344f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -101,6 +106,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "385f0468346c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -118,6 +124,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "4737296c2ae0",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -135,6 +142,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b4a560af6edb",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -152,6 +160,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "665f3fa994af",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -169,6 +178,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "e9a14bdd7b62",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -186,6 +196,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "67ec81a017fe",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -203,6 +214,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b40b58e8e0b2",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -220,6 +232,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "c516cdc946d6",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -237,6 +250,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "643a43b304c3",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -254,13 +268,14 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "75567d8c825c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Samferdselsdepartementet",
       "tittel": "Høring - forslag til ny ruteplan for kystruten Bergen-Kirkenes",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-ruteplan-for-kystruten-bergen-kirkenes/id3169361/",
@@ -271,6 +286,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "50813f1d030f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -288,6 +304,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "63cc40b248f7",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -305,6 +322,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "6998327d63dc",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -322,6 +340,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "c3023dcf4511",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -339,6 +358,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "9cc5afca6a10",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -356,6 +376,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b58acb7cbf72",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -373,6 +394,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "06015c8343c1",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -390,6 +412,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b70f48dec37e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -407,13 +430,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "87dd3c9c6a6a",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring av forskrift om tilfluktssteder",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forskrift-om-tilfluktssteder/id3166695/",
@@ -424,6 +448,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "c51b51b3b5cc",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -441,13 +466,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "a9743acce7d8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Samferdselsdepartementet",
       "tittel": "Høring – forslag om endringer i jernbaneloven og yrkestransportloven (bedre bruk av kollektivdata)",
       "lenke": "https://www.regjeringen.no/no/dokumenter/forslag-om-endringer-i-jernbaneloven-og-yrkestransportloven.-regler-for-bedre-bruk-av-kollektivdata/id3166929/",
@@ -458,6 +484,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3c2212288d2f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -475,13 +502,14 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "29760107df50",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Kriminalomsorgsdirektoratets forslag til endring i straffegjennomføringslovens regler om kontrolltiltak i kriminalomsorgen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/kriminalomsorgsdirektoratets-forslag-til-endring-i-straffegjennomforingslovens-regler-om-kontrolltiltak-i-kriminalomsorgen/id3167137/",
@@ -492,6 +520,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "c5afff646a52",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -509,6 +538,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2bcea3dfa851",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -526,6 +556,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "da794dfc23c7",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -543,6 +574,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "6852b0df3344",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -560,6 +592,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "922068c3201e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -577,6 +610,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "af2e157b59ab",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -594,6 +628,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "4b2b143e613d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -611,6 +646,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "e8b18a9a7937",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -628,6 +664,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "17796e18616d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -645,6 +682,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "90ebc00576f2",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -662,13 +700,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0fac555760ba",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til endringer i utlendingsloven § 34 - utvidelse av antall år det kan gis midlertidig kollektiv beskyttelse",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-utlendingsloven-34-utvidelse-av-antall-ar-det-kan-gis-midlertidig-kollektiv-beskyttelse/id3177598/",
@@ -679,13 +718,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0a21171f7c9c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Klima- og miljødepartementet",
       "tittel": "Høring - Rapport fra ekspertutvalget om klimatilpasning",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-rapport-fra-ekspertutvalget-om-klimatilpasning/id3169447/",
@@ -696,6 +736,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "a707facb1eff",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -713,13 +754,14 @@
       "hentet": "2026-10-23T11:37:31+02:00",
       "niva": "Fylkeskommunen",
       "id": "defdb6b438fe",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Kultur- og likestillingsdepartementet",
       "tittel": "Høring - forslag til endringer i kringkastingsforskriften",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-kringkastingsforskriften/id3173432/",
@@ -730,6 +772,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "8af939d61ec0",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -747,6 +790,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "48b91a5d6241",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -764,6 +808,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f644746b0c53",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -781,6 +826,7 @@
       "hentet": "2026-10-23T11:37:31+02:00",
       "niva": "Fylkeskommunen",
       "id": "72aaf5ad5099",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -798,13 +844,14 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "ddda7ca52c53",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - NOU 2024: 24 Prøvd på nytt og NOU 2026: 3 Straffeforfølgelsen av Viggo Kristiansen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-nou-2024-24-provd-pa-nytt-og-nou-2026-3-straffeforfolgelsen-av-viggo-kristiansen/id3164414/",
@@ -815,6 +862,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "20fd07d6b54e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -832,6 +880,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "6a72fcd2b2b8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -849,6 +898,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "6bc275fdff17",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -866,6 +916,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "51bf7e74bd34",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -883,6 +934,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "d2d3f10da432",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -900,6 +952,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "d4361e9939e9",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -917,13 +970,14 @@
       "hentet": "2026-10-23T11:37:31+02:00",
       "niva": "Fylkeskommunen",
       "id": "591162fc8480",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Nærings- og fiskeridepartementet",
       "tittel": "Høring - revidert forslag til forskrift om oppdragsgivers plikt til å sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing2/id3175238/",
@@ -934,13 +988,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "82434d4968e1",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Samferdselsdepartementet",
       "tittel": "Høring om risikoreduserende tiltak i bussanskaffelser",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-risikoreduserende-tiltak-i-bussanskaffelser/id3170830/",
@@ -951,13 +1006,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0da38d05e171",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til endringer i utlendingsforskriften (utvikling og testing av IT-systemer i utlendingsforvaltningen mv.)",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-utlendingsforskriften-utvikling-og-testing-av-it-systemer-i-utlendingsforvaltningen-mv/id3173791/",
@@ -968,13 +1024,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3943a26ad125",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til forskrift om deling av taushetsbelagte opplysninger og behandling av personopplysninger i arbeidet mot økonomisk kriminalitet (ø-kriminformasjonsforskriften)",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-til-forskrift-om-deling-av-taushetsbelagte-opplysninger-og-behandling-av-personopplysninger-i-arbeidet-mot-okonomisk-kriminalitet-o-kriminformasjonsforskriften/id3170511/",
@@ -985,6 +1042,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ce28d7268a81",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1002,13 +1060,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "457f1ecd097a",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Kultur- og likestillingsdepartementet",
       "tittel": "Høring - forslag til endringer i pengespillforskriften",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-pengespillforskriften/id3171815/",
@@ -1019,6 +1078,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "4b0dae140bf8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1036,6 +1096,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "10f5a678155b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1053,13 +1114,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ff02aceeac6b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Landbruks- og matdepartementet",
       "tittel": "Høring - Forslag til endringer i forskrift om Omsetningsrådets myndighet vedrørende markedsregulering for jordbruksråvarer (rammeforskriften)",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-forskrift-om-omsetningsradets-myndighet-vedrorende-markedsregulering-for-jordbruksravarer-rammeforskriften/id3167476/",
@@ -1070,6 +1132,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "9c349cfc8058",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1087,13 +1150,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ddf56ca9d760",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Forsvarsdepartementet",
       "tittel": "Høring av forslag til forskriftsfestet tilskuddordning for økt produksjonskapasitet i norsk forsvarsindustri",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskriftsfestet-tilskuddordning-for-okt-produksjonskapasitet-i-norsk-forsvarsindustri/id3178998/",
@@ -1104,6 +1168,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "fa996d9148ed",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1121,13 +1186,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "af99c30570fd",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Nærings- og fiskeridepartementet",
       "tittel": "Høring av Europakommisjonens forslag til ny anskaffelsesforordning",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-europakommisjonens-forslag-til-ny-anskaffelsesforordning/id3179142/",
@@ -1138,13 +1204,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "5a4d402d9439",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Nærings- og fiskeridepartementet",
       "tittel": "Høring om forslag om endringer i CO2-kompensasjonsordningen for fiskeflåten",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-om-endringer-i-co2-kompensasjonsordningen-for-fiskeflaten/id3180079/",
@@ -1155,6 +1222,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3fd5999d299f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1172,6 +1240,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "4eeabc29922d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1189,6 +1258,7 @@
       "hentet": "2026-10-23T11:37:31+02:00",
       "niva": "Fylkeskommunen",
       "id": "59ec55d3da63",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1206,6 +1276,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "929e7e070e99",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1223,6 +1294,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "006cf69022a8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1240,6 +1312,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "a1692dc49017",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -1257,6 +1330,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "db984834479b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1274,13 +1348,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "2f947152205b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Samferdselsdepartementet",
       "tittel": "Høring - Ny konkurranse om regionale ruteflyginger i Nord-Norge fra 1. november 2028",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-ny-konkurranse-om-regionale-ruteflyginger-i-nord-norge-fra-1.-november-2028/id3172071/",
@@ -1291,6 +1366,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "146a716873d9",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1308,13 +1384,14 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "1ff7317cae1d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Nærings- og fiskeridepartementet",
       "tittel": "Høring av forslag til forskrift om fullsortimentsgrossister i dagligvarebransjen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskrift-om-fullsortimentsgrossister-i-dagligvarebransjen/id3173027/",
@@ -1325,6 +1402,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "187fb3b88761",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1342,13 +1420,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ab01fdcf2eec",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Forsvarsdepartementet",
       "tittel": "Høring om den uavhengige evalueringen av lov om Etterretningstjenesten",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-den-uavhengige-evalueringen-av-lov-om-etterretningstjenesten/id3171315/",
@@ -1359,6 +1438,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "2914c81e932e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1376,13 +1456,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "387a95279af5",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Klima- og miljødepartementet",
       "tittel": "Høring - Strategi for besøkssentre for natur 2027-2037",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-strategi-for-besokssentre-for-natur-2027-2037/id3173330/",
@@ -1393,6 +1474,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "b49b5c684460",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1410,6 +1492,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "9cf0a0c2008e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -1427,6 +1510,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "56e529a56a31",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1444,6 +1528,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "6c8f2baaf38c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1461,13 +1546,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ca983dee207f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til endringer i politiloven - utvidelse av fristen for innbringelse og adgang til å stille krav om skikkethet ved opptak til videreutdanning og høyere grads studier ved Politihøgskolen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-politiloven-utvidelse-av-fristen-for-innbringelse-og-adgang-til-a-stille-krav-om-skikkethet-ved-opptak-til-videreutdanning-og-hoyere-grads-studier-ved-politihogskolen/id3175552/",
@@ -1478,6 +1564,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "8d5dcd0258a5",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1495,6 +1582,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f4d08a80ccc3",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1512,6 +1600,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "868dbad65877",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1529,6 +1618,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "b7139428bdd0",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -1546,6 +1636,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "9d8000136a3b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1563,6 +1654,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "d6878ef0e7f4",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1580,6 +1672,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "7bdc37294b5b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
     },
@@ -1597,13 +1690,14 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f80136314e9f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Kultur- og likestillingsdepartementet",
       "tittel": "Høring av Lotteri- og stiftelsestilsynets utredning om regulering av pengespill-lignende elementer i dataspill",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-lotteritilsynets-utredning-om-regulering-av-pengespill-lignende-elementer-i-dataspill/id3176704/",
@@ -1614,6 +1708,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "81abe04a558c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1631,6 +1726,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "5d1498fe43bd",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1648,6 +1744,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "adee425af343",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1665,6 +1762,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0bc5a4b145ee",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1682,6 +1780,7 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "e4f7f112e5d1",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -1699,6 +1798,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "99988a251675",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     }

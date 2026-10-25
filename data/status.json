@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-25T16:58:20+01:00",
+  "generert": "2026-10-25T17:15:52+01:00",
   "kilder": [
     {
       "kilde": "Stortinget",
@@ -28,19 +28,19 @@
     {
       "kilde": "Nye Veier",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
       "kilde": "Jernbanedirektoratet",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
       "kilde": "Bane NOR",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
@@ -52,19 +52,19 @@
     {
       "kilde": "Miljødirektoratet",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
       "kilde": "NVE",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
       "kilde": "DSB",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
@@ -94,7 +94,7 @@
     {
       "kilde": "Bufdir",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
@@ -118,7 +118,7 @@
     {
       "kilde": "Helsedirektoratet",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
@@ -160,7 +160,7 @@
     {
       "kilde": "Digdir",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {
@@ -172,7 +172,7 @@
     {
       "kilde": "DiBK",
       "kjoring": "github",
-      "status": "ikke overvåket",
+      "status": "ikke hentet",
       "antall": 0
     },
     {

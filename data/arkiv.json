@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-25T16:58:20+01:00",
+  "generert": "2026-10-25T17:15:52+01:00",
   "antall": 53,
   "horinger": [
     {
@@ -16,6 +16,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "68585951a2e7",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-23"
@@ -34,6 +35,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "7a70777c9946",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-22"
@@ -52,6 +54,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "d75742ac6ef8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-22"
@@ -70,6 +73,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "dd31e3365c74",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-21"
@@ -88,6 +92,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "fdc8d62ff1ef",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20"
@@ -106,6 +111,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "7b92f9af882d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20"
@@ -124,6 +130,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "7b96a62136b2",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20"
@@ -142,6 +149,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b86b5628e3d1",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20"
@@ -160,6 +168,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "5936f06eefdb",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15"
@@ -178,6 +187,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "beb63bbcdf95",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15"
@@ -196,6 +206,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "07587fe2ae24",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15"
@@ -214,6 +225,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "9341072057d7",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15"
@@ -232,6 +244,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2689377980be",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-14"
@@ -250,6 +263,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "1478798deb4a",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-14"
@@ -268,6 +282,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "e424e3ef992e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -286,6 +301,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "c92b35edea24",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -304,6 +320,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2fb511e38350",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -322,6 +339,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "bca76c71dc5d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -340,6 +358,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "fa036c390793",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -358,6 +377,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "b237c7f6fe06",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -376,6 +396,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "bd8949bfd0d0",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -394,6 +415,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "7949d4aeb9eb",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -412,6 +434,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "9165dc45a26e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -430,6 +453,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "0a919ab079bc",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -448,6 +472,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "96e3b0a4015e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -466,6 +491,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "18e0a427c366",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13"
@@ -484,6 +510,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "27eb79617192",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -502,6 +529,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "a50adbbe88cb",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -520,6 +548,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "8444fb7ed19d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -538,6 +567,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "5a6896cd5117",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -556,6 +586,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "5711d363d42b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -574,6 +605,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "a1f5ad46158f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12"
@@ -592,6 +624,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "9417b1b05437",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-11"
@@ -610,6 +643,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "9ad5e988a7d4",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-11"
@@ -628,6 +662,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "8ce0635ea56e",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-11"
@@ -646,6 +681,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2070c346b0c8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-11"
@@ -664,6 +700,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "97248c806055",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-10"
@@ -682,6 +719,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "75898424d9a8",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-09"
@@ -700,6 +738,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "d39dc1403068",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-09"
@@ -718,6 +757,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "2552ea410324",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-08"
@@ -736,6 +776,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "5f4c6ae7ebce",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-07"
@@ -754,6 +795,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "3f1bcd5f73e7",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-07"
@@ -772,6 +814,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "2c81b5f41c61",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-02"
@@ -790,6 +833,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "181d1a4e128d",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -808,6 +852,7 @@
       "hentet": "2026-10-23T11:37:09+02:00",
       "niva": "Stortinget",
       "id": "db7ed9b32e7c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -826,6 +871,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "60941f0bfd92",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -844,6 +890,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "a8e1d38583b5",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -862,6 +909,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "7513992dac9b",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -880,6 +928,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "23f1a0351a84",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -898,6 +947,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "96cc91cde91c",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01"
@@ -916,6 +966,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "85aba100db72",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-09-30"
@@ -934,6 +985,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "60f4e2f7da1f",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-09-28"
@@ -952,6 +1004,7 @@
       "hentet": "2026-10-23T11:37:17+02:00",
       "niva": "Direktorater og etater",
       "id": "24093c4f9258",
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-09-18"

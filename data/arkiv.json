@@ -1,10 +1,28 @@
 {
-  "generert": "2026-10-23T11:37:59+02:00",
-  "antall": 52,
+  "generert": "2026-10-25T10:18:31+01:00",
+  "antall": 53,
   "horinger": [
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
+      "prioritet": 1,
+      "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+      "tittel": "Datatilsynets og Personvernnemndas årsrapportar for 2025",
+      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005975",
+      "frist": "2026-10-23",
+      "frist_tekst": "Frist for skriftlig innspill: 23.10.2026 kl. 12:00",
+      "publisert": null,
+      "ingress": "Skriftlig høring. Meld. St. 13 (2025–2026).",
+      "hentet": "2026-10-23T11:37:09+02:00",
+      "niva": "Stortinget",
+      "id": "68585951a2e7",
+      "forst_sett": "2026-10-17",
+      "ny": false,
+      "utlopt": "2026-10-23"
+    },
+    {
+      "kilde": "Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til kommunal- og forvaltningskomiteen)",
@@ -22,7 +40,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Energi- og miljøkomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til energi- og miljøkomiteen)",
@@ -40,7 +58,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utdannings- og forskningskomiteen",
       "tittel": "Representantforslag om en mer kunnskapsorientert læreplan med en styrket lærerrolle",
@@ -58,7 +76,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Helse- og omsorgskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til helse- og omsorgskomiteen)",
@@ -76,7 +94,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Representantforslag om å styrke ytringsfriheten for lærere",
@@ -94,7 +112,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag om å redusere bompengebelastningen på E39 Mandal-Kristiansand",
@@ -112,7 +130,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Justiskomiteen",
       "tittel": "Representantforslag om å bekjempe voldelige og ekstremistiske digitale nettverk rettet mot barn og unge",
@@ -130,7 +148,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Justiskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til justiskomiteen)",
@@ -148,7 +166,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utdannings- og forskningskomiteen",
       "tittel": "Representantforslag om å styrke private barnehagers medvirkning, klageadgang og rettssikkerhet gjennom konkrete endringer i finansieringsforskriften",
@@ -166,7 +184,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utdannings- og forskningskomiteen",
       "tittel": "Representantforslag om fleksibel skolestart",
@@ -184,7 +202,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utdannings- og forskningskomiteen",
       "tittel": "Representantforslag om en skole å bli nysgjerrig i",
@@ -202,7 +220,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Næringskomiteen",
       "tittel": "Samtykke til godkjennelse av EØS-komiteens beslutning nr. 228/2026 om innlemmelse i EØS-avtalen av forordning (EU) 2023/588 om opprettelse av EUs program for sikker konnektivitet for perioden 2023–2027 og GOVSATCOM-komponenten i forordning (EU) 2021/",
@@ -238,7 +256,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag om å øke vektgrensen for førerkortklasse B",
@@ -256,7 +274,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Helse- og omsorgskomiteen",
       "tittel": "Representantforslag om å styrke kvinners tilgang på medikamentell abort utenfor sykehus",
@@ -274,7 +292,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Energi- og miljøkomiteen",
       "tittel": "Representantforslag om å sikre videre drift av gasskraftverket i Hammerfest",
@@ -292,7 +310,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Helse- og omsorgskomiteen",
       "tittel": "Representantforslag om å avvise innstramminger i regulering av snus",
@@ -310,7 +328,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag om rammebetingelser for entusiastkjøretøy",
@@ -328,7 +346,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Energi- og miljøkomiteen",
       "tittel": "Representantforslag om likere strømpriser og et sterkere forbrukervern",
@@ -346,7 +364,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Energi- og miljøkomiteen",
       "tittel": "Representantforslag om likebehandling av husholdningsforbruk i kommunale boliger i ordningene for Norgespris og strømstøtte",
@@ -364,7 +382,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Helse- og omsorgskomiteen",
       "tittel": "Representantforslag om innføring av makspris på egenandeler knyttet til praktisk bistand",
@@ -382,7 +400,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag om et nasjonalt trafikklyssystem for trygge skoleveier",
@@ -400,7 +418,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag fra stortingsrepresentantene Remi Sølvberg, Mímir Kristjánsson og Marie Sneve Martinussen om å si opp trafikkavtalen med Go-Ahead Norge på Sørlandsbanen",
@@ -418,7 +436,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag fra stortingsrepresentantene Geir Inge Lien, Ole Herman Sveian og Bengt Fasteraune om å legge ned Jernbanedirektoratet",
@@ -436,7 +454,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Representantforslag fra stortingsrepresentantene Geir Inge Lien og Bengt Fasteraune om forenkling og avbyråkratisering i jernbanesektoren",
@@ -454,7 +472,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Samferdselskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til samferdelskomiteen)",
@@ -472,7 +490,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Næringskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til næringskomiteen)",
@@ -490,7 +508,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Helse- og omsorgskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til helse- og omsorgskomiteen)",
@@ -508,7 +526,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Familie- og kulturkomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til familie- og kulturkomiteen)",
@@ -526,7 +544,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Energi- og miljøkomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til energi- og miljøkomiteen)",
@@ -544,7 +562,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Representantforslag om en bedre politikk for å eie bolig og få bolig- og byggebransjen i gang",
@@ -562,7 +580,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utenriks- og forsvarskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utenriks- og forsvarskomiteen)",
@@ -580,7 +598,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utenriks- og forsvarskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utenriks- og forsvarskomiteen)",
@@ -598,7 +616,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til kommunal- og forvaltningskomiteen)",
@@ -616,7 +634,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Justiskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til justiskomiteen)",
@@ -652,7 +670,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Utdannings- og forskningskomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utdannings- og forskningskomiteen)",
@@ -670,7 +688,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Arbeids- og sosialkomiteen",
       "tittel": "Statsbudsjettet 2027 (kapitler fordelt til arbeids- og sosialkomiteen)",
@@ -688,7 +706,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Finanskomiteen",
       "tittel": "Statsbudsjettet 2027",
@@ -706,7 +724,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Representantforslag om en tydelig og forpliktende integreringskontrakt",
@@ -724,7 +742,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
       "tittel": "Representantforslag om egenbetaling for tolketjenester etter tre års opphold i Norge",
@@ -760,7 +778,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
       "tittel": "Åpen høring i Stortingets kontroll- og konstitusjonskomité torsdag 1. oktober 2026",
@@ -778,7 +796,7 @@
     },
     {
       "kilde": "Stortinget",
-      "kategori": "Regjeringen og Stortinget",
+      "kategori": "Stortinget",
       "prioritet": 1,
       "instans": "Stortinget, Familie- og kulturkomiteen",
       "tittel": "Representantforslag regulering av prediksjonsmarkeder og styrket tilsyn",

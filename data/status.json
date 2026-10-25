@@ -1,12 +1,12 @@
 {
-  "generert": "2026-10-25T17:36:32+01:00",
+  "generert": "2026-10-25T17:39:51+01:00",
   "kilder": [
     {
       "kilde": "Stortinget",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:33:45+01:00",
-      "sist_ok": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
+      "sist_ok": "2026-10-25T17:37:02+01:00",
       "antall": 38
     },
     {
@@ -21,32 +21,32 @@
       "kilde": "Statens vegvesen",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:33:53+01:00",
-      "sist_ok": "2026-10-25T17:33:53+01:00",
+      "hentet": "2026-10-25T17:37:10+01:00",
+      "sist_ok": "2026-10-25T17:37:10+01:00",
       "antall": 7
     },
     {
       "kilde": "Nye Veier",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:34:06+01:00",
-      "sist_ok": "2026-10-25T17:34:06+01:00",
+      "hentet": "2026-10-25T17:37:24+01:00",
+      "sist_ok": "2026-10-25T17:37:24+01:00",
       "antall": 0
     },
     {
       "kilde": "Jernbanedirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:34:08+01:00",
-      "sist_ok": "2026-10-25T17:34:08+01:00",
+      "hentet": "2026-10-25T17:37:26+01:00",
+      "sist_ok": "2026-10-25T17:37:26+01:00",
       "antall": 0
     },
     {
       "kilde": "Bane NOR",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:34:10+01:00",
-      "sist_ok": "2026-10-25T17:34:10+01:00",
+      "hentet": "2026-10-25T17:37:28+01:00",
+      "sist_ok": "2026-10-25T17:37:28+01:00",
       "antall": 0
     },
     {
@@ -58,26 +58,25 @@
     {
       "kilde": "Miljødirektoratet",
       "kjoring": "github",
-      "status": "feil",
-      "hentet": "2026-10-25T17:34:16+01:00",
-      "sist_ok": "2026-10-25T17:29:52+01:00",
-      "antall": 11,
-      "feil": "SimulertFeil: Simulert feil for Miljødirektoratet (HORINGER_SIMULER_FEIL)"
+      "status": "ok",
+      "hentet": "2026-10-25T17:37:34+01:00",
+      "sist_ok": "2026-10-25T17:37:34+01:00",
+      "antall": 11
     },
     {
       "kilde": "NVE",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:34:16+01:00",
-      "sist_ok": "2026-10-25T17:34:16+01:00",
+      "hentet": "2026-10-25T17:37:36+01:00",
+      "sist_ok": "2026-10-25T17:37:36+01:00",
       "antall": 1
     },
     {
       "kilde": "DSB",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:35:57+01:00",
-      "sist_ok": "2026-10-25T17:35:57+01:00",
+      "hentet": "2026-10-25T17:39:16+01:00",
+      "sist_ok": "2026-10-25T17:39:16+01:00",
       "antall": 1
     },
     {
@@ -108,8 +107,8 @@
       "kilde": "Bufdir",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:00+01:00",
-      "sist_ok": "2026-10-25T17:36:00+01:00",
+      "hentet": "2026-10-25T17:39:19+01:00",
+      "sist_ok": "2026-10-25T17:39:19+01:00",
       "antall": 0
     },
     {
@@ -134,8 +133,8 @@
       "kilde": "Helsedirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:02+01:00",
-      "sist_ok": "2026-10-25T17:36:02+01:00",
+      "hentet": "2026-10-25T17:39:21+01:00",
+      "sist_ok": "2026-10-25T17:39:21+01:00",
       "antall": 2
     },
     {
@@ -178,8 +177,8 @@
       "kilde": "Digdir",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:04+01:00",
-      "sist_ok": "2026-10-25T17:36:04+01:00",
+      "hentet": "2026-10-25T17:39:23+01:00",
+      "sist_ok": "2026-10-25T17:39:23+01:00",
       "antall": 0
     },
     {
@@ -192,8 +191,8 @@
       "kilde": "DiBK",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:10+01:00",
-      "sist_ok": "2026-10-25T17:36:10+01:00",
+      "hentet": "2026-10-25T17:39:30+01:00",
+      "sist_ok": "2026-10-25T17:39:30+01:00",
       "antall": 0
     },
     {
@@ -254,16 +253,16 @@
       "kilde": "Innlandet fylkeskommune",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:12+01:00",
-      "sist_ok": "2026-10-25T17:36:12+01:00",
+      "hentet": "2026-10-25T17:39:32+01:00",
+      "sist_ok": "2026-10-25T17:39:32+01:00",
       "antall": 4
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-25T17:36:15+01:00",
-      "sist_ok": "2026-10-25T17:36:15+01:00",
+      "hentet": "2026-10-25T17:39:35+01:00",
+      "sist_ok": "2026-10-25T17:39:35+01:00",
       "antall": 0
     }
   ]

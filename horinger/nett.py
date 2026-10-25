@@ -98,6 +98,16 @@ class Robots:
         return True if beste is None else beste.tillat
 
 
+def _rett_tegnsett(svar: requests.Response) -> None:
+    """Bruker UTF-8 når serveren ikke oppgir tegnsett.
+
+    requests antar da ISO-8859-1 for tekst/html, slik at «på» blir «pÃ¥». Det skjedde med
+    Helsedirektoratet 25.10.2026: overskriften «Ute på høring» ble ikke funnet.
+    """
+    if "charset" not in svar.headers.get("Content-Type", "").lower():
+        svar.encoding = "utf-8"
+
+
 class Nett:
     """HTTP-klient som alle kildene bruker."""
 
@@ -167,6 +177,7 @@ class Nett:
         self._vent(deler.netloc, robots)
         log.info("%s %s", metode, url)
         svar = self.okt.request(metode, url, json=json, headers=headers, timeout=self.tidsavbrudd)
+        _rett_tegnsett(svar)
         self.antall_kall += 1
         self._lagre_raa(url, svar)
         svar.raise_for_status()

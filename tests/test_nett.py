@@ -61,3 +61,20 @@ def test_nettverksfeil_ved_robots_er_ikke_sperre(monkeypatch):
         nett.hent("https://www.vegvesen.no/x")
     assert not isinstance(feil.value, SperretAvRobots)
     assert nett.antall_kall == 0
+
+
+def test_utf8_naar_tegnsett_mangler():
+    import requests
+
+    from horinger.nett import _rett_tegnsett
+
+    svar = requests.Response()
+    svar._content = "Ute på høring".encode()
+    svar.headers["Content-Type"] = "text/html"
+    svar.encoding = "ISO-8859-1"
+    _rett_tegnsett(svar)
+    assert svar.text == "Ute på høring"
+    svar.headers["Content-Type"] = "text/html; charset=windows-1252"
+    svar.encoding = "windows-1252"
+    _rett_tegnsett(svar)
+    assert svar.encoding == "windows-1252"

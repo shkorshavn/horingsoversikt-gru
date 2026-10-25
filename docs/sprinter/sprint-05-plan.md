@@ -1,6 +1,6 @@
 # Sprint 5 – Direktorater, prioritet 2 og 3: plan
 
-Status: Plan til godkjenning · 25. oktober 2026
+Status: Plan til godkjenning · 25. oktober 2026 (oppdatert med Sveins svar kl. 17.59)
 
 ## Mål
 Alle etater med prioritet 2 og 3 overvåkes automatisk eller er satt til `aktiv: false` med
@@ -113,3 +113,36 @@ Fire av dem (Datatilsynet, SSB, Konkurransetilsynet og Sivilombudet) mangler beg
 3. **DMP (legemidler):** De fleste høringene gjelder legemiddelregelverk og apotek. Skal DMP ha
    prioritet 2 som i spesifikasjonen, eller 3 (lav, skjult som standard)? Forslag: 3, med løft
    når høringen gjelder kommunene (f.eks. legemidler i sykehjem og hjemmetjeneste).
+
+## Sveins svar 25.10.2026 kl. 17.59 og endringer i planen
+1. **Riksantikvaren:** Fredningssaker bare med geografisk treff. Regelverkshøringer tas med
+   uansett. **JA.**
+2. **Frist med bare måned:** Bruk **første dag** i måneden, ikke siste. Slik bygges det:
+   - Sortering, fargen på fristen og «dager igjen» regnes fra den 1. i måneden. Det er det
+     forsiktige valget: høringen står som om fristen kommer tidlig.
+   - Fristboksen viser «des. 2026» og «Frist i desember». Listen viser «Høringsfrist: desember
+     2026».
+   - Høringen flyttes først til arkivet når hele måneden er over. Slik forsvinner den ikke
+     2. desember hvis fristen egentlig er 15. desember.
+3. **DMP:** prioritet 3 (lav), med løft til høy når høringen gjelder kommunene. **OK.**
+4. **Etater uten høringsside skal være med når det er aktuelt for regionen eller kommunene:**
+   FHI, Helsetilsynet, Kartverket, UDI, Innlandet politidistrikt, Datatilsynet, SSB og
+   Konkurransetilsynet. DSA og Sivilombudet forblir inaktive.
+
+   Disse etatene har ingen egen høringsliste (sprint 0). Planen for dem:
+   - **Finne en kanal per etat:** nyheter, RSS, sitemap eller dokumentliste, på samme måte som
+     for Nye Veier og Bane NOR i sprint 4. Kontrolleres mot robots.txt.
+   - **Krav for å tas med:** Oppslaget må både se ut som en høring (søkeord og frist på siden)
+     **og** være aktuelt for regionen eller kommunene. Det siste avgjøres med samme regel som
+     løftet til høy prioritet: teksten nevner kommunene, fylkeskommunen, plan- og
+     bygningsloven, Innlandet eller et sted i regionen. Ordlisten kan justeres i `sources.yaml`.
+   - **Hvor høringene ofte ligger allerede:** Mange av disse høringene sendes ut av
+     departementet og ligger på regjeringen.no (f.eks. Kartverket via KDD og UDI via JD). Der er
+     de allerede med, og dedupliseringen hindrer dobbeltvisning.
+   - **Finnes det ingen brukbar kanal** for en etat (ingen nyheter med høringer, eller sperret i
+     robots.txt), forblir den `aktiv: false`. Begrunnelsen og forsøket står i rapporten.
+   - Slike kilder får prioritet 2. Treffer de, gjelder de per definisjon kommunene eller
+     regionen og løftes derfor til høy.
+
+   **Konsekvens:** Sprinten får 8 kilder mer å undersøke. Flere av dem vil sannsynligvis gi 0
+   treff de fleste uker. Kjøretiden stiger noe, men bør holde seg godt under 30 minutter.

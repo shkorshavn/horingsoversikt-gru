@@ -1,0 +1,40 @@
+{
+  "kilde": "Helsedirektoratet",
+  "status": "ok",
+  "hentet": "2026-10-25T17:31:39+01:00",
+  "antall": 2,
+  "sekunder": 1.9,
+  "horinger": [
+    {
+      "kilde": "Helsedirektoratet",
+      "kategori": "Helse, omsorg og velferd",
+      "prioritet": 1,
+      "instans": "Helsedirektoratet",
+      "tittel": "Retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten",
+      "lenke": "https://www.helsedirektoratet.no/horinger/retningslinje-for-mat-maltider-og-ernaering-i-helse-og-omsorgstjenesten",
+      "frist": "2026-12-03",
+      "frist_tekst": "Høringsfrist: 03.12.2026",
+      "publisert": null,
+      "ingress": "",
+      "hentet": "2026-10-25T17:31:39+01:00",
+      "niva": "Direktorater og etater",
+      "id": "f84de76c0415"
+    },
+    {
+      "kilde": "Helsedirektoratet",
+      "kategori": "Helse, omsorg og velferd",
+      "prioritet": 1,
+      "instans": "Helsedirektoratet",
+      "tittel": "Breddekompetanse i legenes spesialistutdanning – innspillsrunde",
+      "lenke": "https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde",
+      "frist": "2027-02-01",
+      "frist_tekst": "Høringsfrist: 01.02.2027",
+      "publisert": null,
+      "ingress": "",
+      "hentet": "2026-10-25T17:31:39+01:00",
+      "niva": "Direktorater og etater",
+      "id": "a617b9031e22"
+    }
+  ],
+  "sist_ok": "2026-10-25T17:31:39+01:00"
+}

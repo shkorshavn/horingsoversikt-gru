@@ -18,7 +18,7 @@
       <img class="logo" src="side/logo.svg" alt="Gjøvikregionen" width="202" height="35">
       <div class="topp-tekst">
         <h1>Høringer</h1>
-        <p class="ingress">Åpne høringer fra Stortinget, departementene, direktorater, Innlandet fylkeskommune og Statsforvalteren i Innlandet, sortert etter frist.</p>
+        <p class="ingress">Åpne høringer fra Stortinget, departementene, direktorater, Innlandet fylkeskommune og Statsforvalteren i Innlandet.</p>
         <p class="oppdatert" id="oppdatert">Henter høringer …</p>
         <p class="advarsel" id="advarsel" role="status" hidden></p>
       </div>
@@ -66,9 +66,22 @@
     </aside>
 
     <main id="hoved">
+      <p id="utskrift-info" class="utskrift-info"></p>
       <div class="verktoy">
         <p id="antall" class="antall" role="status" aria-live="polite"></p>
-        <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
+        <div class="handlinger">
+          <label class="sortering" for="sortering">Sorter etter
+            <select id="sortering">
+              <option value="frist">Frist, nærmeste først</option>
+              <option value="nye">Nyeste først</option>
+              <option value="prioritet">Foreslått prioritet</option>
+              <option value="avsender">Høringsinstans A–Å</option>
+              <option value="tema">Tema</option>
+            </select>
+          </label>
+          <button type="button" class="knapp knapp-stille" id="skriv-ut">Skriv ut</button>
+          <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
+        </div>
       </div>
 
       <ul class="forklaring" aria-label="Fargene på fristene">
@@ -77,7 +90,7 @@
         <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
       </ul>
 
-      <ol id="liste" class="liste" tabindex="-1" aria-label="Høringer sortert etter frist"></ol>
+      <ol id="liste" class="liste" tabindex="-1" aria-label="Høringer"></ol>
 
       <div id="tom" class="melding" hidden>
         <p>Ingen høringer passer filtrene du har valgt.</p>

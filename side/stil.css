@@ -126,6 +126,10 @@ input[type="search"]::placeholder { color: var(--skog-300); }
 
 .verktoy { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
 .antall { margin: 0; font-weight: 600; font-size: 1.0625rem; }
+.handlinger { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+.sortering { display: flex; align-items: center; gap: 0.45rem; font-weight: 600; font-size: 0.9375rem; }
+.sortering select { width: auto; }
+.utskrift-info { display: none; }
 
 .forklaring { list-style: none; margin: 0 0 1rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 1.25rem; font-size: 0.875rem; color: var(--skog-300); }
 .forklaring li { display: flex; align-items: center; gap: 0.4rem; }
@@ -242,10 +246,47 @@ thead th { background: var(--turkis-300); }
   .statustekst.bare-smal { display: block; }
 }
 
+/* ---------- Utskrift ----------
+   Samme utvalg og rekkefølge som på skjermen, i farger, med liten skrift og tette rader
+   slik at flest mulig høringer får plass per side. */
+
+@page { size: A4; margin: 11mm 10mm 12mm; }
+
 @media print {
-  .filtre, .verktoy .knapp, .hopp, #inaktive { display: none; }
-  .ramme { display: block; }
-  body { background: #fff; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html { font-size: 7.5pt; }
+  body { background: #fff; line-height: 1.3; }
+  .filtre, .handlinger, .hopp, #inaktive, .status, .bunn, #tom { display: none !important; }
+  .forklaring { font-size: 0.9rem; margin: 0 0 0.3rem; }
+  .ramme { display: block; max-width: none; padding: 0; }
+  .topp { border: 0; }
+  .topp-indre { max-width: none; padding: 0 0 0.6rem; grid-template-columns: auto 1fr; gap: 1rem; align-items: center; }
+  .logo { width: 9rem; margin: 0; }
+  .topp-tekst { padding-left: 1rem; }
+  h1 { font-size: 1.9rem; margin: 0; }
+  .ingress { display: none; }
+  .utskrift-info { display: block; margin: 0 0 0.4rem; font-size: 1rem; }
+  .verktoy { margin: 0 0 0.3rem; }
+  .antall { font-size: 1rem; }
+  .liste { border-top-width: 1.5px; }
+  /* Én tett rad per høring: fristen til venstre, tittel øverst, og instans, prioritet, tema
+     og fristtekst på samme linje under. */
+  .hoering {
+    grid-template-columns: 5.2rem 1fr; gap: 0.6rem; padding: 0.22rem 0;
+    break-inside: avoid; page-break-inside: avoid;
+  }
+  .frist { padding: 0.1rem 0.15rem 0.15rem; border-left-width: 3px; border-radius: 3px; }
+  .frist .dag { display: inline; font-size: 1.15rem; }
+  .frist .maned { display: inline; font-size: 0.9rem; margin: 0 0 0 0.15rem; }
+  .frist .igjen { font-size: 0.8rem; margin-top: 0; white-space: nowrap; }
+  .innhold { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 0.7rem; }
+  .innhold h2 { flex-basis: 100%; font-size: 1.1rem; line-height: 1.25; margin: 0; }
+  .instans { margin: 0; font-size: 0.95rem; }
+  .detaljer { font-size: 0.85rem; gap: 0 0.55rem; }
+  .beskrivelse { order: 5; flex-basis: 100%; margin: 0; max-width: none; font-size: 0.9rem; }
+  .prio, .tema { padding: 0 0.3rem; }
+  .ny-merke { font-size: 0.75rem; }
+  a { text-decoration: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

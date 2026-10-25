@@ -54,7 +54,7 @@ HORINGER = {
             kilde="Regjeringen.no",
         ),
         _h("d13", "2026-10-30", tittel='Høring om æ, ø og å; «sitat» og "anførsel"'),
-        _h("d14", "2026-10-31", tittel="Fjorten dager", ny=True),
+        _h("d14", "2026-10-31", tittel="Fjorten dager", ny=True, forst_sett="2026-10-15"),
         _h("d30", "2026-11-16", tittel="Tretti dager", ingress="Gjelder rv. 4 ved Gjøvik."),
         _h(
             "d0",
@@ -560,3 +560,73 @@ def test_foreslatt_prioritet_vises(side):
     lav = side.locator('.hoering[data-id="prio3"] .prio')
     assert lav.inner_text() == "Foreslått prioritet: lav"
     assert side.locator("#liste .hoering").count() == side.locator("#liste .prio").count()
+
+
+# ---------- Sortering og utskrift ----------
+
+
+def test_sortering(side):
+    side.select_option("#sortering", "avsender")
+    instanser = side.locator("#liste .instans").all_inner_texts()
+    assert instanser == sorted(instanser, key=str.lower)
+    assert side.url.endswith("?sort=avsender")
+    side.select_option("#sortering", "nye")
+    assert _titler(side)[0] == "Fjorten dager"  # nyeste forst_sett i testdataene
+    side.select_option("#sortering", "tema")
+    tema = side.locator("#liste .tema").all_inner_texts()
+    assert tema == sorted(tema)
+    side.select_option("#sortering", "frist")
+    assert _titler(side)[0] == "Frist i dag"
+    assert "sort=" not in side.url
+
+
+def test_sortering_prioritet(side):
+    side.check('input[name="prio"][value="3"]')
+    side.select_option("#sortering", "prioritet")
+    assert _titler(side)[-1] == "Lav prioritet"
+
+
+def test_sortering_leses_fra_adressen(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path)), sti="/index.html?sort=avsender")
+    assert side.input_value("#sortering") == "avsender"
+    side.close()
+
+
+def test_nullstill_setter_sortering_tilbake(side):
+    side.select_option("#sortering", "tema")
+    side.click("#nullstill")
+    assert side.input_value("#sortering") == "frist"
+
+
+def test_utskrift(side):
+    side.fill("#sok", "dager")
+    side.select_option("#sortering", "avsender")
+    side.emulate_media(media="print")
+    assert side.is_hidden(".filtre")
+    assert side.is_hidden(".status")
+    assert side.is_hidden("#skriv-ut")
+    info = side.inner_text("#utskrift-info")
+    assert info.startswith("Utvalg: 2 høringer, søk «dager»")
+    assert "Sortert etter høringsinstans A–Å. Skrevet ut 17. oktober 2026." in info
+    # Samme høringer på papiret som på skjermen, og fargene skrives ut.
+    assert _titler(side) == ["Fjorten dager", "Tretti dager"]
+    farge = side.locator('.hoering[data-id="d14"] .frist').evaluate(
+        "e => getComputedStyle(e).printColorAdjust"
+    )
+    assert farge == "exact"
+
+
+def test_utskrift_er_kompakt(nettleser, server, tmp_path):
+    """60 høringer skal få plass på høyst tre A4-sider (minst 20 per side)."""
+    mange = {
+        **HORINGER,
+        "horinger": [
+            _h(f"m{i}", f"2026-11-{1 + i % 28:02d}", ingress="Kort beskrivelse av høringen.")
+            for i in range(60)
+        ],
+    }
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=mange)))
+    pdf = side.pdf(format="A4", print_background=True, prefer_css_page_size=True)
+    sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
+    assert 1 <= sider <= 3, sider
+    side.close()

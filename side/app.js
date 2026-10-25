@@ -11,6 +11,13 @@
     "sep.", "okt.", "nov.", "des."];
   var STANDARD_PRIO = ["1", "2"];
   var PRIO_NAVN = { "1": "høy", "2": "middels", "3": "lav" };
+  var SORTERINGER = {
+    frist: "frist, nærmeste først",
+    nye: "nyeste først",
+    prioritet: "foreslått prioritet",
+    avsender: "høringsinstans A–Å",
+    tema: "tema"
+  };
   var ARKIV_DAGER = 30;      // utløpte høringer vises så lenge
   var UTDATERT_DAGER = 10;   // advarsel når oversikten er eldre enn dette
 
@@ -107,6 +114,7 @@
       x.checked = v.prio.indexOf(x.value) !== -1;
     });
     f.utlopte.checked = !!v.utlopte;
+    document.getElementById("sortering").value = v.sort || "frist";
   }
 
   function filtreFraAdresse() {
@@ -116,7 +124,8 @@
       kategori: s.get("kategori") || "",
       niva: s.get("niva") || "",
       prio: s.has("prio") ? s.get("prio").split(",").filter(Boolean) : STANDARD_PRIO.slice(),
-      utlopte: s.get("utlopte") === "1"
+      utlopte: s.get("utlopte") === "1",
+      sort: SORTERER[s.get("sort")] ? s.get("sort") : "frist"
     };
   }
 
@@ -127,6 +136,7 @@
     if (v.niva) s.set("niva", v.niva);
     if (v.prio.join(",") !== STANDARD_PRIO.join(",")) s.set("prio", v.prio.join(","));
     if (v.utlopte) s.set("utlopte", "1");
+    if (lesSortering() !== "frist") s.set("sort", lesSortering());
     var q = s.toString();
     history.replaceState(null, "", window.location.pathname + (q ? "?" + q : ""));
   }
@@ -146,11 +156,42 @@
     return true;
   }
 
-  function sorter(a, b) {
+  /** Standardrekkefølge: nærmeste frist først, høringer uten frist til slutt. */
+  function etterFrist(a, b) {
     if (a.frist === null && b.frist !== null) return 1;
     if (b.frist === null && a.frist !== null) return -1;
     if (a.frist !== b.frist) return a.frist < b.frist ? -1 : 1;
     return a.tittel.localeCompare(b.tittel, "nb");
+  }
+
+  function tekstSammenlign(felt) {
+    return function (a, b) {
+      return String(a[felt] || "").localeCompare(String(b[felt] || ""), "nb") || etterFrist(a, b);
+    };
+  }
+
+  var SORTERER = {
+    frist: etterFrist,
+    // Sist sett første gang øverst. Høringer uten dato (f.eks. fra arkivet) havner sist.
+    nye: function (a, b) {
+      var x = a.forst_sett || "", y = b.forst_sett || "";
+      if (x !== y) return x < y ? 1 : -1;
+      return etterFrist(a, b);
+    },
+    prioritet: function (a, b) {
+      return (Number(a.prioritet) || 9) - (Number(b.prioritet) || 9) || etterFrist(a, b);
+    },
+    avsender: tekstSammenlign("instans"),
+    tema: tekstSammenlign("kategori")
+  };
+
+  function sorter(a, b) {
+    return (SORTERER[lesSortering()] || etterFrist)(a, b);
+  }
+
+  function lesSortering() {
+    var v = document.getElementById("sortering").value;
+    return SORTERER[v] ? v : "frist";
   }
 
   // ---------- Tegning ----------
@@ -227,6 +268,22 @@
     if (v.utlopte && tilstand.arkivFeilet) antall.textContent += ". Høringer med utløpt frist kunne ikke hentes.";
     document.getElementById("tom").hidden = utvalg.length > 0;
     document.getElementById("eksport").disabled = utvalg.length === 0;
+    document.getElementById("skriv-ut").disabled = utvalg.length === 0;
+    document.getElementById("utskrift-info").textContent = utskriftInfo(v, utvalg.length);
+  }
+
+  /** Kort beskrivelse av utvalget, som står øverst på utskriften. */
+  function utskriftInfo(v, antall) {
+    var deler = [antall === 1 ? "1 høring" : antall + " høringer"];
+    if (v.q) deler.push("søk «" + v.q + "»");
+    if (v.kategori) deler.push("tema " + v.kategori);
+    if (v.niva) deler.push("avsender " + v.niva);
+    if (v.prio.join(",") !== "1,2,3") {
+      deler.push("foreslått prioritet " + v.prio.map(function (p) { return PRIO_NAVN[p]; }).join(" og "));
+    }
+    if (v.utlopte) deler.push("med utløpt frist siste 30 dager");
+    return "Utvalg: " + deler.join(", ") + ". Sortert etter " + SORTERINGER[lesSortering()] +
+      ". Skrevet ut " + norskDato(tilstand.iDag) + ".";
   }
 
   function erApen(h) { return h.dager === null || h.dager >= 0; }
@@ -393,7 +450,7 @@
   }
 
   function nullstill() {
-    settFiltre({ q: "", kategori: "", niva: "", prio: STANDARD_PRIO.slice(), utlopte: false });
+    settFiltre({ q: "", kategori: "", niva: "", prio: STANDARD_PRIO.slice(), utlopte: false, sort: "frist" });
     tegn();
     document.getElementById("sok").focus();
   }
@@ -407,6 +464,8 @@
     document.getElementById("nullstill").addEventListener("click", nullstill);
     document.getElementById("nullstill-tom").addEventListener("click", nullstill);
     document.getElementById("eksport").addEventListener("click", lastNedCsv);
+    document.getElementById("sortering").addEventListener("change", tegn);
+    document.getElementById("skriv-ut").addEventListener("click", function () { window.print(); });
     // Filtrene kan foldes sammen bare på smal skjerm. På bred skjerm står de alltid åpne.
     var smal = window.matchMedia("(max-width: 52rem)");
     var boks = document.getElementById("filtre-boks");
@@ -422,6 +481,7 @@
         oppdatert.textContent = "";
         visFeil("Klarte ikke å hente høringene. Last siden på nytt om litt. Vedvarer feilen, si fra til Gjøvikregionen Utvikling.");
         document.getElementById("eksport").disabled = true;
+        document.getElementById("skriv-ut").disabled = true;
         document.getElementById("antall").textContent = "";
       } else {
         var data = svar[0].value;

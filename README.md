@@ -72,6 +72,11 @@ Er oversikten ikke oppdatert på mer enn ti dager, viser siden en advarsel øver
 Hver høring har et flagg med foreslått prioritet (høy, middels eller lav). Foreløpig følger
 prioriteten kilden (`prioritet` i `sources.yaml`). Stortinget og regjeringen er egne temaer.
 
+Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
+eller tema. Valget lagres i adressen (`?sort=avsender`). Knappen «Skriv ut» skriver ut samme
+utvalg og rekkefølge som på skjermen, i farger og med liten skrift og tette rader, med en linje
+øverst som beskriver utvalget. Eksempel: `docs/sprinter/bilder/sprint-03-utskrift-eksempel.pdf`.
+
 ## Kjøre lokalt
 
 Krever Python 3.11 eller nyere.

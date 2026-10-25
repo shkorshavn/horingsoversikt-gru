@@ -11,13 +11,6 @@
     "sep.", "okt.", "nov.", "des."];
   var STANDARD_PRIO = ["1", "2"];
   var PRIO_NAVN = { "1": "høy", "2": "middels", "3": "lav" };
-  var SORTERINGER = {
-    frist: "frist, nærmeste først",
-    nye: "nyeste først",
-    prioritet: "foreslått prioritet",
-    avsender: "høringsinstans A–Å",
-    tema: "tema"
-  };
   var ARKIV_DAGER = 30;      // utløpte høringer vises så lenge
   var UTDATERT_DAGER = 10;   // advarsel når oversikten er eldre enn dette
 
@@ -189,6 +182,13 @@
     return (SORTERER[lesSortering()] || etterFrist)(a, b);
   }
 
+  /** Navnet på valgt sortering, slik det står i nedtrekkslisten («frist, nærmeste først»). */
+  function sorteringsnavn() {
+    var valg = document.getElementById("sortering");
+    var tekst = valg.options[valg.selectedIndex].text;
+    return tekst.charAt(0).toLocaleLowerCase("nb") + tekst.slice(1);
+  }
+
   function lesSortering() {
     var v = document.getElementById("sortering").value;
     return SORTERER[v] ? v : "frist";
@@ -282,7 +282,7 @@
       deler.push("foreslått prioritet " + v.prio.map(function (p) { return PRIO_NAVN[p]; }).join(" og "));
     }
     if (v.utlopte) deler.push("med utløpt frist siste 30 dager");
-    return "Utvalg: " + deler.join(", ") + ". Sortert etter " + SORTERINGER[lesSortering()] +
+    return "Utvalg: " + deler.join(", ") + ". Sortert etter " + sorteringsnavn() +
       ". Skrevet ut " + norskDato(tilstand.iDag) + ".";
   }
 

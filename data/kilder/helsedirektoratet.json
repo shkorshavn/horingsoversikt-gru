@@ -1,7 +1,7 @@
 {
   "kilde": "Helsedirektoratet",
   "status": "ok",
-  "hentet": "2026-10-25T17:36:02+01:00",
+  "hentet": "2026-10-25T17:39:21+01:00",
   "antall": 2,
   "sekunder": 2.0,
   "horinger": [
@@ -16,7 +16,7 @@
       "frist_tekst": "Høringsfrist: 03.12.2026",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:36:02+01:00",
+      "hentet": "2026-10-25T17:39:21+01:00",
       "niva": "Direktorater og etater",
       "id": "f84de76c0415"
     },
@@ -31,10 +31,10 @@
       "frist_tekst": "Høringsfrist: 01.02.2027",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:36:02+01:00",
+      "hentet": "2026-10-25T17:39:21+01:00",
       "niva": "Direktorater og etater",
       "id": "a617b9031e22"
     }
   ],
-  "sist_ok": "2026-10-25T17:36:02+01:00"
+  "sist_ok": "2026-10-25T17:39:21+01:00"
 }

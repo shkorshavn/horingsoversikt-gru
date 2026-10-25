@@ -1,9 +1,9 @@
 {
   "kilde": "Stortinget",
   "status": "ok",
-  "hentet": "2026-10-25T17:33:45+01:00",
+  "hentet": "2026-10-25T17:37:02+01:00",
   "antall": 80,
-  "sekunder": 7.6,
+  "sekunder": 7.7,
   "horinger": [
     {
       "kilde": "Stortinget",
@@ -16,7 +16,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 07.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:275 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "5f4c6ae7ebce"
     },
@@ -31,7 +31,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 07.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:281 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "3f1bcd5f73e7"
     },
@@ -46,7 +46,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 12.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:295 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "a1f5ad46158f"
     },
@@ -61,7 +61,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 01.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:297 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "db7ed9b32e7c"
     },
@@ -76,7 +76,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:292 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "385f0468346c"
     },
@@ -91,7 +91,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:278 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "f5a5f66e526d"
     },
@@ -106,7 +106,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 20.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:283 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b86b5628e3d1"
     },
@@ -121,7 +121,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:286 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "4737296c2ae0"
     },
@@ -136,7 +136,7 @@
       "frist_tekst": "Ingen frist oppgitt. Høringen holdes 01.10.2026",
       "publisert": null,
       "ingress": "Kontrollhøring. Muntlig høring 01.10.2026.",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "181d1a4e128d"
     },
@@ -151,7 +151,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:298 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "7949d4aeb9eb"
     },
@@ -166,7 +166,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:301 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "bca76c71dc5d"
     },
@@ -181,7 +181,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:309 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "c92b35edea24"
     },
@@ -196,7 +196,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:296 S (2025-2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2fb511e38350"
     },
@@ -211,7 +211,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:300 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "bd8949bfd0d0"
     },
@@ -226,7 +226,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 02.11.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:319 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2bcea3dfa851"
     },
@@ -241,7 +241,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:324 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b237c7f6fe06"
     },
@@ -256,7 +256,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:299 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "0a919ab079bc"
     },
@@ -271,7 +271,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:302 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "18e0a427c366"
     },
@@ -286,7 +286,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:303 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "96e3b0a4015e"
     },
@@ -301,7 +301,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:313 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "fa036c390793"
     },
@@ -316,7 +316,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:314 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "e424e3ef992e"
     },
@@ -331,7 +331,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 13.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:322 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "9165dc45a26e"
     },
@@ -346,7 +346,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 14.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 109 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2689377980be"
     },
@@ -361,7 +361,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 15.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:306 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "07587fe2ae24"
     },
@@ -376,7 +376,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 15.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:318 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "beb63bbcdf95"
     },
@@ -391,7 +391,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 15.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:320 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "9341072057d7"
     },
@@ -406,7 +406,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 102 L (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "75567d8c825c"
     },
@@ -421,7 +421,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 20.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:315 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "7b92f9af882d"
     },
@@ -436,7 +436,7 @@
       "frist_tekst": "Frist for å søke om å delta: 09.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Muntlig høring 14.10.2026. Prop. 1 S (2026–2027); Innst. 15 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "d39dc1403068"
     },
@@ -451,7 +451,7 @@
       "frist_tekst": "Frist for å søke om å delta: 08.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 14.10.2026. Prop. 1 S (2026–2027); Innst. 2 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2552ea410324"
     },
@@ -466,7 +466,7 @@
       "frist_tekst": "Frist for å søke om å delta: 09.10.2026 kl. 09:00",
       "publisert": null,
       "ingress": "Muntlig høring 19.10.2026. Prop. 1 S (2026–2027); Innst. 12 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "75898424d9a8"
     },
@@ -481,7 +481,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 14 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b70f48dec37e"
     },
@@ -496,7 +496,7 @@
       "frist_tekst": "Frist for å søke om å delta: 12.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 21.10.2026. Prop. 1 S (2026–2027); Innst. 8 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "a50adbbe88cb"
     },
@@ -511,7 +511,7 @@
       "frist_tekst": "Frist for å søke om å delta: 11.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 21.10.2026. Prop. 1 S (2026–2027); Innst. 6 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2070c346b0c8"
     },
@@ -526,7 +526,7 @@
       "frist_tekst": "Frist for å søke om å delta: 12.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 19.10.2026. Prop. 1 S (2026–2027); Innst. 13 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "27eb79617192"
     },
@@ -541,7 +541,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 09:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 12 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "665f3fa994af"
     },
@@ -556,7 +556,7 @@
       "frist_tekst": "Frist for å søke om å delta: 12.10.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Muntlig høring 19.10.2026. Prop. 1 S (2026–2027); Innst. 14 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "5a6896cd5117"
     },
@@ -571,7 +571,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 20.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 11 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "fdc8d62ff1ef"
     },
@@ -586,7 +586,7 @@
       "frist_tekst": "Frist for å søke om å delta: 12.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 21.10.2026. Prop. 1 S (2026–2027); Innst. 11 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "8444fb7ed19d"
     },
@@ -601,7 +601,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 22.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 16 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "7a70777c9946"
     },
@@ -616,7 +616,7 @@
       "frist_tekst": "Frist for å søke om å delta: 11.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 16.10.2026. Prop. 1 S (2026–2027); Innst. 16 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "8ce0635ea56e"
     },
@@ -631,7 +631,7 @@
       "frist_tekst": "Frist for å søke om å delta: 11.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 16.10.2026. Prop. 1 S (2026–2027); Innst. 7 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "9417b1b05437"
     },
@@ -646,7 +646,7 @@
       "frist_tekst": "Frist for å søke om å delta: 11.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 15.10.2026. Prop. 1 S (2026–2027); Innst. 7 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "9ad5e988a7d4"
     },
@@ -661,7 +661,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 22.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 9 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "d75742ac6ef8"
     },
@@ -676,7 +676,7 @@
       "frist_tekst": "Frist for å søke om å delta: 12.10.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Muntlig høring 16.10.2026. Prop. 1 S (2026–2027); Innst. 9 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "5711d363d42b"
     },
@@ -691,7 +691,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 15.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 6 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "5936f06eefdb"
     },
@@ -706,7 +706,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:311 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "9cc5afca6a10"
     },
@@ -721,7 +721,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:316 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b58acb7cbf72"
     },
@@ -736,7 +736,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 108 L (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "3c5369341185"
     },
@@ -751,7 +751,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 23.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Meld. St. 13 (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "68585951a2e7"
     },
@@ -766,7 +766,7 @@
       "frist_tekst": "Ingen frist oppgitt. Høringen holdes 13.11.2026",
       "publisert": null,
       "ingress": "Kontrollhøring. Muntlig høring 13.11.2026.",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "ddda7ca52c53"
     },
@@ -781,7 +781,7 @@
       "frist_tekst": "Frist for å søke om å delta: 26.10.2026 kl. 13:00",
       "publisert": null,
       "ingress": "Muntlig høring 04.11.2026. Prop. 112 L (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "2d6434f7897d"
     },
@@ -796,7 +796,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:304 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "67ec81a017fe"
     },
@@ -811,7 +811,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:321 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "e9a14bdd7b62"
     },
@@ -826,7 +826,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 21.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:2 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "dd31e3365c74"
     },
@@ -841,7 +841,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:305 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "e919a623344f"
     },
@@ -856,7 +856,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 30.10.2026 kl. 12:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 8 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "29760107df50"
     },
@@ -871,7 +871,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 20.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:3 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "7b96a62136b2"
     },
@@ -886,7 +886,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 26.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 1 S (2026–2027); Innst. 13 S (2026-2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b4a560af6edb"
     },
@@ -901,7 +901,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:5 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "63cc40b248f7"
     },
@@ -916,7 +916,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 111 LS (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "06015c8343c1"
     },
@@ -931,7 +931,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Prop. 111 LS (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "643a43b304c3"
     },
@@ -946,7 +946,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:317 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "c3023dcf4511"
     },
@@ -961,7 +961,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 28.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:323 S (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "6998327d63dc"
     },
@@ -976,7 +976,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 02.11.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:17 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "922068c3201e"
     },
@@ -991,7 +991,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 02.11.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:10 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "da794dfc23c7"
     },
@@ -1006,7 +1006,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 02.11.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:12 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "6852b0df3344"
     },
@@ -1021,7 +1021,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 02.11.2026 kl. 10:00",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:19 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "af2e157b59ab"
     },
@@ -1036,7 +1036,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 12.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:13 L (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "48b91a5d6241"
     },
@@ -1051,7 +1051,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 17.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 12:4 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "d4361e9939e9"
     },
@@ -1066,7 +1066,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 17.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 12:20 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "51bf7e74bd34"
     },
@@ -1081,7 +1081,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 17.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 12:38 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "d2d3f10da432"
     },
@@ -1096,7 +1096,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 04.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:21 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "4b2b143e613d"
     },
@@ -1111,7 +1111,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 17.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 12:21 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "6bc275fdff17"
     },
@@ -1126,7 +1126,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 17.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 12:36 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "6a72fcd2b2b8"
     },
@@ -1141,7 +1141,7 @@
       "frist_tekst": "Frist for å søke om å delta: 09.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Kontrollhøring. Muntlig høring 16.11.2026. Dokument 12:21 (2023-2024); Dokument 12:36 (2023-2024).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "90ebc00576f2"
     },
@@ -1156,7 +1156,7 @@
       "frist_tekst": "Frist for å søke om å delta: 28.10.2026 kl. 16:00",
       "publisert": null,
       "ingress": "Muntlig høring 02.11.2026. Meld. St. 12 (2025–2026).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "c516cdc946d6"
     },
@@ -1171,7 +1171,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 04.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:7 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "e8b18a9a7937"
     },
@@ -1186,7 +1186,7 @@
       "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Skriftlig høring. Dokument 8:14 S (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "b40b58e8e0b2"
     },
@@ -1201,10 +1201,10 @@
       "frist_tekst": "Frist for å søke om å delta: 01.11.2026 kl. 23:59",
       "publisert": null,
       "ingress": "Muntlig høring 05.11.2026. Prop. 2 L (2026–2027).",
-      "hentet": "2026-10-25T17:33:45+01:00",
+      "hentet": "2026-10-25T17:37:02+01:00",
       "niva": "Stortinget",
       "id": "6db50eabb3aa"
     }
   ],
-  "sist_ok": "2026-10-25T17:33:45+01:00"
+  "sist_ok": "2026-10-25T17:37:02+01:00"
 }

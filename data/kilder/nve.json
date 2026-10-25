@@ -1,9 +1,9 @@
 {
   "kilde": "NVE",
   "status": "ok",
-  "hentet": "2026-10-25T17:34:16+01:00",
+  "hentet": "2026-10-25T17:37:36+01:00",
   "antall": 3,
-  "sekunder": 100.1,
+  "sekunder": 100.2,
   "horinger": [
     {
       "kilde": "NVE",
@@ -16,7 +16,7 @@
       "frist_tekst": "…NVE ber om at du: Sender oss innspill til høringsforslaget innen høringsfristen desember 2026…",
       "publisert": "2026-10-05",
       "ingress": "På vegne av Energidepartementet (ED) og Klima- og miljødepartementet (KLD) sender Norges vassdrags- og energidirektorat (NVE) med dette på høring forslag til endringer i forskrift av 23.2.2011 nr. 190 om miljøvennlig utforming av produkter (økodesignforskriften). NVE foreslår også endringer i forskrift av 27. mai 2013 nr. 534 om energimerking av energirelaterte produkter (energimerkeforskriften fo",
-      "hentet": "2026-10-25T17:34:16+01:00",
+      "hentet": "2026-10-25T17:37:36+01:00",
       "niva": "Direktorater og etater",
       "id": "23eea50c7f1b"
     },
@@ -31,7 +31,7 @@
       "frist_tekst": "Høringsfrist: Høringsfrist er 15. mars 2026",
       "publisert": "2025-12-19",
       "ingress": "Norges vassdrags- og energidirektorat (NVE) har sendt på høring forslag om endring av kraftberedskapsforskriften § 4-1 om reparasjonsberedskap. Formålet med de foreslåtte endringene er å styrke reparasjonsberedskapen i kraftforsyningen. Styrking av reparasjonsberedskapen er nødvendig for å møte dagens sikkerhetspolitiske situasjon og redusere risikoen for langvarige strømbrudd.",
-      "hentet": "2026-10-25T17:34:16+01:00",
+      "hentet": "2026-10-25T17:37:36+01:00",
       "niva": "Direktorater og etater",
       "id": "4a04169b8a4a"
     },
@@ -46,10 +46,10 @@
       "frist_tekst": "Frist: 20.01.2026",
       "publisert": "2025-12-17",
       "ingress": "NVE har sendt på høring et forslag om å gjennomføre to EU-forordninger i norsk rett. Forordningene stiller krav om miljøvennlig utforming av produkter. Forordningene stiller både krav som skal fremme energieffektivitet og krav som skal fremme en mer sirkulær økonomi.",
-      "hentet": "2026-10-25T17:34:16+01:00",
+      "hentet": "2026-10-25T17:37:36+01:00",
       "niva": "Direktorater og etater",
       "id": "826ad62ca581"
     }
   ],
-  "sist_ok": "2026-10-25T17:34:16+01:00"
+  "sist_ok": "2026-10-25T17:37:36+01:00"
 }

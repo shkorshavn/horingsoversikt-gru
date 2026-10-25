@@ -1,9 +1,9 @@
 {
   "kilde": "Innlandet fylkeskommune",
   "status": "ok",
-  "hentet": "2026-10-25T17:36:12+01:00",
+  "hentet": "2026-10-25T17:39:32+01:00",
   "antall": 4,
-  "sekunder": 3.6,
+  "sekunder": 3.3,
   "horinger": [
     {
       "kilde": "Innlandet fylkeskommune",
@@ -16,7 +16,7 @@
       "frist_tekst": "Hensikten med planforslaget er å legge til rette for en fremtidig utbedring av fv. 33. Frist for innspill er 4. desember 2026.",
       "publisert": null,
       "ingress": "Hensikten med planforslaget er å legge til rette for en fremtidig utbedring av fv. 33. Frist for innspill er 4. desember 2026.",
-      "hentet": "2026-10-25T17:36:12+01:00",
+      "hentet": "2026-10-25T17:39:32+01:00",
       "niva": "Fylkeskommunen",
       "id": "59ec55d3da63"
     },
@@ -31,7 +31,7 @@
       "frist_tekst": "Innlandet fylkeskommune kunngjør oppstart av arbeid med reguleringsplan langs Ringgata i samsvar med bestemmelsene i plan- og bygningsloven §§ 3-7 og 12-8. Frist for innspill er 18. november 2026 Innspill merkes med saksnummer “2026/20689” og sendes per e-post til post@innlandetfylke.no eller per post til: Innlandet fylkeskommune Postboks 4404 Bedriftssemteret 2325 Hamar Åpen kontordag Innlandet fylkeskommune inviterer til åpen kontordag tirsdag 10. november fra klokken 14.00 til 18.00 på fylkeshuset på Hamar.",
       "publisert": null,
       "ingress": "Målet er å legge til rette for å bygge sykkelveg med fortau langs Ringgata mellom Solvangvegen og Disenvegen.",
-      "hentet": "2026-10-25T17:36:12+01:00",
+      "hentet": "2026-10-25T17:39:32+01:00",
       "niva": "Fylkeskommunen",
       "id": "591162fc8480"
     },
@@ -46,7 +46,7 @@
       "frist_tekst": "Frist for innspill til planarbeidet er 13. november 2026.",
       "publisert": null,
       "ingress": "Målet er å skifte ut eksisterende Skog bru med ny bru eller kulvert i samme trasé. Frist for innspill til planarbeidet er 13. november 2026.",
-      "hentet": "2026-10-25T17:36:12+01:00",
+      "hentet": "2026-10-25T17:39:32+01:00",
       "niva": "Fylkeskommunen",
       "id": "72aaf5ad5099"
     },
@@ -61,10 +61,10 @@
       "frist_tekst": "Høringsfrist er 11. november 2026.",
       "publisert": null,
       "ingress": "Planprogrammet er første fase av arbeidet med regional plan. Høringsfrist er 11. november 2026.",
-      "hentet": "2026-10-25T17:36:12+01:00",
+      "hentet": "2026-10-25T17:39:32+01:00",
       "niva": "Fylkeskommunen",
       "id": "defdb6b438fe"
     }
   ],
-  "sist_ok": "2026-10-25T17:36:12+01:00"
+  "sist_ok": "2026-10-25T17:39:32+01:00"
 }

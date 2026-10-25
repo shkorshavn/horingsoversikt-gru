@@ -1,10 +1,9 @@
 {
   "kilde": "Miljødirektoratet",
-  "status": "feil",
-  "hentet": "2026-10-25T17:34:16+01:00",
-  "antall": 0,
-  "feil": "SimulertFeil: Simulert feil for Miljødirektoratet (HORINGER_SIMULER_FEIL)",
-  "sekunder": 0.0,
+  "status": "ok",
+  "hentet": "2026-10-25T17:37:34+01:00",
+  "antall": 11,
+  "sekunder": 1.8,
   "horinger": [
     {
       "kilde": "Miljødirektoratet",
@@ -17,7 +16,7 @@
       "frist_tekst": "Høringsfrist: 25.10.2026",
       "publisert": "2026-09-29",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7946.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "b6e09fc0613d"
     },
@@ -32,7 +31,7 @@
       "frist_tekst": "Høringsfrist: 27.10.2026",
       "publisert": "2026-06-24",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/5812.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "b2c43c21458e"
     },
@@ -47,7 +46,7 @@
       "frist_tekst": "Høringsfrist: 06.11.2026",
       "publisert": "2026-09-04",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/7472.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "87b13fc8a9cd"
     },
@@ -62,7 +61,7 @@
       "frist_tekst": "Høringsfrist: 09.11.2026",
       "publisert": "2026-09-25",
       "ingress": "Tema: Avfall og sirkulær økonomi, Regelverk. Saksnummer 2026/8024.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "8590425183d7"
     },
@@ -77,7 +76,7 @@
       "frist_tekst": "Høringsfrist: 10.11.2026",
       "publisert": "2026-09-23",
       "ingress": "Tema: Grensekryssende og internasjonalt. Saksnummer 2026/7969.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "eb7e8a64289f"
     },
@@ -92,7 +91,7 @@
       "frist_tekst": "Høringsfrist: 17.11.2026",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7825.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "9663429b6c14"
     },
@@ -107,7 +106,7 @@
       "frist_tekst": "Høringsfrist: 17.11.2026",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5489.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "958fc8782702"
     },
@@ -122,7 +121,7 @@
       "frist_tekst": "Høringsfrist: 24.11.2026",
       "publisert": "2026-10-20",
       "ingress": "Tema: Industri på land, Klima, Innlandet. Saksnummer 2026/2029.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "b49bc7affad8"
     },
@@ -137,7 +136,7 @@
       "frist_tekst": "Høringsfrist: 25.11.2026",
       "publisert": "2026-10-20",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5483.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "ef6918aedd9c"
     },
@@ -152,7 +151,7 @@
       "frist_tekst": "Høringsfrist: 04.12.2026",
       "publisert": "2026-10-23",
       "ingress": "Tema: Klima. Saksnummer 2026/8677.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "1cd059791b68"
     },
@@ -167,10 +166,10 @@
       "frist_tekst": "Høringsfrist: 31.12.2026",
       "publisert": "2026-09-24",
       "ingress": "Tema: Forurensning og støy, Regelverk. Saksnummer 2025/14731.",
-      "hentet": "2026-10-25T17:29:52+01:00",
+      "hentet": "2026-10-25T17:37:34+01:00",
       "niva": "Direktorater og etater",
       "id": "99d3cae515d7"
     }
   ],
-  "sist_ok": "2026-10-25T17:29:52+01:00"
+  "sist_ok": "2026-10-25T17:37:34+01:00"
 }

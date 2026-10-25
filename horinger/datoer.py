@@ -143,7 +143,11 @@ def setning_med_frist(tekst: str, maks: int = 200) -> str:
     Foretrekker setninger med «frist», deretter «innen». «15. mars» deler ikke setningen.
     """
     setninger = _SETNINGSSKILLE.split(" ".join((tekst or "").split()))
-    for monster in (r"(?i)h[øo]y?ringsfrist|(?<![\wæøå])frist", r"(?i)(?<![\wæøå])innen(?![\wæøå])"):
+    monstre = (
+        r"(?i)h[øo]y?ringsfrist|(?<![\wæøå])frist",
+        r"(?i)(?<![\wæøå])innen(?![\wæøå])",
+    )
+    for monster in monstre:
         for setning in setninger:
             treff = re.search(monster, setning)
             if not treff:

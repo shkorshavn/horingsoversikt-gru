@@ -1,6 +1,6 @@
 # Sprint 4 – Direktorater, prioritet 1: plan
 
-Status: Plan til godkjenning · 25. oktober 2026
+Status: Plan til godkjenning · 25. oktober 2026 (oppdatert med Sveins svar kl. 16.54)
 
 ## Mål
 Alle direktorater og etater med prioritet 1 overvåkes automatisk, eller er satt til
@@ -108,3 +108,22 @@ Spesifikasjonen gir departementene ulik prioritet: KDD, KD, HOD, AID, DFD og FIN
 4. **Prioritet per departement:** Skal jeg legge inn spesifikasjonens prioritet (KDD, KD, HOD,
    AID, DFD og FIN høy, de andre middels) i denne sprinten, slik at flagget «Foreslått
    prioritet» skiller? Forslag: ja.
+
+## Sveins svar 25.10.2026 kl. 16.54
+1. NVE-konsesjoner: samme geografi som Vegvesenet. **OK.**
+2. Vage frister vises som tekst, uten «dager igjen», og sorteres sist. **JA** (skrevet «AJ», tolket
+   som ja).
+3. Olje og gass tas bort fra Miljødirektoratet. **JA.**
+4. Prioritet per departement: **JA, med mindre det er klart at høringen er av stor betydning for
+   kommunene eller regionen.** Slik bygges det:
+   - Departementene får prioriteten fra spesifikasjonen. KDD, KD, HOD, AID, DFD og FIN får høy.
+     De andre får middels.
+   - En høring fra et departement med middels prioritet løftes til **høy** når tittel eller
+     ingress klart gjelder kommunene eller regionen. Det gjelder når teksten nevner kommuner,
+     kommunale oppgaver, fylkeskommunen, plan- og bygningsloven, Innlandet eller en kommune i
+     Gjøvikregionen eller nabokommunene. Ordlisten ligger i `sources.yaml` og kan justeres uten
+     kodeendring.
+   - Siden viser hvorfor en høring er løftet, for eksempel «Foreslått prioritet: høy (gjelder
+     kommunene)».
+   - Ordlisten er en enkel første versjon. En grundigere vurdering per høring kommer med
+     regionflagget i sprint 6.

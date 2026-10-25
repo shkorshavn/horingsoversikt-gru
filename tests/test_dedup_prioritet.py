@@ -158,3 +158,44 @@ def test_fristtekst():
         fristtekst(None, "innen høringsfristen desember 2026")
         == "innen høringsfristen desember 2026"
     )
+
+
+# ---------- Sprint 5: månedsfrist og ingress ----------
+
+
+def test_frist_med_bare_maned():
+    from horinger.datoer import finn_frist_maned
+
+    assert finn_frist_maned("innen høringsfristen desember 2026") == (2026, 12)
+    assert finn_frist_maned("Frist for innspill: mars 2027.") == (2027, 3)
+    assert finn_frist_maned("Høringsfrist er 15. desember 2026") is None
+    assert finn_frist_maned("fra midten av april til midten av juni") is None
+
+
+def test_lag_hoering_med_maanedsfrist():
+    from horinger.kilder.base import Kilde
+
+    class K(Kilde):
+        def hent(self):
+            return []
+
+    h = K({"navn": "NVE"}, nett=None).lag_hoering(
+        instans="NVE",
+        tittel="Økodesign",
+        lenke="https://x",
+        frist=None,
+        frist_tekst="…innspill innen høringsfristen desember 2026…",
+    )
+    assert h.frist == date(2026, 12, 1)  # første dag i måneden (Svein 25.10.2026)
+    assert h.frist_maned == "2026-12"
+    assert h.frist_tekst == "Høringsfrist: desember 2026"
+
+
+def test_ingress_kuttes_ved_helt_ord():
+    from horinger.datoer import kort_ingress
+
+    tekst = "energimerkeforskriften " * 30
+    kort = kort_ingress(tekst, maks=100)
+    assert kort.endswith("energimerkeforskriften…")
+    assert len(kort) <= 101
+    assert kort_ingress("kort tekst") == "kort tekst"

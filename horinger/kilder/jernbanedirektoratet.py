@@ -45,7 +45,7 @@ def tolk(innlegg: list[dict], sokeord: Sokeord, grense) -> list[dict]:
                 "frist": frist,
                 "frist_tekst": setning_med_frist(tekst),
                 "publisert": publisert.date(),
-                "ingress": tekst[:300] + ("…" if len(tekst) > 300 else ""),
+                "ingress": tekst,
             }
         )
     return resultat

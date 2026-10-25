@@ -156,6 +156,7 @@ input[type="search"]::placeholder { color: var(--skog-300); }
   background: var(--hvit);
 }
 .frist .dag { display: block; font-size: 2.125rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.frist .dag-maned { font-size: 1.5rem; }
 .frist .maned { display: block; font-size: 0.9375rem; font-weight: 600; margin-top: 0.15rem; }
 .frist .igjen { display: block; font-size: 0.8125rem; margin-top: 0.4rem; line-height: 1.25; }
 

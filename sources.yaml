@@ -188,9 +188,11 @@ kilder:
     prioritet: 2
     url: https://nkom.no/hoeringer
     metode: html
-    aktiv: false
+    modul: nkom
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "HTML-liste + detaljside for fristen."
 
   # --- Miljø, klima, energi og beredskap ---
   - navn: Miljødirektoratet
@@ -236,9 +238,11 @@ kilder:
     prioritet: 2
     url: https://www.landbruksdirektoratet.no/nb/om-direktoratet/horinger
     metode: html
-    aktiv: false
+    modul: landbruksdirektoratet
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "HTML, seksjonen «På høring nå». To datoformater."
 
   - navn: DSA
     kategori: Miljø, klima, energi og beredskap
@@ -303,9 +307,11 @@ kilder:
     prioritet: 2
     url: https://riksantikvaren.no/siste-nytt/horinger-og-kunngjoringer/
     metode: html
-    aktiv: false
+    modul: riksantikvaren
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "Nyhetsliste, frist i ingressen. Uten frist tas ikke med. Fredningssaker bare når de gjelder regionen eller kommunene (Svein 25.10.2026)."
 
   - navn: Nasjonalarkivet
     kategori: Oppvekst, utdanning, kultur og integrering
@@ -313,10 +319,11 @@ kilder:
     prioritet: 2
     url: https://www.nasjonalarkivet.no/offentlig-forvaltning/regelverk-og-standarder/riksarkivarens-horinger/
     metode: html
-    aktiv: false
+    modul: nasjonalarkivet
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
-    merknad: Tidligere Arkivverket.
+    merknad: "Tidligere Arkivverket. Tittelliste uten datoer, frist fra detaljsiden (3 nyeste)."
 
   # --- Helse, omsorg og velferd ---
   - navn: Helsedirektoratet
@@ -345,12 +352,14 @@ kilder:
   - navn: Direktoratet for medisinske produkter
     kategori: Helse, omsorg og velferd
     niva: Direktorater og etater
-    prioritet: 2
+    prioritet: 3
     url: https://www.dmp.no/om-oss/horinger
     metode: html
-    aktiv: false
+    modul: dmp
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "HTML-liste + detaljside. Prioritet 3, løftes når høringen gjelder kommunene (Svein 25.10.2026)."
 
   - navn: Folkehelseinstituttet
     kategori: Helse, omsorg og velferd
@@ -361,7 +370,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
-    merknad: Publiserer bare egne høringssvar.
+    merknad: "Undersøkt på nytt 25.10.2026 (Svein ønsket den med når aktuelt): sitemapet har 61 sider om høringer, alle egne høringssvar (/om/fhi/uttalelser/). FHI sender ikke ut egne høringer. Høringene på feltet sendes av HOD og er med via regjeringen.no."
 
   - navn: Mattilsynet
     kategori: Helse, omsorg og velferd
@@ -369,9 +378,11 @@ kilder:
     prioritet: 2
     url: https://www.mattilsynet.no/hoeringer
     metode: html
-    aktiv: false
+    modul: mattilsynet
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "HTML-tabell. «Bestilling til VKM» tas ikke med."
 
   - navn: Arbeidstilsynet
     kategori: Helse, omsorg og velferd
@@ -379,9 +390,11 @@ kilder:
     prioritet: 2
     url: https://www.arbeidstilsynet.no/regelverk/horinger/
     metode: html
-    aktiv: false
+    modul: arbeidstilsynet
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "HTML, pågående høringer."
 
   - navn: Statens helsetilsyn
     kategori: Helse, omsorg og velferd
@@ -392,7 +405,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
-    merknad: Publiserer bare egne uttalelser.
+    merknad: "Undersøkt på nytt 25.10.2026: sitemapet har 834 sider under «brev-og-horingsuttalelser», bare egne svar og brev. Ingen utgående høringer."
 
   # --- Styring, digitalisering, juss og eiendom ---
   - navn: Digdir
@@ -439,7 +452,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
-    merknad: Ingen høringsside.
+    merknad: "Undersøkt på nytt 25.10.2026: sitemapet har bare én side om høringer (håndbok for stedsnavn). Kartverkets regelverk sendes ut av KDD og er med via regjeringen.no."
 
   - navn: UDI
     kategori: Styring, digitalisering, juss og eiendom
@@ -450,7 +463,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
-    merknad: Viser bare egne høringssvar.
+    merknad: "Undersøkt på nytt 25.10.2026: høringssiden og sitemapet (41 sider) har bare UDIs egne høringssvar. Regelverket sendes ut av JD og er med via regjeringen.no."
 
   - navn: Politidirektoratet
     kategori: Styring, digitalisering, juss og eiendom
@@ -458,9 +471,11 @@ kilder:
     prioritet: 2
     url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=103
     metode: html
-    aktiv: false
+    modul: politiet
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "Dokumentkort. Frist «på høring til <dato>». Flere dokumenter fra samme høring slås sammen."
 
   - navn: Innlandet politidistrikt
     kategori: Styring, digitalisering, juss og eiendom
@@ -468,10 +483,12 @@ kilder:
     prioritet: 2
     url: https://www.politiet.no/om-politiet/dokumenter-strategier-og-horinger/dokumenter/?innholdstype=72&enhet=203
     metode: html
-    aktiv: false
+    modul: politiet
+    aktiv: true
     anbefalt: inaktiv
     sprint: 5
-    merknad: Sender ikke ut egne høringer.
+    krav: aktuell_for_regionen
+    merknad: "Samme dokumentliste som Politidirektoratet (enhet=203). Bare når aktuelt for regionen eller kommunene (Svein 25.10.2026)."
 
   - navn: Skatteetaten
     kategori: Styring, digitalisering, juss og eiendom
@@ -479,9 +496,11 @@ kilder:
     prioritet: 2
     url: https://www.skatteetaten.no/rettskilder/type/horinger/
     metode: json-i-html
-    aktiv: false
+    modul: skatteetaten
+    aktiv: true
     anbefalt: aktiv
     sprint: 5
+    merknad: "JSON i HTML + detaljside (siste 120 dager). Frist står ikke alltid på siden."
 
   - navn: Datatilsynet
     kategori: Styring, digitalisering, juss og eiendom
@@ -492,26 +511,39 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
+    merknad: "Undersøkt på nytt 25.10.2026: robots.txt svarer med serverfeil (500), så nettstedet hentes ikke. Prøves igjen senere."
 
   - navn: SSB
     kategori: Styring, digitalisering, juss og eiendom
     niva: Direktorater og etater
     prioritet: 2
-    url: https://www.ssb.no/
+    url: https://www.ssb.no/omssb/ssbs-virksomhet/hoering
     metode: html
-    aktiv: false
+    modul: enkeltside
+    aktiv: true
     anbefalt: inaktiv
     sprint: 5
+    instans: Statistisk sentralbyrå (SSB)
+    krav: aktuell_for_regionen
+    merknad: "Én side som viser SSBs gjeldende høring. Bare når fristen ikke er passert og høringen er aktuell for regionen eller kommunene (Svein 25.10.2026)."
 
   - navn: Konkurransetilsynet
     kategori: Styring, digitalisering, juss og eiendom
     niva: Direktorater og etater
     prioritet: 3
-    url: https://konkurransetilsynet.no/
+    url: https://konkurransetilsynet.no/sitemap_index.xml
     metode: html
-    aktiv: false
+    modul: bane_nor
+    aktiv: true
     anbefalt: inaktiv
     sprint: 5
+    instans: Konkurransetilsynet
+    sitemaps: [https://konkurransetilsynet.no/page-sitemap.xml, https://konkurransetilsynet.no/post-sitemap.xml]
+    sokeord: [horing, hoering, høring]
+    utelat_ord: [horingssvar, horinguttalelse, horingsuttalelse, eu-kommisjonen]
+    krav: aktuell_for_regionen
+    maks_sider: 5
+    merknad: "Ingen høringsliste. Sitemap: sider endret siste 120 dager med «horing» i adressen, bare når aktuelt for regionen eller kommunene (Svein 25.10.2026)."
 
   - navn: Sivilombudet
     kategori: Styring, digitalisering, juss og eiendom
@@ -522,6 +554,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
+    merknad: "Publiserer bare høringsuttalelser."
 
   # --- Regionale ledd ---
   - navn: Innlandet fylkeskommune

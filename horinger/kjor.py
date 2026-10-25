@@ -133,16 +133,19 @@ def main(argv: list[str] | None = None) -> int:
         raa_mappe=args.raa,
     )
     simuler = os.environ.get("HORINGER_SIMULER_FEIL", "").strip() or None
+    start = time.monotonic()
     resultater = kjor_kilder(konfig, nett, args.kilder, args.maskin, simuler)
+    total = time.monotonic() - start
     for r in resultater:
         lagre_kilde(kildemappe, r)
     feil = [r["kilde"] for r in resultater if r["status"] != "ok"]
     log.info(
-        "Hentet %d kilder (%d med feil: %s), %d kall",
+        "Hentet %d kilder (%d med feil: %s), %d kall, %.0f sekunder",
         len(resultater),
         len(feil),
         ", ".join(feil) or "ingen",
         nett.antall_kall,
+        total,
     )
     if not args.bare_kilder:
         bygg(konfig, kildemappe, args.utdata)

@@ -41,6 +41,15 @@ def _dato(verdi: str | None) -> date | None:
     return date.fromisoformat(verdi[:10]) if verdi else None
 
 
+def _siste_fristdag(h: dict) -> date:
+    """Siste dag høringen er åpen: fristen, eller siste dag i måneden for en månedsfrist."""
+    frist = _dato(h["frist"])
+    if h.get("frist_maned"):
+        neste = date(frist.year + frist.month // 12, frist.month % 12 + 1, 1)
+        return neste - timedelta(days=1)
+    return frist
+
+
 def _tid(verdi: str | None) -> datetime | None:
     return datetime.fromisoformat(verdi) if verdi else None
 
@@ -65,6 +74,8 @@ def kildestatus(kilde_konfig: dict, lagret: dict | None, naa: datetime) -> dict:
     )
     if lagret.get("feil"):
         status["feil"] = lagret["feil"]
+    if lagret.get("sekunder") is not None:
+        status["sekunder"] = lagret["sekunder"]
     sist_ok = _tid(lagret.get("sist_ok"))
     if lagret["status"] == "ok" and sist_ok and naa - sist_ok > timedelta(days=UTDATERT_DAGER):
         status["status"] = "utdatert"
@@ -120,7 +131,7 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
         h = dict(h)
         h["forst_sett"] = forst
         h["ny"] = forst_dato > opprettet and (i_dag_ - forst_dato).days < NY_DAGER
-        if frist is not None and frist < i_dag_:
+        if frist is not None and _siste_fristdag(h) < i_dag_:
             h["ny"] = False
             h["utlopt"] = frist.isoformat()
             arkiv[h["id"]] = h
@@ -146,7 +157,12 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
     skriv_json(
         utdata / "horinger.json", {"generert": generert, "antall": len(apne), "horinger": apne}
     )
-    skriv_json(utdata / "status.json", {"generert": generert, "kilder": status})
+    # Samlet tid kildene brukte ved siste henting (kriterium i sprint 5: under 30 minutter).
+    kjoretid = round(sum(s.get("sekunder") or 0 for s in status), 1)
+    skriv_json(
+        utdata / "status.json",
+        {"generert": generert, "kjoretid_sekunder": kjoretid, "kilder": status},
+    )
     arkivliste = sorted(arkiv.values(), key=lambda h: (h["utlopt"], h["tittel"]), reverse=True)
     skriv_json(
         utdata / "arkiv.json",

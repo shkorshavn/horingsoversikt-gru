@@ -75,7 +75,7 @@ def tolk_forskriftsdetalj(html: str, publisert: date | None) -> tuple[date | Non
     for avsnitt in hoved.find_all("p"):
         kandidat = avsnitt.get_text(" ", strip=True)
         if len(kandidat) > 60:
-            ingress = kandidat[:400]
+            ingress = kandidat
             break
     return frist, setning_med_frist(tekst), ingress
 

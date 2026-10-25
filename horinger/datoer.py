@@ -158,6 +158,34 @@ def setning_med_frist(tekst: str, maks: int = 200) -> str:
     return ""
 
 
+_FRIST_MANED = re.compile(
+    rf"(?<![\wæøå])(?:høringsfrist\w*|høyringsfrist\w*|frist\w*|innen(?!for))"
+    rf"[^.\d]{{0,40}}?(?<!\d\.\s)(?<!\d\.)\b({_MANED_MONSTER})\s+(\d{{4}})",
+    re.IGNORECASE,
+)
+
+
+def finn_frist_maned(tekst: str) -> tuple[int, int] | None:
+    """Frist med bare måned og år («innen høringsfristen desember 2026») → (2026, 12).
+
+    Brukes når det ikke finnes en eksakt dato. Står det et dagnummer foran måneden, er det en
+    vanlig dato og håndteres av `frist_etter_ord`.
+    """
+    treff = _FRIST_MANED.search(" ".join((tekst or "").split()))
+    if not treff:
+        return None
+    return int(treff.group(2)), MANEDER[treff.group(1).lower()]
+
+
+def kort_ingress(tekst: str, maks: int = 400) -> str:
+    """Kutter ingressen ved et helt ord og avslutter med «…» når den er for lang."""
+    tekst = " ".join((tekst or "").split())
+    if len(tekst) <= maks:
+        return tekst
+    kutt = tekst[: maks + 1].rsplit(" ", 1)[0].rstrip(" ,.;:–-(")
+    return kutt + "…"
+
+
 def fristtekst(frist: date | None, setning: str, maks: int = 120) -> str:
     """Teksten som vises ved siden av fristen.
 

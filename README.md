@@ -22,6 +22,7 @@ Sprint 2: nettsiden er bygget.
 Sprint 3: ukentlig kjøring mandag kl. 10, publisering på
 https://shkorshavn.github.io/horingsoversikt-gru/, merket «Ny» og arkiv for utløpte høringer.
 Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per departement.
+Sprint 5: etater med prioritet 2 og 3, frist med bare måned og år, og måling av kjøretid.
 
 ## Etatens side eller regjeringen.no
 
@@ -43,6 +44,18 @@ regjeringen.no» (`horinger/dedup.py`).
 | Nye Veier | Oppdateringer fra Innlandet | Planvarsler etter plan- og bygningsloven, ikke på regjeringen.no |
 | Jernbanedirektoratet | Nyheter (WordPress-API) | Ingen høringsside. Utredninger på høring omtales i nyhetene |
 | Bane NOR | Sitemap og prosjektsider | Planvarsler etter plan- og bygningsloven, ikke på regjeringen.no |
+| Nkom | Egen høringsliste + detaljside | Frekvenser og digital infrastruktur |
+| Landbruksdirektoratet | Egen høringsside («På høring nå») | Forskrifter og satser på landbruksfeltet |
+| Riksantikvaren | Egen nyhetsliste | Fredningssaker og forskrifter. Fredning av enkeltsteder bare når det gjelder regionen |
+| Nasjonalarkivet | Egen høringsside | Riksarkivarens forskrifter |
+| DMP | Egen høringsliste + detaljside | Legemiddel- og utstyrsforskrifter. Prioritet 3 |
+| Mattilsynet | Egen regelverkstabell | Bl.a. drikkevann og næringsmidler |
+| Arbeidstilsynet | Egen høringsside | Arbeidsmiljøforskrifter |
+| Politidirektoratet | Politiets dokumentliste | Retningslinjer fra POD |
+| Skatteetaten | Egen høringsliste (JSON i siden) + detaljside | Bl.a. særavgifter og innkreving |
+| SSB, Konkurransetilsynet, Innlandet politidistrikt | Egen side/sitemap/dokumentliste | Ingen fast høringsliste. Tas bare med når høringen gjelder kommunene eller regionen (Svein 25.10.2026) |
+| FHI, Helsetilsynet, Kartverket, UDI, Datatilsynet | Ikke overvåket (`aktiv: false`) | Undersøkt på nytt 25.10.2026: publiserer bare egne høringssvar, har ingen høringssider (Kartverket), eller robots.txt svarer ikke (Datatilsynet). Høringene på feltene sendes av departementene og er med via regjeringen.no |
+| DSA, Kulturdirektoratet, Sivilombudet | Ikke overvåket (`aktiv: false`) | Mest petroleumstillatelser (DSA), ingen høringsside, eller bare egne uttalelser |
 | Udir, IMDi, NAV, DFØ | Ikke overvåket (`aktiv: false`) | Udir: datakilden er sperret i robots.txt (droppet av Svein 16.10.2026). IMDi og NAV: ingen høringsside, regelverket sendes ut av AID. DFØ: ingen samlet høringsside, regelverket sendes ut av NFD |
 
 ## Foreslått prioritet
@@ -100,6 +113,9 @@ Filtrene lagres i adressen (f.eks. `?q=barnehage&niva=Regjeringen`), slik at en 
 visning kan deles som lenke. Dagens dato og «dager igjen» regnes i norsk tid.
 
 Er oversikten ikke oppdatert på mer enn ti dager, viser siden en advarsel øverst.
+
+Frist med bare måned og år («innen høringsfristen desember 2026») vises som «Høringsfrist:
+desember 2026». Den sorteres som den 1. i måneden, men står som åpen ut måneden.
 
 Hver høring har et flagg med foreslått prioritet (høy, middels eller lav). Foreløpig følger
 prioriteten kilden (`prioritet` i `sources.yaml`). Stortinget og regjeringen er egne temaer.

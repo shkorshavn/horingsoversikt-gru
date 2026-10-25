@@ -77,6 +77,15 @@ HORINGER = {
         ),
         _h("prio3", "2026-10-25", tittel="Lav prioritet", prioritet=3),
         _h("ukjent", None, tittel="Uten frist"),
+        _h(
+            "maned",
+            "2026-12-01",
+            tittel="Frist bare med måned",
+            frist_maned="2026-12",
+            frist_tekst="Høringsfrist: desember 2026",
+            kilde="NVE",
+            instans="NVE",
+        ),
         _h("farlig", "2026-11-12", tittel="Lenke uten http", lenke="javascript:alert(1)"),
         _h(
             "fylke",
@@ -219,9 +228,10 @@ def test_sortert_pa_frist_uten_utlopte_og_prio3(side):
         "Lenke uten http",
         "Tretti dager",
         "Høring om barnehageloven",
+        "Frist bare med måned",
         "Uten frist",
     ]
-    assert side.inner_text("#antall") == "Viser 8 høringer (9 åpne totalt, 1 ny siste uke)"
+    assert side.inner_text("#antall") == "Viser 9 høringer (10 åpne totalt, 1 ny siste uke)"
 
 
 @pytest.mark.parametrize(
@@ -301,7 +311,7 @@ def test_tom_visning_og_nullstill(side):
     assert side.is_visible("#tom")
     assert side.is_disabled("#eksport")
     side.click("#nullstill-tom")
-    assert len(_titler(side)) == 8
+    assert len(_titler(side)) == 9
     assert side.is_hidden("#tom")
 
 
@@ -421,7 +431,7 @@ def test_arkiv_mangler(nettleser, server, tmp_path):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path, arkiv=None)))
     _vis_utlopte(side)
     assert "Høringer med utløpt frist kunne ikke hentes." in side.inner_text("#antall")
-    assert len(_titler(side)) == 8
+    assert len(_titler(side)) == 9
     side.close()
 
 
@@ -470,7 +480,7 @@ def test_mangler_horinger(nettleser, server, tmp_path):
 
 def test_mangler_status(nettleser, server, tmp_path):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path, status=None)))
-    assert len(_titler(side)) == 8
+    assert len(_titler(side)) == 9
     assert side.inner_text("#status-ingress") == "Status for kildene er ikke tilgjengelig."
     assert side.is_hidden("#status-tabell")
     side.close()
@@ -656,3 +666,47 @@ def test_ogsa_publisert(side):
     assert ogsa.locator("a").count() == 1  # lenken som ikke er en nettadresse, er tatt bort
     assert ogsa.locator("a").get_attribute("href") == "https://www.regjeringen.no/x"
     assert side.locator(".ogsa").count() == 1
+
+
+# ---------- Sprint 5: månedsfrist og filtre ----------
+
+
+def test_maanedsfrist_vises_som_maaned(side):
+    frist = side.locator('.hoering[data-id="maned"] .frist')
+    assert frist.locator(".dag").inner_text() == "des."
+    assert frist.locator(".maned").inner_text() == "2026"
+    assert frist.locator(".igjen").inner_text() == "Frist i desember"
+    assert "Høringsfrist: desember 2026" in side.inner_text('.hoering[data-id="maned"]')
+    titler = _titler(side)
+    # Sorteres som 1. desember: etter 17. november, før høringen uten frist.
+    assert titler.index("Frist bare med måned") == titler.index("Høring om barnehageloven") + 1
+    assert titler[-1] == "Uten frist"
+
+
+def test_maanedsfrist_er_aapen_ut_maaneden(nettleser, server, tmp_path):
+    url = server(_lag_nettsted(tmp_path))
+    side = nettleser.new_page()
+    side.add_init_script("window.HORINGER_I_DAG = '2026-12-20';")
+    side.goto(url + "/index.html")
+    side.wait_for_selector("html[data-klar]")
+    rad = side.locator('.hoering[data-id="maned"]')
+    assert rad.count() == 1
+    assert rad.locator(".igjen").inner_text() == "Frist denne måneden"
+    side.close()
+
+
+def test_temafilter_har_alle_temaer(side):
+    valg = side.locator("#kategori option").all_inner_texts()[1:]
+    temaer = sorted({h["kategori"] for h in HORINGER["horinger"]})
+    assert sorted(valg) == temaer
+    for tema in temaer:
+        side.select_option("#kategori", tema)
+        assert all(t == tema for t in side.locator("#liste .tema").all_inner_texts())
+    side.select_option("#kategori", "")
+
+
+def test_prioritetsfilter_skiller(side):
+    side.uncheck('input[name="prio"][value="1"]')
+    side.uncheck('input[name="prio"][value="2"]')
+    side.check('input[name="prio"][value="3"]')
+    assert _titler(side) == ["Lav prioritet"]

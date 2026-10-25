@@ -49,7 +49,7 @@ def tolk_detalj(html: str, publisert: date | None) -> tuple[date | None, str, st
     tekst = hoved.get_text(" ", strip=True)
     frist = frist_etter_ord(tekst, publisert)
     avsnitt = hoved.find("p")
-    ingress = avsnitt.get_text(" ", strip=True)[:400] if avsnitt else ""
+    ingress = avsnitt.get_text(" ", strip=True) if avsnitt else ""
     fristtekst = (
         f"Høringsfrist: {frist.strftime('%d.%m.%Y')}" if frist else setning_med_frist(tekst)
     )

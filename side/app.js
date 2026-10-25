@@ -211,6 +211,15 @@
   function fristblokk(h) {
     var klasse = fristklasse(h.dager);
     var blokk = el("div", { klasse: "frist " + klasse });
+    if (h.frist && h.frist_maned) {
+      // Frist med bare måned og år (Svein 25.10.2026): vis måned og år, ikke dag.
+      var m = deler(h.frist);
+      blokk.appendChild(el("span", { klasse: "skjult", tekst: "Frist i " + MANEDER[m.maned - 1] + " " + m.ar + ". " }));
+      blokk.appendChild(el("span", { klasse: "dag dag-maned", "aria-hidden": "true", tekst: KORTE_MANEDER[m.maned - 1] }));
+      blokk.appendChild(el("span", { klasse: "maned", "aria-hidden": "true", tekst: String(m.ar) }));
+      blokk.appendChild(el("span", { klasse: "igjen", tekst: (h.dager === 0 ? "Frist denne måneden" : "Frist i " + MANEDER[m.maned - 1]) }));
+      return blokk;
+    }
     if (h.frist) {
       var d = deler(h.frist);
       var arTekst = d.ar !== deler(tilstand.iDag).ar ? " " + d.ar : "";
@@ -405,7 +414,8 @@
   function lagCsv(utvalg) {
     var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet", "Frist slik kilden skriver den", "Lenke"]];
     utvalg.forEach(function (h) {
-      rader.push([h.frist ? norskDato(h.frist) : "", h.dager === null ? "" : h.dager, h.instans,
+      var fristCsv = !h.frist ? "" : h.frist_maned ? MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : norskDato(h.frist);
+      rader.push([fristCsv, h.dager === null || h.frist_maned ? "" : h.dager, h.instans,
         h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, h.lenke]);
     });
     return "﻿" + rader.map(function (r) { return r.map(csvFelt).join(";"); }).join("\r\n") + "\r\n";
@@ -439,6 +449,13 @@
   function medDager(h) {
     h.frist = h.frist ? String(h.frist).slice(0, 10) : null;
     h.dager = h.frist ? dagerMellom(tilstand.iDag, h.frist) : null;
+    if (h.frist_maned && h.dager !== null && h.dager < 0) {
+      // Månedsfrist: åpen ut måneden, selv om den regnes fra den 1.
+      var d = deler(h.frist);
+      var sisteDag = new Date(Date.UTC(d.ar, d.maned, 0)).getUTCDate();
+      var slutt = d.ar + "-" + String(d.maned).padStart(2, "0") + "-" + String(sisteDag).padStart(2, "0");
+      if (dagerMellom(tilstand.iDag, slutt) >= 0) h.dager = 0;
+    }
     return h;
   }
 

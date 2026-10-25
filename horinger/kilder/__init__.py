@@ -7,6 +7,18 @@ from horinger.kilder.base import Kilde
 from horinger.kilder.digdir import Digdir
 from horinger.kilder.dsb import Dsb
 from horinger.kilder.enkle_lister import EnkelListe
+from horinger.kilder.etater import (
+    Arbeidstilsynet,
+    Dmp,
+    EnkeltSide,
+    Landbruksdirektoratet,
+    Mattilsynet,
+    Nasjonalarkivet,
+    Nkom,
+    Politiet,
+    Riksantikvaren,
+    Skatteetaten,
+)
 from horinger.kilder.innlandet_fk import InnlandetFylkeskommune
 from horinger.kilder.jernbanedirektoratet import Jernbanedirektoratet
 from horinger.kilder.miljodirektoratet import Miljodirektoratet
@@ -34,4 +46,15 @@ KILDER: dict[str, type[Kilde]] = {
     "nye_veier": NyeVeier,
     "jernbanedirektoratet": Jernbanedirektoratet,
     "bane_nor": BaneNor,
+    # Sprint 5: prioritet 2 og 3, og etater som bare tas med når det er aktuelt for regionen
+    "nkom": Nkom,
+    "landbruksdirektoratet": Landbruksdirektoratet,
+    "riksantikvaren": Riksantikvaren,
+    "nasjonalarkivet": Nasjonalarkivet,
+    "dmp": Dmp,
+    "mattilsynet": Mattilsynet,
+    "arbeidstilsynet": Arbeidstilsynet,
+    "politiet": Politiet,
+    "skatteetaten": Skatteetaten,
+    "enkeltside": EnkeltSide,
 }

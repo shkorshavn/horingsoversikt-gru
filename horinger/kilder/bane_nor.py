@@ -63,29 +63,41 @@ def tolk_detalj(html: str) -> dict:
         "frist": frist_etter_ord(tekst, publisert),
         "frist_tekst": "",
         "setning": setning_med_frist(tekst),
-        "ingress": ingress[:400],
+        "ingress": ingress,
         "tekst": tekst,
     }
 
 
 class BaneNor(Kilde):
-    """Planvarsler og høringer i Bane NORs prosjekter i området."""
+    """Planvarsler og høringer i Bane NORs prosjekter i området.
+
+    Brukes også for andre etater uten høringsliste (f.eks. Konkurransetilsynet), med
+    `sitemaps` (flere sitemap-adresser), `instans` og `krav: aktuell_for_regionen` i
+    sources.yaml. Uten `krav` brukes geografien, som for Bane NOR.
+    """
 
     def hent(self) -> list[Hoering]:
-        """Leser sitemapet og åpner nye sider med søkeord."""
+        """Leser sitemapene og åpner nye sider med søkeord."""
         sokeord = Sokeord(self.konfig.get("sokeord", []), self.konfig.get("utelat_ord", []))
         geografi = GeografiFilter(self.felles.get("geografi", {}))
-        adresser = tolk_sitemap(
-            self.nett.hent(self.konfig["url"]).text, sokeord, i_dag() - NYHET_MAKS_ALDER
-        )
+        adresser: list[str] = []
+        for sitemap in self.konfig.get("sitemaps") or [self.konfig["url"]]:
+            adresser += tolk_sitemap(
+                self.nett.hent(sitemap).text, sokeord, i_dag() - NYHET_MAKS_ALDER
+            )
         resultat = []
         for adresse in adresser[: int(self.konfig.get("maks_sider", 15))]:
             d = tolk_detalj(self.nett.hent(adresse).text)
-            if d["frist"] is None or not geografi.vurder(d["tekst"]).relevant:
+            if d["frist"] is None:
+                continue
+            if self.konfig.get("krav"):
+                if not self.krav_oppfylt(d["tekst"]):
+                    continue
+            elif not geografi.vurder(d["tekst"]).relevant:
                 continue
             resultat.append(
                 self.lag_hoering(
-                    instans=INSTANS,
+                    instans=self.konfig.get("instans", INSTANS),
                     tittel=d["tittel"],
                     lenke=adresse,
                     frist=d["frist"],

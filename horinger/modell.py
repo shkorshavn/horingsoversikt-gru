@@ -24,6 +24,9 @@ class Hoering:
     lenke: str
     frist: date | None = None
     frist_tekst: str = ""
+    # Frist med bare måned og år («desember 2026»): «2026-12». `frist` er da den 1. i måneden
+    # (Svein 25.10.2026), og høringen arkiveres først når måneden er over.
+    frist_maned: str = ""
     publisert: date | None = None
     ingress: str = ""
     hentet: datetime | None = None

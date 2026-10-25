@@ -248,3 +248,42 @@ def test_prioritet_og_dedup_i_byggingen(mapper):
     assert (h["c"]["prioritet"], h["c"]["prioritet_grunn"]) == (1, "")
     assert (h["d"]["prioritet"], h["d"]["prioritet_grunn"]) == (1, "gjelder kommunene")
     assert (h["e"]["prioritet"], h["e"]["prioritet_grunn"]) == (2, "")
+
+
+def test_maanedsfrist_arkiveres_forst_naar_maaneden_er_over(mapper):
+    kilder, ut = mapper
+    h = {**_h("m", "2026-12-01"), "frist_maned": "2026-12"}
+    _lagre(kilder, "Stortinget", [h], MANDAG)
+    midt_i = datetime(2026, 12, 15, 10, 0, tzinfo=OSLO)
+    bygg(KONFIG, kilder, ut, midt_i)
+    assert _les(ut, "horinger.json")["antall"] == 1
+    etter = datetime(2027, 1, 1, 10, 0, tzinfo=OSLO)
+    bygg(KONFIG, kilder, ut, etter)
+    assert _les(ut, "horinger.json")["antall"] == 0
+    assert _les(ut, "arkiv.json")["horinger"][0]["id"] == "m"
+
+
+def test_kjoretid_i_status(mapper):
+    kilder, ut = mapper
+    lagre_kilde(
+        kilder,
+        {
+            "kilde": "Stortinget",
+            "status": "ok",
+            "hentet": MANDAG.isoformat(),
+            "sekunder": 12.5,
+            "horinger": [],
+        },
+    )
+    lagre_kilde(
+        kilder,
+        {
+            "kilde": "Regjeringen.no",
+            "status": "ok",
+            "hentet": MANDAG.isoformat(),
+            "sekunder": 30.0,
+            "horinger": [],
+        },
+    )
+    bygg(KONFIG, kilder, ut, MANDAG)
+    assert _les(ut, "status.json")["kjoretid_sekunder"] == 42.5

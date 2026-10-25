@@ -29,6 +29,7 @@ from horinger.datoer import (
     tolk_punktumdato,
     tolk_tekstdato,
 )
+from horinger.geografi import GeografiFilter
 from horinger.kilder.base import NYHET_MAKS_ALDER, Kilde
 from horinger.modell import Hoering
 
@@ -369,7 +370,7 @@ class Landbruksdirektoratet(ListeMedDetalj):
 
 
 class Riksantikvaren(ListeMedDetalj):
-    """Riksantikvaren. Fredningssaker bare med geografisk treff (Svein 25.10.2026)."""
+    """Riksantikvaren. Fredningssaker bare når de gjelder Innlandet fylke (Svein 25.10.2026)."""
 
     instans = "Riksantikvaren"
 
@@ -386,10 +387,15 @@ class Riksantikvaren(ListeMedDetalj):
     def godta(self, h):
         tekst = f"{h['tittel']} {h.get('ingress', '')}"
         if er_fredningssak(tekst):
-            # Enkeltsteder: bare i regionen. Saker som gjelder fylkeskommunene eller kommunene
-            # (f.eks. overføring av forvaltningsansvar) tas med uansett.
-            return self.aktuell_for_regionen(tekst)
+            # Enkeltsteder: bare i Innlandet fylke (Svein 25.10.2026, sprint 5 v2). Saker som
+            # gjelder kommunene eller fylkeskommunene tas med uansett.
+            return self.aktuell_for_regionen(tekst) or self.i_innlandet(tekst)
         return True
+
+    def i_innlandet(self, tekst: str) -> bool:
+        """Om teksten nevner en kommune i Innlandet fylke (`geografi.innlandet_kommuner`)."""
+        kommuner = self.felles.get("geografi", {}).get("innlandet_kommuner", [])
+        return GeografiFilter({"kommuner": kommuner}).vurder(tekst).relevant
 
 
 class Nasjonalarkivet(ListeMedDetalj):

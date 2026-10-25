@@ -35,19 +35,15 @@
             <input id="sok" name="q" type="search" autocomplete="off" placeholder="F.eks. barnehage eller rv. 4">
           </div>
 
-          <div class="felt">
-            <label for="kategori">Tema</label>
-            <select id="kategori" name="kategori">
-              <option value="">Alle temaer</option>
-            </select>
-          </div>
+          <fieldset class="felt flervalg" id="kategori">
+            <legend>Tema</legend>
+            <p class="hint">Ingen avkrysset = alle</p>
+          </fieldset>
 
-          <div class="felt">
-            <label for="niva">Avsender</label>
-            <select id="niva" name="niva">
-              <option value="">Alle avsendere</option>
-            </select>
-          </div>
+          <fieldset class="felt flervalg" id="niva">
+            <legend>Avsender</legend>
+            <p class="hint">Ingen avkrysset = alle</p>
+          </fieldset>
 
           <fieldset class="felt">
             <legend>Foreslått prioritet</legend>

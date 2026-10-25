@@ -75,6 +75,14 @@ felles:
       [Raufoss, Lena, Skreia, Kapp, Bøverbru, Eina, Reinsvoll, Hunndalen, Biri, Snertingdal,
        Redalen, Dokka, Odnes, Torpa, Brandbu, Jaren, Harestua, Tretten, Follebu, Fåberg,
        Moelv, Brumunddal, Ottestad, Fagernes, Bagn, Beitostølen, Mjøsbrua]
+    # Alle kommunene i Innlandet fylke (2024). Brukes der Svein vil ha med hele fylket, ikke
+    # bare regionen og nabokommunene: Riksantikvarens fredningssaker (Svein 25.10.2026).
+    innlandet_kommuner:
+      [Alvdal, Dovre, Eidskog, Elverum, Engerdal, Etnedal, Folldal, Gausdal, Gjøvik, Gran,
+       Grue, Hamar, Kongsvinger, Lesja, Lillehammer, Lom, Løten, Nord-Aurdal, Nord-Fron,
+       Nord-Odal, Nordre Land, Os, Rendalen, Ringebu, Ringsaker, Sel, Skjåk, Stange,
+       Stor-Elvdal, Sør-Aurdal, Sør-Fron, Sør-Odal, Søndre Land, Tolga, Trysil, Tynset, Vang,
+       Vestre Slidre, Vestre Toten, Våler, Vågå, Østre Toten, Øyer, Øystre Slidre, Åmot, Åsnes]
     # E6 tas bare med sammen med en av disse kommunene.
     e6_kommuner:
       - Eidsvoll

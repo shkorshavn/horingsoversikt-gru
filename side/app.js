@@ -91,18 +91,31 @@
     }).map(function (x) { return x.value; });
     return {
       q: f.q.value.trim(),
-      kategori: f.kategori.value,
-      niva: f.niva.value,
+      kategori: avkrysset("kategori"),
+      niva: avkrysset("niva"),
       prio: prio,
       utlopte: f.utlopte.checked
     };
   }
 
+  /** Verdiene som er krysset av i en gruppe avkrysningsbokser (tom liste = alle). */
+  function avkrysset(navn) {
+    return Array.prototype.filter.call(skjema().querySelectorAll('input[name="' + navn + '"]'), function (x) {
+      return x.checked;
+    }).map(function (x) { return x.value; });
+  }
+
+  function kryssAv(navn, verdier) {
+    Array.prototype.forEach.call(skjema().querySelectorAll('input[name="' + navn + '"]'), function (x) {
+      x.checked = (verdier || []).indexOf(x.value) !== -1;
+    });
+  }
+
   function settFiltre(v) {
     var f = skjema();
     f.q.value = v.q || "";
-    f.kategori.value = v.kategori || "";
-    f.niva.value = v.niva || "";
+    kryssAv("kategori", v.kategori);
+    kryssAv("niva", v.niva);
     Array.prototype.forEach.call(f.querySelectorAll('input[name="prio"]'), function (x) {
       x.checked = v.prio.indexOf(x.value) !== -1;
     });
@@ -114,8 +127,8 @@
     var s = new URLSearchParams(window.location.search);
     return {
       q: s.get("q") || "",
-      kategori: s.get("kategori") || "",
-      niva: s.get("niva") || "",
+      kategori: s.getAll("kategori").filter(Boolean),
+      niva: s.getAll("niva").filter(Boolean),
       prio: s.has("prio") ? s.get("prio").split(",").filter(Boolean) : STANDARD_PRIO.slice(),
       utlopte: s.get("utlopte") === "1",
       sort: SORTERER[s.get("sort")] ? s.get("sort") : "frist"
@@ -125,8 +138,8 @@
   function skrivAdresse(v) {
     var s = new URLSearchParams();
     if (v.q) s.set("q", v.q);
-    if (v.kategori) s.set("kategori", v.kategori);
-    if (v.niva) s.set("niva", v.niva);
+    v.kategori.forEach(function (k) { s.append("kategori", k); });
+    v.niva.forEach(function (n) { s.append("niva", n); });
     if (v.prio.join(",") !== STANDARD_PRIO.join(",")) s.set("prio", v.prio.join(","));
     if (v.utlopte) s.set("utlopte", "1");
     if (lesSortering() !== "frist") s.set("sort", lesSortering());
@@ -137,8 +150,8 @@
   function normaliser(t) { return String(t || "").toLocaleLowerCase("nb"); }
 
   function passer(h, v) {
-    if (v.kategori && h.kategori !== v.kategori) return false;
-    if (v.niva && h.niva !== v.niva) return false;
+    if (v.kategori.length && v.kategori.indexOf(h.kategori) === -1) return false;
+    if (v.niva.length && v.niva.indexOf(h.niva) === -1) return false;
     if (v.prio.indexOf(String(h.prioritet)) === -1) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
@@ -302,8 +315,8 @@
   function utskriftInfo(v, antall) {
     var deler = [antall === 1 ? "1 høring" : antall + " høringer"];
     if (v.q) deler.push("søk «" + v.q + "»");
-    if (v.kategori) deler.push("tema " + v.kategori);
-    if (v.niva) deler.push("avsender " + v.niva);
+    if (v.kategori.length) deler.push("tema " + v.kategori.join(" og "));
+    if (v.niva.length) deler.push("avsender " + v.niva.join(" og "));
     if (v.prio.join(",") !== "1,2,3") {
       deler.push("foreslått prioritet " + v.prio.map(function (p) { return PRIO_NAVN[p]; }).join(" og "));
     }
@@ -314,9 +327,15 @@
 
   function erApen(h) { return h.dager === null || h.dager >= 0; }
 
+  /** Lager én avkrysningsboks per verdi i gruppen (Tema eller Avsender). */
   function fyllValg(id, verdier) {
-    var s = document.getElementById(id);
-    verdier.forEach(function (v) { s.appendChild(el("option", { value: v, tekst: v })); });
+    var gruppe = document.getElementById(id);
+    verdier.forEach(function (v) {
+      gruppe.appendChild(el("label", { klasse: "valg" }, [
+        el("input", { type: "checkbox", name: id, value: v }),
+        document.createTextNode(" " + v)
+      ]));
+    });
   }
 
   function unike(felt) {
@@ -484,7 +503,7 @@
   }
 
   function nullstill() {
-    settFiltre({ q: "", kategori: "", niva: "", prio: STANDARD_PRIO.slice(), utlopte: false, sort: "frist" });
+    settFiltre({ q: "", kategori: [], niva: [], prio: STANDARD_PRIO.slice(), utlopte: false, sort: "frist" });
     tegn();
     document.getElementById("sok").focus();
   }

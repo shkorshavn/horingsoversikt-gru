@@ -288,14 +288,45 @@ def test_prioritet_3(side):
     assert _titler(side) == ["Lav prioritet"]
 
 
+def _kryss(side, gruppe, verdi):
+    side.check(f'#{gruppe} input[value="{verdi}"]')
+
+
 def test_kategori(side):
-    side.select_option("#kategori", "Oppvekst")
+    _kryss(side, "kategori", "Oppvekst")
     assert _titler(side) == ["Høring om barnehageloven"]
 
 
 def test_niva(side):
-    side.select_option("#niva", "Fylkeskommunen")
+    _kryss(side, "niva", "Fylkeskommunen")
     assert _titler(side) == ["Regional plan"]
+
+
+def test_flere_temaer_og_avsendere(side):
+    """Svein 25.10.2026: Tema og Avsender skal kunne ha ett eller flere valg."""
+    _kryss(side, "kategori", "Oppvekst")
+    _kryss(side, "kategori", "Regionale ledd")
+    assert sorted(_titler(side)) == ["Høring om barnehageloven", "Regional plan"]
+    assert "kategori=Oppvekst&kategori=Regionale+ledd" in side.url
+    side.click("#nullstill")
+    _kryss(side, "niva", "Fylkeskommunen")
+    _kryss(side, "niva", "Stortinget")
+    assert sorted(_titler(side)) == ["Frist i dag", "Regional plan"]
+    info = side.inner_text("#utskrift-info")
+    assert (
+        "avsender Stortinget og Fylkeskommunen" in info
+        or "avsender Fylkeskommunen og Stortinget" in info
+    )
+
+
+def test_flere_valg_leses_fra_adressen(nettleser, server, tmp_path):
+    url = server(_lag_nettsted(tmp_path))
+    sti = "/index.html?kategori=Oppvekst&kategori=Regionale+ledd"
+    side = _apne(nettleser, url, sti=sti)
+    assert side.is_checked('#kategori input[value="Oppvekst"]')
+    assert side.is_checked('#kategori input[value="Regionale ledd"]')
+    assert len(_titler(side)) == 2
+    side.close()
 
 
 def test_fritekst_flere_ord_og_store_bokstaver(side):
@@ -317,7 +348,7 @@ def test_tom_visning_og_nullstill(side):
 
 def test_filtre_skrives_til_adressen(side):
     side.fill("#sok", "plan")
-    side.select_option("#niva", "Fylkeskommunen")
+    _kryss(side, "niva", "Fylkeskommunen")
     side.check('input[name="prio"][value="3"]')
     assert side.url.endswith("?q=plan&niva=Fylkeskommunen&prio=1%2C2%2C3")
 
@@ -696,13 +727,15 @@ def test_maanedsfrist_er_aapen_ut_maaneden(nettleser, server, tmp_path):
 
 
 def test_temafilter_har_alle_temaer(side):
-    valg = side.locator("#kategori option").all_inner_texts()[1:]
+    valg = side.locator('#kategori input[name="kategori"]').evaluate_all(
+        "els => els.map(e => e.value)"
+    )
     temaer = sorted({h["kategori"] for h in HORINGER["horinger"]})
     assert sorted(valg) == temaer
     for tema in temaer:
-        side.select_option("#kategori", tema)
+        _kryss(side, "kategori", tema)
         assert all(t == tema for t in side.locator("#liste .tema").all_inner_texts())
-    side.select_option("#kategori", "")
+        side.uncheck(f'#kategori input[value="{tema}"]')
 
 
 def test_prioritetsfilter_skiller(side):

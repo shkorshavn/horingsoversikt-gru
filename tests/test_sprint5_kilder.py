@@ -78,6 +78,14 @@ def test_riksantikvaren_fredning_bare_i_regionen():
         }
     )
     assert ra.godta({"tittel": "Ny forskrift om kulturminnesøk", "ingress": ""})
+    # Sprint 5 v2: hele Innlandet fylke, ikke bare regionen.
+    assert ra.godta(
+        {"tittel": "Forslag om freding av Kvikne kirke", "ingress": "i Nord-Fron kommune"}
+    )
+    assert ra.godta({"tittel": "Oppstart av fredning av Trysil-gården", "ingress": ""})
+    assert not ra.godta(
+        {"tittel": "Forslag om freding av sjøhuset Slinningsbua", "ingress": "Ålesund"}
+    )
 
 
 def test_nasjonalarkivet():

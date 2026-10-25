@@ -1,0 +1,10 @@
+{
+  "kilde": "Mattilsynet",
+  "status": "feil",
+  "hentet": "2026-10-25T18:40:01+01:00",
+  "antall": 0,
+  "feil": "SimulertFeil: Simulert feil for Mattilsynet (HORINGER_SIMULER_FEIL)",
+  "sekunder": 0.0,
+  "horinger": [],
+  "sist_ok": null
+}

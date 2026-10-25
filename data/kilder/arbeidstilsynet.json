@@ -1,0 +1,26 @@
+{
+  "kilde": "Arbeidstilsynet",
+  "status": "ok",
+  "hentet": "2026-10-25T18:40:01+01:00",
+  "antall": 1,
+  "sekunder": 2.4,
+  "horinger": [
+    {
+      "kilde": "Arbeidstilsynet",
+      "kategori": "Helse, omsorg og velferd",
+      "prioritet": 2,
+      "instans": "Arbeidstilsynet",
+      "tittel": "Høring - Fjerne kravet til røntgenundersøkelse ved bergarbeid",
+      "lenke": "https://www.arbeidstilsynet.no/regelverk/horinger/horing/?hearingId=3884",
+      "frist": "2027-01-31",
+      "frist_tekst": "Høringsfrist 31. januar 2027",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "",
+      "hentet": "2026-10-25T18:40:01+01:00",
+      "niva": "Direktorater og etater",
+      "id": "16001cccdbe5"
+    }
+  ],
+  "sist_ok": "2026-10-25T18:40:01+01:00"
+}

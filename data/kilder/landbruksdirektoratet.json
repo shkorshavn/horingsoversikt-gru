@@ -1,0 +1,26 @@
+{
+  "kilde": "Landbruksdirektoratet",
+  "status": "ok",
+  "hentet": "2026-10-25T18:39:36+01:00",
+  "antall": 1,
+  "sekunder": 2.6,
+  "horinger": [
+    {
+      "kilde": "Landbruksdirektoratet",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 2,
+      "instans": "Landbruksdirektoratet",
+      "tittel": "Høring - Forslag til omregningsfaktor for lettmelasserte roesnitter i forskrift om omregningsfaktorer for råvarer",
+      "lenke": "https://www.landbruksdirektoratet.no/nb/om-direktoratet/horinger/horing-forslag-til-omregningsfaktor-for-lettmelasserte-roesnitter-i-forskrift-om-omregningsfaktorer-for-ravarer",
+      "frist": "2026-10-16",
+      "frist_tekst": "Høringsfrist: fredag 16. oktober 2026",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "",
+      "hentet": "2026-10-25T18:39:36+01:00",
+      "niva": "Direktorater og etater",
+      "id": "11c5000cd6dc"
+    }
+  ],
+  "sist_ok": "2026-10-25T18:39:36+01:00"
+}

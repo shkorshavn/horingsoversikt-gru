@@ -1,0 +1,26 @@
+{
+  "kilde": "Politidirektoratet",
+  "status": "ok",
+  "hentet": "2026-10-25T18:40:12+01:00",
+  "antall": 1,
+  "sekunder": 2.3,
+  "horinger": [
+    {
+      "kilde": "Politidirektoratet",
+      "kategori": "Styring, digitalisering, juss og eiendom",
+      "prioritet": 2,
+      "instans": "Politidirektoratet",
+      "tittel": "Høring – Nasjonal retningslinje for utgivelse av navn",
+      "lenke": "https://api.siste-nytt.politiet.no/nyhetspublisering/public/filer/dokument/8d972349-39a0-41a8-b94d-d739f1bc80f6",
+      "frist": "2026-09-11",
+      "frist_tekst": "høring til 11. september 2026",
+      "frist_maned": "",
+      "publisert": "2026-06-12",
+      "ingress": "Offentlig høring - Nasjonal retningslinje for utgivelse av navn på omkomne og drepte til offentligheten. Retningslinjen er på høring til 11. september 2026.",
+      "hentet": "2026-10-25T18:40:12+01:00",
+      "niva": "Direktorater og etater",
+      "id": "562c4a3f0d6d"
+    }
+  ],
+  "sist_ok": "2026-10-25T18:40:12+01:00"
+}

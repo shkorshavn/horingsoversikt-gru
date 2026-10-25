@@ -1,9 +1,9 @@
 {
   "kilde": "Helsedirektoratet",
   "status": "ok",
-  "hentet": "2026-10-25T17:39:21+01:00",
+  "hentet": "2026-10-25T18:39:49+01:00",
   "antall": 2,
-  "sekunder": 2.0,
+  "sekunder": 2.2,
   "horinger": [
     {
       "kilde": "Helsedirektoratet",
@@ -14,9 +14,10 @@
       "lenke": "https://www.helsedirektoratet.no/horinger/retningslinje-for-mat-maltider-og-ernaering-i-helse-og-omsorgstjenesten",
       "frist": "2026-12-03",
       "frist_tekst": "Høringsfrist: 03.12.2026",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:21+01:00",
+      "hentet": "2026-10-25T18:39:49+01:00",
       "niva": "Direktorater og etater",
       "id": "f84de76c0415"
     },
@@ -29,12 +30,13 @@
       "lenke": "https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde",
       "frist": "2027-02-01",
       "frist_tekst": "Høringsfrist: 01.02.2027",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:21+01:00",
+      "hentet": "2026-10-25T18:39:49+01:00",
       "niva": "Direktorater og etater",
       "id": "a617b9031e22"
     }
   ],
-  "sist_ok": "2026-10-25T17:39:21+01:00"
+  "sist_ok": "2026-10-25T18:39:49+01:00"
 }

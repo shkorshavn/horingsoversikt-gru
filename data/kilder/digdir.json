@@ -1,7 +1,7 @@
 {
   "kilde": "Digdir",
   "status": "ok",
-  "hentet": "2026-10-25T17:39:23+01:00",
+  "hentet": "2026-10-25T18:40:04+01:00",
   "antall": 6,
   "sekunder": 6.3,
   "horinger": [
@@ -14,9 +14,10 @@
       "lenke": "https://www.digdir.no/felleslosninger/forslag-til-revidert-standard-beskrivelse-av-datasett-datatjenester-og-datakataloger-dcat-ap-no/1592",
       "frist": "2020-09-01",
       "frist_tekst": "Høyringsfrist 01.09.2020",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "47e36c3c88b4"
     },
@@ -29,9 +30,10 @@
       "lenke": "https://www.digdir.no/felleslosninger/revidert-forvaltningsstandard-omgrepsharmonisering-og-omgrepskoordinering-hoyring/1503",
       "frist": "2019-10-29",
       "frist_tekst": "Høyringsfrist 29.10.2019.",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c70229c2db19"
     },
@@ -44,9 +46,10 @@
       "lenke": "https://www.digdir.no/felleslosninger/anbefalt-standard-transportsikring-av-epost-hoyring/1504",
       "frist": "2018-11-25",
       "frist_tekst": "Høringsfrist 25.11.2018",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "d344fa00436f"
     },
@@ -59,9 +62,10 @@
       "lenke": "https://www.digdir.no/felleslosninger/forvaltningsstandarder-begrepsbeskrivelser-hoyring/1507",
       "frist": "2018-10-19",
       "frist_tekst": "Høringsfrist 19.10.2018",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c21ade734d53"
     },
@@ -74,9 +78,10 @@
       "lenke": "https://www.digdir.no/felleslosninger/standardar-sikring-av-epost-kommunikasjon-med-nettstader-og-namneoppslag-hoyring/1506",
       "frist": "2018-09-13",
       "frist_tekst": "Høringsfrist 13.09.2018",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "08c8f2ba6dd9"
     },
@@ -89,12 +94,13 @@
       "lenke": "https://www.digdir.no/felleslosninger/revidert-standard-begrepsbeskrivelser-hoyring/1509",
       "frist": "2017-11-03",
       "frist_tekst": "Høringsfrist 03.11.2017.",
+      "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T17:39:23+01:00",
+      "hentet": "2026-10-25T18:40:04+01:00",
       "niva": "Direktorater og etater",
       "id": "c5924ccc1c62"
     }
   ],
-  "sist_ok": "2026-10-25T17:39:23+01:00"
+  "sist_ok": "2026-10-25T18:40:04+01:00"
 }

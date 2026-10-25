@@ -1,0 +1,26 @@
+{
+  "kilde": "Riksantikvaren",
+  "status": "ok",
+  "hentet": "2026-10-25T18:39:40+01:00",
+  "antall": 1,
+  "sekunder": 2.5,
+  "horinger": [
+    {
+      "kilde": "Riksantikvaren",
+      "kategori": "Oppvekst, utdanning, kultur og integrering",
+      "prioritet": 2,
+      "instans": "Riksantikvaren",
+      "tittel": "Høring: Overføring av forvaltningsansvar for fredet eiendom knyttet til Forsvarets landsverneplan, fra Riksantikvaren til fylkeskommunen",
+      "lenke": "https://riksantikvaren.no/horing-overforing-av-forvaltningsansvar-for-fredet-eiendom-knyttet-til-forsvarets-landsverneplan-fra-riksantikvaren-til-fylkeskommunen/",
+      "frist": "2026-02-16",
+      "frist_tekst": "Berørte parter gis en høringsfrist på 6 uker for å komme med innspill",
+      "frist_maned": "",
+      "publisert": "2026-01-12",
+      "ingress": "Berørte parter gis en høringsfrist på 6 uker for å komme med innspill. Høringsfrist er 16. februar 2026.",
+      "hentet": "2026-10-25T18:39:40+01:00",
+      "niva": "Direktorater og etater",
+      "id": "75cb1a1bde8f"
+    }
+  ],
+  "sist_ok": "2026-10-25T18:39:40+01:00"
+}

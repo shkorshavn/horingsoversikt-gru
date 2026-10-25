@@ -1,0 +1,26 @@
+{
+  "kilde": "Nkom",
+  "status": "ok",
+  "hentet": "2026-10-25T18:37:47+01:00",
+  "antall": 1,
+  "sekunder": 3.5,
+  "horinger": [
+    {
+      "kilde": "Nkom",
+      "kategori": "Transport, samferdsel og infrastruktur",
+      "prioritet": 2,
+      "instans": "Nasjonal kommunikasjonsmyndighet (Nkom)",
+      "tittel": "Høring av utlysningsvilkår og tildelingsregler for lokale FM-sendernett",
+      "lenke": "https://nkom.no/hoeringer/horing-av-utlysningsvilkar-og-tildelingsregler-for-lokale-fm-sendernett",
+      "frist": "2026-11-13",
+      "frist_tekst": "Frist: 13.11.2026",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "Nasjonal kommunikasjonsmyndighet (Nkom) og Medietilsynet sender på høring forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett for perioden 2027 til 2031.",
+      "hentet": "2026-10-25T18:37:47+01:00",
+      "niva": "Direktorater og etater",
+      "id": "2d365b86661f"
+    }
+  ],
+  "sist_ok": "2026-10-25T18:37:47+01:00"
+}

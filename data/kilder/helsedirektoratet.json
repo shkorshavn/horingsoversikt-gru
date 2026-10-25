@@ -1,9 +1,9 @@
 {
   "kilde": "Helsedirektoratet",
   "status": "ok",
-  "hentet": "2026-10-25T18:39:49+01:00",
+  "hentet": "2026-10-25T18:44:46+01:00",
   "antall": 2,
-  "sekunder": 2.2,
+  "sekunder": 1.7,
   "horinger": [
     {
       "kilde": "Helsedirektoratet",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T18:39:49+01:00",
+      "hentet": "2026-10-25T18:44:46+01:00",
       "niva": "Direktorater og etater",
       "id": "f84de76c0415"
     },
@@ -33,10 +33,10 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T18:39:49+01:00",
+      "hentet": "2026-10-25T18:44:46+01:00",
       "niva": "Direktorater og etater",
       "id": "a617b9031e22"
     }
   ],
-  "sist_ok": "2026-10-25T18:39:49+01:00"
+  "sist_ok": "2026-10-25T18:44:46+01:00"
 }

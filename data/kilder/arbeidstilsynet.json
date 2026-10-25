@@ -1,9 +1,9 @@
 {
   "kilde": "Arbeidstilsynet",
   "status": "ok",
-  "hentet": "2026-10-25T18:40:01+01:00",
+  "hentet": "2026-10-25T18:45:01+01:00",
   "antall": 1,
-  "sekunder": 2.4,
+  "sekunder": 2.1,
   "horinger": [
     {
       "kilde": "Arbeidstilsynet",
@@ -17,10 +17,10 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-25T18:40:01+01:00",
+      "hentet": "2026-10-25T18:45:01+01:00",
       "niva": "Direktorater og etater",
       "id": "16001cccdbe5"
     }
   ],
-  "sist_ok": "2026-10-25T18:40:01+01:00"
+  "sist_ok": "2026-10-25T18:45:01+01:00"
 }

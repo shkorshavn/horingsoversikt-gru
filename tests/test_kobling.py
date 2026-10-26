@@ -191,6 +191,7 @@ def test_feil_i_postlista_beholder_treffene(tmp_path):
     _koble(tmp_path, [_jp("2026/85652", "2026-10-20")], [dict(tann)])
     _, status = _koble(tmp_path, [], [tann], status="feil")
     assert status[0]["status"] == "feil"
+    assert status[0]["antall"] == 1  # de beholdte journalpostene
     assert tann["postliste"][0]["niva"] == SIKKER  # forrige journalposter er beholdt
 
 

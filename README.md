@@ -24,6 +24,7 @@ https://shkorshavn.github.io/horingsoversikt-gru/, merket «Ny» og arkiv for ut
 Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per departement.
 Sprint 5: etater med prioritet 2 og 3, frist med bare måned og år, og måling av kjøretid.
 Sprint 6: høringsparter, regionflagg («Regionen er høringspart») og tester ved hver push.
+Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og høringsbrev uten treff.
 
 ## Etatens side eller regjeringen.no
 
@@ -98,6 +99,30 @@ Innlandet, Gjøvik» eller en postadresse i Lillehammer flagg.
 «Alle kommuner, Departementer og direktorater (17), Organisasjoner (12), Andre (17)».
 Kategorier og flagg beregnes ved byggingen, så endringer i ordlistene slår inn uten ny henting.
 
+## Gjøvik kommunes postliste
+
+Den ukentlige oppdateringen sjekker også Gjøvik kommunes postliste (`horinger/postliste.py`).
+Den bruker det samme endepunktet som postlistesiden selv
+(`/api/presentation/v2/nye-innsyn/overview`). Postlistesiden hentes først, fordi endepunktet
+krever informasjonskapslene derfra.
+
+- **Utvalg:** inngående dokumenter de siste 14 dagene med et søkeord i tittelen
+  (`felles.postliste.sokeord`). Titler som begynner med f.eks. «Høringssvar», «Høringsuttalelse»
+  eller «Innspill», er svar til kommunen og tas ikke med (`utelat_ord`).
+- **Personvern:** bare treff lagres. Avsender lagres bare når navnet ser ut som en virksomhet
+  (`virksomhet_ord`). Ellers står det «Avsender ikke vist».
+- **Kobling** (`horinger/kobling.py`): tittellikhet med rapidfuzz, avsender (forkortelser i
+  `avsender_alias`, avkortede navn håndteres) og referansenumre. Poengsum 85 eller mer gir merket
+  «Mottatt av Gjøvik kommune». 70–85 gir «Mulig treff». Tersklene er begrunnet i
+  sprintrapport 7.
+- **Lagring:** `data/postliste_treff.json`. Et merke blir stående etter at journalposten har
+  falt ut av 14-dagersvinduet. Høringsbrev uten treff vises i 60 dager i seksjonen
+  «Høringsbrev i postlista uten treff i oversikten».
+- **Feil:** feiler postlista, fullføres resten. Forrige treff beholdes, og statusoversikten
+  viser feilen.
+- **Flere kommuner:** legg til en oppføring under `postlister:` i `sources.yaml`, med eget
+  `dokumenttype_inngaaende` fra kommunens postliste (ACOS «nye-innsyn»).
+
 ## Slik oppdateres oversikten
 
 ```
@@ -156,6 +181,12 @@ kategoriene for høringspartene, og «Vis alle høringsparter» folder ut hele l
 «Bare høringer der regionen er høringspart» viser bare høringer med flagg (`?regionpart=1`).
 Søket leter også i høringspartene. CSV og utskrift tar med flagg og kategorier, men ikke hele
 listen.
+
+Har Gjøvik kommune mottatt høringen, står «Mottatt av Gjøvik kommune 20. oktober 2026» med lenke
+til journalposten (stiplet «Mulig treff …» når koblingen er usikker). Filteret «Bare høringer
+mottatt av Gjøvik kommune» (`?mottatt=1`) viser bare sikre treff. Under listen står
+høringsbrevene i postlista som ikke er koblet til noen høring, og statusoversikten viser når
+postlista sist ble sjekket.
 
 Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
 eller tema. Valget lagres i adressen (`?sort=avsender`). Knappen «Skriv ut» skriver ut samme

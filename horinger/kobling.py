@@ -173,9 +173,11 @@ def koble_postlister(
                 **linje,
                 **{
                     k: lagret.get(k)
-                    for k in ("status", "hentet", "sist_ok", "antall", "sekunder", "feil")
+                    for k in ("status", "hentet", "sist_ok", "sekunder", "feil")
                     if lagret.get(k) is not None
                 },
+                # Ved feil beholdes forrige journalposter, og antallet viser dem.
+                "antall": len(lagret.get("journalposter", [])),
             }
         )
         for j in lagret.get("journalposter", []):

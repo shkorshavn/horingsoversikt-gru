@@ -112,3 +112,12 @@ Tillegg fra deg: venstre og høyre side ruller hver for seg.
 4. **API-nøkkel:** Du lager nøkkelen selv i Anthropic Console og legger den inn som GitHub Secret
    `ANTHROPIC_API_KEY`. Jeg skriver en trinnvis veiledning i README. Forslag: sett også en lav
    månedlig brukgrense, f.eks. 10 dollar. Er det greit?
+
+## Sveins svar 27.10.2026 kl. 00.13
+1. **Modell:** OK, `claude-sonnet-5-5`.
+2. **Grunnlag:** Ja, høringsbrevet fra detaljsiden brukes når vi har det.
+3. **Merking:** Ja, «KI-sammendrag», med ingressen tilgjengelig ved klikk.
+4. **API-nøkkel og brukgrense:** OK. Tillegg: «oppdatering trenger kun gå en gang pr uke».
+   Sammendragene lages derfor bare i den ukentlige oppdateringen. Det er publiseringen som
+   startes av «Ukentlig oppdatering» og «Regjeringen.no (GRUs PC)». Når publiseringen startes av
+   en kodeendring (push), lages ingen nye sammendrag. Da brukes de som er lagret.

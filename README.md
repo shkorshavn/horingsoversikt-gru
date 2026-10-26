@@ -25,6 +25,7 @@ Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per
 Sprint 5: etater med prioritet 2 og 3, frist med bare måned og år, og måling av kjøretid.
 Sprint 6: høringsparter, regionflagg («Regionen er høringspart») og tester ved hver push.
 Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og høringsbrev uten treff.
+Sprint 8: KI-sammendrag, delt visning (filtrene og listen ruller hver for seg) og ferdigstilling.
 
 ## Etatens side eller regjeringen.no
 
@@ -98,6 +99,38 @@ Innlandet, Gjøvik» eller en postadresse i Lillehammer flagg.
 **Kategorier:** partene telles i kategoriene i `felles.horingsparter.kategorier`, f.eks.
 «Alle kommuner, Departementer og direktorater (17), Organisasjoner (12), Andre (17)».
 Kategorier og flagg beregnes ved byggingen, så endringer i ordlistene slår inn uten ny henting.
+
+## KI-sammendrag
+
+Hver høring kan få et sammendrag på 1–2 setninger i klarspråk, laget med Anthropic API
+(`horinger/sammendrag.py`, modell i `felles.sammendrag.modell`, nå `claude-sonnet-5-5`).
+
+- **Grunnlag:** avsender, tittel, ingress og teksten fra høringssiden når den er lest
+  (`detaljtekst`, høyst 6 000 tegn). Detaljteksten publiseres ikke.
+- **Instruks:** bare opplysninger fra teksten, ingen frist og ingen vurdering. Er teksten for
+  tynn, svarer modellen «MANGLER», og ingressen brukes.
+- **Buffer:** `data/sammendrag.json`. Hver høring oppsummeres bare én gang, og på nytt bare hvis
+  grunnlaget endres.
+- **Når:** bare når publiseringen startes av den ukentlige oppdateringen eller PC-jobben for
+  regjeringen.no, ikke ved kodeendringer.
+- **På siden:** sammendraget vises merket «KI-sammendrag», og ingressen fra kilden ligger bak
+  «Vis ingressen fra kilden». CSV har begge.
+- **Uten nøkkel**, eller hvis API-et feiler, vises ingressen, og resten av oppdateringen går som
+  normalt.
+
+### Slik setter du API-nøkkelen
+
+1. Gå til https://console.anthropic.com og logg inn med GRUs konto.
+2. Under **Billing**: legg inn betaling, og sett en månedlig brukgrense (f.eks. 10 dollar).
+   Forventet forbruk er under 1 dollar første gang og noen få kroner i uka etter det.
+3. Under **API keys**: klikk **Create key**, gi den navnet `horingsoversikt-gru`, og kopier
+   nøkkelen (begynner med `sk-ant-`). Den vises bare én gang.
+4. I GitHub: repoet → **Settings** → **Secrets and variables** → **Actions** →
+   **New repository secret**. Navn: `ANTHROPIC_API_KEY`. Lim inn nøkkelen og lagre.
+5. Nøkkelen skal aldri stå i koden, i `sources.yaml` eller i chatten. Lekker den, sletter du den
+   i Anthropic Console og lager en ny.
+6. Neste ukentlige oppdatering lager sammendragene. Vil du ikke vente: Actions → **Ukentlig
+   oppdatering** → **Run workflow**.
 
 ## Gjøvik kommunes postliste
 

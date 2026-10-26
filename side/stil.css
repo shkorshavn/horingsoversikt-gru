@@ -309,7 +309,8 @@ thead th { background: var(--turkis-300); }
   .regionflagg { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
   .instans { order: 1; }
   .parter-blokk, .parter-kort { order: 2; margin: 0; font-size: 0.85rem; }
-  .detaljer { order: 3; flex-basis: 100%; }
+  .detaljer { order: 3; }
+  .innhold:has(.parter-kort, .regionflagg) .detaljer { flex-basis: 100%; }
   .parter { display: none; }
   .ny-merke { font-size: 0.75rem; }
   a { text-decoration: none; }

@@ -1,6 +1,6 @@
 {
-  "generert": "2026-10-26T16:50:29+01:00",
-  "antall": 68,
+  "generert": "2026-10-26T21:13:16+01:00",
+  "antall": 69,
   "horinger": [
     {
       "kilde": "Miljødirektoratet",
@@ -281,6 +281,32 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
+      "ny": false,
+      "utlopt": "2026-10-20"
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 2,
+      "instans": "Landbruks- og matdepartementet",
+      "tittel": "Høringsbrev – Forslag til endring i forskrift om tilskot til avløysing ved sjukdom og fødsel mv. - Oppfølging av jordbruksoppgjøret 2026 mm.",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-endring-i-forskrift-om-tilskot-til-avloysing-ved-sjukdom-og-fodsel-mv.-oppfolging-av-jordbruksoppgjoret-2026-mm/id3180110/",
+      "frist": "2026-10-20",
+      "frist_tekst": "Høringsfrist: 20.10.2026",
+      "frist_maned": "",
+      "publisert": "2026-10-26",
+      "ingress": "Landbruks- og matdepartementet sender med dette på forslag til endringer i forskrift om tilskudd til avløsning ved sykdom og fødsel mv. på høring. Forslagene gjelder den regeltekniske oppfølgingen av flere av avtalepunktene fra jordbruksoppgjøret",
+      "hentet": "2026-10-26T21:11:27+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "id": "4b397bf9949c",
+      "partkategorier": {},
+      "regionflagg": [],
+      "prioritet_grunn": "",
+      "forst_sett": "2026-10-26",
       "ny": false,
       "utlopt": "2026-10-20"
     },

@@ -1,0 +1,40 @@
+# Utforsking fra GRUs PC: henter rå sider fra nettsteder som avviser GitHub (regjeringen.no),
+# med samme høflighetsregler som innhentingen (robots.txt, pause, User-Agent). Resultatet legges
+# på grenen `utforsk-pc`. Startes bare manuelt, og brukes når nye kilder eller felt skal bygges.
+name: Utforsk fra GRUs PC
+
+on:
+  workflow_dispatch:
+    inputs:
+      adresser:
+        description: "Adresser som skal hentes (mellomrom mellom)"
+        type: string
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  hent:
+    runs-on: [self-hosted, gru-pc]
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: cmd
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+
+      - name: Installer avhengigheter
+        run: python -m pip install --user --disable-pip-version-check -r requirements-kjoring.txt
+
+      - name: Hent sidene
+        env:
+          HENT_RAA_ADRESSER: ${{ inputs.adresser }}
+        run: python verktoy/hent_raa.py --ut raa
+
+      - name: Legg resultatet på grenen utforsk-pc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python verktoy/lagre_gren.py raa utforsk-pc

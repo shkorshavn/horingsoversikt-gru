@@ -229,9 +229,13 @@ utvalg og rekkefølge som på skjermen, i farger og med liten skrift og tette ra
 
 ## Kjøre lokalt
 
-Krever Python 3.11 eller nyere.
+Krever Python 3.11 eller nyere, Git og (for testene av nettsiden) Node.js med npm.
 
 ```bash
+git clone https://github.com/shkorshavn/horingsoversikt-gru.git
+cd horingsoversikt-gru
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python -m horinger.kjor                        # alle aktive kilder, og bygg
 python -m horinger.kjor --kilder Stortinget    # bare utvalgte kilder
@@ -241,8 +245,10 @@ python -m horinger.bygg                        # bare bygg datafilene på nytt
 
 Innhentingen skriver ett resultat per kilde til `data/kilder/`. Byggingen lager
 `data/horinger.json` (åpne høringer, sortert på frist), `data/status.json` (status per kilde),
-`data/arkiv.json` (utløpte høringer) og `data/historikk.json` (når hver høring ble sett
-første gang). Datoer lagres i ISO 8601, og frister regnes i norsk tid. Filene skrives alltid
+`data/arkiv.json` (utløpte høringer), `data/historikk.json` (når hver høring ble sett
+første gang) og `data/postliste_treff.json` (koblingene til postlista). KI-sammendragene lages
+med `python -m horinger.sammendrag` før byggingen, og lagres i `data/sammendrag.json`. Uten
+`ANTHROPIC_API_KEY` i miljøet hoppes de over. Datoer lagres i ISO 8601, og frister regnes i norsk tid. Filene skrives alltid
 med LF som linjeskift, også på Windows.
 
 `requirements-kjoring.txt` har det som trengs for å hente og bygge. `requirements.txt` har i

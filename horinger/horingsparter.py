@@ -52,9 +52,13 @@ _ADRESSE = [
 # Linjer i PDF-tabeller som bare er en del av en adresse.
 _ADRESSELINJE = re.compile(
     r"^(?:(?:Postboks|Pb\.?|Boks|Postb\.)\b|\d|(?:Fylkeshuset|Statens hus|Rådhuset)\b"
-    r"|\S+(?:veien|vegen|gata|gate|vei|veg)\s+\d"
-    r"|(?-i:[A-ZÆØÅ-]{3,}(?:\s[A-ZÆØÅ-]+)?$))",
+    r"|\S+(?:veien|vegen|gata|gate|vei|veg)\s+\d)",
     re.IGNORECASE,
+)
+# Poststed med store bokstaver på egen linje («BRØNNØYSUND», «MO I RANA»), men ikke firmanavn
+# som «DNV AS».
+_POSTSTED = re.compile(
+    r"^(?!.*\b(?:AS|ASA|SA|SF|HF|IKS|KF|BA|DA|ANS)$)[A-ZÆØÅ-]{3,}(?: [A-ZÆØÅ-]+)*$"
 )
 _MELLOMROM = re.compile(r"\s+")
 # Markerer en overskrift i linjene fra _linjer().
@@ -65,7 +69,7 @@ def _rens(linje: str) -> str:
     linje = _MELLOMROM.sub(" ", linje.replace("\xa0", " ")).strip(" \t•·–-;,")
     for monster in _ADRESSE:
         linje = monster.sub("", linje)
-    return linje.strip(" ,;")
+    return linje.strip(" ,;.")
 
 
 def rens_liste(linjer: list[str], sla_sammen: bool = True) -> list[str]:
@@ -84,7 +88,7 @@ def rens_liste(linjer: list[str], sla_sammen: bool = True) -> list[str]:
             and samlet
             and (
                 linje[0].islower()
-                or samlet[-1].endswith(("-", " og", ","))
+                or samlet[-1].endswith(("-", " og", ",", " i", " for", " av"))
                 and not _IKKE_PART.match(linje)
             )
         ):
@@ -261,7 +265,13 @@ def fra_pdf(innhold: bytes) -> list[str]:
     tekst = "\n".join(side.extract_text() or "" for side in leser.pages)
     # Kolonner i tabeller (navn og adresse) skilles med mange mellomrom. Ta bare navnet.
     linjer = [re.split(r"\s{4,}", linje.strip())[0] for linje in tekst.splitlines()]
-    return rens_liste([linje for linje in linjer if not _ADRESSELINJE.match(linje.strip())])
+    return rens_liste(
+        [
+            linje
+            for linje in linjer
+            if not _ADRESSELINJE.match(linje.strip()) and not _POSTSTED.match(linje.strip())
+        ]
+    )
 
 
 # ---------------------------------------------------------------------------------------------
@@ -277,7 +287,7 @@ class Regel:
     """Én regel for regionflagg eller kategori, fra sources.yaml."""
 
     navn: str
-    # Treffer bare når parten er nøyaktig lik en av frasene (f.eks. «Gjøvik» som egen linje).
+    # Treffer bare når parten er nøyaktig lik en av frasene (f.eks. «KS»).
     eksakt: list[str] = field(default_factory=list)
     # Treffer når en part er lik, eller begynner med, en av frasene (hele ord).
     start: list[str] = field(default_factory=list)

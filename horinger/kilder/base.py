@@ -32,7 +32,7 @@ log = logging.getLogger("horinger")
 
 # Økes når tolkingen av detaljsidene endres. Lagrede høringsparter med en annen versjon brukes
 # ikke om igjen, slik at alle åpne høringer leses på nytt med den nye tolkingen.
-DETALJ_VERSJON = 2
+DETALJ_VERSJON = 3
 
 
 class Kilde(ABC):

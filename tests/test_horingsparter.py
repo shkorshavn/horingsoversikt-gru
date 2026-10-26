@@ -185,7 +185,13 @@ def test_dmp_lenke_til_pdf_og_ks_i_listen():
     assert funnet.pdf.startswith("https://www.dmp.no/contentassets/")
     assert funnet.pdf.endswith(".pdf")
     parter = _pdf("dmp_medisinsk_utstyr_liste.pdf")
-    assert len(parter) > 80
+    # Kontrollert mot PDF-en: 90 linjer, der fire navn er brutt over to linjer.
+    assert len(parter) == 86
+    assert "DNV AS" in parter  # firmanavn med store bokstaver er ikke et poststed
+    assert (
+        "Norsk forening for Sterilforsyning v/ May-Liss Ingebrigtsen, Universitetssykehuset i "
+        "Nord-Norge" in parter
+    )
     assert "KS" in parter
     assert "Helse Sør-Øst RHF" in parter
     assert VURDERING.regionflagg(parter) == ["KS"]

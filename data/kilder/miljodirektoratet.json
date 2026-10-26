@@ -1,9 +1,9 @@
 {
   "kilde": "Miljødirektoratet",
   "status": "ok",
-  "hentet": "2026-10-26T16:46:11+01:00",
+  "hentet": "2026-10-26T21:24:32+01:00",
   "antall": 11,
-  "sekunder": 19.0,
+  "sekunder": 18.4,
   "horinger": [
     {
       "kilde": "Miljødirektoratet",
@@ -17,12 +17,13 @@
       "frist_maned": "",
       "publisert": "2026-06-24",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/5812.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke tilgjengelig",
       "horingsparter_lenke": "https://hss.miljodirektoratet.no/api/1/publisert/hoering/vedlegg/38899",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "b2c43c21458e"
     },
     {
@@ -37,12 +38,13 @@
       "frist_maned": "",
       "publisert": "2026-09-04",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/7472.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "87b13fc8a9cd"
     },
     {
@@ -57,12 +59,13 @@
       "frist_maned": "",
       "publisert": "2026-09-25",
       "ingress": "Tema: Avfall og sirkulær økonomi, Regelverk. Saksnummer 2026/8024.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "8590425183d7"
     },
     {
@@ -77,12 +80,13 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Tema: Grensekryssende og internasjonalt. Saksnummer 2026/7969.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "eb7e8a64289f"
     },
     {
@@ -97,12 +101,13 @@
       "frist_maned": "",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7825.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "9663429b6c14"
     },
     {
@@ -117,12 +122,13 @@
       "frist_maned": "",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5489.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "958fc8782702"
     },
     {
@@ -137,12 +143,13 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Tema: Industri på land, Klima, Innlandet. Saksnummer 2026/2029.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "b49bc7affad8"
     },
     {
@@ -157,12 +164,13 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5483.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "ef6918aedd9c"
     },
     {
@@ -177,12 +185,13 @@
       "frist_maned": "",
       "publisert": "2026-10-23",
       "ingress": "Tema: Klima. Saksnummer 2026/8677.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "1cd059791b68"
     },
     {
@@ -197,12 +206,13 @@
       "frist_maned": "",
       "publisert": "2026-09-24",
       "ingress": "Tema: Forurensning og støy, Regelverk. Saksnummer 2025/14731.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "99d3cae515d7"
     },
     {
@@ -217,14 +227,15 @@
       "frist_maned": "",
       "publisert": "2026-10-26",
       "ingress": "Tema: Avfall og sirkulær økonomi, Regelverk. Saksnummer 2026/3839.",
-      "hentet": "2026-10-26T16:46:11+01:00",
+      "hentet": "2026-10-26T21:24:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "6657b3de2e69"
     }
   ],
-  "sist_ok": "2026-10-26T16:46:11+01:00"
+  "sist_ok": "2026-10-26T21:24:32+01:00"
 }

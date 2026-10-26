@@ -1,9 +1,9 @@
 {
   "kilde": "Nkom",
   "status": "ok",
-  "hentet": "2026-10-26T16:46:06+01:00",
+  "hentet": "2026-10-26T21:24:27+01:00",
   "antall": 1,
-  "sekunder": 5.0,
+  "sekunder": 4.9,
   "horinger": [
     {
       "kilde": "Nkom",
@@ -17,14 +17,15 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Nasjonal kommunikasjonsmyndighet (Nkom) og Medietilsynet sender på høring forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett for perioden 2027 til 2031.",
-      "hentet": "2026-10-26T16:46:06+01:00",
+      "hentet": "2026-10-26T21:24:27+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "2d365b86661f"
     }
   ],
-  "sist_ok": "2026-10-26T16:46:06+01:00"
+  "sist_ok": "2026-10-26T21:24:27+01:00"
 }

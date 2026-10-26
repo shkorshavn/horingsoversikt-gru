@@ -1,7 +1,7 @@
 {
   "kilde": "Nasjonalarkivet",
   "status": "ok",
-  "hentet": "2026-10-26T16:48:41+01:00",
+  "hentet": "2026-10-26T21:27:02+01:00",
   "antall": 2,
   "sekunder": 6.4,
   "horinger": [
@@ -17,12 +17,13 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Kultur- og likestillingsdepartementet har no sendt framlegg til ny forskrift om dokumentasjon og arkiv (arkivforskrifta) på høyring.",
-      "hentet": "2026-10-26T16:48:41+01:00",
+      "hentet": "2026-10-26T21:27:02+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 0,
       "id": "14ef4b796d42"
     },
     {
@@ -37,14 +38,15 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Forslaget til ny bevaringsforskrift er no sendt på høyring. Forskrifta regulerer kva dokumentasjon som skal takast vare på for ettertida, og er meint å erstatte kapittel 7 i Riksarkivarens forskrift. Lov om dokumentasjon og arkiv (arkivlova) blei vedteken i juni, og arkivforskrifta blei sendt på høyring tidlegare i haust.",
-      "hentet": "2026-10-26T16:48:41+01:00",
+      "hentet": "2026-10-26T21:27:02+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 0,
       "id": "a2cf469d0dbc"
     }
   ],
-  "sist_ok": "2026-10-26T16:48:41+01:00"
+  "sist_ok": "2026-10-26T21:27:02+01:00"
 }

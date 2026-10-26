@@ -1,9 +1,9 @@
 {
   "kilde": "Helsedirektoratet",
   "status": "ok",
-  "hentet": "2026-10-26T16:48:47+01:00",
+  "hentet": "2026-10-26T21:27:08+01:00",
   "antall": 2,
-  "sekunder": 5.0,
+  "sekunder": 4.7,
   "horinger": [
     {
       "kilde": "Helsedirektoratet",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T16:48:47+01:00",
+      "hentet": "2026-10-26T21:27:08+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Alle landets regionale helseforetak (RHF)",
@@ -89,6 +89,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "f84de76c0415"
     },
     {
@@ -103,7 +104,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T16:48:47+01:00",
+      "hentet": "2026-10-26T21:27:08+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Alle regionale helseforetak",
@@ -122,8 +123,9 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 3,
       "id": "a617b9031e22"
     }
   ],
-  "sist_ok": "2026-10-26T16:48:47+01:00"
+  "sist_ok": "2026-10-26T21:27:08+01:00"
 }

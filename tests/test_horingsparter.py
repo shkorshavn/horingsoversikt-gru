@@ -60,9 +60,6 @@ def _pdf(navn: str) -> list[str]:
         ("Alle kommuner i Innlandet", ["Alle kommuner"]),
         ("Alle fylkeskommuner", ["Alle fylkeskommuner"]),
         ("Fylkeskommunene", ["Alle fylkeskommuner"]),
-        ("KS", ["KS"]),
-        ("KS – Kommunesektorens organisasjon", ["KS"]),
-        ("Kommunesektorens organisasjon (KS)", ["KS"]),
         ("Innlandet fylkeskommune", ["Innlandet fylkeskommune"]),
         ("Gjøvikregionen IPR", ["Gjøvikregionen"]),
         ("Interkommunale politiske råd", ["Regionrådene"]),
@@ -94,6 +91,15 @@ def test_regionflagg_treff(part, flagg):
 )
 def test_regionflagg_ingen_falske_treff(part):
     assert VURDERING.regionflagg([part]) == []
+
+
+@pytest.mark.parametrize(
+    "part", ["KS", "KS – Kommunesektorens organisasjon", "Kommunesektorens organisasjon (KS)"]
+)
+def test_ks_gjenkjennes_men_gir_ikke_flagg_alene(part):
+    """Svein 26.10.2026: «KS alene skal ikke medføre regionflagg»."""
+    assert VURDERING.regionflagg([part]) == []
+    assert VURDERING.regionflagg([part, "Alle kommuner"]) == ["Alle kommuner", "KS"]
 
 
 def test_flere_grunner_og_rekkefolge():
@@ -194,7 +200,7 @@ def test_dmp_lenke_til_pdf_og_ks_i_listen():
     )
     assert "KS" in parter
     assert "Helse Sør-Øst RHF" in parter
-    assert VURDERING.regionflagg(parter) == ["KS"]
+    assert VURDERING.regionflagg(parter) == []  # bare KS: ikke flagg
 
 
 def test_dmp_grossist_uten_regionen():
@@ -384,16 +390,29 @@ def test_bygg_setter_kategorier_flagg_og_prioritet(tmp_path):
                     "frist": frist,
                     "ingress": "",
                     "horingsparter": _pdf("dmp_medisinsk_utstyr_liste.pdf"),
-                }
+                },
+                {
+                    "id": "a2",
+                    "kilde": dmp["navn"],
+                    "instans": "DMP",
+                    "tittel": "Høring om legemidler i sykehjem",
+                    "lenke": "https://www.dmp.no/y",
+                    "frist": frist,
+                    "ingress": "",
+                    "horingsparter": ["Alle kommuner", "KS", "Helsedirektoratet"],
+                },
             ],
         },
     )
     bygg({**KONFIG, "kilder": [dmp]}, kilder, tmp_path)
-    (h,) = yaml.safe_load((tmp_path / "horinger.json").read_text("utf-8"))["horinger"]
-    assert h["regionflagg"] == ["KS"]
+    hs = yaml.safe_load((tmp_path / "horinger.json").read_text("utf-8"))["horinger"]
+    bare_ks, h = sorted(hs, key=lambda x: x["id"])
+    assert bare_ks["regionflagg"] == []  # KS alene gir ikke flagg
+    assert bare_ks["prioritet"] == 3
+    assert bare_ks["partkategorier"]["Kommuner og fylkeskommuner"] == 1
+    assert h["regionflagg"] == ["Alle kommuner", "KS"]
     assert h["prioritet"] == 1
     assert h["prioritet_grunn"] == "regionen er høringspart"
-    assert h["partkategorier"]["Kommuner og fylkeskommuner"] == 1
 
 
 def test_dedup_tar_med_listen_fra_den_andre_versjonen():
@@ -466,10 +485,12 @@ def test_regjeringen_apen_hoering_uten_liste():
 
 
 def test_regjeringen_andre_regionrad_gir_ikke_flagg():
-    """Kystruten: Helgeland regionråd, Fjordane IPR o.l. er ikke vår region. KS står i listen."""
+    """Kystruten: Helgeland regionråd, Fjordane IPR o.l. er ikke vår region. KS står i listen,
+    men gir ikke flagg alene (Svein 26.10.2026)."""
     parter = _regj("kystruten").parter
     assert "Helgeland Regionråd" in parter and "Fjordane IPR" in parter
-    assert VURDERING.regionflagg(parter) == ["KS"]
+    assert "KS" in parter
+    assert VURDERING.regionflagg(parter) == []
 
 
 @pytest.mark.parametrize(

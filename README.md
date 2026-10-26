@@ -89,7 +89,8 @@ eller «Ikke oppgitt».
 **Regionflagg:** settes når en høringspart i listen er Gjøvik, Østre Toten, Vestre Toten,
 Søndre Land, Nordre Land, Ringsaker eller Lillehammer kommune, Gjøvikregionen (IPR), regionrådene,
 «alle kommuner», «alle fylkeskommuner», KS eller Innlandet fylkeskommune
-(`felles.horingsparter.regionflagg`). Statsforvalteren gir ikke flagg. Hver part vurderes for
+(`felles.horingsparter.regionflagg`). Statsforvalteren gir ikke flagg, og KS gir ikke flagg
+alene (`ikke_alene`), fordi KS står på nesten alle departementenes lister. Hver part vurderes for
 seg, og bare listen brukes, ikke teksten ellers. Derfor gir verken «Gjøvik tingrett», «Sykehuset
 Innlandet, Gjøvik» eller en postadresse i Lillehammer flagg.
 

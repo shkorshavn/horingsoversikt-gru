@@ -348,6 +348,7 @@ class Partvurdering:
             self.flaggregler.append(
                 Regel(navn=f"{kommune} kommune", start=[_norm(f"{kommune} kommune")])
             )
+        self.ikke_alene = set(flagg.get("ikke_alene", []))
         self.kategorier = [Regel.fra_konfig(r) for r in konfig.get("kategorier", [])]
         self.annet = konfig.get("annet", "Andre")
 
@@ -359,6 +360,9 @@ class Partvurdering:
                 continue
             if any(regel.treff(p, self.omrader) for p in parter):
                 grunner.append(regel.navn)
+        # Grunner i `ikke_alene` (KS) gir ikke flagg uten en annen grunn.
+        if all(g in self.ikke_alene for g in grunner):
+            return []
         return grunner
 
     def kategoriser(self, parter: list[str]) -> dict[str, int]:

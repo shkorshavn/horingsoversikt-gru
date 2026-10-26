@@ -107,6 +107,10 @@ felles:
     regionflagg:
       kommuner: [Gjøvik, Østre Toten, Vestre Toten, Søndre Land, Nordre Land, Ringsaker,
                  Lillehammer]
+      # Grunner som ikke gir flagg alene (Svein 26.10.2026: «KS alene skal ikke medføre
+      # regionflagg»). KS står på nesten alle departementenes lister. Sammen med f.eks. «Alle
+      # kommuner» vises KS fortsatt som grunn.
+      ikke_alene: [KS]
       regler:
         - navn: Alle kommuner
           start: [alle kommuner, alle kommunene, alle landets kommuner, samtlige kommuner,

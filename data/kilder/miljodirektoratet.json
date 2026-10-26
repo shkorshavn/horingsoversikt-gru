@@ -1,26 +1,10 @@
 {
   "kilde": "Miljødirektoratet",
   "status": "ok",
-  "hentet": "2026-10-25T18:42:47+01:00",
+  "hentet": "2026-10-26T16:46:11+01:00",
   "antall": 11,
-  "sekunder": 1.7,
+  "sekunder": 19.0,
   "horinger": [
-    {
-      "kilde": "Miljødirektoratet",
-      "kategori": "Miljø, klima, energi og beredskap",
-      "prioritet": 1,
-      "instans": "Miljødirektoratet",
-      "tittel": "Foreslår endring i biocidforskriften",
-      "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/foreslar-endring-i-biocidforskriften/",
-      "frist": "2026-10-25",
-      "frist_tekst": "Høringsfrist: 25.10.2026",
-      "frist_maned": "",
-      "publisert": "2026-09-29",
-      "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7946.",
-      "hentet": "2026-10-25T18:42:47+01:00",
-      "niva": "Direktorater og etater",
-      "id": "b6e09fc0613d"
-    },
     {
       "kilde": "Miljødirektoratet",
       "kategori": "Miljø, klima, energi og beredskap",
@@ -33,8 +17,12 @@
       "frist_maned": "",
       "publisert": "2026-06-24",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/5812.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://hss.miljodirektoratet.no/api/1/publisert/hoering/vedlegg/38899",
+      "saksfelt": [],
       "id": "b2c43c21458e"
     },
     {
@@ -49,8 +37,12 @@
       "frist_maned": "",
       "publisert": "2026-09-04",
       "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/7472.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "87b13fc8a9cd"
     },
     {
@@ -65,8 +57,12 @@
       "frist_maned": "",
       "publisert": "2026-09-25",
       "ingress": "Tema: Avfall og sirkulær økonomi, Regelverk. Saksnummer 2026/8024.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "8590425183d7"
     },
     {
@@ -81,8 +77,12 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Tema: Grensekryssende og internasjonalt. Saksnummer 2026/7969.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "eb7e8a64289f"
     },
     {
@@ -97,8 +97,12 @@
       "frist_maned": "",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7825.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "9663429b6c14"
     },
     {
@@ -113,8 +117,12 @@
       "frist_maned": "",
       "publisert": "2026-10-06",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5489.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "958fc8782702"
     },
     {
@@ -129,8 +137,12 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Tema: Industri på land, Klima, Innlandet. Saksnummer 2026/2029.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "b49bc7affad8"
     },
     {
@@ -145,8 +157,12 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/5483.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "ef6918aedd9c"
     },
     {
@@ -161,8 +177,12 @@
       "frist_maned": "",
       "publisert": "2026-10-23",
       "ingress": "Tema: Klima. Saksnummer 2026/8677.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "1cd059791b68"
     },
     {
@@ -177,10 +197,34 @@
       "frist_maned": "",
       "publisert": "2026-09-24",
       "ingress": "Tema: Forurensning og støy, Regelverk. Saksnummer 2025/14731.",
-      "hentet": "2026-10-25T18:42:47+01:00",
+      "hentet": "2026-10-26T16:46:11+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "99d3cae515d7"
+    },
+    {
+      "kilde": "Miljødirektoratet",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "Miljødirektoratet",
+      "tittel": "Endring av definisjonen av plastholdig løst fyllmateriale i forurensningsforskrift kapittel 23A",
+      "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/endring-av-definisjonen-av-plastholdig-lost-fyllmateriale-i-forurensningsforskrift-kapittel-23a/",
+      "frist": "2027-01-25",
+      "frist_tekst": "Høringsfrist: 25.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-10-26",
+      "ingress": "Tema: Avfall og sirkulær økonomi, Regelverk. Saksnummer 2026/3839.",
+      "hentet": "2026-10-26T16:46:11+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "id": "6657b3de2e69"
     }
   ],
-  "sist_ok": "2026-10-25T18:42:47+01:00"
+  "sist_ok": "2026-10-26T16:46:11+01:00"
 }

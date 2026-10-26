@@ -1,9 +1,9 @@
 {
   "kilde": "Skatteetaten",
   "status": "ok",
-  "hentet": "2026-10-25T18:45:20+01:00",
+  "hentet": "2026-10-26T16:49:41+01:00",
   "antall": 5,
-  "sekunder": 9.9,
+  "sekunder": 15.0,
   "horinger": [
     {
       "kilde": "Skatteetaten",
@@ -17,8 +17,12 @@
       "frist_maned": "",
       "publisert": "2026-10-22",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til endringer i særavgiftsforskriften på høring. Forslaget gjelder utvidelse av dagens reduserte sats for CO 2 -avgift for mineralolje, naturgass og LPG til innenriks kvotepliktig sjøfart til også å omfatte større offshore-fartøy, samt å gi fritak for kvotepliktig sjøfart fra norsk havn til utenlandsk havn via installasjoner/anlegg…",
-      "hentet": "2026-10-25T18:45:20+01:00",
+      "hentet": "2026-10-26T16:49:41+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://www.skatteetaten.no/contentassets/25088935421644869d69846ca51862c2/2026-10-horingsliste.pdf",
+      "saksfelt": [],
       "id": "b8e3e04748ba"
     },
     {
@@ -33,8 +37,12 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til endringer i forskrift 11. desember 2001 nr. 1451 om særavgifter (særavgiftsforskriften) om avgift på sukker mv., på høring. Forslaget gjelder avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer, jf. særavgiftsforskriften § 3-16-3.",
-      "hentet": "2026-10-25T18:45:20+01:00",
+      "hentet": "2026-10-26T16:49:41+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://www.skatteetaten.no/contentassets/727cbf5b41e447d98c8ee592a16a4e77/2026-10-horingsliste.pdf",
+      "saksfelt": [],
       "id": "38d410f34588"
     },
     {
@@ -49,8 +57,12 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Skattedirektoratet sender på høring endringer i overgangreglene til innkrevingsloven mv. Endringene skyldes hovedsakelig et behov for en forlenget utrullingsperiode for nytt regelverk for utlegg mv.",
-      "hentet": "2026-10-25T18:45:20+01:00",
+      "hentet": "2026-10-26T16:49:41+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://www.skatteetaten.no/contentassets/3086b591ad2b41d38bf2286c6d442a0e/2026-9-horingsliste.pdf",
+      "saksfelt": [],
       "id": "3bcccf9aedbf"
     },
     {
@@ -65,8 +77,12 @@
       "frist_maned": "",
       "publisert": "2026-09-28",
       "ingress": "Skattedirektoratet sender på høring forslag til endringer i forskrift 20. juni 2012 nr. 627 om gjennomføring og fordeling av skatt mv. mellom skattekreditorene (fordelingsforskriften). Skattedirektoratet foreslår en ny modell for fordeling av skatt mellom skattekreditorene samt å avvikle marginordningen.",
-      "hentet": "2026-10-25T18:45:20+01:00",
+      "hentet": "2026-10-26T16:49:41+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://www.skatteetaten.no/contentassets/9f72203550404410b5da06ef31d929cb/2026-9-horingsinstanser-2.pdf",
+      "saksfelt": [],
       "id": "b5d10c057333"
     },
     {
@@ -81,10 +97,14 @@
       "frist_maned": "",
       "publisert": "2026-07-03",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til forskrift til ny lov om særavgifter (særavgiftsforskriften), samt forslag til fastsettelse av ny forskrift om midlertidig bruk av utenlandsregistrert motorvogn, på høring.",
-      "hentet": "2026-10-25T18:45:20+01:00",
+      "hentet": "2026-10-26T16:49:41+01:00",
       "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
       "id": "be4c75ac8121"
     }
   ],
-  "sist_ok": "2026-10-25T18:45:20+01:00"
+  "sist_ok": "2026-10-26T16:49:41+01:00"
 }

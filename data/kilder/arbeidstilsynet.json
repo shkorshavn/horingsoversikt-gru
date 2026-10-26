@@ -1,9 +1,9 @@
 {
   "kilde": "Arbeidstilsynet",
   "status": "ok",
-  "hentet": "2026-10-26T23:33:11+01:00",
+  "hentet": "2026-10-27T00:24:33+01:00",
   "antall": 1,
-  "sekunder": 2.6,
+  "sekunder": 3.6,
   "horinger": [
     {
       "kilde": "Arbeidstilsynet",
@@ -17,15 +17,16 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:11+01:00",
+      "hentet": "2026-10-27T00:24:33+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
-      "detalj_versjon": 3,
+      "detalj_versjon": 4,
+      "detaljtekst": "Høring - Fjerne kravet til røntgenundersøkelse ved bergarbeid Høring åpnet 23. oktober 2026 I dette høringsnotatet foreslår Arbeidstilsynet å fjerne kravet til obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet til røntgenundersøkelse står i dag i forskrift om utførelse av arbeid (FUA) § 27-29. Fristen for å gi innspill er 31. januar 2027. Vi ber om at alle innspill gis via Arbeidstilsynets digitale høringsløsning, slik at alle høringssvar blir offentlig tilgjengelige. Det er mulig å lagre innspillet underveis. For de som har behov for å få høringsinnspillet godkjent innad i organisasjonen, er det mulig å eksportere en fil fra høringsløsningen. Les høringsdokumentene og svar på høringen Høringsfrist 31. januar 2027 Denne høringen har foreløpig ingen registrerte uttalelser.",
       "id": "16001cccdbe5"
     }
   ],
-  "sist_ok": "2026-10-26T23:33:11+01:00"
+  "sist_ok": "2026-10-27T00:24:33+01:00"
 }

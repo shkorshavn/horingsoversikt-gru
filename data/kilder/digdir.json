@@ -1,7 +1,7 @@
 {
   "kilde": "Digdir",
   "status": "ok",
-  "hentet": "2026-10-26T23:33:13+01:00",
+  "hentet": "2026-10-27T00:24:36+01:00",
   "antall": 6,
   "sekunder": 6.3,
   "horinger": [
@@ -17,13 +17,14 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "47e36c3c88b4"
     },
     {
@@ -38,13 +39,14 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "c70229c2db19"
     },
     {
@@ -59,13 +61,14 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "d344fa00436f"
     },
     {
@@ -80,13 +83,14 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "c21ade734d53"
     },
     {
@@ -101,13 +105,14 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "08c8f2ba6dd9"
     },
     {
@@ -122,15 +127,16 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
       "detalj_versjon": 0,
+      "detaljtekst": "",
       "id": "c5924ccc1c62"
     }
   ],
-  "sist_ok": "2026-10-26T23:33:13+01:00"
+  "sist_ok": "2026-10-27T00:24:36+01:00"
 }

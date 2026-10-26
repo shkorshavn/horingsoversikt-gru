@@ -1,9 +1,9 @@
 {
   "kilde": "Nkom",
   "status": "ok",
-  "hentet": "2026-10-26T23:30:53+01:00",
+  "hentet": "2026-10-27T00:21:15+01:00",
   "antall": 1,
-  "sekunder": 3.5,
+  "sekunder": 5.0,
   "horinger": [
     {
       "kilde": "Nkom",
@@ -17,15 +17,16 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Nasjonal kommunikasjonsmyndighet (Nkom) og Medietilsynet sender på høring forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett for perioden 2027 til 2031.",
-      "hentet": "2026-10-26T23:30:53+01:00",
+      "hentet": "2026-10-27T00:21:15+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
       "horingsparter_lenke": "",
       "saksfelt": [],
-      "detalj_versjon": 3,
+      "detalj_versjon": 4,
+      "detaljtekst": "Høring av utlysningsvilkår og tildelingsregler for lokale FM-sendernett Nasjonal kommunikasjonsmyndighet (Nkom) og Medietilsynet sender på høring forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett for perioden 2027 til 2031. 30.09.2026 Høringen gjelder frekvenstillatelser etter ekomloven og senderanleggskonsesjoner etter kringkastingsloven. Myndighetene ber om innspill til blant annet kvalifikasjonskrav, tildelingsmodell, tillatelsesvilkår og overgangsordninger for neste tillatelsesperiode. Gjeldende tillatelser for lokalradio på FM utløper 31. desember 2026. På oppdrag fra Digitaliserings- og forvaltningsdepartementet har Nkom, i samråd med Medietilsynet, utarbeidet forslag til vilkår og tildelingsregler for perioden fram til 31. desember 2031. Etter at vilkår og tildelingsregler er fastsatt, vil myndighetene gjennomføre én offentlig utlysningsrunde. Søknadene skal avklare om det er reell konkurranse om de enkelte sendernettene. Dersom det bare er én kvalifisert søker, vil tillatelsene bli tildelt direkte. Ved flere kvalifiserte søkere foreslås loddtrekning som utvelgelsesmekanisme. Høringen omfatter ikke innholdskonsesjoner for lokalradio. Medietilsynet vil forlenge disse til 31. desember 2031 på gjeldende vilkår. Myndighetene ønsker særlig innspill til om kravene og prosessen er klare og forholdsmessige, samt til praktiske og økonomiske konsekvenser av forslagene, spesielt for mindre aktører. Høringsfrist Alle interesserte kan sende inn høringsuttalelse. Frist for å sende inn høringssvar er 13. november 2026. Høringsuttalelser sendes til firmapost@nkom.no og merkes: «Høring om lokale FM-sendernett 2027–2031 – saksnummer 2610514» Uttalelsene vil bli publisert på nkom.no. Opplysninger som avsender mener er taushetsbelagte må markeres og begrunnes. Det bes samtidig om at det sendes inn en offentlig versjon som kan publiseres. Dokumenter Høringsdokument: Høring av utlysningsvilkår og tildelingsregler for lokale FM-sendernett 2027–2031 Vedlegg 1: Oversikt over sendernett Vedlegg 2: Forslag til søknadsskjema",
       "id": "2d365b86661f"
     }
   ],
-  "sist_ok": "2026-10-26T23:30:53+01:00"
+  "sist_ok": "2026-10-27T00:21:15+01:00"
 }

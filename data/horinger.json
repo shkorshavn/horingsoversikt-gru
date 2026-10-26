@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-26T21:14:46+01:00",
+  "generert": "2026-10-26T21:19:03+01:00",
   "antall": 133,
   "horinger": [
     {
@@ -89,7 +89,7 @@
       "frist_maned": "",
       "publisert": "2026-09-01",
       "ingress": "Landbruks- og matdepartementet sender med dette konsekvensutredning av Håmmålsfjellet-Sålekinna som vinterbeite for Fosen reinbeitedistrikt på høring. Konsekvensutredningen er utarbeidet av Norconsult på oppdrag fra Landbruks- og matdepartementet.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Os kommune Rytrøa 14",
@@ -166,6 +166,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "fd2a80340640",
       "partkategorier": {
         "Statsforvaltere": 2,
@@ -518,7 +519,7 @@
       "frist_maned": "",
       "publisert": "2026-07-28",
       "ingress": "Samferdselsdepartementet sender med dette på høring forslag til ny ruteplan for kystruten Bergen-Kirkenes med sikte på å sikre et bedre transporttilbud til lokalbefolkningen og næringslivet. Forslaget til ruteplan følger opp en utredning gjennomført",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Alstahaug næringsforening",
@@ -647,7 +648,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Kollektivtransport"
+      ],
+      "detalj_versjon": 2,
       "id": "50813f1d030f",
       "partkategorier": {
         "Statsforvaltere": 4,
@@ -850,7 +854,7 @@
       "frist_maned": "",
       "publisert": "2026-06-22",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring utredning av behovet for og konsekvensene av å åpne for at deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) skal kunne fortsette i tiltaket etter fylte 67 år. Dette",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Alle departementene",
@@ -866,7 +870,8 @@
         "Frelsesarmeen / Fretex",
         "Funksjonshemmedes Fellesorganisasjon (FFO)",
         "Helt med",
-        "Hovedorganisasjonen Virke iArbeid",
+        "Hovedorganisasjonen Virke",
+        "iArbeid",
         "Ideelt nettverk",
         "Integrerings- og mangfoldsdirektoratet",
         "Kirkens bymisjon",
@@ -893,12 +898,13 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "87dd3c9c6a6a",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 6,
         "Organisasjoner": 14,
-        "Andre": 15
+        "Andre": 16
       },
       "regionflagg": [
         "KS"
@@ -919,7 +925,7 @@
       "frist_maned": "",
       "publisert": "2026-06-19",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring et forslag til ny forskrift til lov 25. juni 2010 om sivil beskyttelse og beredskap (sivilbeskyttelsesloven) som regulerer tilfluktssteder.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Arbeidstilsynet",
@@ -1032,7 +1038,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Samfunnssikkerhet og beredskap"
+      ],
+      "detalj_versjon": 2,
       "id": "c51b51b3b5cc",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -1064,7 +1073,7 @@
       "frist_maned": "",
       "publisert": "2026-09-18",
       "ingress": "Finansdepartementet sender med dette på høring et forslag utarbeidet av Finanstilsynet om en ny bestemmelse i finanstilsynsforskriften om fordeling av tilsynsutgifter på folkefinansieringsforetak.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -1170,7 +1179,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Finansmarkedene"
+      ],
+      "detalj_versjon": 2,
       "id": "a9743acce7d8",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -1197,7 +1209,7 @@
       "frist_maned": "",
       "publisert": "2026-06-19",
       "ingress": "Samferdselsdepartementet sender med dette på høring et forslag til endringer i jernbaneloven og yrkestransportloven. Disse lovendringene skal tilrettelegge for bedre utnyttelse av data til å oppfylle transportpolitiske mål.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -1293,7 +1305,11 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Jernbane",
+        "Kollektivtransport"
+      ],
+      "detalj_versjon": 2,
       "id": "3c2212288d2f",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 17,
@@ -1371,7 +1387,7 @@
       "frist_maned": "",
       "publisert": "2026-06-22",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i straffegjennomføringslovens bestemmelser om kontrolltiltak i kriminalomsorgen, utarbeidet av Kriminalomsorgsdirektoratet (KDI).",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -1386,7 +1402,8 @@
         "Barnesakkyndig kommisjon",
         "Datatilsynet",
         "Den nasjonale enhet for bekjempelse av organisert kriminalitet (Kripos)",
-        "Den sentrale enhet for etterforskning og påtale av økonomisk kriminalitet og miljøkriminalitet (Økokrim)",
+        "Den sentrale enhet for etterforskning og påtale av økonomisk kriminalitet og",
+        "miljøkriminalitet (Økokrim)",
         "De regionale kompetansesentrene på rusfeltet (KORUS)",
         "Digitaliseringsdirektoratet",
         "Familievernkontorene",
@@ -1519,6 +1536,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "c5afff646a52",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -1527,7 +1545,7 @@
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 22,
         "Organisasjoner": 28,
-        "Andre": 87
+        "Andre": 88
       },
       "regionflagg": [
         "Alle kommuner",
@@ -1725,7 +1743,7 @@
       "frist_maned": "",
       "publisert": "2026-09-17",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring forslag til en særordning om overgang til annen oppholdsstatus på grunnlag av arbeid for fordrevne fra Ukraina med midlertidig kollektiv beskyttelse. Til orientering: Departementet",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -1802,7 +1820,12 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Arbeidsliv",
+        "Innvandring og integrering",
+        "Ukraina"
+      ],
+      "detalj_versjon": 2,
       "id": "17796e18616d",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -1884,7 +1907,7 @@
       "frist_maned": "",
       "publisert": "2026-09-25",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring forslag til endringer i trygderettsloven og rettshjelpsloven.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -1942,7 +1965,10 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Pensjon, trygd og sosiale tjenester"
+      ],
+      "detalj_versjon": 2,
       "id": "0fac555760ba",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -2100,7 +2126,7 @@
       "frist_maned": "",
       "publisert": "2026-10-14",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i utlendingsloven § 34 om kollektiv beskyttelse i en massefluktsituasjon.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -2184,7 +2210,10 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Innvandring og integrering"
+      ],
+      "detalj_versjon": 2,
       "id": "0a21171f7c9c",
       "partkategorier": {
         "Statsforvaltere": 1,
@@ -2212,7 +2241,7 @@
       "frist_maned": "",
       "publisert": "2026-08-11",
       "ingress": "Klima- og miljødepartementet sender rapporten fra ekspertutvalget om klimatilpasning på høring.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "A/S Norske Shell",
@@ -2481,7 +2510,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Klima"
+      ],
+      "detalj_versjon": 2,
       "id": "a707facb1eff",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -2563,7 +2595,7 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Forslagene skal legge til rette for at eksisterende innholdskonsesjoner for lokalradio på FM kan forlenges, og at senderanleggskonsesjoner kan tildeles, for perioden 1. januar 2027 til og med 31. desember 2031.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Akademikerne",
@@ -2651,7 +2683,8 @@
         "Norea Radio Oslo",
         "Nærkanalen",
         "P5 Fosen",
-        "Pak Radio pTro",
+        "Pak Radio",
+        "pTro",
         "Radio 102",
         "Radio 3 Bodø",
         "Radio 7",
@@ -2739,7 +2772,8 @@
         "Senderanlegg Bording Media",
         "Senderanlegg FJORDINGEN AS",
         "Senderanlegg GRØNN KRINGKASTING AS",
-        "Senderanlegg HAUGALAND KRAFT FIBER AS senderanlegg HELGELANDSRADIOENE AS",
+        "Senderanlegg HAUGALAND KRAFT FIBER AS",
+        "senderanlegg HELGELANDSRADIOENE AS",
         "Senderanlegg HUTCHINSON AS",
         "Senderanlegg JÆRRADIOGRUPPEN AS",
         "Senderanlegg KULTURBØRSEN AS",
@@ -2768,13 +2802,16 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Film og medier"
+      ],
+      "detalj_versjon": 2,
       "id": "8af939d61ec0",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 5,
         "Organisasjoner": 13,
-        "Andre": 180
+        "Andre": 182
       },
       "regionflagg": [
         "KS"
@@ -2820,7 +2857,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Finansdepartementet fastsatte i desember 2019 midlertidige gulv for gjennomsnittlig risikovekting av boliglån og næringseiendomslån på henholdsvis 20 og 35 prosent for IRB-bankene, med virkning i to år fra desember 2020.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -2927,7 +2964,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Finansmarkedene"
+      ],
+      "detalj_versjon": 2,
       "id": "f644746b0c53",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -3029,7 +3069,7 @@
       "frist_maned": "",
       "publisert": "2026-06-09",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring Baneheia-utvalgets utredninger NOU 2024: 24 Prøvd på nytt og NOU 2026: 3 Straffeforfølgelsen av Viggo Kristiansen. Utvalget ble oppnevnt 10. februar 2023 for å granske alle sider av",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -3039,9 +3079,12 @@
         "Forliksrådene",
         "Arbeids- og velferdsdirektoratet",
         "Datatilsynet",
-        "Den nasjonale enhet for bekjempelse av organisert og annen alvorlig kriminalitet (Kripos)",
-        "Den sentrale enhet for etterforskning og påtale av økonomisk kriminalitet og miljøkriminalitet (Økokrim)",
-        "Det nasjonale statsadvokatembetet for innsats mot organisert og annen alvorlig kriminalitet (NAST)",
+        "Den nasjonale enhet for bekjempelse av organisert",
+        "og annen alvorlig kriminalitet (Kripos)",
+        "Den sentrale enhet for etterforskning og påtale av økonomisk kriminalitet",
+        "og miljøkriminalitet (Økokrim)",
+        "Det nasjonale statsadvokatembetet for innsats mot organisert",
+        "og annen alvorlig kriminalitet (NAST)",
         "Digitaliseringsdirektoratet",
         "Disiplinærnemnda for advokater",
         "Domstoladministrasjonen",
@@ -3124,14 +3167,17 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Lov og rett"
+      ],
+      "detalj_versjon": 2,
       "id": "20fd07d6b54e",
       "partkategorier": {
         "Statsforvaltere": 1,
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 12,
         "Organisasjoner": 18,
-        "Andre": 57
+        "Andre": 60
       },
       "regionflagg": [
         "KS"
@@ -3377,7 +3423,7 @@
       "frist_maned": "",
       "publisert": "2026-10-08",
       "ingress": "Nærings- og fiskeridepartementet sender med dette på høring et revidert forslag til forskrift om oppdragsgivers plikt til å sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget er en oppfølging av departementets",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "A/S Norske Shell",
@@ -3450,6 +3496,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "https://www.regjeringen.no/contentassets/f85feba379e3494ebcc804041029a025/horingsliste.pdf",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "82434d4968e1",
       "partkategorier": {
         "Departementer og direktorater": 12,
@@ -3473,7 +3520,7 @@
       "frist_maned": "",
       "publisert": "2026-08-19",
       "ingress": "Samferdselsdepartementet sender med dette på høring to forslag til risikoreduserende tiltak i bussanskaffelser.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -3530,7 +3577,11 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Kollektivtransport",
+        "Transport og kommunikasjon"
+      ],
+      "detalj_versjon": 2,
       "id": "0da38d05e171",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 16,
@@ -3583,7 +3634,7 @@
       "frist_maned": "",
       "publisert": "2026-09-28",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i utlendingsforskriften.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -3668,7 +3719,10 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Innvandring og integrering"
+      ],
+      "detalj_versjon": 2,
       "id": "3943a26ad125",
       "partkategorier": {
         "Statsforvaltere": 1,
@@ -3694,7 +3748,7 @@
       "frist_maned": "",
       "publisert": "2026-08-20",
       "ingress": "I kjølvannet av Meld. St. 15 (2023-2024) Felles verdier - felles ansvar Styrket innsats for forebygging og bekjempelse av økonomisk kriminalitet ble det nedsatt en arbeidsgruppe av Justis- og beredskapsdepartementet, i samråd med Arbeid- og",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -3796,6 +3850,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "ce28d7268a81",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -3852,7 +3907,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Kunnskapsdepartementet sender med dette på offentleg høyring forslag til endringar i forskrift om tilbakebetaling av utdanningslån (tilbakebetalingsforskrifta) og i forskrift om godkjenning for utdanningsstøtte i Norge (godkjenningsforskrifta), med",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "22. juli-senteret",
@@ -4089,6 +4144,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "457f1ecd097a",
       "partkategorier": {
         "Statsforvaltere": 7,
@@ -4342,7 +4398,7 @@
       "frist_maned": "",
       "publisert": "2026-09-29",
       "ingress": "Departementet foreslår å åpne for at Norsk Tipping kan tilby et nett pengespilltilbud i form av nettpoker. I tillegg foreslås det å ta inn krav om avviksrapportering for de største aktørene i pengespillmarkedet. Departementet foreslår også mindre",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "4H Norge",
@@ -4498,7 +4554,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Lotteri og pengespill"
+      ],
+      "detalj_versjon": 2,
       "id": "4b0dae140bf8",
       "partkategorier": {
         "Departementer og direktorater": 20,
@@ -4547,7 +4606,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender på høyring utkast til teknisk revisjon av forskriftene til petroleumsskattelova.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Energidepartementet",
@@ -4557,7 +4616,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Skatter og avgifter"
+      ],
+      "detalj_versjon": 2,
       "id": "ff02aceeac6b",
       "partkategorier": {
         "Departementer og direktorater": 2,
@@ -4605,7 +4667,7 @@
       "frist_maned": "",
       "publisert": "2026-09-01",
       "ingress": "Landbruks- og matdepartementet sender med dette på høring forslag til endringer i forskrift om Omsetningsrådets myndighet vedrørende markedsregulering for jordbruksråvarer (rammeforskriften).",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Arbeids- og inkluderingsdepartementet",
@@ -4661,6 +4723,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "9c349cfc8058",
       "partkategorier": {
         "Departementer og direktorater": 18,
@@ -4684,7 +4747,7 @@
       "frist_maned": "",
       "publisert": "2026-10-07",
       "ingress": "Kommunal- og distriktsdepartementet sender med dette forslag til endringer i forskrift nr. 342 av 6 mars 2026, om Kommunal- og distriktsdepartementets tilskuddsmidler til Arktis 2030 på høring.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -4801,6 +4864,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "ddf56ca9d760",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -4832,7 +4896,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Forsvarsdepartementet sender med dette på høring forslag til forskriftsfestet tilskuddordning for økt produksjonskapasitet i norsk forsvarsindustri.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "RADIONOR COMMUNICATIONS AS",
@@ -4860,7 +4924,11 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Forsvar",
+        "Forsvarsindustri"
+      ],
+      "detalj_versjon": 2,
       "id": "fa996d9148ed",
       "partkategorier": {
         "Organisasjoner": 3,
@@ -4883,7 +4951,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag om å oppheve forskrift om rammeplan for ingeniørutdanning og forslag om endringer i universitets- og høyskoleforskriften for at det kan gis bachelorutdanning med normert tid på fire år,",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -4926,6 +4994,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "af99c30570fd",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -4952,12 +5021,15 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Europakommisjonen fremmet 9. september forslag til ny anskaffelsesforordning, COM(2026) 590 Proposal for a regulation on public contracts and concessions. Forslag til forordning er publisert på Europakommisjonen hjemmeside her.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Offentlige anskaffelser"
+      ],
+      "detalj_versjon": 2,
       "id": "5a4d402d9439",
       "partkategorier": {},
       "regionflagg": [],
@@ -4977,7 +5049,7 @@
       "frist_maned": "",
       "publisert": "2026-10-21",
       "ingress": "Nærings- og fiskeridepartementet sender med dette på høring forslag til endringer i Forskrift om midlertidig tilskudd som kompensasjon for CO2-avgift på drivstoff for fiske og fangst. Endringer i ordningen vil tre i kraft 1. januar 2027, og gjøres",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Bellona",
@@ -5010,7 +5082,12 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Fiskeri og havbruk",
+        "Mat, fiske og landbruk",
+        "Skatter og avgifter"
+      ],
+      "detalj_versjon": 2,
       "id": "3fd5999d299f",
       "partkategorier": {
         "Departementer og direktorater": 4,
@@ -5059,7 +5136,7 @@
       "frist_maned": "",
       "publisert": "2026-10-23",
       "ingress": "Digitaliserings- og forvaltningsdepartementet sender med dette på høyring forslag til lov om digitale marknader som gjennomfører Europaparlaments- og rådsforordning (EU) 20222/1925 om opne og rettferdige marknader i den digitale sektoren, i norsk",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -5174,7 +5251,11 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "EØS",
+        "IT-politikk"
+      ],
+      "detalj_versjon": 2,
       "id": "4eeabc29922d",
       "partkategorier": {
         "Alle fylkeskommuner": 1,
@@ -5353,7 +5434,7 @@
       "frist_maned": "",
       "publisert": "2026-09-11",
       "ingress": "Helse- og omsorgsdepartementet sender på høring forslag til lov- og forskriftsendringer om nasjonale e-helseløsninger, behandling av helseopplysninger, smittevern m.m.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -5480,6 +5561,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "929e7e070e99",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -5511,7 +5593,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Finansdepartementet sender med dette på høring et høringsnotat utarbeidet av Finanstilsynet om adgang til valutasikring av verdipapirfonds investeringer på andelsklassenivå.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokatforeningen",
@@ -5619,7 +5701,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Finansmarkedene"
+      ],
+      "detalj_versjon": 2,
       "id": "006cf69022a8",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -5790,7 +5875,7 @@
       "frist_maned": "",
       "publisert": "2026-09-10",
       "ingress": "Helse- og omsorgsdepartementet sender på høring forslag til lov- og forskriftsendringer for å få en varig hjemmel for det nasjonale kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementa",
@@ -6070,7 +6155,8 @@
         "Private sykehus",
         "Privatpraktiserende Fysioterapeuters Forbund",
         "Prima Omsorg",
-        "Program for helseøkonomi i Bergen proLAR",
+        "Program for helseøkonomi i Bergen",
+        "proLAR",
         "Psykiatrialliansen BIL",
         "Pårørendealliansen",
         "Pårørendesenteret",
@@ -6136,6 +6222,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "db984834479b",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -6143,7 +6230,7 @@
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 19,
         "Organisasjoner": 133,
-        "Andre": 184
+        "Andre": 185
       },
       "regionflagg": [
         "Alle kommuner",
@@ -6166,7 +6253,7 @@
       "frist_maned": "",
       "publisert": "2026-09-24",
       "ingress": "Arbeids- og inkluderingsdepartementet sender på høring forslag til permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven for å håndtere en eventuell fremtidig situasjon med høye",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -6362,7 +6449,11 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Innvandring og integrering",
+        "Ukraina"
+      ],
+      "detalj_versjon": 2,
       "id": "2f947152205b",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -6394,7 +6485,7 @@
       "frist_maned": "",
       "publisert": "2026-09-15",
       "ingress": "Samferdselsdepartementet sender i dag en transportfaglig utredning om FOT-rutene i Nord-Norge ut på høring. Utredningen inneholder blant annet vurderinger om ruteføring, kapasitet, frekvens, korrespondanser og andre krav til flytilbudet. Sammen med",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Amapola Flyg AB dba populAir",
@@ -6424,7 +6515,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Luftfart"
+      ],
+      "detalj_versjon": 2,
       "id": "146a716873d9",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 4,
@@ -6474,7 +6568,7 @@
       "frist_maned": "",
       "publisert": "2026-09-18",
       "ingress": "Nærings- og fiskeridepartementet sender med dette forslag til forskrift om fullsortimentsgrossister i dagligvarebransjen på offentlig høring.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokatfirma Dla Piper Norway DA",
@@ -6678,6 +6772,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "187fb3b88761",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -6704,7 +6799,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Kunnskapsdepartementet sender med dette NOU 2026: 10 Fellesskolen - Bærebjelken i framtidens samfunn på høring.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -6843,7 +6938,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Skole og videregående opplæring"
+      ],
+      "detalj_versjon": 2,
       "id": "ab01fdcf2eec",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -6875,7 +6973,7 @@
       "frist_maned": "",
       "publisert": "2026-09-22",
       "ingress": "Forsvarsdepartementet sender med dette rapport fra utvalget for evaluering av lov om Etterretningstjenestens virke på høring.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "ABELIA",
@@ -6999,7 +7097,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Forsvar"
+      ],
+      "detalj_versjon": 2,
       "id": "2914c81e932e",
       "partkategorier": {
         "Statsforvaltere": 7,
@@ -7027,7 +7128,7 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring forslag til endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner. Endringene foreslås gjennomført ved endringer i forskrift om rekvirering og utlevering av legemidler m.m.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -7113,6 +7214,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "387a95279af5",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -7144,12 +7246,15 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Strategi for besøkssentre for natur 2027-2037 er på åpen høring. Målet med strategien er å fastsette en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Naturmangfold"
+      ],
+      "detalj_versjon": 2,
       "id": "b49b5c684460",
       "partkategorier": {},
       "regionflagg": [],
@@ -7219,7 +7324,7 @@
       "frist_maned": "",
       "publisert": "2026-10-02",
       "ingress": "Finansdepartementet sender på høyring utkast til endringar i forskrift 1. juli 2009 nr. 956 om samtykke til overdraging av løyve og interesseoverføring etter petroleumsskattelova § 10 (§10-forskrifta).",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Den norske advokatforening",
@@ -7246,7 +7351,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Skatter og avgifter"
+      ],
+      "detalj_versjon": 2,
       "id": "56e529a56a31",
       "partkategorier": {
         "Departementer og direktorater": 6,
@@ -7270,7 +7378,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender med dette på høring et høringsnotat utarbeidet av Finanstilsynet med forslag til endringer i eiendomsmeglingsloven og eiendomsmeglingsforskriften.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -7377,7 +7485,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Finansmarkedene"
+      ],
+      "detalj_versjon": 2,
       "id": "6c8f2baaf38c",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -7404,7 +7515,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender med dette på høring et notat utarbeidet av Finanstilsynet med forslag om at det for hele finanssektoren skal være krav om tilknytning til godkjent klagenemd for å løse forbrukertvister.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -7512,7 +7623,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Finansmarkedene"
+      ],
+      "detalj_versjon": 2,
       "id": "ca983dee207f",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -7539,7 +7653,7 @@
       "frist_maned": "",
       "publisert": "2026-10-05",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til to innbyrdes uavhengige endringer i politiloven.",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -7641,7 +7755,10 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Lov og rett"
+      ],
+      "detalj_versjon": 2,
       "id": "8d5dcd0258a5",
       "partkategorier": {
         "Statsforvaltere": 1,
@@ -7669,7 +7786,7 @@
       "frist_maned": "",
       "publisert": "2026-10-05",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring rapporten Tidlig tilgang til legemidler for alvorlig syke med kort forventet levetid. I rapporten vurderes det hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Arbeids- og inkluderingsdepartementet",
@@ -7744,7 +7861,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Legemidler og medisinsk utstyr"
+      ],
+      "detalj_versjon": 2,
       "id": "f4d08a80ccc3",
       "partkategorier": {
         "Departementer og direktorater": 14,
@@ -7768,7 +7888,7 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til endringer i opplæringsloven § 14-5 om å presisere at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -7891,7 +8011,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Skole og videregående opplæring"
+      ],
+      "detalj_versjon": 2,
       "id": "868dbad65877",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -7948,7 +8071,7 @@
       "frist_maned": "",
       "publisert": "2026-10-07",
       "ingress": "Kunnskapsdepartementet sender på høring forslag til endringer i lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringsloven) og lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot (privatskoleloven",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -8065,6 +8188,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "9d8000136a3b",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -8096,7 +8220,7 @@
       "frist_maned": "",
       "publisert": "2026-10-21",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til endringer i lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova) og lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot (",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -8213,7 +8337,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Skole og videregående opplæring"
+      ],
+      "detalj_versjon": 2,
       "id": "d6878ef0e7f4",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -8270,7 +8397,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til to nye rammeplaner for lærerutdanningene: Forskrift om rammeplan for lærerutdanningene og forskrift om rammeplan for de samiske lærerutdanningene. Kunnskapsdepartementet foreslår at de to",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -8440,7 +8567,10 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Høyere utdanning"
+      ],
+      "detalj_versjon": 2,
       "id": "f80136314e9f",
       "partkategorier": {
         "Alle fylkeskommuner": 1,
@@ -8470,7 +8600,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Kultur- og likestillingsdepartementet sender med dette på høring rapporten om regulering av pengespill-lignende elementer i dataspill. Rapporten er utarbeidet av Lotteri- og stiftelsestilsynet, i samarbeid med Medietilsynet, Norsk Filminstitutt og",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -8593,7 +8723,13 @@
       ],
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Familie og barn",
+        "Film og medier",
+        "Forbruker",
+        "Lotteri og pengespill"
+      ],
+      "detalj_versjon": 2,
       "id": "81abe04a558c",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -8620,7 +8756,7 @@
       "frist_maned": "",
       "publisert": "2026-10-14",
       "ingress": "Kunnskapsdepartementet sender med dette på offentlig høring forslag til endringer i forskrift om utdanningsstøtte med virkning fra studieåret 2027- 2028. Forslagene er basert på regjeringens budsjettforslag for 2027 som omtalt i Prop. 1 S (2026‒2027",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "22. juli-senteret",
@@ -8858,6 +8994,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "5d1498fe43bd",
       "partkategorier": {
         "Statsforvaltere": 7,
@@ -8886,7 +9023,7 @@
       "frist_maned": "",
       "publisert": "2026-10-15",
       "ingress": "Finansdepartementet sender med dette på høyring NOU 2026: 11 En ansvarlig, finansiell forvaltning, frå utvalet som har vurdert det etiske rammeverket for Statens pensjonsfond utland (SPU).",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "ACCR",
@@ -9006,7 +9143,11 @@
       ],
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
-      "saksfelt": [],
+      "saksfelt": [
+        "Statens pensjonsfond",
+        "Statens pensjonsfond utland (SPU)"
+      ],
+      "detalj_versjon": 2,
       "id": "adee425af343",
       "partkategorier": {
         "Kommuner og fylkeskommuner": 1,
@@ -9033,7 +9174,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Helse- og omsorgsdepartementet sender på høring rapporten Likeverdige spesialisthelsetjenester til samene i Norge. Ekspertutvalget for samiske spesialisthelsetjenester ble nedsatt 24. juni 2025 for å gjennomføre en utredning for blant annet å",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Kommunal- og distriktsdepartementet",
@@ -9176,6 +9317,7 @@
       "horingsparter_merknad": "",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "0bc5a4b145ee",
       "partkategorier": {
         "Statsforvaltere": 1,
@@ -9203,7 +9345,7 @@
       "frist_maned": "",
       "publisert": "2026-10-19",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring forslag til ny lov om fylkeskommunale tannhelsetjenester, med tilhørende regelverksendringer i pasient- og brukerrettighetsloven, helse- og omsorgstjenesteloven, spesialisthelsetjenesteloven,",
-      "hentet": "2026-10-26T21:14:01+01:00",
+      "hentet": "2026-10-26T21:16:32+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -9504,7 +9646,8 @@
         "Personskadeforbundet",
         "Preventio",
         "Prima Omsorg",
-        "Privatpraktiserende Fysioterapeuters Forbund proLAR",
+        "Privatpraktiserende Fysioterapeuters Forbund",
+        "proLAR",
         "Psykiatrialliansen BIL",
         "Pårørendealliansen",
         "Pårørendesenteret",
@@ -9571,6 +9714,7 @@
       "horingsparter_merknad": "Åpen for alle",
       "horingsparter_lenke": "",
       "saksfelt": [],
+      "detalj_versjon": 2,
       "id": "e4f7f112e5d1",
       "partkategorier": {
         "Alle kommuner": 1,
@@ -9579,7 +9723,7 @@
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 24,
         "Organisasjoner": 141,
-        "Andre": 192
+        "Andre": 193
       },
       "regionflagg": [
         "Alle kommuner",

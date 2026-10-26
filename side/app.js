@@ -95,6 +95,7 @@
       niva: avkrysset("niva"),
       prio: prio,
       regionpart: f.regionpart.checked,
+      mottatt: f.mottatt.checked,
       utlopte: f.utlopte.checked
     };
   }
@@ -121,6 +122,7 @@
       x.checked = v.prio.indexOf(x.value) !== -1;
     });
     f.regionpart.checked = !!v.regionpart;
+    f.mottatt.checked = !!v.mottatt;
     f.utlopte.checked = !!v.utlopte;
     document.getElementById("sortering").value = v.sort || "frist";
   }
@@ -133,6 +135,7 @@
       niva: s.getAll("niva").filter(Boolean),
       prio: s.has("prio") ? s.get("prio").split(",").filter(Boolean) : STANDARD_PRIO.slice(),
       regionpart: s.get("regionpart") === "1",
+      mottatt: s.get("mottatt") === "1",
       utlopte: s.get("utlopte") === "1",
       sort: SORTERER[s.get("sort")] ? s.get("sort") : "frist"
     };
@@ -145,6 +148,7 @@
     v.niva.forEach(function (n) { s.append("niva", n); });
     if (v.prio.join(",") !== STANDARD_PRIO.join(",")) s.set("prio", v.prio.join(","));
     if (v.regionpart) s.set("regionpart", "1");
+    if (v.mottatt) s.set("mottatt", "1");
     if (v.utlopte) s.set("utlopte", "1");
     if (lesSortering() !== "frist") s.set("sort", lesSortering());
     var q = s.toString();
@@ -158,6 +162,7 @@
     if (v.niva.length && v.niva.indexOf(h.niva) === -1) return false;
     if (v.prio.indexOf(String(h.prioritet)) === -1) return false;
     if (v.regionpart && !(h.regionflagg || []).length) return false;
+    if (v.mottatt && !sikkerPostliste(h)) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
       var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori,
@@ -295,6 +300,23 @@
     return el("div", { klasse: "parter-blokk" }, [linje, utvid]);
   }
 
+  /** Første sikre treff i en postliste (merket «Mottatt av … kommune»), ellers null. */
+  function sikkerPostliste(h) {
+    return (h.postliste || []).filter(function (p) { return p.niva === "sikker"; })[0] || null;
+  }
+
+  /** Merket «Mottatt av Gjøvik kommune 20. oktober 2026», eller «Mulig treff …». */
+  function postlisteMerke(h) {
+    var p = sikkerPostliste(h) || (h.postliste || [])[0];
+    if (!p) return null;
+    var sikker = p.niva === "sikker";
+    var tekst = (sikker ? "Mottatt av " + p.kommune + " kommune " : "Mulig treff i " + p.kommune + " kommunes postliste ") + norskDato(p.dato);
+    var trygg = /^https?:\/\//i.test(String(p.lenke || ""));
+    return el("p", { klasse: "mottatt" + (sikker ? "" : " mottatt-mulig") }, [
+      trygg ? el("a", { href: p.lenke, tekst: tekst }) : el("span", { tekst: tekst })
+    ]);
+  }
+
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
@@ -321,6 +343,7 @@
     var innhold = el("div", { klasse: "innhold" }, [
       tittel,
       flagg,
+      postlisteMerke(h),
       el("p", { klasse: "instans", tekst: h.instans }),
       h.ingress ? el("p", { klasse: "beskrivelse", tekst: h.ingress }) : null,
       detaljer,
@@ -366,6 +389,7 @@
       deler.push("foreslått prioritet " + v.prio.map(function (p) { return PRIO_NAVN[p]; }).join(" og "));
     }
     if (v.regionpart) deler.push("bare der regionen er høringspart");
+    if (v.mottatt) deler.push("bare mottatt av Gjøvik kommune");
     if (v.utlopte) deler.push("med utløpt frist siste 30 dager");
     return "Utvalg: " + deler.join(", ") + ". Sortert etter " + sorteringsnavn() +
       ". Skrevet ut " + norskDato(tilstand.iDag) + ".";
@@ -441,21 +465,47 @@
     aktive.forEach(function (k) {
       var harData = k.status === "ok" || !!k.sist_ok;
       var apne = tilstand.horinger.filter(function (h) { return h.kilde === k.kilde && erApen(h); }).length;
+      // Postlista teller høringsbrev i 14-dagersvinduet, ikke åpne høringer.
+      var tall = k.type === "postliste" ? (k.antall || 0) + " brev" : String(apne);
       tbody.appendChild(el("tr", null, [
         el("th", { scope: "row", tekst: k.kilde }),
         statusCelle(k),
         el("td", { klasse: "kol-tid", tekst: k.sist_ok ? norskTidspunkt(k.sist_ok) : "–" }),
-        el("td", { klasse: "tall", tekst: harData ? String(apne) : "–" })
+        el("td", { klasse: "tall", tekst: harData ? tall : "–" })
       ]));
     });
     inaktive.forEach(function (k) { inaktiveListe.appendChild(el("li", { tekst: k.kilde })); });
     document.getElementById("antall-inaktive").textContent = String(inaktive.length);
     document.getElementById("inaktive").hidden = inaktive.length === 0;
 
-    var ingress = aktive.length + " kilder overvåkes automatisk.";
+    var antallKilder = aktive.filter(function (k) { return k.type !== "postliste"; }).length;
+    var ingress = antallKilder + " kilder overvåkes automatisk.";
+    aktive.filter(function (k) { return k.type === "postliste"; }).forEach(function (k) {
+      ingress += " " + k.kilde + " ble sist sjekket " + (k.hentet ? norskTidspunkt(k.hentet) : "aldri") +
+        (k.status === "ok" ? "." : ", men sjekken feilet" + (k.sist_ok ? " (sist vellykket " + norskTidspunkt(k.sist_ok) + ")." : "."));
+    });
     if (feil) ingress += " " + feil + (feil === 1 ? " kilde" : " kilder") + " kunne ikke hentes ved siste oppdatering. Se forklaringen i tabellen.";
     if (status && status.generert) ingress += " Sist oppdatert " + norskTidspunkt(status.generert) + ".";
     document.getElementById("status-ingress").textContent = ingress;
+  }
+
+  /** Seksjonen «Høringsbrev i postlista uten treff i oversikten» (de siste 60 dagene). */
+  function tegnPostliste(data) {
+    var uten = (data.journalposter || []).filter(function (j) { return !j.niva; });
+    var liste = document.getElementById("postliste-liste");
+    liste.textContent = "";
+    uten.forEach(function (j) {
+      var trygg = /^https?:\/\//i.test(String(j.lenke || ""));
+      liste.appendChild(el("li", null, [
+        el("span", { klasse: "postliste-dato", tekst: norskDato(j.dato) }),
+        el("span", { klasse: "postliste-avsender", tekst: j.avsender || "Avsender ikke vist" }),
+        trygg ? el("a", { href: j.lenke, tekst: j.tittel }) : el("span", { tekst: j.tittel })
+      ]));
+    });
+    document.getElementById("postliste-ingress").textContent = uten.length
+      ? "Gjøvik kommune har mottatt disse høringsbrevene de siste 60 dagene, men de er ikke koblet til noen høring i oversikten. De kan mangle i kildene eller ha en annen tittel der."
+      : "Alle høringsbrev i postlista de siste 60 dagene er koblet til en høring i oversikten.";
+    document.getElementById("postliste").hidden = false;
   }
 
   /** Advarsel øverst når oversikten ikke er oppdatert på lenge. */
@@ -476,15 +526,23 @@
     return /[";\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
   }
 
+  /** «20. oktober 2026», eller «mulig treff 20. oktober 2026», til CSV. */
+  function csvPostliste(h) {
+    var p = sikkerPostliste(h) || (h.postliste || [])[0];
+    if (!p) return "";
+    return (p.niva === "sikker" ? "" : "mulig treff ") + norskDato(p.dato);
+  }
+
   function lagCsv(utvalg) {
     var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet",
-      "Frist slik kilden skriver den", "Regionen er høringspart", "Høringsparter", "Saksfelt", "Lenke"]];
+      "Frist slik kilden skriver den", "Regionen er høringspart", "Høringsparter", "Saksfelt",
+      "Mottatt av Gjøvik kommune", "Lenke"]];
     utvalg.forEach(function (h) {
       var fristCsv = !h.frist ? "" : h.frist_maned ? MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : norskDato(h.frist);
       rader.push([fristCsv, h.dager === null || h.frist_maned ? "" : h.dager, h.instans,
         h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, (h.regionflagg || []).join(", "),
         (h.horingsparter || []).length ? kategoritekst(h) : (h.horingsparter_merknad || ""),
-        (h.saksfelt || []).join(", "), h.lenke]);
+        (h.saksfelt || []).join(", "), csvPostliste(h), h.lenke]);
     });
     return "﻿" + rader.map(function (r) { return r.map(csvFelt).join(";"); }).join("\r\n") + "\r\n";
   }
@@ -552,7 +610,7 @@
   }
 
   function nullstill() {
-    settFiltre({ q: "", kategori: [], niva: [], prio: STANDARD_PRIO.slice(), regionpart: false, utlopte: false, sort: "frist" });
+    settFiltre({ q: "", kategori: [], niva: [], prio: STANDARD_PRIO.slice(), regionpart: false, mottatt: false, utlopte: false, sort: "frist" });
     tegn();
     document.getElementById("sok").focus();
   }
@@ -577,6 +635,9 @@
     });
     smal.addEventListener("change", function () { if (!smal.matches) boks.open = true; });
 
+    hentJson("data/postliste_treff.json").then(tegnPostliste).catch(function () {
+      document.getElementById("postliste").hidden = true;
+    });
     Promise.allSettled([hentJson("data/horinger.json"), hentJson("data/status.json")]).then(function (svar) {
       var oppdatert = document.getElementById("oppdatert");
       if (svar[0].status !== "fulfilled") {

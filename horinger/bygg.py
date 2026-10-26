@@ -23,6 +23,7 @@ from horinger.dedup import dedupliser
 from horinger.filer import les_json, les_konfig, skriv_json
 from horinger.horingsparter import Partvurdering
 from horinger.kilder import KILDER
+from horinger.kobling import koble_postlister
 from horinger.lager import les_kilde
 from horinger.prioritet import Prioritet
 
@@ -151,6 +152,12 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
             arkiv[h["id"]] = {**h, "ny": False, "utlopt": frist.isoformat()}
 
     apne.sort(key=lambda h: (h.get("frist") is None, h.get("frist") or "", h["tittel"]))
+    # Postlistene (sprint 7): merket «Mottatt av Gjøvik kommune» og listen «uten treff».
+    for h in [*apne, *arkiv.values()]:
+        h.pop("postliste", None)
+    treff, postlistestatus = koble_postlister(
+        konfig, kildemappe, apne, arkiv, les_json(utdata / "postliste_treff.json"), i_dag_
+    )
     antall_per_kilde: dict[str, int] = {}
     for h in apne:
         antall_per_kilde[h["kilde"]] = antall_per_kilde.get(h["kilde"], 0) + 1
@@ -158,7 +165,9 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
         if s["status"] not in ("ikke overvåket", "ikke hentet"):
             s["antall"] = antall_per_kilde.get(s["kilde"], 0)
 
+    status.extend(postlistestatus)
     generert = naa.isoformat()
+    skriv_json(utdata / "postliste_treff.json", {"generert": generert, **treff})
     skriv_json(
         utdata / "horinger.json", {"generert": generert, "antall": len(apne), "horinger": apne}
     )

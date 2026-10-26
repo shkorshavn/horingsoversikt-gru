@@ -1,0 +1,1621 @@
+{
+ "merknad": "Høringene i data/horinger.json og data/arkiv.json 26.10.2026, bare feltene koblingen bruker.",
+ "horinger": [
+  {
+   "id": "2d6434f7897d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Endringer i lov om god handelsskikk i dagligvarekjeden mv. (presiseringer i god handelsskikk-standarden mv.)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005977",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "3c5369341185",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Endringer i utlendingsloven (familiegjenforening med barn m.m.)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005974",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "a9a4ccd0f169",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - endringer i forskrift om offentlig kontroll - animalsk produksjon, forordning (EU) 2019/627, som følge av forordning 2026/1406 om krav til hygieneunderøkelser for levende muslinger",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=4003",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "fd2a80340640",
+   "kilde": "Regjeringen.no",
+   "instans": "Landbruks- og matdepartementet",
+   "tittel": "Høring – Konsekvensutredning av Håmmålsfjellet-Sålekinna som vinterbeite for Fosen reinbeitedistrikt",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-konsekvensutredning-av-hammalsfjellet-salekinna-som-vinterbeite-for-fosen-reinbeitedistrikt/id3171549/",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "f5a5f66e526d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om hastetiltak for å sette politiet bedre i stand til å trygge samfunnet i en usikker tid",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005913",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "e919a623344f",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om modernisering av regelverket for offentlige søkerlister",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005981",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "385f0468346c",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om tiltak mot kjønnslemlestelse",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005912",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "4737296c2ae0",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om å stoppe internettrelaterte overgrep mot barn",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005915",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "b4a560af6edb",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til samferdelskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005984",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "665f3fa994af",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utdannings- og forskningskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005960",
+   "frist": "2026-10-26"
+  },
+  {
+   "id": "b2c43c21458e",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Forbud mot bruk av fossil gass til oppvarming",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/juni-2026/forbud-mot-bruk-av-fossil-gass-til-oppvarming/",
+   "frist": "2026-10-27"
+  },
+  {
+   "id": "e9a14bdd7b62",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Representantforslag om en nasjonal strategi for datasenterindustrien",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005979",
+   "frist": "2026-10-27"
+  },
+  {
+   "id": "67ec81a017fe",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Representantforslag om innføring av rullerende maksimal tillatt biomasse (MTB) for å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og økt verdiskaping",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005978",
+   "frist": "2026-10-27"
+  },
+  {
+   "id": "b40b58e8e0b2",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006005",
+   "frist": "2026-10-27"
+  },
+  {
+   "id": "c516cdc946d6",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utenriks- og forsvarskomiteen",
+   "tittel": "Eksport av forsvarsmateriell fra Norge og eksportkontroll i 2025",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006003",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "643a43b304c3",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Endringar i lov om medisinsk utstyr (gjennomføring av forordning (EU) 2024/568 om gebyrer og avgifter som skal betales til Det europeiske legemiddelbyrå (EMA))",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005987",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "75567d8c825c",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Endringer i trossamfunnsloven mv. (taushetsplikt)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005951",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "50813f1d030f",
+   "kilde": "Regjeringen.no",
+   "instans": "Samferdselsdepartementet",
+   "tittel": "Høring - forslag til ny ruteplan for kystruten Bergen-Kirkenes",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-ruteplan-for-kystruten-bergen-kirkenes/id3169361/",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "63cc40b248f7",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Representantforslag fra stortingsrepresentantene Marie Sneve Martinussen, Bjørnar Moxnes og Remi Sølvberg om å få kriminelle aktører ut fra barnevernet",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005985",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "6998327d63dc",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005989",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "c3023dcf4511",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Representantforslag om digital suverenitet og nasjonal kontroll over digital helseinfrastruktur",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005988",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "9cc5afca6a10",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Representantforslag om å gi stortingsrepresentanter og regjeringsmedlemmer vigselsrett",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005972",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "b58acb7cbf72",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005973",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "06015c8343c1",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Samtykke til godkjenning av EØS-komiteen si avgjerd nr. 70/2026 om innlemming av forordninga i EØS-avtalen (S-delen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005986",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "b70f48dec37e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til familie- og kulturkomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005956",
+   "frist": "2026-10-28"
+  },
+  {
+   "id": "87dd3c9c6a6a",
+   "kilde": "Regjeringen.no",
+   "instans": "Arbeids- og inkluderingsdepartementet",
+   "tittel": "Høring - Om ev. deltakelse i arbeidsmarkedstiltaket varig tilrettelagt arbeid etter fylte 67 år",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-ev.-deltakelse-i-arbeidsmarkedstiltaket-varig-tilrettelagt-arbeid-etter-fylte-67-ar/id3166867/",
+   "frist": "2026-10-30"
+  },
+  {
+   "id": "c51b51b3b5cc",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring av forskrift om tilfluktssteder",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forskrift-om-tilfluktssteder/id3166695/",
+   "frist": "2026-10-30"
+  },
+  {
+   "id": "a9743acce7d8",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høring om forslag til endringer i finanstilsynsforskriften - fordeling av utgifter på folkefinansieringsforetak",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-til-endringer-i-finanstilsynsforskriften-fordeling-av-utgifter-pa-folkefinansieringsforetak/id3171388/",
+   "frist": "2026-10-30"
+  },
+  {
+   "id": "3c2212288d2f",
+   "kilde": "Regjeringen.no",
+   "instans": "Samferdselsdepartementet",
+   "tittel": "Høring – forslag om endringer i jernbaneloven og yrkestransportloven (bedre bruk av kollektivdata)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/forslag-om-endringer-i-jernbaneloven-og-yrkestransportloven.-regler-for-bedre-bruk-av-kollektivdata/id3166929/",
+   "frist": "2026-10-30"
+  },
+  {
+   "id": "29760107df50",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til næringskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005982",
+   "frist": "2026-10-30"
+  },
+  {
+   "id": "6db50eabb3aa",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Endringer i utlendingsloven (overføring av driften av utlendingsinternatet fra politiet til kriminalomsorgen, restriksjoner under oppholdet mv.)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006007",
+   "frist": "2026-11-01"
+  },
+  {
+   "id": "c5afff646a52",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Kriminalomsorgsdirektoratets forslag til endring i straffegjennomføringslovens regler om kontrolltiltak i kriminalomsorgen",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/kriminalomsorgsdirektoratets-forslag-til-endring-i-straffegjennomforingslovens-regler-om-kontrolltiltak-i-kriminalomsorgen/id3167137/",
+   "frist": "2026-11-01"
+  },
+  {
+   "id": "2bcea3dfa851",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om raskere og skånsom utbygging av solenergi",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005939",
+   "frist": "2026-11-02"
+  },
+  {
+   "id": "da794dfc23c7",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om å forby jakt på ekorn",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005991",
+   "frist": "2026-11-02"
+  },
+  {
+   "id": "6852b0df3344",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om å forby reklame for fossil energi",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005992",
+   "frist": "2026-11-02"
+  },
+  {
+   "id": "922068c3201e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om å lovliggjøre og legge til rette for pluggbare solceller og batterier",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005990",
+   "frist": "2026-11-02"
+  },
+  {
+   "id": "af2e157b59ab",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om å stanse opptrappingsplanen for CO2-avgiften",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005993",
+   "frist": "2026-11-02"
+  },
+  {
+   "id": "4b2b143e613d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Representantforslag om et trygt og sikkert institusjonsbarnevern",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005999",
+   "frist": "2026-11-04"
+  },
+  {
+   "id": "e8b18a9a7937",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om å forby koranskoler med overnatting og innføre nytt straffebud mot negativ sosial kontroll",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006004",
+   "frist": "2026-11-04"
+  },
+  {
+   "id": "17796e18616d",
+   "kilde": "Regjeringen.no",
+   "instans": "Arbeids- og inkluderingsdepartementet",
+   "tittel": "Høring - Forslag til særordning om overgang til annen oppholdstillatelse på grunnlag av arbeid for fordrevne med kollektiv beskyttelse",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-en-sarordning-om-overgang-til-annen-oppholdsstatus-pa-grunnlag-av-arbeid-for-fordrevne-fra-ukraina-med-midlertidig-kollektiv-beskyttelse/id3172986/",
+   "frist": "2026-11-05"
+  },
+  {
+   "id": "87b13fc8a9cd",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Høring av forslag til forskrift om justering av karbonpris ved innføring av varer til EØS (CBAM-forskriften)",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/horing-av-forslag-til-forskrift-om-justering-av-karbonpris-ved-innforing-av-varer-til-eos-cbam-forskriften/",
+   "frist": "2026-11-06"
+  },
+  {
+   "id": "90ebc00576f2",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsforslag om endring i § 96 (om uavhengig påtalemyndighet); Grunnlovsforslag om endring i § 96 (om uavhengig offentlig påtale)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006002",
+   "frist": "2026-11-09"
+  },
+  {
+   "id": "0fac555760ba",
+   "kilde": "Regjeringen.no",
+   "instans": "Arbeids- og inkluderingsdepartementet",
+   "tittel": "Høring - Forslag til endring i trygderettsloven mv. (annengangsbehandling av vedtak om sakskostnader etter fvl. § 36)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endring-i-trygderettsloven-mv.-annengangsbehandling-av-vedtak-om-sakskostnader-etter-fvl.-36/id3173635/",
+   "frist": "2026-11-09"
+  },
+  {
+   "id": "3e967a8c63c8",
+   "kilde": "Direktoratet for medisinske produkter",
+   "instans": "Direktoratet for medisinske produkter (DMP)",
+   "tittel": "Høring - forslag til endringer i grossistforskriften §§ 5 og 5a",
+   "lenke": "https://www.dmp.no/nyheter/horing---forslag-til-endringer-i-grossistforskriften--5-og-5a",
+   "frist": "2026-11-09"
+  },
+  {
+   "id": "8590425183d7",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Høring av endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/horing-av-endringer-i-forurensningsforskriften--kapittel-20-om-mottak-og-handtering-av-avfall-fra-skip/",
+   "frist": "2026-11-09"
+  },
+  {
+   "id": "eb7e8a64289f",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Espoo - Høring av søknad om å etablere havneanlegg i Strömstad kommune, Sverige",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/espoo---horing-av-soknad-om-a-etablere-havneanlegg-i-stromstad-kommune-sverige/",
+   "frist": "2026-11-10"
+  },
+  {
+   "id": "0a21171f7c9c",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring - forslag til endringer i utlendingsloven § 34 - utvidelse av antall år det kan gis midlertidig kollektiv beskyttelse",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-utlendingsloven-34-utvidelse-av-antall-ar-det-kan-gis-midlertidig-kollektiv-beskyttelse/id3177598/",
+   "frist": "2026-11-10"
+  },
+  {
+   "id": "a707facb1eff",
+   "kilde": "Regjeringen.no",
+   "instans": "Klima- og miljødepartementet",
+   "tittel": "Høring - Rapport fra ekspertutvalget om klimatilpasning",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-rapport-fra-ekspertutvalget-om-klimatilpasning/id3169447/",
+   "frist": "2026-11-11"
+  },
+  {
+   "id": "3bcccf9aedbf",
+   "kilde": "Skatteetaten",
+   "instans": "Skatteetaten",
+   "tittel": "Høring – Endringer i overgangsregler til innkrevingsloven mv.",
+   "lenke": "https://www.skatteetaten.no/rettskilder/type/horinger/horing---endringer-i-overgangsregler-til-innkrevingsloven-mv/",
+   "frist": "2026-11-11"
+  },
+  {
+   "id": "defdb6b438fe",
+   "kilde": "Innlandet fylkeskommune",
+   "instans": "Innlandet fylkeskommune",
+   "tittel": "Planprogram på høring: Regional plan for nettinfrastrukturen for energi",
+   "lenke": "https://innlandetfylke.no/politikk/horinger/planprogram-pa-horing-regional-plan-for-nettinfrastrukturen-for-energi.81920.aspx",
+   "frist": "2026-11-11"
+  },
+  {
+   "id": "8af939d61ec0",
+   "kilde": "Regjeringen.no",
+   "instans": "Kultur- og likestillingsdepartementet",
+   "tittel": "Høring - forslag til endringer i kringkastingsforskriften",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-kringkastingsforskriften/id3173432/",
+   "frist": "2026-11-12"
+  },
+  {
+   "id": "48b91a5d6241",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Representantforslag om stemmerett ved kommune- og fylkestingsvalg",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005994",
+   "frist": "2026-11-12"
+  },
+  {
+   "id": "f644746b0c53",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høring - gulv for risikovekting av boliglån og næringseiendomslån",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-gulv-for-risikovekting-av-boliglan-og-naringseiendomslan/id3173204/",
+   "frist": "2026-11-13"
+  },
+  {
+   "id": "2d365b86661f",
+   "kilde": "Nkom",
+   "instans": "Nasjonal kommunikasjonsmyndighet (Nkom)",
+   "tittel": "Høring av utlysningsvilkår og tildelingsregler for lokale FM-sendernett",
+   "lenke": "https://nkom.no/hoeringer/horing-av-utlysningsvilkar-og-tildelingsregler-for-lokale-fm-sendernett",
+   "frist": "2026-11-13"
+  },
+  {
+   "id": "72aaf5ad5099",
+   "kilde": "Innlandet fylkeskommune",
+   "instans": "Innlandet fylkeskommune",
+   "tittel": "Oppstart av reguleringsplanarbeid for fv. 213 Skog bru i Ringsaker kommune",
+   "lenke": "https://innlandetfylke.no/politikk/horinger/oppstart-av-reguleringsplanarbeid-for-fv-213-skog-bru-i-ringsaker-kommune.82328.aspx",
+   "frist": "2026-11-13"
+  },
+  {
+   "id": "ddda7ca52c53",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Redegjørelse av forsvarsministeren om styring og kontroll i forsvarssektoren",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005976",
+   "frist": "2026-11-13"
+  },
+  {
+   "id": "20fd07d6b54e",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring - NOU 2024: 24 Prøvd på nytt og NOU 2026: 3 Straffeforfølgelsen av Viggo Kristiansen",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-nou-2024-24-provd-pa-nytt-og-nou-2026-3-straffeforfolgelsen-av-viggo-kristiansen/id3164414/",
+   "frist": "2026-11-15"
+  },
+  {
+   "id": "9663429b6c14",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Forslag til endring av produktforskriftens kapittel 4 om persistente organiske forbindelser - klorpyrifos",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/forslag-til-endring-av-produktforskriftens-kapittel-4-om-persistente-organiske-forbindelser---klorpyrifos/",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "958fc8782702",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Gjennomføring av basisrettsakt (2025/2457) - omfordeling av oppgaver på kjemikalieområdet til EU-byråene",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/gjennomforing-av-basisrettsakt-20252457---omfordeling-av-oppgaver-pa-kjemikalieomradet-til-eu-byraene/",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "6a72fcd2b2b8",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsforslag om endring i § 96 (om uavhengig offentlig påtale)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006001",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "6bc275fdff17",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsforslag om endring i § 96 (om uavhengig påtalemyndighet)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006000",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "51bf7e74bd34",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsforslag om ny 112 a (om viltlevende marine ressurser)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005996",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "d2d3f10da432",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsforslag om ny § 112 a (om at de viltlevende marine ressursene tilhører fellesskapet og skal komme kystsamfunnene til gode)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005998",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "d4361e9939e9",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Grunnlovsframlegg om ny § 120 b (om norsk som nasjonalt hovudspråk)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005995",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "77e746e4c4a7",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring – Forslag til endring i flere dyrehelseforskrifter om endret listeføring og kategorisering for visse dyresykdommer og unntak ved forflytning av hest i transitt",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=4013",
+   "frist": "2026-11-17"
+  },
+  {
+   "id": "591162fc8480",
+   "kilde": "Innlandet fylkeskommune",
+   "instans": "Innlandet fylkeskommune",
+   "tittel": "Oppstart reguleringsplan fv. 187 Ringgata i Hamar",
+   "lenke": "https://innlandetfylke.no/politikk/horinger/oppstart-reguleringsplan-fv-187-ringgata-i-hamar.83031.aspx",
+   "frist": "2026-11-18"
+  },
+  {
+   "id": "82434d4968e1",
+   "kilde": "Regjeringen.no",
+   "instans": "Nærings- og fiskeridepartementet",
+   "tittel": "Høring - revidert forslag til forskrift om oppdragsgivers plikt til å sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing2/id3175238/",
+   "frist": "2026-11-19"
+  },
+  {
+   "id": "0da38d05e171",
+   "kilde": "Regjeringen.no",
+   "instans": "Samferdselsdepartementet",
+   "tittel": "Høring om risikoreduserende tiltak i bussanskaffelser",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-risikoreduserende-tiltak-i-bussanskaffelser/id3170830/",
+   "frist": "2026-11-19"
+  },
+  {
+   "id": "f0a7695c12e1",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - Forslag om at enkelte næringsmiddelforskrifter skal gjelde for Svalbard",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3922",
+   "frist": "2026-11-20"
+  },
+  {
+   "id": "3943a26ad125",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring - forslag til endringer i utlendingsforskriften (utvikling og testing av IT-systemer i utlendingsforvaltningen mv.)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-utlendingsforskriften-utvikling-og-testing-av-it-systemer-i-utlendingsforvaltningen-mv/id3173791/",
+   "frist": "2026-11-20"
+  },
+  {
+   "id": "ce28d7268a81",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring - forslag til forskrift om deling av taushetsbelagte opplysninger og behandling av personopplysninger i arbeidet mot økonomisk kriminalitet (ø-kriminformasjonsforskriften)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-til-forskrift-om-deling-av-taushetsbelagte-opplysninger-og-behandling-av-personopplysninger-i-arbeidet-mot-okonomisk-kriminalitet-o-kriminformasjonsforskriften/id3170511/",
+   "frist": "2026-11-20"
+  },
+  {
+   "id": "95b6fe293927",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring – Innføring av krav til elektronisk sprøytejournal",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=4000",
+   "frist": "2026-11-20"
+  },
+  {
+   "id": "457f1ecd097a",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høyring Forskrift om tilbakebetaling av utdanningslån og forskrift om godkjenning for utdanningsstøtte i Norge",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/hoyring-forskrift-om-tilbakebetaling-av-utdanningslan-forskrift-om-godkjenning-for-utdanningsstotte-i-norge/id3176758/",
+   "frist": "2026-11-23"
+  },
+  {
+   "id": "b49bc7affad8",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Carbon Centric søker om tillatelse til karbonfangstanlegg ved Solør Bioenergi Kirkenær",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/carbon-centric-soker-om-tillatelse-til-karbonfangstanlegg-ved-solor-bioenergi-kirkenar/",
+   "frist": "2026-11-24"
+  },
+  {
+   "id": "b5d10c057333",
+   "kilde": "Skatteetaten",
+   "instans": "Skatteetaten",
+   "tittel": "Høring – Forslag til endringer på skatteregnskapsområdet",
+   "lenke": "https://www.skatteetaten.no/rettskilder/type/horinger/horing--forslag-til-endringer-pa-skatteregnskapsomradet/",
+   "frist": "2026-11-24"
+  },
+  {
+   "id": "cb9a1cb566ff",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Endring i animaliebiproduktforskriften - endring i lista over fôring av åtselsfugler og nye regler for visse biodrivstoffer",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3953",
+   "frist": "2026-11-25"
+  },
+  {
+   "id": "ef6918aedd9c",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Høring av endringer i Reach-forskriften – oppdatering av vedlegg XVII post 28-30 (CMR-stoffer)",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/horing-av-endringer-i-reach-forskriften--oppdatering-av-vedlegg-xvii-post-28-30-cmr-stoffer-/",
+   "frist": "2026-11-25"
+  },
+  {
+   "id": "4de54c79db37",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om fruktjuice og lignende produkter (juiceforskriften)",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3978",
+   "frist": "2026-11-26"
+  },
+  {
+   "id": "d0438f3adce5",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om honning",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3977",
+   "frist": "2026-11-26"
+  },
+  {
+   "id": "00d72e53715a",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om kondensert melk og melkepulver - gjennomføring av Direktiv (EU) 2024/1438",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3979",
+   "frist": "2026-11-26"
+  },
+  {
+   "id": "165c112f3a1b",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om syltetøy og lignende produkter - gjennomføring av direktiv (EU) 2024/1438",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3980",
+   "frist": "2026-11-26"
+  },
+  {
+   "id": "c8305ff88bfd",
+   "kilde": "DSB",
+   "instans": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+   "tittel": "Endringer i sivilforsvarsforskriften",
+   "lenke": "https://www.dsb.no/horinger/horinger/endringer-i-sivilforsvarsforskriften/",
+   "frist": "2026-11-27"
+  },
+  {
+   "id": "4b0dae140bf8",
+   "kilde": "Regjeringen.no",
+   "instans": "Kultur- og likestillingsdepartementet",
+   "tittel": "Høring - forslag til endringer i pengespillforskriften",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-pengespillforskriften/id3171815/",
+   "frist": "2026-11-29"
+  },
+  {
+   "id": "10f5a678155b",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om parkeringsforskriften (21-219359)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-parkeringsforskriften-21-219359/",
+   "frist": "2026-11-30"
+  },
+  {
+   "id": "ff02aceeac6b",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høyring - teknisk revisjon av forskriftene til petroleumsskattelova",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/hoyring-teknisk-revisjon-av-forskriftene-til-petroleumsskattelova/id3178316/",
+   "frist": "2026-11-30"
+  },
+  {
+   "id": "23eea50c7f1b",
+   "kilde": "NVE",
+   "instans": "NVE",
+   "tittel": "Forslag til endringer i økodesignforskriften (eksterne strømkilder, endring av hviletilstand og tørketromler) og energimerkeforskriften for produkter (endring av tørketromler)",
+   "lenke": "https://www.nve.no/om-nve/regelverk/forskriftsendringer-paa-hoering/forslag-til-endringer-i-oekodesignforskriften-eksterne-stroemkilder-endring-av-hviletilstand-og-toerketromler-og-energimerkeforskriften-for-produkter-endring-av-toerketromler/",
+   "frist": "2026-12-01"
+  },
+  {
+   "id": "9c349cfc8058",
+   "kilde": "Regjeringen.no",
+   "instans": "Landbruks- og matdepartementet",
+   "tittel": "Høring - Forslag til endringer i forskrift om Omsetningsrådets myndighet vedrørende markedsregulering for jordbruksråvarer (rammeforskriften)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-forskrift-om-omsetningsradets-myndighet-vedrorende-markedsregulering-for-jordbruksravarer-rammeforskriften/id3167476/",
+   "frist": "2026-12-01"
+  },
+  {
+   "id": "ddf56ca9d760",
+   "kilde": "Regjeringen.no",
+   "instans": "Kommunal- og distriktsdepartementet",
+   "tittel": "Høring - Høring om endring i forskrift om ordningen Arktis 2030",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-horing-om-endring-i-forskrift-om-ordningen-arktis-2030/id3176630/",
+   "frist": "2026-12-01"
+  },
+  {
+   "id": "fa996d9148ed",
+   "kilde": "Regjeringen.no",
+   "instans": "Forsvarsdepartementet",
+   "tittel": "Høring av forslag til forskriftsfestet tilskuddordning for økt produksjonskapasitet i norsk forsvarsindustri",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskriftsfestet-tilskuddordning-for-okt-produksjonskapasitet-i-norsk-forsvarsindustri/id3178998/",
+   "frist": "2026-12-01"
+  },
+  {
+   "id": "af99c30570fd",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring om utvidet bachelor i militære ingeniørfag og ledelse og oppheving av rammeplan ingeniørutdanning",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-utvidet-bachelor-i-militare-ingeniorfag-og-ledelse-og-oppheving-av-rammeplan-ingeniorutdanning/id3176947/",
+   "frist": "2026-12-01"
+  },
+  {
+   "id": "5a4d402d9439",
+   "kilde": "Regjeringen.no",
+   "instans": "Nærings- og fiskeridepartementet",
+   "tittel": "Høring av Europakommisjonens forslag til ny anskaffelsesforordning",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-europakommisjonens-forslag-til-ny-anskaffelsesforordning/id3179142/",
+   "frist": "2026-12-02"
+  },
+  {
+   "id": "3fd5999d299f",
+   "kilde": "Regjeringen.no",
+   "instans": "Nærings- og fiskeridepartementet",
+   "tittel": "Høring om forslag om endringer i CO2-kompensasjonsordningen for fiskeflåten",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-om-endringer-i-co2-kompensasjonsordningen-for-fiskeflaten/id3180079/",
+   "frist": "2026-12-02"
+  },
+  {
+   "id": "38d410f34588",
+   "kilde": "Skatteetaten",
+   "instans": "Skatteetaten",
+   "tittel": "Høring - forslag om endringer i avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer",
+   "lenke": "https://www.skatteetaten.no/rettskilder/type/horinger/horing---forslag-om-endringer-i-avgiftsfritaket-for-sukker-som-brukes-i-ervervsmessig-produksjon-av-andre-varer/",
+   "frist": "2026-12-03"
+  },
+  {
+   "id": "4eeabc29922d",
+   "kilde": "Regjeringen.no",
+   "instans": "Digitaliserings- og forvaltningsdepartementet",
+   "tittel": "Høyring - forslag til lov om digitale marknader - gjennomføring av EUs forordning (EU) 2022/1925 om opne og rettferdige marknader i den digitale sektoren",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/hoyring-forslag-til-lov-om-digitale-marknader-gjennomforing-av-eus-forordning-eu-20221925-om-opne-og-rettferdige-marknader-i-den-digitale-sektoren/id3180127/",
+   "frist": "2026-12-03"
+  },
+  {
+   "id": "f84de76c0415",
+   "kilde": "Helsedirektoratet",
+   "instans": "Helsedirektoratet",
+   "tittel": "Retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten",
+   "lenke": "https://www.helsedirektoratet.no/horinger/retningslinje-for-mat-maltider-og-ernaering-i-helse-og-omsorgstjenesten",
+   "frist": "2026-12-03"
+  },
+  {
+   "id": "1cd059791b68",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Høring av forslag til endringer i klimakvoteforskriften – dokumentasjon på oppfyllelse av bærekrafts- og utslippsreduksjonskriterier",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/horing-av-forslag-til-endringer-i-klimakvoteforskriften--dokumentasjon-pa-oppfyllelse-av-barekrafts--og-utslippsreduksjonskriterier/",
+   "frist": "2026-12-04"
+  },
+  {
+   "id": "59ec55d3da63",
+   "kilde": "Innlandet fylkeskommune",
+   "instans": "Innlandet fylkeskommune",
+   "tittel": "Høring fv. 33 Skreia-Bilitt i Østre Toten kommune",
+   "lenke": "https://innlandetfylke.no/politikk/horinger/horing-fv-33-skreia-bilitt-i-ostre-toten-kommune.82893.aspx",
+   "frist": "2026-12-04"
+  },
+  {
+   "id": "929e7e070e99",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring: Forslag til lov- og forskriftsendringer om nasjonale e-helseløsninger, behandling av helseopplysninger, smittevern m.m",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-lov-og-forskriftsendringer-om-nasjonale-e-helselosninger-behandling-av-helseopplysninger-smittevern-m.m/id3172458/",
+   "frist": "2026-12-04"
+  },
+  {
+   "id": "006cf69022a8",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høring - adgang til valutasikring av verdipapirfonds investeringer på andelsklassenivå",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-adgang-til-valutasikring-av-verdipapirfonds-investeringer-pa-andelsklasseniva/id3177055/",
+   "frist": "2026-12-07"
+  },
+  {
+   "id": "a1692dc49017",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om hest i trafikken (21/79414-62)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-hest-i-trafikken---forslag-til-endringer-i-trafikkregler-og-forskrift-om-bruk-av-kjoretoy/",
+   "frist": "2026-12-07"
+  },
+  {
+   "id": "a1a10035e181",
+   "kilde": "Direktoratet for medisinske produkter",
+   "instans": "Direktoratet for medisinske produkter (DMP)",
+   "tittel": "Høring om endringer i forskrift for medisinsk utstyr – kvalitetsstyring og samsvarsvurdering",
+   "lenke": "https://www.dmp.no/nyheter/horing-om-endringer-i-forskrift-for-medisinsk-utstyr--kvalitetsstyring-og-samsvarsvurdering",
+   "frist": "2026-12-09"
+  },
+  {
+   "id": "db984834479b",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring - Kartleggingssystem for selvmord - forslag til lov- og forskriftsendringer",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-kartleggingssystem-for-selvmord-forslag-til-lov-og-forskriftsendringer/id3172299/",
+   "frist": "2026-12-10"
+  },
+  {
+   "id": "2f947152205b",
+   "kilde": "Regjeringen.no",
+   "instans": "Arbeids- og inkluderingsdepartementet",
+   "tittel": "Forslag til endringer i integreringsloven m.m. (permanente beredskapshjemler for å håndtere ev. fremtidige høye ankomster av asylsøkere)",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/forslag-til-endringer-i-integreringsloven-m.m.-permanente-beredskapshjemler-for-a-handtere-ev.-fremtidige-hoye-ankomster-av-asylsokere/id3173614/",
+   "frist": "2026-12-14"
+  },
+  {
+   "id": "146a716873d9",
+   "kilde": "Regjeringen.no",
+   "instans": "Samferdselsdepartementet",
+   "tittel": "Høring - Ny konkurranse om regionale ruteflyginger i Nord-Norge fra 1. november 2028",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-ny-konkurranse-om-regionale-ruteflyginger-i-nord-norge-fra-1.-november-2028/id3172071/",
+   "frist": "2026-12-15"
+  },
+  {
+   "id": "1ff7317cae1d",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om personlige kjennemerker (26-132234-8)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-personlige-kjennemerker-26-132234-8/",
+   "frist": "2026-12-15"
+  },
+  {
+   "id": "187fb3b88761",
+   "kilde": "Regjeringen.no",
+   "instans": "Nærings- og fiskeridepartementet",
+   "tittel": "Høring av forslag til forskrift om fullsortimentsgrossister i dagligvarebransjen",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskrift-om-fullsortimentsgrossister-i-dagligvarebransjen/id3173027/",
+   "frist": "2026-12-18"
+  },
+  {
+   "id": "ab01fdcf2eec",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring NOU 2026: 10 Fellesskolen Bærebjelken i framtidens samfunn",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-nou-2026-10-fellesskolen-barebjelken-i-framtidens-samfunn/id3171614/",
+   "frist": "2026-12-21"
+  },
+  {
+   "id": "2914c81e932e",
+   "kilde": "Regjeringen.no",
+   "instans": "Forsvarsdepartementet",
+   "tittel": "Høring om den uavhengige evalueringen av lov om Etterretningstjenesten",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-den-uavhengige-evalueringen-av-lov-om-etterretningstjenesten/id3171315/",
+   "frist": "2026-12-21"
+  },
+  {
+   "id": "387a95279af5",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring - endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-endringer-i-sykepleieres-og-farmasoyters-rett-til-a-rekvirere-vaksiner/id3173007/",
+   "frist": "2026-12-23"
+  },
+  {
+   "id": "b49b5c684460",
+   "kilde": "Regjeringen.no",
+   "instans": "Klima- og miljødepartementet",
+   "tittel": "Høring - Strategi for besøkssentre for natur 2027-2037",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-strategi-for-besokssentre-for-natur-2027-2037/id3173330/",
+   "frist": "2026-12-31"
+  },
+  {
+   "id": "99d3cae515d7",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Høring av forslag til endringer i forurensningsforskriften kapittel 10. Utslipp fra krematorier",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/horing-av-forslag-til-endringer-i-forurensningsforskriften-kapittel-10.-utslipp-fra-krematorier",
+   "frist": "2026-12-31"
+  },
+  {
+   "id": "9cf0a0c2008e",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring – forslag til endringer i førerkortforskriften vedlegg 1 (26-80489-6)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing--forslag-til-endringer-i-forerkortforskriften-vedlegg-1-26-80489-6/",
+   "frist": "2027-01-01"
+  },
+  {
+   "id": "56e529a56a31",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høyring - utkast til endringar i forskrift 1. juli 2009 nr. 956 om samtykke til overdraging av løyve og interesseoverføring etter petroleumsskattelova § 10 m.m.",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/hoyring-utkast-til-endringar-i-forskrift-1.-juli-2009-nr.-956-om-samtykke-til-overdraging-av-loyve-og-interesseoverforing-etter-petroleumsskattelova-10-m.m/id3174984/",
+   "frist": "2027-01-02"
+  },
+  {
+   "id": "6c8f2baaf38c",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høring - forenklinger i regler om eiendomsmegling",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forenklinger-i-regler-om-eiendomsmegling/id3178089/",
+   "frist": "2027-01-04"
+  },
+  {
+   "id": "ca983dee207f",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høring - forslag om pliktig tilslutning til godkjent klagenemd i finanssektoren",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-om-pliktig-tilslutning-til-godkjent-klagenemd-i-finanssektoren/id3178382/",
+   "frist": "2027-01-04"
+  },
+  {
+   "id": "8d5dcd0258a5",
+   "kilde": "Regjeringen.no",
+   "instans": "Justis- og beredskapsdepartementet",
+   "tittel": "Høring - forslag til endringer i politiloven - utvidelse av fristen for innbringelse og adgang til å stille krav om skikkethet ved opptak til videreutdanning og høyere grads studier ved Politihøgskolen",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-politiloven-utvidelse-av-fristen-for-innbringelse-og-adgang-til-a-stille-krav-om-skikkethet-ved-opptak-til-videreutdanning-og-hoyere-grads-studier-ved-politihogskolen/id3175552/",
+   "frist": "2027-01-04"
+  },
+  {
+   "id": "f4d08a80ccc3",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring av rapporten - Tidlig tilgang til legemidler for alvorlig syke med kort forventet levetid",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-rapporten-tidlig-tilgang-til-legemidler-for-alvorlig-syke-med-kort-forventet-levetid/id3176304/",
+   "frist": "2027-01-05"
+  },
+  {
+   "id": "868dbad65877",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring av forslag om å presisere i opplæringsloven at skolene kan tilby elever å være med på gudstjenester og andre seremonier knyttet til religion og livssyn",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-om-a-presisere-i-opplaringsloven-at-skolene-kan-tilby-elever-a-vare-med-pa-gudstjenester-og-andre-seremonier-knyttet-til-religion-og-livssyn/id3173070/",
+   "frist": "2027-01-06"
+  },
+  {
+   "id": "b7139428bdd0",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om forskriftsendringer knyttet til gjennomføring av ny forvaltningslov (25-228389)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-forskriftsendringer-knyttet-til-gjennomforing-av-ny-forvaltningslov/",
+   "frist": "2027-01-06"
+  },
+  {
+   "id": "9d8000136a3b",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Forslag til endringer i opplæringsloven og privatskoleloven om plikt til smågruppeundervisning og fjerning av krav om leksehjelp",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-opplaringsloven-og-privatskolen-smagruppeundervisning-og-leksehjelp/id3170886/",
+   "frist": "2027-01-07"
+  },
+  {
+   "id": "d6878ef0e7f4",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring av forslag til endringer i enkelte saksbehandlings- og klageregler i opplæringsloven og opplæringsforskriften mv.",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-endringer-i-enkelte-saksbehandlings-og-klageregler-i-opplaringsloven-og-opplaringsforskriften-mv/id3173894/",
+   "frist": "2027-01-07"
+  },
+  {
+   "id": "7bdc37294b5b",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring – endring i vegtrafikkloven",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing--endring-i-vegtrafikkloven-20-38820/",
+   "frist": "2027-01-09"
+  },
+  {
+   "id": "f80136314e9f",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring av forslag til forskrifter om felles rammeplaner for lærerutdanninger og felles rammeplaner for samiske lærerutdanninger",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskrifter-om-felles-rammeplaner-for-larerutdanninger-og-felles-rammeplaner-for-samiske-larerutdanninger/id3172070/",
+   "frist": "2027-01-11"
+  },
+  {
+   "id": "81abe04a558c",
+   "kilde": "Regjeringen.no",
+   "instans": "Kultur- og likestillingsdepartementet",
+   "tittel": "Høring av Lotteri- og stiftelsestilsynets utredning om regulering av pengespill-lignende elementer i dataspill",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-lotteritilsynets-utredning-om-regulering-av-pengespill-lignende-elementer-i-dataspill/id3176704/",
+   "frist": "2027-01-12"
+  },
+  {
+   "id": "5d1498fe43bd",
+   "kilde": "Regjeringen.no",
+   "instans": "Kunnskapsdepartementet",
+   "tittel": "Høring Forslag til endringer i forskrift om utdanningsstøtte i Lånekassen",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forskrift-om-utdanningsstotte/id3177107/",
+   "frist": "2027-01-15"
+  },
+  {
+   "id": "adee425af343",
+   "kilde": "Regjeringen.no",
+   "instans": "Finansdepartementet",
+   "tittel": "Høyring – NOU 2026: 11 En ansvarlig, finansiell forvaltning – etisk rammeverk for Statens pensjonsfond utland",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/hoyring-nou-2026-11-en-ansvarlig-finansiell-forvaltning-etisk-rammeverk-for-statens-pensjonsfond-utland/id3177607/",
+   "frist": "2027-01-15"
+  },
+  {
+   "id": "0bc5a4b145ee",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring av rapporten - Likeverdige spesialisthelsetjenester til samene i Norge",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-rapporten-likeverdige-spesialisthelsetjenester-til-samene-i-norge/id3179072/",
+   "frist": "2027-01-19"
+  },
+  {
+   "id": "e4f7f112e5d1",
+   "kilde": "Regjeringen.no",
+   "instans": "Helse- og omsorgsdepartementet",
+   "tittel": "Høring – forslag til ny lov om fylkeskommunale tannhelsetjenester mv.",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-lov-om-fylkeskommunale-tannhelsetjenester-mv/id3178971/",
+   "frist": "2027-01-19"
+  },
+  {
+   "id": "99988a251675",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om forslag til endringer i vegtrafikkloven med tilhørende forskrifter (26-128963-17)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-endringer-i-vegtrafikkloven-26-128963-17/",
+   "frist": "2027-01-22"
+  },
+  {
+   "id": "6657b3de2e69",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Endring av definisjonen av plastholdig løst fyllmateriale i forurensningsforskrift kapittel 23A",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/oktober-2026/endring-av-definisjonen-av-plastholdig-lost-fyllmateriale-i-forurensningsforskrift-kapittel-23a/",
+   "frist": "2027-01-25"
+  },
+  {
+   "id": "16001cccdbe5",
+   "kilde": "Arbeidstilsynet",
+   "instans": "Arbeidstilsynet",
+   "tittel": "Høring - Fjerne kravet til røntgenundersøkelse ved bergarbeid",
+   "lenke": "https://www.arbeidstilsynet.no/regelverk/horinger/horing/?hearingId=3884",
+   "frist": "2027-01-31"
+  },
+  {
+   "id": "a617b9031e22",
+   "kilde": "Helsedirektoratet",
+   "instans": "Helsedirektoratet",
+   "tittel": "Breddekompetanse i legenes spesialistutdanning – innspillsrunde",
+   "lenke": "https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde",
+   "frist": "2027-02-01"
+  },
+  {
+   "id": "b8e3e04748ba",
+   "kilde": "Skatteetaten",
+   "instans": "Skatteetaten",
+   "tittel": "Høring – endringer i CO2-avgiften for kvotepliktig sjøfart",
+   "lenke": "https://www.skatteetaten.no/rettskilder/type/horinger/horing--endringer-i-co2-avgiften-for-kvotepliktig-sjofart/",
+   "frist": null
+  },
+  {
+   "id": "b6e09fc0613d",
+   "kilde": "Miljødirektoratet",
+   "instans": "Miljødirektoratet",
+   "tittel": "Foreslår endring i biocidforskriften",
+   "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/foreslar-endring-i-biocidforskriften/",
+   "frist": "2026-10-25"
+  },
+  {
+   "id": "8ccf9a1e1f99",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring – Forslag til nye regler om forflytning av kjæledyr og endring av landdyrsporbarhetsforskriften, landdyrforflytningsforskriften, dyrehelseovervåkningsforskriften og dyreimportforskriften",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=4010",
+   "frist": "2026-10-23"
+  },
+  {
+   "id": "68585951a2e7",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Datatilsynets og Personvernnemndas årsrapportar for 2025",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005975",
+   "frist": "2026-10-23"
+  },
+  {
+   "id": "7a70777c9946",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til kommunal- og forvaltningskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005964",
+   "frist": "2026-10-22"
+  },
+  {
+   "id": "d75742ac6ef8",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til energi- og miljøkomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005968",
+   "frist": "2026-10-22"
+  },
+  {
+   "id": "9c3ac34cfe6f",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - endring av forskrift om visse forurensende stoffer i næringsmidler",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=4004",
+   "frist": "2026-10-22"
+  },
+  {
+   "id": "dd31e3365c74",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Representantforslag om en mer kunnskapsorientert læreplan med en styrket lærerrolle",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005980",
+   "frist": "2026-10-21"
+  },
+  {
+   "id": "fdc8d62ff1ef",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til helse- og omsorgskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005962",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "7b92f9af882d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Representantforslag om å styrke ytringsfriheten for lærere",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005952",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "7b96a62136b2",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag om å redusere bompengebelastningen på E39 Mandal-Kristiansand",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005983",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "b86b5628e3d1",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Representantforslag om å bekjempe voldelige og ekstremistiske digitale nettverk rettet mot barn og unge",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005914",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "4b397bf9949c",
+   "kilde": "Regjeringen.no",
+   "instans": "Landbruks- og matdepartementet",
+   "tittel": "Høringsbrev – Forslag til endring i forskrift om tilskot til avløysing ved sjukdom og fødsel mv. - Oppfølging av jordbruksoppgjøret 2026 mm.",
+   "lenke": "https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-endring-i-forskrift-om-tilskot-til-avloysing-ved-sjukdom-og-fodsel-mv.-oppfolging-av-jordbruksoppgjoret-2026-mm/id3180110/",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "c2b110a488b5",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring – forslag til endringer i forskrift om plantevernmidler",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3986",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "cb6bd3d23c59",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring – Endring i forskrift om varsling ved eksport av visse farlige kjemikalier - oppføring av fention og karbosulfan i vedlegg 1",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3988",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "dc65ea5ef83d",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til ny forskrift om materialer og produkter i kontakt med drikkevann",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3951",
+   "frist": "2026-10-20"
+  },
+  {
+   "id": "11c5000cd6dc",
+   "kilde": "Landbruksdirektoratet",
+   "instans": "Landbruksdirektoratet",
+   "tittel": "Høring - Forslag til omregningsfaktor for lettmelasserte roesnitter i forskrift om omregningsfaktorer for råvarer",
+   "lenke": "https://www.landbruksdirektoratet.no/nb/om-direktoratet/horinger/horing-forslag-til-omregningsfaktor-for-lettmelasserte-roesnitter-i-forskrift-om-omregningsfaktorer-for-ravarer",
+   "frist": "2026-10-16"
+  },
+  {
+   "id": "fe6800662585",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - Forslag om endring i forskrift om tilsetningsstoffer til næringsmidler",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3962",
+   "frist": "2026-10-16"
+  },
+  {
+   "id": "5936f06eefdb",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til justiskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005971",
+   "frist": "2026-10-15"
+  },
+  {
+   "id": "beb63bbcdf95",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Representantforslag om å styrke private barnehagers medvirkning, klageadgang og rettssikkerhet gjennom konkrete endringer i finansieringsforskriften",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005949",
+   "frist": "2026-10-15"
+  },
+  {
+   "id": "07587fe2ae24",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Representantforslag om fleksibel skolestart",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005948",
+   "frist": "2026-10-15"
+  },
+  {
+   "id": "9341072057d7",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Representantforslag om en skole å bli nysgjerrig i",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005950",
+   "frist": "2026-10-15"
+  },
+  {
+   "id": "ca2477b75394",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring nr.4 2026 - Endringer i fôrtilsetningsstoff-forskriften",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3968",
+   "frist": "2026-10-15"
+  },
+  {
+   "id": "2689377980be",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Samtykke til godkjennelse av EØS-komiteens beslutning nr. 228/2026 om innlemmelse i EØS-avtalen av forordning (EU) 2023/588 om opprettelse av EUs program for sikker konnektivitet for perioden 2023–2027 og GOVSATCOM-komponenten i forordning (EU) 2021/",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005947",
+   "frist": "2026-10-14"
+  },
+  {
+   "id": "1478798deb4a",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Endringer i CO2-forskriften (26-251427)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/endringer-i-co2-forskriften-26-251427/",
+   "frist": "2026-10-14"
+  },
+  {
+   "id": "e424e3ef992e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag om å øke vektgrensen for førerkortklasse B",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005945",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "c92b35edea24",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Representantforslag om å styrke kvinners tilgang på medikamentell abort utenfor sykehus",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005936",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "2fb511e38350",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om å sikre videre drift av gasskraftverket i Hammerfest",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005937",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "bca76c71dc5d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Representantforslag om å avvise innstramminger i regulering av snus",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005935",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "fa036c390793",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag om rammebetingelser for entusiastkjøretøy",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005944",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "b237c7f6fe06",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om likere strømpriser og et sterkere forbrukervern",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005940",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "bd8949bfd0d0",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Representantforslag om likebehandling av husholdningsforbruk i kommunale boliger i ordningene for Norgespris og strømstøtte",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005938",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "7949d4aeb9eb",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Representantforslag om innføring av makspris på egenandeler knyttet til praktisk bistand",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005934",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "9165dc45a26e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag om et nasjonalt trafikklyssystem for trygge skoleveier",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005946",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "0a919ab079bc",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag fra stortingsrepresentantene Remi Sølvberg, Mímir Kristjánsson og Marie Sneve Martinussen om å si opp trafikkavtalen med Go-Ahead Norge på Sørlandsbanen",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005941",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "96e3b0a4015e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag fra stortingsrepresentantene Geir Inge Lien, Ole Herman Sveian og Bengt Fasteraune om å legge ned Jernbanedirektoratet",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005943",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "18e0a427c366",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Representantforslag fra stortingsrepresentantene Geir Inge Lien og Bengt Fasteraune om forenkling og avbyråkratisering i jernbanesektoren",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005942",
+   "frist": "2026-10-13"
+  },
+  {
+   "id": "27eb79617192",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Samferdselskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til samferdelskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005959",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "a50adbbe88cb",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Næringskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til næringskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005957",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "8444fb7ed19d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Helse- og omsorgskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til helse- og omsorgskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005963",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "5a6896cd5117",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til familie- og kulturkomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005961",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "5711d363d42b",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Energi- og miljøkomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til energi- og miljøkomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005970",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "a1f5ad46158f",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Representantforslag om en bedre politikk for å eie bolig og få bolig- og byggebransjen i gang",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005903",
+   "frist": "2026-10-12"
+  },
+  {
+   "id": "9417b1b05437",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utenriks- og forsvarskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utenriks- og forsvarskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005966",
+   "frist": "2026-10-11"
+  },
+  {
+   "id": "9ad5e988a7d4",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utenriks- og forsvarskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utenriks- og forsvarskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005967",
+   "frist": "2026-10-11"
+  },
+  {
+   "id": "8ce0635ea56e",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til kommunal- og forvaltningskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005965",
+   "frist": "2026-10-11"
+  },
+  {
+   "id": "2070c346b0c8",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Justiskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til justiskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005958",
+   "frist": "2026-10-11"
+  },
+  {
+   "id": "97248c806055",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høyring om regelverksendringar knytte til nytt løyveregister for gods- og persontransport (24-296783-9)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/hoyring-om-regelverksendringar-knytte-til-for-gods--og-persontransport-24-296783-9/",
+   "frist": "2026-10-10"
+  },
+  {
+   "id": "a06006ad8ab5",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av plantehelseforskriften",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3878",
+   "frist": "2026-10-10"
+  },
+  {
+   "id": "75898424d9a8",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Utdannings- og forskningskomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til utdannings- og forskningskomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005955",
+   "frist": "2026-10-09"
+  },
+  {
+   "id": "d39dc1403068",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Arbeids- og sosialkomiteen",
+   "tittel": "Statsbudsjettet 2027 (kapitler fordelt til arbeids- og sosialkomiteen)",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005953",
+   "frist": "2026-10-09"
+  },
+  {
+   "id": "2552ea410324",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Finanskomiteen",
+   "tittel": "Statsbudsjettet 2027",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005954",
+   "frist": "2026-10-08"
+  },
+  {
+   "id": "5f4c6ae7ebce",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Representantforslag om en tydelig og forpliktende integreringskontrakt",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005899",
+   "frist": "2026-10-07"
+  },
+  {
+   "id": "3f1bcd5f73e7",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kommunal- og forvaltningskomiteen",
+   "tittel": "Representantforslag om egenbetaling for tolketjenester etter tre års opphold i Norge",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005901",
+   "frist": "2026-10-07"
+  },
+  {
+   "id": "be4c75ac8121",
+   "kilde": "Skatteetaten",
+   "instans": "Skatteetaten",
+   "tittel": "Høring – forslag til forskrift til ny lov om særavgifter",
+   "lenke": "https://www.skatteetaten.no/rettskilder/type/horinger/horing--forslag-til-forskrift-til-ny-lov-om-saravgifter/",
+   "frist": "2026-10-05"
+  },
+  {
+   "id": "2c81b5f41c61",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om nullutslippssoner, automatisk kontroll og håndheving (26-181027)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-nullutslippssoner-automatisk-kontroll-og-handheving-26-181027/",
+   "frist": "2026-10-02"
+  },
+  {
+   "id": "181d1a4e128d",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Kontroll- og konstitusjonskomiteen",
+   "tittel": "Åpen høring i Stortingets kontroll- og konstitusjonskomité torsdag 1. oktober 2026",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005933",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "db7ed9b32e7c",
+   "kilde": "Stortinget",
+   "instans": "Stortinget, Familie- og kulturkomiteen",
+   "tittel": "Representantforslag regulering av prediksjonsmarkeder og styrket tilsyn",
+   "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005911",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "60941f0bfd92",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring – revisjon av vegnormal N601 Elektrotekniske anlegg for offentlig veg (24/153910-43)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-revisjon-av-vegnormal-n601-elektrotekniske-anlegg-for-offentlig-veg/",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "a8e1d38583b5",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om forslag til endringer i vegtrafikkloven (23-204226-28)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/forslag-til-endringer-i-vegtrafikkloven-23-204226-28/",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "7513992dac9b",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om endringer i ITS-loven og ITS-forskrifter (26-178140-2)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-endringer-i-its-loven-og-its-forskrifter-26-178140-2/",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "05756a10bbf9",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om hold av høns og kalkun",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3937",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "23f1a0351a84",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Endringer i forskrift om mellombels auka bompengetakstar i Oslo (22-134617-20)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/endringer-i-forskrift-om-mellombels-auka-bompengetakstar-i-oslo-22-134617-20/",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "96cc91cde91c",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Endring av forskrift om mellombelse auka bompengetakstar i Bergen (25-324258-7)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/endring-av-forskrift-om-mellombelse-auka-bompengetakstar-i-bergen-25-324258-7/",
+   "frist": "2026-10-01"
+  },
+  {
+   "id": "85aba100db72",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om ny forskrift om vekter og dimensjoner ved kjøring på offentlig veg (26-183316)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-ny-forskrift-om-vekter-og-dimensjoner-ved-kjoring-pa-offentlig-veg-26-183316/",
+   "frist": "2026-09-30"
+  },
+  {
+   "id": "60f4e2f7da1f",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring om forslag til endring i førerkortforskriften vedlegg 1 § 11 (26-194152-1)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-forslag-til-endring-i-forerkortforskriften-vedlegg-1--11-26-194152-1/",
+   "frist": "2026-09-28"
+  },
+  {
+   "id": "caaa6b5c59e1",
+   "kilde": "Direktoratet for medisinske produkter",
+   "instans": "Direktoratet for medisinske produkter (DMP)",
+   "tittel": "Høring om endringer i forskrift for medisinsk utstyr",
+   "lenke": "https://www.dmp.no/nyheter/horing-om-endringer-i-forskrift-for-medisinsk-utstyr",
+   "frist": "2026-09-25"
+  },
+  {
+   "id": "691ca88b7723",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring i ny mat-forskriften, kosttilskuddforskriften, forskrift om vitamintilsetning mv. til næringsmidler og forskrift om næringsmidler til særskilte grupper - nye jernforbindelser",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3983",
+   "frist": "2026-09-25"
+  },
+  {
+   "id": "24093c4f9258",
+   "kilde": "Statens vegvesen",
+   "instans": "Statens vegvesen",
+   "tittel": "Høring – revisjon av vegnormal N500 Vegtunneler (24-292547-43)",
+   "lenke": "https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-revisjon-av-vegnormal-n500-vegtunneler-24-292547-43/",
+   "frist": "2026-09-18"
+  },
+  {
+   "id": "dcd5c024bac7",
+   "kilde": "Mattilsynet",
+   "instans": "Mattilsynet",
+   "tittel": "Høring - forslag til endring av forskrift om ny mat",
+   "lenke": "https://www.mattilsynet.no/hoeringer?bId=3974",
+   "frist": "2026-09-18"
+  }
+ ]
+}

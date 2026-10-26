@@ -182,7 +182,7 @@ felles:
     sokeord: [høring, høyring, varsel om oppstart, offentlig ettersyn, innspill, konsultasjon]
     utelat_ord: [høringsuttalelse, høringsuttale, høyringsuttale, høringssvar, høyringssvar,
                  svar på høring, svar på forespørsel om høring, svar på forespørsel om
-                 høringsutt, uttalelse til, uttalelse -, innspill til, innspill -, merknad til,
+                 høringsutt, uttalelse til, uttalelse -, innspill, merknad til,
                  merknader til, merknad -, kommentar til, kommentarer til, høringsinnspill]
     virksomhet_ord: [kommune, fylkeskommune, departement, departementet, direktorat,
                      direktoratet, etaten, tilsyn, tilsynet, verket, statsforvalter,

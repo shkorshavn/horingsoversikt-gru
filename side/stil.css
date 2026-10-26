@@ -189,9 +189,28 @@ input[type="search"]::placeholder { color: var(--skog-300); }
 .prio-3 { background: transparent; border-color: var(--skog-300); color: var(--skog-300); }
 /* Regionen er høringspart: det viktigste signalet i raden, derfor rett under tittelen. */
 .regionflagg {
-  margin: 0.15rem 0 0.35rem; padding: 0.1rem 0.5rem; display: inline-block;
+  margin: 0.15rem 0.4rem 0.35rem 0; padding: 0.1rem 0.5rem; display: inline-block;
   background: var(--burgunder); color: var(--beige); border-radius: 4px; font-weight: 600;
   font-size: 0.875rem;
+}
+/* Mottatt av Gjøvik kommune (postlista). Mulige treff er lysere og stiplet. */
+.mottatt {
+  margin: 0.15rem 0.4rem 0.35rem 0; padding: 0.1rem 0.5rem; display: inline-block;
+  background: var(--turkis-700); color: var(--skog-700); border-radius: 4px; font-weight: 600;
+  font-size: 0.875rem; vertical-align: top;
+}
+.mottatt a { color: inherit; }
+.mottatt-mulig { background: transparent; border: 1px dashed var(--skog-300); font-weight: 500; }
+/* Seksjonen «uten treff» */
+.postliste { margin-top: 2.5rem; }
+.postliste-liste { list-style: none; margin: 0.6rem 0 0; padding: 0; border-top: 1px solid var(--skog-300); }
+.postliste-liste li {
+  display: grid; grid-template-columns: 9rem 14rem 1fr; gap: 0.2rem 1rem; padding: 0.45rem 0;
+  border-bottom: 1px solid var(--turkis-700); font-size: 0.9375rem; overflow-wrap: anywhere;
+}
+.postliste-dato, .postliste-avsender { color: var(--skog-300); }
+@media (max-width: 52rem) {
+  .postliste-liste li { grid-template-columns: 1fr; }
 }
 /* Høringsparter: kort kategorisering, og hele listen bak et utfoldbart felt. */
 .parter-blokk, .parter-kort { margin: 0.45rem 0 0; font-size: 0.875rem; }
@@ -312,6 +331,8 @@ thead th { background: var(--turkis-300); }
   .detaljer { order: 3; }
   .innhold:has(.parter-kort, .regionflagg) .detaljer { flex-basis: 100%; }
   .parter { display: none; }
+  .mottatt { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
+  .postliste { display: none; }
   .ny-merke { font-size: 0.75rem; }
   a { text-decoration: none; }
 }

@@ -57,6 +57,10 @@
           </div>
 
           <div class="felt">
+            <label class="valg"><input type="checkbox" id="mottatt" name="mottatt" value="1"> Bare høringer mottatt av Gjøvik kommune</label>
+          </div>
+
+          <div class="felt">
             <label class="valg"><input type="checkbox" id="utlopte" name="utlopte" value="1"> Vis høringer med utløpt frist (siste 30 dager)</label>
           </div>
 
@@ -98,6 +102,12 @@
       </div>
 
       <div id="feil" class="melding melding-feil" role="alert" hidden></div>
+
+      <section id="postliste" class="postliste" aria-labelledby="postliste-tittel" hidden>
+        <h2 id="postliste-tittel">Høringsbrev i postlista uten treff i oversikten</h2>
+        <p id="postliste-ingress" class="status-ingress"></p>
+        <ul id="postliste-liste" class="postliste-liste"></ul>
+      </section>
 
       <section class="status" aria-labelledby="status-tittel">
         <h2 id="status-tittel">Kildene</h2>

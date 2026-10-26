@@ -164,7 +164,9 @@ STATUS = {
 }
 
 
-def _lag_nettsted(mappe: Path, horinger=HORINGER, status=STATUS, arkiv=ARKIV) -> Path:
+def _lag_nettsted(
+    mappe: Path, horinger=HORINGER, status=STATUS, arkiv=ARKIV, postliste=None
+) -> Path:
     shutil.copy(ROT / "index.html", mappe / "index.html")
     shutil.copytree(ROT / "side", mappe / "side")
     (mappe / "data").mkdir()
@@ -179,6 +181,10 @@ def _lag_nettsted(mappe: Path, horinger=HORINGER, status=STATUS, arkiv=ARKIV) ->
     if arkiv is not None:
         (mappe / "data" / "arkiv.json").write_text(
             json.dumps(arkiv, ensure_ascii=False), encoding="utf-8"
+        )
+    if postliste is not None:
+        (mappe / "data" / "postliste_treff.json").write_text(
+            json.dumps(postliste, ensure_ascii=False), encoding="utf-8"
         )
     return mappe
 
@@ -399,7 +405,7 @@ def test_csv_eksport(side):
         "30. oktober 2026;13;Statens vegvesen;"
         '"Høring om æ, ø og å; «sitat» og ""anførsel""";'
         "Transport, samferdsel og infrastruktur;Direktorater og etater;1;"
-        "Høringsfrist: 2026-10-30;;;;https://example.no/d13"
+        "Høringsfrist: 2026-10-30;;;;;https://example.no/d13"
     )
     assert linjer[2] == ""
 
@@ -833,10 +839,12 @@ def test_csv_har_flagg_og_kategorier(side):
     with side.expect_download() as nedlasting:
         side.click("#eksport")
     linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
-    assert linjer[0].endswith(";Regionen er høringspart;Høringsparter;Saksfelt;Lenke")
+    assert linjer[0].endswith(
+        ";Regionen er høringspart;Høringsparter;Saksfelt;Mottatt av Gjøvik kommune;Lenke"
+    )
     assert linjer[1].endswith(
         ";Alle kommuner, KS;Alle kommuner, Kommuner og fylkeskommuner (1), "
-        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;https://example.no/d31"
+        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;;https://example.no/d31"
     )
 
 
@@ -869,3 +877,142 @@ def test_utskrift_med_hoeringsparter(nettleser, server, tmp_path):
     sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
     assert 1 <= sider <= 4, sider
     side.close()
+
+
+# ---------- Sprint 7: Gjøviks postliste ----------
+
+PL = "https://www.gjovik.kommune.no/sok-i-postliste/#/details/"
+
+
+def _med_postliste():
+    hs = []
+    for h in HORINGER["horinger"]:
+        h = dict(h)
+        if h["id"] == "d31":
+            h["postliste"] = [
+                {
+                    "kommune": "Gjøvik",
+                    "dato": "2026-10-12",
+                    "tittel": "Høring om barnehageloven",
+                    "lenke": PL + "a/1",
+                    "niva": "sikker",
+                }
+            ]
+        if h["id"] == "d13":
+            h["postliste"] = [
+                {
+                    "kommune": "Gjøvik",
+                    "dato": "2026-10-14",
+                    "tittel": "Høring om æ",
+                    "lenke": PL + "a/2",
+                    "niva": "mulig",
+                }
+            ]
+        hs.append(h)
+    status = {
+        **STATUS,
+        "kilder": [
+            *STATUS["kilder"],
+            {
+                "kilde": "Gjøviks postliste",
+                "type": "postliste",
+                "status": "ok",
+                "hentet": OK,
+                "sist_ok": OK,
+                "antall": 7,
+            },
+        ],
+    }
+    postliste = {
+        "generert": OK,
+        "journalposter": [
+            {
+                "id": "s",
+                "kommune": "Gjøvik",
+                "dato": "2026-10-14",
+                "avsender": "Samediggi Sametinget",
+                "tittel": "Høring - Behov for samisk tilbud",
+                "lenke": PL + "b/3",
+                "niva": "",
+            },
+            {
+                "id": "p",
+                "kommune": "Gjøvik",
+                "dato": "2026-10-10",
+                "avsender": "",
+                "tittel": "Høring om noe",
+                "lenke": PL + "b/4",
+                "niva": "",
+            },
+            {
+                "id": "k",
+                "kommune": "Gjøvik",
+                "dato": "2026-10-12",
+                "avsender": "KD",
+                "tittel": "Høring om barnehageloven",
+                "lenke": PL + "a/1",
+                "niva": "sikker",
+            },
+        ],
+    }
+    return {**HORINGER, "horinger": hs}, status, postliste
+
+
+@pytest.fixture
+def side_pl(nettleser, server, tmp_path):
+    hs, status, postliste = _med_postliste()
+    s = _apne(nettleser, server(_lag_nettsted(tmp_path, hs, status, postliste=postliste)))
+    yield s
+    assert s.feil == [], s.feil
+    s.close()
+
+
+def test_merke_mottatt_og_mulig(side_pl):
+    sikker = side_pl.locator('.hoering[data-id="d31"] .mottatt')
+    assert sikker.inner_text() == "Mottatt av Gjøvik kommune 12. oktober 2026"
+    assert sikker.locator("a").get_attribute("href") == PL + "a/1"
+    mulig = side_pl.locator('.hoering[data-id="d13"] .mottatt')
+    assert mulig.inner_text() == "Mulig treff i Gjøvik kommunes postliste 14. oktober 2026"
+    assert "mottatt-mulig" in mulig.get_attribute("class")
+    assert side_pl.locator('.hoering[data-id="d14"] .mottatt').count() == 0
+
+
+def test_filter_bare_mottatt(side_pl):
+    side_pl.check("#mottatt")
+    assert _titler(side_pl) == ["Høring om barnehageloven"]  # bare sikre treff
+    assert "mottatt=1" in side_pl.url
+    assert "bare mottatt av Gjøvik kommune" in side_pl.inner_text("#utskrift-info")
+    side_pl.click("#nullstill")
+    assert not side_pl.is_checked("#mottatt")
+
+
+def test_seksjon_uten_treff(side_pl):
+    assert side_pl.is_visible("#postliste")
+    rader = side_pl.locator("#postliste-liste li")
+    assert rader.count() == 2  # det koblede brevet vises ikke her
+    assert rader.nth(0).inner_text().split("\n") == [
+        "14. oktober 2026",
+        "Samediggi Sametinget",
+        "Høring - Behov for samisk tilbud",
+    ]
+    assert "Avsender ikke vist" in rader.nth(1).inner_text()
+
+
+def test_status_for_postlista(side_pl):
+    rad = _rad(side_pl, "Gjøviks postliste")
+    assert rad.locator("td.tall").inner_text() == "7 brev"
+    ingress = side_pl.inner_text("#status-ingress")
+    assert ingress.startswith("7 kilder overvåkes automatisk.")  # postlista telles ikke
+    assert "Gjøviks postliste ble sist sjekket 17. oktober 2026 kl. 10.01." in ingress
+
+
+def test_csv_har_mottatt(side_pl):
+    side_pl.fill("#sok", "barnehageloven")
+    with side_pl.expect_download() as nedlasting:
+        side_pl.click("#eksport")
+    linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
+    assert linjer[1].endswith(";12. oktober 2026;https://example.no/d31")
+
+
+def test_seksjonen_skjules_uten_data(side):
+    assert side.is_hidden("#postliste")

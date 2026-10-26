@@ -1,0 +1,28 @@
+# La Googlebot (vanlig søk) hente alt
+User-agent: Googlebot
+Disallow:
+
+# La alle andre søkemotorer hente alt også
+User-agent: *
+Disallow:
+
+# MEN: Blokker Google-Extended (AI)
+User-agent: Google-Extended
+Disallow: /*.pdf$
+
+# Blokker OpenAI GPTBot (AI)
+User-agent: GPTBot
+Disallow: /*.pdf$
+
+# Blokker PerplexityBot (AI)
+User-agent: PerplexityBot
+Disallow: /*.pdf$
+
+# Blokker Anthropic/Claude (AI)
+User-agent: ClaudeBot
+Disallow: /*.pdf$
+User-agent: Claude-User
+Disallow: /*.pdf$
+
+Sitemap: https://www.miljodirektoratet.no/sitemap.xml
+Sitemap: https://www.miljodirektoratet.no/chemicalsearch/chemicalssitemap

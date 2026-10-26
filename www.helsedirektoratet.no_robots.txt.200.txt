@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /referanse/
+Disallow: /kontaktbokser/
+Disallow: /bilder/
+Disallow: /malgrupper/
+Disallow: /koder/
+Disallow: /importedcontent/
+Disallow: /search/
+Disallow: /guillotine/
+Disallow: /tags/
+Disallow: /templates/
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://www.helsedirektoratet.no/sitemap.xml

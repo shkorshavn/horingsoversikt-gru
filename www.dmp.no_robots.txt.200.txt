@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://www.dmp.no/sitemap.xml
+Disallow: /episerver/
+Disallow: /utils/

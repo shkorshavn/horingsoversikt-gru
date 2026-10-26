@@ -1,0 +1,8 @@
+﻿User-agent: *
+Disallow: /en/search
+Disallow: /nn/sok
+Disallow: /sok
+Disallow: /globalassets
+Disallow: /selma
+Disallow: /contentassets
+Disallow: /eksempler

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <title>Breddekompetanse i legenes spesialistutdanning – innspillsrunde - Helsedirektoratet</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/_/asset/helsedirektoratet:000001a178990280/static/hdir_favicon.png" />
+  <link rel="icon" type="image/x-icon" href="/_/asset/helsedirektoratet:000001a178990280/static/hdir_favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="/_/asset/helsedirektoratet:000001a178990280/static/hdir_favicon.png" />
+
+  <link rel="stylesheet" type="text/css" href="/_/asset/helsedirektoratet:000001a178990280/styles/hdir.css" />
+
+  <script type="module" src="/_/asset/helsedirektoratet:000001a178990280/js/external-bundle.js"></script>
+  <script src="/_/asset/helsedirektoratet:000001a178990280/js/external-bundle.legacy.js" nomodule type="text/javascript"></script>
+
+  <script type="module" src="/_/asset/helsedirektoratet:000001a178990280/js/project-bundle.js"></script>
+  <script defer src="/_/asset/helsedirektoratet:000001a178990280/js/project-bundle.legacy.js" nomodule type="text/javascript"></script>
+
+  <script type="module" src="/_/asset/helsedirektoratet:000001a178990280/js/zoho.js"></script>
+  <script defer src="/_/asset/helsedirektoratet:000001a178990280/js/zoho.legacy.js" nomodule type="text/javascript"></script>
+
+  
+
+  <script src="https://www.google-analytics.com/analytics.js"></script>
+
+  <script>
+    window.onload = setTimeout(function () { if (location.href.indexOf('#') > -1) { location.href = location.href; } }, 400);
+  </script>
+
+  
+  
+  
+  
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Helsedirektoratet">
+  
+  
+  <meta name="silktide-cms" content="eyJjbXMiOiJFbm9uaWMiLCJlZGl0b3JVcmwiOiJodHRwczovL2hlbHNlZGlyLXhwcHJvZC5lbm9uaWMuY2xvdWQvYWRtaW4vdG9vbC9jb20uZW5vbmljLmFwcC5jb250ZW50c3R1ZGlvL21haW4vaGVsc2VkaXJla3RvcmF0ZXQvZWRpdC84MDcyNjQyOS1mZjAyLTQxOTEtODAwOS1kYTIxNjIxOTYyNmEifQ==">
+  
+    <meta name="redaksjonskontakt" content="Tormod.Myrland.Aadnesen@helsedir.no" />
+  
+    <meta name="tema-mesh-kode" content="Spesialistutdanning" />
+  
+    <meta name="innholdstype" content="Høring" />
+  
+    <meta name="maalgruppe" content="Lege-i-spesialisering" />
+  
+
+<link rel="stylesheet" href="/_/asset/no.bouvet.app.cookiepanel:00000197b0751a90/css/main.css"/><!-- Google Tag Manager -->         <script>dataLayer = [];</script>
+        <script>         var gtmScript = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);     })(window,document,'script','dataLayer','GTM-PBBJ6GX');";         window.__RUN_ON_COOKIE_CONSENT__ = window.__RUN_ON_COOKIE_CONSENT__ || {};         window.__RUN_ON_COOKIE_CONSENT__["no-bouvet-app-ga_disabled"] = function () {           var s = document.createElement("script");           s.id = "google-tagmanager-consent";           s.innerText = gtmScript;           document.getElementsByTagName("head")[0].appendChild(s);         }         </script>         <!-- End Google Tag Manager --><meta name="description">
+
+<meta property="og:title" content="Breddekompetanse i legenes spesialistutdanning – innspillsrunde">
+<meta property="og:description">
+<meta property="og:site_name" content="Helsedirektoratet">
+
+
+<meta property="og:url" content="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde">
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="no">
+
+<meta property="og:image" content="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/5f44d48e-0208-4e53-97cc-05cbb4446e8d:23b21ec69622bb4e52b9233ad2f0fc8cc9ac6f5e/hdir-logo-share-some.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Breddekompetanse i legenes spesialistutdanning – innspillsrunde">
+<meta name="twitter:description">
+
+<meta name="twitter:image:src" content="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/image/5f44d48e-0208-4e53-97cc-05cbb4446e8d:acf0c91916a09a75d1c1e89d806a4d16a28dd48a/block-1200-630/hdir-logo-share-some.png.jpg?quality=85">
+
+<meta name="twitter:site" content="@Helsedir"></head>
+
+<body id="top"><!-- Google Tag Manager (noscript) -->         <noscript><iframe name="Google Tag Manager" src="//www.googletagmanager.com/ns.html?id=GTM-PBBJ6GX"         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>         <!-- End Google Tag Manager (noscript) -->
+  <a data-noindex="true" data-skip-to-content="true" class="b-skip-to-content" href="#main" id="skip-to-article-content">Gå til hovedinnhold</a>
+  <div id="globalScopeScripts"></div>
+  <div id="header" data-name="Helsedirektoratet" data-links="[{&quot;name&quot;:&quot;Forebygging, diagnose og behandling&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/forebygging-diagnose-og-behandling&quot;},{&quot;name&quot;:&quot;Digitalisering og e-helse&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/digitalisering-og-e-helse&quot;},{&quot;name&quot;:&quot;Lov og forskrift&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/lov-og-forskrift&quot;},{&quot;name&quot;:&quot;Helseberedskap&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/helseberedskap&quot;},{&quot;name&quot;:&quot;Autorisasjon og spesialistutdanning&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/autorisasjon-og-spesialistutdanning&quot;},{&quot;name&quot;:&quot;Tilskudd og finansiering&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/tilskudd-og-finansiering&quot;},{&quot;name&quot;:&quot;Statistikk, registre og rapporter&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/statistikk-registre-og-rapporter&quot;},{&quot;name&quot;:&quot;Aktuelt&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/aktuelt&quot;},{&quot;name&quot;:&quot;English&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/english&quot;},{&quot;name&quot;:&quot;Om Helsedirektoratet&quot;,&quot;href&quot;:&quot;https://www.helsedirektoratet.no/om-oss&quot;}]" data-example-suggestions="[&quot;Spesialistgodkjenning tannlege&quot;,&quot;Helseattest førerkort&quot;,&quot;Pakkeforløp kreft spiserør&quot;,&quot;Diabetes&quot;,&quot;Tilskudd kommunalt rusarbeid&quot;,&quot;Pakkeforløp lungekreft&quot;,&quot;Kosthold barnehage&quot;,&quot;Fysisk aktivitet demens&quot;]" data-logo-href="https://www.helsedirektoratet.no/" data-logo-links="{&quot;standard&quot;:&quot;https://www.helsedirektoratet.no/_/asset/helsedirektoratet:000001a178990280/static/hdir_logo.svg&quot;,&quot;mobile&quot;:&quot;https://www.helsedirektoratet.no/_/asset/helsedirektoratet:000001a178990280/static/hdir_logo_small.svg&quot;}" data-show-outer-links="false" data-show-login="false"
+  >
+  </div>
+
+  <div class="l-container" data-noindex="true">
+    <nav class="b-breadcrumbs" aria-label="Brødsmulesti">
+      <ol>
+        <li>
+          <a href="https://www.helsedirektoratet.no/" class="b-breadcrumbs__link">Forsiden</a>
+        </li>
+        <li>
+          <a href="https://www.helsedirektoratet.no/horinger" class="b-breadcrumbs__link">Høringer</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <main id="main" data-content-id="80726429-ff02-4191-8009-da216219626a">
+    
+    
+    
+    <div data-portal-region="main">
+      
+      
+        
+          <div data-portal-component-type="layout">
+  <div class="l-container l-mt-3 l-mb-5">
+    <div class="b-article-intro">
+      <div class="b-article-intro__text">
+        <h1>
+          <span class="b-article-intro__topic"></span>
+          Breddekompetanse i legenes spesialistutdanning – innspillsrunde
+        </h1>
+        <p class="b-article-intro__intro">Helse- og omsorgsdepartementet har bedt Helsedirektoratet innrette legespesialiseringen og legespesialitetene i større grad inn mot breddekompetanse og behov i kommunal helse- og omsorgstjeneste. I forbindelse med utredningen ber vi om innspill på og vurdering av forslåtte løsninger.</p>
+      </div>
+    </div>
+
+    <section class="b-alert b-alert--success b-alert--small b-alert--inline">
+      <div class="b-alert__icon b-alert__icon--success"></div>
+      <div class="b-alert__title">
+        Ute på høring
+      </div>
+      
+
+      <div>
+        <div class="b-alert__content">Høringsfrist: 01. februar 2027</div>
+      </div>
+      
+    </section>
+    <div class="row l-mt-4">
+      <aside class="col-md-3 col-xs-12 l-mb-4">
+        <div id="sectionSidebar" data-heading="Innhold på denne siden"></div>
+      </aside>
+      <div class="col-xs-12 col-md-7 col-md-offset-1" id="article">
+        <div class="t-body-text">
+          <h2>Høringsinnspill</h2><div class="BCX2 Ltr OutlineElement SCXW71493766"><p class="BCX2 Paragraph SCXW71493766" style="margin-left:0; margin-right:0">Innspill sendes til <a class="Hyperlink SCXW71493766 BCX2" href="mailto:postmottak@helsedir.no" rel="noreferrer noopener" style="text-decoration: none; color: inherit;" target="_blank"><u class="BCX2 SCXW71493766 TextRun Underlined" data-contrast="none"><!--email_off-->postmottak@helsedir.no<!--/email_off--></u></a>.&nbsp;</p></div><div class="BCX2 Ltr OutlineElement SCXW71493766"><p class="BCX2 Paragraph SCXW71493766" style="margin-left:0; margin-right:0">Emnefeltet merkes «Breddekompetanse i legenes spesialistutdanning (TB2024-60) – innspillsrunde, arkivnummer 26/33037»</p><h2>Høringsutkast</h2><div class="BCX2 Ltr OutlineElement SCXW2969241"><ul>	<li class="BCX2 Paragraph SCXW2969241"><a href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/b15684b8-1ac6-449f-9b41-0d1d053f9709:c468759f96123b9bdafc6e7f85175b51485a9bcc/Vedlegg%201%20Breddekompetanse%20i%20legenes%20spesialistutdanning%20-%20Helsedirektoratets%20sp%C3%B8rsm%C3%A5l%20til%20innspillsrunden.pdf">Vedlegg 1: Breddekompetanse i legenes spesialistutdanning – Helsedirektoratets spørsmål til innspillsrunden (PDF)</a></li></ul></div><div class="BCX2 Ltr OutlineElement SCXW2969241"><ul>	<li class="BCX2 Paragraph SCXW2969241"><a href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/45dc3120-95ad-4851-b86e-2842958014ce:5c760ea871fb7068a6fdf5722a5f0f5068fc92b4/Vedlegg%202%20Breddekompetanse%20i%20legenes%20spesialistutdanning%20-%20Rapport%20fra%20indremedisinsk%20arbeidsgruppe%20med%20vedlegg,.pdf">Vedlegg 2: Breddekompetanse i legenes spesialistutdanning – rapport fra indremedisinsk arbeidsgruppe med vedlegg (PDF)</a></li></ul></div><div class="BCX2 Ltr OutlineElement SCXW2969241"><ul>	<li class="BCX2 Paragraph SCXW2969241"><a href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/ca4f55de-252f-4cd8-8709-1f8346bdb3a5:b7e7fcca620736378be0c05ddaee8bf309a533d3/Vedlegg%203%20Breddekompetanse%20i%20legenes%20spesialistutdanning%20-%20Rapport%20fra%20kirurgisk%20arbeidsgruppe.pdf">Vedlegg 3: Breddekompetanse i legenes spesialistutdanning – rapport fra kirurgisk arbeidsgruppe (PDF)</a></li></ul></div><div class="BCX2 Ltr OutlineElement SCXW2969241"><ul>	<li class="BCX2 Paragraph SCXW2969241"><a href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/eef7e2c9-5e7c-43ae-9a73-69b2a4a1488f:1c5f8269d482695bb9ee78cc526129d05332e33e/Vedlegg%204%20Breddekompetanse%20i%20legenes%20spesialistutdanning%20-%20Begrunnelse%20av%20dissens%20til%20anbefaling%20fra%20kirurgisk%20arbeidsgruppe.pdf">Vedlegg 4: Breddekompetanse i legenes spesialistutdanning – begrunnelse av dissens til anbefaling fra kirurgisk arbeidsgruppe (PDF)</a></li></ul></div><div class="BCX2 Ltr OutlineElement SCXW2969241"><ul>	<li class="BCX2 Paragraph SCXW2969241"><a href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/attachment/inline/45f10622-e5cd-4425-becf-67cf87665ef9:2b13835a1f0bf43790d514755c0bde8071dd6f3c/Vedlegg%205%20Breddekompetanse%20i%20legenes%20spesialistutdanning%20-%20Bakgrunnsinformasjon%20fra%20Helsedirektoratet.pdf">Vedlegg 5: Breddekompetanse i legenes spesialistutdanning – bakgrunnsinformasjon fra Helsedirektoratet (PDF)</a></li></ul><div class="BCX2 Ltr OutlineElement SCXW198792406"><h2 class="BCX2 Paragraph SCXW198792406" style="margin-left:0px; margin-right:0px">Spørsmål til innspillsrunden&nbsp;</h2></div><div><p>Vi har formulert seks spørsmål til besvarelse i vedlegg 1.&nbsp;</p></div><div><p>Regjeringen stiller krav om at personellkonsekvenser skal utredes som en del av beslutningsgrunnlaget for alle tiltak innenfor Helse- og omsorgsdepartementets sektoransvar, og Helsedirektoratet forutsetter av alle tiltak som foreslås ikke vil medføre unødvendig økning i bruk av helsepersonell.&nbsp;</p></div></div><h2>Høringsinstanser</h2><div class="BCX2 SCXW201724549"><div class="BCX2 Ltr OutlineElement SCXW201724549"><p class="BCX2 Paragraph SCXW201724549" style="margin-left:0; margin-right:0">Dette er en offentlig innspillsrunde, og alle er velkomne til å gi innspill. Følgende instanser er invitert til å gi innspill:&nbsp;</p></div><div class="BCX2 ListContainerWrapper SCXW201724549"><ul class="BCX2 BulletListStyle1 SCXW201724549">	<li class="OutlineElement Ltr SCXW201724549 BCX2" data-aria-level="1" data-aria-posinset="1" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p class="BCX2 Paragraph SCXW201724549">&nbsp;Alle regionale helseforetak&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="1" data-aria-posinset="2" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Alle helseforetak&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="1" data-aria-posinset="3" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Den norske legeforening med relevante underforeninger&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="1" data-aria-posinset="4" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Forsvaret&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="1" data-aria-posinset="5" data-font="Symbol" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Referansegruppens medlemmer, herunder representanter fra&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="1" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Alle regionale helseforetak&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="2" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Den norske legeforening med relevante underforeninger&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="3" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Forsvaret&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="4" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Aldring og helse&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="5" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>De medisinske fakultetene&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="6" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Universitetet i Stavanger&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="7" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Norsk sykepleierforbund&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="8" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Landsforeningen for hjerte, lunge og hjerneslag (LHL)&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="9" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Pårørendealliansen&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="10" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>Nasjonalforeningen for folkehelsen&nbsp;</p>	</li></ul></div><div><ul style="margin-left:40px">	<li data-aria-level="2" data-aria-posinset="11" data-font="Courier New" data-leveltext="o" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="27">	<p>ALIS/SamLIS-kontorene&nbsp;</p>	</li></ul><h2 class="BCX2 Paragraph SCXW71493766" style="margin-left:0px; margin-right:0px">Kontakt</h2><p>Seniorrådgiver <a href="mailto:ingeborg.yyldum.skogen@helsedir.no">Ingeborg Tyldum Skogen</a>&nbsp;i Helsedirektoratet</p><h2>Høringsbrev</h2><h3>Bakgrunn</h3><div class="BCX2 Ltr OutlineElement SCXW135507018"><p>Mangel på helsepersonell og behovet for breddekompetanse ble belyst gjennom Helsepersonellkommisjonens rapport «Tid for handling» og Nasjonal helse og samhandlingsplan 2024–2027. Den medisinske utviklingen har ført til økt spesialisering blant helsepersonell, og dette kombinert med måten sykehus organiseres på kan føre til at pasienter må innom flere forskjellige enheter for å få tilstrekkelig vurdering og behandling. Det oppstår følgelig en risiko for at helheten glipper. Dette gjelder særlig eldre som ofte har flere sykdommer og bruker mange legemidler. Andelen eldre i befolkningen øker og dermed øker også denne utfordringen.&nbsp;</p><div><p>Som en følge av dette fikk Helsedirektoratet oppdraget «TB2024-60 Legenes spesialistutdanning og spesialitetsstruktur» av Helse- og omsorgsdepartementet.</p><div><p>Oppdraget viser til behov for å innrette legespesialiseringen og legespesialitetene i større grad mot breddekompetanse og mot behov i den kommunal helse- og omsorgstjenesten.&nbsp;</p></div><div><p>I arbeidet har Helsedirektoratet valgt å prioritere spesialitetene med felles kirurgisk eller indremedisinsk del.&nbsp;</p></div><div><p>Helsedirektoratets utredning har hentet råd fra et rådslag i april 2024, to arbeidsgrupper og en felles referansegruppe. Arbeidsgruppene startet sitt arbeid i august 2025 og leverte sine anbefalinger juni 2026.&nbsp;</p></div><div><p>Direktoratet har også innhentet råd og kunnskap fra Sundhedsstyrelsen i Danmark. De gjorde i 2023 en større gjennomgang av spesialistutdannelsen, blant annet med tanke på breddekompetanse. Danmark har ikke spesialiteten indremedisin, men har blant annet foreslått at alle spesialiteter skal ha kompetanse til å «ivareta generelle oppgaver, som ikke hører til på spesialistnivå, som skal løses der pasienten er». Arbeidet med læringsmål er pågående.&nbsp;</p></div><div><p>Også i utredningen av ny spesialistutdanning og spesialitetsstruktur i 2014 ble det lagt til grunn at man skulle ivareta hensynet til både spiss- og breddekompetanse. Helsedirektoratet foreslo da blant annet omgjøring av indremedisin til mottaks- og indremedisin og fusjon av generell og gastroenterologisk kirurgi. Disse forslagene ble ikke innført. Indremedisin bestod som egen spesialitet, spesialiteten akutt- og mottaksmedisin ble opprettet og generell og gastroenterologisk kirurgi bestod som likestilte spesialiteter.&nbsp;</p></div><div><p>Viser for øvrig til oppdrag TB2025-58 der <em>Helsedirektoratet skal vurdere læringsmålsformatet og den tekniske innretningen på læringsmålshåndteringer for legers spesialistutdanning (vedlegg 5)</em>. Dette er et arbeid som vil starte opp i parallell med denne innspillsrunden.&nbsp;</p></div></div><div class="BCX2 Ltr OutlineElement SCXW237750996"><h3 class="BCX2 Paragraph SCXW237750996" style="margin-left:0px; margin-right:0px">Definisjon av breddekompetanse</h3><div class="BCX2 Ltr OutlineElement SCXW22512020"><p class="BCX2 Paragraph SCXW22512020" style="margin-left:0; margin-right:0">Kjernen i begrepet kan defineres slik:&nbsp;</p></div><div><p><em>Breddekompetanse innebærer å ha bred kompetanse på tvers av flere fagområder og samtidig ha kompetanse på helhetlig tilnærming og vurdering.&nbsp;</em></p></div><div><p>Det er flere spesialiteter som kan betraktes som «breddespesialiteter», ikke minst allmennmedisin, akutt- og mottaksmedisin, barne- og ungdomsmedisin, generell kirurgi, geriatri og indremedisin. Disse har overlappende kompetanse med andre spesialiteter. Den spesifikke kombinasjonen av kompetanse som ligger til hver av disse spesialitetene, er tilpasset gitte ansvarsområder, for eksempel spesifikke aldersgrupper, visse pasientgrupper, nivådelingen i helsetjenesten eller en tidsperiode i et pasientforløp.</p><div class="BCX2 Ltr OutlineElement SCXW75768223"><h3 class="BCX2 Paragraph SCXW75768223" style="margin-left:0px; margin-right:0px">Spesifikke utfordringer assosiert med mangel på breddekompetanse</h3></div></div></div></div></div></div><div class="BCX2 SCXW106045263"><div class="BCX2 Ltr OutlineElement SCXW106045263"><p class="BCX2 Paragraph SCXW106045263" style="margin-left:0; margin-right:0">I arbeidet med oppdraget er det identifisert følgende spesifikke utfordringer i helsetjenesten:&nbsp;</p></div><div><ul>	<li>Mangel på helhetlig vurdering i pasientbehandlingen&nbsp;</li></ul></div><div><ul>	<li>Økt forekomst av internhenvisninger og oppmøter på flere ulike poliklinikker&nbsp;</li></ul></div><div><ul>	<li>Høy ressursbruk som følge av økt antall vaktlinjer&nbsp;</li></ul></div><div><ul>	<li>Økte krav til beredskap generelt som følge av den sikkerhetspolitiske situasjonen&nbsp;</li></ul></div><div><ul>	<li>Utilstrekkelig operativ erfaring for kirurgiske spesialiteter</li></ul><div class="BCX2 Ltr OutlineElement SCXW258710947"><h3 class="BCX2 Paragraph SCXW258710947" style="margin-left:0px; margin-right:0px">Organisatoriske forhold</h3><div class="BCX2 Ltr OutlineElement SCXW159313395"><p class="BCX2 Paragraph SCXW159313395" style="margin-left:0; margin-right:0">Helsedirektoratet mener at utfordringene som assosieres med mangel på breddekompetanse i liten grad er forårsaket av ny spesialiststruktur eller mangel på spesialister i indremedisin og generell kirurgi i seg selv. Vi begrunner dette med at flere av utfordringene ble påpekt før innføringen av ny spesialiststruktur og at Norge har mange spesialister i indremedisin og generell kirurgi (se vedlegg 5).&nbsp;</p></div><div><p>Det er grunn til å tro at utfordringene i stor grad er forårsaket av mangel på bruk av og ivaretagelse av kompetanse, samt seksjonering av fag og avdelinger i sykehusene.&nbsp;</p></div><div><p>Bruk av og ivaretagelse av breddekompetanse forutsetter at det legges til rette for det. For å løse utfordringene vi ser i helsetjenesten, fordres det også organisatoriske endringer i sykehusene og at man blant annet jobber med endring av kultur, interne rutiner og arbeidsfordeling, samt at flere leger vurderer helheten hos pasientene de har foran seg. Et tiltak kan være å hente inspirasjon fra mindre seksjonerte sykehus, utrede tverrfaglige arbeidsformer og møteplasser for diskusjon og kompetanseheving. Dette er samarbeidsformer som brukes mange steder med hell, for eksempel i form av tverrfaglige møter (MDT-møter), men da ofte som samarbeid om høyspesialisert behandling. Det er færre eksempler på samarbeid om skrøpelighet, komorbiditet og bruk av mange legemidler.&nbsp;</p></div><div><p>De forskjellige løsningene for spesialitetsstruktur vil følgelig forutsette forskjellige kulturelle og organisatoriske endringer.</p><div class="BCX2 Ltr OutlineElement SCXW11395085"><h3 class="BCX2 Paragraph SCXW11395085" style="margin-left:0px; margin-right:0px">Arbeidsgruppenes anbefalinger</h3><div class="BCX2 Ltr OutlineElement SCXW11264526"><h4 class="BCX2 Paragraph SCXW11264526" style="margin-left:0px; margin-right:0px">Indremedisinsk arbeidsgruppes anbefalte løsning oppsummert (Modell Med A):&nbsp;</h4><div class="BCX2 Ltr OutlineElement SCXW10552107"><p class="BCX2 Paragraph SCXW10552107" style="margin-left:0; margin-right:0">Arbeidsgruppen anbefaler å fornye felles del 2 ved å benevne den felles faglig plattform (FFP), rette den mer mot breddekompetanse, endre innhold og stille krav til deltagelse i felles vakt. Gruppen ønsker å fornye innholdet i spesialiteten indremedisin slik at den blir en tydelig breddespesialitet med vid kompetanse innenfor alle medisinske fagområder.</p><div class="BCX2 Ltr OutlineElement SCXW52678322"><h4 class="BCX2 Paragraph SCXW52678322" style="margin-left:0px; margin-right:0px">Kirurgisk arbeidsgruppes anbefalte løsning oppsummert (Modell Kir A):&nbsp;</h4><div class="BCX2 Ltr OutlineElement SCXW48998898"><p class="BCX2 Paragraph SCXW48998898" style="margin-left:0; margin-right:0">Denne arbeidsgruppen anbefaler å styrke felles del 2 ved å øke felles kirurgisk kompetanse, stille krav til minimumstid (4 år) og deltagelse i felles vakt. De foreslår at innholdet i spesialiteten generell kirurgi reduseres. Gastroenterologisk kirurgi videreføres med redusert innhold, men med forutsetning om å ha spesialiteten generell kirurgi i bunn.&nbsp;</p></div><div><p>Ett medlem tar dissens fra denne anbefalingen.</p><div class="BCX2 Ltr OutlineElement SCXW260194047"><h3 class="BCX2 Paragraph SCXW260194047" style="margin-left:0px; margin-right:0px">Helsedirektoratets vurderinger av arbeidsgruppenes løsningsforslag og forslag til alternative løsninger</h3><div class="BCX2 Ltr OutlineElement SCXW174357113"><h4 class="BCX2 Paragraph SCXW174357113" style="margin-left:0px; margin-right:0px">Indremedisinsk felles del 2</h4><div class="BCX2 Ltr OutlineElement SCXW61240844"><p class="BCX2 Paragraph SCXW61240844" style="margin-left:0; margin-right:0">Den indremedisinske arbeidsgruppen foreslår at de felles læringsmålene endres med den hensikt å styrke breddekompetansen. Helsedirektoratet støtter dette.</p><div class="BCX2 Ltr OutlineElement SCXW100092619"><h4 class="BCX2 Paragraph SCXW100092619" style="margin-left:0px; margin-right:0px">Spesialitetsspesifikk del 3 for indremedisinske spesialiteter (Modell Med A)</h4><div class="BCX2 Ltr OutlineElement SCXW24935183"><p class="BCX2 Paragraph SCXW24935183" style="margin-left:0; margin-right:0">Den indremedisinske arbeidsgruppen anbefaler en løsning der man reviderer spesialiteten indremedisin. Det er i seg selv ikke en endring av spesialitetsstrukturen, men gruppen foreslår og forutsetter en organisatorisk endring i sykehusene som vil medføre behov for flere stillinger i indremedisin. Spesialiteten indremedisin vil kunne ha ansvar for fagutvikling og undervisning i breddekompetanse.&nbsp;</p></div><div><p>Spesialiteten indremedisin vil med dette forslaget trenge utvidede ansvarsområder og arbeidsarenaer. Det krever tydelig avgrensning av arbeidsoppgaver og ansvarsområder opp mot de øvrige indremedisinske spesialitetene, og det er usikkert om spesialiteten indremedisin vil være mer attraktiv enn den er i dag. Det kan videre være risiko for at pasienter som behandles av indremedisinere ikke får den spisskompetansen de trenger. I tillegg kan denne løsningen føre til at andre spesialiteter ikke tar tilstrekkelig ansvar for nødvendige og helhetlige vurderinger. Det blir følgelig uklart hvilke pasienter som skal håndteres av andre spesialister og hvilke pasienter som skal håndteres av indremedisinere – da samme pasientgrupper og diagnoser nødvendigvis må håndteres av både indremedisinere og de øvrige spesialitetene innen indremedisin.&nbsp;</p></div><div><p>Det er få som jobber som rene indremedisinere i Norge i dag. Gitt at antall leger i Norge ikke skal økes, vil en betydelig økning av stillinger til spesialiteten indremedisin føre til at det blir færre stillinger til andre spesialiteter. Det vil følgelig være behov for tydelige føringer for hvor mange som kan velge å utdanne seg i de ulike spesialitetene, og dette kan få konsekvenser for alle de indremedisinske spesialitetene. Dette vil også kunne påvirke sårbare fagmiljøer i små spesialiteter og små sykehus. Et kompenserende tiltak vil være å skåne stillinger i små spesialiteter og små sykehus, gitt at felles del 2 gir tilstrekkelig breddekompetanse. Samtidig viser dette at det viktigste tiltaket vil være styrket breddekompetanse gjennom endringer i felles del 2.</p><div class="BCX2 Ltr OutlineElement SCXW70739321"><p class="BCX2 Paragraph SCXW70739321" style="margin-left:0; margin-right:0">Som alternative løsninger til arbeidsgruppens forslag ser Helsedirektoratet følgende muligheter:&nbsp;</p><h4 class="BCX2 Paragraph SCXW70739321" style="margin-left:0px; margin-right:0px">Modell Med B: Gi alle spesialiteter nok breddekompetanse til at behovet for spesialiteten indremedisin bortfaller</h4></div></div></div><p class="BCX2 Paragraph SCXW61240844" style="margin-left:0; margin-right:0">Begrunnelse:</p><div class="BCX2 SCXW38192936"><div class="BCX2 ListContainerWrapper SCXW38192936"><ul class="BCX2 BulletListStyle3 SCXW38192936">	<li class="OutlineElement Ltr SCXW38192936 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW38192936">Norge har mange spesialiteter i forhold til pasientgrunnlag. Dette er kostbart og en driver for fragmentert tjeneste og pasientbehandling. Der overlappingen er stor og pasientgrunnlaget uklart, bør sammenslåing vurderes.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Kan gi bedre bruk av de andre spesialitetene.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="3" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Økt behov hos eldre kan delvis møtes med utvidet bruk av geriatere, som også har kompetanse på nevrologi, hjerneslag og demens.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="4" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Gjør det enklere å definere og avgrense pasientgrunnlaget og ansvarsområdene for de øvrige spesialitetene.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="5" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Yngre brukere (&lt;65 år) vil ofte kreve organspesialist og med økt breddekompetanse hos alle og bedre tilrettelegging for tverrfaglige samarbeidsformer vil disse pasientene kunne ivaretas på en god måte&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="6" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Samme modell som i Danmark som har avviklet spesialiteten og som arbeider med mange av de samme utfordringene som Norge.</p>	</li></ul><p>Forutsetninger:</p><div class="BCX2 SCXW101113764"><div class="BCX2 ListContainerWrapper SCXW101113764"><ul class="BCX2 BulletListStyle3 SCXW101113764">	<li class="OutlineElement Ltr SCXW101113764 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW101113764">Revidert felles del 2 som gir tilstrekkelig breddekompetanse og vaktfunksjon for alle.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Etablere faglige møteplasser og nettverk for breddekompetanse.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="3" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Revidere kompetansekrav i del 3 innen hver spesialitet slik at man kan håndtere tilstander utenom egen spesialitet, men som er vanlige forekommende hos aktuelle pasientgruppe.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="4" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Organisere pasientflyt, samarbeid, internundervisning og/eller vaktlag slik at alle de indremedisinske spesialistene får opprettholdt breddekompetansen.</p>	</li></ul><h4>Modell Med C: Stille krav til spesialiteten indremedisin før annen indremedisinsk spesialitet, innenfor EØS-regelverkets rammer for tidskrav og spesialitet nummer to (se vedlegg 5)&nbsp;</h4><p>Begrunnelse:</p><div class="BCX2 SCXW141733970"><div class="BCX2 ListContainerWrapper SCXW141733970"><ul class="BCX2 BulletListStyle3 SCXW141733970">	<li class="OutlineElement Ltr SCXW141733970 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW141733970">Hensikten med denne modellen er å utdanne mange indremedisinere. Hvordan man velger å bruke spesialiteten indremedisin kan variere avhengig av virksomhetenes behov.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Kan være enklere å ivareta breddekompetanse når alle har identitet og offentlig godkjenning som spesialist i indremedisin.</p>	</li></ul><p>Forutsetninger:</p><div class="BCX2 SCXW237169304"><div class="BCX2 ListContainerWrapper SCXW237169304"><ul class="BCX2 BulletListStyle3 SCXW237169304">	<li class="OutlineElement Ltr SCXW237169304 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW237169304">Felles del 2 bortfaller og erstattes av spesialiteten indremedisin.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Revidert spesialitet indremedisin som gir tilstrekkelig bredde-kompetanse og vaktfunksjon for alle.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="3" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Etablere faglige møteplasser og nettverk for breddekompetanse.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="4" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Denne modellen ligner gammel ordning, og utfordringer med manglende (bruk av) breddekompetanse var også en utfordring før innføring av ny spesialistutdanning (se utredning fra 2014). Videre vil det å beholde krav til utdanningstid som i dag, medføre lang utdanningstid for de andre spesialitetene. Tiden kan reduseres i henhold til EØS-regelverket (se vedlegg 5), men det må da foretas vurderinger av hva som er faglig ønskelig og hvilken kompetanse man trenger innenfor de enkelte spesialitetene.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="5" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Dette vil innebære flere spesialiteter enn modell Med B og D, hvilket vil gi økte kostnader og administrasjon.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="6" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Det er også usikkert hvilken status spesialiteten indremedisin vil få i en slik modell.</p>	</li></ul><h4>Modell Med D: Slå indremedisin og akutt- og mottaksmedisin sammen til en spesialitet, som foreslått i 2014 (se vedlegg 5)</h4><p>Begrunnelse:</p><div class="BCX2 SCXW236015658"><div class="BCX2 ListContainerWrapper SCXW236015658"><ul class="BCX2 BulletListStyle3 SCXW236015658">	<li class="OutlineElement Ltr SCXW236015658 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW236015658">Målet med denne modellen er en spesialitet med kompetanse på både akutt og bred indremedisin, som kan brukes både i akuttfase, under innleggelse og i samhandling med kommunal helse- og omsorgstjeneste. Dette vil gjelde spesielt for pasienter med sammensatte lidelser&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Norge har mange spesialiteter i forhold til pasientgrunnlag. Dette er kostbart og en driver for fragmentert tjeneste og pasientbehandling. Der overlappingen er stor og pasientgrunnlaget uklart bør sammenslåing vurderes.</p>	</li></ul><p>Forutsetninger:</p><div class="BCX2 SCXW107172105"><div class="BCX2 ListContainerWrapper SCXW107172105"><ul class="BCX2 BulletListStyle3 SCXW107172105">	<li class="OutlineElement Ltr SCXW107172105 BCX2" data-aria-level="3" data-aria-posinset="1" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p class="BCX2 Paragraph SCXW107172105">Det må legges til rette for at den nye spesialiteten blir hovedspesialiteten for indremedisin i akuttmottak (inkl. ledelse) og at læringsmålene gjenspeiler dette.&nbsp;</p>	</li></ul></div><div><ul>	<li data-aria-level="3" data-aria-posinset="2" data-font="Wingdings" data-leveltext="" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1800,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-listid="29">	<p>Legge til rette for arbeid både i akuttmottak og ved andre arenaer, som for eksempel sengepost og poliklinikk.</p>	</li></ul><div class="BCX2 Ltr OutlineElement SCXW267315959"><h4 class="BCX2 Paragraph SCXW267315959" style="margin-left:0px; margin-right:0px">Kirurgisk felles del 2</h4><div class="BCX2 Ltr OutlineElement SCXW88272919"><p class="BCX2 Paragraph SCXW88272919" style="margin-left:0; margin-right:0">Den kirurgiske arbeidsgruppen foreslår at felles del 2 endres med hensikt å styrke breddekompetansen. Helsedirektoratet støtter dette. Forslaget innebærer imidlertid en betraktelig økning i omfang og varighet. Helsedirektoratet er usikre på om dette er hensiktsmessig eller gjennomførbart, da det vil kunne gi økt utdanningstid for de øvrige kirurgiske spesialitetene som ikke får redusert innhold. Dette vil dermed kunne påvirke rekruttering til disse spesialitetene.&nbsp;</p></div><div><p>Helsedirektoratet mener at en alternativ løsning kan være mindre omfattende endringer i felles del 2, eller at man vurderer om noen av de kirurgiske spesialitetene ikke skal ha felles del 2 som en del av sin spesialistutdanning. Helsedirektoratet ønsker spesifikk vurdering av dette, se spørsmål 5 i vedlegg 1.</p><div class="BCX2 Ltr OutlineElement SCXW110110080"><h4 class="BCX2 Paragraph SCXW110110080" style="margin-left:0px; margin-right:0px">Spesialitetsspesifikk del 3 for kirurgiske spesialiteter (Modell Kir A)</h4><div class="BCX2 Ltr OutlineElement SCXW178754080"><p class="BCX2 Paragraph SCXW178754080" style="margin-left:0; margin-right:0">Hoveddelen av den kirurgiske arbeidsgruppen (et medlem har tatt dissens) foreslår at man etablerer en ordning der man må bli generellkirurg før man kan bli spesialist i gastroenterologisk kirurgi. De øvrige kirurgiske spesialitetene skal ikke måtte bli generellkirurg først, og del 2 opprettholdes for alle spesialiteter innen kirurgi. I motsetning til tidligere ordning med hoved- og grenspesialisering, vil dette være en ordning der gastroenterologisk kirurgi blir en «videreutdanningsspesialitet» – en løsning som ikke eksisterer i dag.&nbsp;</p></div><div><p>Løsningen forutsetter at man har en spesialistgodkjenning før man tar en annen, og dette er ikke i henhold til norsk forskrift. Spesialiteten gastroenterologisk kirurgi er foreslått med varighet 1,5–2 år etter godkjent spesialitet i generell kirurgi, og dette blir for kort i henhold til EØS-regelverket (se vedlegg 5). Løsningen kan kun innføres dersom kravet til minstetid i norsk forskrift endres, og dersom Norge avstår fra å harmonisere utdanningen innen gastroenterologisk kirurgi.&nbsp;</p></div><div><p>Helsedirektoratet mener at det å etablere en slik ordning vil skape presedens for andre spesialiteter og kan drive ytterligere subspesialisering.&nbsp;</p></div><div><p>For å få effekt av arbeidsgruppens forslag er det en forutsetning at mange velger å bli generell kirurg uten å gå videre til gastroenterologisk kirurgi.&nbsp;</p></div><div><p>Videre vil det fortsatt være uklar avgrensning av arbeidsoppgaver og ansvarsområder mellom de to spesialitetene, og det er usikkert om spesialiteten generell kirurgi vil være mer attraktiv enn den er i dag. Resultateten kan være at de fleste ønsker videreutdanning i gastroenterologisk kirurgi, noe som medfører lang utdanningstid.&nbsp;</p></div><div><p>Det er usikkert om spesialiteten generell kirurgi vil ha tilstrekkelig bakvaktskompetanse.&nbsp;</p></div><div><p>Det er også usikkert om arbeidsgruppens forslag vil medføre mindre konkurranse om operasjoner for LIS.&nbsp;</p></div><div><p>Helsedirektoratet mener at en alternativ løsning for å imøtekomme innvendingene ovenfor kan være å slå sammen de to spesialitetene, som foreslått i 2014 (se vedlegg 5):&nbsp;</p><h4>Modell Kir B: Slå generell og gastroenterologisk kirurgi sammen til en spesialitet, som foreslått i 2014 (se vedlegg 5)</h4><p>Begrunnelse:</p><ul data-editing-info="{&quot;applyListStyleFromLevel&quot;:true}" style="list-style-type:disc">	<li>	<p class="elementToProof">Norge har mange spesialiteter i forhold til pasientgrunnlag. Dette er kostbart og en driver for fragmentert tjeneste og pasientbehandling. Der overlappingen er stor og pasientgrunnlaget uklart bør sammenslåing vurderes.</p>	</li>	<li>	<p>Sikrer bakvaktskompetanse.</p>	</li></ul><p>Forutsetning:</p><ul data-editing-info="{&quot;applyListStyleFromLevel&quot;:true}">	<li>	<p>For å unngå at en sammenslått spesialitet blir for stor, må noe høyspesialisert kompetanse flyttes ut av spesialistutdanningen og legges til lokal kompetanseutvikling for ferdige spesialister, som tiltenkt ved arbeidsgruppens forslag.</p>	</li>	<li>	<p>Felles del 2 må styrkes noe.</p>	</li>	<li>	<p>Det må tilrettelegges for økt operativ erfaring for LIS.</p>	</li>	<li>	<p>Det må vurderes om den sammenslåtte spesialiteten bør harmoniseres med generell eller gastroenterologisk kirurgi i EU. Videre er det usikkert om dette vil medføre mindre konkurranse om operasjoner for LIS.</p>	</li></ul><div class="BCX2 SCXW61518025"><div class="BCX2 ListContainerWrapper SCXW61518025"><h2 class="elementToProof">Veien videre</h2><div class="elementToProof">Helsedirektoratet venter å svare på oppdraget innen utgangen av første halvår 2027. Videre arbeid med utforming av rammer og nye læringsmål vil komme etter at eventuelle endringer i spesialitetsstruktur er besluttet av Helse- og omsorgsdepartementet.</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+        </div>
+        
+        
+        <div class="l-mt-4">
+          <p class="b-page-meta">
+            <span class="b-page-meta__text">Først publisert:
+              07.10.2026
+            </span>
+            <span class="b-page-meta__text">Siste faglige endring:
+              22.10.2026
+            </span>
+            <a
+              class="b-page-meta__link"
+              data-nofollow="true"
+              data-noindex="true"
+              href="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde?tidligere-versjoner"
+            >Se tidligere versjoner</a>
+          </p>
+        </div>
+
+        <div class="l-mt-2" data-noindex="true">
+          <button id="exportPdf" class="b-button b-button--small b-button--clean"
+            data-pdfvalues='{"pdfTemplateMode":"single"}' data-getpdfservice="/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/service/helsedirektoratet/getPdf" data-title="Breddekompetanse i legenes spesialistutdanning – innspillsrunde" data-pageUrl="https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde">
+            <span class="b-link__icon" role="presentation" aria-hidden="true"
+              style="background-image:url(/_/asset/helsedirektoratet:000001a178990280/static/icons/print.svg);"></span>
+            <span class="b-button__underline">Skriv ut / lag PDF</span>
+          </button>
+
+          <div class="b-collapsible b-collapsible b-collapsible--small normative_ref--wrapper" data-parent-id="referere">
+            <button class="b-collapsible__button b-collapsible__button--small b-button--clean normative_ref" aria-expanded="false" aria-controls="referere">
+              <span class="b-button__underline normative_ref--text">Slik refererer du til innholdet</span>
+            </button>
+            <div id="referere" class="normative_ref-box b-box-small l-mb-1" hidden aria-hidden="true">
+              <p>Helsedirektoratet (2026). Breddekompetanse i legenes spesialistutdanning – innspillsrunde [nettdokument]. Oslo: Helsedirektoratet (lest 26. oktober 2026). Tilgjengelig fra https://www.helsedirektoratet.no/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde</p>
+            </div>
+          </div>
+
+          <div class="b-collapsible b-collapsible b-collapsible--small normative_ref--wrapper" data-parent-id="apiUrl">
+            <button class="b-collapsible__button b-collapsible__button--small b-button--clean normative_ref" aria-expanded="false" aria-controls="apiUrl">
+              <span class="b-button__underline normative_ref--text">Åpne data (API)</span>
+            </button>
+            <div id="apiUrl" class="normative_ref-box b-box-small l-mb-1" hidden aria-hidden="true">
+              Få tilgang til innhold fra Helsedirektoratet som åpne data: <a href="https://utvikler.helsedirektoratet.no">https://utvikler.helsedirektoratet.no</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+      
+    </div>
+
+    
+  </main>
+
+  
+
+    <!-- Dont render this region on versionpage -->
+  <div data-portal-region="beforeFooter" class="l-container l-mb-2">
+    
+  </div>
+
+  <!-- "Til toppen"-knapp -->
+  <div class="l-container scrollToTopWrapper">
+    <a href="#top" class="scrollToTop" id="scrollToTop" aria-label="Til toppen">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16" fill="none">
+        <path d="M8.38225 0.160894L14.675 6.09609C14.818 6.20335 14.8538 6.38212 14.8538 6.52514C14.8538 6.66816 14.818 6.81117 14.7107 6.91844C14.4962 7.16871 14.1387 7.16871 13.9242 6.95419L8.56102 1.9486L8.56102 15.4279C8.56102 15.7497 8.31074 16 8.02471 16C7.73868 16 7.41689 15.7497 7.41689 15.4279L7.41689 1.9486L2.08951 6.95419C1.87499 7.16872 1.51745 7.16872 1.30292 6.91844C1.0884 6.66816 1.0884 6.31061 1.33868 6.09609L7.63141 0.160894C7.84594 -0.0536313 8.16773 -0.0536313 8.38225 0.160894Z" fill="#025169"/>
+      </svg>
+      Til toppen
+    </a>
+  </div>
+  <script type="module" src="/_/asset/helsedirektoratet:000001a178990280/js/scrollToTop.js"></script>
+  <!-- importing footer from footer.html file -->
+  <footer class="b-box--square b-box--blue-dark">
+	<div class="l-container l-mt-2">
+		<div class="b-footer">
+			<div class="b-footer__columns">
+
+        
+          <!-- sections -->
+          <div class="b-footer__column">
+            <h2 class="h4 l-mb-1">Om Helsedirektoratet</h2>
+
+            <!-- links as unordered list -->
+            <ul class="b-footer__list">
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss"
+                  class="b-footer__link"
+                >
+                  Om oss
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/jobbe-i-helsedirektoratet"
+                  class="b-footer__link"
+                >
+                  Jobbe hos oss
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1  has-address"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/kontakt-oss"
+                  class="b-footer__link"
+                >
+                  Kontakt oss
+                </a>
+
+                <!-- render address after last link in first column -->
+                <div
+                  class="b-footer__address"
+                ><p class="b-footer__text"><strong>Postadresse:</strong><br />Helsedirektoratet<br />Postboks 220, Skøyen<br />0213 Oslo</p></div>
+              </li>
+            </ul>
+          </div>
+        
+
+        
+          <!-- sections -->
+          <div class="b-footer__column">
+            <h2 class="h4 l-mb-1">Aktuelt</h2>
+
+            <!-- links as unordered list -->
+            <ul class="b-footer__list">
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/nyheter"
+                  class="b-footer__link"
+                >
+                  Nyheter
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/konferanser"
+                  class="b-footer__link"
+                >
+                  Arrangementer
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/horinger"
+                  class="b-footer__link"
+                >
+                  Høringer
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/presse"
+                  class="b-footer__link"
+                >
+                  Presse
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+            </ul>
+          </div>
+        
+
+        
+          <!-- sections -->
+          <div class="b-footer__column">
+            <h2 class="h4 l-mb-1">Om nettstedet</h2>
+
+            <!-- links as unordered list -->
+            <ul class="b-footer__list">
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/om-nettstedet/personvernerklaering"
+                  class="b-footer__link"
+                >
+                  Personvernerklæring
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://uustatus.no/nb/erklaringer/publisert/52b403ba-a430-4d42-a42f-56b7073c8963"
+                  class="b-footer__link"
+                >
+                  Tilgjengelighetserklæring (uustatus.no)
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/om-nettstedet/besoksstatistikk-og-informasjonskapsler"
+                  class="b-footer__link"
+                >
+                  Besøksstatistikk og informasjonskapsler
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/om-nettstedet/abonnere-pa-innhold"
+                  class="b-footer__link"
+                >
+                  Nyhetsvarsel og abonnement
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+              <li
+                class="b-footer__list-item l-mb-1"
+              >
+                <a
+                  href="https://www.helsedirektoratet.no/om-oss/apne-data-api"
+                  class="b-footer__link"
+                >
+                  Åpne data (API)
+                </a>
+
+                <!-- render address after last link in first column -->
+                
+              </li>
+            </ul>
+          </div>
+        
+
+      </div>
+
+      <div class="b-footer__footer">
+        <div class="b-footer__icons">
+          Følg oss:
+          
+            <a
+              href="https://www.facebook.com/helsedirektoratet"
+              class="b-footer__icon b-footer__icon-fb"
+              aria-label="facebook"
+            ></a>
+          
+            <a
+              href="https://www.linkedin.com/company/helsedirektoratet/"
+              class="b-footer__icon b-footer__icon-in"
+              aria-label="linkedin"
+            ></a>
+          
+            <a
+              href="https://www.instagram.com/helsedirektoratet"
+              class="b-footer__icon b-footer__icon-ig"
+              aria-label="instagram"
+            ></a>
+          
+        </div>
+        <div>
+          <a
+            href="/"
+            class="b-footer__logo-link" aria-label="helsedirektoratet logo"
+          >
+            <div
+              class="b-footer__logo"
+              style="background-image:url(https://www.helsedirektoratet.no/_/asset/helsedirektoratet:000001a178990280/static/hdir_logo_white.svg);"
+            ></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- GA Metadata --><script>ga('set', { 'dimension1': 'Høring', 'dimension2': 'Spesialistutdanning', 'dimension3': 'Lege-i-spesialisering', 'dimension4': 'Tormod.Myrland.Aadnesen@helsedir.no', 'dimension8': '80726429-ff02-4191-8009-da216219626a'}); if (dataLayer && Array.isArray(dataLayer)) { dataLayer.push({'dimension1': 'Høring'});} if (dataLayer && Array.isArray(dataLayer)) { dataLayer.push({'dimension2': 'Spesialistutdanning'});} if (dataLayer && Array.isArray(dataLayer)) { dataLayer.push({'dimension3': 'Lege-i-spesialisering'});} if (dataLayer && Array.isArray(dataLayer)) { dataLayer.push({'dimension4': 'Tormod.Myrland.Aadnesen@helsedir.no'});} if (dataLayer && Array.isArray(dataLayer)) { dataLayer.push({'dimension8': '80726429-ff02-4191-8009-da216219626a'});}</script><!-- End GA Metadata --><script src="/_/asset/no.bouvet.app.cookiepanel:00000197b0751a90/js/main.js" defer></script><script type="application/json" data-cookie-panel-selector="config">{"controlCookie":"no.bouvet.app.cookiepanel-cookie-control","url":"/horinger/breddekompetanse-i-legenes-spesialistutdanning-innspillsrunde/_/service/no.bouvet.app.cookiepanel/cookie-info","showSettings":false,"theme":"","buttonOrder":"accept-left","title":"Informasjonskapsler (cookies)","description":"Vi bruker informasjonskapsler for å gjøre nettsiden bedre og for å samle statistikk. Vi lagrer aldri opplysninger som kan identifisere deg som person.","settingsLabel":"Tilpass","acceptLabel":"Godta","rejectLabel":"Kun nødvendige","saveLabel":"Lagre","readMoreLabel":"Les mer","readMoreLink":"/om-oss/om-nettstedet/besoksstatistikk-og-informasjonskapsler","categories":[{"title":"Nødvendige informasjonskapsler","description":"Disse informasjonskapslene er nødvendige for at nettsiden vår skal fungere, og du kan derfor ikke velge dem bort.","cookies":[],"default":true,"id":"cookie-panel-nodvendige-informasjonskapsler"},{"title":"Statistikk","description":"Disse informasjonskapslene samler inn anonymisert statistikk for å hjelpe oss å forstå hvordan besøkende bruker nettsiden vår.","cookies":{"cookie-name":"no-bouvet-app-ga_disabled","cookie-value-accepted":"false","cookie-value-rejected":"true"},"id":"cookie-panel-statistikk"}],"expireControlCookieAfterDays":365,"controlCookieInvalidateNumber":2}</script><script type="text/javascript">const portals = document.querySelectorAll("[data-portal-region]");for( const portal of portals ){  if( portal.children.length === 0 )    portal.remove();}</script></body>
+</html>

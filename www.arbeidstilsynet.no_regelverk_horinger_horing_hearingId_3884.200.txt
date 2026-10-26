@@ -1,0 +1,961 @@
+
+
+
+<!doctype html>
+
+<html lang="no">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="google-site-verification" content="WMlu6wplHxtghKXqcfnGpq_Oxn8vc6enMxGW9K0wMXA"/>
+
+    
+
+<title>H&#xF8;ring</title>
+<link itemprop="mainEntityOfPage" content="https://www.arbeidstilsynet.no/regelverk/horinger/horing/" />
+
+<link rel="canonical" href="https://www.arbeidstilsynet.no/regelverk/horinger/horing/" />
+<link rel="alternate" hreflang="no"  href="https://www.arbeidstilsynet.no/regelverk/horinger/horing/" data-selected="true" />
+
+
+
+
+<meta property="og:title" content="Høring">
+<meta property="og:url" content="https://www.arbeidstilsynet.no/regelverk/horinger/horing/">
+
+<meta property="og:type" content="website">
+<meta property="og:image:url" content="/globalassets/arbeidstilsynet.png"><meta property="og:image:width" content="800"><meta property="og:image:height" content="800">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:domain" content="arbeidstilsynet.no">
+<meta name="twitter:creator" content="@arbeidstilsynet">
+<meta property="twitter:title" content="Høring">
+
+<meta property="twitter:image" content="/globalassets/arbeidstilsynet.png">
+
+
+
+    <script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('consent', 'default', {
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied',
+            'wait_for_update': 500,
+        });
+    </script>
+
+    <script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" crossorigin="anonymous" id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" data-culture="no"></script>
+
+        <link rel="shortcut icon" href="/Static/img/ico/favicon.ico" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-precomposed.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-touch-icon-precomposed.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-touch-icon.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-57x57.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-114x114.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-72x72.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-144x144.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-60x60.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-120x120.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-76x76.png"/>
+        <link rel="apple-touch-icon" href="/Static/img/ico/apple-icon-152x152.png"/>
+
+        <link rel="stylesheet"
+              href="/dist/tokens/arbeidstilsynet.css">
+
+    <link rel="stylesheet"
+          href="/dist/styles/styles.css?v=">
+
+    <script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=0c7969be-b0b2-4d0a-9d12-eebdcae1a9e3;IngestionEndpoint=https://norwayeast-0.in.applicationinsights.azure.com/;LiveEndpoint=https://norwayeast.livediagnostics.monitor.azure.com/;ApplicationId=34d811d6-9d9f-4e9c-8e05-68fd2f5f3360', disableCookiesUsage: false }});
+</script>
+
+
+    <script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei" crossorigin="anonymous"></script>
+
+    <style nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+        #mfPreviewBarShow, #mfPreviewBar {
+            display: none;
+        }
+    </style>
+
+    <meta name="recaptcha-site-key" content="6LdlM4QaAAAAAHmSNQohMvbj2ddvj2HVSkFoOveM"/>
+    <script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" src="https://www.google.com/recaptcha/api.js?render=6LdlM4QaAAAAAHmSNQohMvbj2ddvj2HVSkFoOveM">
+    </script>
+</head>
+
+
+<body id="top" class="arbeidstilsynet ">
+<a href="#main" class="skiplink"><span>Hopp til hovedinnhold</span></a>
+
+
+
+
+
+<header>
+        <section class="header-banner">
+            <div>
+                
+                    <a href="/" class="logo-link" title="Arbeidstilsynet logo">
+                        <figure class="logo"><picture><source srcset="/contentassets/abc3e47942e342ceb28865f15bb7c9a7/ab_logo_2.svg?width=320&quality=80 320w" sizes="320px" /><img alt="Arbeidstilsynet logo" src="/contentassets/abc3e47942e342ceb28865f15bb7c9a7/ab_logo_2.svg?width=320&quality=80" decoding="async" /></picture></figure>
+                    </a>                
+
+                <section>
+                    <div class="search">
+                        <button class="button secondary-first icon-text search-button" aria-expanded="false" aria-controls="header-search">
+                            <span>Søk</span>
+                        </button>
+                            <div class="menu-overlay"></div>
+
+<section id="header-search" class="header-search search-hidden">
+    <div class="search-container">
+        <form method="GET" class="search-form" role="search" name="search" action="/sokeside/">
+            <input type="search" name="query" class="search-input" id="search-input" placeholder="Søk" aria-label="Søk">
+            <button type="submit" value="Søk" class="button primary-first">
+                Søk
+            </button>
+        </form>
+    </div>
+</section>                    </div>
+                    <div class="menu">
+                        <button class="button tertiary-first icon-text menu-button" aria-expanded="false" aria-controls="menu-container">
+                            <span>Meny</span>
+                        </button>
+                        <div class="menu-overlay"></div>
+                        
+<nav id="menu-container" class="menu-container menu-hidden">
+        <img src="/dist/illustrations/Menydame.svg" class="illustration" alt aria-hidden="true" loading="lazy">
+    
+        <div class="language-selector">
+            <div class="dropdown">
+                <button id="menubutton1" class="dropdown-button button" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="menu1">
+                    <span class="dropdown-button__icon-container">
+                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm6.061-7.381a8.253 8.253 0 0 0 2.051 15.469v-.326c0-1.26-.985-2.25-2.414-2.25-.808 0-1.546-.197-2.079-.718-.535-.524-.733-1.249-.733-2.024 0-1.203.638-2.164 1.492-2.799.845-.629 1.942-.974 3.008-.974.736 0 1.381.187 1.899.342l.04.012c.534.16.888.267 1.225.267.003 0 .008 0 .02-.005a.268.268 0 0 0 .065-.038.976.976 0 0 0 .23-.281c.17-.29.27-.669.27-.965 0-.013-.014-.124-.191-.332a3.45 3.45 0 0 0-.713-.599 5.375 5.375 0 0 0-.876-.467 3.098 3.098 0 0 0-.307-.11c-.02.044-.044.1-.07.169-.027.07-.053.142-.081.222l-.012.035c-.032.09-.068.193-.106.29-.061.159-.176.443-.383.65a.868.868 0 0 1-.828.241.964.964 0 0 1-.52-.351c-.12-.152-.224-.367-.288-.497l-.023-.046a3.323 3.323 0 0 0-.144-.269.428.428 0 0 0-.13.05.903.903 0 0 0-.222.208l-.054.066a4.055 4.055 0 0 1-.319.365 1.268 1.268 0 0 1-.888.376c-.34 0-.735-.074-1.076-.32-.36-.26-.577-.652-.644-1.116-.079-.548.155-1.12.403-1.559A6.566 6.566 0 0 1 6.97 5.97c.172-.172.355-.33.513-.467l.101-.087c.189-.165.349-.312.493-.48.08-.093.159-.197.234-.317Zm1.86-.665c-.21.882-.548 1.484-.956 1.96a6.14 6.14 0 0 1-.646.633l-.122.105a7.622 7.622 0 0 0-.417.378c-.331.332-.62.705-.811 1.043a2.175 2.175 0 0 0-.193.43.787.787 0 0 0-.03.134c-.003.03-.001.043-.001.043.01.065.024.095.029.104a.029.029 0 0 0 .007.009c.005.003.032.02.095.03.02-.022.039-.046.065-.079l.152-.187c.135-.16.33-.37.61-.535.29-.17.636-.272 1.047-.272.453 0 .758.264.927.461.064-.14.144-.29.245-.424.17-.225.48-.505.952-.505.331 0 .722.125 1.053.262.36.149.757.356 1.13.601.368.243.74.54 1.027.878.277.325.552.774.552 1.306 0 .57-.175 1.21-.477 1.724-.286.486-.817 1.065-1.61 1.065-.566 0-1.123-.169-1.581-.308l-.115-.034c-.517-.156-.973-.28-1.467-.28-.762 0-1.54.253-2.113.679-.565.42-.887.97-.887 1.595 0 .537.135.808.283.952.15.147.443.29 1.03.29 2.18 0 3.913 1.588 3.913 3.75v.487l.138.001a8.22 8.22 0 0 0 3.416-.738.426.426 0 0 0 .058-.149c.015-.084.02-.236-.009-.63v-.006l-.01-.113c-.01-.135-.027-.327-.027-.5 0-.754.396-1.3.892-1.856.108-.124.184-.216.237-.287a17.66 17.66 0 0 0-.261-.161l-.004-.003a16.024 16.024 0 0 1-.45-.28c-.308-.203-.667-.464-.954-.79-.29-.332-.55-.782-.55-1.345 0-.624.28-1.216.66-1.645.376-.424.946-.793 1.613-.793.845 0 1.397.465 1.691.713l.014.011c.032.027.06.051.086.071l.007.006.169.138c.207.168.365.297.49.394.209-.139.56-.337 1.024-.337h.158a8.25 8.25 0 0 0-10.08-7.996Zm9.952 9.496a8.249 8.249 0 0 1-3.164 5.144l-.015-.181c-.009-.108-.016-.192-.016-.299 0-.158.047-.338.513-.86l.003-.003c.44-.5.726-.897.726-1.469 0-.372-.23-.618-.322-.71a2.508 2.508 0 0 0-.377-.296c-.119-.079-.253-.16-.38-.238l-.018-.011a14.821 14.821 0 0 1-.408-.255c-.274-.18-.498-.353-.649-.525-.147-.168-.178-.28-.178-.355 0-.185.094-.437.283-.65.192-.217.384-.288.49-.288.274 0 .403.104.711.353l.144.115.157.128c.261.213.473.385.634.507.097.072.198.145.298.202.071.041.262.148.506.148a.95.95 0 0 0 .38-.082c.083-.036.154-.08.202-.11.049-.033.097-.067.132-.093l.006-.004.014-.01.084-.059c.131-.089.184-.099.213-.099h.03Z" fill="currentColor"></path></svg>
+                        <span lang="en">Language</span>
+                    </span>
+                    <svg class="arrow-icon" width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.97 9.47a.75.75 0 0 1 1.06 0L12 14.44l4.97-4.97a.75.75 0 1 1 1.06 1.06l-5.5 5.5a.75.75 0 0 1-1.06 0l-5.5-5.5a.75.75 0 0 1 0-1.06Z" fill="currentColor"></path></svg>
+                </button>
+                <ul class="dropdown-menu" id="menu1" role="menu" tabindex="-1" aria-labelledby="menubutton1" aria-activedescendant="mi1">
+                        <li id="no" lang="no" role="menuitem"><a href="/regelverk/horinger/horing/">Norsk</a></li>
+                        <li id="en" lang="en" role="menuitem"><a href="/en/">English</a></li>
+                        <li id="pl" lang="pl" role="menuitem"><a href="/pl/">Polski</a></li>
+                </ul>
+            </div>
+        </div>
+    <ul>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «L&#xF8;nn og ansettelse»"
+                            aria-expanded="false"
+                            aria-controls="submenu-0">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>L&#xF8;nn og ansettelse</h4>
+                <ul class="menu-secondary-level" id="submenu-0">
+                            <li>
+                                    <a href="/lonn-og-ansettelse/ansettelse/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Ansettelse
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/lonn-og-ansettelse/arbeidsavtale/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Arbeidsavtale
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/lonn-og-ansettelse/lonn/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        L&#xF8;nn
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/lonn-og-ansettelse/oppsigelse/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Oppsigelse
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/lonn-og-ansettelse/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Mer om l&#xF8;nn og ansettelse
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Arbeidstid og organisering»"
+                            aria-expanded="false"
+                            aria-controls="submenu-1">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Arbeidstid og organisering</h4>
+                <ul class="menu-secondary-level" id="submenu-1">
+                            <li>
+                                    <a href="/arbeidstid-og-organisering/arbeidstid/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Arbeidstid
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidstid-og-organisering/ferie/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Ferie
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidstid-og-organisering/medvirkning/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Medvirkning
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidstid-og-organisering/tilrettelegging/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Tilrettelegging
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidstid-og-organisering/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Mer om arbeidstid og organisering
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Arbeidsmilj&#xF8;»"
+                            aria-expanded="false"
+                            aria-controls="submenu-2">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Arbeidsmilj&#xF8;</h4>
+                <ul class="menu-secondary-level" id="submenu-2">
+                            <li>
+                                    <a href="https://arbeidsmiljohjelpen.arbeidstilsynet.no/">
+                                        <svg width="24" height="24" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3125 5C13.3125 4.58579 13.6483 4.25 14.0625 4.25H22.5C22.6017 4.25 22.6987 4.27024 22.7871 4.30691C22.8755 4.34351 22.9584 4.39776 23.0303 4.46967C23.1022 4.54158 23.1565 4.62445 23.1931 4.71291C23.2251 4.79009 23.2446 4.87376 23.249 4.96141C23.2497 4.97419 23.25 4.98706 23.25 5V13.4375C23.25 13.8517 22.9142 14.1875 22.5 14.1875C22.0858 14.1875 21.75 13.8517 21.75 13.4375V6.81066L11.7803 16.7803C11.4874 17.0732 11.0126 17.0732 10.7197 16.7803C10.4268 16.4874 10.4268 16.0126 10.7197 15.7197L20.6893 5.75H14.0625C13.6483 5.75 13.3125 5.41421 13.3125 5ZM5.5 10.25C5.36193 10.25 5.25 10.3619 5.25 10.5V22C5.25 22.1381 5.36193 22.25 5.5 22.25H17C17.1381 22.25 17.25 22.1381 17.25 22V14C17.25 13.5858 17.5858 13.25 18 13.25C18.4142 13.25 18.75 13.5858 18.75 14V22C18.75 22.9665 17.9665 23.75 17 23.75H5.5C4.5335 23.75 3.75 22.9665 3.75 22V10.5C3.75 9.5335 4.5335 8.75 5.5 8.75H13.5C13.9142 8.75 14.25 9.08579 14.25 9.5C14.25 9.91421 13.9142 10.25 13.5 10.25H5.5Z" fill="black"/>
+                                        </svg>
+                                        Arbeidsmilj&#xF8;hjelpen.no
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidsmiljo/trakassering/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Trakassering
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidsmiljo/varsling/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Varsling
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidsmiljo/vold-og-trusler/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Vold og trusler
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/arbeidsmiljo/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Mer om arbeidsmilj&#xF8;
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Kontakt oss»"
+                            aria-expanded="false"
+                            aria-controls="submenu-3">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Kontakt oss</h4>
+                <ul class="menu-secondary-level" id="submenu-3">
+                            <li>
+                                    <a href="/webinar/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Arrangement
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/kontakt-oss/post/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Send og motta post
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/kontakt-oss/telefon-chat/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Telefon og chat
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/kontakt-oss/tips/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Tips oss
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/kontakt-oss/melde-ulykke/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Varsle om arbeidsulykke
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Helse, milj&#xF8; og sikkerhet»"
+                            aria-expanded="false"
+                            aria-controls="submenu-4">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Helse, milj&#xF8; og sikkerhet</h4>
+                <ul class="menu-secondary-level" id="submenu-4">
+                            <li>
+                                    <a href="/hms/roller-i-hms-arbeidet/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        AMU og verneombud
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/hms/hms-kort/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        HMS-kort
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/hms/internkontroll/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Internkontroll
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/hms/risikovurdering/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Risikovurdering
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/hms/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Mer om HMS
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Risikofylt arbeid»"
+                            aria-expanded="false"
+                            aria-controls="submenu-5">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Risikofylt arbeid</h4>
+                <ul class="menu-secondary-level" id="submenu-5">
+                            <li>
+                                    <a href="/risikofylt-arbeid/arbeid-i-hoyden/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Arbeid i h&#xF8;yden
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/risikofylt-arbeid/kjemikalier/asbest/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Asbest
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/risikofylt-arbeid/kjemikalier/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Kjemikalier
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/risikofylt-arbeid/stoy/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        St&#xF8;y
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/risikofylt-arbeid/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Mer om risikofylt arbeid
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Regelverk og godkjenninger»"
+                            aria-expanded="false"
+                            aria-controls="submenu-6">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Regelverk og godkjenninger</h4>
+                <ul class="menu-secondary-level" id="submenu-6">
+                            <li>
+                                    <a href="/regelverk/byggesak/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Byggesak
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/godkjenninger/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Godkjenninger og register
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/regelverk/horinger/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        H&#xF8;ringer
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/regelverk/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Lover og forskrifter
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                    <button class="menu-item-icon"
+                            aria-label="Vis undermeny for «Fakta og statistikk»"
+                            aria-expanded="false"
+                            aria-controls="submenu-7">
+                        <span></span>
+                        <span></span>
+                    </button>
+                <h4>Fakta og statistikk</h4>
+                <ul class="menu-secondary-level" id="submenu-7">
+                            <li>
+                                    <a href="/nyheter/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Nyheter
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/podkast/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Podkast
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/om-oss/forskning-og-rapporter/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Rapporter
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/om-oss/statistikk/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Statistikk
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                            <li>
+                                    <a href="/om-oss/tilsyn/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.84467 6.31342C9.13756 6.02053 9.61244 6.02053 9.90533 6.31342L15.0616 11.4697C15.3545 11.7626 15.3545 12.2374 15.0616 12.5303L9.90533 17.6866C9.61244 17.9795 9.13756 17.9795 8.84467 17.6866C8.55178 17.3937 8.55178 16.9188 8.84467 16.6259L13.4706 12L8.84467 7.37408C8.55178 7.08119 8.55178 6.60631 8.84467 6.31342Z" fill="black"/>
+                                        </svg>
+                                        Tilsyn
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.96967C13.7374 4.67678 13.2626 4.67678 12.9697 4.96967C12.6768 5.26256 12.6768 5.73744 12.9697 6.03033L18.1893 11.25L3.5 11.25C3.08579 11.25 2.75 11.5858 2.75 12C2.75 12.4142 3.08579 12.75 3.5 12.75L18.1893 12.75L12.9697 17.9697C12.6768 18.2626 12.6768 18.7374 12.9697 19.0303C13.2626 19.3232 13.7374 19.3232 14.0303 19.0303L20.5303 12.5303C20.6622 12.3985 20.7399 12.2226 20.7491 12.0372M20.5463 11.4861C20.541 11.4805 20.5357 11.4751 20.5303 11.4697L14.0303 4.96967" fill="black"/>
+                                        </svg>
+                                    </a>
+                            </li>
+                </ul>
+            </li>
+        
+<li class="menu-item"></li>
+    </ul>
+
+</nav>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </header>
+
+
+
+
+
+
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+    <ol>
+                <li>
+                    <a class="breadcrumbs__link" href="/" title="Gå tilbake til Arbeidstilsynet">
+                        Arbeidstilsynet
+                    </a>
+                </li>
+                <li>
+                    <a class="breadcrumbs__link" href="/regelverk/" title="Gå tilbake til Regelverk">
+                        Regelverk
+                    </a>
+                </li>
+                <li>
+                    <a class="breadcrumbs__link" href="/regelverk/horinger/" title="Gå tilbake til H&#xF8;ringer">
+                        Høringer
+                    </a>
+                </li>
+                <li>
+                    <span aria-current="page">Høring</span>
+                </li>
+    </ol>
+</nav>
+
+
+
+
+
+<main class="hearings-page" id="main">
+    <h1 class="hearings-page__title">H&#xF8;ring - Fjerne kravet til r&#xF8;ntgenunders&#xF8;kelse ved bergarbeid</h1>
+
+    <article class="hearings-page__content body-text">
+        <div class="hearings-page--single-hearing">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#085E55"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.417 13.6665C13.417 13.5284 13.5289 13.4165 13.667 13.4165H20.3337C20.4712 13.4165 20.5837 13.5284 20.5837 13.6671H22.0837C22.0837 12.7012 21.3007 11.9165 20.3337 11.9165H13.667C12.7005 11.9165 11.917 12.7 11.917 13.6665V19.9998C11.917 20.2598 12.0516 20.5012 12.2727 20.6378C12.4938 20.7745 12.7699 20.7869 13.0024 20.6707L14.0033 20.1702C14.3737 19.985 14.5239 19.5345 14.3387 19.164C14.1673 18.8213 13.769 18.6671 13.417 18.7925V13.6665ZM16.3337 16.0832C16.1956 16.0832 16.0837 16.1951 16.0837 16.3332V20.9998C16.0837 21.1379 16.1956 21.2498 16.3337 21.2498H20.667C20.7834 21.2498 20.8983 21.2769 21.0024 21.329L22.5837 22.1196V16.3332C22.5837 16.1951 22.4717 16.0832 22.3337 16.0832H16.3337ZM14.5837 16.3332C14.5837 15.3667 15.3672 14.5832 16.3337 14.5832H22.3337C23.3002 14.5832 24.0837 15.3667 24.0837 16.3332V23.3332C24.0837 23.5931 23.9491 23.8345 23.728 23.9712C23.5068 24.1078 23.2307 24.1202 22.9982 24.004L20.4899 22.7498H16.3337C15.3672 22.7498 14.5837 21.9663 14.5837 20.9998V16.3332ZM16.5837 18.6665C16.5837 18.2523 16.9194 17.9165 17.3337 17.9165H17.3403C17.7545 17.9165 18.0903 18.2523 18.0903 18.6665C18.0903 19.0807 17.7545 19.4165 17.3403 19.4165H17.3337C16.9194 19.4165 16.5837 19.0807 16.5837 18.6665ZM19.3337 17.9165C18.9194 17.9165 18.5837 18.2523 18.5837 18.6665C18.5837 19.0807 18.9194 19.4165 19.3337 19.4165H19.3403C19.7545 19.4165 20.0903 19.0807 20.0903 18.6665C20.0903 18.2523 19.7545 17.9165 19.3403 17.9165H19.3337ZM20.5837 18.6665C20.5837 18.2523 20.9194 17.9165 21.3337 17.9165H21.3403C21.7545 17.9165 22.0903 18.2523 22.0903 18.6665C22.0903 19.0807 21.7545 19.4165 21.3403 19.4165H21.3337C20.9194 19.4165 20.5837 19.0807 20.5837 18.6665Z" fill="#085E55"/>
+            </svg>
+            
+            <p class="date-opened">
+                Høring åpnet  23. oktober 2026
+            </p>
+
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.75033 2.3335C8.75033 1.91928 8.41454 1.5835 8.00033 1.5835C7.58611 1.5835 7.25033 1.91928 7.25033 2.3335V11.5228L4.19732 8.46983C3.90443 8.17694 3.42956 8.17694 3.13666 8.46983C2.84377 8.76273 2.84377 9.2376 3.13666 9.53049L7.47 13.8638C7.76289 14.1567 8.23776 14.1567 8.53066 13.8638L12.864 9.53049C13.1569 9.2376 13.1569 8.76273 12.864 8.46983C12.5711 8.17694 12.0962 8.17694 11.8033 8.46983L8.75033 11.5228V2.3335Z" fill="#085E55"/>
+            </svg>
+            
+            <div class="status-card ">
+                <p>I dette høringsnotatet foreslår Arbeidstilsynet å fjerne kravet til obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet til røntgenundersøkelse står i dag i forskrift om utførelse av arbeid (FUA) § 27-29.</p><p>Fristen for å gi innspill er 31. januar 2027. </p><p>Vi ber om at alle innspill gis via Arbeidstilsynets digitale høringsløsning, slik at alle høringssvar blir offentlig tilgjengelige. Det er mulig å lagre innspillet underveis. For de som har behov for å få høringsinnspillet godkjent innad i organisasjonen, er det mulig å eksportere en fil fra høringsløsningen.</p>
+                <a class="link-button-block" href="https://hoering.arbeidstilsynet.no/hoering/3884">
+                    <button class="button primary-first">
+Les høringsdokumentene og svar på høringen                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.25 4.5C12.25 4.08579 12.5858 3.75 13 3.75H20.5C20.6017 3.75 20.6987 3.77024 20.7871 3.80691C20.8755 3.84351 20.9584 3.89776 21.0303 3.96967C21.1022 4.04158 21.1565 4.12445 21.1931 4.21291C21.2251 4.29009 21.2446 4.37376 21.249 4.46141C21.2497 4.47419 21.25 4.48706 21.25 4.5V12C21.25 12.4142 20.9142 12.75 20.5 12.75C20.0858 12.75 19.75 12.4142 19.75 12V6.31066L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303C9.67678 14.7374 9.67678 14.2626 9.96967 13.9697L18.6893 5.25H13C12.5858 5.25 12.25 4.91421 12.25 4.5ZM5.5 9.25C5.36193 9.25 5.25 9.36193 5.25 9.5V19.5C5.25 19.6381 5.36193 19.75 5.5 19.75H15.5C15.6381 19.75 15.75 19.6381 15.75 19.5V12.5C15.75 12.0858 16.0858 11.75 16.5 11.75C16.9142 11.75 17.25 12.0858 17.25 12.5V19.5C17.25 20.4665 16.4665 21.25 15.5 21.25H5.5C4.5335 21.25 3.75 20.4665 3.75 19.5V9.5C3.75 8.5335 4.5335 7.75 5.5 7.75H12.5C12.9142 7.75 13.25 8.08579 13.25 8.5C13.25 8.91421 12.9142 9.25 12.5 9.25H5.5Z" fill="white"/>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+
+            <svg width="2" height="25" viewBox="0 0 2 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.250001 24C0.250001 24.4142 0.585788 24.75 1 24.75C1.41421 24.75 1.75 24.4142 1.75 24L0.250001 24ZM0.25 2C0.25 2.41421 0.585787 2.75 1 2.75C1.41421 2.75 1.75 2.41421 1.75 2L0.25 2ZM1.75 6C1.75 5.58579 1.41421 5.25 1 5.25C0.585787 5.25 0.25 5.58579 0.25 6L1.75 6ZM0.25 10C0.25 10.4142 0.585787 10.75 1 10.75C1.41421 10.75 1.75 10.4142 1.75 10L0.25 10ZM1.75 14C1.75 13.5858 1.41421 13.25 1 13.25C0.585787 13.25 0.250001 13.5858 0.250001 14L1.75 14ZM0.250001 18C0.250001 18.4142 0.585787 18.75 1 18.75C1.41421 18.75 1.75 18.4142 1.75 18L0.250001 18ZM1.75 22C1.75 21.5858 1.41421 21.25 1 21.25C0.585787 21.25 0.250001 21.5858 0.250001 22L1.75 22ZM0.25 3.27835e-08L0.25 2L1.75 2L1.75 -3.27835e-08L0.25 3.27835e-08ZM0.25 6L0.25 10L1.75 10L1.75 6L0.25 6ZM0.250001 14L0.250001 18L1.75 18L1.75 14L0.250001 14ZM0.250001 22L0.250001 24L1.75 24L1.75 22L0.250001 22Z" fill="#085E55"/>
+            </svg>
+            
+
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="44" height="44" rx="22" stroke="#085E55"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.25 13.5C20.25 13.0858 19.9142 12.75 19.5 12.75C19.0858 12.75 18.75 13.0858 18.75 13.5V14.75H15C14.3096 14.75 13.75 15.3096 13.75 16V29C13.75 29.6904 14.3096 30.25 15 30.25H30C30.6904 30.25 31.25 29.6904 31.25 29V16C31.25 15.3096 30.6904 14.75 30 14.75H26.25V13.5C26.25 13.0858 25.9142 12.75 25.5 12.75C25.0858 12.75 24.75 13.0858 24.75 13.5V14.75H20.25V13.5ZM15.25 16.25H18.75V17.5C18.75 17.9142 19.0858 18.25 19.5 18.25C19.9142 18.25 20.25 17.9142 20.25 17.5V16.25H24.75V17.5C24.75 17.9142 25.0858 18.25 25.5 18.25C25.9142 18.25 26.25 17.9142 26.25 17.5V16.25H29.75V19.75H15.25V16.25ZM15.25 21.25V28.75H29.75V21.25H15.25ZM17.25 23.5C17.25 23.0858 17.5858 22.75 18 22.75H19C19.4142 22.75 19.75 23.0858 19.75 23.5C19.75 23.9142 19.4142 24.25 19 24.25H18C17.5858 24.25 17.25 23.9142 17.25 23.5ZM22 22.75C21.5858 22.75 21.25 23.0858 21.25 23.5C21.25 23.9142 21.5858 24.25 22 24.25H23C23.4142 24.25 23.75 23.9142 23.75 23.5C23.75 23.0858 23.4142 22.75 23 22.75H22ZM25.25 23.5C25.25 23.0858 25.5858 22.75 26 22.75H27C27.4142 22.75 27.75 23.0858 27.75 23.5C27.75 23.9142 27.4142 24.25 27 24.25H26C25.5858 24.25 25.25 23.9142 25.25 23.5ZM22 25.75C21.5858 25.75 21.25 26.0858 21.25 26.5C21.25 26.9142 21.5858 27.25 22 27.25H23C23.4142 27.25 23.75 26.9142 23.75 26.5C23.75 26.0858 23.4142 25.75 23 25.75H22ZM25.25 26.5C25.25 26.0858 25.5858 25.75 26 25.75H27C27.4142 25.75 27.75 26.0858 27.75 26.5C27.75 26.9142 27.4142 27.25 27 27.25H26C25.5858 27.25 25.25 26.9142 25.25 26.5ZM18 25.75C17.5858 25.75 17.25 26.0858 17.25 26.5C17.25 26.9142 17.5858 27.25 18 27.25H19C19.4142 27.25 19.75 26.9142 19.75 26.5C19.75 26.0858 19.4142 25.75 19 25.75H18Z" fill="#085E55"/>
+                    </svg>
+                    <p class="date-deadline">
+                        Høringsfrist  31. januar 2027
+                    </p>  
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.75033 2.3335C8.75033 1.91928 8.41454 1.5835 8.00033 1.5835C7.58611 1.5835 7.25033 1.91928 7.25033 2.3335V11.5228L4.19732 8.46983C3.90443 8.17694 3.42956 8.17694 3.13666 8.46983C2.84377 8.76273 2.84377 9.2376 3.13666 9.53049L7.47 13.8638C7.76289 14.1567 8.23776 14.1567 8.53066 13.8638L12.864 9.53049C13.1569 9.2376 13.1569 8.76273 12.864 8.46983C12.5711 8.17694 12.0962 8.17694 11.8033 8.46983L8.75033 11.5228V2.3335Z" fill="#085E55"/>
+                </svg>
+
+                <ul class="hearing hearing--list">
+                    <li class="hearing-card hearing-card--closed">
+                        <p>Denne høringen har foreløpig ingen registrerte uttalelser. </p>
+                    </li>
+                </ul>
+            <svg width="2" height="25" viewBox="0 0 2 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.250001 24C0.250001 24.4142 0.585788 24.75 1 24.75C1.41421 24.75 1.75 24.4142 1.75 24L0.250001 24ZM0.25 2C0.25 2.41421 0.585787 2.75 1 2.75C1.41421 2.75 1.75 2.41421 1.75 2L0.25 2ZM1.75 6C1.75 5.58579 1.41421 5.25 1 5.25C0.585787 5.25 0.25 5.58579 0.25 6L1.75 6ZM0.25 10C0.25 10.4142 0.585787 10.75 1 10.75C1.41421 10.75 1.75 10.4142 1.75 10L0.25 10ZM1.75 14C1.75 13.5858 1.41421 13.25 1 13.25C0.585787 13.25 0.250001 13.5858 0.250001 14L1.75 14ZM0.250001 18C0.250001 18.4142 0.585787 18.75 1 18.75C1.41421 18.75 1.75 18.4142 1.75 18L0.250001 18ZM1.75 22C1.75 21.5858 1.41421 21.25 1 21.25C0.585787 21.25 0.250001 21.5858 0.250001 22L1.75 22ZM0.25 3.27835e-08L0.25 2L1.75 2L1.75 -3.27835e-08L0.25 3.27835e-08ZM0.25 6L0.25 10L1.75 10L1.75 6L0.25 6ZM0.250001 14L0.250001 18L1.75 18L1.75 14L0.250001 14ZM0.250001 22L0.250001 24L1.75 24L1.75 22L0.250001 22Z" fill="#085E55"/>
+            </svg>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="#085E55"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8319 14.4395C23.1415 14.7146 23.1694 15.1887 22.8942 15.4983L17.5609 21.4983C17.4237 21.6527 17.2288 21.7436 17.0224 21.7497C16.8159 21.7558 16.6161 21.6764 16.47 21.5303L13.1367 18.197C12.8438 17.9041 12.8438 17.4292 13.1367 17.1363C13.4296 16.8435 13.9044 16.8435 14.1973 17.1363L16.9682 19.9072L21.7731 14.5017C22.0483 14.1921 22.5223 14.1643 22.8319 14.4395Z" fill="#085E55"/>
+            </svg>
+        </div>
+    </article>
+</main>
+
+
+
+
+
+
+<footer>
+    <div>
+        
+<section class="footer-links"><article class="footer-links__block">
+
+    <h2>Om Arbeidstilsynet</h2>
+
+    <ul class="footer-links__block-link">
+            <li>
+                <a href="/kontakt-oss/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Kontakt oss</span>
+                </a>
+            </li>
+            <li>
+                <a href="/om-oss/ledige-stillinger/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Ledige stillinger</span>
+                </a>
+            </li>
+            <li>
+                <a href="/om-oss/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Om oss</span>
+                </a>
+            </li>
+    </ul>
+</article><article class="footer-links__block">
+
+    <h2>Hold deg oppdatert</h2>
+
+    <ul class="footer-links__block-link">
+            <li>
+                <a href="https://nyheter.arbeidstilsynet.no/p/s/MjEwMDY6Zjg5YWI5MmEtNWIxNC00MWQyLTgwODgtNGUzZTk3N2JkMWVl">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Nyhetsbrev</span>
+                </a>
+            </li>
+            <li>
+                <a href="/podkast/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Podkast</span>
+                </a>
+            </li>
+            <li>
+                <a href="/webinar/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Webinar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ekurs.arbeidstilsynet.no/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>E-l&#xE6;ring</span>
+                </a>
+            </li>
+    </ul>
+</article><article class="footer-links__block">
+    <h2>F&#xF8;lg oss</h2>
+
+<ul class="footer-links__block-link">
+
+        <li>
+        <a href="https://www.youtube.com/arbeidstilsynet">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17Z" fill="currentColor"/>
+            </svg>
+            <span>YouTube</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://www.facebook.com/arbeidstilsynet/">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="currentColor"/>
+            </svg>
+            <span>Facebook</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://no.linkedin.com/company/arbeidstilsynet">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.94141 5.00002C6.94114 5.53046 6.73017 6.03906 6.35491 6.41394C5.97965 6.78883 5.47084 6.99929 4.94041 6.99902C4.40997 6.99876 3.90137 6.78779 3.52649 6.41253C3.1516 6.03727 2.94114 5.52846 2.94141 4.99802C2.94167 4.46759 3.15264 3.95899 3.5279 3.5841C3.90316 3.20922 4.41197 2.99876 4.94241 2.99902C5.47284 2.99929 5.98144 3.21026 6.35633 3.58552C6.73121 3.96078 6.94167 4.46959 6.94141 5.00002ZM7.00141 8.48002H3.00141V21H7.00141V8.48002ZM13.3214 8.48002H9.34141V21H13.2814V14.43C13.2814 10.77 18.0514 10.43 18.0514 14.43V21H22.0014V13.07C22.0014 6.90002 14.9414 7.13002 13.2814 10.16L13.3214 8.48002Z" fill="currentColor"/>
+            </svg>
+            <span>LinkedIn</span>
+        </a>
+        </li>
+</ul>
+
+
+</article><article class="footer-links__block">
+
+    <h2>Om nettstedet</h2>
+
+    <ul class="footer-links__block-link">
+            <li>
+                <a href="/om-oss/personvern/">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Personvern og informasjonskapsler</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://uustatus.no/nb/erklaringer/publisert/17771168-c89f-4f7e-a770-d2826b957b29">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7197 7.28217C11.0126 6.98928 11.4874 6.98928 11.7803 7.28217L17.9678 13.4697C18.2607 13.7626 18.2607 14.2374 17.9678 14.5303L11.7803 20.7178C11.4874 21.0107 11.0126 21.0107 10.7197 20.7178C10.4268 20.4249 10.4268 19.9501 10.7197 19.6572L16.3768 14L10.7197 8.34283C10.4268 8.04994 10.4268 7.57506 10.7197 7.28217Z" fill="currentColor"/>
+                    </svg>
+                    <span>Tilgjengelighetserkl&#xE6;ring (uustatus.no)</span>
+                </a>
+            </li>
+    </ul>
+</article></section>
+        <div class="footer-to-top">
+            <a href="#top">
+                <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0303 4.46967C13.7374 4.17678 13.2626 4.17678 12.9697 4.46967L5.65717 11.7822C5.36428 12.0751 5.36428 12.5499 5.65717 12.8428C5.95006 13.1357 6.42494 13.1357 6.71783 12.8428L12.75 6.81066V23.5625C12.75 23.9767 13.0858 24.3125 13.5 24.3125C13.9142 24.3125 14.25 23.9767 14.25 23.5625V6.81066L20.2822 12.8428C20.5751 13.1357 21.0499 13.1357 21.3428 12.8428C21.6357 12.5499 21.6357 12.0751 21.3428 11.7822L14.0303 4.46967Z" fill="currentColor"/>
+                </svg>
+                <span>Til toppen</span>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script defer="defer" nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" src="/Util/Find/epi-util/find.js"></script>
+<script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+
+<script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+    /*<![CDATA[*/
+    (function () {
+        var sz = document.createElement('script');
+        sz.type = 'text/javascript';
+        sz.async = true;
+        sz.src = '//siteimproveanalytics.com/js/siteanalyze_6003048.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+</script>
+<script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" type="module" src="/dist/scripts/main.js" defer></script>
+
+<script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad">
+    const params = new URLSearchParams(window.location.search)
+    const utmSource = params.get('utm_source')
+
+    window.SKYRA_CONFIG = {
+        org: 'arbeidstilsynet',
+        traits: {
+            'traffic-source': utmSource || 'unknown',
+        },
+    }
+</script>
+<script nonce="2c2466d2-1a27-435f-8ed0-6111d187f7ad" src="https://survey.skyra.no/skyra-survey.js"></script>
+
+
+</body>
+
+</html>

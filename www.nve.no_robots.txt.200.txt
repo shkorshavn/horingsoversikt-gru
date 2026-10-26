@@ -1,0 +1,3 @@
+﻿Sitemap: https://www.nve.no/xmlsitemap
+User-agent: *
+Crawl-delay: 20

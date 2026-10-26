@@ -1,0 +1,1217 @@
+
+<!doctype html>
+<html lang="nb">
+<head>
+    
+    
+<meta charset="utf-8" />
+<title>H&#xF8;ring om hest i trafikken (21/79414-62) | Statens vegvesen</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="format-detection" content="telephone=no">
+<link href="https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-hest-i-trafikken---forslag-til-endringer-i-trafikkregler-og-forskrift-om-bruk-av-kjoretoy/" rel="canonical" />
+
+
+
+<meta property="og:title" content="H&#xF8;ring om hest i trafikken (21/79414-62)" /><meta name="description" content="Forslag til regelendringer som skal bedre trafikksikkerheten og fremkommeligheten for hestebrukere og andre trafikanter." /><meta property="og:description" content="Forslag til regelendringer som skal bedre trafikksikkerheten og fremkommeligheten for hestebrukere og andre trafikanter." /><meta property="og:type" content="website" /> 
+<meta property="og:url" content="https://www.vegvesen.no/fag/publikasjoner/hoeringer/horing-om-hest-i-trafikken---forslag-til-endringer-i-trafikkregler-og-forskrift-om-bruk-av-kjoretoy/" />
+
+
+<meta property="og:image" content="https://www.vegvesen.no/globalassets/forsiden/svv-social-share-fallback.jpg" /><meta property="og:image:width" content="1800" /><meta property="og:image:height" content="942" /><meta property="og:site_name" content="Statens vegvesen" /><meta property="og:locale" content="nb_NO" />
+<meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@Presserom" /><meta name="twitter:title" content="H&#xF8;ring om hest i trafikken (21/79414-62)" /><meta name="twitter:description" content="Forslag til regelendringer som skal bedre trafikksikkerheten og fremkommeligheten for hestebrukere og andre trafikanter." /><meta name="twitter:image" content="https://www.vegvesen.no/globalassets/forsiden/svv-social-share-fallback.jpg" /><meta property="fb:app_id" content="1864275973818163" />
+
+
+
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=" data-cbid="e0cf2d31-fc2c-4a2c-aac1-63d5210e69e6" type="text/javascript" data-culture="nb" data-blockingmode="manual">
+</script>
+
+
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        'language': 'nb',
+        'template': 'hearing',
+        'breadCrumb': 'Vei, trafikk, kjøretøy og førerkort|Fag|Publikasjoner|Offentlige høringer'
+    });
+</script>
+<!-- Google Tag Manager -->
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FKSPBXS');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script id="clientSettings" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+    window.settingsFromServer = {"userCheckOIDCUrl":"https://oidc-login.atlas.vegvesen.no/idporten/status","userCheckFamUrl":"https://dinside-mellomlagring.atlas.vegvesen.no/log-in-status"};
+</script>
+
+
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFTEticaLt.woff" />
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFT_Etica_Reg.woff" />
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="/ui/fonts/LFT_Etica_Semibold.woff" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/ui/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/ui/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/ui/favicon/favicon-16x16.png">
+<link rel="manifest" href="/ui/favicon/site.webmanifest">
+<link rel="mask-icon" href="/ui/favicon/safari-pinned-tab.svg" color="#444f55">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="msapplication-TileColor" content="#444f55">
+<meta name="msapplication-config" content="~/ui/favicon/browserconfig.xml">
+<meta name="theme-color" content="#444f55">
+
+
+    
+    
+
+    <link rel='stylesheet' type='text/css' data-f-resource='EPiServerForms.css' href='/Util/EPiServer.Forms/EPiServerForms.css' />
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+window.ENV='prod';
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=ea5e7409-fb9b-43a6-9d01-d39f0b434934;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=0f8e1db3-6afb-4ae0-8a0c-222efca3484e', disableCookiesUsage: true }});
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+var epi = epi||{}; epi.EPiServer = epi.EPiServer||{}; epi.EPiServer.Forms = epi.EPiServer.Forms||{};
+                    epi.EPiServer.Forms.InjectFormOwnJQuery = true;epi.EPiServer.Forms.OriginalJQuery = typeof jQuery !== 'undefined' ? jQuery : undefined;
+</script>
+
+    
+    
+
+    
+
+
+        <link rel="stylesheet" href="/dist/client/assets/framework-BJY6duON.css" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+        <link rel="stylesheet" href="/dist/client/assets/tokens-n3AGPIhy.css" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+        <link rel="stylesheet" href="/dist/client/assets/global-B1tHttvz.css" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+        <script src="/dist/client/assets/entry-client-CpgJi5L0.js" type="module" data-frontend-framework-module nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+        <script src="/dist/client/assets/framework.component-BGCvq9cr.js" type="module" data-frontend-framework-module nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+        <script src="/dist/client/assets/global.component-BAwApGzA.js" type="module" data-frontend-framework-module nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+        <script src="/dist/client/assets/chat.component-WcFgTS1F.js" type="module" data-frontend-framework-module nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+
+</head>
+
+
+
+
+
+
+<body class="hearingPage" data-vanilla-component="framework">
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FKSPBXS"
+                  height="0" width="0" style="display:none;visibility:hidden" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+<div id="idporten-banner" class="your-page-banner" aria-hidden="true" style="display: none;">
+     <div class="page__container">
+        <div class="your-page-banner__user idporten-bruker" data-hj-masked="">
+            <svg class="icon icon--sm" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-person"></use></svg>
+            <span></span>
+        </div>
+        <a class="your-page-banner__logout" href="https://oidc-login.atlas.vegvesen.no/idporten/logout?returnUrl=https%3a%2f%2fwww.vegvesen.no%2floggut%2f">
+            <svg class="icon" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-logout"></use></svg>
+            <span>Logg ut</span>
+        </a>
+    </div>
+</div>
+
+    
+<header class="site-header">
+    <nav class="site-skip-links" aria-label="Gå til innhold">
+       
+           <a class="skiplinks _js-skiplink-main" href="#mainContent">Gå til hovedinnhold</a>
+      
+    </nav>
+
+    <div class="site-header__content page__container">
+        <div class="site-header__logo">
+            <a href="/">
+                <img src="/globalassets/forsiden/statens-vegvesen-logo-header-2.svg?v=49bd7b" alt="Til forsiden" />
+            </a>
+            <img class="site-header__logo__print" src="/ui/logo/statens-vegvesen-logo-print.svg" alt="Statens Vegvesen" />
+        </div>
+        <div class="site-header__navigation">
+
+            
+
+<button type="button" class="mobile-search-close _js-search-close-mobile">
+    <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-close"></use></svg>
+    Lukk
+</button>
+<button type="button" class="mobile-search-trigger _js-search-open-mobile">
+    <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-search"></use></svg>
+    Søk
+</button>
+<div class="quick-search _js-quick-search">
+    <form method="get" action="/sok/" role="search">
+        <label for="searchText" class="quick-search__label">Søk etter</label>
+        <input id="searchText" name="q" type="search" class="quick-search__input _js-set-focus" placeholder="Søk etter" />
+        <button type="submit" class="quick-search__button" aria-label="Søk">
+            <svg class="icon icon--sm icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-search"></use></svg>
+        </button>
+    </form>
+</div>
+
+
+            <div class="site-header__navigation__wrapper">
+                
+    <nav aria-label="Hovedmeny">
+        <button type="button" class="mobile-menu-close _js-mobile-close" aria-controls="main-nav-mobile">
+            <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-close"></use></svg>
+            Lukk
+        </button>
+        <button type="button" class="mobile-menu-trigger _js-mobile-open" aria-controls="main-nav-mobile">
+            <svg class="icon icon--lg icon--negative" aria-hidden="true"><use xlink:href="/ui/icons/svg-defs.svg#ic-burger"></use></svg>
+            Meny
+        </button>
+
+        <ul id="main-nav-mobile" class="main-nav _js-menu-mobile">
+                <li class="main-nav__your-page">
+                    <a
+                        href="/dinside/"
+                        class="main-nav__item__your-page"
+                    >
+                        Din side
+                    </a>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-55239"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            id="mainMenu"
+                            aria-expanded="false"
+                        >                            Trafikk
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-55239">
+                            <ul>
+                                    <li>
+                                        <a href="/trafikkinformasjon/reiseinformasjon/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/travelinfo_grey.svg?v=49a3b5" alt="" />
+                                            Reiseinformasjon
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/trafikkinformasjon/vei-og-skilt/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/roadsurroundings_grey.svg?v=49a3b5" alt="" />
+                                            Vei og skilt
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/trafikkinformasjon/trafikksikkerhet/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/trafikk/safety_grey.svg?v=49a3b5" alt="" />
+                                            Trafikksikkerhet
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-39613"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Kj&#xF8;ret&#xF8;y
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-39613">
+                            <ul>
+                                    <li>
+                                        <a href="/kjoretoy/kjop-og-salg/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/buyandsell_grey.svg?v=499fcb" alt="" />
+                                            Kj&#xF8;p og salg
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kjoretoy/eie-og-vedlikeholde/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/maintenance_grey.svg?v=49a007" alt="" />
+                                            Eie og vedlikeholde
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/kjoretoy/yrkestransport/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/kjoretoy/ikoner/transport_grey.svg?v=49a005" alt="" />
+                                            Yrkestransport
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-36234"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            F&#xF8;rerkort
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-36234">
+                            <ul>
+                                    <li>
+                                        <a href="/forerkort/ta-forerkort/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/driverlicense_brandnew.svg?v=4a6637" alt="" />
+                                            Ta f&#xF8;rerkort
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/forerkort/har-forerkort/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/driverlicense_hand.svg?v=4a65f8" alt="" />
+                                            Har f&#xF8;rerkort
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/forerkort/yrkessjafor/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/forerkort/profdriver_education1.svg?v=4a660f" alt="" />
+                                            Utdanning for yrkessj&#xE5;f&#xF8;rer
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-69627"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Veiprosjekter
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-69627">
+                            <ul>
+                                    <li>
+                                        <a href="/vegprosjekter/finn-vegprosjekt/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/trafficpoi.svg?v=4aa5e4" alt="" />
+                                            Finn veiprosjekter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/prosess/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/puzzle.svg?v=4aa5c0" alt="" />
+                                            Prosessen fram til ny vei
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/nasjonal-transportplan/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/nasjonal-transportplan.svg?v=4aa6c2" alt="" />
+                                            Nasjonal transportplan (NTP)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/vegprosjekter/hoeringer-vegprosjekter/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/vector.svg?v=4aa6cd" alt="" />
+                                            H&#xF8;ringer veiprosjekter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/veg-og-gate/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/vegprosjekter/for-deg-med-erfaring.svg?v=4aa705" alt="" />
+                                            For entrepren&#xF8;rer
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-21794"
+                            class="main-nav__item _js-submenu-trigger main-nav--selected"
+                            aria-current="true"
+                            
+                            aria-expanded="false"
+                        >                            Fag
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-21794">
+                            <ul>
+                                    <li>
+                                        <a href="/fag/veg-og-gate/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/road_grey.svg?v=49c90a" alt="" />
+                                            Vei og gate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/trafikk/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/cars_grey.svg?v=49c91f" alt="" />
+                                            Trafikk
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/teknologi/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/technology_grey.svg?v=49c914" alt="" />
+                                            Teknologi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/fokusomrader/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/focus_grey.svg?v=49c8f2" alt="" />
+                                            Fokusomr&#xE5;der
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/leverandor/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/infobubble_grey.svg?v=49a3b5" alt="" />
+                                            Leverand&#xF8;r
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/fag/publikasjoner/" class="main-nav--selected" aria-current="page">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/fag/publications_grey.svg?v=49c8fd" alt="" />
+                                            Publikasjoner
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+                <li>
+                        <button
+                            type="button"
+                            aria-controls="main-nav--selected-40720"
+                            class="main-nav__item _js-submenu-trigger"
+                            aria-current="false"
+                            
+                            aria-expanded="false"
+                        >                            Om oss
+                        </button>
+                        <div class="main-nav__item-mega" id="main-nav--selected-40720">
+                            <ul>
+                                    <li>
+                                        <a href="/om-oss/kontakt-oss/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/contact_grey.svg?v=49a3b5" alt="" />
+                                            Kontakt oss
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/om-organisasjonen/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/organizationchart.svg?v=49c8df" alt="" />
+                                            Om organisasjonen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/jobb/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/employees_grey.svg?v=49a3b5" alt="" />
+                                            Jobb i Statens vegvesen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/om-oss/presse/">
+                                                <img class="main-nav__sub-nav__icon" src="/globalassets/ikonbibliotek/om-oss/infobubble_grey.svg?v=49a3b5" alt="" />
+                                            Presse
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </li>
+        </ul>
+    </nav>
+
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+        
+    <main id="mainContent" lang="nb" data-vanilla-component="global">
+        <noscript>
+            <div class="page__wrapper page__wrapper--small-spacing-bottom">
+                <div class="page__container">
+                    <div class="info-message info-message--error info-message--center">
+                        
+
+<p>For at nettsidene skal fungere best mulig for deg, m&aring; du aktivere JavaScript i nettleseren din. Her finner du <a href="https://www.enable-javascript.com/no/" rel="noopener">veiledning til hvordan du aktiverer JavaScript i nettleseren (ekstern lenke)</a>.</p>
+<p>Du kan ogs&aring; bruke nettsidene uten &aring; aktivere JavaScript. <a href="/sok/">Bruk s&oslash;ket</a> eller <a href="/om-oss/om-organisasjonen/om-vegvesenno/nettstedskart/">naviger ved hjelp av nettstedkartet</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </noscript>
+        
+
+
+
+
+
+        
+
+<div class="page__wrapper">
+    <div class="page__container">
+
+
+
+
+
+<nav class="_js-breadcrumbs breadcrumbs" aria-label="Brødsmulesti">
+    <ol>
+            <li><a href="/">Forsiden</a></li>
+            <li><a href="/fag/">Fag</a></li>
+            <li><a href="/fag/publikasjoner/">Publikasjoner</a></li>
+            <li><a href="/fag/publikasjoner/hoeringer/" aria-current="page">Offentlige h&#xF8;ringer</a></li>
+    </ol>
+</nav>
+        <div class="page__container--medium">
+             <div class="page__header">
+                <h1>H&#xF8;ring om hest i trafikken (21/79414-62)</h1>
+                <div class="page-information page-information--hearing">
+                    <div class="page-information__content">
+                        <dl class="page-information__definition">
+                            <dt>Høringsfrist:</dt>
+                                <dd>
+07.12.2026                                </dd>
+                            <dt>Publisert:</dt>
+                                <dd>
+24.08.2026                                </dd>
+                            <dt>Referanse:</dt>
+                                <dd>21/79414-62</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="article">
+                <p class="abstract">Forslag til regelendringer som skal bedre trafikksikkerheten og fremkommeligheten for hestebrukere og andre trafikanter.</p>
+
+                <div class="editorial">
+                    
+
+<p>Det foresl&aring;s &aring; endre ordlyden i trafikkreglene &sect; 2 nr. 2 for &aring; klargj&oslash;re hvordan hestebrukerne skal forholde seg til trafikkreglene og n&aring;r det kan gj&oslash;res unntak fra hovedregelen om at hestebrukere skal f&oslash;lge reglene om trafikk med kj&oslash;ret&oslash;y.&nbsp;</p>
+<p>Det foresl&aring;s en ny bokstav i trafikkreglene &sect; 13 nr. 2, som inneb&aelig;rer &aring; p&aring;legge kj&oslash;rende en plikt til &aring; utvise s&aelig;rlig forsiktighet ved passering av personer som rir, leier eller kj&oslash;rer hest.</p>
+<p>Det foresl&aring;s en egen bestemmelse i bruksforskriften der det stilles krav til reflekser, varselskilt og lys p&aring; vogn, slede eller liknende kj&oslash;ret&oslash;y som trekkes av dyr.&nbsp;</p>
+<p>Statens vegvesen har i tillegg til de foresl&aring;tte og anbefalte regelendringene vurdert flere alternative tiltak for &aring; bedre ivareta hestebrukerne. Samtlige tiltak omtales n&aelig;rmere i h&oslash;ringsnotatet.</p>
+<h2>H&oslash;ringsdokumenter</h2>
+<ul class="related-list related-list--download">
+<li class="related-content related-content--download"><a title="H&oslash;ringsbrev, hest i trafikk (PDF)" href="/globalassets/fag/horinger/2026/2179414-62-hest-i-trafikken/horingsbrev-hest-i-trafikk-pdf.pdf?v=4a462d">H&oslash;ringsbrev, hest i trafikk (PDF)</a></li>
+<li class="related-content related-content--download"><a title="Vedlegg 1 - H&oslash;ringsnotat, hest i trafikk (PDF)" href="/globalassets/fag/horinger/2026/2179414-62-hest-i-trafikken/vedlegg-1---horingsnotat-hest-i-trafikk-pdf.pdf?v=4a45f4">Vedlegg 1 - H&oslash;ringsnotat, hest i trafikk (PDF)</a></li>
+<li class="related-content related-content--download"><a title="Vedlegg 2 - Forskriftsforslag, hest i trafikk (PDF)" href="/globalassets/fag/horinger/2026/2179414-62-hest-i-trafikken/vedlegg-2---forskriftsforslag-hest-i-trafikk-pdf.pdf?v=4a45e5">Vedlegg 2 - Forskriftsforslag, hest i trafikk (PDF)</a></li>
+<li class="related-content related-content--download"><a title="Vedlegg 3 - H&oslash;ringsinstanser, hest i trafikk (PDF)" href="/globalassets/fag/horinger/2026/2179414-62-hest-i-trafikken/vedlegg-3---horingsinstanser-hest-i-trafikk-pdf.pdf?v=4a4604">Vedlegg 3 - H&oslash;ringsinstanser, hest i trafikk (PDF)</a></li>
+</ul>
+
+
+
+
+
+                <form method="post" novalidate="novalidate" data-f-metadata="" aria-labelledby="9623f3b2-dd5e-48e7-b5b6-afe96198ddab_label" enctype="multipart/form-data" class="EPiServerForms ValidationSuccess" data-f-type="form" id="9623f3b2-dd5e-48e7-b5b6-afe96198ddab">
+
+
+
+<script type="text/javascript" nonce = "NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+        // This view acts as a rendering template to render InitScript(and server-side Form's descriptor) in FormContainerBlock's client-side for Form[9623f3b2-dd5e-48e7-b5b6-afe96198ddab].
+        // TECHNOTE: all serverside (paths, dynamic values) of EPiServerForms will be transfered to client side here in this section.
+    (function initializeOnRenderingFormDescriptor() {
+        // each workingFormInfo is store inside epi.EPiServer.Forms, lookup by its FormGuid
+        var workingFormInfo=epi.EPiServer.Forms["9623f3b2-dd5e-48e7-b5b6-afe96198ddab"] ={
+            Id: "9623f3b2-dd5e-48e7-b5b6-afe96198ddab" ,
+            Name: "H&#xF8;ringsinnspill" ,
+            // whether this Form can be submitted which relates to the visitor's data (cookie, identity) and Form's settings (AllowAnonymous, AllowXXX)
+            SubmittableStatus: {"submittable":true,"message":""},
+            ConfirmMessage: "",
+            ResetConfirmMessage : "",
+            ShowNavigationBar : false,
+            FocusOnForm: false,
+            ShowSummarizedData : false,
+            // serialize the dependency configuration of this form to clientside
+            DependenciesInfo : JSON.parse("[{\"fieldName\":\"__field_70369\",\"action\":{\"displayName\":\"Vist\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"All\",\"conditions\":[{\"fieldName\":\"__field_70366\",\"operator\":\"Equals\",\"fieldValue\":\"organisasjon\"}]},{\"fieldName\":\"__field_70370\",\"action\":{\"displayName\":\"Vist\",\"name\":\"EPiServer.Forms.Core.Internal.Dependency.ShowAction\",\"order\":1,\"clientsideAction\":\"show\"},\"conditionCombination\":\"All\",\"conditions\":[{\"fieldName\":\"__field_70366\",\"operator\":\"Equals\",\"fieldValue\":\"organisasjon\"}]}]"),
+            // keep all fieldName which are not satisfied the field dependency conditions
+            DependencyInactiveElements: [],
+            // Validation info, for executing validating on client side
+            ValidationInfo : JSON.parse("[{\"targetElementName\":\"__field_70366\",\"targetElementId\":\"2970c6ae-c129-436b-a77f-b521623b2bab\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Dette feltet er påkrevd.\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_70369\",\"targetElementId\":\"78bf023a-932a-4d67-82a5-ed325b71e287\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Du må skrive inn navn på forening eller organisasjon\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_70372\",\"targetElementId\":\"ef64f369-9e00-4968-a7f9-48e0d63222de\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Du må skrive inn fornavnet ditt\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_70373\",\"targetElementId\":\"37b27d93-6a05-4ca5-bf1a-5eb9ac8244fd\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Du må skrive inn etternavnet ditt\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_70375\",\"targetElementId\":\"d00b6a36-59e3-4353-8063-7d2f9d8faf9f\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Du må skrive inn e-postadressen din\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}},{\"type\":\"EPiServer.Forms.Implementation.Validation.EmailValidator\",\"description\":null,\"model\":{\"jsPattern\":\"^((([a-zA-Z]|\\\\d|[!#\\\\$%\u0026\u0027\\\\*\\\\+\\\\-\\\\/=\\\\?\\\\^_`{\\\\|}~]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])+(\\\\.([a-zA-Z]|\\\\d|[!#\\\\$%\u0026\u0027\\\\*\\\\+\\\\-\\\\/=\\\\?\\\\^_`{\\\\|}~]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])+)*)|((\\\\x22)((((\\\\x20|\\\\x09)*(\\\\x0d\\\\x0a))?(\\\\x20|\\\\x09)+)?(([\\\\x01-\\\\x08\\\\x0b\\\\x0c\\\\x0e-\\\\x1f\\\\x7f]|\\\\x21|[\\\\x23-\\\\x5b]|[\\\\x5d-\\\\x7e]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(\\\\\\\\([\\\\x01-\\\\x09\\\\x0b\\\\x0c\\\\x0d-\\\\x7f]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF]))))*(((\\\\x20|\\\\x09)*(\\\\x0d\\\\x0a))?(\\\\x20|\\\\x09)+)?(\\\\x22)))@((([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])([a-zA-Z]|\\\\d|-|\\\\.|_|~|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])*([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])))\\\\.)+(([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])([a-zA-Z]|\\\\d|-|\\\\.|_|~|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])*([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])))$\",\"dotNetPattern\":\"^((([a-zA-Z]|\\\\d|[!#\\\\$%\u0026\u0027\\\\*\\\\+\\\\-\\\\/=\\\\?\\\\^_`{\\\\|}~]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])+(\\\\.([a-zA-Z]|\\\\d|[!#\\\\$%\u0026\u0027\\\\*\\\\+\\\\-\\\\/=\\\\?\\\\^_`{\\\\|}~]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])+)*)|((\\\\x22)((((\\\\x20|\\\\x09)*(\\\\x0d\\\\x0a))?(\\\\x20|\\\\x09)+)?(([\\\\x01-\\\\x08\\\\x0b\\\\x0c\\\\x0e-\\\\x1f\\\\x7f]|\\\\x21|[\\\\x23-\\\\x5b]|[\\\\x5d-\\\\x7e]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(\\\\\\\\([\\\\x01-\\\\x09\\\\x0b\\\\x0c\\\\x0d-\\\\x7f]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF]))))*(((\\\\x20|\\\\x09)*(\\\\x0d\\\\x0a))?(\\\\x20|\\\\x09)+)?(\\\\x22)))@((([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])([a-zA-Z]|\\\\d|-|\\\\.|_|~|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])*([a-zA-Z]|\\\\d|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])))\\\\.)+(([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])|(([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])([a-zA-Z]|\\\\d|-|\\\\.|_|~|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])*([a-zA-Z]|[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF])))$\",\"message\":\"Du må fylle inn en gyldig e-postadresse (eks. ola@norge.no)\",\"validationCssClass\":null,\"additionalAttributes\":null}}]},{\"targetElementName\":\"__field_70376\",\"targetElementId\":\"ae4da610-deb1-4df4-aa0b-4bffdbd34427\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.RequiredValidator\",\"description\":null,\"model\":{\"message\":\"Du må skrive inn høringsinnspillet ditt her\",\"validationCssClass\":\"ValidationRequired\",\"additionalAttributes\":{\"required\":\"\",\"aria-required\":\"true\"}}}]},{\"targetElementName\":\"__field_70378\",\"targetElementId\":\"697c7ff8-30e1-4351-8168-37a08b0c79a7\",\"validators\":[{\"type\":\"EPiServer.Forms.Implementation.Validation.AllowedExtensionsValidator\",\"description\":null,\"model\":{\"accept\":\"\",\"message\":\"Det opplastede filformatet er ikke tillatt eller støttet.\",\"validationCssClass\":null,\"additionalAttributes\":null}},{\"type\":\"EPiServer.Forms.Implementation.Validation.MaxFileSizeValidator\",\"description\":null,\"model\":{\"sizeInBytes\":10485760,\"message\":\"Størrelsen på opplastet fil må være mindre enn 10 MB.\",\"validationCssClass\":null,\"additionalAttributes\":null}}]}]"),
+            // Steps information for driving multiple-step Forms.
+            StepsInfo : {
+                Steps: [{"index":0,"attachedUrl":"","dependField":null,"dependCondition":null,"isActive":true,"attachedContentLink":"","dependValue":"","elementName":"__field_","guid":"00000000-0000-0000-0000-000000000000"}]
+            },
+            FieldsExcludedInSubmissionSummary: ["__field_70378"],
+            ElementsInfo: JSON.parse("{\"__field_70365\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ParagraphTextElementBlock\",\"friendlyName\":\"Om obligatoriske felter\",\"customBinding\":false},\"__field_70366\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ChoiceElementBlock\",\"friendlyName\":\"Jeg svarer på vegne av en\",\"customBinding\":false},\"__field_70369\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextboxElementBlock\",\"friendlyName\":\"Navn på forening/organisasjon\",\"customBinding\":false},\"__field_70370\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ParagraphTextElementBlock\",\"friendlyName\":\"Kontaktperson\",\"customBinding\":false},\"__field_70372\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextboxElementBlock\",\"friendlyName\":\"Fornavn\",\"customBinding\":false},\"__field_70373\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextboxElementBlock\",\"friendlyName\":\"Etternavn\",\"customBinding\":false},\"__field_70375\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextboxElementBlock\",\"friendlyName\":\"E-postadresse\",\"customBinding\":false},\"__field_70376\":{\"type\":\"EPiServer.Forms.Implementation.Elements.TextareaElementBlock\",\"friendlyName\":\"Høringssvar\",\"customBinding\":false},\"__field_70377\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ParagraphTextElementBlock\",\"friendlyName\":\"Om personvern\",\"customBinding\":false},\"__field_70382\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ParagraphTextElementBlock\",\"friendlyName\":\"Om vedlegg\",\"customBinding\":false},\"__field_70378\":{\"type\":\"EPiServer.Forms.Implementation.Elements.FileUploadElementBlock\",\"friendlyName\":\"Filopplasting\",\"customBinding\":false},\"__field_70664\":{\"type\":\"EPiServer.Forms.Implementation.Elements.ParagraphTextElementBlock\",\"friendlyName\":\"Buffer før Send inn-knapp\",\"customBinding\":false},\"__field_70379\":{\"type\":\"EPiServer.Forms.Implementation.Elements.SubmitButtonElementBlock\",\"friendlyName\":\"Send inn-knapp\",\"customBinding\":false}}"),
+            DataSubmitController: "/Svv.Forms",
+        };
+        /// TECHNOTE: Calculation at FormInfo level, and these values will be static input for later processing.
+        workingFormInfo.StepsInfo.FormHasNoStep_VirtualStepCreated=true; // this FLAG will be true, if Editor does not put any FormStep. Engine will create a virtual step, with empty GUID
+        workingFormInfo.StepsInfo.FormHasNothing=false; // this FLAG will be true if FormContainer has no element at all
+        workingFormInfo.StepsInfo.AllStepsAreNotLinked=true; // this FLAG will be true, if all steps all have contentLink= ="" (emptyString)
+
+        epi.EPiServer.SystemSettings = {
+            RequestVerification: {
+                FormFieldName: "__RequestVerificationToken",
+                HeaderName: "RequestVerificationToken"
+            }
+        };
+    })();
+</script>
+		<input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormGuid" value="9623f3b2-dd5e-48e7-b5b6-afe96198ddab" data-f-type="hidden" />
+		<input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormHostedPage" value="133536" data-f-type="hidden" />
+		<input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormLanguage" value="nb" data-f-type="hidden" />
+		<input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormCurrentStepIndex" value="0" data-f-type="hidden" />
+		<input type="hidden" class="Form__Element Form__SystemElement FormHidden FormHideInSummarized" name="__FormSubmissionId" value="" data-f-type="hidden" />
+			<h2 class="Form__Title" id="9623f3b2-dd5e-48e7-b5b6-afe96198ddab_label">Send inn h&#xF8;ringsinnspill</h2>
+		<div class="Form__Status">
+			<div role="status" class="Form__Status__Message hide" data-f-form-statusmessage>
+				
+			</div>
+		</div>
+		<div data-f-mainbody class="Form__MainBody">
+				<section id="__field_" data-f-type="step" data-f-element-name="__field_" class="Form__Element FormStep Form__Element--NonData " data-f-stepindex="0" data-f-element-nondata>
+					<!-- Each FormStep groups the elements below it til the next FormStep -->
+
+
+
+
+<div class="Form__Element FormParagraphText Form__Element--NonData" data-f-element-name="__field_70365" data-f-element-nondata="">        <div id="a0d05197-c261-4db2-9e05-0084d46fbd76" >
+<p>* Obligatoriske felter</p>        </div>
+</div>
+
+
+<div class="Form__Element FormChoice ValidationRequired" data-f-element-name="__field_70366" data-f-type="choice" id="2970c6ae-c129-436b-a77f-b521623b2bab">    <fieldset aria-describedby="__field_70366_desc">
+            <legend class="Form__Element__Caption">Jeg svarer p&#xE5; vegne av en</legend>
+                    <input type="radio" id="2970c6ae-c129-436b-a77f-b521623b2bab_0" name="__field_70366" value="privatperson" class="FormChoice__Input FormChoice__Input--Radio" checked data-f-default-value=&quot;true&quot; data-f-datainput  required aria-required="true" />
+                    <label for="2970c6ae-c129-436b-a77f-b521623b2bab_0" class="FormChoice__Label">
+                        privatperson
+                    </label>
+                    <input type="radio" id="2970c6ae-c129-436b-a77f-b521623b2bab_1" name="__field_70366" value="organisasjon" class="FormChoice__Input FormChoice__Input--Radio"   data-f-datainput  required aria-required="true" />
+                    <label for="2970c6ae-c129-436b-a77f-b521623b2bab_1" class="FormChoice__Label">
+                        forening/organisasjon
+                    </label>
+    </fieldset>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70366" data-f-validationerror="" id="__field_70366_desc" role="alert"></span></div>
+
+
+<div class="Form__Element FormTextbox ValidationRequired hide" data-f-element-name="__field_70369" data-f-type="textbox">    <label for="78bf023a-932a-4d67-82a5-ed325b71e287" class="Form__Element__Caption">Navn p&#xE5; forening eller organisasjon </label>
+    <input name="__field_70369" 
+           id="78bf023a-932a-4d67-82a5-ed325b71e287" 
+           type="text" 
+           class="FormTextbox__Input" 
+           aria-describedby="__field_70369_desc"
+           placeholder=""  required aria-required="true" data-f-datainput
+           autocomplete="off"/>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70369" data-f-validationerror="" id="__field_70369_desc" role="alert"></span></div>
+
+
+
+<div class="Form__Element FormParagraphText Form__Element--NonData " data-f-element-name="__field_70370" data-f-element-nondata="">        <div id="9392a111-01ec-4311-a7f1-664d6dcc54ec" >
+<h3>Kontaktperson</h3>        </div>
+</div>
+
+
+<div class="Form__Element FormTextbox ValidationRequired" data-f-element-name="__field_70372" data-f-type="textbox">    <label for="ef64f369-9e00-4968-a7f9-48e0d63222de" class="Form__Element__Caption">Fornavn </label>
+    <input name="__field_70372" 
+           id="ef64f369-9e00-4968-a7f9-48e0d63222de" 
+           type="text" 
+           class="FormTextbox__Input" 
+           aria-describedby="__field_70372_desc"
+           placeholder=""  required aria-required="true" data-f-datainput
+           autocomplete="off"/>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70372" data-f-validationerror="" id="__field_70372_desc" role="alert"></span></div>
+
+
+<div class="Form__Element FormTextbox ValidationRequired" data-f-element-name="__field_70373" data-f-type="textbox">    <label for="37b27d93-6a05-4ca5-bf1a-5eb9ac8244fd" class="Form__Element__Caption">Etternavn </label>
+    <input name="__field_70373" 
+           id="37b27d93-6a05-4ca5-bf1a-5eb9ac8244fd" 
+           type="text" 
+           class="FormTextbox__Input" 
+           aria-describedby="__field_70373_desc"
+           placeholder=""  required aria-required="true" data-f-datainput
+           autocomplete="off"/>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70373" data-f-validationerror="" id="__field_70373_desc" role="alert"></span></div>
+
+
+<div class="Form__Element FormTextbox ValidationRequired" data-f-element-name="__field_70375" data-f-type="textbox">    <label for="d00b6a36-59e3-4353-8063-7d2f9d8faf9f" class="Form__Element__Caption">E-postadresse </label>
+    <input name="__field_70375" 
+           id="d00b6a36-59e3-4353-8063-7d2f9d8faf9f" 
+           type="email" 
+           class="FormTextbox__Input" 
+           aria-describedby="__field_70375_desc"
+           placeholder=""  required aria-required="true" data-f-datainput
+           autocomplete="off"/>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70375" data-f-validationerror="" id="__field_70375_desc" role="alert"></span></div>
+
+<div class="Form__Element FormTextbox FormTextbox--Textarea ValidationRequired" data-f-element-name="__field_70376" data-f-modifier="textarea" data-f-type="textbox">    <label for="ae4da610-deb1-4df4-aa0b-4bffdbd34427" class="Form__Element__Caption">H&#xF8;ringssvar </label>
+    <textarea name="__field_70376" id="ae4da610-deb1-4df4-aa0b-4bffdbd34427" class="FormTextbox__Input"
+        placeholder="Skriv inn h&#xF8;ringssvaret ditt her. Eventuelle vedlegg kan du laste opp nedenfor."
+        data-f-label="H&#xF8;ringssvar " data-f-datainput
+         required aria-required="true" aria-describedby="__field_70376_desc"
+        autocomplete="off"></textarea>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70376" data-f-validationerror="" id="__field_70376_desc" role="alert"></span></div>
+
+
+
+<div class="Form__Element FormParagraphText Form__Element--NonData" data-f-element-name="__field_70377" data-f-element-nondata="">        <div id="1cd35d36-1854-4683-8f53-83a806505053" >
+<p>Ikke skriv sensitive personopplysninger i skjemaet. Innholdet blir sendt ukryptert som e-post til Statens vegvesen.</p>
+<p> </p>
+<p>Statens vegvesen behandler opplysningene i tråd med <a href="/om-oss/om-organisasjonen/personvern/" target="_blank" rel="noopener">personvernerklæringen</a>.</p>        </div>
+</div>
+
+
+
+<div class="Form__Element FormParagraphText Form__Element--NonData" data-f-element-name="__field_70382" data-f-element-nondata="">        <div id="b541a675-00e1-4d4d-bea2-d6b350a33141" >
+<h3>Vedlegg</h3>
+<div class="attachments"><span class="help-block">Hvis du vil legge ved flere filer, må du holde inne Ctrl-tasten (på PC) eller Command-tasten (på Mac) når du markerer de filene du vil legge ved. </span></div>
+<div class="attachments"> </div>
+<div class="attachments"><span class="help-block">Husk at vedleggene må være under 10 MB.</span></div>
+<div class="vertical-spacing-small"> </div>        </div>
+</div>
+
+
+<div class="Form__Element FormFileUpload" data-f-element-name="__field_70378" data-f-type="fileupload">    <label for="697c7ff8-30e1-4351-8168-37a08b0c79a7" class="Form__Element__Caption">Last opp filer</label>
+    <input name="__field_70378" id="697c7ff8-30e1-4351-8168-37a08b0c79a7" type="file" class="FormFileUpload__Input"
+                                
+           data-f-datainput aria-describedby="__field_70378_desc"
+        
+           />
+    <div class="FormFileUpload__PostedFile" data-f-postedFile></div>
+<span class="Form__Element__ValidationError hidden" data-f-linked-name="__field_70378" data-f-validationerror="" id="__field_70378_desc" role="alert"></span></div>
+
+
+
+<div class="Form__Element FormParagraphText Form__Element--NonData" data-f-element-name="__field_70664" data-f-element-nondata="">        <div id="ba351a7a-7e89-4448-8d1c-896bb20e3426" >
+        </div>
+</div>
+
+<div class="hide"><label for="comment579942e58b4942a9a7d2625f39f4e6f8">Dette feltet skal ikke fylles ut</label><input name="token" type="hidden" value="639286546642103367"><input id="comment579942e58b4942a9a7d2625f39f4e6f8" name="comment" type="text"></div>
+<div class="button-row">
+    <button id="6610ea22-00c6-4289-96e5-8cfb9873f178"
+            name="submit"
+            type="submit"
+            value="6610ea22-00c6-4289-96e5-8cfb9873f178"
+            data-f-is-finalized="false"
+            data-f-is-progressive-submit="true"
+            data-f-type="submitbutton"
+            data-f-element-name="__field_70379"
+            
+            
+            class="Form__Element FormExcludeDataRebind FormSubmitButton ">
+Send inn h&#xF8;ringsinnspill    </button>
+</div>				</section>
+
+		</div>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8OiEBGyIbuFKpzaJmvxaajdAh0lTBXmP9chYYfzQZx2t58HTXTlVqTqCiX1ud73m5rCymyH9pgXXrqIHYYK3f9ViDkO-XxnGsOTjA8Sve09K6hv3_JUIUacM5BYWEcfh00BlXudzxgVnyYJaf9HVzYI" /></form>
+
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+        
+
+    </main>
+
+    
+<div hidden data-props="{&#xA;  &quot;key&quot;: &quot;b522612b-3f4f-48b8-8b74-8b8f2e3ae466&quot;,&#xA;  &quot;src&quot;: &quot;https://chat.kindlycdn.com/kindly-chat.js&quot;,&#xA;  &quot;allowManualChat&quot;: false,&#xA;  &quot;showBubble&quot;: false&#xA;}" data-vanilla-component="chat"></div>
+
+<button class="chat__bubble" data-kindly-chat-trigger>
+    <span>Chat med oss</span>
+</button>
+
+    
+<footer class="site-footer">
+    <div class="page__container">
+        <div class="page__container--medium site-footer__row ">
+                <div class="site-footer__row__column">
+                    <h2>Kontakt oss</h2>
+                    
+<ul><li>
+
+<a href="/om-oss/kontakt-oss/">Kontakt Statens vegvesen</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/om-statens-vegvesen/folg-oss-i-sosiale-medier/">F&#xF8;lg oss i sosiale medier</a>
+</li></ul>
+                </div>
+                <div class="site-footer__row__column">
+                    <h2>Om vegvesen.no</h2>
+                    
+<ul><li>
+
+<a href="/om-oss/om-organisasjonen/om-vegvesenno/nettstedskart/">Nettstedskart</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/personvern/">Personvern</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/personvern/vegvesenno-informasjonskapsler/">Informasjonskapsler (cookies)</a>
+</li><li>
+
+<a href="https://uustatus.no/nb/erklaringer/publisert/9e4d3e08-9ae7-42e4-89df-26b152ced243" target="_blank">Tilgjengelighetserkl&#xE6;ring</a>
+</li></ul>
+                </div>
+            <div class="site-footer__row__column">
+                <h2>Statens vegvesen</h2>
+                
+<ul><li>
+
+<a href="/om-oss/om-organisasjonen/">Om organisasjonen</a>
+</li></ul>
+                <div class="site-footer__section">
+                    <p>Org.nr.: 971 032 081</p>
+                </div>
+                
+<ul><li>
+
+<a href="/fag/publikasjoner/statistikk-og-analyser/">Statistikk og analyser</a>
+</li><li>
+
+<a href="/om-oss/om-organisasjonen/innsyn-etter-offentligloven/">Innsyn etter offentligloven</a>
+</li><li>
+
+<a href="/fag/publikasjoner/hoeringer/">Offentlige h&#xF8;ringer</a>
+</li><li>
+
+<a href="/om-oss/kontakt-oss/skjema/">Skjema</a>
+</li></ul>
+            </div>
+            <div class="site-footer__row__column">
+                <h2>Language</h2>
+                
+
+<ul>
+        <li>
+                <span class="language active-language">Bokm&#xE5;l</span>
+
+        </li>
+        <li>
+                <span class="language">Nynorsk</span>
+
+                <span>(ikkje tilgjengeleg)</span>
+        </li>
+        <li>
+                <span class="language">English</span>
+
+                <span>(not available)</span>
+        </li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+
+<script async src='https://siteimproveanalytics.com/js/siteanalyze_3658.js' nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+</script>
+
+    
+
+
+<!-- Skyra -->
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+    window.SKYRA_CONFIG = {
+        org: 'statens-vegvesen'
+    }
+
+    window.addEventListener('CookiebotOnLoad', function () {
+        window.skyraStart = function() {
+            window.skyra.setConsent(Cookiebot.consent?.preferences ?? false);
+        };
+    });
+
+    window.addEventListener('CookiebotOnAccept', function() {
+        window.skyra?.setConsent(Cookiebot.consent.preferences);
+    });
+
+    window.addEventListener('CookiebotOnDecline', function() {
+        window.skyra?.setConsent(false);
+    });
+</script>
+<script src="https://survey.skyra.no/skyra-survey.js" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+
+
+    <link rel="stylesheet" type="text/css" href="/scripts/TinyMCE/plugins/codesnipet/prism.css?v=iVXSIx9eFhKMhIA74Esl9Dc0oi1Mz7GhqrqeO0oQJc0" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+    <script async defer src="/scripts/TinyMCE/plugins/codesnipet/prism.js?v=c4HFDk9HS5KuSYwzNNGPKVV0swZVL6bNhdVi_PpVJSw" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM="></script>
+    <script defer="defer" nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=" src="/Util/Find/epi-util/find.js"></script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=" src="/Util/EPiServer.Forms/jquery-3.5.1.min.js"></script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+/*
+This EPiServerForms_prerequisite.js TEMPLATE will be compiled with serverside values and injected into ViewMode page
+We reuse the existed global var epi from EPiServer CMS, if any. It will init/grab the epi object, and init epi.EPiServer.Forms object
+*/
+
+// (by default) Forms's jQuery will be injected right before this file. From now on, we refer Forms own jQuery as $$epiforms.
+// after this code, the object $ and jQuery will revert back to its original meaning in original library (Alloy jQuery or other lib).
+
+// Our clients' sites may include their own Jquery version (e.g. a higher version for some special functionalities), which leads to unexpected conflicts with ours.
+// To avoid this, we use jQuery.noConflict()  to set up $$epiforms as an allias for our jquery and then, revert Jquery allias to clients' by using
+// epi.EPiServer.Forms.OriginalJQuery whose value is set up as Jquery at the beginning in FormBlockController.
+// This also allows us to extend our own Jquery's functionalities without causing further conflicts.
+
+var $$epiforms = epi.EPiServer.Forms.InjectFormOwnJQuery ? jQuery.noConflict() : jQuery;
+if (epi.EPiServer.Forms.OriginalJQuery) {
+    jQuery = epi.EPiServer.Forms.OriginalJQuery;
+    delete epi.EPiServer.Forms.OriginalJQuery;
+}
+(function () {
+    var externalScript = ["/scripts/forms/formsScript.js"],
+        externalCss = [];
+
+    if (epi.EPiServer.Forms.ExternalScriptSources) {
+        externalScript = epi.EPiServer.Forms.ExternalScriptSources.concat(externalScript);
+        // Remove duplicate items
+        externalScript = externalScript.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+    if (epi.EPiServer.Forms.ExternalCssSources) {
+        externalCss = epi.EPiServer.Forms.ExternalCssSources.concat(externalCss);
+        // Remove duplicate items
+        externalCss = externalCss.filter(function (value, index, self) {
+            return self.indexOf(value) === index;
+        });
+    }
+
+    $$epiforms.extend(true, epi.EPiServer, {
+        CurrentPageLink: "133536",
+        CurrentPageLanguage: "nb",
+        CurrentFormLanguage: "nb",
+        Forms: {
+            Utils: {}, Data: {}, Extension: {}, Validation: {}, Navigation: {}, Dependency: {},
+            $: $$epiforms,  // save our own link to our own jQuery
+            ThrottleTimeout: 500,  // miliseconds
+            ExternalScriptSources: externalScript,
+            ExternalCssSources: externalCss,
+            UploadExtensionBlackList: "asp,aspx,asa,ashx,asmx,bat,chm,class,cmd,com,config,dll,exe,hta,htr,htw,jse,json,lnk,mda,mdb,msc,msh,pif,printer,ps1,ps2,reg,rem,scf,scr,sct,shtm,shtml,soap,stm,svc,url,vb,vbe,vbs,vsix,ws,wsc,wsf,wsh,xamlx,htm,html,js,jar",
+            Messages: {"viewMode":{"malformStepConfiguration":"Feil utformet FormStep-konfigurasjon. Enkelte trinn er knyttet til sider, mens andre trinn ikke er knyttet til sider, eller de er knyttet til innhold uten offentlig URL.","commonValidationFail":"Denne elementverdien er ugyldig."},"fileUpload":{"overFileSize":"Størrelsen på opplastet fil må være mindre enn {0} MB.","invalidFileType":"Det opplastede filformatet er ikke tillatt eller støttet.","postedFile":"(Tidligere postede filer: {0})"}},
+            LocalizedResources: {"conditioncombination":{"all":"Alle","any":"Noen"},"satisfiedaction":{"hide":"Skjult","show":"Vist"},"contenttypescomponent":{"title":"Skjemaelementer","description":"Vis alle innholdstyper i Optimizely Forms"},"formscomponent":{"title":"Skjemaer","description":"Håndter skjemaer for nettstedet","command":{"create":{"label":"Nytt skjema"},"viewdata":{"label":"Innsendinger av skjema"}},"messages":{"nocontent":"Denne mappen inneholder ingen skjemaer."}},"formdataview":{"name":"Innsendinger av skjema","description":"Vis innsendte skjemaer","heading":"Innsendinger av skjema","begindate":"Fra dato","enddate":"Til dato","search":"Søk","nodata":"Finner ingen data","export":"Eksporter som …","exportasxml":"XML","exportasxmldesc":"Eksporter skjemadata i XML-format","exportascsv":"CSV","exportascsvdesc":"Eksporter skjemadata i CSV-format","exportasjson":"JSON","exportasjsondesc":"Eksporter skjemadata i JSON-format","finalizedonly":"Kun fullført","deleteselecteditems":"Slett","exportasxlsx":"XLSX","exportasxlsxdesc":"Eksporter skjemadata i XLSX-format","selectalltooltip":"Velg alle","deselectalltooltip":"Velg bort alle","deleteconfirmation":"Vil du slette valgte elementer? Denne handlingen kan ikke angres.","nopostid":"Fant ingen post-ID for sletting.","couldnotgetassociateform":"Kunne ikke hente tilknyttet skjema.","deletesuccessful":"Postdata er slettet.","accessdenied":"Du har ikke tillatelse til å vise disse dataene.","submittime":"Tid","submituser":"Av bruker","hostedpage":"Innsendt fra","finalizedsubmission":"Fullført","selectioninfo":"Alle <b>${0}</b> oppføringer er valgt. ","extraselectionlink":"Velg alle <b>${0}</b> oppføringer","clearselectionlink":"Fjern valg","filterdata":"Filtrer","searchallcolumns":"Alle kolonner","exportasdecryptedcsv":"Dekryptert CSV","exportasdecryptedcsvdesc":"Dekrypter og eksporter skjemadata i CSV-format"},"formscontentarea":{"emptyactions":{"actions":{"createnewformselement":"opprett et nytt element"},"template":"Du kan slippe skjemaelementer her, eller ","templatewithoutcreate":"Du kan slippe innhold her."}},"fieldselector":{"title":"Velg avhengig felt"},"submissionactors":{"episerver.forms.implementation.actors.callwebhookaftersubmissionactor":{"displayname":"Utløs webhook etter at skjema er sendt inn"},"episerver.forms.implementation.actors.sendemailaftersubmissionactor":{"displayname":"Send e-post etter at skjema er sendt inn"}},"validators":{"episerver.forms.implementation.validation.requiredvalidator":{"displayname":"Påkrevd","message":"Dette feltet er påkrevd."},"episerver.forms.implementation.validation.regularexpressionvalidator":{"displayname":"Vanlig uttrykk","message":"Dette feltet skal ha formatet «{0}»."},"episerver.forms.implementation.validation.captchavalidator":{"displayname":"Captcha","message":"Skriv inn tegnene du ser i bildet."},"episerver.forms.implementation.validation.allowedextensionsvalidator":{"displayname":"Tillatte utvidelser","message":"Det opplastede filformatet er ikke tillatt eller støttet.","allowedextensionsmessage":"Det opplastede filformatet er ikke tillatt eller støttet. Filformatet skal være: {0}."},"episerver.forms.implementation.validation.maxfilesizevalidator":{"displayname":"Maksimal filstørrelse","message":"Størrelsen på opplastet fil må være mindre enn {0} MB."},"episerver.forms.implementation.validation.emailvalidator":{"displayname":"E-post","message":"Skriv inn en gyldig e-postadresse."},"episerver.forms.implementation.validation.urlvalidator":{"displayname":"URL-adresse","message":"Skriv inn en gyldig URL."},"episerver.forms.implementation.validation.dateddmmyyyyvalidator":{"displayname":"Dato (DD/MM/ÅÅÅÅ)","message":"Skriv inn en dato på formatet DD/MM/ÅÅÅÅ."},"episerver.forms.implementation.validation.datemmddyyyyvalidator":{"displayname":"Dato (MM/DD/ÅÅÅÅ)","message":"Skriv inn en dato på formatet MM/DD/ÅÅÅÅ."},"episerver.forms.implementation.validation.dateyyyymmddvalidator":{"displayname":"Dato (ÅÅÅÅ-MM-DD)","message":"Skriv inn en dato på formatet ÅÅÅÅ-MM-DD."},"episerver.forms.implementation.validation.numericvalidator":{"displayname":"Numerisk","message":"Skriv inn et gyldig tall."},"episerver.forms.implementation.validation.integervalidator":{"displayname":"Heltall","message":"Skriv inn et gyldig heltall."},"episerver.forms.implementation.validation.positiveintegervalidator":{"displayname":"Positivt heltall","message":"Skriv inn et positivt heltall."},"elementselfvalidator":{"unexpectedvalueisnotaccepted":"Uventet verdi godtas ikke."},"custommessage":{"resetbuttonlabel":"Tilbakestill til standard","errormessagelabel":"Feilmelding "},"fileuploadelementselfvalidator":{"multiplefilenotallowed":"Not allowed to upload multiple files."},"rangeelementblockselfvalidator":{"rangeinputinvalidnumber":"Range value must be in range of [{0}-{1}]'s value with Step = {2}"},"selectionelementseflvalidator":{"notallowmultiselection":"Multiple choices are not accepted."}},"visitordatasources":{"episerver.forms.implementation.visitordata.ipaddressvisitordatasource":{"displayname":"IP-adresse"},"episerver.forms.implementation.visitordata.geovisitordatasource":{"displayname":"Geo","properties":{"city":"By","country_code":"Landskode","country_name":"Navn på land","ip":"IP","latitude":"Breddegrad","longitude":"Lengdegrad","region_code":"Områdekode","region_name":"Områdenavn","time_zone":"Tidssone","zip_code":"Postnummer"}},"episerver.forms.implementation.visitordata.profilevisitordatasource":{"displayname":"Profil","properties":{"address":"Adresse","zipcode":"Postnummer","locality":"Plassering","email":"E-post","firstname":"Fornavn","lastname":"Etternavn","language":"Språk","country":"Land","company":"Firma","title":"Tittel","phonenumber":"Telefonnummer"}},"episerver.forms.implementation.visitordata.useragentvisitordatasource":{"displayname":"Brukeragent","properties":{"ismobiledevice":"Er mobil","useragent":"Brukeragent"}},"episerver.forms.implementation.visitordata.visitorgroupvisitordatasource":{"displayname":"Gjestegrupper","properties":{"id":"ID","name":"Navn"}},"youmustselectvalueforhiddenvisitor":"Du må velge en verdi for den typen data om besøkende som du velger."},"messages":{"fileupload":{"overfilesize":"Størrelsen på opplastet fil må være mindre enn {0} MB.","invalidfiletype":"Det opplastede filformatet er ikke tillatt eller støttet.","postedfile":"(Tidligere postede filer: {0})"},"formsubmission":{"outdatedforminit":"Økten for visning av skjemaet har utløpt. Last inn siden på nytt for å fortsette.","requirelogin":"Du må være logget inn for å sende dette skjemaet. Hvis du er logget inn og likevel ikke kan sende inn, må du påse at «Ikke spor» er deaktivert i nettleserinnstillingene dine.","denymultisubmit":"Du har allerede sendt inn dette skjemaet.","submitsuccess":"Skjemaet er innsendt.","validationfailformat":"Feil under validering av feltet «{0}»: {1}","thereisnoformguid":"FEIL under innsending av data: fant ingen Guid for skjema.","couldnotgetform":"FEIL under innsending av data: fant ingen skjema med ID = {0}.","submitcancelled":"TEKNISK INFORMASJON: Innsendingen er avbrutt. Årsak: ","formisrestricted":"Kan ikke sende inn skjema. Du har ikke tilstrekkelige rettigheter.","formexpired":"Kan ikke sende inn skjema. Skjemaet er utløpt.","formdeleted":"Kan ikke sende inn skjema. Skjemaet er slettet.","submitnotsuccess":"Kan ikke sende inn.","sessionoff":"You cannot submit this form because an administrator has turned off data storage.","noelementstep":"Submit data FAILED: there is no element data exist on submitted step.","incorrectantiforgerytoken":"Form submission failed due to security reasons. Please refresh the page and try again.","submissionfinalized":"Could not submit form. Submission has been finalized."}},"dependcondition":{"notapplicable":"Ikke aktuell","matchregularexpression":"Samsvar med vanlig uttrykk","equals":"Er lik","notequals":"Er ikke lik","contains":"Inneholder","notcontains":"Inneholder ikke"},"imagechoiceitems":{"emptyactions":{"actions":{"createnewitem":"Opprett en kobling til et bilde"},"template":"Slipp bildet her.<br/>Du kan også {createnewitem}."},"menutooltip":"Vis meny"},"editview":{"elementdependant":"Dette feltet er avhengig av andre felt","retentionperiod":{"partial":"delvis","finalized":"sluttført","default":"Standard","keepforsomedays":"{0} dager","customization":"Tilpasset (dager):","keepforever":"Alltid","validation":{"errormessage":{"long":"Feltet for lagringsperiode for innsending {0} må være et heltall mellom {1} og {2}","short":"Inndata må være et heltall mellom {0} og {1}"}},"revision":{"warningmessage":"Minst {0} innsendelser påvirkes av endring i lagringstid"}},"notconfigured":"Ikke konfigurert enda","insertplaceholder":"Sett inn plassholder","selectanitem":"Velg et element","externalsystems":"Feltmapping, eksternt system","connecteddatasource":"Koble til datakilde","createemailtemplate":"Opprett e-postmal","editemailtemplate":"Rediger e-postmal","addwebhook":"Legg til webhook","editwebhook":"Rediger webhook","selectpage":"Velg side","usemanualinput":"Bruk manuell innmating","errorconditionalstepcannotcontainrequiredelement":"Dette skjematrinnet skal ikke være avhengig av andre elementer siden det inneholder obligatorisk element [{0}].","cannotbuildformmodel":"Kan ikke lage skjemaet. Du kan ikke bruke FormContainerBlock som en egenskap. Du kan kun gjengi et skjema i et ContentArea.","resetconnecteddatasource":"Tilbakestill","editpage":"Edit page link","placeholderwarning":{"subject":"Form element is used as a placeholder changed name","message":"Name of element <b>{0}</b> in form <b>{1}</b> which is used as a placeholder has been changed, you should also update the placeholder in the form under the \"Settings\" tab."}},"viewmode":{"stepnavigation":{"previous":"Forrige trinn","next":"Neste trinn","page":"Trinn"},"untitled":"Uten tittel","selection":{"selectanoption":"-- Velg et alternativ --","selectoptions":"-- Velg alternativer --"},"reset":"Nullstill skjema","submit":"Send","refreshcaptcha":"Last inn captcha på nytt","captchalabel":"Ordbekreftelse","malformstepconfigruation":"Feil utformet FormStep-konfigurasjon. Enkelte trinn er knyttet til sider, mens andre trinn ikke er knyttet til sider, eller de er knyttet til innhold uten offentlig URL.","commonvalidationfail":"Denne elementverdien er ugyldig.","readonlymode":"Skrivebeskyttet modus. Innsendt data lagres ikke.","submissionactors":{"savedatatostorage":{"error":"Noe gikk galt. Kontakt administratoren for å få mer informasjon."}},"errorformusingdivinnonjsmode":"Form render using div element required js enabled to be able to work properly","error":"Something went wrong. Please contact the administrator for more information."},"contentediting":{"fielddependency":{"condition":{"field":"Felt","operator":"Operatør","value":"Verdi"},"invalidcondition":"Betingelsen er ikke lenger gyldig","conditiondialog":{"title":"Detaljer om betingelser"}},"optionitem":{"caption":"Valg","value":"Verdi","checked":"Kontrolleres som standard","containsinvalidcharacter":"Komma (,) er ikke tillatt."},"emailtemplateactor":{"fromemail":"Fra","fromemaildescription":"E-postadresse å sende fra","toemails":"Til","toemailsdescription":"E-postadresse å sende til, eller navnet på et skjemafelt som inneholder e-postadressen (for bekreftelses-eposter)","subject":"Emne","subjectdescription":"Emnefelt for e-posten. Du kan bruke #FIELDNAME# for å sette inn verdier fra skjemaet.","body":"Melding","bodydescription":"Innholdet i e-posten. Du kan sette inn verdier fra skjemaet ved hjelp av #FIELDNAME#, eller vise en oppsummering av skjemafeltene ved hjelp av #SUMMARY.","fromemailplaceholder":"noen@eksempel.no","toemailsplaceholder":"adresse@eksempel.no, …","subjectplaceholder":"Skriv inn e-postemne","replyto":"Reply To","replytoplaceholder":"replytoaddress@example.com,...","replytodescription":"Email address that the reply email is sent when you want the reply to go to an email address that is different than the From"},"webhookactor":{"url":"Webhook-URL","urldescription":"Webhook-URL å sende datapayload til (http- eller https-protokoll).","jsonformat":"POST-data i JSON-format"},"validation":{"circulardependency":"Konfigurasjon av sirkulær avhengighet er ikke tillatt","greaterthanequaltoerrorformat":"{0} må være >= verdien av {1}.","lessthanequaltoerrorformat":"{0} må være <= verdien av {1}.","inrangeerrorformat":"«{0}» er ikke en gyldig verdi for {1}. Det er bare tall som er tillatt, og {1} må være i området til verdien av [{2}–{3}].","stepinrangeerrorformat":"{0} må være >= 1, og <= verdien av {2}–{1}.","positiveinteger":"Det er kun tillatt med positive tall."}},"rangeelementblock":{"increment":"Increment","decrement":"Decrement"}}
+        }
+    });
+})();
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=" src="/Util/EPiServer.Forms/EPiServerForms.min.js"></script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+if (typeof $$epiforms !== 'undefined') {
+    $$epiforms(document).ready(function () {
+        $$epiforms('.EPiServerForms, [data-f-type="form"]').on("formsNavigationNextStep formsSetupCompleted", function (event) {
+            (function ($) {
+                var workingFormInfo = event.workingFormInfo,
+                    searchPattern = null,
+                    $workingForm = workingFormInfo.$workingForm,
+                    $currentElement = $("#a0d05197-c261-4db2-9e05-0084d46fbd76", $workingForm),
+                    originalText = "<p>* Obligatoriske felter</p>";
+                // if cannot find the element in form, do nothing
+                if (!$currentElement || $currentElement.length == 0) {
+                    return;
+                }
+
+                var text = originalText;
+                var data = epi.EPiServer.Forms.Data.loadFormDataFromStorage(workingFormInfo.Id);
+
+                // In case the element is not under the form folder, Model.HasPlaceHolder() will return false because of cannot find the owner form.
+                // So when Model.FindOwnerForm() is null, we allow to replace the placeholder in JS mode.
+                if (false) {
+                    // replace placeholder with real field value
+                    for (var fieldName in workingFormInfo.ElementsInfo) {
+                        if (workingFormInfo.FieldsExcludedInSubmissionSummary.indexOf(fieldName) != -1) {
+                            continue;
+                        }
+                        var elementInfo = workingFormInfo.ElementsInfo[fieldName],
+                            friendlyName = elementInfo.friendlyName;
+                        if (!friendlyName) {
+                            continue;
+                        }
+                        var value = elementInfo && elementInfo.customBinding == true ?
+                            epi.EPiServer.Forms.CustomBindingElements[elementInfo.type](elementInfo, data[fieldName])
+                            : data[fieldName];
+                        if (value == null || value === undefined) {
+                            value = "";
+                        }
+
+                        // If the element is inactive (hidden due to dependency rules), set its value to empty
+                        if (epi.EPiServer.Forms.Dependency._isInactiveElement(fieldName, workingFormInfo)) {
+                            value = "";
+                        }
+
+                        //We have to encode the friendlyName before replacing it with placeholders in the paragraph text because the paragraph text is already encoded.
+                        var encodedFriendlyName = $('<div></div>').text(friendlyName).html();
+
+                        //https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace
+                        //https://msdn.microsoft.com/en-us/library/ewy2t5e0.aspx
+                        var escapeSpecialCharacterFromEncodedFriendlyName = encodedFriendlyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
+                        // Add backward compatible for old placeholder key
+                        searchPattern = new RegExp("(?:#|::)" + escapeSpecialCharacterFromEncodedFriendlyName + "(?:#|::)", 'gi');
+                        text = text.replace(searchPattern, $('<div></div>').text(value).html());
+                    }
+
+                    $currentElement.html(text);
+                }
+            })($$epiforms);
+        });
+    });
+}
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+if (typeof $$epiforms !== 'undefined') {
+    $$epiforms(document).ready(function () {
+        $$epiforms('.EPiServerForms, [data-f-type="form"]').on("formsNavigationNextStep formsSetupCompleted", function (event) {
+            (function ($) {
+                var workingFormInfo = event.workingFormInfo,
+                    searchPattern = null,
+                    $workingForm = workingFormInfo.$workingForm,
+                    $currentElement = $("#9392a111-01ec-4311-a7f1-664d6dcc54ec", $workingForm),
+                    originalText = "<h3>Kontaktperson</h3>";
+                // if cannot find the element in form, do nothing
+                if (!$currentElement || $currentElement.length == 0) {
+                    return;
+                }
+
+                var text = originalText;
+                var data = epi.EPiServer.Forms.Data.loadFormDataFromStorage(workingFormInfo.Id);
+
+                // In case the element is not under the form folder, Model.HasPlaceHolder() will return false because of cannot find the owner form.
+                // So when Model.FindOwnerForm() is null, we allow to replace the placeholder in JS mode.
+                if (false) {
+                    // replace placeholder with real field value
+                    for (var fieldName in workingFormInfo.ElementsInfo) {
+                        if (workingFormInfo.FieldsExcludedInSubmissionSummary.indexOf(fieldName) != -1) {
+                            continue;
+                        }
+                        var elementInfo = workingFormInfo.ElementsInfo[fieldName],
+                            friendlyName = elementInfo.friendlyName;
+                        if (!friendlyName) {
+                            continue;
+                        }
+                        var value = elementInfo && elementInfo.customBinding == true ?
+                            epi.EPiServer.Forms.CustomBindingElements[elementInfo.type](elementInfo, data[fieldName])
+                            : data[fieldName];
+                        if (value == null || value === undefined) {
+                            value = "";
+                        }
+
+                        // If the element is inactive (hidden due to dependency rules), set its value to empty
+                        if (epi.EPiServer.Forms.Dependency._isInactiveElement(fieldName, workingFormInfo)) {
+                            value = "";
+                        }
+
+                        //We have to encode the friendlyName before replacing it with placeholders in the paragraph text because the paragraph text is already encoded.
+                        var encodedFriendlyName = $('<div></div>').text(friendlyName).html();
+
+                        //https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace
+                        //https://msdn.microsoft.com/en-us/library/ewy2t5e0.aspx
+                        var escapeSpecialCharacterFromEncodedFriendlyName = encodedFriendlyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
+                        // Add backward compatible for old placeholder key
+                        searchPattern = new RegExp("(?:#|::)" + escapeSpecialCharacterFromEncodedFriendlyName + "(?:#|::)", 'gi');
+                        text = text.replace(searchPattern, $('<div></div>').text(value).html());
+                    }
+
+                    $currentElement.html(text);
+                }
+            })($$epiforms);
+        });
+    });
+}
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+if (typeof $$epiforms !== 'undefined') {
+    $$epiforms(document).ready(function () {
+        $$epiforms('.EPiServerForms, [data-f-type="form"]').on("formsNavigationNextStep formsSetupCompleted", function (event) {
+            (function ($) {
+                var workingFormInfo = event.workingFormInfo,
+                    searchPattern = null,
+                    $workingForm = workingFormInfo.$workingForm,
+                    $currentElement = $("#1cd35d36-1854-4683-8f53-83a806505053", $workingForm),
+                    originalText = "<p>Ikke skriv sensitive personopplysninger i skjemaet. Innholdet blir sendt ukryptert som e-post til Statens vegvesen.</p>\n<p> </p>\n<p>Statens vegvesen behandler opplysningene i tråd med <a href=\"/om-oss/om-organisasjonen/personvern/\" target=\"_blank\" rel=\"noopener\">personvernerklæringen</a>.</p>";
+                // if cannot find the element in form, do nothing
+                if (!$currentElement || $currentElement.length == 0) {
+                    return;
+                }
+
+                var text = originalText;
+                var data = epi.EPiServer.Forms.Data.loadFormDataFromStorage(workingFormInfo.Id);
+
+                // In case the element is not under the form folder, Model.HasPlaceHolder() will return false because of cannot find the owner form.
+                // So when Model.FindOwnerForm() is null, we allow to replace the placeholder in JS mode.
+                if (false) {
+                    // replace placeholder with real field value
+                    for (var fieldName in workingFormInfo.ElementsInfo) {
+                        if (workingFormInfo.FieldsExcludedInSubmissionSummary.indexOf(fieldName) != -1) {
+                            continue;
+                        }
+                        var elementInfo = workingFormInfo.ElementsInfo[fieldName],
+                            friendlyName = elementInfo.friendlyName;
+                        if (!friendlyName) {
+                            continue;
+                        }
+                        var value = elementInfo && elementInfo.customBinding == true ?
+                            epi.EPiServer.Forms.CustomBindingElements[elementInfo.type](elementInfo, data[fieldName])
+                            : data[fieldName];
+                        if (value == null || value === undefined) {
+                            value = "";
+                        }
+
+                        // If the element is inactive (hidden due to dependency rules), set its value to empty
+                        if (epi.EPiServer.Forms.Dependency._isInactiveElement(fieldName, workingFormInfo)) {
+                            value = "";
+                        }
+
+                        //We have to encode the friendlyName before replacing it with placeholders in the paragraph text because the paragraph text is already encoded.
+                        var encodedFriendlyName = $('<div></div>').text(friendlyName).html();
+
+                        //https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace
+                        //https://msdn.microsoft.com/en-us/library/ewy2t5e0.aspx
+                        var escapeSpecialCharacterFromEncodedFriendlyName = encodedFriendlyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
+                        // Add backward compatible for old placeholder key
+                        searchPattern = new RegExp("(?:#|::)" + escapeSpecialCharacterFromEncodedFriendlyName + "(?:#|::)", 'gi');
+                        text = text.replace(searchPattern, $('<div></div>').text(value).html());
+                    }
+
+                    $currentElement.html(text);
+                }
+            })($$epiforms);
+        });
+    });
+}
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+if (typeof $$epiforms !== 'undefined') {
+    $$epiforms(document).ready(function () {
+        $$epiforms('.EPiServerForms, [data-f-type="form"]').on("formsNavigationNextStep formsSetupCompleted", function (event) {
+            (function ($) {
+                var workingFormInfo = event.workingFormInfo,
+                    searchPattern = null,
+                    $workingForm = workingFormInfo.$workingForm,
+                    $currentElement = $("#b541a675-00e1-4d4d-bea2-d6b350a33141", $workingForm),
+                    originalText = "<h3>Vedlegg</h3>\n<div class=\"attachments\"><span class=\"help-block\">Hvis du vil legge ved flere filer, må du holde inne Ctrl-tasten (på PC) eller Command-tasten (på Mac) når du markerer de filene du vil legge ved. </span></div>\n<div class=\"attachments\"> </div>\n<div class=\"attachments\"><span class=\"help-block\">Husk at vedleggene må være under 10 MB.</span></div>\n<div class=\"vertical-spacing-small\"> </div>";
+                // if cannot find the element in form, do nothing
+                if (!$currentElement || $currentElement.length == 0) {
+                    return;
+                }
+
+                var text = originalText;
+                var data = epi.EPiServer.Forms.Data.loadFormDataFromStorage(workingFormInfo.Id);
+
+                // In case the element is not under the form folder, Model.HasPlaceHolder() will return false because of cannot find the owner form.
+                // So when Model.FindOwnerForm() is null, we allow to replace the placeholder in JS mode.
+                if (false) {
+                    // replace placeholder with real field value
+                    for (var fieldName in workingFormInfo.ElementsInfo) {
+                        if (workingFormInfo.FieldsExcludedInSubmissionSummary.indexOf(fieldName) != -1) {
+                            continue;
+                        }
+                        var elementInfo = workingFormInfo.ElementsInfo[fieldName],
+                            friendlyName = elementInfo.friendlyName;
+                        if (!friendlyName) {
+                            continue;
+                        }
+                        var value = elementInfo && elementInfo.customBinding == true ?
+                            epi.EPiServer.Forms.CustomBindingElements[elementInfo.type](elementInfo, data[fieldName])
+                            : data[fieldName];
+                        if (value == null || value === undefined) {
+                            value = "";
+                        }
+
+                        // If the element is inactive (hidden due to dependency rules), set its value to empty
+                        if (epi.EPiServer.Forms.Dependency._isInactiveElement(fieldName, workingFormInfo)) {
+                            value = "";
+                        }
+
+                        //We have to encode the friendlyName before replacing it with placeholders in the paragraph text because the paragraph text is already encoded.
+                        var encodedFriendlyName = $('<div></div>').text(friendlyName).html();
+
+                        //https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace
+                        //https://msdn.microsoft.com/en-us/library/ewy2t5e0.aspx
+                        var escapeSpecialCharacterFromEncodedFriendlyName = encodedFriendlyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
+                        // Add backward compatible for old placeholder key
+                        searchPattern = new RegExp("(?:#|::)" + escapeSpecialCharacterFromEncodedFriendlyName + "(?:#|::)", 'gi');
+                        text = text.replace(searchPattern, $('<div></div>').text(value).html());
+                    }
+
+                    $currentElement.html(text);
+                }
+            })($$epiforms);
+        });
+    });
+}
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+if (typeof $$epiforms !== 'undefined') {
+    $$epiforms(document).ready(function () {
+        $$epiforms('.EPiServerForms, [data-f-type="form"]').on("formsNavigationNextStep formsSetupCompleted", function (event) {
+            (function ($) {
+                var workingFormInfo = event.workingFormInfo,
+                    searchPattern = null,
+                    $workingForm = workingFormInfo.$workingForm,
+                    $currentElement = $("#ba351a7a-7e89-4448-8d1c-896bb20e3426", $workingForm),
+                    originalText = "";
+                // if cannot find the element in form, do nothing
+                if (!$currentElement || $currentElement.length == 0) {
+                    return;
+                }
+
+                var text = originalText;
+                var data = epi.EPiServer.Forms.Data.loadFormDataFromStorage(workingFormInfo.Id);
+
+                // In case the element is not under the form folder, Model.HasPlaceHolder() will return false because of cannot find the owner form.
+                // So when Model.FindOwnerForm() is null, we allow to replace the placeholder in JS mode.
+                if (false) {
+                    // replace placeholder with real field value
+                    for (var fieldName in workingFormInfo.ElementsInfo) {
+                        if (workingFormInfo.FieldsExcludedInSubmissionSummary.indexOf(fieldName) != -1) {
+                            continue;
+                        }
+                        var elementInfo = workingFormInfo.ElementsInfo[fieldName],
+                            friendlyName = elementInfo.friendlyName;
+                        if (!friendlyName) {
+                            continue;
+                        }
+                        var value = elementInfo && elementInfo.customBinding == true ?
+                            epi.EPiServer.Forms.CustomBindingElements[elementInfo.type](elementInfo, data[fieldName])
+                            : data[fieldName];
+                        if (value == null || value === undefined) {
+                            value = "";
+                        }
+
+                        // If the element is inactive (hidden due to dependency rules), set its value to empty
+                        if (epi.EPiServer.Forms.Dependency._isInactiveElement(fieldName, workingFormInfo)) {
+                            value = "";
+                        }
+
+                        //We have to encode the friendlyName before replacing it with placeholders in the paragraph text because the paragraph text is already encoded.
+                        var encodedFriendlyName = $('<div></div>').text(friendlyName).html();
+
+                        //https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace
+                        //https://msdn.microsoft.com/en-us/library/ewy2t5e0.aspx
+                        var escapeSpecialCharacterFromEncodedFriendlyName = encodedFriendlyName.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
+                        // Add backward compatible for old placeholder key
+                        searchPattern = new RegExp("(?:#|::)" + escapeSpecialCharacterFromEncodedFriendlyName + "(?:#|::)", 'gi');
+                        text = text.replace(searchPattern, $('<div></div>').text(value).html());
+                    }
+
+                    $currentElement.html(text);
+                }
+            })($$epiforms);
+        });
+    });
+}
+
+</script>
+<script nonce="NGx7Hb0Wn8pPfBWzBPtcI5e505P5YL2Zv6FTzJS4MFM=">
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+</body>
+
+
+
+
+</html>
+

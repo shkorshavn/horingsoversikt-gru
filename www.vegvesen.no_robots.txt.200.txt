@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /_services/portal/
+Disallow: /s/
+Disallow: /openam/UI/Login
+Disallow: /globalassets/
+Disallow: /contentassets/
+Disallow: *.pdf
+
+Sitemap: https://www.vegvesen.no/sitemap.xml
+Sitemap: https://www.vegvesen.no/video-sitemap.xml

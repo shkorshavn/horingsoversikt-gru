@@ -1,0 +1,38 @@
+﻿User-agent: *
+Allow: /
+Disallow: /systemsider/feilmeldingsskjema/
+Disallow: /no/systemsider/feilmeldingsskjema/
+
+Crawl-delay: 5
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: CeramicTerracotta
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: GPTbot
+Disallow: /
+
+User-agent: AdIdxBot
+Disallow: /
+
+Sitemap: https://www.stortinget.no/sitemap.xml

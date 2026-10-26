@@ -1,7 +1,7 @@
 {
   "kilde": "Politidirektoratet",
   "status": "ok",
-  "hentet": "2026-10-26T23:24:03+01:00",
+  "hentet": "2026-10-26T23:28:56+01:00",
   "antall": 1,
   "sekunder": 2.0,
   "horinger": [
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-06-12",
       "ingress": "Offentlig høring - Nasjonal retningslinje for utgivelse av navn på omkomne og drepte til offentligheten. Retningslinjen er på høring til 11. september 2026.",
-      "hentet": "2026-10-26T23:24:03+01:00",
+      "hentet": "2026-10-26T23:28:56+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -27,5 +27,5 @@
       "id": "562c4a3f0d6d"
     }
   ],
-  "sist_ok": "2026-10-26T23:24:03+01:00"
+  "sist_ok": "2026-10-26T23:28:56+01:00"
 }

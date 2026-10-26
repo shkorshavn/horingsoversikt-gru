@@ -1,9 +1,9 @@
 {
   "kilde": "Riksantikvaren",
   "status": "ok",
-  "hentet": "2026-10-26T23:23:27+01:00",
+  "hentet": "2026-10-26T23:28:20+01:00",
   "antall": 1,
-  "sekunder": 2.7,
+  "sekunder": 2.6,
   "horinger": [
     {
       "kilde": "Riksantikvaren",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-01-12",
       "ingress": "Berørte parter gis en høringsfrist på 6 uker for å komme med innspill. Høringsfrist er 16. februar 2026.",
-      "hentet": "2026-10-26T23:23:27+01:00",
+      "hentet": "2026-10-26T23:28:20+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -27,5 +27,5 @@
       "id": "75cb1a1bde8f"
     }
   ],
-  "sist_ok": "2026-10-26T23:23:27+01:00"
+  "sist_ok": "2026-10-26T23:28:20+01:00"
 }

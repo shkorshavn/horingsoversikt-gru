@@ -1,0 +1,39 @@
+# Utforsking fra GitHub (sprint 7): kjører forespørsler som krever POST, f.eks. mot Gjøviks
+# postliste, med samme høflighetsregler som innhentingen (robots.txt, pause, User-Agent).
+# Resultatet legges på grenen `utforsk-github`. Startes bare manuelt.
+name: Utforsk fra GitHub
+
+on:
+  workflow_dispatch:
+    inputs:
+      foresporsler:
+        description: "Forespørsler som JSON-liste (se verktoy/utforsk_api.py)"
+        type: string
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  hent:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Installer avhengigheter
+        run: pip install -r requirements-kjoring.txt
+
+      - name: Kjør forespørslene
+        env:
+          UTFORSK_FORESPORSLER: ${{ inputs.foresporsler }}
+        run: python verktoy/utforsk_api.py --ut raa
+
+      - name: Legg resultatet på grenen utforsk-github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python verktoy/lagre_gren.py raa utforsk-github

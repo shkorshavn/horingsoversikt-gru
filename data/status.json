@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-26T22:52:35+01:00",
+  "generert": "2026-10-26T23:21:01+01:00",
   "kjoretid_sekunder": 425.0,
   "kilder": [
     {
@@ -316,6 +316,13 @@
       "sist_ok": "2026-10-26T21:28:32+01:00",
       "antall": 0,
       "sekunder": 2.4
+    },
+    {
+      "kilde": "Gjøvik kommunes postliste",
+      "kjoring": "github",
+      "type": "postliste",
+      "status": "ikke hentet",
+      "antall": 0
     }
   ]
 }

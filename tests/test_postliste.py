@@ -28,9 +28,14 @@ class _Nett:
         self.feil = feil
 
     def hent(self, url, metode="GET", json=None, headers=None):
-        self.kall.append({"url": url, "metode": metode, "json": json, "headers": headers})
         if self.feil:
             raise self.feil
+        if metode == "GET":
+            self.sider = getattr(self, "sider", []) + [
+                url
+            ]  # postlistesiden, for informasjonskapsler
+            return SimpleNamespace(text="")
+        self.kall.append({"url": url, "metode": metode, "json": json, "headers": headers})
         side = next(k["value"] for k in json["keyValues"] if k["key"] == "page")
         data = SVAR if side == "1" else {"content": {"searchItems": {"items": []}}}
         return SimpleNamespace(json=lambda: data)
@@ -94,6 +99,11 @@ def test_foresporsel_bare_inngaaende_og_hoder():
     assert verdier["Type"] == GJOVIK["dokumenttype_inngaaende"]
     assert verdier["searchTerm"] == "høring"
     assert k["headers"]["Origin"] == "https://www.gjovik.kommune.no"
+    # Postlistesiden hentes først, én gang, for informasjonskapslene.
+    assert nett.sider == [
+        "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-"
+        "vedtak/sok-i-postliste/"
+    ]
 
 
 def test_personvern_avsender_bare_for_virksomheter():

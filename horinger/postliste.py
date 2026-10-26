@@ -138,6 +138,9 @@ class Postliste:
         """Inngående høringsbrev i vinduet, uten duplikater, nyeste først."""
         grense = (dag or i_dag()) - timedelta(days=self.vindu)
         url = self.konfig["base"] + API
+        # Endepunktet avbryter svaret uten informasjonskapslene som postlistesiden setter.
+        # Siden hentes derfor først, slik nettleseren gjør (utforsket 26.10.2026).
+        self.nett.hent(self.konfig["base"] + self.konfig["side"])
         funnet: dict[str, dict] = {}
         for sokeord in self.sokeord:
             for side in range(1, MAKS_SIDER + 1):

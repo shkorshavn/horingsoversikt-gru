@@ -1,6 +1,6 @@
 # Sprint 6 – Høringsparter og regionflagg: plan
 
-Status: Plan til godkjenning · 26. oktober 2026
+Status: Plan til godkjenning · 26. oktober 2026 (oppdatert med Sveins svar kl. 12.32)
 
 ## Mål
 For hver høring vises hvem den er sendt til (høringsparter), kort kategorisert. Et tydelig flagg
@@ -102,3 +102,16 @@ og robots.txt før jeg skriver kode.
 4. **Automatiske tester ved push:** I sprint 4 og 5 slapp to feil gjennom fordi tester og kodesjekk
    ikke kjører automatisk når koden lastes opp. Skal jeg legge inn det i denne sprinten (én liten
    arbeidsflyt)? Forslag: ja.
+
+## Sveins svar 26.10.2026 kl. 12.32
+1. **PDF-lister:** JA. PDF-ene leses der robots.txt tillater det, med `pypdf`.
+2. **Søkeord for regionflagget:** JA til «Gjøvikregionen IPR» og «interkommunale politiske
+   råd/regionråd». NEI til Statsforvalteren og nabokommuner generelt, men **JA til Gjøviks
+   nabokommuner Ringsaker og Lillehammer**. De fire andre nabokommunene (Østre Toten, Vestre Toten,
+   Søndre Land og Nordre Land) er allerede med som kommuner i regionen. Søkeordene blir dermed:
+   Gjøvik, Østre Toten, Vestre Toten, Søndre Land, Nordre Land, Ringsaker, Lillehammer,
+   Gjøvikregionen, Gjøvikregionen IPR, interkommunale politiske råd/regionråd, «alle kommuner»,
+   «alle fylkeskommuner», KS og Innlandet fylkeskommune.
+3. **Saksfelt fra regjeringen.no:** JA, som eget felt «Saksfelt». Dagens Tema beholdes.
+4. **Automatiske tester ved push:** JA. Ny arbeidsflyt kjører ruff og pytest ved hver push til
+   `main`.

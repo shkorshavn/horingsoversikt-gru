@@ -256,8 +256,30 @@ thead th { background: var(--turkis-300); }
 
 /* ---------- Bunn ---------- */
 
-.bunn { border-top: 1px solid var(--linje); background: var(--hvit); }
-.bunn p { max-width: var(--bredde); margin: 0 auto; padding: 1.25rem var(--rom); font-size: 0.875rem; color: var(--skog-300); }
+.bunn { border-top: 1px solid var(--linje); margin-top: 2.5rem; }
+.bunn p { margin: 0; padding: 1.25rem 0 0; font-size: 0.875rem; color: var(--skog-300); }
+
+/* ---------- Delt visning på bred skjerm (Svein 27.10.2026) ----------
+   Toppen står fast. Filtrene til venstre og listen til høyre ruller hver for seg, slik at
+   lange filterlister kan rulles uten at listen flytter seg, og omvendt. Mobil og utskrift
+   ruller som én side, som før. */
+@media screen and (min-width: 52.0625rem) {
+  html, body { height: 100%; overflow: hidden; }
+  body { display: flex; flex-direction: column; }
+  .topp { flex: none; }
+  .ramme {
+    flex: 1 1 auto; min-height: 0; width: 100%;
+    padding-top: 0; padding-bottom: 0; align-items: stretch; grid-template-rows: minmax(0, 1fr);
+  }
+  /* position: relative gjør at skjulte, absolutt plasserte elementer (f.eks. tabelltekst for
+     skjermlesere) holder seg inne i rulleområdet, så selve siden aldri får noe å rulle. */
+  .filtre, #hoved {
+    position: relative; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+    padding-top: 1.5rem; padding-bottom: 2rem;
+  }
+  .filtre { padding-right: 0.75rem; scrollbar-gutter: stable; }
+  #hoved { padding-right: 0.5rem; }
+}
 
 /* ---------- Smal skjerm ---------- */
 

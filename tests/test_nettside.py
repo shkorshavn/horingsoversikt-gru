@@ -1016,3 +1016,62 @@ def test_csv_har_mottatt(side_pl):
 
 def test_seksjonen_skjules_uten_data(side):
     assert side.is_hidden("#postliste")
+
+
+# ---------- Sprint 8: delt visning (Svein 27.10.2026) ----------
+
+
+def _mange(n=60):
+    return {
+        **HORINGER,
+        "horinger": [
+            _h(f"m{i}", f"2026-11-{1 + i % 28:02d}", ingress="Kort beskrivelse av høringen.")
+            for i in range(n)
+        ],
+    }
+
+
+def _rull(side, x, y, dy):
+    side.mouse.move(x, y)
+    side.mouse.wheel(0, dy)
+    side.wait_for_timeout(250)
+
+
+def _topp(side, sel):
+    return side.evaluate(f"document.querySelector('{sel}').scrollTop")
+
+
+def test_filtre_og_liste_ruller_hver_for_seg(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_mange())), bredde=1280)
+    side.set_viewport_size({"width": 1280, "height": 600})
+    # Listen rulles: filtrene står i ro, og selve siden ruller ikke (toppen står fast).
+    _rull(side, 900, 450, 1200)
+    assert _topp(side, "#hoved") > 0
+    assert _topp(side, ".filtre") == 0
+    assert side.evaluate("scrollY") == 0
+    liste_for = _topp(side, "#hoved")
+    # Filtrene rulles: listen står i ro.
+    _rull(side, 150, 450, 600)
+    assert _topp(side, ".filtre") > 0
+    assert _topp(side, "#hoved") == liste_for
+    assert side.is_visible("h1")
+    side.close()
+
+
+def test_hopp_til_listen_flytter_ikke_toppen(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_mange())), bredde=1280)
+    side.keyboard.press("Tab")
+    side.keyboard.press("Enter")
+    assert side.evaluate("document.activeElement.id") == "liste"
+    assert side.evaluate("scrollY") == 0
+    side.close()
+
+
+def test_mobil_ruller_som_en_side(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_mange())), bredde=390)
+    assert (
+        side.evaluate("getComputedStyle(document.querySelector('#hoved')).overflowY") == "visible"
+    )
+    _rull(side, 200, 400, 1500)
+    assert side.evaluate("scrollY") > 0
+    side.close()

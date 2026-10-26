@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-26T21:13:16+01:00",
+  "generert": "2026-10-26T21:13:59+01:00",
   "antall": 133,
   "horinger": [
     {
@@ -4803,13 +4803,17 @@
       "saksfelt": [],
       "id": "ddf56ca9d760",
       "partkategorier": {
+        "Alle kommuner": 1,
+        "Alle fylkeskommuner": 1,
         "Statsforvaltere": 1,
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 13,
         "Organisasjoner": 44,
-        "Andre": 51
+        "Andre": 49
       },
       "regionflagg": [
+        "Alle kommuner",
+        "Alle fylkeskommuner",
         "KS"
       ],
       "prioritet_grunn": "",
@@ -6134,12 +6138,16 @@
       "saksfelt": [],
       "id": "db984834479b",
       "partkategorier": {
+        "Alle kommuner": 1,
+        "Alle fylkeskommuner": 1,
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 19,
         "Organisasjoner": 133,
-        "Andre": 186
+        "Andre": 184
       },
       "regionflagg": [
+        "Alle kommuner",
+        "Alle fylkeskommuner",
         "KS"
       ],
       "prioritet_grunn": "",
@@ -8059,13 +8067,17 @@
       "saksfelt": [],
       "id": "9d8000136a3b",
       "partkategorier": {
+        "Alle kommuner": 1,
+        "Alle fylkeskommuner": 1,
         "Statsforvaltere": 1,
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 13,
         "Organisasjoner": 44,
-        "Andre": 51
+        "Andre": 49
       },
       "regionflagg": [
+        "Alle kommuner",
+        "Alle fylkeskommuner",
         "KS"
       ],
       "prioritet_grunn": "",
@@ -8204,13 +8216,17 @@
       "saksfelt": [],
       "id": "d6878ef0e7f4",
       "partkategorier": {
+        "Alle kommuner": 1,
+        "Alle fylkeskommuner": 1,
         "Statsforvaltere": 1,
         "Kommuner og fylkeskommuner": 1,
         "Departementer og direktorater": 13,
         "Organisasjoner": 45,
-        "Andre": 51
+        "Andre": 49
       },
       "regionflagg": [
+        "Alle kommuner",
+        "Alle fylkeskommuner",
         "KS"
       ],
       "prioritet_grunn": "",

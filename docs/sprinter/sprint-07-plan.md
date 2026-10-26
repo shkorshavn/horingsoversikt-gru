@@ -1,6 +1,6 @@
 # Sprint 7 – Gjøvik kommunes postliste: plan
 
-Status: Plan til godkjenning · 26. oktober 2026
+Status: Godkjent · 26. oktober 2026 (Sveins svar nederst)
 
 ## Mål
 Hver uke sjekkes Gjøvik kommunes postliste for inngående høringsbrev. Høringer som kommunen har
@@ -138,3 +138,12 @@ senere med eget merke, hvis de bruker samme ACOS-modul. Det sjekker jeg ikke i d
 4. **«Mulig treff»:** Skal mulige treff vises på siden med et lysere merke, eller bare i
    rapporten til du har sett kvaliteten? Forslag: vises på siden, tydelig merket som
    «Mulig treff».
+
+## Sveins svar 26.10.2026 kl. 22.45
+1. **Varsle kommunen:** Nei. Vi varsler ikke arkivtjenesten.
+2. **Privatpersoner som avsendere:** Ja. Avsender lagres bare når det er en virksomhet, og ellers
+   bare tittel, dato og lenke.
+3. **Seksjonen «uten treff»:** OK, 60 dager.
+4. **«Mulig treff»:** Ja. Vises på siden med et lysere merke.
+
+Planen er godkjent («plan godkjent»).

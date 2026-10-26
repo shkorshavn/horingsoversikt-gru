@@ -165,7 +165,7 @@
     if (v.mottatt && !sikkerPostliste(h)) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
-      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori,
+      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.sammendrag, h.kilde, h.frist_tekst, h.kategori,
         (h.ogsa || []).map(function (o) { return o.kilde; }).join(" "),
         (h.saksfelt || []).join(" "), (h.horingsparter || []).join(" ")].join(" "));
       var ord = normaliser(v.q).split(/\s+/);
@@ -317,6 +317,23 @@
     ]);
   }
 
+  /** KI-sammendraget med merke og ingressen bak et klikk, eller bare ingressen. */
+  function beskrivelse(h) {
+    if (!h.sammendrag) return h.ingress ? el("p", { klasse: "beskrivelse", tekst: h.ingress }) : null;
+    var sammendrag = el("p", { klasse: "beskrivelse sammendrag" }, [
+      el("span", { klasse: "ki-merke", tekst: "KI-sammendrag" }),
+      document.createTextNode(" " + h.sammendrag)
+    ]);
+    if (!h.ingress) return sammendrag;
+    return el("div", { klasse: "beskrivelse-blokk" }, [
+      sammendrag,
+      el("details", { klasse: "ingress-kilde" }, [
+        el("summary", { tekst: "Vis ingressen fra kilden" }),
+        el("p", { klasse: "beskrivelse", tekst: h.ingress })
+      ])
+    ]);
+  }
+
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
@@ -345,7 +362,7 @@
       flagg,
       postlisteMerke(h),
       el("p", { klasse: "instans", tekst: h.instans }),
-      h.ingress ? el("p", { klasse: "beskrivelse", tekst: h.ingress }) : null,
+      beskrivelse(h),
       detaljer,
       partblokk(h)
     ]);
@@ -536,13 +553,13 @@
   function lagCsv(utvalg) {
     var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet",
       "Frist slik kilden skriver den", "Regionen er høringspart", "Høringsparter", "Saksfelt",
-      "Mottatt av Gjøvik kommune", "Lenke"]];
+      "Mottatt av Gjøvik kommune", "KI-sammendrag", "Ingress", "Lenke"]];
     utvalg.forEach(function (h) {
       var fristCsv = !h.frist ? "" : h.frist_maned ? MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : norskDato(h.frist);
       rader.push([fristCsv, h.dager === null || h.frist_maned ? "" : h.dager, h.instans,
         h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, (h.regionflagg || []).join(", "),
         (h.horingsparter || []).length ? kategoritekst(h) : (h.horingsparter_merknad || ""),
-        (h.saksfelt || []).join(", "), csvPostliste(h), h.lenke]);
+        (h.saksfelt || []).join(", "), csvPostliste(h), h.sammendrag || "", h.ingress || "", h.lenke]);
     });
     return "﻿" + rader.map(function (r) { return r.map(csvFelt).join(";"); }).join("\r\n") + "\r\n";
   }

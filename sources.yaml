@@ -172,6 +172,15 @@ felles:
                      Norge, Abelia, Finans Norge, Huseierne, Natur og Ungdom, ZERO]
     annet: Andre
 
+  # KI-sammendrag (sprint 8, Svein 27.10.2026): modell, lengde og pause mellom kall. Lages bare
+  # i den ukentlige oppdateringen, og bare for høringer som mangler sammendrag. Se
+  # horinger/sammendrag.py. Nøkkelen står i GitHub Secret ANTHROPIC_API_KEY, aldri her.
+  sammendrag:
+    modell: claude-sonnet-5-5
+    maks_tokens: 200
+    pause_sekunder: 0.5
+    maks_per_kjoring: 250
+
   # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
   # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar
   # og innspill til kommunens egne saker, ikke høringsbrev, og tas ikke med.

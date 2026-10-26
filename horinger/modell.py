@@ -42,6 +42,9 @@ class Hoering:
     saksfelt: list[str] = field(default_factory=list)
     # Versjonen av tolkingen som fylte inn høringspartene (se kilder/base.py).
     detalj_versjon: int = 0
+    # Teksten på detaljsiden (høringsbrevet), kuttet. Bare grunnlag for KI-sammendraget
+    # (sprint 8). Lagres i data/kilder/, men publiseres ikke på nettsiden.
+    detaljtekst: str = ""
     id: str = field(default="")
 
     def __post_init__(self) -> None:

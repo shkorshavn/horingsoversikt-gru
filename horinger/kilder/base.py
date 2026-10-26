@@ -32,7 +32,20 @@ log = logging.getLogger("horinger")
 
 # Økes når tolkingen av detaljsidene endres. Lagrede høringsparter med en annen versjon brukes
 # ikke om igjen, slik at alle åpne høringer leses på nytt med den nye tolkingen.
-DETALJ_VERSJON = 3
+DETALJ_VERSJON = 4  # 4: detaljteksten lagres som grunnlag for KI-sammendrag (sprint 8)
+
+# Så mange tegn av detaljsiden lagres som grunnlag for sammendraget.
+DETALJTEKST_MAKS = 6000
+
+
+def sidetekst(suppe: BeautifulSoup, maks: int = DETALJTEKST_MAKS) -> str:
+    """Hovedteksten på en detaljside, uten meny, topp, bunn og skript, kuttet til `maks` tegn."""
+    kilde = suppe.find("main") or suppe.find("article") or suppe.body or suppe
+    kopi = BeautifulSoup(str(kilde), "html.parser")
+    for el in kopi(["script", "style", "noscript", "nav", "header", "footer", "form", "svg"]):
+        el.decompose()
+    tekst = " ".join(kopi.get_text(" ").split())
+    return tekst[:maks]
 
 
 class Kilde(ABC):
@@ -150,6 +163,7 @@ class Kilde(ABC):
                 h.horingsparter_merknad = gammel.get("horingsparter_merknad", "")
                 h.horingsparter_lenke = gammel.get("horingsparter_lenke", "")
                 h.saksfelt = h.saksfelt or list(gammel.get("saksfelt") or [])
+                h.detaljtekst = gammel.get("detaljtekst", "")
                 h.detalj_versjon = DETALJ_VERSJON
                 continue
             if not oppsett.get("detalj") or (h.frist is not None and h.frist < idag):
@@ -172,6 +186,7 @@ class Kilde(ABC):
         h.detalj_versjon = DETALJ_VERSJON
         suppe = BeautifulSoup(self.nett.hent(h.lenke).text, "html.parser")
         kall = 1
+        h.detaljtekst = sidetekst(suppe)
         for nokkel, verdi in self.detaljfelt(suppe).items():
             setattr(h, nokkel, verdi)
         funnet = fra_html(suppe, h.lenke)

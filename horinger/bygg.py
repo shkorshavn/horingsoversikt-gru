@@ -152,6 +152,14 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
             arkiv[h["id"]] = {**h, "ny": False, "utlopt": frist.isoformat()}
 
     apne.sort(key=lambda h: (h.get("frist") is None, h.get("frist") or "", h["tittel"]))
+    # KI-sammendrag (sprint 8) fra data/sammendrag.json. Detaljteksten er bare grunnlag for
+    # sammendraget og publiseres ikke.
+    sammendrag = (les_json(utdata / "sammendrag.json") or {}).get("sammendrag", {})
+    for h in [*apne, *arkiv.values()]:
+        h.pop("detaljtekst", None)
+        h.pop("sammendrag", None)
+        if tekst := (sammendrag.get(h["id"]) or {}).get("tekst"):
+            h["sammendrag"] = tekst
     # Postlistene (sprint 7): merket «Mottatt av Gjøvik kommune» og listen «uten treff».
     for h in [*apne, *arkiv.values()]:
         h.pop("postliste", None)

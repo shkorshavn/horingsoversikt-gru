@@ -405,7 +405,7 @@ def test_csv_eksport(side):
         "30. oktober 2026;13;Statens vegvesen;"
         '"Høring om æ, ø og å; «sitat» og ""anførsel""";'
         "Transport, samferdsel og infrastruktur;Direktorater og etater;1;"
-        "Høringsfrist: 2026-10-30;;;;;https://example.no/d13"
+        "Høringsfrist: 2026-10-30;;;;;;;https://example.no/d13"
     )
     assert linjer[2] == ""
 
@@ -840,11 +840,12 @@ def test_csv_har_flagg_og_kategorier(side):
         side.click("#eksport")
     linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
     assert linjer[0].endswith(
-        ";Regionen er høringspart;Høringsparter;Saksfelt;Mottatt av Gjøvik kommune;Lenke"
+        ";Regionen er høringspart;Høringsparter;Saksfelt;Mottatt av Gjøvik kommune;KI-sammendrag;"
+        "Ingress;Lenke"
     )
     assert linjer[1].endswith(
         ";Alle kommuner, KS;Alle kommuner, Kommuner og fylkeskommuner (1), "
-        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;;https://example.no/d31"
+        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;;;;https://example.no/d31"
     )
 
 
@@ -1011,7 +1012,7 @@ def test_csv_har_mottatt(side_pl):
     with side_pl.expect_download() as nedlasting:
         side_pl.click("#eksport")
     linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
-    assert linjer[1].endswith(";12. oktober 2026;https://example.no/d31")
+    assert linjer[1].endswith(";12. oktober 2026;;;https://example.no/d31")
 
 
 def test_seksjonen_skjules_uten_data(side):
@@ -1074,4 +1075,31 @@ def test_mobil_ruller_som_en_side(nettleser, server, tmp_path):
     )
     _rull(side, 200, 400, 1500)
     assert side.evaluate("scrollY") > 0
+    side.close()
+
+
+# ---------- Sprint 8: KI-sammendrag ----------
+
+
+def test_ki_sammendrag_med_merke_og_ingress(nettleser, server, tmp_path):
+    hs = {**HORINGER, "horinger": [dict(h) for h in HORINGER["horinger"]]}
+    d30 = next(h for h in hs["horinger"] if h["id"] == "d30")
+    d30["sammendrag"] = "Forslag om ny fartsgrense på rv. 4 ved Gjøvik."
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=hs)))
+    rad = side.locator('.hoering[data-id="d30"]')
+    assert rad.locator(".sammendrag").inner_text() == (
+        "KI-sammendrag Forslag om ny fartsgrense på rv. 4 ved Gjøvik."
+    )
+    assert not rad.locator(".ingress-kilde .beskrivelse").is_visible()
+    rad.locator(".ingress-kilde summary").click()
+    assert rad.locator(".ingress-kilde .beskrivelse").inner_text() == "Gjelder rv. 4 ved Gjøvik."
+    # Uten sammendrag vises ingressen som før.
+    assert side.locator('.hoering[data-id="d13"] .ki-merke').count() == 0
+    side.fill("#sok", "fartsgrense")
+    assert _titler(side) == ["Tretti dager"]
+    with side.expect_download() as nedlasting:
+        side.click("#eksport")
+    linje = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")[1]
+    assert ";Forslag om ny fartsgrense på rv. 4 ved Gjøvik.;Gjelder rv. 4 ved Gjøvik.;" in linje
+    assert side.feil == []
     side.close()

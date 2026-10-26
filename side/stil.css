@@ -193,6 +193,17 @@ input[type="search"]::placeholder { color: var(--skog-300); }
   background: var(--burgunder); color: var(--beige); border-radius: 4px; font-weight: 600;
   font-size: 0.875rem;
 }
+/* KI-sammendrag (sprint 8): lite merke foran teksten, og ingressen fra kilden bak et klikk. */
+.ki-merke {
+  display: inline-block; margin-right: 0.15rem; padding: 0 0.4rem; border-radius: 4px;
+  border: 1px solid var(--skog-300); color: var(--skog-300); font-size: 0.75rem; font-weight: 600;
+  vertical-align: 0.1em;
+}
+.beskrivelse-blokk .beskrivelse { margin-bottom: 0.25rem; }
+.ingress-kilde { margin: 0 0 0.6rem; font-size: 0.875rem; }
+.ingress-kilde summary { cursor: pointer; color: var(--skog-300); text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }
+.ingress-kilde .beskrivelse { margin-top: 0.3rem; color: var(--skog-300); }
+
 /* Mottatt av Gjøvik kommune (postlista). Mulige treff er lysere og stiplet. */
 .mottatt {
   margin: 0.15rem 0.4rem 0.35rem 0; padding: 0.1rem 0.5rem; display: inline-block;
@@ -353,6 +364,9 @@ thead th { background: var(--turkis-300); }
   .detaljer { order: 3; }
   .innhold:has(.parter-kort, .regionflagg) .detaljer { flex-basis: 100%; }
   .parter { display: none; }
+  .ingress-kilde { display: none; }
+  .beskrivelse-blokk { order: 5; flex-basis: 100%; }
+  .ki-merke { font-size: 0.7rem; padding: 0 0.25rem; }
   .mottatt { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
   .postliste { display: none; }
   .ny-merke { font-size: 0.75rem; }

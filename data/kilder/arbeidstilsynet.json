@@ -1,9 +1,9 @@
 {
   "kilde": "Arbeidstilsynet",
   "status": "ok",
-  "hentet": "2026-10-26T21:27:46+01:00",
+  "hentet": "2026-10-26T23:23:52+01:00",
   "antall": 1,
-  "sekunder": 3.6,
+  "sekunder": 2.2,
   "horinger": [
     {
       "kilde": "Arbeidstilsynet",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:46+01:00",
+      "hentet": "2026-10-26T23:23:52+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
@@ -27,5 +27,5 @@
       "id": "16001cccdbe5"
     }
   ],
-  "sist_ok": "2026-10-26T21:27:46+01:00"
+  "sist_ok": "2026-10-26T23:23:52+01:00"
 }

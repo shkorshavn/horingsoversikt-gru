@@ -1,7 +1,7 @@
 {
   "kilde": "Digdir",
   "status": "ok",
-  "hentet": "2026-10-26T21:27:49+01:00",
+  "hentet": "2026-10-26T23:23:55+01:00",
   "antall": 6,
   "sekunder": 6.3,
   "horinger": [
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -38,7 +38,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -59,7 +59,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -80,7 +80,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -101,7 +101,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -122,7 +122,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:27:49+01:00",
+      "hentet": "2026-10-26T23:23:55+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -132,5 +132,5 @@
       "id": "c5924ccc1c62"
     }
   ],
-  "sist_ok": "2026-10-26T21:27:49+01:00"
+  "sist_ok": "2026-10-26T23:23:55+01:00"
 }

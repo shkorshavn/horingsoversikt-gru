@@ -1,9 +1,9 @@
 {
   "kilde": "DSB",
   "status": "ok",
-  "hentet": "2026-10-26T21:26:51+01:00",
+  "hentet": "2026-10-26T23:23:18+01:00",
   "antall": 1,
-  "sekunder": 4.6,
+  "sekunder": 4.8,
   "horinger": [
     {
       "kilde": "DSB",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender med dette forslag til endringer i forskrift om sivilforsvar på høring. Bakgrunnen for forskriftsendringen er et forslag om endringer i skatteloven som innebærer at ulempetillegg og ledertillegg til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027.",
-      "hentet": "2026-10-26T21:26:51+01:00",
+      "hentet": "2026-10-26T23:23:18+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -27,5 +27,5 @@
       "id": "c8305ff88bfd"
     }
   ],
-  "sist_ok": "2026-10-26T21:26:51+01:00"
+  "sist_ok": "2026-10-26T23:23:18+01:00"
 }

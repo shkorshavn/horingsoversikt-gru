@@ -1,9 +1,9 @@
 {
   "kilde": "Landbruksdirektoratet",
   "status": "ok",
-  "hentet": "2026-10-26T21:26:55+01:00",
+  "hentet": "2026-10-26T23:23:23+01:00",
   "antall": 1,
-  "sekunder": 2.2,
+  "sekunder": 2.3,
   "horinger": [
     {
       "kilde": "Landbruksdirektoratet",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-26T21:26:55+01:00",
+      "hentet": "2026-10-26T23:23:23+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -27,5 +27,5 @@
       "id": "11c5000cd6dc"
     }
   ],
-  "sist_ok": "2026-10-26T21:26:55+01:00"
+  "sist_ok": "2026-10-26T23:23:23+01:00"
 }

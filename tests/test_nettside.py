@@ -52,15 +52,34 @@ HORINGER = {
             niva="Regjeringen",
             instans="Kunnskapsdepartementet",
             kilde="Regjeringen.no",
+            prioritet_grunn="regionen er høringspart",
+            horingsparter=["Alle kommuner", "KS", "Utdanningsdirektoratet", "Utdanningsforbundet"],
+            partkategorier={
+                "Alle kommuner": 1,
+                "Kommuner og fylkeskommuner": 1,
+                "Departementer og direktorater": 1,
+                "Organisasjoner": 1,
+            },
+            regionflagg=["Alle kommuner", "KS"],
+            saksfelt=["Barnehager"],
         ),
         _h("d13", "2026-10-30", tittel='Høring om æ, ø og å; «sitat» og "anførsel"'),
-        _h("d14", "2026-10-31", tittel="Fjorten dager", ny=True, forst_sett="2026-10-15"),
+        _h(
+            "d14",
+            "2026-10-31",
+            tittel="Fjorten dager",
+            ny=True,
+            forst_sett="2026-10-15",
+            horingsparter_merknad="Åpen for alle",
+        ),
         _h(
             "d30",
             "2026-11-16",
             tittel="Tretti dager",
             ingress="Gjelder rv. 4 ved Gjøvik.",
             prioritet_grunn="gjelder regionen",
+            horingsparter_merknad="Ikke tilgjengelig",
+            horingsparter_lenke="https://example.no/liste.pdf",
             ogsa=[
                 {"kilde": "Regjeringen.no", "lenke": "https://www.regjeringen.no/x"},
                 {"kilde": "Farlig", "lenke": "javascript:alert(1)"},
@@ -380,7 +399,7 @@ def test_csv_eksport(side):
         "30. oktober 2026;13;Statens vegvesen;"
         '"Høring om æ, ø og å; «sitat» og ""anførsel""";'
         "Transport, samferdsel og infrastruktur;Direktorater og etater;1;"
-        "Høringsfrist: 2026-10-30;https://example.no/d13"
+        "Høringsfrist: 2026-10-30;;;;https://example.no/d13"
     )
     assert linjer[2] == ""
 
@@ -743,3 +762,110 @@ def test_prioritetsfilter_skiller(side):
     side.uncheck('input[name="prio"][value="2"]')
     side.check('input[name="prio"][value="3"]')
     assert _titler(side) == ["Lav prioritet"]
+
+
+# ---------- Sprint 6: høringsparter og regionflagg ----------
+
+
+def test_regionflagg_vises_ved_tittelen(side):
+    rad = side.locator('.hoering[data-id="d31"]')
+    assert rad.locator(".regionflagg").inner_text() == "Regionen er høringspart: Alle kommuner, KS"
+    assert "Foreslått prioritet: høy (regionen er høringspart)" in rad.locator(".prio").inner_text()
+    assert side.locator('.hoering[data-id="d13"] .regionflagg').count() == 0
+
+
+def test_kategorier_og_utfoldbar_liste(side):
+    rad = side.locator('.hoering[data-id="d31"]')
+    assert rad.locator(".parter-kort").inner_text() == (
+        "Høringsparter: Alle kommuner, Kommuner og fylkeskommuner (1), "
+        "Departementer og direktorater (1), Organisasjoner (1)"
+    )
+    oppsummering = rad.locator(".parter summary")
+    assert oppsummering.inner_text() == "Vis alle høringsparter (4)"
+    assert not rad.locator(".parter-liste").is_visible()
+    # Kan foldes ut med tastaturet.
+    oppsummering.focus()
+    side.keyboard.press("Enter")
+    assert rad.locator(".parter-liste").is_visible()
+    assert rad.locator(".parter-liste li").all_inner_texts() == [
+        "Alle kommuner",
+        "KS",
+        "Utdanningsdirektoratet",
+        "Utdanningsforbundet",
+    ]
+    assert "Saksfelt: Barnehager" in rad.locator(".detaljer").inner_text()
+
+
+def test_merknad_og_lenke_uten_liste(side):
+    rad = side.locator('.hoering[data-id="d30"]')
+    assert rad.locator(".parter-kort").inner_text() == (
+        "Høringsparter: Ikke tilgjengelig – se høringslisten"
+    )
+    assert rad.locator(".parter-kort a").get_attribute("href") == "https://example.no/liste.pdf"
+    assert rad.locator(".parter").count() == 0
+    apen = side.locator('.hoering[data-id="d14"] .parter-kort').inner_text()
+    assert apen == "Høringsparter: Åpen for alle"
+
+
+def test_filter_bare_regionen_som_hoeringspart(side):
+    side.check("#regionpart")
+    assert _titler(side) == ["Høring om barnehageloven"]
+    assert "regionpart=1" in side.url
+    assert "bare der regionen er høringspart" in side.inner_text("#utskrift-info")
+    side.click("#nullstill")
+    assert not side.is_checked("#regionpart")
+
+
+def test_filter_regionpart_leses_fra_adressen(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path)), sti="/index.html?regionpart=1")
+    assert side.is_checked("#regionpart")
+    assert _titler(side) == ["Høring om barnehageloven"]
+    side.close()
+
+
+def test_sok_i_hoeringsparter(side):
+    side.fill("#sok", "utdanningsforbundet")
+    assert _titler(side) == ["Høring om barnehageloven"]
+
+
+def test_csv_har_flagg_og_kategorier(side):
+    side.fill("#sok", "barnehageloven")
+    with side.expect_download() as nedlasting:
+        side.click("#eksport")
+    linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
+    assert linjer[0].endswith(";Regionen er høringspart;Høringsparter;Saksfelt;Lenke")
+    assert linjer[1].endswith(
+        ";Alle kommuner, KS;Alle kommuner, Kommuner og fylkeskommuner (1), "
+        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;https://example.no/d31"
+    )
+
+
+def test_utskrift_viser_flagg_og_kategorier_men_ikke_listen(side):
+    side.emulate_media(media="print")
+    rad = side.locator('.hoering[data-id="d31"]')
+    assert rad.locator(".regionflagg").is_visible()
+    assert rad.locator(".parter-kort").is_visible()
+    assert not rad.locator(".parter").is_visible()
+
+
+def test_utskrift_med_hoeringsparter(nettleser, server, tmp_path):
+    """Med flagg og kategorier får hver høring én linje til: 60 høringer på høyst fire sider."""
+    mange = {
+        **HORINGER,
+        "horinger": [
+            _h(
+                f"m{i}",
+                f"2026-11-{1 + i % 28:02d}",
+                ingress="Kort beskrivelse av høringen.",
+                horingsparter=[f"Part {n}" for n in range(40)],
+                partkategorier={"Alle kommuner": 1, "Organisasjoner": 20, "Andre": 19},
+                regionflagg=["Alle kommuner"],
+            )
+            for i in range(60)
+        ],
+    }
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=mange)))
+    pdf = side.pdf(format="A4", print_background=True, prefer_css_page_size=True)
+    sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
+    assert 1 <= sider <= 4, sider
+    side.close()

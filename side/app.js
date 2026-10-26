@@ -94,6 +94,7 @@
       kategori: avkrysset("kategori"),
       niva: avkrysset("niva"),
       prio: prio,
+      regionpart: f.regionpart.checked,
       utlopte: f.utlopte.checked
     };
   }
@@ -119,6 +120,7 @@
     Array.prototype.forEach.call(f.querySelectorAll('input[name="prio"]'), function (x) {
       x.checked = v.prio.indexOf(x.value) !== -1;
     });
+    f.regionpart.checked = !!v.regionpart;
     f.utlopte.checked = !!v.utlopte;
     document.getElementById("sortering").value = v.sort || "frist";
   }
@@ -130,6 +132,7 @@
       kategori: s.getAll("kategori").filter(Boolean),
       niva: s.getAll("niva").filter(Boolean),
       prio: s.has("prio") ? s.get("prio").split(",").filter(Boolean) : STANDARD_PRIO.slice(),
+      regionpart: s.get("regionpart") === "1",
       utlopte: s.get("utlopte") === "1",
       sort: SORTERER[s.get("sort")] ? s.get("sort") : "frist"
     };
@@ -141,6 +144,7 @@
     v.kategori.forEach(function (k) { s.append("kategori", k); });
     v.niva.forEach(function (n) { s.append("niva", n); });
     if (v.prio.join(",") !== STANDARD_PRIO.join(",")) s.set("prio", v.prio.join(","));
+    if (v.regionpart) s.set("regionpart", "1");
     if (v.utlopte) s.set("utlopte", "1");
     if (lesSortering() !== "frist") s.set("sort", lesSortering());
     var q = s.toString();
@@ -153,10 +157,12 @@
     if (v.kategori.length && v.kategori.indexOf(h.kategori) === -1) return false;
     if (v.niva.length && v.niva.indexOf(h.niva) === -1) return false;
     if (v.prio.indexOf(String(h.prioritet)) === -1) return false;
+    if (v.regionpart && !(h.regionflagg || []).length) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
       var tekst = normaliser([h.tittel, h.instans, h.ingress, h.kilde, h.frist_tekst, h.kategori,
-        (h.ogsa || []).map(function (o) { return o.kilde; }).join(" ")].join(" "));
+        (h.ogsa || []).map(function (o) { return o.kilde; }).join(" "),
+        (h.saksfelt || []).join(" "), (h.horingsparter || []).join(" ")].join(" "));
       var ord = normaliser(v.q).split(/\s+/);
       for (var i = 0; i < ord.length; i++) if (tekst.indexOf(ord[i]) === -1) return false;
     }
@@ -256,6 +262,39 @@
     return span;
   }
 
+  /** «Alle kommuner, Organisasjoner (28), Andre (36)»: kategoriene med antall parter. */
+  function kategoritekst(h) {
+    var k = h.partkategorier || {};
+    return Object.keys(k).map(function (navn) {
+      return /^Alle /.test(navn) ? navn : navn + " (" + k[navn] + ")";
+    }).join(", ");
+  }
+
+  /** Høringspartene: kort kategorisering, og hele listen bak «Vis alle høringsparter». */
+  function partblokk(h) {
+    var parter = h.horingsparter || [];
+    var merknad = h.horingsparter_merknad || "";
+    var lenke = /^https?:\/\//i.test(String(h.horingsparter_lenke || "")) ? h.horingsparter_lenke : "";
+    if (!parter.length && !merknad) return null;
+    var tekst = parter.length ? kategoritekst(h) : merknad;
+    if (parter.length && merknad) tekst += ". " + merknad;
+    var linje = el("p", { klasse: "parter-kort" }, [
+      el("span", { klasse: "etikett", tekst: "Høringsparter: " }),
+      document.createTextNode(tekst),
+      !parter.length && lenke ? document.createTextNode(" – ") : null,
+      !parter.length && lenke ? el("a", { href: lenke, tekst: "se høringslisten" }) : null
+    ]);
+    if (!parter.length) return linje;
+    var liste = el("ul", { klasse: "parter-liste" });
+    parter.forEach(function (p) { liste.appendChild(el("li", { tekst: p })); });
+    var utvid = el("details", { klasse: "parter" }, [
+      el("summary", { tekst: "Vis alle høringsparter (" + parter.length + ")" }),
+      liste,
+      lenke ? el("p", { klasse: "parter-kilde" }, [el("a", { href: lenke, tekst: "Høringslisten hos kilden" })]) : null
+    ]);
+    return el("div", { klasse: "parter-blokk" }, [linje, utvid]);
+  }
+
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
@@ -271,15 +310,21 @@
         tekst: "Foreslått prioritet: " + prioNavn + (h.prioritet_grunn ? " (" + h.prioritet_grunn + ")" : "")
       }) : null,
       h.kategori ? el("span", { klasse: "tema", tekst: h.kategori }) : null,
+      (h.saksfelt || []).length ? el("span", { tekst: "Saksfelt: " + h.saksfelt.join(", ") }) : null,
       h.frist_tekst ? el("span", { tekst: h.frist_tekst }) : null,
       h.kilde && String(h.instans).indexOf(h.kilde) !== 0 ? el("span", { tekst: "Kilde: " + h.kilde }) : null,
       ogsaLenker(h)
     ]);
+    var flagg = (h.regionflagg || []).length
+      ? el("p", { klasse: "regionflagg", tekst: "Regionen er høringspart: " + h.regionflagg.join(", ") })
+      : null;
     var innhold = el("div", { klasse: "innhold" }, [
       tittel,
+      flagg,
       el("p", { klasse: "instans", tekst: h.instans }),
       h.ingress ? el("p", { klasse: "beskrivelse", tekst: h.ingress }) : null,
-      detaljer
+      detaljer,
+      partblokk(h)
     ]);
     return el("li", { klasse: "hoering", "data-id": h.id, "data-frist": h.frist || "" }, [fristblokk(h), innhold]);
   }
@@ -320,6 +365,7 @@
     if (v.prio.join(",") !== "1,2,3") {
       deler.push("foreslått prioritet " + v.prio.map(function (p) { return PRIO_NAVN[p]; }).join(" og "));
     }
+    if (v.regionpart) deler.push("bare der regionen er høringspart");
     if (v.utlopte) deler.push("med utløpt frist siste 30 dager");
     return "Utvalg: " + deler.join(", ") + ". Sortert etter " + sorteringsnavn() +
       ". Skrevet ut " + norskDato(tilstand.iDag) + ".";
@@ -431,11 +477,14 @@
   }
 
   function lagCsv(utvalg) {
-    var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet", "Frist slik kilden skriver den", "Lenke"]];
+    var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet",
+      "Frist slik kilden skriver den", "Regionen er høringspart", "Høringsparter", "Saksfelt", "Lenke"]];
     utvalg.forEach(function (h) {
       var fristCsv = !h.frist ? "" : h.frist_maned ? MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : norskDato(h.frist);
       rader.push([fristCsv, h.dager === null || h.frist_maned ? "" : h.dager, h.instans,
-        h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, h.lenke]);
+        h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, (h.regionflagg || []).join(", "),
+        (h.horingsparter || []).length ? kategoritekst(h) : (h.horingsparter_merknad || ""),
+        (h.saksfelt || []).join(", "), h.lenke]);
     });
     return "﻿" + rader.map(function (r) { return r.map(csvFelt).join(";"); }).join("\r\n") + "\r\n";
   }
@@ -503,7 +552,7 @@
   }
 
   function nullstill() {
-    settFiltre({ q: "", kategori: [], niva: [], prio: STANDARD_PRIO.slice(), utlopte: false, sort: "frist" });
+    settFiltre({ q: "", kategori: [], niva: [], prio: STANDARD_PRIO.slice(), regionpart: false, utlopte: false, sort: "frist" });
     tegn();
     document.getElementById("sok").focus();
   }

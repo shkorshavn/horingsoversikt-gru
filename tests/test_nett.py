@@ -78,3 +78,11 @@ def test_utf8_naar_tegnsett_mangler():
     svar.encoding = "windows-1252"
     _rett_tegnsett(svar)
     assert svar.encoding == "windows-1252"
+
+
+def test_robots_med_byte_order_mark():
+    """Skatteetatens robots.txt begynner med BOM. Reglene for «*» skal likevel gjelde."""
+    tekst = "﻿User-agent: *\nDisallow: /contentassets\nDisallow: /sok\n"
+    robots = Robots.tolk(tekst, "HoringsoversiktGRU/0.1")
+    assert not robots.tillatt("/contentassets/9f72203550404410b5da06ef31d929cb/liste.pdf")
+    assert robots.tillatt("/rettskilder/type/horinger/")

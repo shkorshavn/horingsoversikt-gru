@@ -43,7 +43,9 @@ class Robots:
         agenter: list[str] = []
         linjer: list[str] = []
         forrige_var_agent = False
-        for rå in tekst.splitlines():
+        # Et byte order mark først i filen (Skatteetaten) må fjernes, ellers blir første
+        # «User-agent: *» ikke gjenkjent, og reglene for alle roboter går tapt.
+        for rå in tekst.lstrip("\ufeff").splitlines():
             linje = rå.split("#", 1)[0].strip()
             if ":" not in linje:
                 continue

@@ -110,11 +110,13 @@ felles:
       regler:
         - navn: Alle kommuner
           start: [alle kommuner, alle kommunene, alle landets kommuner, samtlige kommuner,
-                  kommunene, kommuner, landets kommuner, alle norske kommuner]
+                  kommunene, kommuner, landets kommuner, alle norske kommuner,
+                  kommunane, alle kommunar, alle kommunane, landets kommunar]
         - navn: Alle fylkeskommuner
           start: [alle fylkeskommuner, alle fylkeskommunene, alle landets fylkeskommuner,
                   samtlige fylkeskommuner, fylkeskommunene, fylkeskommuner,
-                  landets fylkeskommuner]
+                  landets fylkeskommuner, fylkeskommunane, alle fylkeskommunar,
+                  alle fylkeskommunane]
         - navn: KS
           eksakt: [KS, KS Kommunesektorens organisasjon]
           start: ["KS –", "KS -", "KS (", "KS,", Kommunesektorens organisasjon,
@@ -134,11 +136,13 @@ felles:
     kategorier:
       - navn: Alle kommuner
         start: [alle kommuner, alle kommunene, alle landets kommuner, samtlige kommuner,
-                kommunene, kommuner, landets kommuner, alle norske kommuner]
+                kommunene, kommuner, landets kommuner, alle norske kommuner,
+                  kommunane, alle kommunar, alle kommunane, landets kommunar]
       - navn: Alle fylkeskommuner
         start: [alle fylkeskommuner, alle fylkeskommunene, alle landets fylkeskommuner,
                 samtlige fylkeskommuner, fylkeskommunene, fylkeskommuner,
-                landets fylkeskommuner]
+                landets fylkeskommuner, fylkeskommunane, alle fylkeskommunar,
+                alle fylkeskommunane]
       - navn: Statsforvaltere
         ordslutt: [statsforvalter, statsforvalteren, statsforvalterne, statsforvaltere,
                    fylkesmannen, fylkesmennene]

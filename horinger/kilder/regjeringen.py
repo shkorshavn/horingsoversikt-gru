@@ -93,3 +93,20 @@ class Regjeringen(Kilde):
                     break
             resultat.extend(self.lag_hoering(**f) for f in velg(rader, ekskluder))
         return resultat
+
+    def detaljfelt(self, suppe: BeautifulSoup) -> dict:
+        """Saksfelt fra detaljsiden: temaene under «Tema» i sidefeltet (sprint 6).
+
+        Mange høringer har ingen tema. Da blir listen tom, og siden viser ikke saksfelt.
+        """
+        return {"saksfelt": tolk_saksfelt(suppe)}
+
+
+def tolk_saksfelt(suppe: BeautifulSoup) -> list[str]:
+    """Temaene i `.content-intro-topics .topiclist`, f.eks. ["Forsvar", "Forsvarsindustri"]."""
+    temaer: list[str] = []
+    for a in suppe.select(".content-intro-topics .topiclist a"):
+        tekst = " ".join(a.get_text(" ", strip=True).split())
+        if tekst and tekst not in temaer:
+            temaer.append(tekst)
+    return temaer

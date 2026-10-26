@@ -407,3 +407,79 @@ def test_dedup_tar_med_listen_fra_den_andre_versjonen():
     assert h["horingsparter"] == ["Alle kommuner", "KS"]
     assert h["regionflagg"] == ["Alle kommuner", "KS"]
     assert h["prioritet"] == 1
+
+
+# ---------- Regjeringen.no (hentet fra GRUs PC 26.10.2026) ----------
+
+REGJ = "https://www.regjeringen.no/no/dokumenter/x/"
+
+
+def _regj(navn: str):
+    return fra_html(_html(f"regj_{navn}.html"), REGJ)
+
+
+@pytest.mark.parametrize(
+    "navn, antall, flagg",
+    [
+        # Kriterium 3: kommunene er høringsinstans.
+        ("tannhelse", 362, ["Alle kommuner", "Alle fylkeskommuner", "KS"]),
+        ("tilfluktssteder", 107, ["Alle kommuner", "Alle fylkeskommuner", "KS"]),
+        # Nynorsk: «Kommunane» og «Fylkeskommunane».
+        ("saksbehandling", 111, ["Alle kommuner", "Alle fylkeskommuner", "KS"]),
+    ],
+)
+def test_regjeringen_med_kommunene(navn, antall, flagg):
+    funnet = _regj(navn)
+    assert len(funnet.parter) == antall
+    assert VURDERING.regionflagg(funnet.parter) == flagg
+
+
+@pytest.mark.parametrize("navn, antall", [("pengespill", 150), ("forsvarsindustri", 22)])
+def test_regjeringen_uten_regionen(navn, antall):
+    """Kriterium 4: lange lister uten regionen gir ikke flagg."""
+    funnet = _regj(navn)
+    assert len(funnet.parter) == antall
+    assert VURDERING.regionflagg(funnet.parter) == []
+
+
+def test_regjeringen_apen_hoering_uten_liste():
+    funnet = _regj("besokssentre")
+    assert funnet.parter == []
+    assert funnet.apen
+    assert VURDERING.regionflagg(funnet.parter) == []
+
+
+def test_regjeringen_andre_regionrad_gir_ikke_flagg():
+    """Kystruten: Helgeland regionråd, Fjordane IPR o.l. er ikke vår region. KS står i listen."""
+    parter = _regj("kystruten").parter
+    assert "Helgeland Regionråd" in parter and "Fjordane IPR" in parter
+    assert VURDERING.regionflagg(parter) == ["KS"]
+
+
+@pytest.mark.parametrize(
+    "navn, saksfelt",
+    [
+        ("forsvarsindustri", ["Forsvar", "Forsvarsindustri"]),
+        ("tilfluktssteder", ["Samfunnssikkerhet og beredskap"]),
+        ("tannhelse", []),
+    ],
+)
+def test_regjeringen_saksfelt(navn, saksfelt):
+    from bs4 import BeautifulSoup
+
+    from horinger.kilder.regjeringen import tolk_saksfelt
+
+    suppe = BeautifulSoup(_html(f"regj_{navn}.html"), "html.parser")
+    assert tolk_saksfelt(suppe) == saksfelt
+
+
+def test_regjeringen_robots_tillater_detaljsider_og_pdf():
+    from horinger.nett import Robots, robots_tekst
+
+    robots = Robots.tolk(
+        robots_tekst((ROT / "tests/fixtures/regjeringen_robots.txt").read_bytes()),
+        "HoringsoversiktGRU/0.1",
+    )
+    assert robots.tillatt("/no/dokumenter/horing-forskrift-om-tilfluktssteder/id3166695/")
+    assert robots.tillatt("/contentassets/abc/horingsliste.pdf")
+    assert not robots.tillatt("/no/dokument/hoyringar/id1763/?topic=1")

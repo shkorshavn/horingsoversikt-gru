@@ -68,7 +68,7 @@ def _rens(linje: str) -> str:
     return linje.strip(" ,;")
 
 
-def rens_liste(linjer: list[str]) -> list[str]:
+def rens_liste(linjer: list[str], sla_sammen: bool = True) -> list[str]:
     """Renser linjer til høringsparter: fjerner overskrifter, adresser og doble oppføringer.
 
     Linjer som er brutt i PDF-en («Møre og Romsdal» + «fylkeskommune»), slås sammen når neste
@@ -79,10 +79,14 @@ def rens_liste(linjer: list[str]) -> list[str]:
         linje = _MELLOMROM.sub(" ", ra.replace("\xa0", " ")).strip()
         if not linje:
             continue
-        if samlet and (
-            linje[0].islower()
-            or samlet[-1].endswith(("-", " og", ","))
-            and not _IKKE_PART.match(linje)
+        if (
+            sla_sammen
+            and samlet
+            and (
+                linje[0].islower()
+                or samlet[-1].endswith(("-", " og", ","))
+                and not _IKKE_PART.match(linje)
+            )
         ):
             skille = "" if samlet[-1].endswith("-") else " "
             samlet[-1] = f"{samlet[-1]}{skille}{linje}"
@@ -161,7 +165,9 @@ def fra_html(html: str | BeautifulSoup, lenke: str = "") -> Liste:
         tittel = overskrift.get_text(" ", strip=True)
         if not (_LISTEORD.search(tittel) and len(tittel) < 60):
             continue
-        parter = rens_liste(_bare_listen(_innhold_etter(overskrift)))
+        # På nettsider er hver part en egen linje («proLAR» skal ikke slås sammen med linjen
+        # over). Bare PDF-er bryter lange navn over flere linjer.
+        parter = rens_liste(_bare_listen(_innhold_etter(overskrift)), sla_sammen=False)
         # Korte avsnitt som bare viser til et vedlegg, er ikke en liste.
         if len(parter) >= 2:
             resultat.parter = parter

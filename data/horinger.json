@@ -1,26 +1,7 @@
 {
-  "generert": "2026-10-25T20:28:39+01:00",
-  "antall": 133,
+  "generert": "2026-10-26T13:01:00+01:00",
+  "antall": 132,
   "horinger": [
-    {
-      "kilde": "Miljødirektoratet",
-      "kategori": "Miljø, klima, energi og beredskap",
-      "prioritet": 1,
-      "instans": "Miljødirektoratet",
-      "tittel": "Foreslår endring i biocidforskriften",
-      "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/september-2026/foreslar-endring-i-biocidforskriften/",
-      "frist": "2026-10-25",
-      "frist_tekst": "Høringsfrist: 25.10.2026",
-      "frist_maned": "",
-      "publisert": "2026-09-29",
-      "ingress": "Tema: Kjemikalier, Regelverk. Saksnummer 2026/7946.",
-      "hentet": "2026-10-25T18:42:47+01:00",
-      "niva": "Direktorater og etater",
-      "id": "b6e09fc0613d",
-      "prioritet_grunn": "",
-      "forst_sett": "2026-10-25",
-      "ny": true
-    },
     {
       "kilde": "Stortinget",
       "kategori": "Stortinget",
@@ -36,6 +17,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "2d6434f7897d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -55,6 +38,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "3c5369341185",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -74,6 +59,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "a9a4ccd0f169",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -92,6 +79,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "fd2a80340640",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -111,6 +100,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "f5a5f66e526d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -130,6 +121,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "e919a623344f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -149,6 +142,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "385f0468346c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -168,6 +163,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "4737296c2ae0",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -187,6 +184,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "b4a560af6edb",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -206,6 +205,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "665f3fa994af",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -225,6 +226,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "b2c43c21458e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -244,6 +247,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "e9a14bdd7b62",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -263,6 +268,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "67ec81a017fe",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -282,6 +289,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "b40b58e8e0b2",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -301,6 +310,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "c516cdc946d6",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -320,6 +331,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "643a43b304c3",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -339,6 +352,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "75567d8c825c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -357,6 +372,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "50813f1d030f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -376,6 +393,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "63cc40b248f7",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -395,6 +414,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "6998327d63dc",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -414,6 +435,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "c3023dcf4511",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -433,6 +456,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "9cc5afca6a10",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -452,6 +477,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "b58acb7cbf72",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -471,6 +498,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "06015c8343c1",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -490,6 +519,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "b70f48dec37e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -508,6 +539,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "87dd3c9c6a6a",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -526,6 +559,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "c51b51b3b5cc",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -544,6 +579,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "a9743acce7d8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -562,6 +599,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3c2212288d2f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -581,6 +620,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "29760107df50",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -600,6 +641,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "6db50eabb3aa",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -618,6 +661,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "c5afff646a52",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -637,6 +682,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "2bcea3dfa851",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -656,6 +703,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "da794dfc23c7",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -675,6 +724,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "6852b0df3344",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -694,6 +745,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "922068c3201e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -713,6 +766,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "af2e157b59ab",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -732,6 +787,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "4b2b143e613d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -751,6 +808,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "e8b18a9a7937",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -769,6 +828,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "17796e18616d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -788,6 +849,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "87b13fc8a9cd",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -807,6 +870,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "90ebc00576f2",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -825,6 +890,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0fac555760ba",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -844,6 +911,8 @@
       "hentet": "2026-10-25T18:44:47+01:00",
       "niva": "Direktorater og etater",
       "id": "3e967a8c63c8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -863,6 +932,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "8590425183d7",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -882,6 +953,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "eb7e8a64289f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -900,6 +973,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0a21171f7c9c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -918,6 +993,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "a707facb1eff",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -937,6 +1014,8 @@
       "hentet": "2026-10-25T18:45:20+01:00",
       "niva": "Direktorater og etater",
       "id": "3bcccf9aedbf",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -956,6 +1035,8 @@
       "hentet": "2026-10-25T18:45:35+01:00",
       "niva": "Fylkeskommunen",
       "id": "defdb6b438fe",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -974,6 +1055,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "8af939d61ec0",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -993,6 +1076,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "48b91a5d6241",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1011,6 +1096,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f644746b0c53",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1030,6 +1117,8 @@
       "hentet": "2026-10-25T18:42:43+01:00",
       "niva": "Direktorater og etater",
       "id": "2d365b86661f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1049,6 +1138,8 @@
       "hentet": "2026-10-25T18:45:35+01:00",
       "niva": "Fylkeskommunen",
       "id": "72aaf5ad5099",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -1068,6 +1159,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "ddda7ca52c53",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -1086,6 +1179,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "20fd07d6b54e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1105,6 +1200,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "9663429b6c14",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1124,6 +1221,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "958fc8782702",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1143,6 +1242,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "6a72fcd2b2b8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1162,6 +1263,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "6bc275fdff17",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1181,6 +1284,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "51bf7e74bd34",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1200,6 +1305,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "d2d3f10da432",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1219,6 +1326,8 @@
       "hentet": "2026-10-25T18:42:11+01:00",
       "niva": "Stortinget",
       "id": "d4361e9939e9",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1238,6 +1347,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "77e746e4c4a7",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1257,6 +1368,8 @@
       "hentet": "2026-10-25T18:45:35+01:00",
       "niva": "Fylkeskommunen",
       "id": "591162fc8480",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1275,6 +1388,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "82434d4968e1",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1293,6 +1408,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0da38d05e171",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1312,6 +1429,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "f0a7695c12e1",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1330,6 +1449,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3943a26ad125",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1348,6 +1469,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ce28d7268a81",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1367,6 +1490,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "95b6fe293927",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1385,6 +1510,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "457f1ecd097a",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1404,6 +1531,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "b49bc7affad8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1423,6 +1552,8 @@
       "hentet": "2026-10-25T18:45:20+01:00",
       "niva": "Direktorater og etater",
       "id": "b5d10c057333",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1442,6 +1573,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "cb9a1cb566ff",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1461,6 +1594,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "ef6918aedd9c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1480,6 +1615,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "4de54c79db37",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1499,6 +1636,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "d0438f3adce5",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1518,6 +1657,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "00d72e53715a",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1537,6 +1678,8 @@
       "hentet": "2026-10-25T18:44:57+01:00",
       "niva": "Direktorater og etater",
       "id": "165c112f3a1b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1556,6 +1699,8 @@
       "hentet": "2026-10-25T18:44:29+01:00",
       "niva": "Direktorater og etater",
       "id": "c8305ff88bfd",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1574,6 +1719,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "4b0dae140bf8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1593,6 +1740,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "10f5a678155b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1611,6 +1760,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ff02aceeac6b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1630,6 +1781,8 @@
       "hentet": "2026-10-25T18:42:48+01:00",
       "niva": "Direktorater og etater",
       "id": "23eea50c7f1b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1648,6 +1801,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "9c349cfc8058",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1666,6 +1821,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ddf56ca9d760",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1684,6 +1841,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "fa996d9148ed",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1702,6 +1861,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "af99c30570fd",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1720,6 +1881,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "5a4d402d9439",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1738,6 +1901,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "3fd5999d299f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1757,6 +1922,8 @@
       "hentet": "2026-10-25T18:45:20+01:00",
       "niva": "Direktorater og etater",
       "id": "38d410f34588",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1775,6 +1942,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "4eeabc29922d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1794,6 +1963,8 @@
       "hentet": "2026-10-25T18:44:46+01:00",
       "niva": "Direktorater og etater",
       "id": "f84de76c0415",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1813,6 +1984,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "1cd059791b68",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1832,6 +2005,8 @@
       "hentet": "2026-10-25T18:45:35+01:00",
       "niva": "Fylkeskommunen",
       "id": "59ec55d3da63",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1850,6 +2025,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "929e7e070e99",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1868,6 +2045,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "006cf69022a8",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1887,6 +2066,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "a1692dc49017",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -1906,6 +2087,8 @@
       "hentet": "2026-10-25T18:44:47+01:00",
       "niva": "Direktorater og etater",
       "id": "a1a10035e181",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -1924,6 +2107,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "db984834479b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1942,6 +2127,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "2f947152205b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1960,6 +2147,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "146a716873d9",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1979,6 +2168,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "1ff7317cae1d",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -1997,6 +2188,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "187fb3b88761",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2015,6 +2208,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ab01fdcf2eec",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2033,6 +2228,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "2914c81e932e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2051,6 +2248,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "387a95279af5",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2069,6 +2268,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "b49b5c684460",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2088,6 +2289,8 @@
       "hentet": "2026-10-25T18:42:47+01:00",
       "niva": "Direktorater og etater",
       "id": "99d3cae515d7",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -2107,6 +2310,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "9cf0a0c2008e",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -2125,6 +2330,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "56e529a56a31",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2143,6 +2350,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "6c8f2baaf38c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2161,6 +2370,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "ca983dee207f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2179,6 +2390,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "8d5dcd0258a5",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2197,6 +2410,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f4d08a80ccc3",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2215,6 +2430,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "868dbad65877",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2234,6 +2451,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "b7139428bdd0",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -2252,6 +2471,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "9d8000136a3b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2270,6 +2491,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "d6878ef0e7f4",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2289,6 +2512,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "7bdc37294b5b",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false
@@ -2307,6 +2532,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "f80136314e9f",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2325,6 +2552,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "81abe04a558c",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2343,6 +2572,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "5d1498fe43bd",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2361,6 +2592,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "adee425af343",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2379,6 +2612,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "0bc5a4b145ee",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2397,6 +2632,8 @@
       "hentet": "2026-10-23T11:33:35+02:00",
       "niva": "Regjeringen",
       "id": "e4f7f112e5d1",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2416,6 +2653,8 @@
       "hentet": "2026-10-25T18:42:19+01:00",
       "niva": "Direktorater og etater",
       "id": "99988a251675",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2435,6 +2674,8 @@
       "hentet": "2026-10-25T18:45:01+01:00",
       "niva": "Direktorater og etater",
       "id": "16001cccdbe5",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -2454,6 +2695,8 @@
       "hentet": "2026-10-25T18:44:46+01:00",
       "niva": "Direktorater og etater",
       "id": "a617b9031e22",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
@@ -2473,6 +2716,8 @@
       "hentet": "2026-10-25T18:45:20+01:00",
       "niva": "Direktorater og etater",
       "id": "b8e3e04748ba",
+      "partkategorier": {},
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true

@@ -1,15 +1,15 @@
 {
-  "generert": "2026-10-27T00:20:10+01:00",
-  "kjoretid_sekunder": 356.3,
+  "generert": "2026-10-27T00:26:01+01:00",
+  "kjoretid_sekunder": 440.6,
   "kilder": [
     {
       "kilde": "Stortinget",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:22+01:00",
-      "sist_ok": "2026-10-26T23:30:22+01:00",
+      "hentet": "2026-10-27T00:20:32+01:00",
+      "sist_ok": "2026-10-27T00:20:32+01:00",
       "antall": 30,
-      "sekunder": 7.6
+      "sekunder": 7.9
     },
     {
       "kilde": "Regjeringen.no",
@@ -24,80 +24,80 @@
       "kilde": "Statens vegvesen",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:29+01:00",
-      "sist_ok": "2026-10-26T23:30:29+01:00",
+      "hentet": "2026-10-27T00:20:40+01:00",
+      "sist_ok": "2026-10-27T00:20:40+01:00",
       "antall": 7,
-      "sekunder": 13.7
+      "sekunder": 24.3
     },
     {
       "kilde": "Nye Veier",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:43+01:00",
-      "sist_ok": "2026-10-26T23:30:43+01:00",
+      "hentet": "2026-10-27T00:21:04+01:00",
+      "sist_ok": "2026-10-27T00:21:04+01:00",
       "antall": 0,
-      "sekunder": 1.9
+      "sekunder": 2.1
     },
     {
       "kilde": "Jernbanedirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:45+01:00",
-      "sist_ok": "2026-10-26T23:30:45+01:00",
+      "hentet": "2026-10-27T00:21:06+01:00",
+      "sist_ok": "2026-10-27T00:21:06+01:00",
       "antall": 0,
-      "sekunder": 2.0
+      "sekunder": 2.1
     },
     {
       "kilde": "Bane NOR",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:47+01:00",
-      "sist_ok": "2026-10-26T23:30:47+01:00",
+      "hentet": "2026-10-27T00:21:09+01:00",
+      "sist_ok": "2026-10-27T00:21:09+01:00",
       "antall": 0,
-      "sekunder": 6.2
+      "sekunder": 6.3
     },
     {
       "kilde": "Nkom",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:53+01:00",
-      "sist_ok": "2026-10-26T23:30:53+01:00",
+      "hentet": "2026-10-27T00:21:15+01:00",
+      "sist_ok": "2026-10-27T00:21:15+01:00",
       "antall": 1,
-      "sekunder": 3.5
+      "sekunder": 5.0
     },
     {
       "kilde": "Miljødirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:57+01:00",
-      "sist_ok": "2026-10-26T23:30:57+01:00",
+      "hentet": "2026-10-27T00:21:20+01:00",
+      "sist_ok": "2026-10-27T00:21:20+01:00",
       "antall": 11,
-      "sekunder": 1.8
+      "sekunder": 18.6
     },
     {
       "kilde": "NVE",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:30:58+01:00",
-      "sist_ok": "2026-10-26T23:30:58+01:00",
+      "hentet": "2026-10-27T00:21:38+01:00",
+      "sist_ok": "2026-10-27T00:21:38+01:00",
       "antall": 1,
-      "sekunder": 100.1
+      "sekunder": 120.2
     },
     {
       "kilde": "DSB",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:39+01:00",
-      "sist_ok": "2026-10-26T23:32:39+01:00",
+      "hentet": "2026-10-27T00:23:39+01:00",
+      "sist_ok": "2026-10-27T00:23:39+01:00",
       "antall": 1,
-      "sekunder": 3.4
+      "sekunder": 4.7
     },
     {
       "kilde": "Landbruksdirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:42+01:00",
-      "sist_ok": "2026-10-26T23:32:42+01:00",
+      "hentet": "2026-10-27T00:23:43+01:00",
+      "sist_ok": "2026-10-27T00:23:43+01:00",
       "antall": 0,
       "sekunder": 2.3
     },
@@ -123,8 +123,8 @@
       "kilde": "Bufdir",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:44+01:00",
-      "sist_ok": "2026-10-26T23:32:44+01:00",
+      "hentet": "2026-10-27T00:23:46+01:00",
+      "sist_ok": "2026-10-27T00:23:46+01:00",
       "antall": 0,
       "sekunder": 1.8
     },
@@ -138,8 +138,8 @@
       "kilde": "Riksantikvaren",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:46+01:00",
-      "sist_ok": "2026-10-26T23:32:46+01:00",
+      "hentet": "2026-10-27T00:23:48+01:00",
+      "sist_ok": "2026-10-27T00:23:48+01:00",
       "antall": 0,
       "sekunder": 2.6
     },
@@ -147,19 +147,19 @@
       "kilde": "Nasjonalarkivet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:49+01:00",
-      "sist_ok": "2026-10-26T23:32:49+01:00",
+      "hentet": "2026-10-27T00:23:50+01:00",
+      "sist_ok": "2026-10-27T00:23:50+01:00",
       "antall": 0,
-      "sekunder": 6.4
+      "sekunder": 6.6
     },
     {
       "kilde": "Helsedirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:55+01:00",
-      "sist_ok": "2026-10-26T23:32:55+01:00",
+      "hentet": "2026-10-27T00:23:57+01:00",
+      "sist_ok": "2026-10-27T00:23:57+01:00",
       "antall": 2,
-      "sekunder": 2.0
+      "sekunder": 4.8
     },
     {
       "kilde": "NAV",
@@ -171,10 +171,10 @@
       "kilde": "Direktoratet for medisinske produkter",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:32:57+01:00",
-      "sist_ok": "2026-10-26T23:32:57+01:00",
+      "hentet": "2026-10-27T00:24:02+01:00",
+      "sist_ok": "2026-10-27T00:24:02+01:00",
       "antall": 2,
-      "sekunder": 9.8
+      "sekunder": 15.3
     },
     {
       "kilde": "Folkehelseinstituttet",
@@ -186,19 +186,19 @@
       "kilde": "Mattilsynet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:07+01:00",
-      "sist_ok": "2026-10-26T23:33:07+01:00",
+      "hentet": "2026-10-27T00:24:17+01:00",
+      "sist_ok": "2026-10-27T00:24:17+01:00",
       "antall": 8,
-      "sekunder": 3.6
+      "sekunder": 16.1
     },
     {
       "kilde": "Arbeidstilsynet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:11+01:00",
-      "sist_ok": "2026-10-26T23:33:11+01:00",
+      "hentet": "2026-10-27T00:24:33+01:00",
+      "sist_ok": "2026-10-27T00:24:33+01:00",
       "antall": 1,
-      "sekunder": 2.6
+      "sekunder": 3.6
     },
     {
       "kilde": "Statens helsetilsyn",
@@ -210,8 +210,8 @@
       "kilde": "Digdir",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:13+01:00",
-      "sist_ok": "2026-10-26T23:33:13+01:00",
+      "hentet": "2026-10-27T00:24:36+01:00",
+      "sist_ok": "2026-10-27T00:24:36+01:00",
       "antall": 0,
       "sekunder": 6.3
     },
@@ -225,8 +225,8 @@
       "kilde": "DiBK",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:19+01:00",
-      "sist_ok": "2026-10-26T23:33:19+01:00",
+      "hentet": "2026-10-27T00:24:43+01:00",
+      "sist_ok": "2026-10-27T00:24:43+01:00",
       "antall": 0,
       "sekunder": 1.7
     },
@@ -246,28 +246,28 @@
       "kilde": "Politidirektoratet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:21+01:00",
-      "sist_ok": "2026-10-26T23:33:21+01:00",
+      "hentet": "2026-10-27T00:24:44+01:00",
+      "sist_ok": "2026-10-27T00:24:44+01:00",
       "antall": 0,
-      "sekunder": 2.0
+      "sekunder": 7.3
     },
     {
       "kilde": "Innlandet politidistrikt",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:23+01:00",
-      "sist_ok": "2026-10-26T23:33:23+01:00",
+      "hentet": "2026-10-27T00:24:52+01:00",
+      "sist_ok": "2026-10-27T00:24:52+01:00",
       "antall": 0,
-      "sekunder": 6.4
+      "sekunder": 0.4
     },
     {
       "kilde": "Skatteetaten",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:29+01:00",
-      "sist_ok": "2026-10-26T23:33:29+01:00",
+      "hentet": "2026-10-27T00:24:52+01:00",
+      "sist_ok": "2026-10-27T00:24:52+01:00",
       "antall": 4,
-      "sekunder": 9.6
+      "sekunder": 15.2
     },
     {
       "kilde": "Datatilsynet",
@@ -279,19 +279,19 @@
       "kilde": "SSB",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:39+01:00",
-      "sist_ok": "2026-10-26T23:33:39+01:00",
+      "hentet": "2026-10-27T00:25:07+01:00",
+      "sist_ok": "2026-10-27T00:25:07+01:00",
       "antall": 0,
-      "sekunder": 2.0
+      "sekunder": 2.2
     },
     {
       "kilde": "Konkurransetilsynet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:41+01:00",
-      "sist_ok": "2026-10-26T23:33:41+01:00",
+      "hentet": "2026-10-27T00:25:09+01:00",
+      "sist_ok": "2026-10-27T00:25:09+01:00",
       "antall": 0,
-      "sekunder": 3.5
+      "sekunder": 3.6
     },
     {
       "kilde": "Sivilombudet",
@@ -303,28 +303,28 @@
       "kilde": "Innlandet fylkeskommune",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:45+01:00",
-      "sist_ok": "2026-10-26T23:33:45+01:00",
+      "hentet": "2026-10-27T00:25:13+01:00",
+      "sist_ok": "2026-10-27T00:25:13+01:00",
       "antall": 4,
-      "sekunder": 3.3
+      "sekunder": 9.3
     },
     {
       "kilde": "Statsforvalteren i Innlandet",
       "kjoring": "github",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:48+01:00",
-      "sist_ok": "2026-10-26T23:33:48+01:00",
+      "hentet": "2026-10-27T00:25:22+01:00",
+      "sist_ok": "2026-10-27T00:25:22+01:00",
       "antall": 0,
-      "sekunder": 1.9
+      "sekunder": 1.8
     },
     {
       "kilde": "Gjøvik kommunes postliste",
       "kjoring": "github",
       "type": "postliste",
       "status": "ok",
-      "hentet": "2026-10-26T23:33:50+01:00",
-      "sist_ok": "2026-10-26T23:33:50+01:00",
-      "sekunder": 12.3,
+      "hentet": "2026-10-27T00:25:24+01:00",
+      "sist_ok": "2026-10-27T00:25:24+01:00",
+      "sekunder": 12.5,
       "antall": 6
     }
   ]

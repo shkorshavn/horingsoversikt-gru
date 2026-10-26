@@ -273,7 +273,7 @@ thead th { background: var(--turkis-300); }
 @media print {
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   html { font-size: 7.5pt; }
-  body { background: #fff; line-height: 1.3; }
+  body { background: #fff; line-height: 1.22; }
   .filtre, .handlinger, .hopp, #inaktive, .status, .bunn, #tom { display: none !important; }
   .forklaring { font-size: 0.9rem; margin: 0 0 0.3rem; }
   .ramme { display: block; max-width: none; padding: 0; }
@@ -304,8 +304,12 @@ thead th { background: var(--turkis-300); }
   .beskrivelse { order: 5; flex-basis: 100%; margin: 0; max-width: none; font-size: 0.9rem; }
   .prio, .tema { padding: 0 0.3rem; }
   /* Utskrift: flagg og kategorier tas med, men ikke hele listen (holder antall sider nede). */
-  .regionflagg { margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
-  .parter-blokk, .parter-kort { margin: 0; font-size: 0.85rem; }
+  /* Flagg, instans og kategoriene for høringspartene deler én linje, og prioritet, tema og
+     frist står på linjen under. Slik koster høringspartene ingen ekstra linje. */
+  .regionflagg { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
+  .instans { order: 1; }
+  .parter-blokk, .parter-kort { order: 2; margin: 0; font-size: 0.85rem; }
+  .detaljer { order: 3; flex-basis: 100%; }
   .parter { display: none; }
   .ny-merke { font-size: 0.75rem; }
   a { text-decoration: none; }

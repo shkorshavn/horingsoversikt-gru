@@ -23,6 +23,7 @@ Sprint 3: ukentlig kjøring mandag kl. 10, publisering på
 https://shkorshavn.github.io/horingsoversikt-gru/, merket «Ny» og arkiv for utløpte høringer.
 Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per departement.
 Sprint 5: etater med prioritet 2 og 3, frist med bare måned og år, og måling av kjøretid.
+Sprint 6: høringsparter, regionflagg («Regionen er høringspart») og tester ved hver push.
 
 ## Etatens side eller regjeringen.no
 
@@ -66,6 +67,35 @@ og de andre departementene middels (`prioritet_instans`). En høring med middels
 prioritet løftes til høy når tittel eller ingress nevner kommunene, fylkeskommunen, plan- og
 bygningsloven, Innlandet eller et sted i regionen (`felles.prioritet_loft` og `geografi`).
 Siden viser da grunnen, for eksempel «Foreslått prioritet: høy (gjelder kommunene)».
+
+Er regionen høringspart (se under), løftes høringen til høy med grunnen «regionen er
+høringspart».
+
+## Høringsparter og regionflagg
+
+Mange kilder lister hvem høringen er sendt til. Listen leses fra detaljsiden («Høringsinstanser»
+o.l.), eller fra PDF-en det lenkes til, der robots.txt tillater det (`horinger/horingsparter.py`).
+Hva som leses per kilde, står i `horingsparter` for kilden i `sources.yaml`:
+
+- `detalj: true`: detaljsiden leses for åpne høringer.
+- `pdf: true`: står listen i en PDF, leses den med `pypdf`.
+- `merknad`: fast merknad når kilden ikke har lister, f.eks. «Åpen for alle» (Stortinget).
+
+Listen lagres med høringen i `data/kilder/`, og brukes om igjen ved neste kjøring, så bare nye
+høringer koster ekstra kall. Uten liste vises en merknad: «Åpen for alle» (alle kan svare),
+«Ikke tilgjengelig» (listen finnes, men kan ikke leses, f.eks. sperret i robots.txt, med lenke)
+eller «Ikke oppgitt».
+
+**Regionflagg:** settes når en høringspart i listen er Gjøvik, Østre Toten, Vestre Toten,
+Søndre Land, Nordre Land, Ringsaker eller Lillehammer kommune, Gjøvikregionen (IPR), regionrådene,
+«alle kommuner», «alle fylkeskommuner», KS eller Innlandet fylkeskommune
+(`felles.horingsparter.regionflagg`). Statsforvalteren gir ikke flagg. Hver part vurderes for
+seg, og bare listen brukes, ikke teksten ellers. Derfor gir verken «Gjøvik tingrett», «Sykehuset
+Innlandet, Gjøvik» eller en postadresse i Lillehammer flagg.
+
+**Kategorier:** partene telles i kategoriene i `felles.horingsparter.kategorier`, f.eks.
+«Alle kommuner, Departementer og direktorater (17), Organisasjoner (12), Andre (17)».
+Kategorier og flagg beregnes ved byggingen, så endringer i ordlistene slår inn uten ny henting.
 
 ## Slik oppdateres oversikten
 
@@ -117,8 +147,14 @@ Er oversikten ikke oppdatert på mer enn ti dager, viser siden en advarsel øver
 Frist med bare måned og år («innen høringsfristen desember 2026») vises som «Høringsfrist:
 desember 2026». Den sorteres som den 1. i måneden, men står som åpen ut måneden.
 
-Hver høring har et flagg med foreslått prioritet (høy, middels eller lav). Foreløpig følger
-prioriteten kilden (`prioritet` i `sources.yaml`). Stortinget og regjeringen er egne temaer.
+Hver høring har et flagg med foreslått prioritet (høy, middels eller lav), se «Foreslått
+prioritet». Stortinget og regjeringen er egne temaer.
+
+Er regionen høringspart, står «Regionen er høringspart: …» under tittelen. Under ingressen står
+kategoriene for høringspartene, og «Vis alle høringsparter» folder ut hele listen. Filteret
+«Bare høringer der regionen er høringspart» viser bare høringer med flagg (`?regionpart=1`).
+Søket leter også i høringspartene. CSV og utskrift tar med flagg og kategorier, men ikke hele
+listen.
 
 Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
 eller tema. Valget lagres i adressen (`?sort=avsender`). Knappen «Skriv ut» skriver ut samme
@@ -165,6 +201,9 @@ python -m playwright install chromium
 npm install --no-save axe-core@4.10.2   # eller sett AXE_STI til axe.min.js
 ```
 
+Arbeidsflyten **Tester** (`.github/workflows/tester.yml`) kjører ruff og hele testsuiten ved
+hver push til `main`. Feiler den, blir kjøringen rød under Actions.
+
 ## Testkjøring i GitHub Actions
 
 Workflowen **Testkjøring** (`.github/workflows/testkjoring.yml`) startes manuelt under
@@ -179,7 +218,9 @@ Alle kilder står i `sources.yaml`. En kilde hentes når den har `aktiv: true` o
 - `felles.user_agent`, `pause_sekunder` og `tidsavbrudd_sekunder` for alle kall
 - `felles.ekskluder_departementer`: departementer på regjeringen.no som ikke tas med
 - `felles.geografi`: kommunene og vegene som avgjør om en vegprosjekthøring er relevant
+- `felles.horingsparter`: regionflagg og kategorier for høringsparter
 - `kjoring` per kilde: `github` (standard) eller `pc` (hentes på GRUs PC)
+- `horingsparter` per kilde: om detaljside og PDF leses for høringsparter
 
 ### Legge til en kilde
 
@@ -193,4 +234,6 @@ Alle kilder står i `sources.yaml`. En kilde hentes når den har `aktiv: true` o
 
 Alle kall bruker User-Agent fra `sources.yaml`, venter minst 1,5 sekunder mellom kall til
 samme nettsted (lenger hvis robots.txt krever det), og sjekker robots.txt før første kall.
-Sperrede adresser hentes ikke.
+Sperrede adresser hentes ikke. Det gjelder også PDF-er med høringsparter: Statens vegvesen
+sperrer `*.pdf`, Skatteetaten `/contentassets` og Miljødirektoratet sin vedleggstjeneste
+(`hss.miljodirektoratet.no`). For dem vises lenke til listen i stedet.

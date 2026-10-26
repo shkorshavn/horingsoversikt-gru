@@ -120,7 +120,8 @@ Hver høring kan få et sammendrag på 1–2 setninger i klarspråk, laget med A
 
 ### Slik setter du API-nøkkelen
 
-1. Gå til https://console.anthropic.com og logg inn med GRUs konto.
+1. Gå til Anthropic Console (https://console.anthropic.com, kan sende deg videre til
+   platform.claude.com) og logg inn med GRUs konto.
 2. Under **Billing**: legg inn betaling, og sett en månedlig brukgrense (f.eks. 10 dollar).
    Forventet forbruk er under 1 dollar første gang og noen få kroner i uka etter det.
 3. Under **API keys**: klikk **Create key**, gi den navnet `horingsoversikt-gru`, og kopier

@@ -172,6 +172,50 @@ felles:
                      Norge, Abelia, Finans Norge, Huseierne, Natur og Ungdom, ZERO]
     annet: Andre
 
+  # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
+  # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar
+  # og innspill til kommunens egne saker, ikke høringsbrev, og tas ikke med.
+  # Avsender lagres bare når navnet har et ord fra `virksomhet_ord` (personvern, Svein
+  # 26.10.2026). Koblingen mot høringene er beskrevet i horinger/kobling.py.
+  postliste:
+    vindu_dager: 14
+    sokeord: [høring, høyring, varsel om oppstart, offentlig ettersyn, innspill, konsultasjon]
+    utelat_ord: [høringsuttalelse, høringsuttale, høyringsuttale, høringssvar, høyringssvar,
+                 svar på høring, svar på forespørsel om høring, svar på forespørsel om
+                 høringsutt, uttalelse til, uttalelse -, innspill til, innspill -, merknad til,
+                 merknader til, merknad -, kommentar til, kommentarer til, høringsinnspill]
+    virksomhet_ord: [kommune, fylkeskommune, departement, departementet, direktorat,
+                     direktoratet, etaten, tilsyn, tilsynet, verket, statsforvalter,
+                     statsforvalteren, ombud, ombudet, sametinget, samediggi, AS, ASA, SA, HF,
+                     SF, IKS, KF, forening, foreningen, forbund, forbundet, lag, laget, råd,
+                     rådet, organisasjon, universitet, høgskole, Statens, Norges, Norsk, Nye
+                     Veier, Bane NOR, NVE, KS, Skatteetaten, Mattilsynet, Kartverket,
+                     Riksantikvaren, Stortinget, regionråd, IPR, Innlandet]
+    # Grenser for koblingen (0–100). Begrunnet i sprintrapport 7.
+    sikker_terskel: 85
+    mulig_terskel: 70
+    # Arkiverte høringer så langt tilbake kan også kobles, og journalposter uten treff vises så
+    # lenge i seksjonen «uten treff» (Svein 26.10.2026: 60 dager).
+    vis_dager: 60
+    # Avsendernavn i postlista er avkortet og uensartet. Forkortelser og andre skrivemåter.
+    avsender_alias:
+      KDD: Kommunal- og distriktsdepartementet
+      KD: Kunnskapsdepartementet
+      HOD: Helse- og omsorgsdepartementet
+      AID: Arbeids- og inkluderingsdepartementet
+      DFD: Digitaliserings- og forvaltningsdepartementet
+      FIN: Finansdepartementet
+      JD: Justis- og beredskapsdepartementet
+      KLD: Klima- og miljødepartementet
+      SD: Samferdselsdepartementet
+      NFD: Nærings- og fiskeridepartementet
+      LMD: Landbruks- og matdepartementet
+      KUD: Kultur- og likestillingsdepartementet
+      FD: Forsvarsdepartementet
+      Samediggi Sametinget: Sametinget
+      Norges vassdrags- og energidirektorat: NVE
+      Direktoratet for medisinske produkter: DMP
+
 kategorier:
   - Stortinget
   - Regjeringen og departementene
@@ -702,3 +746,15 @@ kilder:
     anbefalt: aktiv
     sprint: 1
     merknad: Fristen står uten årstall.
+
+# Postlister som sjekkes for inngående høringsbrev (sprint 7). Bare Gjøvik er aktiv. De andre
+# kommunene i regionen kan legges til med samme felt hvis de bruker ACOS «nye-innsyn».
+postlister:
+  - navn: Gjøvik kommunes postliste
+    kommune: Gjøvik
+    aktiv: true
+    kjoring: github
+    base: https://www.gjovik.kommune.no
+    side: /politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/
+    # Filteret «Inngående dokument» (fra overviewInit, kildekartleggingen avsnitt 13.3).
+    dokumenttype_inngaaende: "dt-ee0f97cc__bfb2__4549__9555__c2dcc5131630-I!S0Dmg6"

@@ -29,6 +29,7 @@ from horinger.filer import les_konfig
 from horinger.kilder import KILDER
 from horinger.lager import lagre_kilde, les_kilde
 from horinger.nett import Nett
+from horinger.postliste import hent_postliste, lagre_postliste
 
 __all__ = ["les_konfig", "kjor_kilder", "hent_kilde", "velg_kilder", "main"]
 
@@ -124,6 +125,22 @@ def kjor_kilder(
     ]
 
 
+def velg_postlister(
+    konfig: dict, utvalg: list[str] | None = None, maskin: str | None = None
+) -> list[dict]:
+    """Aktive postlister, filtrert på navn og maskin på samme måte som kildene."""
+    valgt = []
+    for p in konfig.get("postlister", []):
+        if not p.get("aktiv"):
+            continue
+        if utvalg and p["navn"] not in utvalg:
+            continue
+        if maskin and maskin != "alle" and p.get("kjoring", "github") != maskin:
+            continue
+        valgt.append(p)
+    return valgt
+
+
 def main(argv: list[str] | None = None) -> int:
     """Kommandolinje for innhentingen."""
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
@@ -159,6 +176,12 @@ def main(argv: list[str] | None = None) -> int:
     total = time.monotonic() - start
     for r in resultater:
         lagre_kilde(kildemappe, r)
+    # Postlista hentes etter kildene (spesifikasjonen, avsnitt 6). Feiler den, fortsetter resten.
+    postfelles = felles.get("postliste", {})
+    for p in velg_postlister(konfig, args.kilder, args.maskin):
+        resultat = hent_postliste(p, nett, postfelles, simuler)
+        lagre_postliste(kildemappe, resultat)
+        resultater.append(resultat)
     feil = [r["kilde"] for r in resultater if r["status"] != "ok"]
     log.info(
         "Hentet %d kilder (%d med feil: %s), %d kall, %.0f sekunder",

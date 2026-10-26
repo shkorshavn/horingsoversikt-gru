@@ -9,6 +9,7 @@ Bruk:
 
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 import time
@@ -18,9 +19,15 @@ GREN = "main"
 
 
 def git(*args: str, sjekk: bool = True) -> subprocess.CompletedProcess:
-    """Kjører en git-kommando og skriver kommandoen til loggen."""
+    """Kjører en git-kommando og skriver kommandoen til loggen.
+
+    `safe.directory` gjelder bare denne kommandoen. På GRUs PC kjører runneren som tjenesten
+    NETWORK SERVICE, mens arbeidsmappen ble laget av en annen bruker. Da avviser git mappen
+    («dubious ownership») etter at checkout-steget er ferdig. Ingen innstillinger på PC-en endres.
+    """
     print("+ git", " ".join(args), flush=True)
-    return subprocess.run(["git", *args], check=sjekk, text=True)
+    mappe = os.getcwd()
+    return subprocess.run(["git", "-c", f"safe.directory={mappe}", *args], check=sjekk, text=True)
 
 
 def lagre(mappe: str, melding: str) -> int:

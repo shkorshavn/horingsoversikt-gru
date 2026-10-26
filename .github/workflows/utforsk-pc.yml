@@ -9,7 +9,11 @@ on:
       adresser:
         description: "Adresser som skal hentes (mellomrom mellom)"
         type: string
-        required: true
+        default: ""
+      foresporsler:
+        description: "Forespørsler som JSON-liste, f.eks. POST (se verktoy/utforsk_api.py)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -30,9 +34,16 @@ jobs:
         run: python -m pip install --user --disable-pip-version-check -r requirements-kjoring.txt
 
       - name: Hent sidene
+        if: ${{ inputs.adresser != '' }}
         env:
           HENT_RAA_ADRESSER: ${{ inputs.adresser }}
         run: python verktoy/hent_raa.py --ut raa
+
+      - name: Kjør forespørslene
+        if: ${{ inputs.foresporsler != '' }}
+        env:
+          UTFORSK_FORESPORSLER: ${{ inputs.foresporsler }}
+        run: python verktoy/utforsk_api.py --ut raa
 
       - name: Legg resultatet på grenen utforsk-pc
         env:

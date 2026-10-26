@@ -1,6 +1,7 @@
 from datetime import date
 from pathlib import Path
 
+from horinger.datoer import i_dag
 from horinger.kilder.statsforvalteren import referansedato, tolk_liste
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -29,4 +30,6 @@ def test_frist_over_arsskiftet():
 
 
 def test_referansedato_uten_ar_i_adressen_bruker_i_dag():
-    assert referansedato("https://www.statsforvalteren.no/innlandet/horinger/x/") <= date.today()
+    # Dagens dato i norsk tid (i_dag), ikke maskinens: GitHub kjører i UTC, og mellom midnatt og
+    # kl. 01/02 norsk tid er datoene ulike (feilet 27.10.2026 kl. 00.20).
+    assert referansedato("https://www.statsforvalteren.no/innlandet/horinger/x/") == i_dag()

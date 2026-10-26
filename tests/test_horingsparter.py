@@ -286,6 +286,16 @@ def test_fyll_leser_pdf_og_gjenbruker_forrige():
     assert h2.horingsparter == h.horingsparter
 
 
+def test_fyll_leser_paa_nytt_ved_ny_tolking():
+    side = "https://x.no/a"
+    nett = _Nett({side: _html("helsedirektoratet_bredde.html")})
+    kilde = _Kilde({"navn": "Test", "horingsparter": {"detalj": True}}, nett)
+    h = _hoering(side)
+    gammel = {**h.til_dict(), "horingsparter": ["Gammel tolking"], "detalj_versjon": 1}
+    assert kilde.fyll_horingsparter([h], {h.id: gammel}) == 1
+    assert "Gammel tolking" not in h.horingsparter
+
+
 def test_fyll_pdf_sperret_i_robots():
     side = "https://www.skatteetaten.no/rettskilder/x/"
     funnet = fra_html(_html("skatteetaten.html"), side)

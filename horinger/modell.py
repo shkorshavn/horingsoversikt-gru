@@ -40,6 +40,8 @@ class Hoering:
     horingsparter_lenke: str = ""
     # Saksfelt fra regjeringen.no (f.eks. «Skole og videregående opplæring»).
     saksfelt: list[str] = field(default_factory=list)
+    # Versjonen av tolkingen som fylte inn høringspartene (se kilder/base.py).
+    detalj_versjon: int = 0
     id: str = field(default="")
 
     def __post_init__(self) -> None:

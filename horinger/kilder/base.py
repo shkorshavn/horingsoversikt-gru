@@ -30,6 +30,10 @@ MANEDSNAVN = list(MANEDER)
 
 log = logging.getLogger("horinger")
 
+# Økes når tolkingen av detaljsidene endres. Lagrede høringsparter med en annen versjon brukes
+# ikke om igjen, slik at alle åpne høringer leses på nytt med den nye tolkingen.
+DETALJ_VERSJON = 2
+
 
 class Kilde(ABC):
     """En kilde henter høringer og gir dem tilbake som Hoering-objekter.
@@ -137,11 +141,16 @@ class Kilde(ABC):
         idag = datetime.now(OSLO).date()
         for h in hoeringer:
             gammel = forrige.get(h.id)
-            if gammel and (gammel.get("horingsparter") or gammel.get("horingsparter_merknad")):
+            if (
+                gammel
+                and gammel.get("detalj_versjon") == DETALJ_VERSJON
+                and (gammel.get("horingsparter") or gammel.get("horingsparter_merknad"))
+            ):
                 h.horingsparter = list(gammel.get("horingsparter") or [])
                 h.horingsparter_merknad = gammel.get("horingsparter_merknad", "")
                 h.horingsparter_lenke = gammel.get("horingsparter_lenke", "")
                 h.saksfelt = h.saksfelt or list(gammel.get("saksfelt") or [])
+                h.detalj_versjon = DETALJ_VERSJON
                 continue
             if not oppsett.get("detalj") or (h.frist is not None and h.frist < idag):
                 h.horingsparter_merknad = h.horingsparter_merknad or fast_merknad
@@ -160,6 +169,7 @@ class Kilde(ABC):
         return kall
 
     def _les_horingsparter(self, h: Hoering, les_pdf: bool) -> int:
+        h.detalj_versjon = DETALJ_VERSJON
         suppe = BeautifulSoup(self.nett.hent(h.lenke).text, "html.parser")
         kall = 1
         for nokkel, verdi in self.detaljfelt(suppe).items():

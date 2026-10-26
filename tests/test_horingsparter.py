@@ -161,6 +161,8 @@ def test_helsedirektoratet_liste_pa_siden_med_kommunene():
     assert "KS – Kommunesektorens organisasjon" in funnet.parter
     # Gruppeoverskrifter og innledende tekst er ikke parter.
     assert "Universitet og høgskoler" not in funnet.parter
+    assert len(funnet.parter) == 65  # kontrollert mot siden 26.10.2026
+    assert funnet.parter[-1] == "Norges sjømatråd"
     assert not any(p.startswith("Nedenfor listes") for p in funnet.parter)
     assert VURDERING.regionflagg(funnet.parter) == ["Alle kommuner", "KS"]
 
@@ -170,7 +172,10 @@ def test_helsedirektoratet_uten_kommunene():
     funnet = fra_html(_html("helsedirektoratet_bredde.html"))
     assert funnet.apen
     assert "Alle regionale helseforetak" in funnet.parter
-    assert 5 < len(funnet.parter) < 30  # listen stopper før resten av høringsteksten
+    # Listen stopper ved «Kontakt», og innledningen til referansegruppen er ikke en part.
+    assert len(funnet.parter) == 12
+    assert funnet.parter[-1] == "ALIS/SamLIS-kontorene"
+    assert not any("herunder" in p or "Seniorrådgiver" in p for p in funnet.parter)
     assert VURDERING.regionflagg(funnet.parter) == []
 
 

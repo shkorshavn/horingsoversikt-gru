@@ -174,6 +174,17 @@ def fra_html(html: str | BeautifulSoup, lenke: str = "") -> Liste:
     return resultat
 
 
+# Overskrifter som betyr at listen over høringsparter er slutt.
+_NESTE_AVSNITT = re.compile(
+    r"^(?:kontakt(?:person|personer)?|høringsbrev|høringsnotat|bakgrunn|vedlegg|dokumenter"
+    r"|høringsdokument(?:er)?|høringssvar|høringsuttalelser|høringsinnspill|frist|spørsmål.*"
+    r"|send(?: inn)? (?:høringssvar|innspill).*|om høringen)[:.]?$",
+    re.IGNORECASE,
+)
+# Linjer som innleder en underliste («Referansegruppens medlemmer, herunder representanter fra»).
+_INNLEDNING = re.compile(r"(?:\bfra|\bherunder|\bbl\.a\.|\bblant annet|:)$", re.IGNORECASE)
+
+
 def _er_prosa(linje: str) -> bool:
     """Om linjen er løpende tekst og ikke navnet på en høringspart."""
     ord_ = linje.split()
@@ -192,7 +203,13 @@ def _bare_listen(linjer: list[str]) -> list[str]:
     liste: list[str] = []
     for linje in linjer:
         linje = _MELLOMROM.sub(" ", linje.replace("\xa0", " ")).strip()
-        if not linje or linje.startswith(OVERSKRIFT):
+        if not linje:
+            continue
+        if _NESTE_AVSNITT.match(linje.lstrip(OVERSKRIFT)):
+            if liste:
+                break  # «Kontakt», «Høringsbrev» o.l.: listen er slutt
+            continue
+        if linje.startswith(OVERSKRIFT) or _INNLEDNING.search(linje):
             continue
         if _er_prosa(linje):
             if len(liste) >= 2:

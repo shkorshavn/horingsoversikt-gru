@@ -126,4 +126,7 @@ Remove**). Slett deretter mappen `C:\actions-runner`.
 | `gru-pc` står som Offline selv om PC-en er på | Start tjenesten: Start → Tjenester → «GitHub Actions Runner (…)» → Start |
 | Jobben feiler med «python is not recognized» | Python er ikke installert for alle brukere. Gjenta B1 og start PC-en på nytt |
 | Jobben feiler i steget «Hent regjeringen.no» med feilkode 403 | Robotsjekken slipper heller ikke PC-en gjennom. Si fra til Claude |
+| «Cannot start the service» eller `sc start` gir feil 1068 | Norsk Windows lagrer kontoen som «NT-MYNDIGHET\NETTVERKSTJENESTE», som ikke virker. I ledetekst som administrator: `sc config actions.runner.shkorshavn-horingsoversikt-gru.X9SHK obj= "NT AUTHORITY\NetworkService" password= ""` og deretter `sc start …` (løst slik 26.10.2026) |
+| Runneren står som Idle, men jobbene blir stående i kø | Merkelappen `gru-pc` mangler. Legg den til under Settings → Actions → Runners → runneren → Labels |
+| To `run.cmd`-vinduer gir «A session for this runner already exists» | Bare én kopi av runneren kan være koblet til. Lukk det ene vinduet, eller bruk tjenesten |
 | Brannmur eller proxy i GRUs nett stopper programmet | Programmet må nå `github.com`, `*.actions.githubusercontent.com` og `www.regjeringen.no` på port 443 |

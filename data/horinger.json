@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-26T21:28:58+01:00",
+  "generert": "2026-10-26T22:35:20+01:00",
   "antall": 133,
   "horinger": [
     {
@@ -526,7 +526,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Samferdselsdepartementet",
       "tittel": "Høring - forslag til ny ruteplan for kystruten Bergen-Kirkenes",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-ruteplan-for-kystruten-bergen-kirkenes/id3169361/",
@@ -676,10 +676,8 @@
         "Organisasjoner": 31,
         "Andre": 66
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -929,9 +927,7 @@
         "Organisasjoner": 14,
         "Andre": 16
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -1213,9 +1209,7 @@
         "Organisasjoner": 34,
         "Andre": 33
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -2154,7 +2148,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til endringer i utlendingsloven § 34 - utvidelse av antall år det kan gis midlertidig kollektiv beskyttelse",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-utlendingsloven-34-utvidelse-av-antall-ar-det-kan-gis-midlertidig-kollektiv-beskyttelse/id3177598/",
@@ -2259,10 +2253,8 @@
         "Organisasjoner": 17,
         "Andre": 44
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -2625,7 +2617,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Kultur- og likestillingsdepartementet",
       "tittel": "Høring - forslag til endringer i kringkastingsforskriften",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-kringkastingsforskriften/id3173432/",
@@ -2852,10 +2844,8 @@
         "Organisasjoner": 13,
         "Andre": 182
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -3015,9 +3005,7 @@
         "Organisasjoner": 34,
         "Andre": 35
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -3103,7 +3091,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - NOU 2024: 24 Prøvd på nytt og NOU 2026: 3 Straffeforfølgelsen av Viggo Kristiansen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-nou-2024-24-provd-pa-nytt-og-nou-2026-3-straffeforfolgelsen-av-viggo-kristiansen/id3164414/",
@@ -3222,10 +3210,8 @@
         "Organisasjoner": 18,
         "Andre": 60
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -5067,9 +5053,7 @@
         "Organisasjoner": 17,
         "Andre": 10
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -5781,9 +5765,7 @@
         "Organisasjoner": 34,
         "Andre": 35
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -5817,7 +5799,7 @@
     {
       "kilde": "Direktoratet for medisinske produkter",
       "kategori": "Helse, omsorg og velferd",
-      "prioritet": 1,
+      "prioritet": 3,
       "instans": "Direktoratet for medisinske produkter (DMP)",
       "tittel": "Høring om endringer i forskrift for medisinsk utstyr – kvalitetsstyring og samsvarsvurdering",
       "lenke": "https://www.dmp.no/nyheter/horing-om-endringer-i-forskrift-for-medisinsk-utstyr--kvalitetsstyring-og-samsvarsvurdering",
@@ -5927,10 +5909,8 @@
         "Organisasjoner": 23,
         "Andre": 31
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true
     },
@@ -6631,7 +6611,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Nærings- og fiskeridepartementet",
       "tittel": "Høring av forslag til forskrift om fullsortimentsgrossister i dagligvarebransjen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-forskrift-om-fullsortimentsgrossister-i-dagligvarebransjen/id3173027/",
@@ -6852,10 +6832,8 @@
         "Organisasjoner": 30,
         "Andre": 133
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -7036,7 +7014,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Forsvarsdepartementet",
       "tittel": "Høring om den uavhengige evalueringen av lov om Etterretningstjenesten",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-den-uavhengige-evalueringen-av-lov-om-etterretningstjenesten/id3171315/",
@@ -7181,10 +7159,8 @@
         "Organisasjoner": 18,
         "Andre": 59
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -7570,9 +7546,7 @@
         "Organisasjoner": 34,
         "Andre": 35
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -7708,9 +7682,7 @@
         "Organisasjoner": 34,
         "Andre": 35
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -7718,7 +7690,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Justis- og beredskapsdepartementet",
       "tittel": "Høring - forslag til endringer i politiloven - utvidelse av fristen for innbringelse og adgang til å stille krav om skikkethet ved opptak til videreutdanning og høyere grads studier ved Politihøgskolen",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-endringer-i-politiloven-utvidelse-av-fristen-for-innbringelse-og-adgang-til-a-stille-krav-om-skikkethet-ved-opptak-til-videreutdanning-og-hoyere-grads-studier-ved-politihogskolen/id3175552/",
@@ -7841,10 +7813,8 @@
         "Organisasjoner": 16,
         "Andre": 53
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -8667,7 +8637,7 @@
     {
       "kilde": "Regjeringen.no",
       "kategori": "Regjeringen og departementene",
-      "prioritet": 1,
+      "prioritet": 2,
       "instans": "Kultur- og likestillingsdepartementet",
       "tittel": "Høring av Lotteri- og stiftelsestilsynets utredning om regulering av pengespill-lignende elementer i dataspill",
       "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-lotteritilsynets-utredning-om-regulering-av-pengespill-lignende-elementer-i-dataspill/id3176704/",
@@ -8813,10 +8783,8 @@
         "Organisasjoner": 17,
         "Andre": 84
       },
-      "regionflagg": [
-        "KS"
-      ],
-      "prioritet_grunn": "regionen er høringspart",
+      "regionflagg": [],
+      "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
     },
@@ -9231,9 +9199,7 @@
         "Organisasjoner": 16,
         "Andre": 92
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true
@@ -9402,9 +9368,7 @@
         "Organisasjoner": 19,
         "Andre": 83
       },
-      "regionflagg": [
-        "KS"
-      ],
+      "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true

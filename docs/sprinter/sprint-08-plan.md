@@ -1,6 +1,6 @@
 # Sprint 8 – KI-sammendrag og ferdigstilling: plan
 
-Status: Plan til godkjenning · 27. oktober 2026
+Status: Godkjent · 27. oktober 2026 (Sveins svar nederst)
 
 ## Mål
 Hver høring får et kort sammendrag i klarspråk (1–2 setninger) om hva den gjelder. Sammendraget

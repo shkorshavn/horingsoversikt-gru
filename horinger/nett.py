@@ -110,6 +110,15 @@ def _rett_tegnsett(svar: requests.Response) -> None:
         svar.encoding = "utf-8"
 
 
+def robots_tekst(innhold: bytes) -> str:
+    """Teksten i robots.txt. Leses som UTF-8 og uten byte order mark.
+
+    Uten tegnsett i Content-Type gjetter requests ISO-8859-1, og da blir et BOM til «ï»¿» foran
+    første «User-agent» (Skatteetaten, Stortinget). Da gikk reglene for «*» tapt.
+    """
+    return innhold.decode("utf-8-sig", errors="replace")
+
+
 class Nett:
     """HTTP-klient som alle kildene bruker."""
 
@@ -155,7 +164,7 @@ class Nett:
         if svar.status_code >= 500:
             raise RobotsUtilgjengelig(f"{robots_url} svarte {svar.status_code}")
         robots = (
-            Robots.tolk(svar.text.lstrip("\ufeff"), self.user_agent)
+            Robots.tolk(robots_tekst(svar.content), self.user_agent)
             if svar.status_code == 200
             else Robots()
         )

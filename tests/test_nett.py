@@ -1,4 +1,4 @@
-from horinger.nett import Robots
+from horinger.nett import Robots, robots_tekst
 
 AGENT = "HoringsoversiktGRU/0.1 (+mailto:test@example.no)"
 
@@ -86,3 +86,12 @@ def test_robots_med_byte_order_mark():
     robots = Robots.tolk(tekst, "HoringsoversiktGRU/0.1")
     assert not robots.tillatt("/contentassets/9f72203550404410b5da06ef31d929cb/liste.pdf")
     assert robots.tillatt("/rettskilder/type/horinger/")
+
+
+def test_robots_tekst_med_bom_uten_tegnsett():
+    """Slik Skatteetaten svarer: BOM først og ingen charset i Content-Type."""
+    innhold = "\ufeffUser-agent: *\nDisallow: /contentassets\n".encode()
+    robots = Robots.tolk(robots_tekst(innhold), "HoringsoversiktGRU/0.1")
+    assert not robots.tillatt(
+        "/contentassets/25088935421644869d69846ca51862c2/2026-10-horingsliste.pdf"
+    )

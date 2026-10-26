@@ -21,6 +21,7 @@ from horinger import OSLO
 from horinger.datoer import i_dag
 from horinger.dedup import dedupliser
 from horinger.filer import les_json, les_konfig, skriv_json
+from horinger.horingsparter import Partvurdering
 from horinger.kilder import KILDER
 from horinger.lager import les_kilde
 from horinger.prioritet import Prioritet
@@ -104,18 +105,22 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
     status: list[dict] = []
     alle: dict[str, dict] = {}
     prioritet = Prioritet(konfig.get("felles", {}))
+    parter = Partvurdering(konfig.get("felles", {}).get("horingsparter", {}))
     for kilde_konfig in konfig["kilder"]:
         lagret = None
         if kilde_konfig.get("aktiv") and kilde_konfig.get("modul") in KILDER:
             lagret = les_kilde(kildemappe, kilde_konfig["navn"])
         status.append(kildestatus(kilde_konfig, lagret, naa))
-        # Tema og avsender tas fra gjeldende sources.yaml, og prioriteten beregnes på nytt,
+        # Tema og avsender tas fra gjeldende sources.yaml, og prioriteten, kategoriene for
+        # høringspartene og regionflagget beregnes på nytt,
         # slik at endringer der slår inn ved neste bygging uten ny henting.
         fra_konfig = {f: kilde_konfig[f] for f in KONFIGFELT if f in kilde_konfig}
         for h in (lagret or {}).get("horinger", []):
             if h["id"] in alle:
                 continue
             h = {**h, **fra_konfig}
+            # Kategorier og regionflagg beregnes før prioriteten, som løftes ved flagg.
+            h.update(parter.vurder(h))
             h["prioritet"], h["prioritet_grunn"] = prioritet.vurder(h, kilde_konfig)
             alle[h["id"]] = h
     # Samme høring fra flere kilder vises én gang (etatens versjon, med lenke til den andre).

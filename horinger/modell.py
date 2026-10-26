@@ -31,6 +31,15 @@ class Hoering:
     ingress: str = ""
     hentet: datetime | None = None
     niva: str = ""
+    # Høringsparter slik kilden lister dem (sprint 6). Kategorier og regionflagg beregnes i
+    # bygg.py ut fra sources.yaml, slik at endringer der slår inn uten ny henting.
+    horingsparter: list[str] = field(default_factory=list)
+    # «Åpen for alle», «Ikke tilgjengelig» e.l.
+    horingsparter_merknad: str = ""
+    # Lenke til listen når den er et vedlegg (PDF), slik at den kan åpnes fra siden.
+    horingsparter_lenke: str = ""
+    # Saksfelt fra regjeringen.no (f.eks. «Skole og videregående opplæring»).
+    saksfelt: list[str] = field(default_factory=list)
     id: str = field(default="")
 
     def __post_init__(self) -> None:

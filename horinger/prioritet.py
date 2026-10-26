@@ -8,6 +8,8 @@ Reglene (Svein 25.10.2026):
 3. En høring med prioritet 2 eller 3 løftes til 1 når tittel eller ingress klart gjelder
    kommunene eller regionen: ordene i `felles.prioritet_loft.ord` (kommunene, fylkeskommunen,
    plan- og bygningsloven …) eller en kommune i geografien.
+4. En høring der regionen er høringspart (regionflagg, sprint 6), løftes til 1 med grunnen
+   «regionen er høringspart». Denne regelen vurderes før regel 3.
 
 Grunnen lagres i `prioritet_grunn`, slik at siden kan vise hvorfor en høring er løftet.
 """
@@ -36,6 +38,8 @@ class Prioritet:
                 break
         if prioritet == 1:
             return 1, ""
+        if hoering.get("regionflagg"):
+            return 1, "regionen er høringspart"
         tekst = f"{hoering.get('tittel', '')} {hoering.get('ingress', '')}"
         if self.kommuneord.treff(tekst):
             return 1, "gjelder kommunene"

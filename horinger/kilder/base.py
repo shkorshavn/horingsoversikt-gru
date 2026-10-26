@@ -2,14 +2,24 @@
 
 from __future__ import annotations
 
+import logging
 from abc import ABC, abstractmethod
 from datetime import date, datetime, timedelta
+
+from bs4 import BeautifulSoup
 
 from horinger import OSLO
 from horinger.datoer import MANEDER, finn_frist_maned, kort_ingress
 from horinger.geografi import GeografiFilter
+from horinger.horingsparter import (
+    APEN_FOR_ALLE,
+    IKKE_OPPGITT,
+    IKKE_TILGJENGELIG,
+    fra_html,
+    fra_pdf,
+)
 from horinger.modell import Hoering
-from horinger.nett import Nett
+from horinger.nett import Nett, SperretAvRobots
 from horinger.sokeord import Sokeord
 
 # Kilder der høringene står i en nyhetsstrøm eller RSS (DSB, Nye Veier, Jernbanedirektoratet,
@@ -17,6 +27,8 @@ from horinger.sokeord import Sokeord
 # oppslag uten eksakt frist blir stående som åpne.
 NYHET_MAKS_ALDER = timedelta(days=120)
 MANEDSNAVN = list(MANEDER)
+
+log = logging.getLogger("horinger")
 
 
 class Kilde(ABC):
@@ -95,3 +107,77 @@ class Kilde(ABC):
             ingress=kort_ingress(ingress),
             hentet=self.hentet,
         )
+
+    # -----------------------------------------------------------------------------------------
+    # Høringsparter (sprint 6)
+
+    def detaljfelt(self, suppe: BeautifulSoup) -> dict:
+        """Ekstra felt fra detaljsiden. Regjeringen.no leser saksfelt her."""
+        return {}
+
+    def fyll_horingsparter(
+        self, hoeringer: list[Hoering], forrige: dict[str, dict] | None = None
+    ) -> int:
+        """Fyller inn høringsparter for høringene fra denne kjøringen. Gir antall nye kall.
+
+        Styres av `horingsparter` for kilden i sources.yaml:
+        - `detalj: true`: detaljsiden leses for listen («Høringsinstanser»).
+        - `pdf: true`: står listen i en PDF, leses den, der robots.txt tillater det.
+        - `merknad`: fast merknad når kilden ikke har lister (f.eks. «Åpen for alle»).
+
+        Det som ble funnet forrige gang (`forrige`, etter id), brukes om igjen, slik at bare nye
+        høringer koster kall. Bare åpne høringer slås opp, og høyst `maks_per_kjoring`.
+        En feil for én høring stopper aldri resten.
+        """
+        oppsett = self.konfig.get("horingsparter") or {}
+        forrige = forrige or {}
+        fast_merknad = oppsett.get("merknad", "")
+        maks = int(oppsett.get("maks_per_kjoring", 60))
+        kall = 0
+        idag = datetime.now(OSLO).date()
+        for h in hoeringer:
+            gammel = forrige.get(h.id)
+            if gammel and (gammel.get("horingsparter") or gammel.get("horingsparter_merknad")):
+                h.horingsparter = list(gammel.get("horingsparter") or [])
+                h.horingsparter_merknad = gammel.get("horingsparter_merknad", "")
+                h.horingsparter_lenke = gammel.get("horingsparter_lenke", "")
+                h.saksfelt = h.saksfelt or list(gammel.get("saksfelt") or [])
+                continue
+            if not oppsett.get("detalj") or (h.frist is not None and h.frist < idag):
+                h.horingsparter_merknad = h.horingsparter_merknad or fast_merknad
+                continue
+            if kall >= maks:
+                log.info("%s: høyst %d detaljsider per kjøring, resten neste gang", self.navn, maks)
+                break
+            try:
+                kall += self._les_horingsparter(h, bool(oppsett.get("pdf")))
+            except Exception as feil:  # noqa: BLE001 – én høring skal ikke stoppe kilden
+                # Uten merknad prøves høringen på nytt ved neste kjøring.
+                log.warning("%s: høringsparter for %s: %s", self.navn, h.lenke, feil)
+                continue
+            if not h.horingsparter and not h.horingsparter_merknad:
+                h.horingsparter_merknad = fast_merknad or IKKE_OPPGITT
+        return kall
+
+    def _les_horingsparter(self, h: Hoering, les_pdf: bool) -> int:
+        suppe = BeautifulSoup(self.nett.hent(h.lenke).text, "html.parser")
+        kall = 1
+        for nokkel, verdi in self.detaljfelt(suppe).items():
+            setattr(h, nokkel, verdi)
+        funnet = fra_html(suppe, h.lenke)
+        h.horingsparter = funnet.parter
+        if funnet.pdf and not funnet.parter:
+            h.horingsparter_lenke = funnet.pdf
+            if les_pdf:
+                try:
+                    svar = self.nett.hent(funnet.pdf)
+                    kall += 1
+                    if "pdf" in svar.headers.get("Content-Type", "pdf").lower():
+                        h.horingsparter = fra_pdf(svar.content)
+                except SperretAvRobots:
+                    log.info("%s: høringslisten er sperret i robots.txt: %s", self.navn, funnet.pdf)
+        if funnet.apen:
+            h.horingsparter_merknad = APEN_FOR_ALLE
+        elif funnet.pdf and not h.horingsparter:
+            h.horingsparter_merknad = IKKE_TILGJENGELIG
+        return kall

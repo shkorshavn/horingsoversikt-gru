@@ -27,7 +27,7 @@ from horinger import OSLO
 from horinger.bygg import bygg
 from horinger.filer import les_konfig
 from horinger.kilder import KILDER
-from horinger.lager import lagre_kilde
+from horinger.lager import lagre_kilde, les_kilde
 from horinger.nett import Nett
 
 __all__ = ["les_konfig", "kjor_kilder", "hent_kilde", "velg_kilder", "main"]
@@ -58,17 +58,28 @@ def velg_kilder(
 
 
 def hent_kilde(
-    kilde_konfig: dict, nett: Nett, felles: dict, simuler_feil: str | None = None
+    kilde_konfig: dict,
+    nett: Nett,
+    felles: dict,
+    simuler_feil: str | None = None,
+    forrige: dict | None = None,
 ) -> dict:
-    """Henter én kilde. Feil fanges og returneres som status, slik at resten kan fortsette."""
+    """Henter én kilde. Feil fanges og returneres som status, slik at resten kan fortsette.
+
+    `forrige` er kildens forrige lagrede resultat. Høringspartene derfra brukes om igjen, slik at
+    bare nye høringer krever nye kall.
+    """
     navn = kilde_konfig["navn"]
     start = time.monotonic()
     hentet = datetime.now(OSLO).replace(microsecond=0).isoformat()
     try:
         if simuler_feil and simuler_feil == navn:
             raise SimulertFeil(f"Simulert feil for {navn} (HORINGER_SIMULER_FEIL)")
-        funnet = KILDER[kilde_konfig["modul"]](kilde_konfig, nett, felles).hent()
-        log.info("%s: %d høringer", navn, len(funnet))
+        kilde = KILDER[kilde_konfig["modul"]](kilde_konfig, nett, felles)
+        funnet = kilde.hent()
+        tidligere = {h["id"]: h for h in (forrige or {}).get("horinger", [])}
+        nye_kall = kilde.fyll_horingsparter(funnet, tidligere)
+        log.info("%s: %d høringer (%d kall for høringsparter)", navn, len(funnet), nye_kall)
         return {
             "kilde": navn,
             "status": "ok",
@@ -97,10 +108,20 @@ def kjor_kilder(
     utvalg: list[str] | None = None,
     maskin: str | None = None,
     simuler_feil: str | None = None,
+    kildemappe: Path | None = None,
 ) -> list[dict]:
     """Henter de valgte kildene etter tur."""
     felles = konfig.get("felles", {})
-    return [hent_kilde(k, nett, felles, simuler_feil) for k in velg_kilder(konfig, utvalg, maskin)]
+    return [
+        hent_kilde(
+            k,
+            nett,
+            felles,
+            simuler_feil,
+            les_kilde(kildemappe, k["navn"]) if kildemappe else None,
+        )
+        for k in velg_kilder(konfig, utvalg, maskin)
+    ]
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -134,7 +155,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     simuler = os.environ.get("HORINGER_SIMULER_FEIL", "").strip() or None
     start = time.monotonic()
-    resultater = kjor_kilder(konfig, nett, args.kilder, args.maskin, simuler)
+    resultater = kjor_kilder(konfig, nett, args.kilder, args.maskin, simuler, kildemappe)
     total = time.monotonic() - start
     for r in resultater:
         lagre_kilde(kildemappe, r)

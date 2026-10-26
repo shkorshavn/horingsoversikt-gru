@@ -82,7 +82,27 @@ def dedupliser(horinger: list[dict]) -> list[dict]:
                 *treff.get("ogsa", []),
                 {"kilde": treff["kilde"], "lenke": treff["lenke"]},
             ]
+            _flett_parter(ny, treff)
             beholdt[beholdt.index(treff)] = ny
         else:
             treff.setdefault("ogsa", []).append({"kilde": h["kilde"], "lenke": h["lenke"]})
+            _flett_parter(treff, h)
     return beholdt
+
+
+PARTFELT = ("horingsparter", "horingsparter_merknad", "horingsparter_lenke", "partkategorier")
+
+
+def _flett_parter(vinner: dict, annen: dict) -> None:
+    """Mangler versjonen som vises en liste over høringsparter, brukes den andre versjonens
+    liste, flagg og prioritet (f.eks. når bare regjeringen.no har listen)."""
+    if vinner.get("horingsparter") or not annen.get("horingsparter"):
+        return
+    for felt in PARTFELT:
+        if felt in annen:
+            vinner[felt] = annen[felt]
+    if annen.get("regionflagg"):
+        vinner["regionflagg"] = annen["regionflagg"]
+        if annen.get("prioritet", 3) < vinner.get("prioritet", 3):
+            vinner["prioritet"] = annen["prioritet"]
+            vinner["prioritet_grunn"] = annen.get("prioritet_grunn", "")

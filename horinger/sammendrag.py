@@ -35,7 +35,8 @@ ROT = Path(__file__).resolve().parent.parent
 MANGLER = "MANGLER"
 # Økes når instruks eller tolking endres. Bufrede sammendrag med en annen versjon lages på nytt.
 # 2: svar uten tekst (bare tenking, avbrutt av max_tokens) regnes som feil, ikke som «MANGLER».
-VERSJON = 2
+# 3: strengere instruks om hvem høringen gjelder (to påfunn i vurderingen 27.10.2026).
+VERSJON = 3
 
 
 class TomtSvar(Exception):
@@ -45,8 +46,10 @@ class TomtSvar(Exception):
 INSTRUKS = """Du skriver korte sammendrag av offentlige høringer for kommuner i Gjøvikregionen.
 
 Skriv på norsk bokmål i klarspråk: 1–2 setninger, høyst 45 ord.
-- Si hva som foreslås eller skal vurderes, og hvem det gjelder.
-- Bruk bare opplysninger som står i teksten du får. Ikke gjett, og ikke legg til noe.
+- Si hva som foreslås eller skal vurderes. Si hvem det gjelder bare når teksten sier det
+  uttrykkelig.
+- Bruk bare opplysninger som står i teksten du får. Ikke gjett, ikke trekk egne slutninger, og
+  ikke legg til noe. Bytt ikke ut hva høringen ber om innspill til, med hvem den gjelder.
 - Ikke ta med høringsfrist, avsender eller oppfordring til å svare. Det vises for seg.
 - Ikke gi vurderinger eller råd.
 - Begynn rett på saken, uten «Høringen gjelder» eller «Dette er».

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-27T18:31:45+01:00",
+  "generert": "2026-10-27T21:58:06+01:00",
   "antall": 127,
   "horinger": [
     {
@@ -27,7 +27,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger, foreslått fra 1. januar 2028, med de samme unntakene som for mineralolje. Det foreslås også egne regler for gassrørledningsnett som leverer en blanding av fossil og fornybar gass."
+      "sammendrag": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger, foreslått fra 1. januar 2028, med de samme unntakene som for mineralolje. Det foreslås også egne regler for gassrørledningsnett som leverer en blanding av fossil og fornybar gass.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -54,7 +56,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om en nasjonal strategi for datasenterindustrien."
+      "sammendrag": "Representantforslag om en nasjonal strategi for datasenterindustrien.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -81,7 +85,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om å innføre rullerende maksimal tillatt biomasse (MTB). Formålet er å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og gi økt verdiskaping."
+      "sammendrag": "Representantforslag om å innføre rullerende maksimal tillatt biomasse (MTB). Formålet er å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og gi økt verdiskaping.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -108,7 +114,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser. Hvilke tiltak som foreslås, går ikke fram av teksten."
+      "sammendrag": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser. Hvilke tiltak som foreslås, går ikke fram av teksten.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -135,7 +143,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Meld. St. 12 (2025–2026) om eksport av forsvarsmateriell fra Norge og eksportkontroll i 2025 skal behandles i en muntlig høring i Stortinget."
+      "sammendrag": "Meld. St. 12 (2025–2026) om eksport av forsvarsmateriell fra Norge og eksportkontroll i 2025 skal behandles i en muntlig høring i Stortinget.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -162,7 +172,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Endringer i lov om medisinsk utstyr for å gjennomføre EU-forordning 2024/568 om gebyrer og avgifter som skal betales til Det europeiske legemiddelbyrå (EMA)."
+      "sammendrag": "Endringer i lov om medisinsk utstyr for å gjennomføre EU-forordning 2024/568 om gebyrer og avgifter som skal betales til Det europeiske legemiddelbyrå (EMA).",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -189,7 +201,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Endringer i trossamfunnsloven og andre lover når det gjelder taushetsplikt, slik det er lagt fram i Prop. 102 L (2025–2026)."
+      "sammendrag": "Endringer i trossamfunnsloven og andre lover når det gjelder taushetsplikt, slik det er lagt fram i Prop. 102 L (2025–2026).",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -348,7 +362,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til justerte rutetider for kystruten Bergen–Kirkenes, med minst 20 minutters liggetid i havner med godshåndtering nord for Bodø og lavere snittfart. Det skal også vurderes om rederiene kan gå før avgangstid, og om det skal være egen sommer- og vinterrute."
+      "sammendrag": "Forslag til justerte rutetider for kystruten Bergen–Kirkenes, med minst 20 minutters liggetid i havner med godshåndtering nord for Bodø og lavere snittfart. Det skal også vurderes om rederiene kan gå før avgangstid, og om det skal være egen sommer- og vinterrute.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -375,7 +391,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om å få kriminelle aktører ut fra barnevernet."
+      "sammendrag": "Representantforslag om å få kriminelle aktører ut fra barnevernet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -402,7 +420,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer. Teksten oppgir ikke hvilke konkrete tiltak som foreslås."
+      "sammendrag": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer. Teksten oppgir ikke hvilke konkrete tiltak som foreslås.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -428,7 +448,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
-      "ny": false
+      "ny": false,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -455,7 +477,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om at stortingsrepresentanter og regjeringsmedlemmer skal få vigselsrett, altså rett til å forrette borgerlige vielser."
+      "sammendrag": "Representantforslag om at stortingsrepresentanter og regjeringsmedlemmer skal få vigselsrett, altså rett til å forrette borgerlige vielser.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -482,7 +506,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag."
+      "sammendrag": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -509,7 +535,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Stortinget bes samtykke til godkjenning av EØS-komiteens beslutning nr. 70/2026 om å innlemme en forordning i EØS-avtalen. Det gjelder S-delen av saken."
+      "sammendrag": "Stortinget bes samtykke til godkjenning av EØS-komiteens beslutning nr. 70/2026 om å innlemme en forordning i EØS-avtalen. Det gjelder S-delen av saken.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -535,7 +563,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
-      "ny": false
+      "ny": false,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -605,7 +635,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Utredning av behovet for og konsekvensene av å la deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) fortsette i tiltaket etter fylte 67 år. Den omfatter aldersgrensen mot diskrimineringsregelverket, antall deltakere og kostnader i offentlige budsjetter."
+      "sammendrag": "Utredning av behovet for og konsekvensene av å la deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) fortsette i tiltaket etter fylte 67 år. Den omfatter aldersgrensen mot diskrimineringsregelverket, antall deltakere og kostnader i offentlige budsjetter.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -754,7 +786,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til ny forskrift under sivilbeskyttelsesloven som regulerer tilfluktssteder. Forslaget skal gi sivilbefolkningen vern mot skader ved krigshandlinger og gjøre at kritiske virksomheter kan holde nødvendig drift i gang i krig."
+      "sammendrag": "Forslag til ny forskrift under sivilbeskyttelsesloven som regulerer tilfluktssteder. Forslaget skal gi sivilbefolkningen vern mot skader ved krigshandlinger og gjøre at kritiske virksomheter kan holde nødvendig drift i gang i krig.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -889,7 +923,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Ny bestemmelse i finanstilsynsforskriften om at Finanstilsynets tilsynsutgifter for folkefinansieringsforetak skal fordeles etter størrelsen på inntekt fra den konsesjonspliktige virksomheten, slik regelen allerede gjelder blant annet for verdipapirforetak."
+      "sammendrag": "Ny bestemmelse i finanstilsynsforskriften om at Finanstilsynets tilsynsutgifter for folkefinansieringsforetak skal fordeles etter størrelsen på inntekt fra den konsesjonspliktige virksomheten, slik regelen allerede gjelder blant annet for verdipapirforetak.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -1018,7 +1054,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Nye bestemmelser i jernbaneloven og yrkestransportloven skal gi behandlingsgrunnlag for personopplysninger og for bruk av forretningshemmeligheter i digital nasjonal infrastruktur for reiseplanlegging, billettering og kollektivdata. Statens ansvar for denne infrastrukturen foreslås også regulert nærmere."
+      "sammendrag": "Nye bestemmelser i jernbaneloven og yrkestransportloven skal gi behandlingsgrunnlag for personopplysninger og for bruk av forretningshemmeligheter i digital nasjonal infrastruktur for reiseplanlegging, billettering og kollektivdata. Statens ansvar for denne infrastrukturen foreslås også regulert nærmere.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1044,7 +1082,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
-      "ny": false
+      "ny": false,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1071,7 +1111,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Utlendingsloven foreslås endret slik at driften av utlendingsinternatet overføres fra politiet til kriminalomsorgen. Endringene omfatter også restriksjoner under oppholdet og flere andre forhold."
+      "sammendrag": "Utlendingsloven foreslås endret slik at driften av utlendingsinternatet overføres fra politiet til kriminalomsorgen. Endringene omfatter også restriksjoner under oppholdet og flere andre forhold.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -1253,7 +1295,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om endringer i straffegjennomføringslovens regler om kontrolltiltak i kriminalomsorgen. Det foreslås en ny overordnet bestemmelse for alle kontrolltiltak, og reglene om kontroll av lokaler, innsattes rom og eiendeler, personer og kontakt med omverdenen samles i egne bestemmelser."
+      "sammendrag": "Forslag om endringer i straffegjennomføringslovens regler om kontrolltiltak i kriminalomsorgen. Det foreslås en ny overordnet bestemmelse for alle kontrolltiltak, og reglene om kontroll av lokaler, innsattes rom og eiendeler, personer og kontakt med omverdenen samles i egne bestemmelser.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1280,7 +1324,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Representantforslag om raskere og skånsom utbygging av solenergi, behandlet i en skriftlig høring på Stortinget."
+      "sammendrag": "Representantforslag om raskere og skånsom utbygging av solenergi, behandlet i en skriftlig høring på Stortinget.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1307,7 +1353,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Representantforslag om å forby jakt på ekorn."
+      "sammendrag": "Representantforslag om å forby jakt på ekorn.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1334,7 +1382,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Representantforslag om å forby reklame for fossil energi."
+      "sammendrag": "Representantforslag om å forby reklame for fossil energi.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1361,7 +1411,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Et representantforslag på Stortinget går ut på å lovliggjøre og legge til rette for pluggbare solceller og batterier."
+      "sammendrag": "Et representantforslag på Stortinget går ut på å lovliggjøre og legge til rette for pluggbare solceller og batterier.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1388,7 +1440,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Representantforslag om å stanse opptrappingsplanen for CO2-avgiften."
+      "sammendrag": "Representantforslag om å stanse opptrappingsplanen for CO2-avgiften.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1414,7 +1468,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
-      "ny": true
+      "ny": true,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1441,7 +1497,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Representantforslag om å forby koranskoler med overnatting og å innføre et nytt straffebud mot negativ sosial kontroll."
+      "sammendrag": "Representantforslag om å forby koranskoler med overnatting og å innføre et nytt straffebud mot negativ sosial kontroll.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -1556,7 +1614,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om en særordning der fordrevne fra Ukraina med midlertidig kollektiv beskyttelse, som er i arbeid og har hatt tilstrekkelig arbeidsinntekt siste tolv måneder, kan søke om oppholdstillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse."
+      "sammendrag": "Forslag om en særordning der fordrevne fra Ukraina med midlertidig kollektiv beskyttelse, som er i arbeid og har hatt tilstrekkelig arbeidsinntekt siste tolv måneder, kan søke om oppholdstillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1583,7 +1643,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag til forskrift som utfyller den foreslåtte CBAM-forskriften, med regler om beregning av utslipp og antall CBAM-sertifikater som skal leveres, og nasjonale bestemmelser som supplerer CBAM-forordningen. Målet er at CBAM gjelder fullt ut i Norge fra 1. januar 2027."
+      "sammendrag": "Forslag til forskrift som utfyller den foreslåtte CBAM-forskriften, med regler om beregning av utslipp og antall CBAM-sertifikater som skal leveres, og nasjonale bestemmelser som supplerer CBAM-forordningen. Målet er at CBAM gjelder fullt ut i Norge fra 1. januar 2027.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1610,7 +1672,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "To grunnlovsforslag om endring av Grunnloven § 96. Det ene gjelder uavhengig påtalemyndighet, det andre uavhengig offentlig påtale."
+      "sammendrag": "To grunnlovsforslag om endring av Grunnloven § 96. Det ene gjelder uavhengig påtalemyndighet, det andre uavhengig offentlig påtale.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -1704,7 +1768,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Avslag på krav om sakskostnader etter forvaltningsloven § 36, fattet av Arbeids- og velferdsdirektoratet, foreslås brakt inn for Trygderetten til annengangsbehandling som anker. Det foreslås også unntak fra fri sakførsel i rettshjelpsloven for slike saker."
+      "sammendrag": "Avslag på krav om sakskostnader etter forvaltningsloven § 36, fattet av Arbeids- og velferdsdirektoratet, foreslås brakt inn for Trygderetten til annengangsbehandling som anker. Det foreslås også unntak fra fri sakførsel i rettshjelpsloven for slike saker.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -1782,7 +1848,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner, gjennom endringer i grossistforskriften §§ 5 og 5a."
+      "sammendrag": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner, gjennom endringer i grossistforskriften §§ 5 og 5a.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1809,7 +1877,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip foreslås, hovedsakelig som presiseringer, forenklinger og tekniske justeringer. Blant annet tydeliggjøres reglene om avfallsgebyr, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner."
+      "sammendrag": "Endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip foreslås, hovedsakelig som presiseringer, forenklinger og tekniske justeringer. Blant annet tydeliggjøres reglene om avfallsgebyr, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1836,7 +1906,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Søknad om å etablere et havneanlegg i Kålvik i Strömstad kommune i Sverige, om lag 1 kilometer fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, vindturbiner og andre komponenter til havbasert vindkraft."
+      "sammendrag": "Søknad om å etablere et havneanlegg i Kålvik i Strömstad kommune i Sverige, om lag 1 kilometer fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, vindturbiner og andre komponenter til havbasert vindkraft.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -1950,7 +2022,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Midlertidig kollektiv beskyttelse i en massefluktsituasjon foreslås utvidet fra fem til totalt syv år, gitt for ett år om gangen. Ny tillatelse etter syv år skal gi permanent opphold etter to år, ikke tre, og adgangen til å sette asylsøknaden i bero utvides til syv år."
+      "sammendrag": "Midlertidig kollektiv beskyttelse i en massefluktsituasjon foreslås utvidet fra fem til totalt syv år, gitt for ett år om gangen. Ny tillatelse etter syv år skal gi permanent opphold etter to år, ikke tre, og adgangen til å sette asylsøknaden i bero utvides til syv år.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -2255,7 +2329,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Rapporten fra ekspertutvalget om klimatilpasning, «Norge i hardt vær», vurderer samfunnsøkonomiske konsekvenser av klimaendringene og tilpasningsbehov i en rekke sektorer. Den drøfter også tiltak og virkemidler som kan redusere risiko og styrke robustheten."
+      "sammendrag": "Rapporten fra ekspertutvalget om klimatilpasning, «Norge i hardt vær», vurderer samfunnsøkonomiske konsekvenser av klimaendringene og tilpasningsbehov i en rekke sektorer. Den drøfter også tiltak og virkemidler som kan redusere risiko og styrke robustheten.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Skatteetaten",
@@ -2282,7 +2358,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forskriftsbestemmelsene om overgangen til nytt regelverk for utlegg mv. foreslås endret fordi utrullingsperioden forlenges ut mars 2027. Det foreslås også enkelte andre forskriftsendringer, blant annet fordi systemstøtte for noen prosesser kommer senere enn planlagt."
+      "sammendrag": "Forskriftsbestemmelsene om overgangen til nytt regelverk for utlegg mv. foreslås endret fordi utrullingsperioden forlenges ut mars 2027. Det foreslås også enkelte andre forskriftsendringer, blant annet fordi systemstøtte for noen prosesser kommer senere enn planlagt.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -2309,7 +2387,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal beskrive status for nettet og prioritere utvalgte linjer, traséer og områder for installasjoner, som får en overordnet konsekvensanalyse for miljø og samfunn, for å få raskere nettkapasitet og ny produksjon."
+      "sammendrag": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal beskrive status for nettet og prioritere utvalgte linjer, traséer og områder for installasjoner, som får en overordnet konsekvensanalyse for miljø og samfunn, for å få raskere nettkapasitet og ny produksjon.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -2545,7 +2625,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å endre kringkastingsforskriften slik at eksisterende innholdskonsesjoner for lokalradio på FM kan forlenges og senderanleggskonsesjoner tildeles for 2027–2031. Medietilsynets adgang til å sette vilkår for lokalkringkasting presiseres, og tilsynet får hjemmel til å tildele nødvendig senderanleggskonsesjon."
+      "sammendrag": "Forslag om å endre kringkastingsforskriften slik at eksisterende innholdskonsesjoner for lokalradio på FM kan forlenges og senderanleggskonsesjoner tildeles for 2027–2031. Medietilsynets adgang til å sette vilkår for lokalkringkasting presiseres, og tilsynet får hjemmel til å tildele nødvendig senderanleggskonsesjon.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -2571,7 +2653,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
-      "ny": true
+      "ny": true,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -2707,7 +2791,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Finanstilsynet foreslår å videreføre gulvene for gjennomsnittlig risikovekting av boliglån og næringseiendomslån uendret fra utgangen av 2026, med 25 prosent for boliglån og 35 prosent for næringseiendomslån. Gulvene gjelder IRB-bankene."
+      "sammendrag": "Finanstilsynet foreslår å videreføre gulvene for gjennomsnittlig risikovekting av boliglån og næringseiendomslån uendret fra utgangen av 2026, med 25 prosent for boliglån og 35 prosent for næringseiendomslån. Gulvene gjelder IRB-bankene.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Nkom",
@@ -2734,7 +2820,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett 2027–2031, med frekvenstillatelser og senderanleggskonsesjoner. Ved én kvalifisert søker tildeles direkte, ved flere foreslås loddtrekning. Innspill søkes om kvalifikasjonskrav, tildelingsmodell, vilkår og overgangsordninger."
+      "sammendrag": "Forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett 2027–2031, med frekvenstillatelser og senderanleggskonsesjoner. Ved én kvalifisert søker tildeles direkte, ved flere foreslås loddtrekning. Innspill søkes om kvalifikasjonskrav, tildelingsmodell, vilkår og overgangsordninger.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -2761,7 +2849,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Det varsles oppstart av reguleringsplan for fv. 213 ved Skog bru i Ringsaker. Planen skal erstatte dagens bru med ny bru eller kulvert i samme trasé, og vegen justeres for bedre trafikksikkerhet fordi brua ligger i en risikokurve."
+      "sammendrag": "Det varsles oppstart av reguleringsplan for fv. 213 ved Skog bru i Ringsaker. Planen skal erstatte dagens bru med ny bru eller kulvert i samme trasé, og vegen justeres for bedre trafikksikkerhet fordi brua ligger i en risikokurve.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -2788,7 +2878,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Forsvarsministeren redegjør for styring og kontroll i forsvarssektoren i en kontrollhøring i Stortingets kontroll- og konstitusjonskomité."
+      "sammendrag": "Forsvarsministeren redegjør for styring og kontroll i forsvarssektoren i en kontrollhøring i Stortingets kontroll- og konstitusjonskomité.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -2916,7 +3008,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslagene i Baneheia-utvalgets to utredninger, med lovutkast, etter granskingen av straffesaken mot Viggo Kristiansen og av Gjenopptakelseskommisjonen. Granskingen skulle finne læringspunkter for å redusere risikoen for uriktige domfellelser og sikre et godt gjenåpningsinstitutt."
+      "sammendrag": "Forslagene i Baneheia-utvalgets to utredninger, med lovutkast, etter granskingen av straffesaken mot Viggo Kristiansen og av Gjenopptakelseskommisjonen. Granskingen skulle finne læringspunkter for å redusere risikoen for uriktige domfellelser og sikre et godt gjenåpningsinstitutt.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -2943,7 +3037,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endring i produktforskriften for å gjennomføre en EU-endringsforordning til forordning (EU) 2019/1021. Endringen gjelder oppføringen av stoffet klorpyrifos i vedlegg I."
+      "sammendrag": "Endring i produktforskriften for å gjennomføre en EU-endringsforordning til forordning (EU) 2019/1021. Endringen gjelder oppføringen av stoffet klorpyrifos i vedlegg I.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -2970,7 +3066,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endring av produktforskriften § 4-1 for å gjennomføre forordning (EU) 2025/2457 om omfordeling av vitenskapelige og tekniske oppgaver og bedre samarbeid mellom EU-byråene på kjemikalieområdet i norsk rett."
+      "sammendrag": "Endring av produktforskriften § 4-1 for å gjennomføre forordning (EU) 2025/2457 om omfordeling av vitenskapelige og tekniske oppgaver og bedre samarbeid mellom EU-byråene på kjemikalieområdet i norsk rett.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -2997,7 +3095,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om endring i Grunnloven § 96, som handler om uavhengig offentlig påtale. Forslaget er behandlet som Dokument 12:36 (2023–2024)."
+      "sammendrag": "Forslag om endring i Grunnloven § 96, som handler om uavhengig offentlig påtale. Forslaget er behandlet som Dokument 12:36 (2023–2024).",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -3023,7 +3123,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
-      "ny": true
+      "ny": true,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -3050,7 +3152,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Grunnlovsforslag om en ny paragraf, § 112 a, som skal handle om viltlevende marine ressurser."
+      "sammendrag": "Grunnlovsforslag om en ny paragraf, § 112 a, som skal handle om viltlevende marine ressurser.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -3077,7 +3181,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å innføre en ny § 112 a i Grunnloven, som slår fast at de viltlevende marine ressursene tilhører fellesskapet og skal komme kystsamfunnene til gode."
+      "sammendrag": "Forslag om å innføre en ny § 112 a i Grunnloven, som slår fast at de viltlevende marine ressursene tilhører fellesskapet og skal komme kystsamfunnene til gode.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -3104,7 +3210,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Grunnlovsforslag om en ny § 120 b, som gjelder norsk som nasjonalt hovedspråk."
+      "sammendrag": "Grunnlovsforslag om en ny § 120 b, som gjelder norsk som nasjonalt hovedspråk.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -3131,7 +3239,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag om endret nasjonal listeføring av blåtunge, kverke og ringorm, meldeplikt ved aborter hos sau og geit, og oppdatert oversikt over sykdomsfri status. Dessuten gjennomføres vedtatte EØS-endringer, blant annet ny kategori for blåtunge og unntak fra helsesertifikat for hestedyr i transitt."
+      "sammendrag": "Forslag om endret nasjonal listeføring av blåtunge, kverke og ringorm, meldeplikt ved aborter hos sau og geit, og oppdatert oversikt over sykdomsfri status. Dessuten gjennomføres vedtatte EØS-endringer, blant annet ny kategori for blåtunge og unntak fra helsesertifikat for hestedyr i transitt.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -3158,7 +3268,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Det varsles oppstart av reguleringsplan for å bygge om eksisterende gang- og sykkelveg langs Ringgata, mellom Solvangvegen og Disenvegen, til sykkelveg med fortau. Planen skal også ta hensyn til utformingen av berørte kryss og krysningspunkter."
+      "sammendrag": "Det varsles oppstart av reguleringsplan for å bygge om eksisterende gang- og sykkelveg langs Ringgata, mellom Solvangvegen og Disenvegen, til sykkelveg med fortau. Planen skal også ta hensyn til utformingen av berørte kryss og krysningspunkter.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -3256,7 +3368,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Revidert forslag til forskrift om at oppdragsgiver skal sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget følger opp en tidligere høring 28. november 2025."
+      "sammendrag": "Revidert forslag til forskrift om at oppdragsgiver skal sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget følger opp en tidligere høring 28. november 2025.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -3346,7 +3460,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om en veileder som anbefaler at fylkeskommuner og andre oppdragsgivere vurderer sikkerhet og beredskap ved bussanskaffelser, og om et unntak i nullutslippsforskriften for kjøretøy der det er nødvendig av hensyn til sikkerhet og beredskap."
+      "sammendrag": "Forslag om en veileder som anbefaler at fylkeskommuner og andre oppdragsgivere vurderer sikkerhet og beredskap ved bussanskaffelser, og om et unntak i nullutslippsforskriften for kjøretøy der det er nødvendig av hensyn til sikkerhet og beredskap.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -3373,7 +3489,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag til ny svalbardmatforskrift som gjør matlovsforskriften, næringsmiddelhygieneforskriften, animaliehygieneforskriften, internkontrollforskriften, smilefjesforskriften, matinformasjonsforskriften og drikkevannsforskriften helt eller delvis gjeldende for Svalbard."
+      "sammendrag": "Forslag til ny svalbardmatforskrift som gjør matlovsforskriften, næringsmiddelhygieneforskriften, animaliehygieneforskriften, internkontrollforskriften, smilefjesforskriften, matinformasjonsforskriften og drikkevannsforskriften helt eller delvis gjeldende for Svalbard.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -3488,7 +3606,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å tydeliggjøre utlendingsmyndighetenes adgang til å behandle innhentede personopplysninger til utvikling og testing av IT-systemer, også systemer med kunstig intelligens. Den nye hjemmelen regulerer ikke senere bruk av systemet. Det foreslås også mindre følgeendringer etter Eurodac-forordningen 2024."
+      "sammendrag": "Forslag om å tydeliggjøre utlendingsmyndighetenes adgang til å behandle innhentede personopplysninger til utvikling og testing av IT-systemer, også systemer med kunstig intelligens. Den nye hjemmelen regulerer ikke senere bruk av systemet. Det foreslås også mindre følgeendringer etter Eurodac-forordningen 2024.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -3623,7 +3743,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til forskrift som skal gi hjemmel for deling av taushetsbelagte opplysninger og behandling av personopplysninger mellom organer i arbeidet mot økonomisk kriminalitet. Forslaget kommer fra en arbeidsgruppe nedsatt etter stortingsmeldingen om å forebygge og bekjempe slik kriminalitet."
+      "sammendrag": "Forslag til forskrift som skal gi hjemmel for deling av taushetsbelagte opplysninger og behandling av personopplysninger mellom organer i arbeidet mot økonomisk kriminalitet. Forslaget kommer fra en arbeidsgruppe nedsatt etter stortingsmeldingen om å forebygge og bekjempe slik kriminalitet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -3650,7 +3772,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endringer i forskrift om plantevernmidler som innfører krav til elektronisk sprøytejournal, gjennom innlemming av forordning (EU) 2023/564. Forslaget er justert fra høringen i 2024 på grunn av utsatt frist i EU og endret løsning for elektronisk journalføring."
+      "sammendrag": "Endringer i forskrift om plantevernmidler som innfører krav til elektronisk sprøytejournal, gjennom innlemming av forordning (EU) 2023/564. Forslaget er justert fra høringen i 2024 på grunn av utsatt frist i EU og endret løsning for elektronisk journalføring.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -3917,7 +4041,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om endringer i forskriftene om tilbakebetaling av utdanningslån og godkjenning for utdanningsstøtte, blant annet renteslette i tolv måneder for trafikkflygerlåntakere som avbrøt utdanningen på grunn av konkurs, og at hjemmelen for godkjenning av nettskoler oppheves."
+      "sammendrag": "Forslag om endringer i forskriftene om tilbakebetaling av utdanningslån og godkjenning for utdanningsstøtte, blant annet renteslette i tolv måneder for trafikkflygerlåntakere som avbrøt utdanningen på grunn av konkurs, og at hjemmelen for godkjenning av nettskoler oppheves.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3944,7 +4070,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Carbon Centric søker om tillatelse etter forurensningsloven til et karbonfangstanlegg ved Solør Bioenergi på Kirkenær i Grue. Anlegget skal rense karbondioksid ut av røykgass fra en ovn, og la deler av utslippene gå til vann i stedet for luft, med litt aminer til luft."
+      "sammendrag": "Carbon Centric søker om tillatelse etter forurensningsloven til et karbonfangstanlegg ved Solør Bioenergi på Kirkenær i Grue. Anlegget skal rense karbondioksid ut av røykgass fra en ovn, og la deler av utslippene gå til vann i stedet for luft, med litt aminer til luft.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Skatteetaten",
@@ -3980,7 +4108,9 @@
           "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021076671!SS7pC1/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021584606!HnUvxG",
           "niva": "sikker"
         }
-      ]
+      ],
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -4007,7 +4137,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endring i animaliebiproduktforskriften: Romania føres inn i listen over land som er godkjent for fôring av utrydningstruede eller beskyttede åtselsfugler med kategori 1-materiale. Det foreslås også regler om avhending, bruk og merking av produkter fra metodene M og N for bearbeiding til biodiesel."
+      "sammendrag": "Endring i animaliebiproduktforskriften: Romania føres inn i listen over land som er godkjent for fôring av utrydningstruede eller beskyttede åtselsfugler med kategori 1-materiale. Det foreslås også regler om avhending, bruk og merking av produkter fra metodene M og N for bearbeiding til biodiesel.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4034,7 +4166,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslaget er å utvide restriksjonene i Reach-forskriften for stoffer som kan forårsake kreft, endre arvestoffet eller skade forplantningsevnen (CMR-stoffer), slik at stoffene som hovedregel ikke kan omsettes til forbrukere over fastsatte konsentrasjonsgrenser. Det gjelder stoffer som nylig er klassifisert i EU."
+      "sammendrag": "Forslaget er å utvide restriksjonene i Reach-forskriften for stoffer som kan forårsake kreft, endre arvestoffet eller skade forplantningsevnen (CMR-stoffer), slik at stoffene som hovedregel ikke kan omsettes til forbrukere over fastsatte konsentrasjonsgrenser. Det gjelder stoffer som nylig er klassifisert i EU.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -4061,7 +4195,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag om å tillate sukkerreduksjon i fruktjuice, med tre nye produktdefinisjoner der naturlig sukker er redusert med minst 30 %. Det åpnes også for påstanden «inneholder bare naturlig forekommende sukker», og tillatt tilsatt sukker i fruktnektar reduseres."
+      "sammendrag": "Forslag om å tillate sukkerreduksjon i fruktjuice, med tre nye produktdefinisjoner der naturlig sukker er redusert med minst 30 %. Det åpnes også for påstanden «inneholder bare naturlig forekommende sukker», og tillatt tilsatt sukker i fruktnektar reduseres.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -4088,7 +4224,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forskriften om honning foreslås endret for å gjennomføre EU-direktiv 2024/1438. Honningblandinger skal merkes med hvert opprinnelsesland og prosentandel, og «filtrert honning» fjernes som varebetegnelse og legges under «bakehonning»."
+      "sammendrag": "Forskriften om honning foreslås endret for å gjennomføre EU-direktiv 2024/1438. Honningblandinger skal merkes med hvert opprinnelsesland og prosentandel, og «filtrert honning» fjernes som varebetegnelse og legges under «bakehonning».",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -4115,7 +4253,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet."
+      "sammendrag": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -4142,7 +4282,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forskriften om syltetøy og lignende produkter foreslås endret for å gjennomføre EU-direktivet: mer frukt i syltetøy og gelé (også «ekstra»), og Norges strengere unntak fra kravet om 60 % løselig tørrstoff fjernes. «Marmelade» endres til «sitrusmarmelade»."
+      "sammendrag": "Forskriften om syltetøy og lignende produkter foreslås endret for å gjennomføre EU-direktivet: mer frukt i syltetøy og gelé (også «ekstra»), og Norges strengere unntak fra kravet om 60 % løselig tørrstoff fjernes. «Marmelade» endres til «sitrusmarmelade».",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "DSB",
@@ -4169,7 +4311,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "DSB foreslår å øke satsene for ulempetillegg og ledertillegg i forskrift om sivilforsvar. Bakgrunnen er at tilleggene til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027, og målet er å opprettholde dagens kompensasjon etter skatt."
+      "sammendrag": "DSB foreslår å øke satsene for ulempetillegg og ledertillegg i forskrift om sivilforsvar. Bakgrunnen er at tilleggene til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027, og målet er å opprettholde dagens kompensasjon etter skatt.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4353,7 +4497,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Norsk Tipping foreslås å få tilby nettpoker. Det foreslås også krav om avviksrapportering for de største aktørene i pengespillmarkedet, og mindre endringer i reglene for utbetaling av Belago-midler fra bingo."
+      "sammendrag": "Norsk Tipping foreslås å få tilby nettpoker. Det foreslås også krav om avviksrapportering for de største aktørene i pengespillmarkedet, og mindre endringer i reglene for utbetaling av Belago-midler fra bingo.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -4389,7 +4535,9 @@
           "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2017009930!canK4i/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586093!50iG03",
           "niva": "sikker"
         }
-      ]
+      ],
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4426,7 +4574,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Føresegnene i forskriftene til petroleumsskattelova foreslås flytta til Finansdepartementets forskrift til skatteloven (FSFIN), mens én forskrift fortsatt skal fastsettes av Energidepartementet. Forslaget er rent teknisk og antas ikke å ha provenyvirkning."
+      "sammendrag": "Føresegnene i forskriftene til petroleumsskattelova foreslås flytta til Finansdepartementets forskrift til skatteloven (FSFIN), mens én forskrift fortsatt skal fastsettes av Energidepartementet. Forslaget er rent teknisk og antas ikke å ha provenyvirkning.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "NVE",
@@ -4453,7 +4603,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endringer i økodesignforskriften og energimerkeforskriften for produkter som skal innføre tre EU-forordninger i norsk rett. De gjelder eksterne strømkilder, trådløse ladere, batteriladere, USB-C-kabler, hviletilstand for husholdnings- og kontorutstyr og husholdningstørketromler."
+      "sammendrag": "Endringer i økodesignforskriften og energimerkeforskriften for produkter som skal innføre tre EU-forordninger i norsk rett. De gjelder eksterne strømkilder, trådløse ladere, batteriladere, USB-C-kabler, hviletilstand for husholdnings- og kontorutstyr og husholdningstørketromler.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4533,7 +4685,9 @@
       "regionflagg": [],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
-      "ny": true
+      "ny": true,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4682,7 +4836,9 @@
       ],
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
-      "ny": true
+      "ny": true,
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4738,7 +4894,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til ny forskrift som oppretter en tilskuddsordning for å øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet."
+      "sammendrag": "Forslag til ny forskrift som oppretter en tilskuddsordning for å øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4807,7 +4965,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å oppheve forskriften om rammeplan for ingeniørutdanning, og om å endre universitets- og høyskoleforskriften slik at det kan gis fireårig bachelor i militære ingeniørfag og ledelse. Forsvarets høgskole foreslås å få rett til å tildele graden."
+      "sammendrag": "Forslag om å oppheve forskriften om rammeplan for ingeniørutdanning, og om å endre universitets- og høyskoleforskriften slik at det kan gis fireårig bachelor i militære ingeniørfag og ledelse. Forsvarets høgskole foreslås å få rett til å tildele graden.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4845,7 +5005,9 @@
           "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077034!7hSwsW/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586791!yLDNdh",
           "niva": "sikker"
         }
-      ]
+      ],
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -4908,7 +5070,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Endringer i forskriften om midlertidig tilskudd som kompensasjon for CO2-avgift på drivstoff for fiske og fangst. Endringene foreslås å tre i kraft 1. januar 2027 og gjelde kompensasjon som utbetales i 2027. Rammen avhenger av Stortingets budsjettvedtak."
+      "sammendrag": "Endringer i forskriften om midlertidig tilskudd som kompensasjon for CO2-avgift på drivstoff for fiske og fangst. Endringene foreslås å tre i kraft 1. januar 2027 og gjelde kompensasjon som utbetales i 2027. Rammen avhenger av Stortingets budsjettvedtak.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Skatteetaten",
@@ -4935,7 +5099,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer foreslås utvidet noe, slik at små håndverksbakerier og kafeer med produksjon, salg og servering i samme lokale likebehandles med større produsenter. Forslaget innebærer også forenklinger."
+      "sammendrag": "Avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer foreslås utvidet noe, slik at små håndverksbakerier og kafeer med produksjon, salg og servering i samme lokale likebehandles med større produsenter. Forslaget innebærer også forenklinger.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -5083,7 +5249,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett."
+      "sammendrag": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Helsedirektoratet",
@@ -5186,7 +5354,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Utkast til ny nasjonal faglig retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten, som erstatter Kosthåndboken. Det ønskes innspill på bakgrunn og metode, om anbefalingene er klare, tiltak for implementering og retningslinjen som helhet."
+      "sammendrag": "Utkast til ny nasjonal faglig retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten, som erstatter Kosthåndboken. Det ønskes innspill på bakgrunn og metode, om anbefalingene er klare, tiltak for implementering og retningslinjen som helhet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5213,7 +5383,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslaget samler og tydeliggjør kravene til metodene som skal brukes for å dokumentere at bærekrafts- og utslippsreduksjonskriterier er oppfylt i klimakvoteregelverket. Det kommer detaljerte krav til innhold og revisor for dokumentasjonsmetoden «annen dokumentasjon», og kravene knyttes til en ny forskrift."
+      "sammendrag": "Forslaget samler og tydeliggjør kravene til metodene som skal brukes for å dokumentere at bærekrafts- og utslippsreduksjonskriterier er oppfylt i klimakvoteregelverket. Det kommer detaljerte krav til innhold og revisor for dokumentasjonsmetoden «annen dokumentasjon», og kravene knyttes til en ny forskrift.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -5240,7 +5412,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Reguleringsplan for utbedring av fv. 33 ved Bilitt: bedre kurver, bakker og grøfter, bredere veg (7,5 meter), omlegging mellom Vennevoldkrysset og Bernsgutua, endrede private avkjørsler og ombygde kryssingspunkter for gående og syklende."
+      "sammendrag": "Reguleringsplan for utbedring av fv. 33 ved Bilitt: bedre kurver, bakker og grøfter, bredere veg (7,5 meter), omlegging mellom Vennevoldkrysset og Bernsgutua, endrede private avkjørsler og ombygde kryssingspunkter for gående og syklende.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -5400,7 +5574,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om endringer i lov og forskrifter om nasjonale e-helseløsninger, behandling av helseopplysninger og smittevern, blant annet betaling for e-helseløsningene i 2027, helsekort for gravide i kjernejournalen og CPO og C. auris som allmennfarlige smittsomme sykdommer."
+      "sammendrag": "Forslag om endringer i lov og forskrifter om nasjonale e-helseløsninger, behandling av helseopplysninger og smittevern, blant annet betaling for e-helseløsningene i 2027, helsekort for gravide i kjernejournalen og CPO og C. auris som allmennfarlige smittsomme sykdommer.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -5537,7 +5713,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forskriftsendring som utvider adgangen til andelsklasser i verdipapirfond med ulike vilkår. Et fond skal kunne ha andelsklasser med ulike vilkår for valutasikring av investeringene mot fondets basisvaluta, uavhengig av om andelsklassene har ulik utstedelsesvaluta."
+      "sammendrag": "Forskriftsendring som utvider adgangen til andelsklasser i verdipapirfond med ulike vilkår. Et fond skal kunne ha andelsklasser med ulike vilkår for valutasikring av investeringene mot fondets basisvaluta, uavhengig av om andelsklassene har ulik utstedelsesvaluta.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -5564,7 +5742,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Endringer i trafikkreglene § 2 nr. 2 for å klargjøre hvordan hestebrukere skal følge reglene og når unntak kan gjøres. Ny plikt for kjørende til særlig forsiktighet ved passering av hest, og nye krav til reflekser, varselskilt og lys på dyretrukne kjøretøy."
+      "sammendrag": "Endringer i trafikkreglene § 2 nr. 2 for å klargjøre hvordan hestebrukere skal følge reglene og når unntak kan gjøres. Ny plikt for kjørende til særlig forsiktighet ved passering av hest, og nye krav til reflekser, varselskilt og lys på dyretrukne kjøretøy.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5591,7 +5771,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-27",
       "ny": true,
-      "sammendrag": "Endringer i Reach-forskriften som skjerper reglene for kreosot og kreosotbehandlet trevirke, med begrensede bruksområder og strengere krav til omsetning, merking og risikohåndtering. For Norge innebærer det forbud mot både førstegangsbruk og gjenbruk, med ett års overgangsperiode."
+      "sammendrag": "Endringer i Reach-forskriften som skjerper reglene for kreosot og kreosotbehandlet trevirke, med begrensede bruksområder og strengere krav til omsetning, merking og risikohåndtering. For Norge innebærer det forbud mot både førstegangsbruk og gjenbruk, med ett års overgangsperiode.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -5710,7 +5892,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag til endringer i forskrift om medisinsk utstyr, som skal gjennomføre EU-forordning 2026/977 i norsk rett. Den fastsetter ensartede krav til kvalitetsstyring og prosedyrer for meldte organers samsvarsvurderinger, blant annet pristilbud, tidsfrister, kostnadsovervåking og resertifisering."
+      "sammendrag": "Forslag til endringer i forskrift om medisinsk utstyr, som skal gjennomføre EU-forordning 2026/977 i norsk rett. Den fastsetter ensartede krav til kvalitetsstyring og prosedyrer for meldte organers samsvarsvurderinger, blant annet pristilbud, tidsfrister, kostnadsovervåking og resertifisering.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5737,7 +5921,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-27",
       "ny": true,
-      "sammendrag": "Søknad om tillatelse etter forurensningsloven til et karbonfangstanlegg ved avfallsforbrenningsanlegget på Trehørningen i Hamar. Anlegget skal rense røykgassen og fange rundt 70 000 tonn karbondioksid i året, og det vil gi nye utslipp av amin og nedbrytningsprodukter."
+      "sammendrag": "Søknad om tillatelse etter forurensningsloven til et karbonfangstanlegg ved avfallsforbrenningsanlegget på Trehørningen i Hamar. Anlegget skal rense røykgassen og fange rundt 70 000 tonn karbondioksid i året, og det vil gi nye utslipp av amin og nedbrytningsprodukter.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -6116,7 +6302,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til endringer i helseregisterloven § 11 og Dødsårsaksregisterforskriften, slik at kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling kan bli et varig kvalitetsregister under Dødsårsaksregisteret. Det foreslås også at registeret på sikt kan utvides til å omfatte flere pasientgrupper."
+      "sammendrag": "Forslag til endringer i helseregisterloven § 11 og Dødsårsaksregisterforskriften, slik at kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling kan bli et varig kvalitetsregister under Dødsårsaksregisteret. Det foreslås også at registeret på sikt kan utvides til å omfatte flere pasientgrupper.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -6143,7 +6331,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-27",
       "ny": true,
-      "sammendrag": "Det varsles oppstart av fredning av Oddentunet i Narjordet i Os. Fredningen omfatter gardstunet med bygninger, hagen bak hovedhuset og deler av dyrkamarka, for å bevare gården som kulturhistorisk vitnesbyrd om kullbøndene under Røros Kobberverk."
+      "sammendrag": "Det varsles oppstart av fredning av Oddentunet i Narjordet i Os. Fredningen omfatter gardstunet med bygninger, hagen bak hovedhuset og deler av dyrkamarka, for å bevare gården som kulturhistorisk vitnesbyrd om kullbøndene under Røros Kobberverk.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -6376,7 +6566,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven, til bruk ved en eventuell fremtidig situasjon med høye ankomster av asylsøkere. Forslagene bygger i hovedsak på dagens midlertidige hjemler og regler."
+      "sammendrag": "Forslag om permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven, til bruk ved en eventuell fremtidig situasjon med høye ankomster av asylsøkere. Forslagene bygger i hovedsak på dagens midlertidige hjemler og regler.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -6435,7 +6627,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "En transportfaglig utredning om FOT-rutene i Nord-Norge vurderer ruteføring, kapasitet, frekvens, korrespondanser og andre krav til flytilbudet. Den skal sammen med innspillene danne grunnlag for konkurransen om rutene i avtaleperioden fra 1. november 2028."
+      "sammendrag": "En transportfaglig utredning om FOT-rutene i Nord-Norge vurderer ruteføring, kapasitet, frekvens, korrespondanser og andre krav til flytilbudet. Den skal sammen med innspillene danne grunnlag for konkurransen om rutene i avtaleperioden fra 1. november 2028.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -6462,7 +6656,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Det foreslås endringer i forskrift om bruk av kjøretøy (bruksforskriften) for å håndtere at mange vil fornye rettigheter til personlige kjennemerker. Rettighetene gjelder i ti år, og de første utløper i juni 2027."
+      "sammendrag": "Det foreslås endringer i forskrift om bruk av kjøretøy (bruksforskriften) for å håndtere at mange vil fornye rettigheter til personlige kjennemerker. Rettighetene gjelder i ti år, og de første utløper i juni 2027.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -6692,7 +6888,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Detaljister med under fem prosent markedsandel foreslås å få rett til tilgang til dagligvarekjedenes fullsortimentsgrossister på rimelige, ikke-diskriminerende vilkår. Grossistene foreslås også forbudt å favorisere egne merkevarer på en konkurranseskadelig måte."
+      "sammendrag": "Detaljister med under fem prosent markedsandel foreslås å få rett til tilgang til dagligvarekjedenes fullsortimentsgrossister på rimelige, ikke-diskriminerende vilkår. Grossistene foreslås også forbudt å favorisere egne merkevarer på en konkurranseskadelig måte.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -6867,7 +7065,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Et utvalg foreslår flere tiltak for å rustes fellesskolen for framtiden, slik at den beholder god kvalitet og ivaretar det brede samfunnsoppdraget. Tiltakene skal gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn."
+      "sammendrag": "Et utvalg foreslår flere tiltak for å rustes fellesskolen for framtiden, slik at den beholder god kvalitet og ivaretar det brede samfunnsoppdraget. Tiltakene skal gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7021,7 +7221,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Rapporten fra utvalget som har evaluert hvordan lov om Etterretningstjenesten fungerer, sendes på høring. Utvalget ble oppnevnt i mars 2025 som oppfølging av et anmodningsvedtak fra Stortinget."
+      "sammendrag": "Rapporten fra utvalget som har evaluert hvordan lov om Etterretningstjenesten fungerer, sendes på høring. Utvalget ble oppnevnt i mars 2025 som oppfølging av et anmodningsvedtak fra Stortinget.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7140,7 +7342,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner, gjennom endringer i forskrift om rekvirering og utlevering av legemidler m.m. og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp."
+      "sammendrag": "Forslag om endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner, gjennom endringer i forskrift om rekvirering og utlevering av legemidler m.m. og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7169,7 +7373,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Strategi for 2027–2037 skal gi en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur. Antallet sentre skal ikke endres vesentlig, men flere kan søke, og alle autoriserte sentre må oppfylle kriterier for geografisk plassering og kvalitet."
+      "sammendrag": "Strategi for 2027–2037 skal gi en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur. Antallet sentre skal ikke endres vesentlig, men flere kan søke, og alle autoriserte sentre må oppfylle kriterier for geografisk plassering og kvalitet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -7196,7 +7402,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Endringer i forurensningsforskriften kapittel 10 om utslipp fra krematorier: Reglene gjøres tydeligere, og nye krematorier må bygges med rensekrav tilsvarende kategori I. Forslaget gir lavere temperaturkrav i etterbrennkammer og røykgass og nye krav til prøvetaking."
+      "sammendrag": "Endringer i forurensningsforskriften kapittel 10 om utslipp fra krematorier: Reglene gjøres tydeligere, og nye krematorier må bygges med rensekrav tilsvarende kategori I. Forslaget gir lavere temperaturkrav i etterbrennkammer og røykgass og nye krav til prøvetaking.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -7223,7 +7431,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Forslag om å oppheve adgangen til å fornye dispensasjon fra helsekravene for tunge førerkortklasser for personer med syn på bare ett øye, fra 1. juli 2028. Dispensasjoner som allerede er gitt, gjelder til datoen i vedtaket."
+      "sammendrag": "Forslag om å oppheve adgangen til å fornye dispensasjon fra helsekravene for tunge førerkortklasser for personer med syn på bare ett øye, fra 1. juli 2028. Dispensasjoner som allerede er gitt, gjelder til datoen i vedtaket.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7278,7 +7488,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Utvidet virkeområde for §10-forskriften, slik at reglene erstatter individuell saksbehandling for flere typer transaksjoner. Det foreslås også endringer i reglene om vilkårsbundet betaling, effektiv dato og samtykkeår, og klarere plikter til å gi opplysninger og sende inn dokumentasjon ved overdragelser."
+      "sammendrag": "Utvidet virkeområde for §10-forskriften, slik at reglene erstatter individuell saksbehandling for flere typer transaksjoner. Det foreslås også endringer i reglene om vilkårsbundet betaling, effektiv dato og samtykkeår, og klarere plikter til å gi opplysninger og sende inn dokumentasjon ved overdragelser.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7414,7 +7626,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å oppheve plikten til å gi timepristilbud, begrense regningsplikten til oppdrag med timebasert vederlag, endre reglene om etterutdanning, lempe kravene til ansvarlig megler ved utleiemegling og redusere rapporteringen til Finanstilsynet. Forbudet mot vederlag for boligselgerforsikring foreslås opphevet."
+      "sammendrag": "Forslag om å oppheve plikten til å gi timepristilbud, begrense regningsplikten til oppdrag med timebasert vederlag, endre reglene om etterutdanning, lempe kravene til ansvarlig megler ved utleiemegling og redusere rapporteringen til Finanstilsynet. Forbudet mot vederlag for boligselgerforsikring foreslås opphevet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7551,7 +7765,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om at alle i finanssektoren skal måtte være tilknyttet en godkjent klagenemd for å løse forbrukertvister. Finanstilsynet foreslår endringer i flere lover og forskrifter, også for tjenesteområder der EØS-regelverket ikke krever slik tilknytning."
+      "sammendrag": "Forslag om at alle i finanssektoren skal måtte være tilknyttet en godkjent klagenemd for å løse forbrukertvister. Finanstilsynet foreslår endringer i flere lover og forskrifter, også for tjenesteområder der EØS-regelverket ikke krever slik tilknytning.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7683,7 +7899,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Fristen for politiets innbringelse av barn under 18 år foreslås utvidet fra fire til seks timer (politiloven § 8). Politihøgskolen foreslås også kunne sette krav om skikkethet for opptak, blant annet når studiet kvalifiserer for arbeid i politiet (§ 24 b)."
+      "sammendrag": "Fristen for politiets innbringelse av barn under 18 år foreslås utvidet fra fire til seks timer (politiloven § 8). Politihøgskolen foreslås også kunne sette krav om skikkethet for opptak, blant annet når studiet kvalifiserer for arbeid i politiet (§ 24 b).",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Nye Veier",
@@ -7710,7 +7928,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-27",
       "ny": true,
-      "sammendrag": "Forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, med rundkjøring i krysset mellom E6 og rv.15 på Otta. Mellom Nordre Eide og Ny-Sandbu er to alternative traseer foreslått, og det ønskes særlig innspill til valget mellom dem."
+      "sammendrag": "Forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, med rundkjøring i krysset mellom E6 og rv.15 på Otta. Mellom Nordre Eide og Ny-Sandbu er to alternative traseer foreslått, og det ønskes særlig innspill til valget mellom dem.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7813,7 +8033,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Rapporten vurderer hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres tilgjengelige utenfor kliniske studier for pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter. Den foreslår blant annet endringer i regelverket om godkjenningsfritak."
+      "sammendrag": "Rapporten vurderer hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres tilgjengelige utenfor kliniske studier for pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter. Den foreslår blant annet endringer i regelverket om godkjenningsfritak.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -7972,7 +8194,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Endring i opplæringsloven § 14-5 som presiserer at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn."
+      "sammendrag": "Endring i opplæringsloven § 14-5 som presiserer at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -7999,7 +8223,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Konkrete endringer i forskrifter som følge av at ny forvaltningslov settes i kraft. Forslagene bygger på en kartlegging fra høsten 2025 og på endringsbehov departementet har funnet."
+      "sammendrag": "Konkrete endringer i forskrifter som følge av at ny forvaltningslov settes i kraft. Forslagene bygger på en kartlegging fra høsten 2025 og på endringsbehov departementet har funnet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8149,7 +8375,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om å lovfeste en plikt for offentlige og private skoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning. Samtidig foreslås det å oppheve plikten til å tilby leksehjelp."
+      "sammendrag": "Forslag om å lovfeste en plikt for offentlige og private skoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning. Samtidig foreslås det å oppheve plikten til å tilby leksehjelp.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8311,7 +8539,9 @@
           "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2017004884!WP0y3a/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586809!3r8E7b",
           "niva": "sikker"
         }
-      ]
+      ],
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -8338,7 +8568,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "sammendrag": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte nye § 7 a i vegtrafikkloven."
+      "sammendrag": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte nye § 7 a i vegtrafikkloven.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8542,7 +8774,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om to nye forskrifter, én rammeplan for lærerutdanningene og én for de samiske lærerutdanningene, som skal erstatte dagens elleve rammeplaner for lærerutdanning."
+      "sammendrag": "Forslag om to nye forskrifter, én rammeplan for lærerutdanningene og én for de samiske lærerutdanningene, som skal erstatte dagens elleve rammeplaner for lærerutdanning.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8697,7 +8931,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Lotteri- og stiftelsestilsynet foreslår endringer i pengespillregelverket slik at flere pengespill-lignende elementer i dataspill, som lootbokser, omfattes av pengespilloven. Utredningen beskriver tre alternative modeller og forslag til hva som skal regnes som innsats og premie."
+      "sammendrag": "Lotteri- og stiftelsestilsynet foreslår endringer i pengespillregelverket slik at flere pengespill-lignende elementer i dataspill, som lootbokser, omfattes av pengespilloven. Utredningen beskriver tre alternative modeller og forslag til hva som skal regnes som innsats og premie.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8965,7 +9201,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag om tre endringer i forskrift om utdanningsstøtte: avkastning på erstatning eller forsikringsutbetaling for kritisk sykdom og personskade unntas behovsprøvingen av stipend, reglene om utstyrsstipend til elever som også er lærlinger oppdateres, og omgjøringen fra lån til stipend ved fullført folkehøgskole reduseres."
+      "sammendrag": "Forslag om tre endringer i forskrift om utdanningsstøtte: avkastning på erstatning eller forsikringsutbetaling for kritisk sykdom og personskade unntas behovsprøvingen av stipend, reglene om utstyrsstipend til elever som også er lærlinger oppdateres, og omgjøringen fra lån til stipend ved fullført folkehøgskole reduseres.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -9115,7 +9353,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Utvalgets vurderinger og forslag til endringer i det etiske rammeverket for Statens pensjonsfond utland, medregnet relevante deler av den ansvarlige forvaltningen. Utredningen foreslår også endringer i sentralbankloven om unntak fra innsyn etter offentleglova for visse saksdokumenter."
+      "sammendrag": "Utvalgets vurderinger og forslag til endringer i det etiske rammeverket for Statens pensjonsfond utland, medregnet relevante deler av den ansvarlige forvaltningen. Utredningen foreslår også endringer i sentralbankloven om unntak fra innsyn etter offentleglova for visse saksdokumenter.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -9285,7 +9525,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Rapporten fra ekspertutvalget vurderer om statens forpliktelser overfor den samiske befolkningen blir ivaretatt i spesialisthelsetjenesten. Den anbefaler en nasjonal struktur med nasjonal enhet for samisk helse, samiske helseteam og samiske sykehusprogram."
+      "sammendrag": "Rapporten fra ekspertutvalget vurderer om statens forpliktelser overfor den samiske befolkningen blir ivaretatt i spesialisthelsetjenesten. Den anbefaler en nasjonal struktur med nasjonal enhet for samisk helse, samiske helseteam og samiske sykehusprogram.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -9696,7 +9938,9 @@
           "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021031723!H4Ot3W/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586173!4OjK9p",
           "niva": "sikker"
         }
-      ]
+      ],
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -9723,7 +9967,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "sammendrag": "Forslag til endringer i vegtrafikkloven og førerkort- og trafikkopplæringsforskriften som følge av fjerde førerkortdirektiv, blant annet ledsaget kjøring for 17-åringer i klasse B og høyere vektgrense for klasse B og BE med alternativt drivstoff. Også regler om mindreåriges handleevne i førerkortsaker."
+      "sammendrag": "Forslag til endringer i vegtrafikkloven og førerkort- og trafikkopplæringsforskriften som følge av fjerde førerkortdirektiv, blant annet ledsaget kjøring for 17-åringer i klasse B og høyere vektgrense for klasse B og BE med alternativt drivstoff. Også regler om mindreåriges handleevne i førerkortsaker.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -9750,7 +9996,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-26",
       "ny": true,
-      "sammendrag": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det bes særlig om innspill på om 5 mm-grensen også skal gjelde i kapittel 23A."
+      "sammendrag": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det bes særlig om innspill på om 5 mm-grensen også skal gjelde i kapittel 23A.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Arbeidstilsynet",
@@ -9777,7 +10025,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Arbeidstilsynet foreslår å fjerne kravet om obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet står i dag i forskrift om utførelse av arbeid (FUA) § 27-29."
+      "sammendrag": "Arbeidstilsynet foreslår å fjerne kravet om obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet står i dag i forskrift om utførelse av arbeid (FUA) § 27-29.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Helsedirektoratet",
@@ -9820,7 +10070,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslag til hvordan legespesialiseringen og legespesialitetene i større grad kan rettes mot breddekompetanse og behovene i kommunal helse- og omsorgstjeneste. Utredningen prioriterer spesialiteter med felles kirurgisk eller indremedisinsk del."
+      "sammendrag": "Forslag til hvordan legespesialiseringen og legespesialitetene i større grad kan rettes mot breddekompetanse og behovene i kommunal helse- og omsorgstjeneste. Utredningen prioriterer spesialiteter med felles kirurgisk eller indremedisinsk del.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Skatteetaten",
@@ -9847,7 +10099,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": true,
-      "sammendrag": "Forslaget endrer særavgiftsforskriften slik at den reduserte CO2-avgiftssatsen for kvotepliktig sjøfart også gjelder større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel utenfor innsatsfordelingsforordningen foreslås fritatt."
+      "sammendrag": "Forslaget endrer særavgiftsforskriften slik at den reduserte CO2-avgiftssatsen for kvotepliktig sjøfart også gjelder større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel utenfor innsatsfordelingsforordningen foreslås fritatt.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     }
   ]
 }

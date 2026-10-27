@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-27T18:31:45+01:00",
+  "generert": "2026-10-27T21:58:06+01:00",
   "antall": 79,
   "horinger": [
     {
@@ -27,7 +27,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -54,7 +56,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -81,7 +85,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -108,7 +114,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -135,7 +143,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -162,7 +172,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -268,7 +280,9 @@
       "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-10-23",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -295,7 +309,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -322,7 +338,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -349,7 +367,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-26"
+      "utlopt": "2026-10-26",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Miljødirektoratet",
@@ -371,7 +391,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-25"
+      "utlopt": "2026-10-25",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -398,7 +420,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-23"
+      "utlopt": "2026-10-23",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -425,7 +449,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-23"
+      "utlopt": "2026-10-23",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -452,7 +478,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-22"
+      "utlopt": "2026-10-22",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -479,7 +507,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-22"
+      "utlopt": "2026-10-22",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -506,7 +536,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-22"
+      "utlopt": "2026-10-22",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -533,7 +565,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-21"
+      "utlopt": "2026-10-21",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -560,7 +594,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -587,7 +623,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -614,7 +652,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -641,7 +681,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -668,7 +710,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-26",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -695,7 +739,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -722,7 +768,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -749,7 +797,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-20"
+      "utlopt": "2026-10-20",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Landbruksdirektoratet",
@@ -776,7 +826,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-16"
+      "utlopt": "2026-10-16",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -803,7 +855,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-16"
+      "utlopt": "2026-10-16",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -830,7 +884,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-15"
+      "utlopt": "2026-10-15",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -857,7 +913,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-15"
+      "utlopt": "2026-10-15",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -884,7 +942,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-15"
+      "utlopt": "2026-10-15",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -911,7 +971,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-15"
+      "utlopt": "2026-10-15",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -938,7 +1000,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-15"
+      "utlopt": "2026-10-15",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -965,7 +1029,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-14"
+      "utlopt": "2026-10-14",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -992,7 +1058,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-14"
+      "utlopt": "2026-10-14",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1019,7 +1087,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1046,7 +1116,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1073,7 +1145,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1100,7 +1174,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1127,7 +1203,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1154,7 +1232,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1181,7 +1261,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1208,7 +1290,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1235,7 +1319,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1262,7 +1348,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1289,7 +1377,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1316,7 +1406,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-13"
+      "utlopt": "2026-10-13",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1343,7 +1435,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1370,7 +1464,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1397,7 +1493,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1424,7 +1522,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1451,7 +1551,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1478,7 +1580,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-12"
+      "utlopt": "2026-10-12",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1505,7 +1609,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-11"
+      "utlopt": "2026-10-11",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1532,7 +1638,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-11"
+      "utlopt": "2026-10-11",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1559,7 +1667,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-11"
+      "utlopt": "2026-10-11",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1586,7 +1696,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-11"
+      "utlopt": "2026-10-11",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -1613,7 +1725,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-10"
+      "utlopt": "2026-10-10",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -1640,7 +1754,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-10"
+      "utlopt": "2026-10-10",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1667,7 +1783,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-09"
+      "utlopt": "2026-10-09",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1694,7 +1812,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-09"
+      "utlopt": "2026-10-09",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1721,7 +1841,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-08"
+      "utlopt": "2026-10-08",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1748,7 +1870,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-07"
+      "utlopt": "2026-10-07",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1775,7 +1899,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-07"
+      "utlopt": "2026-10-07",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Skatteetaten",
@@ -1802,7 +1928,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-05"
+      "utlopt": "2026-10-05",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -1829,7 +1957,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-02"
+      "utlopt": "2026-10-02",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1856,7 +1986,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Stortinget",
@@ -1883,7 +2015,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -1910,7 +2044,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -1937,7 +2073,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -1964,7 +2102,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -1991,7 +2131,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -2018,7 +2160,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -2045,7 +2189,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-10-01"
+      "utlopt": "2026-10-01",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -2072,7 +2218,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-09-30"
+      "utlopt": "2026-09-30",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -2099,7 +2247,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-09-28"
+      "utlopt": "2026-09-28",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -2126,7 +2276,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-09-25"
+      "utlopt": "2026-09-25",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -2153,7 +2305,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-09-25"
+      "utlopt": "2026-09-25",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Statens vegvesen",
@@ -2180,7 +2334,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "utlopt": "2026-09-18"
+      "utlopt": "2026-09-18",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Mattilsynet",
@@ -2207,7 +2363,9 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-25",
       "ny": false,
-      "utlopt": "2026-09-18"
+      "utlopt": "2026-09-18",
+      "relevant": true,
+      "hvorfor_relevant": ""
     }
   ]
 }

@@ -177,7 +177,9 @@ felles:
   # horinger/sammendrag.py. Nøkkelen står i GitHub Secret ANTHROPIC_API_KEY, aldri her.
   sammendrag:
     modell: claude-sonnet-5-5
-    maks_tokens: 200
+    # Sonnet 5.5 tenker før den svarer, og tenkingen teller mot maks_tokens. Svaret selv er
+    # 1–2 setninger. 200 var for lite: da kom det ofte ikke noe svar (27.10.2026).
+    maks_tokens: 2000
     pause_sekunder: 0.5
     maks_per_kjoring: 250
 

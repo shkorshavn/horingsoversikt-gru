@@ -33,6 +33,14 @@ log = logging.getLogger("horinger")
 
 ROT = Path(__file__).resolve().parent.parent
 MANGLER = "MANGLER"
+# Økes når instruks eller tolking endres. Bufrede sammendrag med en annen versjon lages på nytt.
+# 2: svar uten tekst (bare tenking, avbrutt av max_tokens) regnes som feil, ikke som «MANGLER».
+VERSJON = 2
+
+
+class TomtSvar(Exception):
+    """Modellen ga ikke noe tekstsvar (f.eks. avbrutt av max_tokens under tenking)."""
+
 
 INSTRUKS = """Du skriver korte sammendrag av offentlige høringer for kommuner i Gjøvikregionen.
 
@@ -75,7 +83,7 @@ class Sammendrag:
 
     def __init__(self, konfig: dict, klient=None) -> None:
         self.modell = konfig.get("modell", "claude-sonnet-5-5")
-        self.maks_tokens = int(konfig.get("maks_tokens", 200))
+        self.maks_tokens = int(konfig.get("maks_tokens", 2000))
         self.pause = float(konfig.get("pause_sekunder", 0.5))
         self.maks_per_kjoring = int(konfig.get("maks_per_kjoring", 250))
         self.klient = klient
@@ -89,6 +97,10 @@ class Sammendrag:
             messages=[{"role": "user", "content": grunnlag(h)}],
         )
         tekst = "".join(b.text for b in svar.content if getattr(b, "type", "") == "text")
+        if not tekst.strip():
+            # Sonnet 5.5 tenker først (adaptiv tenking), og tenkingen teller mot max_tokens.
+            # Et tomt svar er derfor en feil som prøves igjen neste uke, ikke «MANGLER».
+            raise TomtSvar(f"tomt svar (stop_reason={getattr(svar, 'stop_reason', '?')})")
         return rens_svar(tekst)
 
     def oppdater(self, horinger: list[dict], buffer: dict) -> dict:
@@ -100,7 +112,7 @@ class Sammendrag:
         for h in horinger:
             sum_ = sjekksum(grunnlag(h))
             lagret = buffer.get(h["id"])
-            if lagret and lagret.get("sjekksum") == sum_:
+            if lagret and lagret.get("sjekksum") == sum_ and lagret.get("versjon") == VERSJON:
                 teller["gjenbrukt"] += 1
                 continue
             if self.klient is None:
@@ -116,6 +128,7 @@ class Sammendrag:
                 teller["feil"] += 1
                 continue
             buffer[h["id"]] = {
+                "versjon": VERSJON,
                 "sjekksum": sum_,
                 "tekst": tekst,
                 "modell": self.modell,

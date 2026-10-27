@@ -76,7 +76,7 @@ def test_lager_og_bufrer_sammendrag(tmp_path):
     assert teller["nye"] == 1
     kall = klient.kall[0]
     assert kall["model"] == "claude-sonnet-5-5"
-    assert kall["max_tokens"] == 200
+    assert kall["max_tokens"] == 2000
     assert "Bruk bare opplysninger som står i teksten" in kall["system"]
     innhold = kall["messages"][0]["content"]
     assert "Tittel: Høring av forskrift om tilfluktssteder" in innhold
@@ -133,6 +133,30 @@ def test_utlopte_hoeringer_oppsummeres_ikke_og_borte_slettes(tmp_path):
     assert len(klient.kall) == 1
     sm.kjor(_konfig(), _kilde(tmp_path, [_h("b")]), tmp_path, klient, DAG)
     assert set(les_json(tmp_path / "sammendrag.json")["sammendrag"]) == {"b"}
+
+
+def test_tomt_svar_er_feil_og_prøves_igjen(tmp_path):
+    class _BareTenking(_Klient):
+        def create(self, **kw):
+            self.kall.append(kw)
+            return SimpleNamespace(
+                content=[SimpleNamespace(type="thinking", thinking="...")], stop_reason="max_tokens"
+            )
+
+    klient = _BareTenking()
+    teller = sm.kjor(_konfig(), _kilde(tmp_path, [_h("a")]), tmp_path, klient, DAG)
+    assert teller["feil"] == 1 and teller["nye"] == 0
+    assert les_json(tmp_path / "sammendrag.json")["sammendrag"] == {}
+
+
+def test_gammel_versjon_lages_paa_nytt(tmp_path):
+    klient = _Klient()
+    mappe = _kilde(tmp_path, [_h("a")])
+    sm.kjor(_konfig(), mappe, tmp_path, klient, DAG)
+    data = les_json(tmp_path / "sammendrag.json")
+    data["sammendrag"]["a"]["versjon"] = 1
+    (tmp_path / "sammendrag.json").write_text(__import__("json").dumps(data), "utf-8")
+    assert sm.kjor(_konfig(), mappe, tmp_path, klient, DAG)["nye"] == 1
 
 
 def test_rens_svar():

@@ -1,9 +1,9 @@
 {
   "kilde": "Skatteetaten",
   "status": "ok",
-  "hentet": "2026-10-27T00:24:52+01:00",
+  "hentet": "2026-10-27T18:03:48+01:00",
   "antall": 5,
-  "sekunder": 15.2,
+  "sekunder": 9.5,
   "horinger": [
     {
       "kilde": "Skatteetaten",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-10-22",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til endringer i særavgiftsforskriften på høring. Forslaget gjelder utvidelse av dagens reduserte sats for CO 2 -avgift for mineralolje, naturgass og LPG til innenriks kvotepliktig sjøfart til også å omfatte større offshore-fartøy, samt å gi fritak for kvotepliktig sjøfart fra norsk havn til utenlandsk havn via installasjoner/anlegg…",
-      "hentet": "2026-10-27T00:24:52+01:00",
+      "hentet": "2026-10-27T18:03:48+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke tilgjengelig",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til endringer i forskrift 11. desember 2001 nr. 1451 om særavgifter (særavgiftsforskriften) om avgift på sukker mv., på høring. Forslaget gjelder avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer, jf. særavgiftsforskriften § 3-16-3.",
-      "hentet": "2026-10-27T00:24:52+01:00",
+      "hentet": "2026-10-27T18:03:48+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke tilgjengelig",
@@ -61,7 +61,7 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Skattedirektoratet sender på høring endringer i overgangreglene til innkrevingsloven mv. Endringene skyldes hovedsakelig et behov for en forlenget utrullingsperiode for nytt regelverk for utlegg mv.",
-      "hentet": "2026-10-27T00:24:52+01:00",
+      "hentet": "2026-10-27T18:03:48+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke tilgjengelig",
@@ -83,7 +83,7 @@
       "frist_maned": "",
       "publisert": "2026-09-28",
       "ingress": "Skattedirektoratet sender på høring forslag til endringer i forskrift 20. juni 2012 nr. 627 om gjennomføring og fordeling av skatt mv. mellom skattekreditorene (fordelingsforskriften). Skattedirektoratet foreslår en ny modell for fordeling av skatt mellom skattekreditorene samt å avvikle marginordningen.",
-      "hentet": "2026-10-27T00:24:52+01:00",
+      "hentet": "2026-10-27T18:03:48+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke tilgjengelig",
@@ -105,7 +105,7 @@
       "frist_maned": "",
       "publisert": "2026-07-03",
       "ingress": "Skattedirektoratet sender på vegne av Finansdepartementet forslag til forskrift til ny lov om særavgifter (særavgiftsforskriften), samt forslag til fastsettelse av ny forskrift om midlertidig bruk av utenlandsregistrert motorvogn, på høring.",
-      "hentet": "2026-10-27T00:24:52+01:00",
+      "hentet": "2026-10-27T18:03:48+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -116,5 +116,5 @@
       "id": "be4c75ac8121"
     }
   ],
-  "sist_ok": "2026-10-27T00:24:52+01:00"
+  "sist_ok": "2026-10-27T18:03:48+01:00"
 }

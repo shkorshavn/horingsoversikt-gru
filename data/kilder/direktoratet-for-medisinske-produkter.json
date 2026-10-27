@@ -1,9 +1,9 @@
 {
   "kilde": "Direktoratet for medisinske produkter",
   "status": "ok",
-  "hentet": "2026-10-27T00:24:02+01:00",
+  "hentet": "2026-10-27T18:03:17+01:00",
   "antall": 5,
-  "sekunder": 15.3,
+  "sekunder": 9.3,
   "horinger": [
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-10-13",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-10-27T00:24:02+01:00",
+      "hentet": "2026-10-27T18:03:17+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Apotekforeningen",
@@ -126,7 +126,7 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender DMP på høring forslag til forskriftsendringer som innebærer at legemiddelgrossister som leverer legemidler til apotek, får ansvar for å beredskapslagre bestemte vaksiner og immunglobuliner.",
-      "hentet": "2026-10-27T00:24:02+01:00",
+      "hentet": "2026-10-27T18:03:17+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Arbeids- og sosialdepartementet",
@@ -195,7 +195,7 @@
       "frist_maned": "",
       "publisert": "2026-08-17",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-10-27T00:24:02+01:00",
+      "hentet": "2026-10-27T18:03:17+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -217,7 +217,7 @@
       "frist_maned": "",
       "publisert": "2026-07-14",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-10-27T00:24:02+01:00",
+      "hentet": "2026-10-27T18:03:17+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -239,7 +239,7 @@
       "frist_maned": "",
       "publisert": "2026-07-03",
       "ingress": "Direktoratet for medisinske produkter (DMP) sender på vegne av Helse- og omsorgsdepartementet på høring forslag til endringer i forskrift om legemidler til dyr § 1-18. Høringsfristen er 4. september 2026.",
-      "hentet": "2026-10-27T00:24:02+01:00",
+      "hentet": "2026-10-27T18:03:17+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -250,5 +250,5 @@
       "id": "53708c076729"
     }
   ],
-  "sist_ok": "2026-10-27T00:24:02+01:00"
+  "sist_ok": "2026-10-27T18:03:17+01:00"
 }

@@ -1,9 +1,9 @@
 {
   "kilde": "Digdir",
   "status": "ok",
-  "hentet": "2026-10-27T00:24:36+01:00",
+  "hentet": "2026-10-27T18:03:32+01:00",
   "antall": 6,
-  "sekunder": 6.3,
+  "sekunder": 6.2,
   "horinger": [
     {
       "kilde": "Digdir",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -61,7 +61,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -83,7 +83,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -105,7 +105,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -127,7 +127,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "",
-      "hentet": "2026-10-27T00:24:36+01:00",
+      "hentet": "2026-10-27T18:03:32+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -138,5 +138,5 @@
       "id": "c5924ccc1c62"
     }
   ],
-  "sist_ok": "2026-10-27T00:24:36+01:00"
+  "sist_ok": "2026-10-27T18:03:32+01:00"
 }

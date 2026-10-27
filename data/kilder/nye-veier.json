@@ -1,9 +1,32 @@
 {
   "kilde": "Nye Veier",
   "status": "ok",
-  "hentet": "2026-10-27T00:21:04+01:00",
-  "antall": 0,
-  "sekunder": 2.1,
-  "horinger": [],
-  "sist_ok": "2026-10-27T00:21:04+01:00"
+  "hentet": "2026-10-27T18:00:54+01:00",
+  "antall": 1,
+  "sekunder": 4.6,
+  "horinger": [
+    {
+      "kilde": "Nye Veier",
+      "kategori": "Transport, samferdsel og infrastruktur",
+      "prioritet": 1,
+      "instans": "Nye Veier, E6 Øyer – Otta",
+      "tittel": "Nå kan du gi innspill til reguleringsplanforslaget for E6 mellom Sjoa og Otta",
+      "lenke": "https://www.nyeveier.no/strekninger/innlandet/oppdateringer-fra-innlandet/naa-kan-du-gi-innspill-til-reguleringsplanforslaget-for-e6-mellom-sjoa-og-otta/",
+      "frist": "2027-01-04",
+      "frist_tekst": "Fristen for å komme med innspill er 4. januar 2027",
+      "frist_maned": "",
+      "publisert": "2026-10-27",
+      "ingress": "27.10.2026 | Nye Veier har utarbeidet forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, samt rundkjøring i krysset mellom E6 og rv.15 på Otta. Planforslaget er nå lagt ut til høring og offentlig ettersyn. Fristen for å komme med innspill er 4. januar 2027.",
+      "hentet": "2026-10-27T18:00:54+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Gå til hovedinnhold Forside ... Oppdateringer fra Innlandet Nå kan du gi innspill til reguleringsplanforslaget for E6 mellom Sjoa og Otta Nå kan du gi innspill til reguleringsplanforslaget for E6 mellom Sjoa og Otta Nye Veier har utarbeidet forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, samt rundkjøring i krysset mellom E6 og rv.15 på Otta. Planforslaget er nå lagt ut til høring og offentlig ettersyn. Fristen for å komme med innspill er 4. januar 2027. E6 Øyer – Otta Sist oppdatert: 27. oktober 2026 kl. 09.41 Informasjon om planen Du finner planforslaget med tilhørende dokumenter på Nye Veiers nettsider. Her finner du også en filmpresentasjon av planforslaget . Mellom Nordre Eide og Ny-Sandbu viser planforslaget to alternative traseer. Alternativ 1C ligger mellom dagens E6 og boliggrenda Randageilen, mens alternativ 1I er lagt øst for boliggrenda. Faglige vurderinger viser at alternativene samlet sett er tilnærmet likeverdige, men har noe ulik påvirkning på lokalmiljøet på Randageilen, naturmangfoldet og kulturmiljøet. Nye Veier ønsker særlig innspill som kan bidra til den videre vurderingen av de to alternativene. Medvirkning Nye Veier inviterer til informasjonsmøte om planforslaget mandag 23. november klokken 19.00 i Otta kulturhus. Den 24. november holder Nye Veier åpen kontordag i rådhuset på Otta kl. 09.00-11.00 og 16.00-18.00. Her vil det bli anledning til å stille spørsmål om planforslaget og forhold knytte til egen eiendom. Representanter fra Sel kommune og Nye Veier, inkludert grunneierkontakt og rådgivere, vil være tilgjengelige både på informasjonsmøtet og den åpne kontordagen. Innspill Innspill til planforslaget sendes via Nye Veiers medvirkningsportal . Eventuelt kan innspill sendes på e-post til post@nyeveier.no eller pr. post til Nye Veier, Kjøita 6, 4630 Kristiansand. Merk innspillet « Høringsinnspill E6 Sjoa-Otta». Fristen for å sende innspill er mandag 4.januar 2027. Kontakt Stian Blindheim Prosjektleder plan, Nye Veier +47 970 96 390 Stian.blindheim@nyeveier.no Ingunn Synstnes Kommuneplanlegger, Sel kommune +47 902 69 957 Ingunn.Synstnes@sel.kommune.no",
+      "id": "9c040c5439f5"
+    }
+  ],
+  "sist_ok": "2026-10-27T18:00:54+01:00"
 }

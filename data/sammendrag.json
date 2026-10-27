@@ -1,5 +1,768 @@
 {
-  "generert": "2026-10-27T00:33:03+01:00",
+  "generert": "2026-10-27T18:10:22+01:00",
   "modell": "claude-sonnet-5-5",
-  "sammendrag": {}
+  "sammendrag": {
+    "006cf69022a8": {
+      "sjekksum": "aca46e4076fd7df8",
+      "tekst": "Forskriftsendring som lar verdipapirfond ha andelsklasser med ulike vilkår for valutasikring av investeringene mot fondets basisvaluta, uavhengig av om andelsklassene har ulik utstedelsesvaluta. Forslaget kommer fra Finanstilsynet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:46+01:00"
+    },
+    "00d72e53715a": {
+      "sjekksum": "6f2a07818d460f8c",
+      "tekst": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at produsenter av slike produkter kan redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Reduksjonen må merkes tydelig og varig på emballasjen. Noe ordlyd endres for bedre lesbarhet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:55+01:00"
+    },
+    "06015c8343c1": {
+      "sjekksum": "2d37bf56e9664ee9",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:16+01:00"
+    },
+    "0a21171f7c9c": {
+      "sjekksum": "f7c23ddc2c950df9",
+      "tekst": "Midlertidig kollektiv beskyttelse for fordrevne i en massefluktsituasjon foreslås utvidet fra fem til sju år, med ettårige tillatelser. Etter sju år foreslås permanent opphold etter to år i stedet for tre, og asylsøknaden kan stå i bero i sju år.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:44+01:00"
+    },
+    "0bc5a4b145ee": {
+      "sjekksum": "1cef1f76d73823fc",
+      "tekst": "Ekspertutvalgets rapport om spesialisthelsetjenester til samene vurderer om statens forpliktelser overfor samer blir ivaretatt. Den foreslår en nasjonal struktur med nasjonal enhet for samisk helse, samiske helseteam og samiske sykehusprogram, med ansvar hos staten og de regionale helseforetakene.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:25+01:00"
+    },
+    "0da38d05e171": {
+      "sjekksum": "8b3dea60aaa844d6",
+      "tekst": "Departementet foreslår en veileder som anbefaler fylkeskommuner og andre oppdragsgivere å sikre at mange busser kommer fra land Norge har sikkerhetspolitisk samarbeid med. Det foreslås også et unntak fra nullutslippsforskriften når hensyn til sikkerhet og beredskap krever det.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:05+01:00"
+    },
+    "0fac555760ba": {
+      "sjekksum": "f65a21dd8397a791",
+      "tekst": "Avslag fra Arbeids- og velferdsdirektoratet på krav om sakskostnader etter forvaltningsloven § 36 foreslås å kunne ankes til Trygderetten for annengangsbehandling. Det foreslås også unntak fra fri sakførsel i slike saker.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:29+01:00"
+    },
+    "10f5a678155b": {
+      "sjekksum": "0d1e91b710537200",
+      "tekst": "Forslag om å justere kontrollsatsene (kontrollsanksjonene) i parkeringsforskriften etter konsumprisindeksen. Det er en ren indeksregulering, slik forskriften krever hvert femte år, og den gjelder private parkeringsreguleringer og parkering for allmennheten.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:49+01:00"
+    },
+    "146a716873d9": {
+      "sjekksum": "04f3effa475ee218",
+      "tekst": "En transportfaglig utredning om de statlig kjøpte flyrutene (FOT-rutene) i Nord-Norge sendes på høring. Den vurderer ruteføring, kapasitet, frekvens og korrespondanser, og skal danne grunnlag for konkurransen om rutene fra 1. november 2028.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:53+01:00"
+    },
+    "16001cccdbe5": {
+      "sjekksum": "72160754568c023e",
+      "tekst": "Det foreslås å fjerne kravet om obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet står i dag i forskrift om utførelse av arbeid (FUA) § 27-29.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:59+01:00"
+    },
+    "165c112f3a1b": {
+      "sjekksum": "25c74db517bedddf",
+      "tekst": "Forskriften om syltetøy og lignende produkter foreslås endret slik at kravet til fruktandel i syltetøy og gelé, også «ekstra»-variantene, økes i tråd med EU-direktivet. Det norske unntaket med strengere fruktkrav fjernes, og «marmelade» endres til «sitrusmarmelade».",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:57+01:00"
+    },
+    "17796e18616d": {
+      "sjekksum": "e679c37f18698dd5",
+      "tekst": "Fordrevne fra Ukraina med midlertidig kollektiv beskyttelse som er i arbeid og har hatt tilstrekkelig inntekt siste tolv måneder, foreslås å kunne søke om tillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:51+01:00"
+    },
+    "187fb3b88761": {
+      "sjekksum": "7fea4a2b1f87a3a2",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:50+01:00"
+    },
+    "1cd059791b68": {
+      "sjekksum": "20494de624be9e19",
+      "tekst": "Kravene til hvordan bærekrafts- og utslippsreduksjonskriterier dokumenteres i klimakvoteforskriften, foreslås samlet og gjort tydeligere, og knyttes til ny forskrift om kriteriene. Operatører i EU ETS og ETS2 som bruker «annen dokumentasjon», får detaljerte krav til innhold og revisor.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:14+01:00"
+    },
+    "1effec0591d7": {
+      "sjekksum": "e38b8c0c22c0fc5b",
+      "tekst": "Carbon Centric As søker om tillatelse til å bygge et karbonfangstanlegg ved Eidsiva Bioenergis avfallsforbrenningsanlegg på Trehørningen i Hamar. Anlegget skal fange rundt 70 000 tonn CO₂ årlig fra røykgassen og gi nye utslipp av amin.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:18+01:00"
+    },
+    "1ff7317cae1d": {
+      "sjekksum": "aa68d89b577c0df6",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:45+01:00"
+    },
+    "20fd07d6b54e": {
+      "sjekksum": "07b39938678deb2d",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:31+01:00"
+    },
+    "23eea50c7f1b": {
+      "sjekksum": "41cef7e81557ade3",
+      "tekst": "Endringer i økodesignforskriften og energimerkeforskriften skal gjennomføre tre nye EU-forordninger i norsk rett. De gjelder eksterne strømkilder, trådløse ladere, batteriladere, USB-C-kabler, hviletilstand for husholdnings- og kontorutstyr og husholdningstørketromler.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:25+01:00"
+    },
+    "2914c81e932e": {
+      "sjekksum": "a2588e053b435628",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:39+01:00"
+    },
+    "29760107df50": {
+      "sjekksum": "bfb239149104b0f3",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:10+01:00"
+    },
+    "2bcea3dfa851": {
+      "sjekksum": "a97cc1a1ac82ba92",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:04:49+01:00"
+    },
+    "2d365b86661f": {
+      "sjekksum": "a02f6ad6f93f3379",
+      "tekst": "Forslag til vilkår og tildelingsregler for frekvenstillatelser og senderanleggskonsesjoner for lokale FM-sendernett 2027–2031, som skal erstatte tillatelsene som utløper i 2026. Ved flere kvalifiserte søkere foreslås loddtrekning; er det bare én søker, tildeles direkte.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:53+01:00"
+    },
+    "2f947152205b": {
+      "sjekksum": "e6bf0c8cb96dfa2f",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:32+01:00"
+    },
+    "387a95279af5": {
+      "sjekksum": "e4255df8cbfdfc78",
+      "tekst": "Forslag om endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner, gjennom endringer i forskrift om rekvirering og utlevering av legemidler m.m. og forskrift om legemiddelhåndtering. Departementet ser på utvidelse til flere vaksiner.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:33+01:00"
+    },
+    "38d410f34588": {
+      "sjekksum": "0abd23195f3b6c5b",
+      "tekst": "Fritaket for sukkeravgift utvides, slik at også mindre håndverksbakerier og kafeer der produksjon, salg og servering skjer i samme lokale, kan slippe avgift på sukker brukt i produksjon. Forslaget gir også enklere regler.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:03+01:00"
+    },
+    "3943a26ad125": {
+      "sjekksum": "491c83d16b8f2ad4",
+      "tekst": "Forslaget tydeliggjør at utlendingsmyndighetene kan bruke innhentede personopplysninger til å utvikle og teste IT-systemer, også systemer med kunstig intelligens. Det foreslås også mindre følgeendringer i utlendingsforskriften etter at Eurodac-forordningen 2024 er gjennomført i norsk rett.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:27+01:00"
+    },
+    "3bcccf9aedbf": {
+      "sjekksum": "d144a7d40773f821",
+      "tekst": "Utrullingsperioden for nytt regelverk om utlegg mv. foreslås forlenget ut mars 2027, i stedet for å gjelde alle skyldnere fra 1. januar 2027. Flere overgangsregler i forskrift til innkrevingsloven endres, blant annet fordi systemstøtte kommer senere enn planlagt.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:05+01:00"
+    },
+    "3c2212288d2f": {
+      "sjekksum": "e7aaa2421973e853",
+      "tekst": "Forslag om nye bestemmelser i jernbaneloven og yrkestransportloven som gir virksomheter med oppgaver innen nasjonal digital infrastruktur for reiseplanlegging, billettering og kollektivdata grunnlag til å behandle personopplysninger og bruke forretningshemmeligheter. Statens ansvar for infrastrukturen, i dag utført av Entur AS, skal også reguleres nærmere.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:27+01:00"
+    },
+    "3e967a8c63c8": {
+      "sjekksum": "a5994199b18221b0",
+      "tekst": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner. Plikten innføres gjennom endringer i grossistforskriften §§ 5 og 5a.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:36+01:00"
+    },
+    "3fd5999d299f": {
+      "sjekksum": "11290df694b1ae98",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:15+01:00"
+    },
+    "455722b6863b": {
+      "sjekksum": "e414ec3223d8faa3",
+      "tekst": "Endringer i Reach-forskriften skjerper reglene for kreosot og kreosotbehandlet trevirke. I Norge blir bruk og gjenbruk av slikt trevirke forbudt for både profesjonelle og forbrukere, med ett års overgangsperiode.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:16+01:00"
+    },
+    "457f1ecd097a": {
+      "sjekksum": "6e183b1551d6e55a",
+      "tekst": "Kunnskapsdepartementet foreslår at låntakere med utvidet skolepengelån til trafikkflygarutdanning, som avbrøt utdanningen fordi lærestedet gikk konkurs, får slettet renter i tolv måneder. Heimelen for godkjenning av nettskoler oppheves, og tidligere forskrifter om tilbakebetaling av utdanningslån oppheves.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:57+01:00"
+    },
+    "48b91a5d6241": {
+      "sjekksum": "0f2c03846f16c59d",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:37+01:00"
+    },
+    "4b0dae140bf8": {
+      "sjekksum": "b264ae77472f977a",
+      "tekst": "Norsk Tipping foreslås å få tilby nettpoker. De største aktørene i pengespillmarkedet skal få krav om avviksrapportering, og det foreslås mindre endringer i reglene for utbetaling av Belago-midler fra bingo.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:25+01:00"
+    },
+    "4b2b143e613d": {
+      "sjekksum": "e65a55df4c90bb02",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:48+01:00"
+    },
+    "4de54c79db37": {
+      "sjekksum": "81edec40c28e0336",
+      "tekst": "Forskriften om fruktjuice endres slik at sukkerreduksjon i juice tillates, med tre nye juicedefinisjoner for produkter med minst 30 % mindre naturlig sukker. Kokosjuice kan kalles «kokosvann», og tillatt tilsatt sukker eller honning i fruktnektar reduseres til 10–15 %.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:53+01:00"
+    },
+    "4eeabc29922d": {
+      "sjekksum": "1a7133e430b7d1e4",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:13+01:00"
+    },
+    "50813f1d030f": {
+      "sjekksum": "d82ff4be8c0ef274",
+      "tekst": "Endringer i rutetidene for kystruten Bergen–Kirkenes: minst 20 minutters liggetid i godshavner nord for Bodø, lavere snittfart og egen sommerrute 1. april–31. oktober. Det gjelder lokalbefolkning, næringsliv og operatørene Hurtigruten og Havila.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:10+01:00"
+    },
+    "51bf7e74bd34": {
+      "sjekksum": "5dd4124e385c800a",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:43+01:00"
+    },
+    "56e529a56a31": {
+      "sjekksum": "67e3075756baa764",
+      "tekst": "Utvidet virkeområde for §10-forskriften slik at reglene erstatter individuell saksbehandling for flere typer transaksjoner når selskaper overdrar petroleumsløyver. Det foreslås også endringer i vilkårsbundet betaling, effektiv dato og samtykkeår, og klarere plikt til å gi opplysninger og sende dokumentasjon.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:11+01:00"
+    },
+    "591162fc8480": {
+      "sjekksum": "ba702627db0e5517",
+      "tekst": "Det varsles oppstart av reguleringsplan for å bygge sykkelveg med fortau langs eksisterende trase i Ringgata (fv. 187) mellom Solvangvegen og Disenvegen i Hamar. Planen kan berøre grunneiere langs veien.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:17+01:00"
+    },
+    "59ec55d3da63": {
+      "sjekksum": "3bad14c74ed331a3",
+      "tekst": "Reguleringsplan for utbedring av fv. 33 ved Bilitt i Østre Toten: bedre kurver og bakker, bredere veg (7,5 meter), omlegging mellom Vennevoldkrysset og Bernsgutua, endrede private avkjørsler og ombygde kryssinger for gående og syklende.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:15+01:00"
+    },
+    "5a4d402d9439": {
+      "sjekksum": "c61fff5f19e5828c",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:23+01:00"
+    },
+    "5d1498fe43bd": {
+      "sjekksum": "0c0f87be000204c2",
+      "tekst": "Endringer i forskrift om utdanningsstøtte fra studieåret 2027–2028: avkastning på erstatning for kritisk sykdom og personskade unntas behovsprøving av stipend, reglene om utstyrsstipend til elever som også er lærlinger oppdateres, og omgjøringen fra lån til stipend ved fullført folkehøgskole reduseres.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:42+01:00"
+    },
+    "63cc40b248f7": {
+      "sjekksum": "877b54d642f8952e",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:13+01:00"
+    },
+    "643a43b304c3": {
+      "sjekksum": "dc3d9ed7b4f2cb52",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:19+01:00"
+    },
+    "66471a7d439a": {
+      "sjekksum": "d0e5fcf229e261a3",
+      "tekst": "Innlandet fylkeskommune har startet fredningssak for Oddentunet i Narjordet i Os. Fredningen omfatter gardstunet med sommerstue, kjøkken og uthus, stall, stabbur og smie, hagen og deler av dyrkamarka, og skal bevare kullbøndenes historie under Røros Kobberverk.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:13+01:00"
+    },
+    "6657b3de2e69": {
+      "sjekksum": "0da3239e93c64252",
+      "tekst": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-definisjonen av syntetiske polymere mikropartikler. Større granulat over 5 mm, brukt på enkelte idrettsbaner, vil da falle utenfor. Det vurderes om kapittelet fortsatt skal gjelde uavhengig av størrelse.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:22+01:00"
+    },
+    "67ec81a017fe": {
+      "sjekksum": "453ef5695872da73",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:05+01:00"
+    },
+    "6852b0df3344": {
+      "sjekksum": "56a84aed00dc510b",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:33+01:00"
+    },
+    "6998327d63dc": {
+      "sjekksum": "89105d07acac0697",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:24+01:00"
+    },
+    "6a72fcd2b2b8": {
+      "sjekksum": "57f8d34d8d6628ae",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:55+01:00"
+    },
+    "6bc275fdff17": {
+      "sjekksum": "edd46dbd3f503376",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:53+01:00"
+    },
+    "6c8f2baaf38c": {
+      "sjekksum": "f29c57bd10f53e92",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:37+01:00"
+    },
+    "6db50eabb3aa": {
+      "sjekksum": "2118c948491350b5",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:10+01:00"
+    },
+    "72aaf5ad5099": {
+      "sjekksum": "dd6ce0ba9ce79561",
+      "tekst": "Reguleringsplan for fv. 213 ved Skog bru i Ringsaker: Eksisterende bru skal skiftes ut med ny bru eller kulvert i samme trasé, og fylkesvegen justeres for bedre trafikksikkerhet i en sving som er vurdert som risikokurve. Arbeidene er tenkt utført 2027/2028.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:19+01:00"
+    },
+    "75567d8c825c": {
+      "sjekksum": "b27b7a2eed11ec05",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:04:51+01:00"
+    },
+    "77e746e4c4a7": {
+      "sjekksum": "eb649517862af6e4",
+      "tekst": "Mattilsynet foreslår å endre listeføringen av blåtunge, kverke og ringorm hos dyr, innføre meldeplikt for aborter hos sau og geit, og tilpasse seks dyrehelseforskrifter til nye EØS-regler, blant annet unntak fra helsesertifikat for hester i transitt.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:40+01:00"
+    },
+    "7bdc37294b5b": {
+      "sjekksum": "96358a73db09e985",
+      "tekst": "Forslag om å tilføye en bestemmelse i vegtrafikkloven (ny § 7 a) som gir unntak fra forvaltningsloven og særskilte saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:34+01:00"
+    },
+    "81abe04a558c": {
+      "sjekksum": "8fafeb211bf9e95c",
+      "tekst": "Lotteri- og stiftelsestilsynet foreslår at pengespilloven også skal omfatte pengespill-lignende elementer i dataspill, som lootbokser. Å tilby og markedsføre slike mekanismer uten tillatelse blir da forbudt, og tilsynet kan stanse ulovlig virksomhet, blant annet med DNS-blokkering. Tre alternative modeller legges fram.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:55+01:00"
+    },
+    "82434d4968e1": {
+      "sjekksum": "59b43a77525a9983",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:00+01:00"
+    },
+    "8590425183d7": {
+      "sjekksum": "079019690986f0f4",
+      "tekst": "Forslag om presiseringer, forenklinger og tekniske endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip. Reglene om avfallsgebyr tydeliggjøres, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:00+01:00"
+    },
+    "868dbad65877": {
+      "sjekksum": "f66e4a4971c69854",
+      "tekst": "Endring i opplæringsloven § 14-5 som presiserer at skolene kan tilby elevene å delta på gudstjenester og andre seremonier knyttet til religion og livssyn.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:16+01:00"
+    },
+    "87b13fc8a9cd": {
+      "sjekksum": "c3594b4034e7e453",
+      "tekst": "Ny forskrift skal få CBAM, EØS' karbonjustering for importerte varer, til å gjelde fullt ut i Norge fra 1. januar 2027. Den gir regler om utslippsberegning og levering av CBAM-sertifikater, og berører næringslivet og myndighetene gjennom rapporterings- og dokumentasjonskrav.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:58+01:00"
+    },
+    "87dd3c9c6a6a": {
+      "sjekksum": "8fb0ea82890e5e43",
+      "tekst": "Departementet utreder om deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) kan fortsette i tiltaket etter fylte 67 år, i dag må de slutte. Utredningen ser på behov, konsekvenser, antall deltakere og kostnader.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:22+01:00"
+    },
+    "8af939d61ec0": {
+      "sjekksum": "007838c73b0f8b1e",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:14+01:00"
+    },
+    "8d5dcd0258a5": {
+      "sjekksum": "38eb362bb5969025",
+      "tekst": "Forslag om to endringer i politiloven: Fristen for å innbringe barn under 18 år utvides fra fire til seks timer. Politihøgskolen får også adgang til å kreve skikkethet ved opptak til videreutdanning og høyere grads studier, blant annet når studiet kvalifiserer for arbeid i politiet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:08+01:00"
+    },
+    "90ebc00576f2": {
+      "sjekksum": "d9fa1af550f99220",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:58+01:00"
+    },
+    "922068c3201e": {
+      "sjekksum": "cc67852f72b74697",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:26+01:00"
+    },
+    "929e7e070e99": {
+      "sjekksum": "0352b55afb890425",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:56+01:00"
+    },
+    "958fc8782702": {
+      "sjekksum": "be553b036ed26bf0",
+      "tekst": "Endring av produktforskriften § 4-1 foreslås for å gjennomføre EU-forordning 2025/2457 i norsk rett. Forordningen omfordeler vitenskapelige og tekniske oppgaver og styrker samarbeidet mellom EU-byråene på kjemikalieområdet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:08+01:00"
+    },
+    "95b6fe293927": {
+      "sjekksum": "a4277043056c42ce",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:45+01:00"
+    },
+    "9663429b6c14": {
+      "sjekksum": "ea32e154f5e9fe93",
+      "tekst": "Endring i produktforskriften for å gjennomføre EUs endringsforordning til forordning (EU) 2019/1021, slik at stoffet klorpyrifos blir oppført i vedlegg I om persistente organiske forbindelser. Endringen vurderes ikke å gi vesentlige økonomiske eller administrative konsekvenser.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:04+01:00"
+    },
+    "99988a251675": {
+      "sjekksum": "14e1ba1ce763f193",
+      "tekst": "Endringer i vegtrafikkloven og forskrifter om førerkort og trafikkopplæring som følge av fjerde førerkortdirektiv. Blant forslagene er ledsaget kjøring for 17-åringer i klasse B og høyere vektgrense for kjøretøy med alternativt drivstoff for førere i klasse B og BE.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:32+01:00"
+    },
+    "99d3cae515d7": {
+      "sjekksum": "8c0b705416161877",
+      "tekst": "Endringer i forurensningsforskriften kapittel 10 foreslås for å gjøre kravene til krematorier tydeligere. Nye krematorier må ha rensing tilsvarende kategori I, kravene til temperatur i etterbrennkammer og røykgass senkes, og det kommer nye krav til prøvetaking.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:20+01:00"
+    },
+    "9c040c5439f5": {
+      "sjekksum": "87a16da94fdcde64",
+      "tekst": "Forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, og rundkjøring i krysset E6/rv. 15 på Otta. Mellom Nordre Eide og Ny-Sandbu er to traseer vist: 1C ved Randageilen og 1I øst for grenda.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:51+01:00"
+    },
+    "9c349cfc8058": {
+      "sjekksum": "7e71fec9c364246b",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:01+01:00"
+    },
+    "9cc5afca6a10": {
+      "sjekksum": "c559932161707209",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:04:56+01:00"
+    },
+    "9cf0a0c2008e": {
+      "sjekksum": "ad201057fe3420e3",
+      "tekst": "Forslag om å oppheve adgangen til å fornye dispensasjon fra helsekravene for tunge førerkortklasser (C1, C, C1E, CE, D1, D, D1E og DE) for personer med syn på bare ett øye, fra 1. juli 2028. Dispensasjoner som allerede er gitt, gjelder ut vedtaket.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:42+01:00"
+    },
+    "9d8000136a3b": {
+      "sjekksum": "13811865ca6a1800",
+      "tekst": "Forslag om å lovfeste plikt for offentlige og private grunnskoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning, og å oppheve kommuners og private skolers plikt til å tilby leksehjelp.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:04+01:00"
+    },
+    "a1692dc49017": {
+      "sjekksum": "15747b99d501c270",
+      "tekst": "Endringer i trafikkreglene for hestebrukere: klarere regler for når hest skal følge reglene for kjøretøy, plikt for sjåfører til særlig forsiktighet ved passering av hest, og krav til reflekser, varselskilt og lys på vogn og slede trukket av dyr.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:47+01:00"
+    },
+    "a1a10035e181": {
+      "sjekksum": "0bfc1cb696dec029",
+      "tekst": "Forskriften om medisinsk utstyr foreslås endret for å innføre EU-forordning 2026/977 i norsk rett. Den gir felles krav til meldte organers kvalitetsstyring og samsvarsvurderinger overfor produsenter: pristilbud, tidsfrister, kostnadsovervåking og resertifisering.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:34+01:00"
+    },
+    "a617b9031e22": {
+      "sjekksum": "e9852cd4a726d8a9",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:32+01:00"
+    },
+    "a707facb1eff": {
+      "sjekksum": "95cd450cd60f7eee",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:08+01:00"
+    },
+    "a9743acce7d8": {
+      "sjekksum": "6ccfd320bc907d2e",
+      "tekst": "Ny bestemmelse i finanstilsynsforskriften foreslås: Finanstilsynets tilsynsutgifter skal fordeles på folkefinansieringsforetak etter størrelsen på inntekten fra den konsesjonspliktige virksomheten, slik det allerede gjøres for blant annet verdipapirforetak.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:47+01:00"
+    },
+    "ab01fdcf2eec": {
+      "sjekksum": "fc994331ead63949",
+      "tekst": "NOU 2026:10 om fellesskolen foreslår tiltak som skal styrke skolens mulighet til å gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn, og forberede dem på livet i framtidens samfunn. Hele utredningen er på høring.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:45+01:00"
+    },
+    "adee425af343": {
+      "sjekksum": "32c5be3af2927db4",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:39+01:00"
+    },
+    "af2e157b59ab": {
+      "sjekksum": "2ccc7ebb5de70939",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:35+01:00"
+    },
+    "af99c30570fd": {
+      "sjekksum": "06aee324175de390",
+      "tekst": "Forslaget åpner for fireårige bachelorgrader (240 studiepoeng) i militære ingeniørfag og ledelse, og Forsvarets høgskole får rett til å tildele dem. Samtidig foreslås det å oppheve rammeplanen for ingeniørutdanning, som gjelder de treårige ingeniørutdanningene.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:27+01:00"
+    },
+    "b2c43c21458e": {
+      "sjekksum": "49501b9496d815a1",
+      "tekst": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger foreslås fra 1. januar 2028, med de samme unntakene som for mineralolje. Det gjelder boliger, næringsbygg og landbruksbygg, og egne regler foreslås for gassnett med blandet fossil og fornybar gass.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:55+01:00"
+    },
+    "b40b58e8e0b2": {
+      "sjekksum": "6b956e12cad6378f",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:07+01:00"
+    },
+    "b49b5c684460": {
+      "sjekksum": "4a812efdf2e3af47",
+      "tekst": "Forslag til strategi for 2027–2037 som fastsetter én felles metode og prosess for å autorisere og reautorisere besøkssentre for natur. De 39 sentrene som i dag får statlig støtte kan fortsatt autoriseres, flere kan søke, og alle må oppfylle kriterier for plassering og kvalitet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:36+01:00"
+    },
+    "b49bc7affad8": {
+      "sjekksum": "ccef14956890f4a8",
+      "tekst": "Carbon Centric søker om tillatelse etter forurensningsloven til et karbonfangstanlegg ved Solør Bioenergi på Kirkenær i Grue. Anlegget renser karbondioksid fra røykgass, og deler av utslippene som før gikk til luft, går til vann. Det blir også litt aminer til luft.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:10+01:00"
+    },
+    "b58acb7cbf72": {
+      "sjekksum": "7572bd9c7ac490e0",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:00+01:00"
+    },
+    "b5d10c057333": {
+      "sjekksum": "6edd7f3627d343f7",
+      "tekst": "Fordelingen av skatt mellom skattekreditorene foreslås endret, slik at fordelingstallene baseres på samlet fastsatt skatt for personlige skattytere i hele landet i stedet for per kommune. Marginordningen, som holder tilbake en andel av forskuddstrekk og forskuddsskatt, foreslås avviklet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:11+01:00"
+    },
+    "b70f48dec37e": {
+      "sjekksum": "cb5598373a561c67",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:04:53+01:00"
+    },
+    "b7139428bdd0": {
+      "sjekksum": "6a5073cc60a8de54",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:40+01:00"
+    },
+    "b8e3e04748ba": {
+      "sjekksum": "8500e69be1d9c260",
+      "tekst": "Endringer i særavgiftsforskriften foreslås slik at den reduserte CO2-avgiftssatsen for innenriks kvotepliktig sjøfart også omfatter større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel foreslås fritatt.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:01+01:00"
+    },
+    "c3023dcf4511": {
+      "sjekksum": "7d5fc7d2cb147596",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:21+01:00"
+    },
+    "c516cdc946d6": {
+      "sjekksum": "f7f0094b6a4a114a",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:01+01:00"
+    },
+    "c51b51b3b5cc": {
+      "sjekksum": "ba85f261b2894495",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:25+01:00"
+    },
+    "c5afff646a52": {
+      "sjekksum": "57902cbfe8bc0fe3",
+      "tekst": "Forslag om endringer i straffegjennomføringsloven om kontroll i kriminalomsorgen: en ny overordnet bestemmelse i § 26 og felles saksbehandlingsregler. Kontrolltiltak samles etter hvem eller hva de rammer, som innsatte, lokaler, andre personer og kontakt med omverdenen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:12+01:00"
+    },
+    "c8305ff88bfd": {
+      "sjekksum": "22f5db30ebc4d8e3",
+      "tekst": "DSB foreslår å øke satsene for ulempetillegg og ledertillegg til tjenestepliktige i Sivilforsvaret. Tilleggene blir skattepliktige fra 1. januar 2027, og økningen skal i størst mulig grad opprettholde dagens kompensasjonsnivå etter skatt.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:26+01:00"
+    },
+    "ca983dee207f": {
+      "sjekksum": "e1de34431dcc1b44",
+      "tekst": "Alle foretak i finanssektoren foreslås pålagt å være tilknyttet en godkjent klagenemd for å løse forbrukertvister. Forslaget innebærer endringer i flere lover og forskrifter, også for tjenester der EØS-regelverket ikke stiller slikt krav.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:32+01:00"
+    },
+    "cb9a1cb566ff": {
+      "sjekksum": "0f6fa5065eec58ae",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:48+01:00"
+    },
+    "ce28d7268a81": {
+      "sjekksum": "9b0a42323d222af2",
+      "tekst": "Forslag til forskrift som skal gi hjemmel for deling av taushetsbelagte opplysninger og behandling av personopplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet. Forslaget kommer fra en arbeidsgruppe og omfatter blant annet hvilke organer og hvilken kriminalitet forskriften skal gjelde for.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:08:03+01:00"
+    },
+    "d0438f3adce5": {
+      "sjekksum": "af9ccfc830abab40",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:50+01:00"
+    },
+    "d2d3f10da432": {
+      "sjekksum": "cc33ad553d6aa770",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:45+01:00"
+    },
+    "d4361e9939e9": {
+      "sjekksum": "7cc0b0fe43f1f418",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:40+01:00"
+    },
+    "d6878ef0e7f4": {
+      "sjekksum": "8b3ef341f96902a6",
+      "tekst": "Forslag om å oppheve retten til å klage på standpunktvurderinger i grunnskolen, videregående opplæring og voksenopplæring, endre reglene for permisjon fra grunnskoleopplæringen og åpne for automatiserte vedtak om inntak til videregående opplæring.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:17+01:00"
+    },
+    "da794dfc23c7": {
+      "sjekksum": "ee9212c9b233afb5",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:29+01:00"
+    },
+    "db984834479b": {
+      "sjekksum": "a2daef5a6fcb7e74",
+      "tekst": "Forslag om endringer i helseregisterloven § 11 og Dødsårsaksregisterforskriften, slik at kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling blir et varig kvalitetsregister under Dødsårsaksregisteret. Registeret kan på sikt utvides til somatisk spesialisthelsetjeneste og kommunale helse- og omsorgstjenester.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:58+01:00"
+    },
+    "ddda7ca52c53": {
+      "sjekksum": "79389b3ac2fb856c",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:03+01:00"
+    },
+    "ddf56ca9d760": {
+      "sjekksum": "ffc3589c48d4b746",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:02+01:00"
+    },
+    "defdb6b438fe": {
+      "sjekksum": "130157314f533910",
+      "tekst": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal gi raskere nettkapasitet og ny kraftproduksjon, og velge ut linjer, traséer og områder som får en overordnet konsekvensanalyse for miljø og samfunn.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:10:21+01:00"
+    },
+    "e4f7f112e5d1": {
+      "sjekksum": "99033e49380f2310",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:29+01:00"
+    },
+    "e8b18a9a7937": {
+      "sjekksum": "2cf554ee2e290e40",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:04+01:00"
+    },
+    "e9a14bdd7b62": {
+      "sjekksum": "1819ab0ddcf5be68",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:05:08+01:00"
+    },
+    "eb7e8a64289f": {
+      "sjekksum": "121eb2e6387bc854",
+      "tekst": "Svenske myndigheter søker om å etablere et havneanlegg i Kålvik i Strömstad kommune, om lag 1 km fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, turbiner og komponenter til havbasert vindkraft.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:02+01:00"
+    },
+    "ef6918aedd9c": {
+      "sjekksum": "b0cb8375c18e2577",
+      "tekst": "Forslaget utvider restriksjonene i Reach-forskriften til nylig klassifiserte CMR-stoffer, som kan gi kreft, endre arvestoffet eller skade forplantningsevnen. Stoffene kan som hovedregel ikke omsettes til forbrukere over fastsatte konsentrasjonsgrenser. Det gjelder virksomheter som produserer, importerer eller omsetter kjemikalier.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:12+01:00"
+    },
+    "f0a7695c12e1": {
+      "sjekksum": "f68d060bcdb503e2",
+      "tekst": "Syv næringsmiddelforskrifter foreslås gjort helt eller delvis gjeldende for Svalbard, blant annet om mathygiene, internkontroll, smilefjes på serveringssteder, matinformasjon og drikkevann. Målet er at regelverket skal bli mest mulig likt fastlandets.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:42+01:00"
+    },
+    "f4d08a80ccc3": {
+      "sjekksum": "deeeaafe8891144f",
+      "tekst": "Foreslår endringer i legemiddelforskriften, blant annet en ny bestemmelse om godkjenningsfritak, slik at pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter kan få tidlig tilgang til legemidler med begrenset dokumentasjon utenfor kliniske studier.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:06+01:00"
+    },
+    "f644746b0c53": {
+      "sjekksum": "420e791a52e0a5df",
+      "tekst": "Finanstilsynet foreslår å videreføre gulvene for gjennomsnittlig risikovekting i IRB-bankene fra utgangen av 2026: 25 prosent for boliglån og 35 prosent for næringseiendomslån, begge uendret.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:43+01:00"
+    },
+    "f80136314e9f": {
+      "sjekksum": "d2910f4474a7bed1",
+      "tekst": "Forslag om to nye forskrifter om rammeplan, én for lærerutdanningene og én for de samiske lærerutdanningene, som skal erstatte dagens elleve rammeplaner for lærerutdanning. Departementet vil fastsette forskriftene våren 2027.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:07:41+01:00"
+    },
+    "f84de76c0415": {
+      "sjekksum": "adc74fb9db2eafeb",
+      "tekst": "Utkast til ny nasjonal faglig retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten, som skal erstatte Kosthåndboken. Retningslinjen har anbefalinger med praktiske eksempler og begrunnelser, og gjelder helse- og omsorgstjenesten.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:09:29+01:00"
+    },
+    "fa996d9148ed": {
+      "sjekksum": "b51cb04962441328",
+      "tekst": "Forslag til ny forskrift om en tilskuddsordning som skal øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet, og høringen er sendt til blant annet forsvarsbedrifter og bransjeorganisasjoner.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:19+01:00"
+    },
+    "ff02aceeac6b": {
+      "sjekksum": "e3d68b185e10d6c7",
+      "tekst": "Bestemmelsene i forskriftene til petroleumsskattelova foreslås flyttet til Finansdepartementets forskrift til skatteloven, mens én forskrift fortsatt skal fastsettes av Energidepartementet. Endringen er rent teknisk og gir ifølge departementet ingen provenyvirkning.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T18:06:34+01:00"
+    }
+  }
 }

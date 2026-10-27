@@ -51,12 +51,16 @@ Eksempler på høringer som IKKE er relevante:
 Er du i tvil, regn høringen som relevant.
 
 Svar med JSON og ingenting annet: {{"relevant": true eller false, "hvorfor": "..."}}
-- «hvorfor»: én setning på norsk bokmål i klarspråk, høyst 30 ord.
-- Når høringen er relevant, skal setningen si konkret hva i høringen som berører kommunene
+- «hvorfor»: én setning på norsk bokmål i klarspråk.
+- Når høringen er relevant (høyst 25 ord): si konkret hva i høringen som berører kommunene
   eller regionen. Ikke gjenta sammendraget, og ikke overdriv.
-- Når den ikke er relevant, skal setningen si kort hvorfor den er utelatt.
+- Når den ikke er relevant (høyst 15 ord): si bare hva den gjelder som gjør den uaktuell, f.eks.
+  «Gjelder bare kystruten Bergen–Kirkenes.»
 - Begynn rett på saken, uten «Høringen er relevant fordi».
 - Bruk bare opplysninger fra teksten og fra beskrivelsen av regionen. Ikke gjett.
+- Ikke legg til stedsnavn, avstander eller geografi som ikke står i teksten.
+- Nevn regionens egne prosjekter og virksomheter (f.eks. rv. 4 eller NTNU i Gjøvik) bare når
+  høringen gjelder dem eller fagfeltet deres direkte.
 - Gir teksten for lite å bygge på, svar {{"relevant": true, "hvorfor": ""}}."""
 
 

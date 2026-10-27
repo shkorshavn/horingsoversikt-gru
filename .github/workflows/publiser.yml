@@ -42,10 +42,10 @@ jobs:
       - name: Installer avhengigheter
         run: pip install --disable-pip-version-check -r requirements-kjoring.txt
 
-      # KI-sammendrag (sprint 8). Bare når publiseringen er startet av den ukentlige
+      # KI-sammendrag og relevansvurdering (sprint 8). Bare når publiseringen er startet av den ukentlige
       # oppdateringen eller PC-jobben for regjeringen.no (workflow_dispatch), ikke ved
       # kodeendringer (Svein 27.10.2026: én gang i uka). Uten nøkkel vises ingressen.
-      - name: KI-sammendrag
+      - name: KI-sammendrag og relevans
         if: ${{ github.event_name == 'workflow_dispatch' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

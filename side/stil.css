@@ -204,6 +204,17 @@ input[type="search"]::placeholder { color: var(--skog-300); }
 .ingress-kilde summary { cursor: pointer; color: var(--skog-300); text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }
 .ingress-kilde .beskrivelse { margin-top: 0.3rem; color: var(--skog-300); }
 
+/* Hvorfor relevant for regionen (KI, sprint 8 v2). */
+.relevans { margin: 0 0 0.6rem; font-size: 0.9375rem; }
+
+/* Utelatte høringer: sammenfoldet liste under hovedlisten. */
+.utelatte { margin-top: 2.5rem; }
+.utelatte > summary { cursor: pointer; width: fit-content; }
+.utelatte > summary h2 { display: inline; }
+.utelatte-liste { list-style: none; margin: 0.6rem 0 0; padding: 0; border-top: 1px solid var(--skog-300); }
+.utelatte-liste li { padding: 0.55rem 0; border-bottom: 1px solid var(--skog-300); display: grid; gap: 0.1rem; }
+.utelatt-meta, .utelatt-grunn { font-size: 0.875rem; color: var(--skog-300); }
+
 /* Mottatt av Gjøvik kommune (postlista). Mulige treff er lysere og stiplet. */
 .mottatt {
   margin: 0.15rem 0.4rem 0.35rem 0; padding: 0.1rem 0.5rem; display: inline-block;
@@ -368,7 +379,7 @@ thead th { background: var(--turkis-300); }
   .beskrivelse-blokk { order: 5; flex-basis: 100%; }
   .ki-merke { font-size: 0.7rem; padding: 0 0.25rem; }
   .mottatt { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
-  .postliste { display: none; }
+  .postliste, .utelatte { display: none; }
   .ny-merke { font-size: 0.75rem; }
   a { text-decoration: none; }
 }

@@ -405,7 +405,7 @@ def test_csv_eksport(side):
         "30. oktober 2026;13;Statens vegvesen;"
         '"Høring om æ, ø og å; «sitat» og ""anførsel""";'
         "Transport, samferdsel og infrastruktur;Direktorater og etater;1;"
-        "Høringsfrist: 2026-10-30;;;;;;;https://example.no/d13"
+        "Høringsfrist: 2026-10-30;;;;;;;;https://example.no/d13"
     )
     assert linjer[2] == ""
 
@@ -557,10 +557,14 @@ def _axe_sti() -> Path:
 
 @pytest.mark.parametrize("bredde", [375, 1280])
 def test_tilgjengelighet_axe(nettleser, server, tmp_path, bredde):
-    side = _apne(nettleser, server(_lag_nettsted(tmp_path)), bredde=bredde)
+    # Med «Hvorfor relevant» og «Utelatte høringer» (sprint 8 v2), så de også kontrolleres.
+    side = _apne(
+        nettleser, server(_lag_nettsted(tmp_path, horinger=_med_relevans())), bredde=bredde
+    )
     if not side.locator("#filtre-boks").evaluate("d => d.open"):
         side.click("#filtre-boks summary")  # åpne filtrene på mobil, så de også kontrolleres
     _vis_utlopte(side)  # vis alle fristtyper
+    side.click("#utelatte summary")
     side.add_script_tag(path=str(_axe_sti()))
     resultat = side.evaluate(
         "axe.run(document, {runOnly: {type: 'tag', "
@@ -841,11 +845,11 @@ def test_csv_har_flagg_og_kategorier(side):
     linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
     assert linjer[0].endswith(
         ";Regionen er høringspart;Høringsparter;Saksfelt;Mottatt av Gjøvik kommune;KI-sammendrag;"
-        "Ingress;Lenke"
+        "Hvorfor relevant (KI);Ingress;Lenke"
     )
     assert linjer[1].endswith(
         ";Alle kommuner, KS;Alle kommuner, Kommuner og fylkeskommuner (1), "
-        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;;;;https://example.no/d31"
+        "Departementer og direktorater (1), Organisasjoner (1);Barnehager;;;;;https://example.no/d31"
     )
 
 
@@ -1012,7 +1016,7 @@ def test_csv_har_mottatt(side_pl):
     with side_pl.expect_download() as nedlasting:
         side_pl.click("#eksport")
     linjer = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")
-    assert linjer[1].endswith(";12. oktober 2026;;;https://example.no/d31")
+    assert linjer[1].endswith(";12. oktober 2026;;;;https://example.no/d31")
 
 
 def test_seksjonen_skjules_uten_data(side):
@@ -1100,6 +1104,77 @@ def test_ki_sammendrag_med_merke_og_ingress(nettleser, server, tmp_path):
     with side.expect_download() as nedlasting:
         side.click("#eksport")
     linje = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig").split("\r\n")[1]
-    assert ";Forslag om ny fartsgrense på rv. 4 ved Gjøvik.;Gjelder rv. 4 ved Gjøvik.;" in linje
+    assert ";Forslag om ny fartsgrense på rv. 4 ved Gjøvik.;;Gjelder rv. 4 ved Gjøvik.;" in linje
     assert side.feil == []
+    side.close()
+
+
+# ---------- Sprint 8 v2: relevans for regionen og utelatte høringer ----------
+
+
+def _med_relevans():
+    hs = {**HORINGER, "horinger": [dict(h) for h in HORINGER["horinger"]]}
+    for h in hs["horinger"]:
+        h["relevant"] = True
+        h["hvorfor_relevant"] = ""
+    d30 = next(h for h in hs["horinger"] if h["id"] == "d30")
+    d30["hvorfor_relevant"] = "Fartsgrensen gjelder rv. 4 gjennom Gjøvik."
+    d13 = next(h for h in hs["horinger"] if h["id"] == "d13")
+    d13.update(
+        relevant=False,
+        tittel="Ny ruteplan for kystruten Bergen–Kirkenes",
+        hvorfor_relevant="Gjelder bare kysten fra Bergen til Kirkenes.",
+    )
+    return hs
+
+
+def test_hvorfor_relevant_vises_under_sammendraget(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_relevans())))
+    rad = side.locator('.hoering[data-id="d30"]')
+    assert rad.locator(".relevans").inner_text() == (
+        "KI: Hvorfor relevant Fartsgrensen gjelder rv. 4 gjennom Gjøvik."
+    )
+    assert side.locator('.hoering[data-id="d31"] .relevans').count() == 0
+    side.fill("#sok", "gjennom gjøvik")
+    assert _titler(side) == ["Tretti dager"]
+    assert side.feil == []
+    side.close()
+
+
+def test_utelatte_hoeringer_er_samlet_nederst(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_relevans())))
+    assert "Ny ruteplan for kystruten Bergen–Kirkenes" not in _titler(side)
+    assert side.inner_text("#antall") == "Viser 8 høringer (9 åpne totalt, 1 ny siste uke)"
+    boks = side.locator("#utelatte")
+    assert boks.is_visible() and boks.get_attribute("open") is None
+    assert side.inner_text("#antall-utelatte") == "1"
+    assert not side.locator("#utelatte-liste li").first.is_visible()
+    boks.locator("summary").click()
+    rad = side.locator("#utelatte-liste li")
+    assert rad.locator("a").inner_text() == "Ny ruteplan for kystruten Bergen–Kirkenes"
+    assert rad.locator("a").get_attribute("href") == "https://example.no/d13"
+    assert rad.locator(".utelatt-grunn").inner_text() == (
+        "Utelatt: Gjelder bare kysten fra Bergen til Kirkenes."
+    )
+    # Filtrene gjelder også de utelatte. Ingen treff skjuler seksjonen.
+    side.fill("#sok", "barnehageloven")
+    assert side.locator("#utelatte").is_hidden()
+    # CSV tar bare med hovedlisten.
+    side.fill("#sok", "")
+    with side.expect_download() as nedlasting:
+        side.click("#eksport")
+    tekst = Path(nedlasting.value.path()).read_bytes().decode("utf-8-sig")
+    assert "kystruten" not in tekst and "Fartsgrensen gjelder rv. 4 gjennom Gjøvik." in tekst
+    assert side.feil == []
+    side.close()
+
+
+def test_uten_utelatte_vises_ikke_seksjonen(side):
+    assert side.locator("#utelatte").is_hidden()
+
+
+def test_utelatte_vises_ikke_paa_utskrift(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_relevans())))
+    side.emulate_media(media="print")
+    assert side.locator("#utelatte").is_hidden()
     side.close()

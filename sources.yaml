@@ -183,6 +183,30 @@ felles:
     pause_sekunder: 0.5
     maks_per_kjoring: 250
 
+  # Relevansvurdering (sprint 8 v2, Svein 27.10.2026): KI-en vurderer om hver høring er relevant
+  # for Gjøvikregionen og skriver én setning om hvorfor. Høringer som ikke er relevante, vises
+  # under «Utelatte høringer» nederst på siden. Bruker modell og grenser fra `sammendrag` over.
+  # Endres region eller eksempler, vurderes alle høringene på nytt ved neste ukentlige
+  # oppdatering. Se horinger/relevans.py.
+  relevans:
+    region: >-
+      Gjøvikregionen består av kommunene Gjøvik, Østre Toten, Vestre Toten, Søndre Land og
+      Nordre Land i Innlandet, på vestsiden av Mjøsa, med om lag 70 000 innbyggere.
+      Regionen har industri og teknologibedrifter, landbruk og skog, NTNU i Gjøvik og
+      sykehus, og arbeider med Gjøvikbanen, rv. 4, næringsutvikling, energi og
+      kommunesamarbeid. Gjøvikregionen Utvikling er sekretariat for det interkommunale
+      politiske rådet.
+    # Eksempler på høringer Svein mener ikke er relevante. Legg gjerne til flere.
+    ikke_relevant_eksempler:
+      - Ny ruteplan for kystruten Bergen–Kirkenes
+      - Lønnsvilkår på skip i tråd med landsomfattende tariffavtaler
+      - Enkelte næringsmiddelforskrifter skal gjelde for Svalbard
+      - Endringer i CO2-kompensasjonsordningen for fiskeflåten
+      - Ny konkurranse om regionale ruteflyginger i Nord-Norge
+    # Høringer fra disse avsendernivåene utelates aldri. Det gjelder heller ikke høringer der
+    # regionen er høringspart, eller som er funnet i Gjøvik kommunes postliste.
+    aldri_utelat_niva: [Fylkeskommunen, Statsforvalteren]
+
   # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
   # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar
   # og innspill til kommunens egne saker, ikke høringsbrev, og tas ikke med.

@@ -26,6 +26,7 @@ from horinger.kilder import KILDER
 from horinger.kobling import koble_postlister
 from horinger.lager import les_kilde
 from horinger.prioritet import Prioritet
+from horinger.relevans import vurder as vurder_relevans
 
 log = logging.getLogger("horinger")
 
@@ -166,6 +167,12 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
     treff, postlistestatus = koble_postlister(
         konfig, kildemappe, apne, arkiv, les_json(utdata / "postliste_treff.json"), i_dag_
     )
+    # Relevansvurderingen (sprint 8 v2): «Hvorfor relevant» og «Utelatte høringer». Kommer
+    # etter postlista, siden høringer Gjøvik kommune har mottatt aldri utelates.
+    relevans = (les_json(utdata / "relevans.json") or {}).get("relevans", {})
+    relevanskonfig = konfig.get("felles", {}).get("relevans", {})
+    for h in [*apne, *arkiv.values()]:
+        h.update(vurder_relevans(h, relevans.get(h["id"]), relevanskonfig))
     antall_per_kilde: dict[str, int] = {}
     for h in apne:
         antall_per_kilde[h["kilde"]] = antall_per_kilde.get(h["kilde"], 0) + 1

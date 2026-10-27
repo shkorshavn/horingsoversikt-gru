@@ -9,6 +9,9 @@ Uten API-nøkkel (miljøvariabelen ANTHROPIC_API_KEY) hoppes steget over, og net
 ingressen. En feil for én høring gir ingressen for den høringen, og resten fortsetter.
 Kjøres bare i den ukentlige oppdateringen (Svein 27.10.2026), se .github/workflows/publiser.yml.
 
+Samme kommando lager også relevansvurderingen («Hvorfor relevant for Gjøvikregionen?»),
+se horinger/relevans.py.
+
 Bruk:
     python -m horinger.sammendrag
 """
@@ -84,6 +87,8 @@ def rens_svar(tekst: str) -> str:
 class Sammendrag:
     """Lager og bufrer sammendrag ut fra `felles.sammendrag` i sources.yaml."""
 
+    versjon = VERSJON
+
     def __init__(self, konfig: dict, klient=None) -> None:
         self.modell = konfig.get("modell", "claude-sonnet-5-5")
         self.maks_tokens = int(konfig.get("maks_tokens", 2000))
@@ -93,18 +98,30 @@ class Sammendrag:
 
     def lag(self, h: dict) -> str:
         """Ett kall til API-et. Gir sammendraget, eller tom tekst når grunnlaget er for tynt."""
+        return rens_svar(self.kall(INSTRUKS, grunnlag(h)))
+
+    def kall(self, instruks: str, tekst: str) -> str:
+        """Sender teksten til modellen og gir tekstsvaret. Svar uten tekst gir `TomtSvar`."""
         svar = self.klient.messages.create(
             model=self.modell,
             max_tokens=self.maks_tokens,
-            system=INSTRUKS,
-            messages=[{"role": "user", "content": grunnlag(h)}],
+            system=instruks,
+            messages=[{"role": "user", "content": tekst}],
         )
         tekst = "".join(b.text for b in svar.content if getattr(b, "type", "") == "text")
         if not tekst.strip():
             # Sonnet 5.5 tenker først (adaptiv tenking), og tenkingen teller mot max_tokens.
             # Et tomt svar er derfor en feil som prøves igjen neste uke, ikke «MANGLER».
             raise TomtSvar(f"tomt svar (stop_reason={getattr(svar, 'stop_reason', '?')})")
-        return rens_svar(tekst)
+        return tekst
+
+    def sjekksum(self, h: dict) -> str:
+        """Sjekksum av det som avgjør svaret. Endres den, lages svaret på nytt."""
+        return sjekksum(grunnlag(h))
+
+    def felter(self, h: dict) -> dict:
+        """Feltene som lagres i bufferen for én høring."""
+        return {"tekst": self.lag(h)}
 
     def oppdater(self, horinger: list[dict], buffer: dict) -> dict:
         """Lager sammendrag for høringer som mangler eller har endret grunnlag.
@@ -113,9 +130,9 @@ class Sammendrag:
         """
         teller = {"nye": 0, "gjenbrukt": 0, "feil": 0, "uten_nokkel": 0, "utsatt": 0}
         for h in horinger:
-            sum_ = sjekksum(grunnlag(h))
+            sum_ = self.sjekksum(h)
             lagret = buffer.get(h["id"])
-            if lagret and lagret.get("sjekksum") == sum_ and lagret.get("versjon") == VERSJON:
+            if lagret and lagret.get("sjekksum") == sum_ and lagret.get("versjon") == self.versjon:
                 teller["gjenbrukt"] += 1
                 continue
             if self.klient is None:
@@ -125,15 +142,15 @@ class Sammendrag:
                 teller["utsatt"] += 1
                 continue
             try:
-                tekst = self.lag(h)
+                felter = self.felter(h)
             except Exception as feil:  # noqa: BLE001 – én høring skal ikke stoppe resten
                 log.warning("Sammendrag for %s feilet: %s", h["id"], feil)
                 teller["feil"] += 1
                 continue
             buffer[h["id"]] = {
-                "versjon": VERSJON,
+                "versjon": self.versjon,
                 "sjekksum": sum_,
-                "tekst": tekst,
+                **felter,
                 "modell": self.modell,
                 "laget": datetime.now(OSLO).replace(microsecond=0).isoformat(),
             }
@@ -172,14 +189,28 @@ def kjor(
     konfig: dict, kildemappe: Path, utdata: Path, klient=None, dag: date | None = None
 ) -> dict:
     """Oppdaterer data/sammendrag.json. Sammendrag for høringer som er borte, slettes."""
-    sti = utdata / "sammendrag.json"
+    oppgave = Sammendrag(konfig.get("felles", {}).get("sammendrag", {}), klient)
+    return kjor_oppgave(oppgave, "sammendrag", konfig, kildemappe, utdata, dag)
+
+
+def kjor_oppgave(
+    oppgave: Sammendrag,
+    navn: str,
+    konfig: dict,
+    kildemappe: Path,
+    utdata: Path,
+    dag: date | None = None,
+) -> dict:
+    """Kjører én KI-oppgave over de åpne høringene og lagrer bufferen i data/<navn>.json.
+
+    Svar for høringer som ikke lenger finnes i en kilde eller i arkivet, slettes.
+    """
+    sti = utdata / f"{navn}.json"
     lagret = les_json(sti) or {}
-    buffer: dict = dict(lagret.get("sammendrag", {}))
+    buffer: dict = dict(lagret.get(navn, {}))
     horinger = aktuelle_horinger(konfig, kildemappe, dag)
-    teller = Sammendrag(konfig.get("felles", {}).get("sammendrag", {}), klient).oppdater(
-        horinger, buffer
-    )
-    # Behold sammendrag for høringer som fortsatt finnes i en kilde eller i arkivet.
+    teller = oppgave.oppdater(horinger, buffer)
+    # Behold svar for høringer som fortsatt finnes i en kilde eller i arkivet.
     arkiv = {h["id"] for h in (les_json(utdata / "arkiv.json") or {}).get("horinger", [])}
     behold = {h["id"] for h in horinger} | arkiv
     buffer = {k: v for k, v in sorted(buffer.items()) if k in behold}
@@ -187,18 +218,23 @@ def kjor(
         sti,
         {
             "generert": datetime.now(OSLO).replace(microsecond=0).isoformat(),
-            "modell": konfig.get("felles", {}).get("sammendrag", {}).get("modell", ""),
-            "sammendrag": buffer,
+            "modell": oppgave.modell,
+            navn: buffer,
         },
     )
-    if klient is None and teller["uten_nokkel"]:
+    if oppgave.klient is None and teller["uten_nokkel"]:
         log.warning(
-            "Ingen API-nøkkel (ANTHROPIC_API_KEY): %d høringer vises med ingressen",
+            "Ingen API-nøkkel (ANTHROPIC_API_KEY): %d høringer uten %s",
             teller["uten_nokkel"],
+            navn,
         )
     log.info(
-        "Sammendrag: %(nye)d nye, %(gjenbrukt)d gjenbrukt, %(feil)d feil, %(utsatt)d utsatt",
-        teller,
+        "%s: %d nye, %d gjenbrukt, %d feil, %d utsatt",
+        navn.capitalize(),
+        teller["nye"],
+        teller["gjenbrukt"],
+        teller["feil"],
+        teller["utsatt"],
     )
     return teller
 
@@ -212,9 +248,19 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     try:
         klient = lag_klient(os.environ.get("ANTHROPIC_API_KEY", "").strip() or None)
-        kjor(les_konfig(args.konfig), args.utdata / "kilder", args.utdata, klient)
+        konfig = les_konfig(args.konfig)
     except Exception as feil:  # noqa: BLE001
         log.error("Sammendragene kunne ikke oppdateres: %s", feil)
+        return 0
+    # Relevansvurderingen (sprint 8, v2) kjøres i samme steg. Importen står her for å unngå
+    # en sirkulær import (relevans bygger på klassene i denne modulen).
+    from horinger.relevans import kjor as kjor_relevans
+
+    for navn, steg in (("Sammendragene", kjor), ("Relevansvurderingene", kjor_relevans)):
+        try:
+            steg(konfig, args.utdata / "kilder", args.utdata, klient)
+        except Exception as feil:  # noqa: BLE001 – det ene steget skal ikke stoppe det andre
+            log.error("%s kunne ikke oppdateres: %s", navn, feil)
     return 0
 
 

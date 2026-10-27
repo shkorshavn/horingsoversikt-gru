@@ -25,7 +25,8 @@ Sprint 4: direktorater og etater med prioritet 1, deduplisering og prioritet per
 Sprint 5: etater med prioritet 2 og 3, frist med bare måned og år, og måling av kjøretid.
 Sprint 6: høringsparter, regionflagg («Regionen er høringspart») og tester ved hver push.
 Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og høringsbrev uten treff.
-Sprint 8: KI-sammendrag, delt visning (filtrene og listen ruller hver for seg) og ferdigstilling.
+Sprint 8: KI-sammendrag, «Hvorfor relevant» og «Utelatte høringer», delt visning (filtrene og
+listen ruller hver for seg) og ferdigstilling.
 
 ## Etatens side eller regjeringen.no
 
@@ -118,6 +119,28 @@ Hver høring kan få et sammendrag på 1–2 setninger i klarspråk, laget med A
 - **Uten nøkkel**, eller hvis API-et feiler, vises ingressen, og resten av oppdateringen går som
   normalt.
 
+## Relevans for Gjøvikregionen
+
+Samme steg vurderer også om hver høring er relevant for kommunene eller regionen
+(`horinger/relevans.py`, innstillinger i `felles.relevans` i `sources.yaml`). Det bruker samme
+modell og nøkkel som sammendraget.
+
+- **Svar:** relevant ja/nei, og én setning om hvorfor (høyst 30 ord).
+- **Grunnlag:** samme tekst som sammendraget, pluss en beskrivelse av regionen
+  (`felles.relevans.region`) og eksempler på høringer som ikke er relevante
+  (`ikke_relevant_eksempler`). Er modellen i tvil, regnes høringen som relevant.
+- **Vil du justere:** legg til eksempler i `ikke_relevant_eksempler` (eller endre
+  regionbeskrivelsen). Da vurderes alle høringene på nytt ved neste ukentlige oppdatering.
+- **Vern:** høringer der regionen er høringspart, som er funnet i Gjøvik kommunes postliste,
+  eller som kommer fra Innlandet fylkeskommune eller Statsforvalteren
+  (`aldri_utelat_niva`), utelates aldri.
+- **Buffer:** `data/relevans.json`, på samme måte som sammendragene.
+- **På siden:** relevante høringer får linjen «KI: Hvorfor relevant …» under sammendraget.
+  Høringer som ikke er relevante, står ikke i listen, men i den sammenfoldede seksjonen
+  «Utelatte høringer» under listen, med lenke og begrunnelse. Filtrene gjelder også der. CSV og
+  utskrift tar bare med hovedlisten.
+- **Uten vurdering** (ingen nøkkel eller feil) står høringen i listen som før.
+
 ### Slik setter du API-nøkkelen
 
 1. Gå til Anthropic Console (https://console.anthropic.com, kan sende deg videre til
@@ -130,7 +153,7 @@ Hver høring kan få et sammendrag på 1–2 setninger i klarspråk, laget med A
    **New repository secret**. Navn: `ANTHROPIC_API_KEY`. Lim inn nøkkelen og lagre.
 5. Nøkkelen skal aldri stå i koden, i `sources.yaml` eller i chatten. Lekker den, sletter du den
    i Anthropic Console og lager en ny.
-6. Neste ukentlige oppdatering lager sammendragene. Vil du ikke vente: Actions → **Ukentlig
+6. Neste ukentlige oppdatering lager sammendragene og relevansvurderingene. Vil du ikke vente: Actions → **Ukentlig
    oppdatering** → **Run workflow**.
 
 ## Gjøvik kommunes postliste
@@ -221,6 +244,10 @@ til journalposten (stiplet «Mulig treff …» når koblingen er usikker). Filte
 mottatt av Gjøvik kommune» (`?mottatt=1`) viser bare sikre treff. Under listen står
 høringsbrevene i postlista som ikke er koblet til noen høring, og statusoversikten viser når
 postlista sist ble sjekket.
+
+Under KI-sammendraget står «KI: Hvorfor relevant …». Høringer KI-en har vurdert som ikke
+relevante for regionen, ligger under «Utelatte høringer» nederst, se «Relevans for
+Gjøvikregionen».
 
 Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
 eller tema. Valget lagres i adressen (`?sort=avsender`). Knappen «Skriv ut» skriver ut samme

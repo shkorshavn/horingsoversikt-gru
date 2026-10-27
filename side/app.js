@@ -165,7 +165,7 @@
     if (v.mottatt && !sikkerPostliste(h)) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
     if (v.q) {
-      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.sammendrag, h.kilde, h.frist_tekst, h.kategori,
+      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.sammendrag, h.hvorfor_relevant, h.kilde, h.frist_tekst, h.kategori,
         (h.ogsa || []).map(function (o) { return o.kilde; }).join(" "),
         (h.saksfelt || []).join(" "), (h.horingsparter || []).join(" ")].join(" "));
       var ord = normaliser(v.q).split(/\s+/);
@@ -334,6 +334,18 @@
     ]);
   }
 
+  /** KI-vurderingen av hvorfor høringen er relevant for regionen (sprint 8 v2). */
+  function relevanslinje(h) {
+    if (!h.hvorfor_relevant) return null;
+    return el("p", { klasse: "relevans" }, [
+      el("span", { klasse: "ki-merke", tekst: "KI: Hvorfor relevant" }),
+      document.createTextNode(" " + h.hvorfor_relevant)
+    ]);
+  }
+
+  /** Høringer KI-en har vurdert som ikke relevante for regionen. Vises ikke i hovedlisten. */
+  function erUtelatt(h) { return h.relevant === false; }
+
   function hoeringsrad(h) {
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
@@ -363,27 +375,57 @@
       postlisteMerke(h),
       el("p", { klasse: "instans", tekst: h.instans }),
       beskrivelse(h),
+      relevanslinje(h),
       detaljer,
       partblokk(h)
     ]);
     return el("li", { klasse: "hoering", "data-id": h.id, "data-frist": h.frist || "" }, [fristblokk(h), innhold]);
   }
 
-  function synlige() {
+  /** Høringene som passer filtrene, delt i hovedlisten og de utelatte. */
+  function utvalgMedUtelatte() {
     var v = lesFiltre();
-    return tilstand.horinger.filter(function (h) { return passer(h, v); }).sort(sorter);
+    var alle = tilstand.horinger.filter(function (h) { return passer(h, v); }).sort(sorter);
+    return {
+      liste: alle.filter(function (h) { return !erUtelatt(h); }),
+      utelatte: alle.filter(erUtelatt)
+    };
+  }
+
+  function synlige() { return utvalgMedUtelatte().liste; }
+
+  /** Én linje i «Utelatte høringer»: tittel med lenke, avsender, frist og begrunnelse. */
+  function utelattRad(h) {
+    var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
+    var frist = h.frist ? (h.frist_maned ? "Frist " + MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : "Frist " + norskDato(h.frist)) : "";
+    return el("li", { "data-id": h.id }, [
+      trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel }),
+      el("span", { klasse: "utelatt-meta", tekst: [h.instans, frist].filter(Boolean).join(". ") }),
+      h.hvorfor_relevant ? el("span", { klasse: "utelatt-grunn", tekst: "Utelatt: " + h.hvorfor_relevant }) : null
+    ]);
+  }
+
+  function tegnUtelatte(utelatte) {
+    var boks = document.getElementById("utelatte");
+    var liste = document.getElementById("utelatte-liste");
+    liste.textContent = "";
+    utelatte.forEach(function (h) { liste.appendChild(utelattRad(h)); });
+    document.getElementById("antall-utelatte").textContent = String(utelatte.length);
+    boks.hidden = utelatte.length === 0;
   }
 
   function tegn() {
     var v = lesFiltre();
     skrivAdresse(v);
     var liste = document.getElementById("liste");
-    var utvalg = synlige();
+    var delt = utvalgMedUtelatte();
+    var utvalg = delt.liste;
     liste.textContent = "";
     utvalg.forEach(function (h) { liste.appendChild(hoeringsrad(h)); });
+    tegnUtelatte(delt.utelatte);
 
-    var apne = tilstand.horinger.filter(erApen).length;
-    var nye = tilstand.horinger.filter(function (h) { return erApen(h) && h.ny; }).length;
+    var apne = tilstand.horinger.filter(function (h) { return erApen(h) && !erUtelatt(h); }).length;
+    var nye = tilstand.horinger.filter(function (h) { return erApen(h) && !erUtelatt(h) && h.ny; }).length;
     var antall = document.getElementById("antall");
     antall.textContent = utvalg.length === 1
       ? "Viser 1 høring"
@@ -553,13 +595,13 @@
   function lagCsv(utvalg) {
     var rader = [["Frist", "Dager igjen", "Høringsinstans", "Tittel", "Tema", "Avsender", "Prioritet",
       "Frist slik kilden skriver den", "Regionen er høringspart", "Høringsparter", "Saksfelt",
-      "Mottatt av Gjøvik kommune", "KI-sammendrag", "Ingress", "Lenke"]];
+      "Mottatt av Gjøvik kommune", "KI-sammendrag", "Hvorfor relevant (KI)", "Ingress", "Lenke"]];
     utvalg.forEach(function (h) {
       var fristCsv = !h.frist ? "" : h.frist_maned ? MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : norskDato(h.frist);
       rader.push([fristCsv, h.dager === null || h.frist_maned ? "" : h.dager, h.instans,
         h.tittel, h.kategori, h.niva, h.prioritet, h.frist_tekst, (h.regionflagg || []).join(", "),
         (h.horingsparter || []).length ? kategoritekst(h) : (h.horingsparter_merknad || ""),
-        (h.saksfelt || []).join(", "), csvPostliste(h), h.sammendrag || "", h.ingress || "", h.lenke]);
+        (h.saksfelt || []).join(", "), csvPostliste(h), h.sammendrag || "", h.hvorfor_relevant || "", h.ingress || "", h.lenke]);
     });
     return "﻿" + rader.map(function (r) { return r.map(csvFelt).join(";"); }).join("\r\n") + "\r\n";
   }

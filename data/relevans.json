@@ -1,878 +1,894 @@
 {
-  "generert": "2026-10-27T22:04:07+01:00",
+  "generert": "2026-10-27T22:11:17+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
       "versjon": 1,
-      "sjekksum": "7e3b06b8fb9eca6e",
+      "sjekksum": "3efb60ca97209a9b",
       "relevant": false,
-      "hvorfor": "Forskriftsendringen gjelder teknisk valutasikring i andelsklasser i verdipapirfond og berører ikke kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder bare valutasikring i verdipapirfond, en teknisk forskriftsendring for fondsforvaltere.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:52+01:00"
+      "laget": "2026-10-27T22:07:59+01:00"
     },
     "00d72e53715a": {
       "versjon": 1,
-      "sjekksum": "117acaca2d796068",
+      "sjekksum": "0e48359efa77564d",
       "relevant": false,
-      "hvorfor": "Smal teknisk forskrift om laktosereduksjon og merking av kondensert melk og melkepulver, som ikke berører kommunenes oppgaver, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder bare laktosereduksjon og merking av kondensert melk og melkepulver.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:43+01:00"
+      "laget": "2026-10-27T22:10:46+01:00"
     },
     "06015c8343c1": {
       "versjon": 1,
-      "sjekksum": "1c606ce0fd6875ae",
+      "sjekksum": "52c3255bd79a479c",
       "relevant": true,
       "hvorfor": "",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:20+01:00"
+      "laget": "2026-10-27T22:06:08+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 1,
-      "sjekksum": "200409a48454baa3",
+      "sjekksum": "557a38d7e5a1e98d",
       "relevant": true,
-      "hvorfor": "Forlenget kollektiv beskyttelse for fordrevne fra Ukraina gjelder kommunene i regionen, som bosetter flyktninger og gir dem tjenester, og kan påvirke arbeidsgivere og lokalt arbeidsliv.",
+      "hvorfor": "Forlenget kollektiv beskyttelse for fordrevne fra Ukraina gjelder alle kommuner og kan påvirke bosetting, integreringstjenester og kommunenes økonomi.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:51+01:00"
+      "laget": "2026-10-27T22:07:57+01:00"
     },
     "0bc5a4b145ee": {
       "versjon": 1,
-      "sjekksum": "3fd2655eecb861ab",
+      "sjekksum": "1cf3144af1eef8ff",
       "relevant": false,
-      "hvorfor": "Høringen gjelder organisering av samiske spesialisthelsetjenester, særlig i samiske kjerneområder og under staten og de regionale helseforetakene, og berører ikke kommunene i Gjøvikregionen merkbart.",
+      "hvorfor": "Gjelder organisering av samiske spesialisthelsetjenester, hovedsakelig i samiske områder og under staten og de regionale helseforetakene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:31+01:00"
+      "laget": "2026-10-27T22:07:37+01:00"
     },
     "0da38d05e171": {
       "versjon": 1,
-      "sjekksum": "49b82604e988f8ed",
+      "sjekksum": "69dbcd6c2429977d",
       "relevant": true,
-      "hvorfor": "Forslagene om veileder og unntak fra nullutslippsforskriften gjelder fylkeskommunale bussanskaffelser, og kan påvirke kollektivtilbudet og innkjøpene til Innlandet fylkeskommune, som betjener kommunene i Gjøvikregionen.",
+      "hvorfor": "Forslagene gjelder fylkeskommunale bussanskaffelser og endrer nullutslippsforskriften, noe som kan påvirke kollektivtilbudet og busstjenestene i Innlandet.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:58+01:00"
+      "laget": "2026-10-27T22:09:09+01:00"
     },
     "0fac555760ba": {
       "versjon": 1,
-      "sjekksum": "ee5358b22f046c1e",
+      "sjekksum": "f0bb52de1c9bf7cb",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder bare hvor klager på sakskostnader hos Nav-direktoratet skal behandles (Trygderetten), og berører ikke kommunenes oppgaver, økonomi eller innbyggerne i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder klagebehandling av sakskostnader i Nav-saker hos Trygderetten, en smal teknisk saksbehandlingsendring.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:23+01:00"
+      "laget": "2026-10-27T22:08:37+01:00"
     },
     "10f5a678155b": {
       "versjon": 1,
-      "sjekksum": "133cdcaee89bc34a",
+      "sjekksum": "442ae91805d76e63",
       "relevant": true,
-      "hvorfor": "Indeksregulering av kontrollsatsene i parkeringsforskriften gjelder hele landet og kan gi endrede gebyrer for private parkeringsselskaper og bilister, også i Gjøvikregionens byer og tettsteder.",
+      "hvorfor": "Nasjonal indeksregulering av kontrollsatser for private parkeringsreguleringer gjelder hele landet og kan påvirke parkeringsaktører og bilister i kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:31+01:00"
+      "laget": "2026-10-27T22:09:39+01:00"
     },
     "146a716873d9": {
       "versjon": 1,
-      "sjekksum": "f044b45a533e657f",
+      "sjekksum": "6d2a14cde99c2d41",
       "relevant": false,
-      "hvorfor": "Gjelder bare kjøp av regionale flyruter (FOT-ruter) i Nord-Norge, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen.",
+      "hvorfor": "Gjelder bare regionale ruteflyginger (FOT-ruter) i Nord-Norge.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:47+01:00"
+      "laget": "2026-10-27T22:08:58+01:00"
     },
     "16001cccdbe5": {
       "versjon": 1,
-      "sjekksum": "447dd8856eb60011",
+      "sjekksum": "34be8b1bda511c69",
       "relevant": true,
-      "hvorfor": "Nasjonalt krav om røntgenundersøkelse for bergarbeidere gjelder alle virksomheter i landet, og kan påvirke bedrifter og ansatte innen bergarbeid, anlegg og tunnelarbeid i regionen, som veibygging på rv. 4.",
+      "hvorfor": "Nasjonalt forskriftskrav om røntgenundersøkelse av lungene for alle som utfører bergarbeid kan berøre bedrifter og arbeidstakere i regionen som driver slikt arbeid.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:49+01:00"
+      "laget": "2026-10-27T22:10:53+01:00"
     },
     "165c112f3a1b": {
       "versjon": 1,
-      "sjekksum": "8417174fd02c62a3",
+      "sjekksum": "4bf8fccb95a34f0f",
       "relevant": false,
-      "hvorfor": "Smal teknisk produktforskrift om fruktinnhold og betegnelser på syltetøy og gelé, som ikke berører kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder tekniske krav til fruktinnhold og betegnelser på syltetøy og gelé, uten merkbar betydning for kommuner eller innbyggere.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:47+01:00"
+      "laget": "2026-10-27T22:10:48+01:00"
     },
     "17796e18616d": {
       "versjon": 1,
-      "sjekksum": "096e58393b3e7e2e",
+      "sjekksum": "dd2d5406891b05b2",
       "relevant": true,
-      "hvorfor": "Forslaget gjelder alle kommuner og kan gi ukrainske flyktninger i arbeid permanent opphold, noe som berører bosetting, integreringsarbeid, kommunale tjenester og arbeidsgivere i regionen.",
+      "hvorfor": "Gjelder ukrainske flyktninger i arbeid som kan få permanent opphold, noe som kan påvirke kommunenes bosetting, integreringsarbeid og lokale arbeidsgivere; kommunene er høringsinstans.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:45+01:00"
+      "laget": "2026-10-27T22:08:56+01:00"
+    },
+    "187fb3b88761": {
+      "versjon": 1,
+      "sjekksum": "0b1808b6a439942d",
+      "relevant": true,
+      "hvorfor": "Nasjonal regulering av dagligvaremarkedet som kan endre konkurransen mellom dagligvarekjeder og lokale butikker, leverandører og forbrukere i hele landet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T22:08:54+01:00"
     },
     "1cd059791b68": {
       "versjon": 1,
-      "sjekksum": "742058c5f565d1bb",
+      "sjekksum": "5dbb6d69643cb3b5",
       "relevant": false,
-      "hvorfor": "Teknisk endring i dokumentasjonskrav for operatører i EU ETS og ETS2, som gjelder kvotepliktige virksomheter og ikke kommunene, og som ikke endrer selve kriteriene.",
+      "hvorfor": "Gjelder dokumentasjonskrav for operatører i EUs kvotesystem, uten endring i hvilke kriterier som gjelder.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:01+01:00"
+      "laget": "2026-10-27T22:10:07+01:00"
     },
     "1effec0591d7": {
       "versjon": 1,
-      "sjekksum": "c48d5361b3a72860",
+      "sjekksum": "079f1e8cb9de630b",
       "relevant": true,
-      "hvorfor": "Karbonfangstanlegget i Hamar vil slippe ut kondensat via HIAS sitt renseanlegg til Mjøsa og gi nye luftutslipp av amin, noe som kan berøre miljøet og vannkvaliteten i Mjøsa-regionen.",
+      "hvorfor": "Karbonfangstanlegget ligger i Hamar i Innlandet, og renset kondensat går via HIAS sitt renseanlegg til Mjøsa, som regionen grenser til.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:06+01:00"
+      "laget": "2026-10-27T22:10:11+01:00"
     },
     "1ff7317cae1d": {
       "versjon": 1,
-      "sjekksum": "07f9e94c3680dd73",
-      "relevant": false,
-      "hvorfor": "Gjelder fornyelse av personlige kjennemerker (skiltrettigheter) for kjøretøy, en administrativ ordning mellom Statens vegvesen og eierne, uten merkbar betydning for kommunenes oppgaver, næringsliv eller infrastruktur.",
+      "sjekksum": "6b1f485df7da04a9",
+      "relevant": true,
+      "hvorfor": "Nasjonale endringer i bruksforskriften om fornyelse av personlige kjennemerker gjelder alle bilister, også innbyggerne i regionen, og er ikke avgrenset til andre områder.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:27+01:00"
+      "laget": "2026-10-27T22:09:35+01:00"
     },
     "20fd07d6b54e": {
       "versjon": 1,
-      "sjekksum": "d1593d3e46a4129a",
+      "sjekksum": "6dbb6945cbe4db2f",
       "relevant": false,
-      "hvorfor": "Gjelder straffesaksbehandling, gjenåpning av straffesaker og Gjenopptakelseskommisjonen, og berører verken kommunenes oppgaver, økonomi eller planlegging, næringslivet eller innbyggerne i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder gjenopptakelse av straffesaker og risiko for uriktige domfellelser, som ikke berører kommunene eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:14+01:00"
+      "laget": "2026-10-27T22:09:22+01:00"
     },
     "23eea50c7f1b": {
       "versjon": 1,
-      "sjekksum": "f4348dfc7abf3967",
+      "sjekksum": "4293c087ef10c507",
       "relevant": false,
-      "hvorfor": "Produktkrav til strømkilder, ladere og tørketromler gjelder produsenter og importører, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder tekniske produktkrav til strømkilder, ladere og tørketromler for produsenter og importører, uten merkbar virkning for kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:12+01:00"
+      "laget": "2026-10-27T22:10:18+01:00"
     },
     "2914c81e932e": {
       "versjon": 1,
-      "sjekksum": "0aab2b5be297a01a",
+      "sjekksum": "dc301b0dcb55eef5",
       "relevant": false,
-      "hvorfor": "Evalueringen gjelder Etterretningstjenestens lovgrunnlag og statlige kontrollordninger, og berører verken kommunenes oppgaver, tjenester eller økonomi, næringslivet eller innbyggerne i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder evaluering av lov om Etterretningstjenesten, uten merkbar betydning for kommuner, innbyggere eller næringsliv i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:31+01:00"
+      "laget": "2026-10-27T22:08:44+01:00"
     },
     "29760107df50": {
       "versjon": 1,
-      "sjekksum": "5b70f803021cf57f",
+      "sjekksum": "9edd37e4f6aab2b9",
       "relevant": true,
-      "hvorfor": "Statsbudsjettet for 2027 på næringskomiteens områder kan påvirke næringsutvikling, landbruk, energi og virkemidler som angår kommunene, næringslivet og arbeidsplassene i Gjøvikregionen.",
+      "hvorfor": "Statsbudsjettet for næringsområdet setter rammer som kan påvirke næringslivet, arbeidsplassene og kommunenes handlingsrom i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:14+01:00"
+      "laget": "2026-10-27T22:06:04+01:00"
     },
     "2bcea3dfa851": {
       "versjon": 1,
-      "sjekksum": "1b20f0a1d14b2b67",
+      "sjekksum": "5e55186e9eef4562",
       "relevant": true,
-      "hvorfor": "Forslaget om raskere utbygging av solenergi kan endre rammer for arealplanlegging, saksbehandling og energiproduksjon i kommunene, og kan berøre landbruksareal, næringsliv og energiforsyning i Innlandet.",
+      "hvorfor": "Forslaget om raskere og mer skånsom utbygging av solenergi kan påvirke kommunenes arealplanlegging, saksbehandling og energiutbygging i Innlandet.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:58:46+01:00"
+      "laget": "2026-10-27T22:05:30+01:00"
     },
     "2d365b86661f": {
       "versjon": 1,
-      "sjekksum": "03ca0d294ec2c36b",
+      "sjekksum": "695929a96b8a5fcf",
       "relevant": true,
-      "hvorfor": "Reglene for lokale FM-sendernett 2027–2031 gjelder landsdekkende og kan påvirke lokalradioene som dekker innbyggerne i regionens kommuner, men kommunene er ikke direkte part i saken.",
+      "hvorfor": "Gjelder nasjonale vilkår og tildeling av lokale FM-sendernett for lokalradio 2027–2031, som kan berøre lokale radioaktører og lokalt medietilbud i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:38+01:00"
+      "laget": "2026-10-27T22:09:47+01:00"
     },
     "2f947152205b": {
       "versjon": 1,
-      "sjekksum": "543cc2519a6eef03",
+      "sjekksum": "f589f01f338bed8b",
       "relevant": true,
-      "hvorfor": "Forslaget gir permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven som kan gi kommunene nye oppgaver og endrede regler ved høye asylankomster.",
+      "hvorfor": "Permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven kan gi kommunene nye oppgaver og endre regelverket ved høye asylankomster.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:25+01:00"
+      "laget": "2026-10-27T22:08:39+01:00"
     },
     "387a95279af5": {
       "versjon": 1,
-      "sjekksum": "4cd2f3365b884ba5",
+      "sjekksum": "7f8332aa4193d288",
       "relevant": true,
-      "hvorfor": "Nasjonale forskriftsendringer om sykepleieres og farmasøyters vaksinerekvirering kan endre hvordan kommunene organiserer vaksinasjon og helsetjenester, og kommunene er høringsinstans.",
+      "hvorfor": "Utvidet rekvireringsrett for sykepleiere og farmasøyter til flere vaksiner kan endre hvordan kommunene organiserer vaksinasjon, for eksempel i helsetjenesten og på helsestasjoner.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:27+01:00"
+      "laget": "2026-10-27T22:08:40+01:00"
     },
     "38d410f34588": {
       "versjon": 1,
-      "sjekksum": "f5700fcb3b601029",
+      "sjekksum": "5d88107273aaaffb",
       "relevant": true,
-      "hvorfor": "Nasjonal endring i sukkeravgiften kan gi håndverksbakerier og kafeer i regionens kommuner avgiftsfritak for sukker i egen produksjon, og dermed påvirke lokalt næringsliv.",
+      "hvorfor": "Avgiftsfritaket for sukker utvides til å gjelde også små håndverksbakerier og kafeer, som finnes i alle kommunene og får endrede avgiftskostnader.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:53+01:00"
+      "laget": "2026-10-27T22:10:57+01:00"
     },
     "3943a26ad125": {
       "versjon": 1,
-      "sjekksum": "3a0660da8720191c",
+      "sjekksum": "19a441d02dcdd060",
       "relevant": false,
-      "hvorfor": "Endringene gjelder utlendingsmyndighetenes egen behandling av personopplysninger ved utvikling og testing av IT-systemer, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder utlendingsmyndighetenes IT-utvikling og testing av systemer, og følgeendringer etter Eurodac-forordningen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:21+01:00"
+      "laget": "2026-10-27T22:08:33+01:00"
     },
     "3bcccf9aedbf": {
       "versjon": 1,
-      "sjekksum": "11dcbc681c77291b",
+      "sjekksum": "28c9165bfab02c43",
       "relevant": false,
-      "hvorfor": "Gjelder tekniske overgangsregler for Skatteetatens utrulling av nytt regelverk om utlegg, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder teknisk utrulling av Skatteetatens systemer for utlegg, uten merkbar effekt på kommuner eller næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:55+01:00"
+      "laget": "2026-10-27T22:11:05+01:00"
     },
     "3c2212288d2f": {
       "versjon": 1,
-      "sjekksum": "2398e7f50df7c2aa",
+      "sjekksum": "58447a266bb26fe2",
       "relevant": true,
-      "hvorfor": "Nasjonale lovendringer om kollektivdata, reiseplanlegging og billettering gjelder kollektivtilbudet i hele landet, også Gjøvikbanen og buss i regionen, og berører Innlandet fylkeskommune og kommunenes personvernansvar.",
+      "hvorfor": "Nasjonale lovendringer om kollektivdata, reiseplanlegging og billettering berører fylkeskommunal kollektivtransport og passasjerene, og gjelder dermed også kollektivtilbudet i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:12+01:00"
+      "laget": "2026-10-27T22:09:20+01:00"
     },
     "3e967a8c63c8": {
       "versjon": 1,
-      "sjekksum": "cecaf718888b6881",
+      "sjekksum": "2471008171efbf1c",
       "relevant": true,
-      "hvorfor": "Nasjonal beredskapslagring av vaksiner og immunglobuliner hos grossister kan påvirke legemiddelforsyningen til apotek, sykehus og kommunale helsetjenester i regionen, og dermed kommunenes beredskap og smittevern.",
+      "hvorfor": "Nasjonal beredskapslagring av vaksiner og immunglobuliner hos grossister kan påvirke legemiddelforsyning og helseberedskap for kommunene, sykehuset og innbyggerne.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:23+01:00"
+      "laget": "2026-10-27T22:10:30+01:00"
     },
     "3fd5999d299f": {
       "versjon": 1,
-      "sjekksum": "752c309abbf9037a",
+      "sjekksum": "c0176997dd602a15",
       "relevant": false,
-      "hvorfor": "Gjelder kun CO2-kompensasjon for fiskeflåten, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet her.",
+      "hvorfor": "Gjelder bare CO2-kompensasjon for fiskeflåten.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:21+01:00"
+      "laget": "2026-10-27T22:07:26+01:00"
     },
     "455722b6863b": {
       "versjon": 1,
-      "sjekksum": "ce8569f71238b76f",
+      "sjekksum": "ab4bf09de85f1e61",
       "relevant": true,
-      "hvorfor": "Forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner og kan berøre kommunale anlegg, byggearbeid, landbruk og næringsliv i regionen, med ett års overgangsperiode.",
+      "hvorfor": "Forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner og kan berøre kommunal drift, anlegg, innbyggere og næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:03+01:00"
+      "laget": "2026-10-27T22:10:09+01:00"
     },
     "457f1ecd097a": {
       "versjon": 1,
-      "sjekksum": "ca9a77b69382fab9",
+      "sjekksum": "d554ababec350570",
       "relevant": true,
-      "hvorfor": "Nasjonale endringer i regelverket for utdanningslån og godkjenning av utdanninger for Lånekassen, med blant annet opphevet godkjenning av nettskoler, kan berøre studenter og kompetansemiljøer som NTNU i Gjøvik og Fagskolen Innlandet.",
+      "hvorfor": "Nasjonale endringer i regler for tilbakebetaling av studielån og godkjenning av nettskoler for utdanningsstøtte kan påvirke innbyggere og studenter, blant dem NTNU-studenter.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:57+01:00"
+      "laget": "2026-10-27T22:08:02+01:00"
     },
     "48b91a5d6241": {
       "versjon": 1,
-      "sjekksum": "7d41944390b46809",
+      "sjekksum": "f65b68117b1c8677",
       "relevant": true,
-      "hvorfor": "Forslaget om stemmerett ved kommune- og fylkestingsvalg gjelder hele landet og kan endre hvem som kan stemme ved valg i kommunene i Gjøvikregionen.",
+      "hvorfor": "Gjelder stemmerett ved kommune- og fylkestingsvalg, et nasjonalt regelverk som gjelder alle kommuner og som kommunene bruker når de gjennomfører valg.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:44+01:00"
+      "laget": "2026-10-27T22:06:40+01:00"
     },
     "4b0dae140bf8": {
       "versjon": 1,
-      "sjekksum": "f0e21d0c5e6d2867",
-      "relevant": false,
-      "hvorfor": "Forslaget gjelder nettpoker hos Norsk Tipping, rapporteringskrav for store spillaktører og utbetaling av Belago-midler, og berører ikke kommunenes oppgaver, økonomi eller regionens næringsliv merkbart.",
+      "sjekksum": "a64fc9b8bf217ba0",
+      "relevant": true,
+      "hvorfor": "Nasjonale endringer i pengespillforskriften om nettpoker hos Norsk Tipping og utbetaling av Belago-midler fra bingo gjelder hele landet, også innbyggere i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:19+01:00"
+      "laget": "2026-10-27T22:08:30+01:00"
     },
     "4b2b143e613d": {
       "versjon": 1,
-      "sjekksum": "eaf2edb234270652",
+      "sjekksum": "6c8a1317b883d51c",
       "relevant": true,
-      "hvorfor": "Forslaget gjelder institusjonsbarnevernet, som kan få følger for kommunenes barnevernstjenester, økonomi og samarbeid med statlig barnevern, og dermed for barn og unge i regionen.",
+      "hvorfor": "Barnevern er en kommunal oppgave, og forslag om institusjonsbarnevern kan påvirke kommunenes ansvar, kostnader og samarbeid med statlige barnevernstjenester.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:54+01:00"
+      "laget": "2026-10-27T22:06:48+01:00"
     },
     "4de54c79db37": {
       "versjon": 1,
-      "sjekksum": "eb67a85144e02545",
+      "sjekksum": "fbe61a1dd2fc08c1",
       "relevant": false,
-      "hvorfor": "Smal teknisk endring i merke- og sammensetningskrav for fruktjuice og fruktnektar, som først og fremst angår produsenter og importører, og berører ikke kommunene eller regionen merkbart.",
+      "hvorfor": "Gjelder bare merking og sammensetning av fruktjuice, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:39+01:00"
+      "laget": "2026-10-27T22:10:42+01:00"
     },
     "4eeabc29922d": {
       "versjon": 1,
-      "sjekksum": "5f3ab42effb8eae4",
+      "sjekksum": "9cabc5eaebcd092f",
       "relevant": true,
-      "hvorfor": "Ny nasjonal lov om digitale markeder gjelder hele landet og kan påvirke konkurransevilkårene for lokale bedrifter og kommunenes bruk av digitale plattformer og tjenester.",
+      "hvorfor": "Nasjonal lov om konkurranse og regulering av store digitale plattformer, som kan påvirke næringsliv, innbyggere og kommuner som brukere av digitale tjenester.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:19+01:00"
+      "laget": "2026-10-27T22:07:24+01:00"
     },
     "50813f1d030f": {
       "versjon": 1,
-      "sjekksum": "27b9d56e8683e329",
+      "sjekksum": "6a7dba312f4453d9",
       "relevant": false,
-      "hvorfor": "Gjelder bare rutetidene for kystruten Bergen–Kirkenes, en kysttjeneste uten anløp i Innlandet, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen.",
+      "hvorfor": "Gjelder bare rutetider for kystruten Bergen–Kirkenes.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:02+01:00"
+      "laget": "2026-10-27T22:09:13+01:00"
     },
     "51bf7e74bd34": {
       "versjon": 1,
-      "sjekksum": "5ad10288a4dac6ad",
+      "sjekksum": "d7787dbbd96fe729",
       "relevant": false,
-      "hvorfor": "Grunnlovsforslaget gjelder bare eierskap og forvaltning av viltlevende marine ressurser, som er fiskeri- og kystspørsmål uten merkbar betydning for kommunene i Gjøvikregionen.",
+      "hvorfor": "Gjelder bare grunnlovsfesting av viltlevende marine ressurser, altså havet og fiskeri.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:50+01:00"
+      "laget": "2026-10-27T22:06:44+01:00"
     },
     "56e529a56a31": {
       "versjon": 1,
-      "sjekksum": "5b4e486e748e43cd",
+      "sjekksum": "aab3fecadff89f25",
       "relevant": false,
-      "hvorfor": "Gjelder skatteregler for overdragelse av petroleumsløyver og interesseoverføring, en næring som knapt finnes i regionen, og berører ikke kommunene, innbyggerne eller næringslivet her.",
+      "hvorfor": "Gjelder bare skatteregler for overdraging av petroleumsløyver, en næring som ikke finnes i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:12+01:00"
+      "laget": "2026-10-27T22:08:20+01:00"
     },
     "591162fc8480": {
       "versjon": 1,
-      "sjekksum": "3efef55c426c9e05",
+      "sjekksum": "c2e29def7021b24f",
       "relevant": false,
-      "hvorfor": "Planen gjelder en lokal sykkelveg med fortau langs Ringgata i Hamar, utenfor Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet i regionen.",
+      "hvorfor": "Gjelder lokal sykkelveg med fortau langs fv. 187 Ringgata i Hamar, utenfor regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:04:03+01:00"
+      "laget": "2026-10-27T22:11:12+01:00"
     },
     "59ec55d3da63": {
       "versjon": 1,
-      "sjekksum": "d527b6d947c83263",
+      "sjekksum": "7756c1da9ae92c91",
       "relevant": true,
-      "hvorfor": "Reguleringsplanen for utbedring av fv. 33 i Østre Toten gir bedre trafikksikkerhet og fremkommelighet, endrer avkjørsler og gangfelt, og kommunestyret skal sluttbehandle planen.",
+      "hvorfor": "Reguleringsplan for utbedring av fv. 33 i Østre Toten berører kommunens planlegging, trafikksikkerhet, private avkjørsler og grunneiere, og kommunestyret skal sluttbehandle planen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:04:01+01:00"
+      "laget": "2026-10-27T22:11:10+01:00"
     },
     "5a4d402d9439": {
       "versjon": 1,
-      "sjekksum": "0b6d87be7e332772",
+      "sjekksum": "45e336c5efa19a75",
       "relevant": true,
-      "hvorfor": "Ny EU-forordning om offentlige anskaffelser og konsesjoner kan endre reglene kommunene må følge når de kjøper varer og tjenester, og hvordan lokalt næringsliv kan vinne offentlige kontrakter.",
+      "hvorfor": "Ny anskaffelsesforordning kan endre regelverket for offentlige innkjøp og konsesjoner som alle kommuner i regionen må følge, og påvirke lokalt næringsliv som leverer til det offentlige.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:29+01:00"
+      "laget": "2026-10-27T22:07:35+01:00"
+    },
+    "5d1498fe43bd": {
+      "versjon": 1,
+      "sjekksum": "fd0dddab9817e088",
+      "relevant": true,
+      "hvorfor": "Endringer i regelverket for utdanningsstøtte i Lånekassen gjelder studenter og elever, blant andre ved NTNU i Gjøvik, og lærlinger og folkehøgskoleelever i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T22:07:55+01:00"
     },
     "63cc40b248f7": {
       "versjon": 1,
-      "sjekksum": "c5a81ec6242aee63",
+      "sjekksum": "1b18785a7dbafe15",
       "relevant": true,
-      "hvorfor": "Forslaget gjelder kriminelle aktører i barnevernet, og kan påvirke kommunenes barnevernstjenester og kjøp av tjenester fra private tilbydere, som alle kommuner har ansvar for.",
+      "hvorfor": "Forslaget gjelder barnevernet, som kommunene har ansvar for, og kan påvirke kommunenes bruk av private barnevernstilbud og tjenester til barn.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:18+01:00"
+      "laget": "2026-10-27T22:06:06+01:00"
     },
     "643a43b304c3": {
       "versjon": 1,
-      "sjekksum": "7952965d3f4fe55c",
+      "sjekksum": "a5bb9cb6bcc24a5b",
       "relevant": false,
-      "hvorfor": "Lovendringen gjelder gebyrer til Det europeiske legemiddelbyrået (EMA) i EU-regelverket, og berører først og fremst produsenter og tilsynsmyndigheter, ikke kommunene, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder tekniske gebyrer til EMA etter regelverket for medisinsk utstyr.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:22+01:00"
+      "laget": "2026-10-27T22:06:13+01:00"
     },
     "66471a7d439a": {
       "versjon": 1,
-      "sjekksum": "6b2d8ae16a6708b0",
+      "sjekksum": "bd2f224994464d29",
       "relevant": false,
-      "hvorfor": "Fredningen gjelder én enkelt gard i Os i Tolga kommune i Østerdalen, utenfor Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet i regionen.",
+      "hvorfor": "Gjelder fredning av én enkelt gard i Os i Tolga kommune i Østerdalen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:59+01:00"
+      "laget": "2026-10-27T22:11:08+01:00"
     },
     "6657b3de2e69": {
       "versjon": 1,
-      "sjekksum": "3ffc62018238fa7e",
+      "sjekksum": "edbd3486c5c0fb36",
       "relevant": true,
-      "hvorfor": "Nasjonal forskriftsendring som kan endre hvilke fyllmaterialer, for eksempel større granulat på idrettsbaner, som omfattes av kravene mot spredning av mikroplast, og dermed berøre kommuner som eier og drifter baner.",
+      "hvorfor": "Nasjonal forskriftsendring som kan endre hvilke krav som gjelder for granulat på idrettsbaner, som kommunene har ansvar for å følge opp.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:10+01:00"
+      "laget": "2026-10-27T22:10:16+01:00"
     },
     "67ec81a017fe": {
       "versjon": 1,
-      "sjekksum": "c3b44c9c05c49412",
+      "sjekksum": "273942ef2670b67f",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder maksimal tillatt biomasse i havbruk, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene eller næringslivet her merkbart.",
+      "hvorfor": "Gjelder bare regulering av maksimal tillatt biomasse i havbruk, en kystnæring som knapt finnes i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:10+01:00"
+      "laget": "2026-10-27T22:05:55+01:00"
     },
     "6852b0df3344": {
       "versjon": 1,
-      "sjekksum": "fd580e2f7614d772",
+      "sjekksum": "32b30d0cae26ed09",
       "relevant": true,
-      "hvorfor": "Et nasjonalt forbud mot reklame for fossil energi kan ramme lokale drivstoffleverandører, bensinstasjoner og annonsører i regionen, og kommunene kan få nye oppgaver i oppfølgingen.",
+      "hvorfor": "Et nasjonalt reklameforbud for fossil energi kan ramme bedrifter i regionen som markedsfører fossile energiprodukter, og angår energi- og klimapolitikken.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:40+01:00"
+      "laget": "2026-10-27T22:06:33+01:00"
     },
     "6998327d63dc": {
       "versjon": 1,
-      "sjekksum": "14430b7f2216db30",
+      "sjekksum": "d01437cb43a75bbd",
       "relevant": true,
-      "hvorfor": "Forslaget om bedre oppfølging av overlevende og etterlatte etter katastrofer kan påvirke kommunenes helse- og omsorgstjenester og beredskapsarbeid, og gjelder hele landet.",
+      "hvorfor": "Nasjonalt forslag om oppfølging etter katastrofer som kan gjelde kommunenes helse- og omsorgstjenester og beredskap overfor overlevende og etterlatte.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:30+01:00"
+      "laget": "2026-10-27T22:06:20+01:00"
     },
     "6a72fcd2b2b8": {
       "versjon": 1,
-      "sjekksum": "483ab780439b9b5d",
+      "sjekksum": "29ff1502d83ecd01",
       "relevant": false,
-      "hvorfor": "Grunnlovsforslaget gjelder organiseringen av påtalemyndigheten på nasjonalt nivå og berører ikke kommunenes oppgaver, økonomi, innbyggere eller næringsliv i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder Grunnlovens regel om uavhengig offentlig påtale, uten merkbar betydning for kommunene eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:00+01:00"
+      "laget": "2026-10-27T22:06:58+01:00"
     },
     "6bc275fdff17": {
       "versjon": 1,
-      "sjekksum": "b032885b7621eb13",
+      "sjekksum": "26110053cd1f78cc",
       "relevant": false,
-      "hvorfor": "Grunnlovsforslaget gjelder statlig påtalemyndighets uavhengighet og berører ikke kommunenes oppgaver, økonomi, tjenester eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder bare påtalemyndighetens uavhengighet i Grunnloven, ikke kommunenes oppgaver eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:58+01:00"
+      "laget": "2026-10-27T22:06:53+01:00"
     },
     "6c8f2baaf38c": {
       "versjon": 1,
-      "sjekksum": "b20ea9d28a482e18",
-      "relevant": true,
-      "hvorfor": "Nasjonale endringer i eiendomsmeglingsloven gjelder hele landet og kan påvirke eiendomsmeglerforetak, boligselgere og utleiere i regionen, selv om kommunene ikke er direkte pålagt nye oppgaver.",
+      "sjekksum": "af706373e521184d",
+      "relevant": false,
+      "hvorfor": "Gjelder forenklinger i regler for eiendomsmeglingsforetak, ikke kommunenes oppgaver, tjenester eller planlegging.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:42+01:00"
+      "laget": "2026-10-27T22:07:51+01:00"
     },
     "6db50eabb3aa": {
       "versjon": 1,
-      "sjekksum": "87f73f15e394a1b8",
+      "sjekksum": "032f09ff45541c3e",
       "relevant": false,
-      "hvorfor": "Gjelder statlig drift av utlendingsinternatet og restriksjoner for internerte, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i Gjøvikregionen merkbart.",
+      "hvorfor": "Gjelder statlig drift av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:17+01:00"
+      "laget": "2026-10-27T22:07:22+01:00"
     },
     "72aaf5ad5099": {
       "versjon": 1,
-      "sjekksum": "42a4b09c4a37532c",
+      "sjekksum": "679dc855f08ef5b9",
       "relevant": false,
-      "hvorfor": "Lokal reguleringsplan for utskifting av en bru på fv. 213 i Ringsaker kommune, som ligger utenfor Gjøvikregionen og ikke berører kommunene eller næringslivet her.",
+      "hvorfor": "Gjelder bare utskifting av én fylkesveibru i Ringsaker kommune.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:04:05+01:00"
+      "laget": "2026-10-27T22:11:14+01:00"
     },
     "75567d8c825c": {
       "versjon": 1,
-      "sjekksum": "060a80980763bc66",
+      "sjekksum": "e3608a6d0221c9c6",
       "relevant": true,
-      "hvorfor": "",
+      "hvorfor": "Nasjonale endringer i trossamfunnsloven om taushetsplikt gjelder trossamfunn og innbyggere over hele landet, også i regionens kommuner.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:58:51+01:00"
+      "laget": "2026-10-27T22:05:37+01:00"
     },
     "77e746e4c4a7": {
       "versjon": 1,
-      "sjekksum": "9745fa5750144a22",
+      "sjekksum": "cdea93d254dff7a8",
       "relevant": true,
-      "hvorfor": "Nasjonale dyrehelseregler for blåtunge, kverke og ringorm, ny meldeplikt for aborter hos sau og geit og endrede forflytningskrav berører regionens husdyrbønder og landbruksnæring.",
+      "hvorfor": "Endret håndtering av blåtunge, kverke og ringorm og ny meldeplikt for aborter hos sau og geit kan berøre husdyrbønder i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:25+01:00"
+      "laget": "2026-10-27T22:10:32+01:00"
     },
     "7bdc37294b5b": {
       "versjon": 1,
-      "sjekksum": "4f79990431461287",
+      "sjekksum": "fc0e86fb61ee7764",
       "relevant": true,
-      "hvorfor": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan gjelde kommunene som vegeiere og byggherrer, og entreprenører i regionen som utfører arbeid på og ved offentlig veg.",
+      "hvorfor": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan påvirke kommunene som vegeiere og vegmyndighet, og entreprenører som jobber på og ved veg.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:19+01:00"
+      "laget": "2026-10-27T22:09:26+01:00"
     },
     "81abe04a558c": {
       "versjon": 1,
-      "sjekksum": "583d088e25583202",
+      "sjekksum": "75621bfa0c68821a",
       "relevant": true,
-      "hvorfor": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan gi barn og unge i regionen bedre vern, og kan berøre kommunenes forebyggende arbeid og spillutviklere i teknologimiljøene, f.eks. ved NTNU i Gjøvik.",
+      "hvorfor": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan gjelde barn og unge i alle kommuner, og KS er blant høringsinstansene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:55+01:00"
+      "laget": "2026-10-27T22:08:00+01:00"
     },
     "82434d4968e1": {
       "versjon": 1,
-      "sjekksum": "2ea925bcd0a671b2",
+      "sjekksum": "ed2806c5d7fe996e",
       "relevant": false,
-      "hvorfor": "Forskriften gjelder lønnsvilkår på skip, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder bare lønnsvilkår på skip, en næring som knapt finnes i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:59+01:00"
+      "laget": "2026-10-27T22:08:05+01:00"
     },
     "8590425183d7": {
       "versjon": 1,
-      "sjekksum": "ab359e151da4bee9",
+      "sjekksum": "fd56ee1049bc23c6",
       "relevant": false,
-      "hvorfor": "Endringene gjelder mottak og håndtering av avfall fra skip i havner, og regionen har ingen kysthavner, så kommunene og næringslivet berøres ikke merkbart.",
+      "hvorfor": "Gjelder mottak og håndtering av avfall fra skip i havner.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:45+01:00"
+      "laget": "2026-10-27T22:09:52+01:00"
     },
     "868dbad65877": {
       "versjon": 1,
-      "sjekksum": "e885abf56ade7969",
+      "sjekksum": "0d82ae5890a385bf",
       "relevant": true,
-      "hvorfor": "Forslaget presiserer i opplæringsloven hva skolene kan tilby om gudstjenester og religiøse seremonier, og gjelder alle grunnskoler og videregående skoler som kommuner og fylkeskommuner driver.",
+      "hvorfor": "Presiseringen i opplæringsloven § 14-5 gjelder alle grunnskoler og videregående skoler, og kommunene som skoleeiere må vurdere hvordan skolene skal tilby og håndtere gudstjenester og religiøse seremonier.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:17+01:00"
+      "laget": "2026-10-27T22:08:24+01:00"
     },
     "87b13fc8a9cd": {
       "versjon": 1,
-      "sjekksum": "837201309a7fc48c",
+      "sjekksum": "c15eb2aca9a55b7d",
       "relevant": true,
-      "hvorfor": "Nye nasjonale CBAM-regler om rapportering, dokumentasjon og karbonpris på importerte varer kan gi økte kostnader og administrasjon for industri- og teknologibedrifter i regionen som importerer slike varer.",
+      "hvorfor": "Nasjonal CBAM-forskrift gir nye rapporterings- og dokumentasjonskrav for virksomheter som importerer CBAM-varer, og kan dermed berøre industri og teknologibedrifter i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:43+01:00"
+      "laget": "2026-10-27T22:09:50+01:00"
     },
     "87dd3c9c6a6a": {
       "versjon": 1,
-      "sjekksum": "770728533be769a7",
+      "sjekksum": "651acfc9b698610f",
       "relevant": true,
-      "hvorfor": "Forslaget kan gi VTA-deltakere i regionen rett til å fortsette etter fylte 67 år, noe som kan påvirke tiltaksbedrifter, innbyggerne og offentlige budsjetter, og gjelder alle kommuner nasjonalt.",
+      "hvorfor": "Nasjonal regel om VTA-deltakere over 67 år kan påvirke kommunenes tjenester og budsjetter, tiltaksbedrifter og innbyggere med nedsatt arbeidsevne.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:07+01:00"
+      "laget": "2026-10-27T22:09:16+01:00"
     },
     "8af939d61ec0": {
       "versjon": 1,
-      "sjekksum": "4205530dc94f64e2",
+      "sjekksum": "f2e3d65bdfed9f45",
       "relevant": true,
-      "hvorfor": "Forskriftsendringene gjelder forlengelse av FM-konsesjoner for lokalradio 2027–2031 og kan påvirke lokalradioer i regionen, blant annet Radio Toten, Lokalradioene i Innlandet og Radio Metro Innlandet.",
+      "hvorfor": "Forskriftsendringene gjelder forlengelse av lokalradiokonsesjoner på FM i 2027–2031, og lokalradioene i Innlandet, blant dem Radio Toten, kan derfor berøres.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:14+01:00"
+      "laget": "2026-10-27T22:08:22+01:00"
     },
     "8d5dcd0258a5": {
       "versjon": 1,
-      "sjekksum": "5433e8601ef8e032",
+      "sjekksum": "760e78cc0b05257c",
       "relevant": false,
-      "hvorfor": "Forslagene gjelder politiets fristregel for innbringelse av barn og opptakskrav ved Politihøgskolen, og berører ikke kommunale oppgaver, tjenester eller næringsliv i regionen merkbart.",
+      "hvorfor": "Gjelder politiets frist for innbringelse av barn og skikkethetskrav ved Politihøgskolen, ikke kommunale oppgaver.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:10+01:00"
+      "laget": "2026-10-27T22:08:18+01:00"
     },
     "90ebc00576f2": {
       "versjon": 1,
-      "sjekksum": "8aad02dcc0df05ec",
+      "sjekksum": "59b338b4e7470399",
       "relevant": false,
-      "hvorfor": "Grunnlovsforslaget gjelder påtalemyndighetens uavhengighet i straffesaker og berører ikke kommunenes oppgaver, økonomi, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder statens påtalemyndighet og Grunnloven, ikke kommunenes oppgaver eller tjenester.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:05+01:00"
+      "laget": "2026-10-27T22:07:02+01:00"
     },
     "922068c3201e": {
       "versjon": 1,
-      "sjekksum": "79731f0bd549c82e",
+      "sjekksum": "6b4f2a05f617a5ec",
       "relevant": true,
-      "hvorfor": "Nasjonalt forslag om å tillate pluggbare solceller og batterier kan gjelde innbyggere og næringsliv i alle kommuner, og berører energi, nettilknytning og eventuelt kommunenes rolle i byggesaker og beredskap.",
+      "hvorfor": "Nasjonalt forslag om pluggbare solceller og batterier kan gi innbyggere og bedrifter i regionen nye muligheter for egen strømproduksjon og påvirke energiregelverket.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:32+01:00"
+      "laget": "2026-10-27T22:06:21+01:00"
     },
     "929e7e070e99": {
       "versjon": 1,
-      "sjekksum": "63424335dd63efa8",
+      "sjekksum": "70ae66438d441ea2",
       "relevant": true,
-      "hvorfor": "Nasjonale endringer i e-helseløsninger, kjernejournal, fastlegeforskrift, smittevern og asylsøkeropplysninger berører kommunenes helse- og omsorgstjenester, fastleger, økonomi (betaling for e-helseløsninger) og plikter, og kommunene er høringsinstans.",
+      "hvorfor": "Nasjonale e-helseløsninger, kjernejournal, smittevern og helseopplysninger gjelder landets kommuner, med nye plikter for helsetjenesten og hjemmel for kommunenes behandling av opplysninger om asylsøkere.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:49+01:00"
+      "laget": "2026-10-27T22:09:01+01:00"
     },
     "958fc8782702": {
       "versjon": 1,
-      "sjekksum": "d52abe0b44ca4e38",
+      "sjekksum": "717fce524d6018f8",
       "relevant": false,
-      "hvorfor": "Gjelder en teknisk endring i produktforskriften som flytter oppgaver mellom EU-byråer på kjemikalieområdet, uten økonomiske eller administrative konsekvenser for kommuner, innbyggere eller næringsliv i regionen.",
+      "hvorfor": "Gjelder omfordeling av oppgaver mellom EU-byråer på kjemikalieområdet, uten konsekvenser utover tekniske regelverksendringer.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:55+01:00"
+      "laget": "2026-10-27T22:09:59+01:00"
     },
     "95b6fe293927": {
       "versjon": 1,
-      "sjekksum": "0c3b0bdcc6fbe4e7",
+      "sjekksum": "89e8794608e9a0f6",
       "relevant": true,
-      "hvorfor": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde gartnere og bønder i regionens landbruk, og kan også påvirke kommuner som bruker plantevernmidler, for eksempel på grøntarealer.",
+      "hvorfor": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde landbruket i regionen, og kan også berøre kommunale grøntarealer og idrettsanlegg.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:30+01:00"
+      "laget": "2026-10-27T22:10:36+01:00"
     },
     "9663429b6c14": {
       "versjon": 1,
-      "sjekksum": "d8443c79ac410891",
+      "sjekksum": "7255e7dc7b24858f",
       "relevant": false,
-      "hvorfor": "Teknisk regelendring som tar inn plantevernstoffet klorpyrifos i EUs POP-forordning via produktforskriften, uten vesentlige økonomiske eller administrative konsekvenser for kommunene, innbyggerne eller næringslivet i regionen.",
+      "hvorfor": "Gjelder bare oppføring av ett plantevernstoff i EU-regelverket om persistente organiske forbindelser, uten merkbare konsekvenser.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:52+01:00"
+      "laget": "2026-10-27T22:09:57+01:00"
     },
     "99988a251675": {
       "versjon": 1,
-      "sjekksum": "65c310e68a06d1e8",
+      "sjekksum": "cc6b0c1589b3496f",
       "relevant": true,
-      "hvorfor": "Nasjonale førerkortregler for 17-åringer og tyngre kjøretøy med alternativt drivstoff berører innbyggere, ungdom, trafikkopplæring og transportnæringen i regionen, og lærlinger kan få andre alderskrav ved øvingskjøring.",
+      "hvorfor": "Nasjonale førerkortregler om ledsaget kjøring fra 17 år og høyere vektgrense for alternativt drivstoff berører innbyggere, trafikkopplæring og transportnæringen i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:16+01:00"
+      "laget": "2026-10-27T22:09:24+01:00"
     },
     "99d3cae515d7": {
       "versjon": 1,
-      "sjekksum": "c12ec245f37e5919",
+      "sjekksum": "45b54c0c983b3fcf",
       "relevant": true,
-      "hvorfor": "Nasjonale endringer i utslippskrav til krematorier gjelder alle landets krematorier, og kan berøre krematorier i regionen, kommunale eller kirkelige eiere og lokal forurensningsmyndighet ved nybygg, drift og utslippsmålinger.",
+      "hvorfor": "Nye utslipps- og rensekrav for krematorier kan gjelde krematorier i regionen, og berører forurensningsmyndighet og drift, ofte kommunal eller kirkelig.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:08+01:00"
+      "laget": "2026-10-27T22:10:13+01:00"
     },
     "9c040c5439f5": {
       "versjon": 1,
-      "sjekksum": "042fa42122096d06",
-      "relevant": false,
-      "hvorfor": "Lokal detaljregulering av E6 mellom Sjoa og Otta i Sel kommune i Gudbrandsdalen, langt fra Gjøvikregionen, uten merkbar virkning for kommunene eller næringslivet her.",
+      "sjekksum": "4254263fb7ee7110",
+      "relevant": true,
+      "hvorfor": "Planforslaget gjelder ny E6 mellom Sjoa og Otta og rundkjøring mot rv. 15, altså samferdselsinfrastruktur i Innlandet.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:36+01:00"
+      "laget": "2026-10-27T22:09:45+01:00"
     },
     "9c349cfc8058": {
       "versjon": 1,
-      "sjekksum": "4d8ad7dba476fc4f",
+      "sjekksum": "199cff06159650fb",
       "relevant": true,
-      "hvorfor": "Endringer i markedsreguleringen for jordbruksråvarer kan påvirke bønder, meierier og slakterier i regionens landbruk, men teksten sier lite om selve innholdet i endringene.",
+      "hvorfor": "Endringer i regelverket for Omsetningsrådets markedsregulering av jordbruksråvarer kan påvirke bønder og landbruksbasert næringsliv i regionen, som har landbruk som en viktig næring.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:54+01:00"
+      "laget": "2026-10-27T22:09:05+01:00"
     },
     "9cc5afca6a10": {
       "versjon": 1,
-      "sjekksum": "6e37c3de3b6b2ae8",
+      "sjekksum": "fe3f67e78d5310f7",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, uten merkbar betydning for kommuner eller næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:04+01:00"
+      "laget": "2026-10-27T22:05:48+01:00"
     },
     "9cf0a0c2008e": {
       "versjon": 1,
-      "sjekksum": "628196aa38dd43c2",
+      "sjekksum": "0010d87c5054a138",
       "relevant": true,
-      "hvorfor": "Nasjonal regelendring som kan frata yrkessjåfører med syn på ett øye retten til tunge førerkort fra 2028, noe som kan ramme transportnæringen og arbeidsplasser i regionen.",
+      "hvorfor": "Nasjonal regelendring som kan frata yrkessjåfører med syn på ett øye retten til tunge førerkort, noe som kan berøre transportnæringen og arbeidsplasser i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:24+01:00"
+      "laget": "2026-10-27T22:09:33+01:00"
     },
     "9d8000136a3b": {
       "versjon": 1,
-      "sjekksum": "9d8c5cf57069c47c",
+      "sjekksum": "74369b3aa694970f",
       "relevant": true,
-      "hvorfor": "Forslaget pålegger kommunene å organisere smågruppeundervisning i lesing, skriving og regning på 1.–2. trinn og fjerner leksehjelpplikten, noe som påvirker skoledrift, bemanning og kommuneøkonomi i alle regionens kommuner.",
+      "hvorfor": "Kommunene som skoleeiere får ny plikt til smågruppeundervisning på 1.–2. trinn og slipper plikten til å tilby leksehjelp, noe som påvirker skoletilbud, økonomi og bemanning.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:03+01:00"
+      "laget": "2026-10-27T22:08:09+01:00"
     },
     "a1692dc49017": {
       "versjon": 1,
-      "sjekksum": "11ad76cb60429031",
+      "sjekksum": "8455083272a2663a",
       "relevant": true,
-      "hvorfor": "Nye trafikkregler for hest gjelder over hele landet og kan berøre hestebrukere og bilister på veier i regionens fem kommuner, blant annet i landbruksområder.",
+      "hvorfor": "Nasjonale trafikkregler om hest i trafikken gjelder alle veger, også i landbrukspregede kommuner, og påvirker både bilister og hestebrukere.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:29+01:00"
+      "laget": "2026-10-27T22:09:37+01:00"
     },
     "a1a10035e181": {
       "versjon": 1,
-      "sjekksum": "6162646b12dc1cf1",
+      "sjekksum": "3b4a02d9aed4d7c9",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder bare meldte organers prosedyrer og forholdet til produsenter av medisinsk utstyr, og berører ikke kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder bare meldte organers prosedyrer og forholdet til produsenter av medisinsk utstyr, ikke kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:21+01:00"
+      "laget": "2026-10-27T22:10:28+01:00"
     },
     "a617b9031e22": {
       "versjon": 1,
-      "sjekksum": "f67b56acec65cfd1",
+      "sjekksum": "0bd2d3023325c198",
       "relevant": true,
-      "hvorfor": "Endret legespesialisering mot breddekompetanse skal dekke behovene i kommunal helse- og omsorgstjeneste, og kan påvirke legetilgang, kompetanse og samarbeid mellom kommuner og Sykehuset Innlandet i regionen.",
+      "hvorfor": "Endringer i legenes spesialistutdanning mot breddekompetanse og behov i den kommunale helse- og omsorgstjenesten kan påvirke legetilgang og tjenester til eldre i kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:19+01:00"
+      "laget": "2026-10-27T22:10:27+01:00"
     },
     "a707facb1eff": {
       "versjon": 1,
-      "sjekksum": "4e89aa47c4425d8f",
+      "sjekksum": "c7f70c46213d3f14",
       "relevant": true,
-      "hvorfor": "Ekspertutvalget vurderer samfunnsøkonomien i klimatilpasning for sektorer som jordbruk, skogbruk, samferdsel, vann og avløp og beredskap, og alle kommuner er høringsinstanser.",
+      "hvorfor": "Alle kommuner er høringsinstanser, og rapporten vurderer klimatilpasning for jordbruk, skogbruk, samferdsel, vann og avløp, kraft og beredskap, som angår kommunenes ansvar og infrastruktur.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:00+01:00"
+      "laget": "2026-10-27T22:09:11+01:00"
     },
     "a9743acce7d8": {
       "versjon": 1,
-      "sjekksum": "47ab68bf784412b9",
+      "sjekksum": "7eb67a3b72420064",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder kun hvordan Finanstilsynet fordeler tilsynsutgifter mellom folkefinansieringsforetak, og er så smalt at det ikke berører kommunene, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder bare hvordan Finanstilsynets utgifter fordeles på folkefinansieringsforetak.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:40+01:00"
+      "laget": "2026-10-27T22:08:52+01:00"
     },
     "ab01fdcf2eec": {
       "versjon": 1,
-      "sjekksum": "fb210f82230eea17",
+      "sjekksum": "a7b21d29873cf24d",
       "relevant": true,
-      "hvorfor": "Utredningen om fellesskolen kan gi endringer i grunnskolens innhold, organisering og kvalitet, som kommunene driver og finansierer, og kommunene er egne høringsinstanser og kan gi felles høringsuttalelse.",
+      "hvorfor": "Utredningen om fellesskolen kan gi nye krav til kommunene som skoleeiere, og kommunene kan sende felles høringsuttalelse med innspill fra egne skoler.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:38+01:00"
+      "laget": "2026-10-27T22:08:50+01:00"
     },
     "adee425af343": {
       "versjon": 1,
-      "sjekksum": "0e0eec56af405e88",
+      "sjekksum": "ac91f83468131895",
       "relevant": false,
-      "hvorfor": "Gjelder det etiske rammeverket for oljefondets utenlandske investeringer og berører ikke kommunenes oppgaver, økonomi, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder det etiske rammeverket for Statens pensjonsfond utland, ikke kommunenes oppgaver, økonomi eller regionens næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:46+01:00"
+      "laget": "2026-10-27T22:07:53+01:00"
     },
     "af2e157b59ab": {
       "versjon": 1,
-      "sjekksum": "89bc567f00f1ac7c",
+      "sjekksum": "35e7e388f8139742",
       "relevant": true,
-      "hvorfor": "Endringer i CO2-avgiften slår ut på drivstoffpriser, transportkostnader og energibruk for innbyggere, industri, landbruk og skogbruk i regionen, og kan påvirke kommunenes klimapolitikk.",
+      "hvorfor": "Endret CO2-avgift påvirker drivstoffpriser og kostnader for transport, landbruk og industri i regionen, og dermed næringslivet og innbyggerne.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:42+01:00"
+      "laget": "2026-10-27T22:06:35+01:00"
     },
     "af99c30570fd": {
       "versjon": 1,
-      "sjekksum": "214e4a290202c7ce",
+      "sjekksum": "0d304087abcc0150",
       "relevant": true,
-      "hvorfor": "Oppheving av rammeplanen for ingeniørutdanning gir mer fleksible ingeniørstudier og kan påvirke ingeniørutdanningen ved NTNU i Gjøvik og teknologibedriftene som rekrutterer ingeniører.",
+      "hvorfor": "Opphevingen av rammeplanen for ingeniørutdanning endrer styringen av alle treårige ingeniørutdanninger i landet, som berører ingeniørmiljøet ved NTNU i Gjøvik og teknologibedriftene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:33+01:00"
+      "laget": "2026-10-27T22:07:39+01:00"
     },
     "b2c43c21458e": {
       "versjon": 1,
-      "sjekksum": "ffc5e302f6ad4a1a",
+      "sjekksum": "6ec33c00e50c0137",
       "relevant": true,
-      "hvorfor": "Nasjonalt forbud mot fossil gass (i hovedsak propan) til oppvarming av bolig-, nærings- og landbruksbygg fra 2028 kan treffe bygningseiere og bedrifter i regionen, selv om bruken er liten.",
+      "hvorfor": "Nasjonalt forbud mot fossil gass (i praksis propan) til oppvarming av bygninger fra 2028 kan gjelde bolig-, nærings- og landbruksbygg i kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:41+01:00"
+      "laget": "2026-10-27T22:09:48+01:00"
     },
     "b40b58e8e0b2": {
       "versjon": 1,
-      "sjekksum": "90f0fed8dd2fdbc2",
+      "sjekksum": "3a1c10394c4a2944",
       "relevant": true,
-      "hvorfor": "Nasjonale tiltak mot tvangsekteskap og kjønnslemlestelse kan gi kommunene nye oppgaver og krav til skole, helsetjenester, barnevern og tverrfaglig oppfølging.",
+      "hvorfor": "Nasjonale tiltak mot tvangsekteskap og kjønnslemlestelse kan gi føringer for kommunenes arbeid, for eksempel i skole, helsetjenester og barnevern.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:13+01:00"
+      "laget": "2026-10-27T22:07:18+01:00"
     },
     "b49b5c684460": {
       "versjon": 1,
-      "sjekksum": "9363c5c1e084e377",
+      "sjekksum": "9fc966396a6bd3d7",
       "relevant": true,
-      "hvorfor": "Strategien fastsetter kriterier for geografisk plassering og autorisering av besøkssentre for natur, og kan gi regionen mulighet til å søke eller berøre eksisterende sentre, reiseliv og naturformidling.",
+      "hvorfor": "Nasjonal strategi med kriterier for autorisering og plassering av besøkssentre for natur, som kan gi regionen mulighet til å søke eller beholde et senter.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:29+01:00"
+      "laget": "2026-10-27T22:08:42+01:00"
     },
     "b49bc7affad8": {
       "versjon": 1,
-      "sjekksum": "bc15728b744a116f",
+      "sjekksum": "ea0ddcf911cdbbbd",
       "relevant": false,
-      "hvorfor": "Gjelder en enkelt utslippssøknad for et karbonfangstanlegg i Kirkenær i Grue kommune, utenfor Gjøvikregionen, uten merkbare virkninger for kommunene eller næringslivet her.",
+      "hvorfor": "Gjelder utslippstillatelse for ett karbonfangstanlegg ved Solør Bioenergi i Kirkenær, Grue kommune.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:57+01:00"
+      "laget": "2026-10-27T22:10:04+01:00"
     },
     "b58acb7cbf72": {
       "versjon": 1,
-      "sjekksum": "cb6200ad6ae73210",
+      "sjekksum": "6e8c3f7dbbd81f6c",
       "relevant": true,
-      "hvorfor": "Forslaget gjelder hele landet og kan påvirke inntektene til frivillige organisasjoner og idrettslag i regionens kommuner, som ofte er avhengige av lotterier og spill til drift og aktiviteter.",
+      "hvorfor": "Digitale lotterier kan gi frivillige organisasjoner og idrettslag i kommunene nye inntekter, og saken berører kommunenes forhold til lokalt frivillig- og idrettsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:06+01:00"
+      "laget": "2026-10-27T22:05:50+01:00"
     },
     "b5d10c057333": {
       "versjon": 1,
-      "sjekksum": "e210a69e838ca0b4",
+      "sjekksum": "a5401d4003323444",
       "relevant": true,
-      "hvorfor": "Ny modell for fordeling av skatt mellom skattekreditorene, der fordelingstall baseres på landstotalen, kan gi kommunene mer stabile skatteinntekter og endre hvordan skatteregnskapet føres.",
+      "hvorfor": "Ny modell for fordeling av skatt mellom skattekreditorene, med fordelingstall basert på landstotalen i stedet for kommunens egen skatt, kan endre kommunenes skatteinntekter og likviditet.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:57+01:00"
+      "laget": "2026-10-27T22:11:07+01:00"
     },
     "b70f48dec37e": {
       "versjon": 1,
-      "sjekksum": "83b0124508fb5fa7",
+      "sjekksum": "25d084fe3c090823",
       "relevant": true,
-      "hvorfor": "",
+      "hvorfor": "Statsbudsjettet for familie- og kulturfeltet kan påvirke kommunenes økonomi og tjenester på disse områdene, siden bevilgningene gjelder alle kommuner.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:58:55+01:00"
+      "laget": "2026-10-27T22:05:41+01:00"
     },
     "b7139428bdd0": {
       "versjon": 1,
-      "sjekksum": "1ca86b087d377f63",
-      "relevant": true,
-      "hvorfor": "Forskriftene til Statens vegvesen tilpasses ny forvaltningslov, noe som kan endre saksbehandlingsreglene på vegområdet som kommunene bruker, men teksten sier lite om konkrete endringer.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:21+01:00"
-    },
-    "b8e3e04748ba": {
-      "versjon": 1,
-      "sjekksum": "6227a5438a2b4763",
-      "relevant": false,
-      "hvorfor": "Gjelder CO2-avgift for kvotepliktig sjøfart og offshore-fartøy på norsk sokkel, en næring som knapt finnes i Gjøvikregionen, og berører dermed ikke kommunene eller næringslivet her.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:51+01:00"
-    },
-    "c3023dcf4511": {
-      "versjon": 1,
-      "sjekksum": "a4daff2827167c3a",
-      "relevant": true,
-      "hvorfor": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, pasientjournalsystemer og IKT-løsninger, samt sykehuset i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:26+01:00"
-    },
-    "c516cdc946d6": {
-      "versjon": 1,
-      "sjekksum": "92d7de7b083c9528",
+      "sjekksum": "a7d143ac76201fa7",
       "relevant": true,
       "hvorfor": "",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:09+01:00"
+      "laget": "2026-10-27T22:09:31+01:00"
+    },
+    "b8e3e04748ba": {
+      "versjon": 1,
+      "sjekksum": "30f8b7179ca98a06",
+      "relevant": false,
+      "hvorfor": "Gjelder bare CO2-avgift for kvotepliktig sjøfart og offshore-fartøy, en næring som knapt finnes i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T22:10:55+01:00"
+    },
+    "c3023dcf4511": {
+      "versjon": 1,
+      "sjekksum": "04b34fbccb112429",
+      "relevant": true,
+      "hvorfor": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, journalsystemer og IKT-løsninger, samt sykehuset i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T22:06:15+01:00"
+    },
+    "c516cdc946d6": {
+      "versjon": 1,
+      "sjekksum": "7fbe29ed4484e42b",
+      "relevant": true,
+      "hvorfor": "Meldingen om eksport av forsvarsmateriell og eksportkontroll kan påvirke industri- og teknologibedrifter i regionen som leverer til forsvarsmarkedet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-10-27T22:07:07+01:00"
     },
     "c51b51b3b5cc": {
       "versjon": 1,
-      "sjekksum": "10ad52d8d8870292",
+      "sjekksum": "fdb01434f2d07f19",
       "relevant": true,
-      "hvorfor": "Forskriften om tilfluktssteder gjelder hele landet og kan gi kommunene nye oppgaver og kostnader i beredskapsarbeid, planlegging og vern av innbyggere og kritiske virksomheter i krig.",
+      "hvorfor": "Forskriften regulerer tilfluktssteder og beskyttelse av sivilbefolkningen i krig, noe som kan gi kommunene nye oppgaver, krav og kostnader innen beredskap og planlegging.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:09+01:00"
+      "laget": "2026-10-27T22:09:18+01:00"
     },
     "c5afff646a52": {
       "versjon": 1,
-      "sjekksum": "bcddffa9479089c1",
+      "sjekksum": "1c870120dc6f94c9",
       "relevant": false,
-      "hvorfor": "Endringene gjelder kontrolltiltak i fengsler og kriminalomsorgens enheter, som er statlig ansvar, og berører ikke kommunenes oppgaver, økonomi, innbyggere eller næringsliv i regionen merkbart.",
+      "hvorfor": "Gjelder bare kontrolltiltak overfor innsatte og besøkende i kriminalomsorgens enheter, som er et statlig ansvar.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:05+01:00"
+      "laget": "2026-10-27T22:09:15+01:00"
     },
     "c8305ff88bfd": {
       "versjon": 1,
-      "sjekksum": "6bc2fccc7271d2b3",
-      "relevant": false,
-      "hvorfor": "Gjelder bare skatte- og satsendringer for tjenestepliktige i Sivilforsvaret, og berører ikke kommunenes oppgaver, økonomi eller næringslivet i regionen på noen merkbar måte.",
+      "sjekksum": "fac0394308eb76c4",
+      "relevant": true,
+      "hvorfor": "Forskriften øker satsene for ulempe- og ledertillegg til tjenestepliktige i Sivilforsvaret og kan dermed berøre innbyggere i regionen som har slik tjeneste.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:14+01:00"
+      "laget": "2026-10-27T22:10:23+01:00"
     },
     "ca983dee207f": {
       "versjon": 1,
-      "sjekksum": "ffdd6f22e9f5dc6c",
-      "relevant": false,
-      "hvorfor": "Gjelder krav til finansforetak om tilknytning til klagenemd i forbrukertvister, og berører ikke kommunenes oppgaver, økonomi eller planlegging, og heller ikke næringslivet i regionen på noen merkbar måte.",
+      "sjekksum": "5ccd2778bf49e9ab",
+      "relevant": true,
+      "hvorfor": "Alle aktører i finanssektoren skal tilknyttes en godkjent klagenemd, noe som gir innbyggerne som forbrukere en sikrere klagemulighet i tvister med finansaktører.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:38+01:00"
+      "laget": "2026-10-27T22:07:48+01:00"
     },
     "cb9a1cb566ff": {
       "versjon": 1,
-      "sjekksum": "cd962b9d1b3ab5a9",
+      "sjekksum": "bf6b440f812360a8",
       "relevant": false,
-      "hvorfor": "Gjelder snevre tekniske endringer: Romania på lista for fôring av åtselsfugler og biodieselmetoder for animalske biprodukter. Berører neppe kommunene, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder Romania på listen for fôring av åtselsfugler og tekniske regler for biodiesel fra animalske biprodukter.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:32+01:00"
+      "laget": "2026-10-27T22:10:38+01:00"
     },
     "ce28d7268a81": {
       "versjon": 1,
-      "sjekksum": "ba7c6a987f43c5cb",
+      "sjekksum": "2bde7853a75247cc",
       "relevant": true,
-      "hvorfor": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten, så kommunale organer kan bli omfattet eller berørt.",
+      "hvorfor": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:56+01:00"
+      "laget": "2026-10-27T22:09:08+01:00"
     },
     "d0438f3adce5": {
       "versjon": 1,
-      "sjekksum": "8bb0b6cc4b12c735",
-      "relevant": true,
-      "hvorfor": "Nye krav til opprinnelsesmerking av honningblandinger og bortfall av «filtrert honning» kan gjelde honningprodusenter og matbedrifter i regionen, siden forskriften gjelder hele landet.",
+      "sjekksum": "34c0849c4317293a",
+      "relevant": false,
+      "hvorfor": "Gjelder bare opprinnelsesmerking og varebetegnelser for honning, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:37+01:00"
+      "laget": "2026-10-27T22:10:40+01:00"
     },
     "d2d3f10da432": {
       "versjon": 1,
-      "sjekksum": "ac11b16a7675dbeb",
+      "sjekksum": "e4f8ddade2275f9e",
       "relevant": false,
-      "hvorfor": "Grunnlovsforslaget gjelder eierskap til viltlevende marine ressurser og kystsamfunn, som i hovedsak angår fiskeri og kysten, og berører ikke kommunene i Gjøvikregionen merkbart.",
+      "hvorfor": "Gjelder bare grunnlovsfesting av marine ressurser og kystsamfunn, ikke kommunene i Gjøvikregionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:52+01:00"
+      "laget": "2026-10-27T22:06:46+01:00"
     },
     "d4361e9939e9": {
       "versjon": 1,
-      "sjekksum": "34ccb2b6f8ce0d07",
+      "sjekksum": "1f43f853c2dd5822",
       "relevant": true,
-      "hvorfor": "Grunnlovsfesting av norsk som nasjonalt hovedspråk gjelder hele landet og kan påvirke kommunenes språkbruk, tjenester og forvaltning, også i Gjøvikregionens fem kommuner.",
+      "hvorfor": "Grunnlovsfesting av norsk som nasjonalt hovedspråk kan gjelde alle kommuner og offentlig språkbruk, og dermed også kommunene i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:46+01:00"
+      "laget": "2026-10-27T22:06:41+01:00"
     },
     "d6878ef0e7f4": {
       "versjon": 1,
-      "sjekksum": "924c75366552b808",
+      "sjekksum": "ab9d34e01a03968d",
       "relevant": true,
-      "hvorfor": "Nasjonale endringer i opplæringsloven gjelder alle kommuner og fylkeskommunen som skoleeiere: klagerett på standpunktkarakterer oppheves, permisjon fra grunnskolen reguleres, og inntak til videregående kan automatiseres.",
+      "hvorfor": "Nasjonale endringer i opplæringsloven om klage på standpunktkarakterer, permisjon fra grunnskolen og automatiserte vedtak om inntak til videregående berører kommunenes skoler og saksbehandling.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:23+01:00"
+      "laget": "2026-10-27T22:07:28+01:00"
     },
     "da794dfc23c7": {
       "versjon": 1,
-      "sjekksum": "2c0b04917a03ec67",
+      "sjekksum": "6cb9b115ee73991c",
       "relevant": true,
-      "hvorfor": "Et nasjonalt forbud mot ekornjakt vil gjelde også i Innlandet og kan berøre jegere og viltforvaltningen i regionens kommuner, selv om omfanget trolig er lite.",
+      "hvorfor": "Forslaget gjelder jaktregler for hele landet og kan berøre jegere og viltforvaltningen i regionens kommuner.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:38+01:00"
+      "laget": "2026-10-27T22:06:27+01:00"
     },
     "db984834479b": {
       "versjon": 1,
@@ -884,123 +900,123 @@
     },
     "ddda7ca52c53": {
       "versjon": 1,
-      "sjekksum": "b0d4a20a6d72269a",
+      "sjekksum": "43a30778ac445c1e",
       "relevant": false,
-      "hvorfor": "Kontrollhøring i Stortinget om intern styring og kontroll i forsvarssektoren, som ikke berører kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder Stortingets kontrollhøring om intern styring og kontroll i forsvarssektoren, uten direkte følger for kommuner eller næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:08+01:00"
+      "laget": "2026-10-27T22:05:54+01:00"
     },
     "ddf56ca9d760": {
       "versjon": 1,
-      "sjekksum": "75eac0e46c5a24c0",
+      "sjekksum": "98fb863cab659aa4",
       "relevant": false,
-      "hvorfor": "Forskriften gjelder tilskuddsmidler til Arktis 2030, som forvaltes av Troms fylkeskommune sammen med Finnmark og Nordland, og berører ikke kommunene eller næringslivet i Gjøvikregionen.",
+      "hvorfor": "Gjelder tilskuddsordningen Arktis 2030, som forvaltes av Troms fylkeskommune sammen med Finnmark og Nordland.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:01+01:00"
+      "laget": "2026-10-27T22:08:06+01:00"
     },
     "defdb6b438fe": {
       "versjon": 1,
-      "sjekksum": "a7d7431e18578739",
+      "sjekksum": "c021411e300d2bee",
       "relevant": true,
-      "hvorfor": "Regional plan for nett og kraft i Innlandet kan påvirke nettkapasitet, linjetraséer og arealbruk i kommunene, og dermed kommunal planlegging, næringsutvikling og tilgang til nok energi i regionen.",
+      "hvorfor": "Regional plan for strømnettet i Innlandet skal sikre nettkapasitet og kraft til omstilling og utvikling, og kan påvirke kommunenes planlegging og næringslivets tilgang til energi.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:04:07+01:00"
+      "laget": "2026-10-27T22:11:16+01:00"
     },
     "e4f7f112e5d1": {
       "versjon": 1,
-      "sjekksum": "0f663be21f08e93e",
+      "sjekksum": "bdbb0ea3a2aacb7c",
       "relevant": true,
-      "hvorfor": "Ny lov om fylkeskommunale tannhelsetjenester endrer helse- og omsorgstjenesteloven og grensegangen mot kommunale tjenester, og kommunene står på høringslisten, så innbyggernes tannhelsetilbud og kommunenes oppgaver kan bli berørt.",
+      "hvorfor": "Ny lov om fylkeskommunale tannhelsetjenester med endringer i helse- og omsorgstjenesteloven berører grensegangen mot kommunale helsetjenester og tannhelsetilbudet til innbyggerne, og kommunene er høringsinstans.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:36+01:00"
+      "laget": "2026-10-27T22:07:42+01:00"
     },
     "e8b18a9a7937": {
       "versjon": 1,
-      "sjekksum": "eab9365164490475",
+      "sjekksum": "c2b81c848f016583",
       "relevant": true,
-      "hvorfor": "Et nasjonalt forbud og et nytt straffebud mot negativ sosial kontroll kan gi kommunene nye oppgaver innen barnevern, skole, forebygging og tilsyn med tilbud for barn og unge.",
+      "hvorfor": "Nytt straffebud og forbud mot overnattingsskoler er nasjonale regler som kan angå kommunenes arbeid mot negativ sosial kontroll og tilbud til barn og unge.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:11+01:00"
+      "laget": "2026-10-27T22:07:13+01:00"
     },
     "e9a14bdd7b62": {
       "versjon": 1,
-      "sjekksum": "8d22806e40cc1dbd",
+      "sjekksum": "5fdd83e63f4f387d",
       "relevant": true,
-      "hvorfor": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealbruk og næringsutvikling i kommunene, og regionen har teknologibedrifter og energi- og næringsarbeid der datasenteretablering kan bli aktuelt.",
+      "hvorfor": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealplanlegging og næringsutvikling i kommunene, og regionen har teknologibedrifter og arbeider med energi og næringsutvikling.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T21:59:12+01:00"
+      "laget": "2026-10-27T22:05:57+01:00"
     },
     "eb7e8a64289f": {
       "versjon": 1,
-      "sjekksum": "afce7958e27d5ec5",
+      "sjekksum": "f2c5f9753a70bec3",
       "relevant": false,
-      "hvorfor": "Gjelder et havneanlegg for havbasert vindkraft i Strömstad i Sverige, ved svenskegrensen på Vestlandskysten av Østfold/Viken-siden, uten merkbar berøring av kommunene, næringslivet eller innbyggerne i Gjøvikregionen.",
+      "hvorfor": "Gjelder bare et havneanlegg for havbasert vindkraft i Strömstad kommune i Sverige, nær svenskegrensen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:02:48+01:00"
+      "laget": "2026-10-27T22:09:55+01:00"
     },
     "ef6918aedd9c": {
       "versjon": 1,
-      "sjekksum": "32337863c3702bef",
+      "sjekksum": "469770afaa1e06bc",
       "relevant": false,
-      "hvorfor": "Teknisk oppdatering av EU-restriksjoner for CMR-stoffer i forbrukerprodukter, uten vesentlige administrative eller økonomiske konsekvenser for kommuner, innbyggere eller næringsliv i regionen utover det som følger av EU-regelverket.",
+      "hvorfor": "Gjelder bare kjemikalierestriksjoner for CMR-stoffer i forbrukerprodukter, som er et smalt, teknisk regelverk.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:00+01:00"
+      "laget": "2026-10-27T22:10:06+01:00"
     },
     "f0a7695c12e1": {
       "versjon": 1,
-      "sjekksum": "d507f70f77ebbc0b",
+      "sjekksum": "9e61ed38ad1c47eb",
       "relevant": false,
-      "hvorfor": "Forslaget gjelder bare at næringsmiddelforskrifter skal gjelde for Svalbard, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen.",
+      "hvorfor": "Gjelder bare at næringsmiddelforskrifter skal gjelde for Svalbard.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:27+01:00"
+      "laget": "2026-10-27T22:10:34+01:00"
     },
     "f4d08a80ccc3": {
       "versjon": 1,
-      "sjekksum": "1407bbdeff2f7b4c",
+      "sjekksum": "5c22766e83b8f196",
       "relevant": false,
-      "hvorfor": "Gjelder regelverk om godkjenningsfritak for legemidler til alvorlig syke, rettet mot legemiddelmyndigheter og sykehus, og berører ikke kommunene, innbyggerne eller næringslivet i regionen merkbart.",
+      "hvorfor": "Gjelder smal legemiddelregulering om godkjenningsfritak for alvorlig syke, uten merkbar virkning for kommunene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:05+01:00"
+      "laget": "2026-10-27T22:08:15+01:00"
     },
     "f644746b0c53": {
       "versjon": 1,
-      "sjekksum": "c6bab27434663e1e",
+      "sjekksum": "06151c177ab1d7ee",
       "relevant": false,
-      "hvorfor": "Gjelder kun kapitalkrav for store banker som bruker interne modeller (IRB-banker), og berører ikke kommunenes oppgaver, økonomi eller næringslivet i regionen på noen merkbar måte.",
+      "hvorfor": "Gjelder bare kapitalkrav for store banker (IRB-banker), uten merkbar virkning for kommunene eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:36+01:00"
+      "laget": "2026-10-27T22:08:48+01:00"
     },
     "f80136314e9f": {
       "versjon": 1,
-      "sjekksum": "7eb757de2b22a957",
+      "sjekksum": "b4cd8cc010135624",
       "relevant": true,
-      "hvorfor": "Nye nasjonale rammeplaner for lærerutdanningene erstatter elleve gjeldende planer og kan påvirke lærerutdanningen ved NTNU i Gjøvik, og dermed lærertilgangen i skoler og barnehager i kommunene.",
+      "hvorfor": "Nye nasjonale rammeplaner for alle lærerutdanninger kan påvirke lærerutdanningen ved NTNU i Gjøvik og kommunenes tilgang på lærere i skole og barnehage.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:34+01:00"
+      "laget": "2026-10-27T22:08:46+01:00"
     },
     "f84de76c0415": {
       "versjon": 1,
-      "sjekksum": "469517a038e3398e",
+      "sjekksum": "2a53ce44194604c8",
       "relevant": true,
-      "hvorfor": "Retningslinjen gjelder mat og ernæring i kommunale helse- og omsorgstjenester som sykehjem og hjemmetjenester, og kan gi kommunene nye faglige krav, endret bemanning og organisering.",
+      "hvorfor": "Ny nasjonal retningslinje for mat og ernæring i helse- og omsorgstjenesten kan påvirke kommunenes sykehjem og hjemmetjenester, bemanning og organisering, og kommunene er direkte høringsinstanser.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:03:16+01:00"
+      "laget": "2026-10-27T22:10:25+01:00"
     },
     "fa996d9148ed": {
       "versjon": 1,
-      "sjekksum": "0bb2e0aed3e4639c",
+      "sjekksum": "54f9a6bf1305f525",
       "relevant": true,
-      "hvorfor": "Tilskuddsordningen kan gi industri- og teknologibedrifter i regionen mulighet for støtte til økt produksjonskapasitet, og Nammo er blant høringsinstansene.",
+      "hvorfor": "Tilskuddsordningen for økt produksjonskapasitet i forsvarsindustrien kan gi investeringer og arbeidsplasser for industri- og teknologibedrifter, også i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:27+01:00"
+      "laget": "2026-10-27T22:07:32+01:00"
     },
     "ff02aceeac6b": {
       "versjon": 1,
-      "sjekksum": "6ca559d011100a2d",
+      "sjekksum": "c610ce88c5a0bbef",
       "relevant": false,
-      "hvorfor": "Rent teknisk flytting av forskriftsbestemmelser om petroleumsskatt uten proveny- eller andre virkninger, og petroleum er en næring som knapt finnes i regionen.",
+      "hvorfor": "Gjelder teknisk flytting av forskrifter til petroleumsskattelova, uten provenyverknad.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:00:40+01:00"
+      "laget": "2026-10-27T22:07:49+01:00"
     }
   }
 }

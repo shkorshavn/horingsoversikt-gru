@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-27T22:04:08+01:00",
+  "generert": "2026-10-27T22:11:17+01:00",
   "antall": 127,
   "horinger": [
     {
@@ -29,7 +29,7 @@
       "ny": true,
       "sammendrag": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger, foreslått fra 1. januar 2028, med de samme unntakene som for mineralolje. Det foreslås også egne regler for gassrørledningsnett som leverer en blanding av fossil og fornybar gass.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forbud mot fossil gass (i hovedsak propan) til oppvarming av bolig-, nærings- og landbruksbygg fra 2028 kan treffe bygningseiere og bedrifter i regionen, selv om bruken er liten."
+      "hvorfor_relevant": "Nasjonalt forbud mot fossil gass (i praksis propan) til oppvarming av bygninger fra 2028 kan gjelde bolig-, nærings- og landbruksbygg i kommunene."
     },
     {
       "kilde": "Stortinget",
@@ -58,7 +58,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om en nasjonal strategi for datasenterindustrien.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealbruk og næringsutvikling i kommunene, og regionen har teknologibedrifter og energi- og næringsarbeid der datasenteretablering kan bli aktuelt."
+      "hvorfor_relevant": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealplanlegging og næringsutvikling i kommunene, og regionen har teknologibedrifter og arbeider med energi og næringsutvikling."
     },
     {
       "kilde": "Stortinget",
@@ -87,7 +87,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om å innføre rullerende maksimal tillatt biomasse (MTB). Formålet er å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og gi økt verdiskaping.",
       "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder maksimal tillatt biomasse i havbruk, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene eller næringslivet her merkbart."
+      "hvorfor_relevant": "Gjelder bare regulering av maksimal tillatt biomasse i havbruk, en kystnæring som knapt finnes i regionen."
     },
     {
       "kilde": "Stortinget",
@@ -116,7 +116,7 @@
       "ny": true,
       "sammendrag": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser. Hvilke tiltak som foreslås, går ikke fram av teksten.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale tiltak mot tvangsekteskap og kjønnslemlestelse kan gi kommunene nye oppgaver og krav til skole, helsetjenester, barnevern og tverrfaglig oppfølging."
+      "hvorfor_relevant": "Nasjonale tiltak mot tvangsekteskap og kjønnslemlestelse kan gi føringer for kommunenes arbeid, for eksempel i skole, helsetjenester og barnevern."
     },
     {
       "kilde": "Stortinget",
@@ -145,7 +145,7 @@
       "ny": true,
       "sammendrag": "Meld. St. 12 (2025–2026) om eksport av forsvarsmateriell fra Norge og eksportkontroll i 2025 skal behandles i en muntlig høring i Stortinget.",
       "relevant": true,
-      "hvorfor_relevant": ""
+      "hvorfor_relevant": "Meldingen om eksport av forsvarsmateriell og eksportkontroll kan påvirke industri- og teknologibedrifter i regionen som leverer til forsvarsmarkedet."
     },
     {
       "kilde": "Stortinget",
@@ -174,7 +174,7 @@
       "ny": false,
       "sammendrag": "Endringer i lov om medisinsk utstyr for å gjennomføre EU-forordning 2024/568 om gebyrer og avgifter som skal betales til Det europeiske legemiddelbyrå (EMA).",
       "relevant": false,
-      "hvorfor_relevant": "Lovendringen gjelder gebyrer til Det europeiske legemiddelbyrået (EMA) i EU-regelverket, og berører først og fremst produsenter og tilsynsmyndigheter, ikke kommunene, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder tekniske gebyrer til EMA etter regelverket for medisinsk utstyr."
     },
     {
       "kilde": "Stortinget",
@@ -203,7 +203,7 @@
       "ny": false,
       "sammendrag": "Endringer i trossamfunnsloven og andre lover når det gjelder taushetsplikt, slik det er lagt fram i Prop. 102 L (2025–2026).",
       "relevant": true,
-      "hvorfor_relevant": ""
+      "hvorfor_relevant": "Nasjonale endringer i trossamfunnsloven om taushetsplikt gjelder trossamfunn og innbyggere over hele landet, også i regionens kommuner."
     },
     {
       "kilde": "Regjeringen.no",
@@ -364,7 +364,7 @@
       "ny": true,
       "sammendrag": "Forslag til justerte rutetider for kystruten Bergen–Kirkenes, med minst 20 minutters liggetid i havner med godshåndtering nord for Bodø og lavere snittfart. Det skal også vurderes om rederiene kan gå før avgangstid, og om det skal være egen sommer- og vinterrute.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare rutetidene for kystruten Bergen–Kirkenes, en kysttjeneste uten anløp i Innlandet, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare rutetider for kystruten Bergen–Kirkenes."
     },
     {
       "kilde": "Stortinget",
@@ -393,7 +393,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om å få kriminelle aktører ut fra barnevernet.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder kriminelle aktører i barnevernet, og kan påvirke kommunenes barnevernstjenester og kjøp av tjenester fra private tilbydere, som alle kommuner har ansvar for."
+      "hvorfor_relevant": "Forslaget gjelder barnevernet, som kommunene har ansvar for, og kan påvirke kommunenes bruk av private barnevernstilbud og tjenester til barn."
     },
     {
       "kilde": "Stortinget",
@@ -422,7 +422,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer. Teksten oppgir ikke hvilke konkrete tiltak som foreslås.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget om bedre oppfølging av overlevende og etterlatte etter katastrofer kan påvirke kommunenes helse- og omsorgstjenester og beredskapsarbeid, og gjelder hele landet."
+      "hvorfor_relevant": "Nasjonalt forslag om oppfølging etter katastrofer som kan gjelde kommunenes helse- og omsorgstjenester og beredskap overfor overlevende og etterlatte."
     },
     {
       "kilde": "Stortinget",
@@ -450,7 +450,7 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "relevant": true,
-      "hvorfor_relevant": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, pasientjournalsystemer og IKT-løsninger, samt sykehuset i regionen."
+      "hvorfor_relevant": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, journalsystemer og IKT-løsninger, samt sykehuset i regionen."
     },
     {
       "kilde": "Stortinget",
@@ -479,7 +479,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om at stortingsrepresentanter og regjeringsmedlemmer skal få vigselsrett, altså rett til å forrette borgerlige vielser.",
       "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, uten merkbar betydning for kommuner eller næringsliv."
     },
     {
       "kilde": "Stortinget",
@@ -508,7 +508,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder hele landet og kan påvirke inntektene til frivillige organisasjoner og idrettslag i regionens kommuner, som ofte er avhengige av lotterier og spill til drift og aktiviteter."
+      "hvorfor_relevant": "Digitale lotterier kan gi frivillige organisasjoner og idrettslag i kommunene nye inntekter, og saken berører kommunenes forhold til lokalt frivillig- og idrettsliv."
     },
     {
       "kilde": "Stortinget",
@@ -565,7 +565,7 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "relevant": true,
-      "hvorfor_relevant": ""
+      "hvorfor_relevant": "Statsbudsjettet for familie- og kulturfeltet kan påvirke kommunenes økonomi og tjenester på disse områdene, siden bevilgningene gjelder alle kommuner."
     },
     {
       "kilde": "Regjeringen.no",
@@ -637,7 +637,7 @@
       "ny": true,
       "sammendrag": "Utredning av behovet for og konsekvensene av å la deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) fortsette i tiltaket etter fylte 67 år. Den omfatter aldersgrensen mot diskrimineringsregelverket, antall deltakere og kostnader i offentlige budsjetter.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget kan gi VTA-deltakere i regionen rett til å fortsette etter fylte 67 år, noe som kan påvirke tiltaksbedrifter, innbyggerne og offentlige budsjetter, og gjelder alle kommuner nasjonalt."
+      "hvorfor_relevant": "Nasjonal regel om VTA-deltakere over 67 år kan påvirke kommunenes tjenester og budsjetter, tiltaksbedrifter og innbyggere med nedsatt arbeidsevne."
     },
     {
       "kilde": "Regjeringen.no",
@@ -788,7 +788,7 @@
       "ny": true,
       "sammendrag": "Forslag til ny forskrift under sivilbeskyttelsesloven som regulerer tilfluktssteder. Forslaget skal gi sivilbefolkningen vern mot skader ved krigshandlinger og gjøre at kritiske virksomheter kan holde nødvendig drift i gang i krig.",
       "relevant": true,
-      "hvorfor_relevant": "Forskriften om tilfluktssteder gjelder hele landet og kan gi kommunene nye oppgaver og kostnader i beredskapsarbeid, planlegging og vern av innbyggere og kritiske virksomheter i krig."
+      "hvorfor_relevant": "Forskriften regulerer tilfluktssteder og beskyttelse av sivilbefolkningen i krig, noe som kan gi kommunene nye oppgaver, krav og kostnader innen beredskap og planlegging."
     },
     {
       "kilde": "Regjeringen.no",
@@ -925,7 +925,7 @@
       "ny": true,
       "sammendrag": "Ny bestemmelse i finanstilsynsforskriften om at Finanstilsynets tilsynsutgifter for folkefinansieringsforetak skal fordeles etter størrelsen på inntekt fra den konsesjonspliktige virksomheten, slik regelen allerede gjelder blant annet for verdipapirforetak.",
       "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder kun hvordan Finanstilsynet fordeler tilsynsutgifter mellom folkefinansieringsforetak, og er så smalt at det ikke berører kommunene, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder bare hvordan Finanstilsynets utgifter fordeles på folkefinansieringsforetak."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1056,7 +1056,7 @@
       "ny": true,
       "sammendrag": "Nye bestemmelser i jernbaneloven og yrkestransportloven skal gi behandlingsgrunnlag for personopplysninger og for bruk av forretningshemmeligheter i digital nasjonal infrastruktur for reiseplanlegging, billettering og kollektivdata. Statens ansvar for denne infrastrukturen foreslås også regulert nærmere.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale lovendringer om kollektivdata, reiseplanlegging og billettering gjelder kollektivtilbudet i hele landet, også Gjøvikbanen og buss i regionen, og berører Innlandet fylkeskommune og kommunenes personvernansvar."
+      "hvorfor_relevant": "Nasjonale lovendringer om kollektivdata, reiseplanlegging og billettering berører fylkeskommunal kollektivtransport og passasjerene, og gjelder dermed også kollektivtilbudet i regionen."
     },
     {
       "kilde": "Stortinget",
@@ -1084,7 +1084,7 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "relevant": true,
-      "hvorfor_relevant": "Statsbudsjettet for 2027 på næringskomiteens områder kan påvirke næringsutvikling, landbruk, energi og virkemidler som angår kommunene, næringslivet og arbeidsplassene i Gjøvikregionen."
+      "hvorfor_relevant": "Statsbudsjettet for næringsområdet setter rammer som kan påvirke næringslivet, arbeidsplassene og kommunenes handlingsrom i regionen."
     },
     {
       "kilde": "Stortinget",
@@ -1113,7 +1113,7 @@
       "ny": true,
       "sammendrag": "Utlendingsloven foreslås endret slik at driften av utlendingsinternatet overføres fra politiet til kriminalomsorgen. Endringene omfatter også restriksjoner under oppholdet og flere andre forhold.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder statlig drift av utlendingsinternatet og restriksjoner for internerte, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i Gjøvikregionen merkbart."
+      "hvorfor_relevant": "Gjelder statlig drift av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1326,7 +1326,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om raskere og skånsom utbygging av solenergi, behandlet i en skriftlig høring på Stortinget.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget om raskere utbygging av solenergi kan endre rammer for arealplanlegging, saksbehandling og energiproduksjon i kommunene, og kan berøre landbruksareal, næringsliv og energiforsyning i Innlandet."
+      "hvorfor_relevant": "Forslaget om raskere og mer skånsom utbygging av solenergi kan påvirke kommunenes arealplanlegging, saksbehandling og energiutbygging i Innlandet."
     },
     {
       "kilde": "Stortinget",
@@ -1355,7 +1355,7 @@
       "ny": true,
       "sammendrag": "Representantforslag om å forby jakt på ekorn.",
       "relevant": true,
-      "hvorfor_relevant": "Et nasjonalt forbud mot ekornjakt vil gjelde også i Innlandet og kan berøre jegere og viltforvaltningen i regionens kommuner, selv om omfanget trolig er lite."
+      "hvorfor_relevant": "Forslaget gjelder jaktregler for hele landet og kan berøre jegere og viltforvaltningen i regionens kommuner."
     },
     {
       "kilde": "Stortinget",
@@ -1384,7 +1384,7 @@
       "ny": true,
       "sammendrag": "Representantforslag om å forby reklame for fossil energi.",
       "relevant": true,
-      "hvorfor_relevant": "Et nasjonalt forbud mot reklame for fossil energi kan ramme lokale drivstoffleverandører, bensinstasjoner og annonsører i regionen, og kommunene kan få nye oppgaver i oppfølgingen."
+      "hvorfor_relevant": "Et nasjonalt reklameforbud for fossil energi kan ramme bedrifter i regionen som markedsfører fossile energiprodukter, og angår energi- og klimapolitikken."
     },
     {
       "kilde": "Stortinget",
@@ -1413,7 +1413,7 @@
       "ny": true,
       "sammendrag": "Et representantforslag på Stortinget går ut på å lovliggjøre og legge til rette for pluggbare solceller og batterier.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forslag om å tillate pluggbare solceller og batterier kan gjelde innbyggere og næringsliv i alle kommuner, og berører energi, nettilknytning og eventuelt kommunenes rolle i byggesaker og beredskap."
+      "hvorfor_relevant": "Nasjonalt forslag om pluggbare solceller og batterier kan gi innbyggere og bedrifter i regionen nye muligheter for egen strømproduksjon og påvirke energiregelverket."
     },
     {
       "kilde": "Stortinget",
@@ -1442,7 +1442,7 @@
       "ny": true,
       "sammendrag": "Representantforslag om å stanse opptrappingsplanen for CO2-avgiften.",
       "relevant": true,
-      "hvorfor_relevant": "Endringer i CO2-avgiften slår ut på drivstoffpriser, transportkostnader og energibruk for innbyggere, industri, landbruk og skogbruk i regionen, og kan påvirke kommunenes klimapolitikk."
+      "hvorfor_relevant": "Endret CO2-avgift påvirker drivstoffpriser og kostnader for transport, landbruk og industri i regionen, og dermed næringslivet og innbyggerne."
     },
     {
       "kilde": "Stortinget",
@@ -1470,7 +1470,7 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder institusjonsbarnevernet, som kan få følger for kommunenes barnevernstjenester, økonomi og samarbeid med statlig barnevern, og dermed for barn og unge i regionen."
+      "hvorfor_relevant": "Barnevern er en kommunal oppgave, og forslag om institusjonsbarnevern kan påvirke kommunenes ansvar, kostnader og samarbeid med statlige barnevernstjenester."
     },
     {
       "kilde": "Stortinget",
@@ -1499,7 +1499,7 @@
       "ny": true,
       "sammendrag": "Representantforslag om å forby koranskoler med overnatting og å innføre et nytt straffebud mot negativ sosial kontroll.",
       "relevant": true,
-      "hvorfor_relevant": "Et nasjonalt forbud og et nytt straffebud mot negativ sosial kontroll kan gi kommunene nye oppgaver innen barnevern, skole, forebygging og tilsyn med tilbud for barn og unge."
+      "hvorfor_relevant": "Nytt straffebud og forbud mot overnattingsskoler er nasjonale regler som kan angå kommunenes arbeid mot negativ sosial kontroll og tilbud til barn og unge."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1616,7 +1616,7 @@
       "ny": true,
       "sammendrag": "Forslag om en særordning der fordrevne fra Ukraina med midlertidig kollektiv beskyttelse, som er i arbeid og har hatt tilstrekkelig arbeidsinntekt siste tolv måneder, kan søke om oppholdstillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder alle kommuner og kan gi ukrainske flyktninger i arbeid permanent opphold, noe som berører bosetting, integreringsarbeid, kommunale tjenester og arbeidsgivere i regionen."
+      "hvorfor_relevant": "Gjelder ukrainske flyktninger i arbeid som kan få permanent opphold, noe som kan påvirke kommunenes bosetting, integreringsarbeid og lokale arbeidsgivere; kommunene er høringsinstans."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1645,7 +1645,7 @@
       "ny": true,
       "sammendrag": "Forslag til forskrift som utfyller den foreslåtte CBAM-forskriften, med regler om beregning av utslipp og antall CBAM-sertifikater som skal leveres, og nasjonale bestemmelser som supplerer CBAM-forordningen. Målet er at CBAM gjelder fullt ut i Norge fra 1. januar 2027.",
       "relevant": true,
-      "hvorfor_relevant": "Nye nasjonale CBAM-regler om rapportering, dokumentasjon og karbonpris på importerte varer kan gi økte kostnader og administrasjon for industri- og teknologibedrifter i regionen som importerer slike varer."
+      "hvorfor_relevant": "Nasjonal CBAM-forskrift gir nye rapporterings- og dokumentasjonskrav for virksomheter som importerer CBAM-varer, og kan dermed berøre industri og teknologibedrifter i regionen."
     },
     {
       "kilde": "Stortinget",
@@ -1674,7 +1674,7 @@
       "ny": true,
       "sammendrag": "To grunnlovsforslag om endring av Grunnloven § 96. Det ene gjelder uavhengig påtalemyndighet, det andre uavhengig offentlig påtale.",
       "relevant": false,
-      "hvorfor_relevant": "Grunnlovsforslaget gjelder påtalemyndighetens uavhengighet i straffesaker og berører ikke kommunenes oppgaver, økonomi, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder statens påtalemyndighet og Grunnloven, ikke kommunenes oppgaver eller tjenester."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1850,7 +1850,7 @@
       "ny": true,
       "sammendrag": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner, gjennom endringer i grossistforskriften §§ 5 og 5a.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal beredskapslagring av vaksiner og immunglobuliner hos grossister kan påvirke legemiddelforsyningen til apotek, sykehus og kommunale helsetjenester i regionen, og dermed kommunenes beredskap og smittevern."
+      "hvorfor_relevant": "Nasjonal beredskapslagring av vaksiner og immunglobuliner hos grossister kan påvirke legemiddelforsyning og helseberedskap for kommunene, sykehuset og innbyggerne."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1879,7 +1879,7 @@
       "ny": true,
       "sammendrag": "Endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip foreslås, hovedsakelig som presiseringer, forenklinger og tekniske justeringer. Blant annet tydeliggjøres reglene om avfallsgebyr, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner.",
       "relevant": false,
-      "hvorfor_relevant": "Endringene gjelder mottak og håndtering av avfall fra skip i havner, og regionen har ingen kysthavner, så kommunene og næringslivet berøres ikke merkbart."
+      "hvorfor_relevant": "Gjelder mottak og håndtering av avfall fra skip i havner."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1908,7 +1908,7 @@
       "ny": true,
       "sammendrag": "Søknad om å etablere et havneanlegg i Kålvik i Strömstad kommune i Sverige, om lag 1 kilometer fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, vindturbiner og andre komponenter til havbasert vindkraft.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder et havneanlegg for havbasert vindkraft i Strömstad i Sverige, ved svenskegrensen på Vestlandskysten av Østfold/Viken-siden, uten merkbar berøring av kommunene, næringslivet eller innbyggerne i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare et havneanlegg for havbasert vindkraft i Strömstad kommune i Sverige, nær svenskegrensen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2024,7 +2024,7 @@
       "ny": true,
       "sammendrag": "Midlertidig kollektiv beskyttelse i en massefluktsituasjon foreslås utvidet fra fem til totalt syv år, gitt for ett år om gangen. Ny tillatelse etter syv år skal gi permanent opphold etter to år, ikke tre, og adgangen til å sette asylsøknaden i bero utvides til syv år.",
       "relevant": true,
-      "hvorfor_relevant": "Forlenget kollektiv beskyttelse for fordrevne fra Ukraina gjelder kommunene i regionen, som bosetter flyktninger og gir dem tjenester, og kan påvirke arbeidsgivere og lokalt arbeidsliv."
+      "hvorfor_relevant": "Forlenget kollektiv beskyttelse for fordrevne fra Ukraina gjelder alle kommuner og kan påvirke bosetting, integreringstjenester og kommunenes økonomi."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2331,7 +2331,7 @@
       "ny": true,
       "sammendrag": "Rapporten fra ekspertutvalget om klimatilpasning, «Norge i hardt vær», vurderer samfunnsøkonomiske konsekvenser av klimaendringene og tilpasningsbehov i en rekke sektorer. Den drøfter også tiltak og virkemidler som kan redusere risiko og styrke robustheten.",
       "relevant": true,
-      "hvorfor_relevant": "Ekspertutvalget vurderer samfunnsøkonomien i klimatilpasning for sektorer som jordbruk, skogbruk, samferdsel, vann og avløp og beredskap, og alle kommuner er høringsinstanser."
+      "hvorfor_relevant": "Alle kommuner er høringsinstanser, og rapporten vurderer klimatilpasning for jordbruk, skogbruk, samferdsel, vann og avløp, kraft og beredskap, som angår kommunenes ansvar og infrastruktur."
     },
     {
       "kilde": "Skatteetaten",
@@ -2360,7 +2360,7 @@
       "ny": true,
       "sammendrag": "Forskriftsbestemmelsene om overgangen til nytt regelverk for utlegg mv. foreslås endret fordi utrullingsperioden forlenges ut mars 2027. Det foreslås også enkelte andre forskriftsendringer, blant annet fordi systemstøtte for noen prosesser kommer senere enn planlagt.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder tekniske overgangsregler for Skatteetatens utrulling av nytt regelverk om utlegg, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder teknisk utrulling av Skatteetatens systemer for utlegg, uten merkbar effekt på kommuner eller næringsliv."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -2389,7 +2389,7 @@
       "ny": false,
       "sammendrag": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal beskrive status for nettet og prioritere utvalgte linjer, traséer og områder for installasjoner, som får en overordnet konsekvensanalyse for miljø og samfunn, for å få raskere nettkapasitet og ny produksjon.",
       "relevant": true,
-      "hvorfor_relevant": "Regional plan for nett og kraft i Innlandet kan påvirke nettkapasitet, linjetraséer og arealbruk i kommunene, og dermed kommunal planlegging, næringsutvikling og tilgang til nok energi i regionen."
+      "hvorfor_relevant": "Regional plan for strømnettet i Innlandet skal sikre nettkapasitet og kraft til omstilling og utvikling, og kan påvirke kommunenes planlegging og næringslivets tilgang til energi."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2627,7 +2627,7 @@
       "ny": true,
       "sammendrag": "Forslag om å endre kringkastingsforskriften slik at eksisterende innholdskonsesjoner for lokalradio på FM kan forlenges og senderanleggskonsesjoner tildeles for 2027–2031. Medietilsynets adgang til å sette vilkår for lokalkringkasting presiseres, og tilsynet får hjemmel til å tildele nødvendig senderanleggskonsesjon.",
       "relevant": true,
-      "hvorfor_relevant": "Forskriftsendringene gjelder forlengelse av FM-konsesjoner for lokalradio 2027–2031 og kan påvirke lokalradioer i regionen, blant annet Radio Toten, Lokalradioene i Innlandet og Radio Metro Innlandet."
+      "hvorfor_relevant": "Forskriftsendringene gjelder forlengelse av lokalradiokonsesjoner på FM i 2027–2031, og lokalradioene i Innlandet, blant dem Radio Toten, kan derfor berøres."
     },
     {
       "kilde": "Stortinget",
@@ -2655,7 +2655,7 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "relevant": true,
-      "hvorfor_relevant": "Forslaget om stemmerett ved kommune- og fylkestingsvalg gjelder hele landet og kan endre hvem som kan stemme ved valg i kommunene i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder stemmerett ved kommune- og fylkestingsvalg, et nasjonalt regelverk som gjelder alle kommuner og som kommunene bruker når de gjennomfører valg."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2793,7 +2793,7 @@
       "ny": true,
       "sammendrag": "Finanstilsynet foreslår å videreføre gulvene for gjennomsnittlig risikovekting av boliglån og næringseiendomslån uendret fra utgangen av 2026, med 25 prosent for boliglån og 35 prosent for næringseiendomslån. Gulvene gjelder IRB-bankene.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder kun kapitalkrav for store banker som bruker interne modeller (IRB-banker), og berører ikke kommunenes oppgaver, økonomi eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder bare kapitalkrav for store banker (IRB-banker), uten merkbar virkning for kommunene eller regionen."
     },
     {
       "kilde": "Nkom",
@@ -2822,7 +2822,7 @@
       "ny": true,
       "sammendrag": "Forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett 2027–2031, med frekvenstillatelser og senderanleggskonsesjoner. Ved én kvalifisert søker tildeles direkte, ved flere foreslås loddtrekning. Innspill søkes om kvalifikasjonskrav, tildelingsmodell, vilkår og overgangsordninger.",
       "relevant": true,
-      "hvorfor_relevant": "Reglene for lokale FM-sendernett 2027–2031 gjelder landsdekkende og kan påvirke lokalradioene som dekker innbyggerne i regionens kommuner, men kommunene er ikke direkte part i saken."
+      "hvorfor_relevant": "Gjelder nasjonale vilkår og tildeling av lokale FM-sendernett for lokalradio 2027–2031, som kan berøre lokale radioaktører og lokalt medietilbud i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -2880,7 +2880,7 @@
       "ny": false,
       "sammendrag": "Forsvarsministeren redegjør for styring og kontroll i forsvarssektoren i en kontrollhøring i Stortingets kontroll- og konstitusjonskomité.",
       "relevant": false,
-      "hvorfor_relevant": "Kontrollhøring i Stortinget om intern styring og kontroll i forsvarssektoren, som ikke berører kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder Stortingets kontrollhøring om intern styring og kontroll i forsvarssektoren, uten direkte følger for kommuner eller næringsliv."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3010,7 +3010,7 @@
       "ny": true,
       "sammendrag": "Forslagene i Baneheia-utvalgets to utredninger, med lovutkast, etter granskingen av straffesaken mot Viggo Kristiansen og av Gjenopptakelseskommisjonen. Granskingen skulle finne læringspunkter for å redusere risikoen for uriktige domfellelser og sikre et godt gjenåpningsinstitutt.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder straffesaksbehandling, gjenåpning av straffesaker og Gjenopptakelseskommisjonen, og berører verken kommunenes oppgaver, økonomi eller planlegging, næringslivet eller innbyggerne i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder gjenopptakelse av straffesaker og risiko for uriktige domfellelser, som ikke berører kommunene eller regionen."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3039,7 +3039,7 @@
       "ny": true,
       "sammendrag": "Endring i produktforskriften for å gjennomføre en EU-endringsforordning til forordning (EU) 2019/1021. Endringen gjelder oppføringen av stoffet klorpyrifos i vedlegg I.",
       "relevant": false,
-      "hvorfor_relevant": "Teknisk regelendring som tar inn plantevernstoffet klorpyrifos i EUs POP-forordning via produktforskriften, uten vesentlige økonomiske eller administrative konsekvenser for kommunene, innbyggerne eller næringslivet i regionen."
+      "hvorfor_relevant": "Gjelder bare oppføring av ett plantevernstoff i EU-regelverket om persistente organiske forbindelser, uten merkbare konsekvenser."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3068,7 +3068,7 @@
       "ny": true,
       "sammendrag": "Endring av produktforskriften § 4-1 for å gjennomføre forordning (EU) 2025/2457 om omfordeling av vitenskapelige og tekniske oppgaver og bedre samarbeid mellom EU-byråene på kjemikalieområdet i norsk rett.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder en teknisk endring i produktforskriften som flytter oppgaver mellom EU-byråer på kjemikalieområdet, uten økonomiske eller administrative konsekvenser for kommuner, innbyggere eller næringsliv i regionen."
+      "hvorfor_relevant": "Gjelder omfordeling av oppgaver mellom EU-byråer på kjemikalieområdet, uten konsekvenser utover tekniske regelverksendringer."
     },
     {
       "kilde": "Stortinget",
@@ -3097,7 +3097,7 @@
       "ny": true,
       "sammendrag": "Forslag om endring i Grunnloven § 96, som handler om uavhengig offentlig påtale. Forslaget er behandlet som Dokument 12:36 (2023–2024).",
       "relevant": false,
-      "hvorfor_relevant": "Grunnlovsforslaget gjelder organiseringen av påtalemyndigheten på nasjonalt nivå og berører ikke kommunenes oppgaver, økonomi, innbyggere eller næringsliv i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder Grunnlovens regel om uavhengig offentlig påtale, uten merkbar betydning for kommunene eller regionen."
     },
     {
       "kilde": "Stortinget",
@@ -3125,7 +3125,7 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "relevant": false,
-      "hvorfor_relevant": "Grunnlovsforslaget gjelder statlig påtalemyndighets uavhengighet og berører ikke kommunenes oppgaver, økonomi, tjenester eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder bare påtalemyndighetens uavhengighet i Grunnloven, ikke kommunenes oppgaver eller regionen."
     },
     {
       "kilde": "Stortinget",
@@ -3154,7 +3154,7 @@
       "ny": true,
       "sammendrag": "Grunnlovsforslag om en ny paragraf, § 112 a, som skal handle om viltlevende marine ressurser.",
       "relevant": false,
-      "hvorfor_relevant": "Grunnlovsforslaget gjelder bare eierskap og forvaltning av viltlevende marine ressurser, som er fiskeri- og kystspørsmål uten merkbar betydning for kommunene i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare grunnlovsfesting av viltlevende marine ressurser, altså havet og fiskeri."
     },
     {
       "kilde": "Stortinget",
@@ -3183,7 +3183,7 @@
       "ny": true,
       "sammendrag": "Forslag om å innføre en ny § 112 a i Grunnloven, som slår fast at de viltlevende marine ressursene tilhører fellesskapet og skal komme kystsamfunnene til gode.",
       "relevant": false,
-      "hvorfor_relevant": "Grunnlovsforslaget gjelder eierskap til viltlevende marine ressurser og kystsamfunn, som i hovedsak angår fiskeri og kysten, og berører ikke kommunene i Gjøvikregionen merkbart."
+      "hvorfor_relevant": "Gjelder bare grunnlovsfesting av marine ressurser og kystsamfunn, ikke kommunene i Gjøvikregionen."
     },
     {
       "kilde": "Stortinget",
@@ -3212,7 +3212,7 @@
       "ny": true,
       "sammendrag": "Grunnlovsforslag om en ny § 120 b, som gjelder norsk som nasjonalt hovedspråk.",
       "relevant": true,
-      "hvorfor_relevant": "Grunnlovsfesting av norsk som nasjonalt hovedspråk gjelder hele landet og kan påvirke kommunenes språkbruk, tjenester og forvaltning, også i Gjøvikregionens fem kommuner."
+      "hvorfor_relevant": "Grunnlovsfesting av norsk som nasjonalt hovedspråk kan gjelde alle kommuner og offentlig språkbruk, og dermed også kommunene i regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -3241,7 +3241,7 @@
       "ny": true,
       "sammendrag": "Forslag om endret nasjonal listeføring av blåtunge, kverke og ringorm, meldeplikt ved aborter hos sau og geit, og oppdatert oversikt over sykdomsfri status. Dessuten gjennomføres vedtatte EØS-endringer, blant annet ny kategori for blåtunge og unntak fra helsesertifikat for hestedyr i transitt.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale dyrehelseregler for blåtunge, kverke og ringorm, ny meldeplikt for aborter hos sau og geit og endrede forflytningskrav berører regionens husdyrbønder og landbruksnæring."
+      "hvorfor_relevant": "Endret håndtering av blåtunge, kverke og ringorm og ny meldeplikt for aborter hos sau og geit kan berøre husdyrbønder i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -3370,7 +3370,7 @@
       "ny": true,
       "sammendrag": "Revidert forslag til forskrift om at oppdragsgiver skal sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget følger opp en tidligere høring 28. november 2025.",
       "relevant": false,
-      "hvorfor_relevant": "Forskriften gjelder lønnsvilkår på skip, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder bare lønnsvilkår på skip, en næring som knapt finnes i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3462,7 +3462,7 @@
       "ny": true,
       "sammendrag": "Forslag om en veileder som anbefaler at fylkeskommuner og andre oppdragsgivere vurderer sikkerhet og beredskap ved bussanskaffelser, og om et unntak i nullutslippsforskriften for kjøretøy der det er nødvendig av hensyn til sikkerhet og beredskap.",
       "relevant": true,
-      "hvorfor_relevant": "Forslagene om veileder og unntak fra nullutslippsforskriften gjelder fylkeskommunale bussanskaffelser, og kan påvirke kollektivtilbudet og innkjøpene til Innlandet fylkeskommune, som betjener kommunene i Gjøvikregionen."
+      "hvorfor_relevant": "Forslagene gjelder fylkeskommunale bussanskaffelser og endrer nullutslippsforskriften, noe som kan påvirke kollektivtilbudet og busstjenestene i Innlandet."
     },
     {
       "kilde": "Mattilsynet",
@@ -3491,7 +3491,7 @@
       "ny": true,
       "sammendrag": "Forslag til ny svalbardmatforskrift som gjør matlovsforskriften, næringsmiddelhygieneforskriften, animaliehygieneforskriften, internkontrollforskriften, smilefjesforskriften, matinformasjonsforskriften og drikkevannsforskriften helt eller delvis gjeldende for Svalbard.",
       "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder bare at næringsmiddelforskrifter skal gjelde for Svalbard, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare at næringsmiddelforskrifter skal gjelde for Svalbard."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3608,7 +3608,7 @@
       "ny": true,
       "sammendrag": "Forslag om å tydeliggjøre utlendingsmyndighetenes adgang til å behandle innhentede personopplysninger til utvikling og testing av IT-systemer, også systemer med kunstig intelligens. Den nye hjemmelen regulerer ikke senere bruk av systemet. Det foreslås også mindre følgeendringer etter Eurodac-forordningen 2024.",
       "relevant": false,
-      "hvorfor_relevant": "Endringene gjelder utlendingsmyndighetenes egen behandling av personopplysninger ved utvikling og testing av IT-systemer, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder utlendingsmyndighetenes IT-utvikling og testing av systemer, og følgeendringer etter Eurodac-forordningen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3745,7 +3745,7 @@
       "ny": true,
       "sammendrag": "Forslag til forskrift som skal gi hjemmel for deling av taushetsbelagte opplysninger og behandling av personopplysninger mellom organer i arbeidet mot økonomisk kriminalitet. Forslaget kommer fra en arbeidsgruppe nedsatt etter stortingsmeldingen om å forebygge og bekjempe slik kriminalitet.",
       "relevant": true,
-      "hvorfor_relevant": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten, så kommunale organer kan bli omfattet eller berørt."
+      "hvorfor_relevant": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten."
     },
     {
       "kilde": "Mattilsynet",
@@ -3774,7 +3774,7 @@
       "ny": true,
       "sammendrag": "Endringer i forskrift om plantevernmidler som innfører krav til elektronisk sprøytejournal, gjennom innlemming av forordning (EU) 2023/564. Forslaget er justert fra høringen i 2024 på grunn av utsatt frist i EU og endret løsning for elektronisk journalføring.",
       "relevant": true,
-      "hvorfor_relevant": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde gartnere og bønder i regionens landbruk, og kan også påvirke kommuner som bruker plantevernmidler, for eksempel på grøntarealer."
+      "hvorfor_relevant": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde landbruket i regionen, og kan også berøre kommunale grøntarealer og idrettsanlegg."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4043,7 +4043,7 @@
       "ny": true,
       "sammendrag": "Forslag om endringer i forskriftene om tilbakebetaling av utdanningslån og godkjenning for utdanningsstøtte, blant annet renteslette i tolv måneder for trafikkflygerlåntakere som avbrøt utdanningen på grunn av konkurs, og at hjemmelen for godkjenning av nettskoler oppheves.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i regelverket for utdanningslån og godkjenning av utdanninger for Lånekassen, med blant annet opphevet godkjenning av nettskoler, kan berøre studenter og kompetansemiljøer som NTNU i Gjøvik og Fagskolen Innlandet."
+      "hvorfor_relevant": "Nasjonale endringer i regler for tilbakebetaling av studielån og godkjenning av nettskoler for utdanningsstøtte kan påvirke innbyggere og studenter, blant dem NTNU-studenter."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4072,7 +4072,7 @@
       "ny": true,
       "sammendrag": "Carbon Centric søker om tillatelse etter forurensningsloven til et karbonfangstanlegg ved Solør Bioenergi på Kirkenær i Grue. Anlegget skal rense karbondioksid ut av røykgass fra en ovn, og la deler av utslippene gå til vann i stedet for luft, med litt aminer til luft.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder en enkelt utslippssøknad for et karbonfangstanlegg i Kirkenær i Grue kommune, utenfor Gjøvikregionen, uten merkbare virkninger for kommunene eller næringslivet her."
+      "hvorfor_relevant": "Gjelder utslippstillatelse for ett karbonfangstanlegg ved Solør Bioenergi i Kirkenær, Grue kommune."
     },
     {
       "kilde": "Skatteetaten",
@@ -4110,7 +4110,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny modell for fordeling av skatt mellom skattekreditorene, der fordelingstall baseres på landstotalen, kan gi kommunene mer stabile skatteinntekter og endre hvordan skatteregnskapet føres."
+      "hvorfor_relevant": "Ny modell for fordeling av skatt mellom skattekreditorene, med fordelingstall basert på landstotalen i stedet for kommunens egen skatt, kan endre kommunenes skatteinntekter og likviditet."
     },
     {
       "kilde": "Mattilsynet",
@@ -4139,7 +4139,7 @@
       "ny": true,
       "sammendrag": "Endring i animaliebiproduktforskriften: Romania føres inn i listen over land som er godkjent for fôring av utrydningstruede eller beskyttede åtselsfugler med kategori 1-materiale. Det foreslås også regler om avhending, bruk og merking av produkter fra metodene M og N for bearbeiding til biodiesel.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder snevre tekniske endringer: Romania på lista for fôring av åtselsfugler og biodieselmetoder for animalske biprodukter. Berører neppe kommunene, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder Romania på listen for fôring av åtselsfugler og tekniske regler for biodiesel fra animalske biprodukter."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4168,7 +4168,7 @@
       "ny": true,
       "sammendrag": "Forslaget er å utvide restriksjonene i Reach-forskriften for stoffer som kan forårsake kreft, endre arvestoffet eller skade forplantningsevnen (CMR-stoffer), slik at stoffene som hovedregel ikke kan omsettes til forbrukere over fastsatte konsentrasjonsgrenser. Det gjelder stoffer som nylig er klassifisert i EU.",
       "relevant": false,
-      "hvorfor_relevant": "Teknisk oppdatering av EU-restriksjoner for CMR-stoffer i forbrukerprodukter, uten vesentlige administrative eller økonomiske konsekvenser for kommuner, innbyggere eller næringsliv i regionen utover det som følger av EU-regelverket."
+      "hvorfor_relevant": "Gjelder bare kjemikalierestriksjoner for CMR-stoffer i forbrukerprodukter, som er et smalt, teknisk regelverk."
     },
     {
       "kilde": "Mattilsynet",
@@ -4197,7 +4197,7 @@
       "ny": true,
       "sammendrag": "Forslag om å tillate sukkerreduksjon i fruktjuice, med tre nye produktdefinisjoner der naturlig sukker er redusert med minst 30 %. Det åpnes også for påstanden «inneholder bare naturlig forekommende sukker», og tillatt tilsatt sukker i fruktnektar reduseres.",
       "relevant": false,
-      "hvorfor_relevant": "Smal teknisk endring i merke- og sammensetningskrav for fruktjuice og fruktnektar, som først og fremst angår produsenter og importører, og berører ikke kommunene eller regionen merkbart."
+      "hvorfor_relevant": "Gjelder bare merking og sammensetning av fruktjuice, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -4225,8 +4225,8 @@
       "forst_sett": "2026-10-25",
       "ny": true,
       "sammendrag": "Forskriften om honning foreslås endret for å gjennomføre EU-direktiv 2024/1438. Honningblandinger skal merkes med hvert opprinnelsesland og prosentandel, og «filtrert honning» fjernes som varebetegnelse og legges under «bakehonning».",
-      "relevant": true,
-      "hvorfor_relevant": "Nye krav til opprinnelsesmerking av honningblandinger og bortfall av «filtrert honning» kan gjelde honningprodusenter og matbedrifter i regionen, siden forskriften gjelder hele landet."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder bare opprinnelsesmerking og varebetegnelser for honning, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -4255,7 +4255,7 @@
       "ny": true,
       "sammendrag": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet.",
       "relevant": false,
-      "hvorfor_relevant": "Smal teknisk forskrift om laktosereduksjon og merking av kondensert melk og melkepulver, som ikke berører kommunenes oppgaver, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder bare laktosereduksjon og merking av kondensert melk og melkepulver."
     },
     {
       "kilde": "Mattilsynet",
@@ -4284,7 +4284,7 @@
       "ny": true,
       "sammendrag": "Forskriften om syltetøy og lignende produkter foreslås endret for å gjennomføre EU-direktivet: mer frukt i syltetøy og gelé (også «ekstra»), og Norges strengere unntak fra kravet om 60 % løselig tørrstoff fjernes. «Marmelade» endres til «sitrusmarmelade».",
       "relevant": false,
-      "hvorfor_relevant": "Smal teknisk produktforskrift om fruktinnhold og betegnelser på syltetøy og gelé, som ikke berører kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder tekniske krav til fruktinnhold og betegnelser på syltetøy og gelé, uten merkbar betydning for kommuner eller innbyggere."
     },
     {
       "kilde": "DSB",
@@ -4312,8 +4312,8 @@
       "forst_sett": "2026-10-25",
       "ny": true,
       "sammendrag": "DSB foreslår å øke satsene for ulempetillegg og ledertillegg i forskrift om sivilforsvar. Bakgrunnen er at tilleggene til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027, og målet er å opprettholde dagens kompensasjon etter skatt.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder bare skatte- og satsendringer for tjenestepliktige i Sivilforsvaret, og berører ikke kommunenes oppgaver, økonomi eller næringslivet i regionen på noen merkbar måte."
+      "relevant": true,
+      "hvorfor_relevant": "Forskriften øker satsene for ulempe- og ledertillegg til tjenestepliktige i Sivilforsvaret og kan dermed berøre innbyggere i regionen som har slik tjeneste."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4498,8 +4498,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Norsk Tipping foreslås å få tilby nettpoker. Det foreslås også krav om avviksrapportering for de største aktørene i pengespillmarkedet, og mindre endringer i reglene for utbetaling av Belago-midler fra bingo.",
-      "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder nettpoker hos Norsk Tipping, rapporteringskrav for store spillaktører og utbetaling av Belago-midler, og berører ikke kommunenes oppgaver, økonomi eller regionens næringsliv merkbart."
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale endringer i pengespillforskriften om nettpoker hos Norsk Tipping og utbetaling av Belago-midler fra bingo gjelder hele landet, også innbyggere i regionen."
     },
     {
       "kilde": "Statens vegvesen",
@@ -4537,7 +4537,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Indeksregulering av kontrollsatsene i parkeringsforskriften gjelder hele landet og kan gi endrede gebyrer for private parkeringsselskaper og bilister, også i Gjøvikregionens byer og tettsteder."
+      "hvorfor_relevant": "Nasjonal indeksregulering av kontrollsatser for private parkeringsreguleringer gjelder hele landet og kan påvirke parkeringsaktører og bilister i kommunene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4576,7 +4576,7 @@
       "ny": true,
       "sammendrag": "Føresegnene i forskriftene til petroleumsskattelova foreslås flytta til Finansdepartementets forskrift til skatteloven (FSFIN), mens én forskrift fortsatt skal fastsettes av Energidepartementet. Forslaget er rent teknisk og antas ikke å ha provenyvirkning.",
       "relevant": false,
-      "hvorfor_relevant": "Rent teknisk flytting av forskriftsbestemmelser om petroleumsskatt uten proveny- eller andre virkninger, og petroleum er en næring som knapt finnes i regionen."
+      "hvorfor_relevant": "Gjelder teknisk flytting av forskrifter til petroleumsskattelova, uten provenyverknad."
     },
     {
       "kilde": "NVE",
@@ -4605,7 +4605,7 @@
       "ny": true,
       "sammendrag": "Endringer i økodesignforskriften og energimerkeforskriften for produkter som skal innføre tre EU-forordninger i norsk rett. De gjelder eksterne strømkilder, trådløse ladere, batteriladere, USB-C-kabler, hviletilstand for husholdnings- og kontorutstyr og husholdningstørketromler.",
       "relevant": false,
-      "hvorfor_relevant": "Produktkrav til strømkilder, ladere og tørketromler gjelder produsenter og importører, og berører ikke kommunenes oppgaver, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder tekniske produktkrav til strømkilder, ladere og tørketromler for produsenter og importører, uten merkbar virkning for kommunene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4687,7 +4687,7 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "relevant": true,
-      "hvorfor_relevant": "Endringer i markedsreguleringen for jordbruksråvarer kan påvirke bønder, meierier og slakterier i regionens landbruk, men teksten sier lite om selve innholdet i endringene."
+      "hvorfor_relevant": "Endringer i regelverket for Omsetningsrådets markedsregulering av jordbruksråvarer kan påvirke bønder og landbruksbasert næringsliv i regionen, som har landbruk som en viktig næring."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4896,7 +4896,7 @@
       "ny": true,
       "sammendrag": "Forslag til ny forskrift som oppretter en tilskuddsordning for å øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet.",
       "relevant": true,
-      "hvorfor_relevant": "Tilskuddsordningen kan gi industri- og teknologibedrifter i regionen mulighet for støtte til økt produksjonskapasitet, og Nammo er blant høringsinstansene."
+      "hvorfor_relevant": "Tilskuddsordningen for økt produksjonskapasitet i forsvarsindustrien kan gi investeringer og arbeidsplasser for industri- og teknologibedrifter, også i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4967,7 +4967,7 @@
       "ny": true,
       "sammendrag": "Forslag om å oppheve forskriften om rammeplan for ingeniørutdanning, og om å endre universitets- og høyskoleforskriften slik at det kan gis fireårig bachelor i militære ingeniørfag og ledelse. Forsvarets høgskole foreslås å få rett til å tildele graden.",
       "relevant": true,
-      "hvorfor_relevant": "Oppheving av rammeplanen for ingeniørutdanning gir mer fleksible ingeniørstudier og kan påvirke ingeniørutdanningen ved NTNU i Gjøvik og teknologibedriftene som rekrutterer ingeniører."
+      "hvorfor_relevant": "Opphevingen av rammeplanen for ingeniørutdanning endrer styringen av alle treårige ingeniørutdanninger i landet, som berører ingeniørmiljøet ved NTNU i Gjøvik og teknologibedriftene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5007,7 +5007,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny EU-forordning om offentlige anskaffelser og konsesjoner kan endre reglene kommunene må følge når de kjøper varer og tjenester, og hvordan lokalt næringsliv kan vinne offentlige kontrakter."
+      "hvorfor_relevant": "Ny anskaffelsesforordning kan endre regelverket for offentlige innkjøp og konsesjoner som alle kommuner i regionen må følge, og påvirke lokalt næringsliv som leverer til det offentlige."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5072,7 +5072,7 @@
       "ny": true,
       "sammendrag": "Endringer i forskriften om midlertidig tilskudd som kompensasjon for CO2-avgift på drivstoff for fiske og fangst. Endringene foreslås å tre i kraft 1. januar 2027 og gjelde kompensasjon som utbetales i 2027. Rammen avhenger av Stortingets budsjettvedtak.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder kun CO2-kompensasjon for fiskeflåten, en næring som knapt finnes i Gjøvikregionen, og berører ikke kommunene, innbyggerne eller næringslivet her."
+      "hvorfor_relevant": "Gjelder bare CO2-kompensasjon for fiskeflåten."
     },
     {
       "kilde": "Skatteetaten",
@@ -5101,7 +5101,7 @@
       "ny": true,
       "sammendrag": "Avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer foreslås utvidet noe, slik at små håndverksbakerier og kafeer med produksjon, salg og servering i samme lokale likebehandles med større produsenter. Forslaget innebærer også forenklinger.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal endring i sukkeravgiften kan gi håndverksbakerier og kafeer i regionens kommuner avgiftsfritak for sukker i egen produksjon, og dermed påvirke lokalt næringsliv."
+      "hvorfor_relevant": "Avgiftsfritaket for sukker utvides til å gjelde også små håndverksbakerier og kafeer, som finnes i alle kommunene og får endrede avgiftskostnader."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5251,7 +5251,7 @@
       "ny": true,
       "sammendrag": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett.",
       "relevant": true,
-      "hvorfor_relevant": "Ny nasjonal lov om digitale markeder gjelder hele landet og kan påvirke konkurransevilkårene for lokale bedrifter og kommunenes bruk av digitale plattformer og tjenester."
+      "hvorfor_relevant": "Nasjonal lov om konkurranse og regulering av store digitale plattformer, som kan påvirke næringsliv, innbyggere og kommuner som brukere av digitale tjenester."
     },
     {
       "kilde": "Helsedirektoratet",
@@ -5356,7 +5356,7 @@
       "ny": true,
       "sammendrag": "Utkast til ny nasjonal faglig retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten, som erstatter Kosthåndboken. Det ønskes innspill på bakgrunn og metode, om anbefalingene er klare, tiltak for implementering og retningslinjen som helhet.",
       "relevant": true,
-      "hvorfor_relevant": "Retningslinjen gjelder mat og ernæring i kommunale helse- og omsorgstjenester som sykehjem og hjemmetjenester, og kan gi kommunene nye faglige krav, endret bemanning og organisering."
+      "hvorfor_relevant": "Ny nasjonal retningslinje for mat og ernæring i helse- og omsorgstjenesten kan påvirke kommunenes sykehjem og hjemmetjenester, bemanning og organisering, og kommunene er direkte høringsinstanser."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5385,7 +5385,7 @@
       "ny": true,
       "sammendrag": "Forslaget samler og tydeliggjør kravene til metodene som skal brukes for å dokumentere at bærekrafts- og utslippsreduksjonskriterier er oppfylt i klimakvoteregelverket. Det kommer detaljerte krav til innhold og revisor for dokumentasjonsmetoden «annen dokumentasjon», og kravene knyttes til en ny forskrift.",
       "relevant": false,
-      "hvorfor_relevant": "Teknisk endring i dokumentasjonskrav for operatører i EU ETS og ETS2, som gjelder kvotepliktige virksomheter og ikke kommunene, og som ikke endrer selve kriteriene."
+      "hvorfor_relevant": "Gjelder dokumentasjonskrav for operatører i EUs kvotesystem, uten endring i hvilke kriterier som gjelder."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -5414,7 +5414,7 @@
       "ny": true,
       "sammendrag": "Reguleringsplan for utbedring av fv. 33 ved Bilitt: bedre kurver, bakker og grøfter, bredere veg (7,5 meter), omlegging mellom Vennevoldkrysset og Bernsgutua, endrede private avkjørsler og ombygde kryssingspunkter for gående og syklende.",
       "relevant": true,
-      "hvorfor_relevant": "Reguleringsplanen for utbedring av fv. 33 i Østre Toten gir bedre trafikksikkerhet og fremkommelighet, endrer avkjørsler og gangfelt, og kommunestyret skal sluttbehandle planen."
+      "hvorfor_relevant": "Reguleringsplan for utbedring av fv. 33 i Østre Toten berører kommunens planlegging, trafikksikkerhet, private avkjørsler og grunneiere, og kommunestyret skal sluttbehandle planen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5576,7 +5576,7 @@
       "ny": true,
       "sammendrag": "Forslag om endringer i lov og forskrifter om nasjonale e-helseløsninger, behandling av helseopplysninger og smittevern, blant annet betaling for e-helseløsningene i 2027, helsekort for gravide i kjernejournalen og CPO og C. auris som allmennfarlige smittsomme sykdommer.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i e-helseløsninger, kjernejournal, fastlegeforskrift, smittevern og asylsøkeropplysninger berører kommunenes helse- og omsorgstjenester, fastleger, økonomi (betaling for e-helseløsninger) og plikter, og kommunene er høringsinstans."
+      "hvorfor_relevant": "Nasjonale e-helseløsninger, kjernejournal, smittevern og helseopplysninger gjelder landets kommuner, med nye plikter for helsetjenesten og hjemmel for kommunenes behandling av opplysninger om asylsøkere."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5715,7 +5715,7 @@
       "ny": true,
       "sammendrag": "Forskriftsendring som utvider adgangen til andelsklasser i verdipapirfond med ulike vilkår. Et fond skal kunne ha andelsklasser med ulike vilkår for valutasikring av investeringene mot fondets basisvaluta, uavhengig av om andelsklassene har ulik utstedelsesvaluta.",
       "relevant": false,
-      "hvorfor_relevant": "Forskriftsendringen gjelder teknisk valutasikring i andelsklasser i verdipapirfond og berører ikke kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder bare valutasikring i verdipapirfond, en teknisk forskriftsendring for fondsforvaltere."
     },
     {
       "kilde": "Statens vegvesen",
@@ -5744,7 +5744,7 @@
       "ny": false,
       "sammendrag": "Endringer i trafikkreglene § 2 nr. 2 for å klargjøre hvordan hestebrukere skal følge reglene og når unntak kan gjøres. Ny plikt for kjørende til særlig forsiktighet ved passering av hest, og nye krav til reflekser, varselskilt og lys på dyretrukne kjøretøy.",
       "relevant": true,
-      "hvorfor_relevant": "Nye trafikkregler for hest gjelder over hele landet og kan berøre hestebrukere og bilister på veier i regionens fem kommuner, blant annet i landbruksområder."
+      "hvorfor_relevant": "Nasjonale trafikkregler om hest i trafikken gjelder alle veger, også i landbrukspregede kommuner, og påvirker både bilister og hestebrukere."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5773,7 +5773,7 @@
       "ny": true,
       "sammendrag": "Endringer i Reach-forskriften som skjerper reglene for kreosot og kreosotbehandlet trevirke, med begrensede bruksområder og strengere krav til omsetning, merking og risikohåndtering. For Norge innebærer det forbud mot både førstegangsbruk og gjenbruk, med ett års overgangsperiode.",
       "relevant": true,
-      "hvorfor_relevant": "Forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner og kan berøre kommunale anlegg, byggearbeid, landbruk og næringsliv i regionen, med ett års overgangsperiode."
+      "hvorfor_relevant": "Forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner og kan berøre kommunal drift, anlegg, innbyggere og næringsliv."
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -5894,7 +5894,7 @@
       "ny": true,
       "sammendrag": "Forslag til endringer i forskrift om medisinsk utstyr, som skal gjennomføre EU-forordning 2026/977 i norsk rett. Den fastsetter ensartede krav til kvalitetsstyring og prosedyrer for meldte organers samsvarsvurderinger, blant annet pristilbud, tidsfrister, kostnadsovervåking og resertifisering.",
       "relevant": false,
-      "hvorfor_relevant": "Forslaget gjelder bare meldte organers prosedyrer og forholdet til produsenter av medisinsk utstyr, og berører ikke kommunene, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder bare meldte organers prosedyrer og forholdet til produsenter av medisinsk utstyr, ikke kommunene."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -5923,7 +5923,7 @@
       "ny": true,
       "sammendrag": "Søknad om tillatelse etter forurensningsloven til et karbonfangstanlegg ved avfallsforbrenningsanlegget på Trehørningen i Hamar. Anlegget skal rense røykgassen og fange rundt 70 000 tonn karbondioksid i året, og det vil gi nye utslipp av amin og nedbrytningsprodukter.",
       "relevant": true,
-      "hvorfor_relevant": "Karbonfangstanlegget i Hamar vil slippe ut kondensat via HIAS sitt renseanlegg til Mjøsa og gi nye luftutslipp av amin, noe som kan berøre miljøet og vannkvaliteten i Mjøsa-regionen."
+      "hvorfor_relevant": "Karbonfangstanlegget ligger i Hamar i Innlandet, og renset kondensat går via HIAS sitt renseanlegg til Mjøsa, som regionen grenser til."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6568,7 +6568,7 @@
       "ny": true,
       "sammendrag": "Forslag om permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven, til bruk ved en eventuell fremtidig situasjon med høye ankomster av asylsøkere. Forslagene bygger i hovedsak på dagens midlertidige hjemler og regler.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget gir permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven som kan gi kommunene nye oppgaver og endrede regler ved høye asylankomster."
+      "hvorfor_relevant": "Permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven kan gi kommunene nye oppgaver og endre regelverket ved høye asylankomster."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6629,7 +6629,7 @@
       "ny": true,
       "sammendrag": "En transportfaglig utredning om FOT-rutene i Nord-Norge vurderer ruteføring, kapasitet, frekvens, korrespondanser og andre krav til flytilbudet. Den skal sammen med innspillene danne grunnlag for konkurransen om rutene i avtaleperioden fra 1. november 2028.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare kjøp av regionale flyruter (FOT-ruter) i Nord-Norge, og berører ikke kommunene, innbyggerne eller næringslivet i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare regionale ruteflyginger (FOT-ruter) i Nord-Norge."
     },
     {
       "kilde": "Statens vegvesen",
@@ -6657,8 +6657,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Det foreslås endringer i forskrift om bruk av kjøretøy (bruksforskriften) for å håndtere at mange vil fornye rettigheter til personlige kjennemerker. Rettighetene gjelder i ti år, og de første utløper i juni 2027.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder fornyelse av personlige kjennemerker (skiltrettigheter) for kjøretøy, en administrativ ordning mellom Statens vegvesen og eierne, uten merkbar betydning for kommunenes oppgaver, næringsliv eller infrastruktur."
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale endringer i bruksforskriften om fornyelse av personlige kjennemerker gjelder alle bilister, også innbyggerne i regionen, og er ikke avgrenset til andre områder."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6890,7 +6890,7 @@
       "ny": true,
       "sammendrag": "Detaljister med under fem prosent markedsandel foreslås å få rett til tilgang til dagligvarekjedenes fullsortimentsgrossister på rimelige, ikke-diskriminerende vilkår. Grossistene foreslås også forbudt å favorisere egne merkevarer på en konkurranseskadelig måte.",
       "relevant": true,
-      "hvorfor_relevant": ""
+      "hvorfor_relevant": "Nasjonal regulering av dagligvaremarkedet som kan endre konkurransen mellom dagligvarekjeder og lokale butikker, leverandører og forbrukere i hele landet."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7067,7 +7067,7 @@
       "ny": true,
       "sammendrag": "Et utvalg foreslår flere tiltak for å rustes fellesskolen for framtiden, slik at den beholder god kvalitet og ivaretar det brede samfunnsoppdraget. Tiltakene skal gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn.",
       "relevant": true,
-      "hvorfor_relevant": "Utredningen om fellesskolen kan gi endringer i grunnskolens innhold, organisering og kvalitet, som kommunene driver og finansierer, og kommunene er egne høringsinstanser og kan gi felles høringsuttalelse."
+      "hvorfor_relevant": "Utredningen om fellesskolen kan gi nye krav til kommunene som skoleeiere, og kommunene kan sende felles høringsuttalelse med innspill fra egne skoler."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7223,7 +7223,7 @@
       "ny": true,
       "sammendrag": "Rapporten fra utvalget som har evaluert hvordan lov om Etterretningstjenesten fungerer, sendes på høring. Utvalget ble oppnevnt i mars 2025 som oppfølging av et anmodningsvedtak fra Stortinget.",
       "relevant": false,
-      "hvorfor_relevant": "Evalueringen gjelder Etterretningstjenestens lovgrunnlag og statlige kontrollordninger, og berører verken kommunenes oppgaver, tjenester eller økonomi, næringslivet eller innbyggerne i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder evaluering av lov om Etterretningstjenesten, uten merkbar betydning for kommuner, innbyggere eller næringsliv i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7344,7 +7344,7 @@
       "ny": true,
       "sammendrag": "Forslag om endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner, gjennom endringer i forskrift om rekvirering og utlevering av legemidler m.m. og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale forskriftsendringer om sykepleieres og farmasøyters vaksinerekvirering kan endre hvordan kommunene organiserer vaksinasjon og helsetjenester, og kommunene er høringsinstans."
+      "hvorfor_relevant": "Utvidet rekvireringsrett for sykepleiere og farmasøyter til flere vaksiner kan endre hvordan kommunene organiserer vaksinasjon, for eksempel i helsetjenesten og på helsestasjoner."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7375,7 +7375,7 @@
       "ny": true,
       "sammendrag": "Strategi for 2027–2037 skal gi en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur. Antallet sentre skal ikke endres vesentlig, men flere kan søke, og alle autoriserte sentre må oppfylle kriterier for geografisk plassering og kvalitet.",
       "relevant": true,
-      "hvorfor_relevant": "Strategien fastsetter kriterier for geografisk plassering og autorisering av besøkssentre for natur, og kan gi regionen mulighet til å søke eller berøre eksisterende sentre, reiseliv og naturformidling."
+      "hvorfor_relevant": "Nasjonal strategi med kriterier for autorisering og plassering av besøkssentre for natur, som kan gi regionen mulighet til å søke eller beholde et senter."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -7404,7 +7404,7 @@
       "ny": true,
       "sammendrag": "Endringer i forurensningsforskriften kapittel 10 om utslipp fra krematorier: Reglene gjøres tydeligere, og nye krematorier må bygges med rensekrav tilsvarende kategori I. Forslaget gir lavere temperaturkrav i etterbrennkammer og røykgass og nye krav til prøvetaking.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i utslippskrav til krematorier gjelder alle landets krematorier, og kan berøre krematorier i regionen, kommunale eller kirkelige eiere og lokal forurensningsmyndighet ved nybygg, drift og utslippsmålinger."
+      "hvorfor_relevant": "Nye utslipps- og rensekrav for krematorier kan gjelde krematorier i regionen, og berører forurensningsmyndighet og drift, ofte kommunal eller kirkelig."
     },
     {
       "kilde": "Statens vegvesen",
@@ -7433,7 +7433,7 @@
       "ny": false,
       "sammendrag": "Forslag om å oppheve adgangen til å fornye dispensasjon fra helsekravene for tunge førerkortklasser for personer med syn på bare ett øye, fra 1. juli 2028. Dispensasjoner som allerede er gitt, gjelder til datoen i vedtaket.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal regelendring som kan frata yrkessjåfører med syn på ett øye retten til tunge førerkort fra 2028, noe som kan ramme transportnæringen og arbeidsplasser i regionen."
+      "hvorfor_relevant": "Nasjonal regelendring som kan frata yrkessjåfører med syn på ett øye retten til tunge førerkort, noe som kan berøre transportnæringen og arbeidsplasser i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7490,7 +7490,7 @@
       "ny": true,
       "sammendrag": "Utvidet virkeområde for §10-forskriften, slik at reglene erstatter individuell saksbehandling for flere typer transaksjoner. Det foreslås også endringer i reglene om vilkårsbundet betaling, effektiv dato og samtykkeår, og klarere plikter til å gi opplysninger og sende inn dokumentasjon ved overdragelser.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder skatteregler for overdragelse av petroleumsløyver og interesseoverføring, en næring som knapt finnes i regionen, og berører ikke kommunene, innbyggerne eller næringslivet her."
+      "hvorfor_relevant": "Gjelder bare skatteregler for overdraging av petroleumsløyver, en næring som ikke finnes i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7627,8 +7627,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Forslag om å oppheve plikten til å gi timepristilbud, begrense regningsplikten til oppdrag med timebasert vederlag, endre reglene om etterutdanning, lempe kravene til ansvarlig megler ved utleiemegling og redusere rapporteringen til Finanstilsynet. Forbudet mot vederlag for boligselgerforsikring foreslås opphevet.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i eiendomsmeglingsloven gjelder hele landet og kan påvirke eiendomsmeglerforetak, boligselgere og utleiere i regionen, selv om kommunene ikke er direkte pålagt nye oppgaver."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder forenklinger i regler for eiendomsmeglingsforetak, ikke kommunenes oppgaver, tjenester eller planlegging."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7766,8 +7766,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Forslag om at alle i finanssektoren skal måtte være tilknyttet en godkjent klagenemd for å løse forbrukertvister. Finanstilsynet foreslår endringer i flere lover og forskrifter, også for tjenesteområder der EØS-regelverket ikke krever slik tilknytning.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder krav til finansforetak om tilknytning til klagenemd i forbrukertvister, og berører ikke kommunenes oppgaver, økonomi eller planlegging, og heller ikke næringslivet i regionen på noen merkbar måte."
+      "relevant": true,
+      "hvorfor_relevant": "Alle aktører i finanssektoren skal tilknyttes en godkjent klagenemd, noe som gir innbyggerne som forbrukere en sikrere klagemulighet i tvister med finansaktører."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7901,7 +7901,7 @@
       "ny": true,
       "sammendrag": "Fristen for politiets innbringelse av barn under 18 år foreslås utvidet fra fire til seks timer (politiloven § 8). Politihøgskolen foreslås også kunne sette krav om skikkethet for opptak, blant annet når studiet kvalifiserer for arbeid i politiet (§ 24 b).",
       "relevant": false,
-      "hvorfor_relevant": "Forslagene gjelder politiets fristregel for innbringelse av barn og opptakskrav ved Politihøgskolen, og berører ikke kommunale oppgaver, tjenester eller næringsliv i regionen merkbart."
+      "hvorfor_relevant": "Gjelder politiets frist for innbringelse av barn og skikkethetskrav ved Politihøgskolen, ikke kommunale oppgaver."
     },
     {
       "kilde": "Nye Veier",
@@ -7929,8 +7929,8 @@
       "forst_sett": "2026-10-27",
       "ny": true,
       "sammendrag": "Forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, med rundkjøring i krysset mellom E6 og rv.15 på Otta. Mellom Nordre Eide og Ny-Sandbu er to alternative traseer foreslått, og det ønskes særlig innspill til valget mellom dem.",
-      "relevant": false,
-      "hvorfor_relevant": "Lokal detaljregulering av E6 mellom Sjoa og Otta i Sel kommune i Gudbrandsdalen, langt fra Gjøvikregionen, uten merkbar virkning for kommunene eller næringslivet her."
+      "relevant": true,
+      "hvorfor_relevant": "Planforslaget gjelder ny E6 mellom Sjoa og Otta og rundkjøring mot rv. 15, altså samferdselsinfrastruktur i Innlandet."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8035,7 +8035,7 @@
       "ny": true,
       "sammendrag": "Rapporten vurderer hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres tilgjengelige utenfor kliniske studier for pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter. Den foreslår blant annet endringer i regelverket om godkjenningsfritak.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder regelverk om godkjenningsfritak for legemidler til alvorlig syke, rettet mot legemiddelmyndigheter og sykehus, og berører ikke kommunene, innbyggerne eller næringslivet i regionen merkbart."
+      "hvorfor_relevant": "Gjelder smal legemiddelregulering om godkjenningsfritak for alvorlig syke, uten merkbar virkning for kommunene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8196,7 +8196,7 @@
       "ny": true,
       "sammendrag": "Endring i opplæringsloven § 14-5 som presiserer at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget presiserer i opplæringsloven hva skolene kan tilby om gudstjenester og religiøse seremonier, og gjelder alle grunnskoler og videregående skoler som kommuner og fylkeskommuner driver."
+      "hvorfor_relevant": "Presiseringen i opplæringsloven § 14-5 gjelder alle grunnskoler og videregående skoler, og kommunene som skoleeiere må vurdere hvordan skolene skal tilby og håndtere gudstjenester og religiøse seremonier."
     },
     {
       "kilde": "Statens vegvesen",
@@ -8225,7 +8225,7 @@
       "ny": false,
       "sammendrag": "Konkrete endringer i forskrifter som følge av at ny forvaltningslov settes i kraft. Forslagene bygger på en kartlegging fra høsten 2025 og på endringsbehov departementet har funnet.",
       "relevant": true,
-      "hvorfor_relevant": "Forskriftene til Statens vegvesen tilpasses ny forvaltningslov, noe som kan endre saksbehandlingsreglene på vegområdet som kommunene bruker, men teksten sier lite om konkrete endringer."
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -8377,7 +8377,7 @@
       "ny": true,
       "sammendrag": "Forslag om å lovfeste en plikt for offentlige og private skoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning. Samtidig foreslås det å oppheve plikten til å tilby leksehjelp.",
       "relevant": true,
-      "hvorfor_relevant": "Forslaget pålegger kommunene å organisere smågruppeundervisning i lesing, skriving og regning på 1.–2. trinn og fjerner leksehjelpplikten, noe som påvirker skoledrift, bemanning og kommuneøkonomi i alle regionens kommuner."
+      "hvorfor_relevant": "Kommunene som skoleeiere får ny plikt til smågruppeundervisning på 1.–2. trinn og slipper plikten til å tilby leksehjelp, noe som påvirker skoletilbud, økonomi og bemanning."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8541,7 +8541,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i opplæringsloven gjelder alle kommuner og fylkeskommunen som skoleeiere: klagerett på standpunktkarakterer oppheves, permisjon fra grunnskolen reguleres, og inntak til videregående kan automatiseres."
+      "hvorfor_relevant": "Nasjonale endringer i opplæringsloven om klage på standpunktkarakterer, permisjon fra grunnskolen og automatiserte vedtak om inntak til videregående berører kommunenes skoler og saksbehandling."
     },
     {
       "kilde": "Statens vegvesen",
@@ -8570,7 +8570,7 @@
       "ny": false,
       "sammendrag": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte nye § 7 a i vegtrafikkloven.",
       "relevant": true,
-      "hvorfor_relevant": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan gjelde kommunene som vegeiere og byggherrer, og entreprenører i regionen som utfører arbeid på og ved offentlig veg."
+      "hvorfor_relevant": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan påvirke kommunene som vegeiere og vegmyndighet, og entreprenører som jobber på og ved veg."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8776,7 +8776,7 @@
       "ny": true,
       "sammendrag": "Forslag om to nye forskrifter, én rammeplan for lærerutdanningene og én for de samiske lærerutdanningene, som skal erstatte dagens elleve rammeplaner for lærerutdanning.",
       "relevant": true,
-      "hvorfor_relevant": "Nye nasjonale rammeplaner for lærerutdanningene erstatter elleve gjeldende planer og kan påvirke lærerutdanningen ved NTNU i Gjøvik, og dermed lærertilgangen i skoler og barnehager i kommunene."
+      "hvorfor_relevant": "Nye nasjonale rammeplaner for alle lærerutdanninger kan påvirke lærerutdanningen ved NTNU i Gjøvik og kommunenes tilgang på lærere i skole og barnehage."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8933,7 +8933,7 @@
       "ny": true,
       "sammendrag": "Lotteri- og stiftelsestilsynet foreslår endringer i pengespillregelverket slik at flere pengespill-lignende elementer i dataspill, som lootbokser, omfattes av pengespilloven. Utredningen beskriver tre alternative modeller og forslag til hva som skal regnes som innsats og premie.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan gi barn og unge i regionen bedre vern, og kan berøre kommunenes forebyggende arbeid og spillutviklere i teknologimiljøene, f.eks. ved NTNU i Gjøvik."
+      "hvorfor_relevant": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan gjelde barn og unge i alle kommuner, og KS er blant høringsinstansene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9203,7 +9203,7 @@
       "ny": true,
       "sammendrag": "Forslag om tre endringer i forskrift om utdanningsstøtte: avkastning på erstatning eller forsikringsutbetaling for kritisk sykdom og personskade unntas behovsprøvingen av stipend, reglene om utstyrsstipend til elever som også er lærlinger oppdateres, og omgjøringen fra lån til stipend ved fullført folkehøgskole reduseres.",
       "relevant": true,
-      "hvorfor_relevant": ""
+      "hvorfor_relevant": "Endringer i regelverket for utdanningsstøtte i Lånekassen gjelder studenter og elever, blant andre ved NTNU i Gjøvik, og lærlinger og folkehøgskoleelever i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9355,7 +9355,7 @@
       "ny": true,
       "sammendrag": "Utvalgets vurderinger og forslag til endringer i det etiske rammeverket for Statens pensjonsfond utland, medregnet relevante deler av den ansvarlige forvaltningen. Utredningen foreslår også endringer i sentralbankloven om unntak fra innsyn etter offentleglova for visse saksdokumenter.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder det etiske rammeverket for oljefondets utenlandske investeringer og berører ikke kommunenes oppgaver, økonomi, innbyggerne eller næringslivet i regionen på noen merkbar måte."
+      "hvorfor_relevant": "Gjelder det etiske rammeverket for Statens pensjonsfond utland, ikke kommunenes oppgaver, økonomi eller regionens næringsliv."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9527,7 +9527,7 @@
       "ny": true,
       "sammendrag": "Rapporten fra ekspertutvalget vurderer om statens forpliktelser overfor den samiske befolkningen blir ivaretatt i spesialisthelsetjenesten. Den anbefaler en nasjonal struktur med nasjonal enhet for samisk helse, samiske helseteam og samiske sykehusprogram.",
       "relevant": false,
-      "hvorfor_relevant": "Høringen gjelder organisering av samiske spesialisthelsetjenester, særlig i samiske kjerneområder og under staten og de regionale helseforetakene, og berører ikke kommunene i Gjøvikregionen merkbart."
+      "hvorfor_relevant": "Gjelder organisering av samiske spesialisthelsetjenester, hovedsakelig i samiske områder og under staten og de regionale helseforetakene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9940,7 +9940,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny lov om fylkeskommunale tannhelsetjenester endrer helse- og omsorgstjenesteloven og grensegangen mot kommunale tjenester, og kommunene står på høringslisten, så innbyggernes tannhelsetilbud og kommunenes oppgaver kan bli berørt."
+      "hvorfor_relevant": "Ny lov om fylkeskommunale tannhelsetjenester med endringer i helse- og omsorgstjenesteloven berører grensegangen mot kommunale helsetjenester og tannhelsetilbudet til innbyggerne, og kommunene er høringsinstans."
     },
     {
       "kilde": "Statens vegvesen",
@@ -9969,7 +9969,7 @@
       "ny": true,
       "sammendrag": "Forslag til endringer i vegtrafikkloven og førerkort- og trafikkopplæringsforskriften som følge av fjerde førerkortdirektiv, blant annet ledsaget kjøring for 17-åringer i klasse B og høyere vektgrense for klasse B og BE med alternativt drivstoff. Også regler om mindreåriges handleevne i førerkortsaker.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale førerkortregler for 17-åringer og tyngre kjøretøy med alternativt drivstoff berører innbyggere, ungdom, trafikkopplæring og transportnæringen i regionen, og lærlinger kan få andre alderskrav ved øvingskjøring."
+      "hvorfor_relevant": "Nasjonale førerkortregler om ledsaget kjøring fra 17 år og høyere vektgrense for alternativt drivstoff berører innbyggere, trafikkopplæring og transportnæringen i regionen."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -9998,7 +9998,7 @@
       "ny": true,
       "sammendrag": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det bes særlig om innspill på om 5 mm-grensen også skal gjelde i kapittel 23A.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal forskriftsendring som kan endre hvilke fyllmaterialer, for eksempel større granulat på idrettsbaner, som omfattes av kravene mot spredning av mikroplast, og dermed berøre kommuner som eier og drifter baner."
+      "hvorfor_relevant": "Nasjonal forskriftsendring som kan endre hvilke krav som gjelder for granulat på idrettsbaner, som kommunene har ansvar for å følge opp."
     },
     {
       "kilde": "Arbeidstilsynet",
@@ -10027,7 +10027,7 @@
       "ny": true,
       "sammendrag": "Arbeidstilsynet foreslår å fjerne kravet om obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet står i dag i forskrift om utførelse av arbeid (FUA) § 27-29.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt krav om røntgenundersøkelse for bergarbeidere gjelder alle virksomheter i landet, og kan påvirke bedrifter og ansatte innen bergarbeid, anlegg og tunnelarbeid i regionen, som veibygging på rv. 4."
+      "hvorfor_relevant": "Nasjonalt forskriftskrav om røntgenundersøkelse av lungene for alle som utfører bergarbeid kan berøre bedrifter og arbeidstakere i regionen som driver slikt arbeid."
     },
     {
       "kilde": "Helsedirektoratet",
@@ -10072,7 +10072,7 @@
       "ny": true,
       "sammendrag": "Forslag til hvordan legespesialiseringen og legespesialitetene i større grad kan rettes mot breddekompetanse og behovene i kommunal helse- og omsorgstjeneste. Utredningen prioriterer spesialiteter med felles kirurgisk eller indremedisinsk del.",
       "relevant": true,
-      "hvorfor_relevant": "Endret legespesialisering mot breddekompetanse skal dekke behovene i kommunal helse- og omsorgstjeneste, og kan påvirke legetilgang, kompetanse og samarbeid mellom kommuner og Sykehuset Innlandet i regionen."
+      "hvorfor_relevant": "Endringer i legenes spesialistutdanning mot breddekompetanse og behov i den kommunale helse- og omsorgstjenesten kan påvirke legetilgang og tjenester til eldre i kommunene."
     },
     {
       "kilde": "Skatteetaten",
@@ -10101,7 +10101,7 @@
       "ny": true,
       "sammendrag": "Forslaget endrer særavgiftsforskriften slik at den reduserte CO2-avgiftssatsen for kvotepliktig sjøfart også gjelder større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel utenfor innsatsfordelingsforordningen foreslås fritatt.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder CO2-avgift for kvotepliktig sjøfart og offshore-fartøy på norsk sokkel, en næring som knapt finnes i Gjøvikregionen, og berører dermed ikke kommunene eller næringslivet her."
+      "hvorfor_relevant": "Gjelder bare CO2-avgift for kvotepliktig sjøfart og offshore-fartøy, en næring som knapt finnes i regionen."
     }
   ]
 }

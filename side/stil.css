@@ -64,7 +64,7 @@ a:hover { text-decoration-thickness: 2px; }
 .topp { border-bottom: 1px solid var(--linje); background: var(--hvit); }
 .topp-indre {
   max-width: var(--bredde); margin: 0 auto;
-  padding: 1.25rem var(--rom) 1.1rem;
+  padding: 1.25rem var(--rom) 1.25rem;
   display: grid; gap: 1.25rem; grid-template-columns: auto 1fr; align-items: start;
 }
 .logo { display: block; width: 12.5rem; height: auto; margin-top: 0.35rem; }
@@ -77,17 +77,6 @@ h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.35rem; font-weight: 700; 
   background: var(--oransje-100); color: var(--burgunder); border-left: 6px solid var(--oransje-700);
   font-size: 0.9375rem; font-weight: 600;
 }
-
-/* Verktøylinjen i toppen (Svein 28.10.2026): samme kolonner som filtrene og listen under, så
-   antall, sortering, knapper og fargeforklaring står rett over listen. */
-.verktoy-band { border-top: 1px solid var(--linje); background: var(--beige); }
-.verktoy-indre {
-  max-width: var(--bredde); margin: 0 auto; padding: 0.75rem var(--rom) 0.6rem;
-  display: grid; grid-template-columns: 16rem 1fr; gap: 2rem;
-}
-.verktoy-boks { grid-column: 2; min-width: 0; }
-.verktoy-band .verktoy { margin-bottom: 0.4rem; }
-.verktoy-band .forklaring { margin: 0; }
 
 /* ---------- Ramme ---------- */
 
@@ -137,7 +126,17 @@ input[type="search"]::placeholder { color: var(--skog-300); }
 .knapp-stille { background: transparent; color: var(--skog-700); }
 .knapp-stille:hover { background: var(--turkis-300); border-color: var(--skog-700); }
 
-/* ---------- Verktøylinje og forklaring ---------- */
+/* ---------- Verktøylinje og forklaring ----------
+   Står øverst i venstre kolonne, over filtrene (Svein 28.10.2026). */
+
+.verktoy-boks { padding-bottom: 1rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--linje); }
+.verktoy-boks .verktoy { display: block; margin: 0; }
+.verktoy-boks .antall { margin: 0 0 0.6rem; font-size: 1rem; line-height: 1.35; }
+.verktoy-boks .handlinger { display: grid; grid-template-columns: auto 1fr; gap: 0.5rem; }
+.verktoy-boks .sortering { grid-column: 1 / -1; display: grid; gap: 0.3rem; }
+.verktoy-boks .sortering select { width: 100%; }
+.verktoy-boks .knapp { padding: 0.45rem 0.65rem; font-size: 0.875rem; white-space: nowrap; }
+.verktoy-boks .forklaring { flex-direction: column; gap: 0.2rem; margin: 0.75rem 0 0; }
 
 .verktoy { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
 .antall { margin: 0; font-weight: 600; font-size: 1.0625rem; }
@@ -306,21 +305,23 @@ thead th { background: var(--turkis-300); }
     flex: 1 1 auto; min-height: 0; width: 100%;
     padding-top: 0; padding-bottom: 0; align-items: stretch; grid-template-rows: minmax(0, 1fr);
   }
+  /* Venstre kolonne: verktøylinjen står fast øverst, og filtrene ruller under. */
+  .venstre { display: flex; flex-direction: column; min-height: 0; padding-top: 1.5rem; }
+  .verktoy-boks { flex: none; padding-right: 0.75rem; }
   /* position: relative gjør at skjulte, absolutt plasserte elementer (f.eks. tabelltekst for
      skjermlesere) holder seg inne i rulleområdet, så selve siden aldri får noe å rulle. */
   .filtre, #hoved {
     position: relative; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
-    padding-top: 1.5rem; padding-bottom: 2rem;
+    padding-bottom: 2rem;
   }
-  .filtre { padding-right: 0.75rem; scrollbar-gutter: stable; }
+  .filtre { flex: 1 1 auto; top: 0; padding-right: 0.75rem; scrollbar-gutter: stable; }
+  #hoved { padding-top: 1.5rem; }
   #hoved { padding-right: 0.5rem; }
 }
 
 /* ---------- Smal skjerm ---------- */
 
 @media (max-width: 52rem) {
-  .verktoy-indre { grid-template-columns: 1fr; }
-  .verktoy-boks { grid-column: 1; }
   .ramme { grid-template-columns: 1fr; gap: 1rem; padding-top: 1rem; }
   .filtre { position: static; border: 1px solid var(--linje); border-radius: 6px; background: var(--hvit); padding: 0 0.9rem; }
   .filtre details > summary { cursor: pointer; padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; }
@@ -353,8 +354,8 @@ thead th { background: var(--turkis-300); }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   html { font-size: 8.5pt; }
   body { background: #fff; line-height: 1.3; }
-  .verktoy-band { border: 0; background: #fff; }
-  .verktoy-indre { display: block; max-width: none; padding: 0; }
+  .verktoy-boks { border: 0; padding: 0; margin: 0 0 0.3rem; }
+  .verktoy-boks .forklaring { flex-direction: row; gap: 0.35rem 1.25rem; margin: 0.2rem 0 0; }
   .filtre, .handlinger, .hopp, #inaktive, .status, .bunn, #tom { display: none !important; }
   .forklaring { font-size: 0.9rem; margin: 0 0 0.3rem; }
   .ramme { display: block; max-width: none; padding: 0; }

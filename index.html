@@ -24,75 +24,74 @@
         <p class="advarsel" id="advarsel" role="status" hidden></p>
       </div>
     </div>
-    <!-- Verktøylinjen står i toppen (Svein 28.10.2026): alltid synlig, over listen. -->
-    <div class="verktoy-band">
-      <div class="verktoy-indre">
-        <div class="verktoy-boks">
-          <div class="verktoy">
-            <p id="antall" class="antall" role="status" aria-live="polite"></p>
-            <div class="handlinger">
-              <label class="sortering" for="sortering">Sorter etter
-                <select id="sortering">
-                  <option value="frist">Frist, nærmeste først</option>
-                  <option value="nye">Nyeste først</option>
-                  <option value="prioritet">Foreslått prioritet</option>
-                  <option value="avsender">Høringsinstans A–Å</option>
-                  <option value="tema">Tema</option>
-                </select>
-              </label>
-              <button type="button" class="knapp knapp-stille" id="skriv-ut">Skriv ut</button>
-              <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
-            </div>
-          </div>
-
-          <ul class="forklaring" aria-label="Fargene på fristene">
-            <li><span class="prikk snart" aria-hidden="true"></span>Under 14 dager igjen</li>
-            <li><span class="prikk middels" aria-hidden="true"></span>14–30 dager igjen</li>
-            <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
-          </ul>
-        </div>
-      </div>
-    </div>
   </header>
 
   <div class="ramme">
-    <aside class="filtre" aria-labelledby="filtre-tittel">
-      <details id="filtre-boks" open>
-        <summary><h2 id="filtre-tittel">Filtre</h2></summary>
-        <form id="filterskjema" role="search" aria-label="Filtrer høringene">
-          <div class="felt">
-            <label for="sok">Søk i høringene</label>
-            <input id="sok" name="q" type="search" autocomplete="off" placeholder="F.eks. barnehage eller rv. 4">
+    <!-- Venstre kolonne (Svein 28.10.2026): verktøylinjen står fast øverst, filtrene ruller under. -->
+    <div class="venstre">
+      <div class="verktoy-boks">
+        <div class="verktoy">
+          <p id="antall" class="antall" role="status" aria-live="polite"></p>
+          <div class="handlinger">
+            <label class="sortering" for="sortering">Sorter etter
+              <select id="sortering">
+                <option value="frist">Frist, nærmeste først</option>
+                <option value="nye">Nyeste først</option>
+                <option value="prioritet">Foreslått prioritet</option>
+                <option value="avsender">Høringsinstans A–Å</option>
+                <option value="tema">Tema</option>
+              </select>
+            </label>
+            <button type="button" class="knapp knapp-stille" id="skriv-ut">Skriv ut</button>
+            <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
           </div>
+        </div>
 
-          <fieldset class="felt flervalg" id="kategori">
-            <legend>Tema</legend>
-            <p class="hint">Ingen avkrysset = alle</p>
-          </fieldset>
+        <ul class="forklaring" aria-label="Fargene på fristene">
+          <li><span class="prikk snart" aria-hidden="true"></span>Under 14 dager igjen</li>
+          <li><span class="prikk middels" aria-hidden="true"></span>14–30 dager igjen</li>
+          <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
+        </ul>
+      </div>
 
-          <fieldset class="felt flervalg" id="niva">
-            <legend>Avsender</legend>
-            <p class="hint">Ingen avkrysset = alle</p>
-          </fieldset>
+      <aside class="filtre" aria-labelledby="filtre-tittel">
+        <details id="filtre-boks" open>
+          <summary><h2 id="filtre-tittel">Filtre</h2></summary>
+          <form id="filterskjema" role="search" aria-label="Filtrer høringene">
+            <div class="felt">
+              <label for="sok">Søk i høringene</label>
+              <input id="sok" name="q" type="search" autocomplete="off" placeholder="F.eks. barnehage eller rv. 4">
+            </div>
 
-          <fieldset class="felt">
-            <legend>Foreslått prioritet</legend>
-            <label class="valg"><input type="checkbox" name="prio" value="1" checked> Høy</label>
-            <label class="valg"><input type="checkbox" name="prio" value="2" checked> Middels</label>
-            <label class="valg"><input type="checkbox" name="prio" value="3"> Lav</label>
-          </fieldset>
+            <fieldset class="felt flervalg" id="kategori">
+              <legend>Tema</legend>
+              <p class="hint">Ingen avkrysset = alle</p>
+            </fieldset>
 
-          <fieldset class="felt">
-            <legend>Øvrige valg</legend>
-            <label class="valg"><input type="checkbox" id="regionpart" name="regionpart" value="1"> Bare høringer der regionen er høringspart</label>
-            <label class="valg"><input type="checkbox" id="mottatt" name="mottatt" value="1"> Bare høringer mottatt av Gjøvik kommune</label>
-            <label class="valg"><input type="checkbox" id="utlopte" name="utlopte" value="1"> Vis høringer med utløpt frist (siste 30 dager)</label>
-          </fieldset>
+            <fieldset class="felt flervalg" id="niva">
+              <legend>Avsender</legend>
+              <p class="hint">Ingen avkrysset = alle</p>
+            </fieldset>
 
-          <button type="button" class="knapp knapp-stille" id="nullstill">Fjern alle filtre</button>
-        </form>
-      </details>
-    </aside>
+            <fieldset class="felt">
+              <legend>Foreslått prioritet</legend>
+              <label class="valg"><input type="checkbox" name="prio" value="1" checked> Høy</label>
+              <label class="valg"><input type="checkbox" name="prio" value="2" checked> Middels</label>
+              <label class="valg"><input type="checkbox" name="prio" value="3"> Lav</label>
+            </fieldset>
+
+            <fieldset class="felt">
+              <legend>Øvrige valg</legend>
+              <label class="valg"><input type="checkbox" id="regionpart" name="regionpart" value="1"> Bare høringer der regionen er høringspart</label>
+              <label class="valg"><input type="checkbox" id="mottatt" name="mottatt" value="1"> Bare høringer mottatt av Gjøvik kommune</label>
+              <label class="valg"><input type="checkbox" id="utlopte" name="utlopte" value="1"> Vis høringer med utløpt frist (siste 30 dager)</label>
+            </fieldset>
+
+            <button type="button" class="knapp knapp-stille" id="nullstill">Fjern alle filtre</button>
+          </form>
+        </details>
+      </aside>
+    </div>
 
     <main id="hoved">
       <p id="utskrift-info" class="utskrift-info"></p>

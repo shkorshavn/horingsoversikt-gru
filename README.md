@@ -28,7 +28,8 @@ Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og hørings
 Sprint 8: KI-sammendrag, «Hvorfor relevant» og «Utelatte høringer», delt visning (filtrene og
 listen ruller hver for seg) og ferdigstilling.
 Sprint 9: faste regler for utelatte høringer (alle representantforslag).
-Sprint 10: verktøylinjen i toppen, søk som tåler skrivefeil, lenker i ny fane og luftigere utskrift.
+Sprint 10: søk som tåler skrivefeil, lenker i ny fane og luftigere utskrift.
+Sprint 11: verktøylinjen (antall, sortering, utskrift, CSV og fargeforklaring) over filtrene.
 
 ## Etatens side eller regjeringen.no
 
@@ -258,7 +259,8 @@ Gjøvikregionen».
 
 Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
 eller tema. Valget lagres i adressen (`?sort=avsender`). Antall, sortering, «Skriv ut», «Last ned
-som CSV» og fargeforklaringen står i toppen, rett over listen, og er alltid synlige på PC.
+som CSV» og fargeforklaringen står øverst i venstre kolonne, over filtrene. På PC står de fast,
+mens filtrene ruller under. På mobil står de over «Filtre».
 
 Knappen «Skriv ut» skriver ut samme utvalg og rekkefølge som på skjermen, i farger, med en linje
 øverst som beskriver utvalget. Fristen står i egen kolonne, alt under tittelen har fast innrykk,

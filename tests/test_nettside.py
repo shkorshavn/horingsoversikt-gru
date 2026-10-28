@@ -1058,8 +1058,9 @@ def test_filtre_og_liste_ruller_hver_for_seg(nettleser, server, tmp_path):
     assert _topp(side, ".filtre") == 0
     assert side.evaluate("scrollY") == 0
     liste_for = _topp(side, "#hoved")
-    # Filtrene rulles: listen står i ro.
-    _rull(side, 150, 450, 600)
+    # Filtrene rulles: listen står i ro. Musen nederst i venstre kolonne, under verktøylinjen
+    # (sprint 11).
+    _rull(side, 150, 570, 600)
     assert _topp(side, ".filtre") > 0
     assert _topp(side, "#hoved") == liste_for
     assert side.is_visible("h1")
@@ -1246,18 +1247,36 @@ def test_lenker_aapnes_i_ny_fane(nettleser, server, tmp_path):
     side.close()
 
 
-def test_verktoylinjen_staar_i_toppen(side):
+def test_verktoylinjen_staar_fast_over_filtrene(nettleser, server, tmp_path):
+    """Sprint 11 (Svein 28.10.2026): verktøylinjen står fast i venstre kolonne, over filtrene."""
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_mange())), bredde=1280)
+    side.set_viewport_size({"width": 1280, "height": 700})
     for sel in ("#antall", "#sortering", "#skriv-ut", "#eksport", ".forklaring"):
-        assert side.locator(f"header.topp {sel}").count() == 1, sel
-    # Står i ro når listen rulles.
+        assert side.locator(f".venstre .verktoy-boks {sel}").count() == 1, sel
+        assert side.locator(f"header.topp {sel}").count() == 0, sel
+    boks = side.locator(".verktoy-boks").bounding_box()
+    filtre = side.locator("#filtre-tittel").bounding_box()
+    assert boks["y"] + boks["height"] <= filtre["y"]
+    assert boks["x"] + boks["width"] <= side.locator("#hoved").bounding_box()["x"]
+    # Står i ro når filtrene og listen rulles.
     for_ = side.locator("#eksport").bounding_box()["y"]
-    side.locator("#hoved").evaluate("e => e.scrollTop = 600")
+    _rull(side, 150, 600, 600)
+    assert _topp(side, ".filtre") > 0
+    _rull(side, 900, 450, 900)
+    assert _topp(side, "#hoved") > 0
     assert side.locator("#eksport").bounding_box()["y"] == for_
-    # Verktøylinjen står over listen, ikke over filtrene.
+    assert side.evaluate("scrollY") == 0
+    side.close()
+
+
+def test_verktoylinjen_over_filtrene_paa_mobil(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path)), bredde=375)
     assert (
-        side.locator("#antall").bounding_box()["x"]
-        >= side.locator("#hoved").bounding_box()["x"] - 1
+        side.locator(".verktoy-boks").bounding_box()["y"]
+        < side.locator("#filtre-boks").bounding_box()["y"]
     )
+    assert side.evaluate("document.documentElement.scrollWidth") <= 375
+    side.close()
 
 
 def test_filtrene_uten_fet_og_prioritet_uten_tall(side):

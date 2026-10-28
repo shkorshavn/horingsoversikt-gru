@@ -28,6 +28,7 @@ Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og hørings
 Sprint 8: KI-sammendrag, «Hvorfor relevant» og «Utelatte høringer», delt visning (filtrene og
 listen ruller hver for seg) og ferdigstilling.
 Sprint 9: faste regler for utelatte høringer (alle representantforslag).
+Sprint 10: verktøylinjen i toppen, søk som tåler skrivefeil, lenker i ny fane og luftigere utskrift.
 
 ## Etatens side eller regjeringen.no
 
@@ -256,9 +257,27 @@ relevante for regionen, ligger under «Utelatte høringer» nederst, se «Releva
 Gjøvikregionen».
 
 Listen kan sorteres etter frist (standard), nyeste først, foreslått prioritet, høringsinstans
-eller tema. Valget lagres i adressen (`?sort=avsender`). Knappen «Skriv ut» skriver ut samme
-utvalg og rekkefølge som på skjermen, i farger og med liten skrift og tette rader, med en linje
-øverst som beskriver utvalget. Eksempel: `docs/sprinter/bilder/sprint-03-utskrift-eksempel.pdf`.
+eller tema. Valget lagres i adressen (`?sort=avsender`). Antall, sortering, «Skriv ut», «Last ned
+som CSV» og fargeforklaringen står i toppen, rett over listen, og er alltid synlige på PC.
+
+Knappen «Skriv ut» skriver ut samme utvalg og rekkefølge som på skjermen, i farger, med en linje
+øverst som beskriver utvalget. Fristen står i egen kolonne, alt under tittelen har fast innrykk,
+og det er luft og en tynn strek mellom høringene. «KI: Hvorfor relevant» er med. Eksempel:
+`docs/sprinter/bilder/sprint-10-utskrift-eksempel.pdf`.
+
+Lenker til høringene og kildene åpnes i ny fane, slik at siden med filtrene blir stående.
+
+**Søket** leter i tittel, avsender, ingress, KI-tekstene, saksfelt og høringsparter, og alle
+ordene må finnes. Det tåler ulike skrivemåter og små skrivefeil:
+- Store og små bokstaver, punktum, bindestrek og mellomrom mellom bokstaver og tall regnes som
+  like: «rv4», «Rv.4», «rv. 4» og «RV-4» gir samme treff. Tall må stå alene, så «rv4» finner
+  ikke «rv. 40».
+- Ord på 4–9 bokstaver tåler én skrivefeil, og ord på 10 eller flere tåler to. En skrivefeil er
+  en bokstav for mye, for lite, feil bokstav eller to bokstaver som har byttet plass. De to
+  første bokstavene må stemme.
+- Ord på 6 bokstaver eller mer sammenlignes også med starten av lengre ord, slik at «barnehave»
+  finner «barnehageloven».
+- Tall og ord på 1–3 bokstaver må stemme nøyaktig.
 
 ## Kjøre lokalt
 

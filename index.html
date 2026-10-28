@@ -11,6 +11,7 @@
   <script src="side/app.js" defer></script>
 </head>
 <body>
+  <span id="ny-fane" hidden>Åpnes i ny fane</span>
   <a class="hopp" href="#liste">Hopp til høringene</a>
 
   <header class="topp">
@@ -21,6 +22,35 @@
         <p class="ingress">Åpne høringer fra Stortinget, departementene, direktorater, Innlandet fylkeskommune og Statsforvalteren i Innlandet.</p>
         <p class="oppdatert" id="oppdatert">Henter høringer …</p>
         <p class="advarsel" id="advarsel" role="status" hidden></p>
+      </div>
+    </div>
+    <!-- Verktøylinjen står i toppen (Svein 28.10.2026): alltid synlig, over listen. -->
+    <div class="verktoy-band">
+      <div class="verktoy-indre">
+        <div class="verktoy-boks">
+          <div class="verktoy">
+            <p id="antall" class="antall" role="status" aria-live="polite"></p>
+            <div class="handlinger">
+              <label class="sortering" for="sortering">Sorter etter
+                <select id="sortering">
+                  <option value="frist">Frist, nærmeste først</option>
+                  <option value="nye">Nyeste først</option>
+                  <option value="prioritet">Foreslått prioritet</option>
+                  <option value="avsender">Høringsinstans A–Å</option>
+                  <option value="tema">Tema</option>
+                </select>
+              </label>
+              <button type="button" class="knapp knapp-stille" id="skriv-ut">Skriv ut</button>
+              <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
+            </div>
+          </div>
+
+          <ul class="forklaring" aria-label="Fargene på fristene">
+            <li><span class="prikk snart" aria-hidden="true"></span>Under 14 dager igjen</li>
+            <li><span class="prikk middels" aria-hidden="true"></span>14–30 dager igjen</li>
+            <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -47,22 +77,17 @@
 
           <fieldset class="felt">
             <legend>Foreslått prioritet</legend>
-            <label class="valg"><input type="checkbox" name="prio" value="1" checked> Høy (1)</label>
-            <label class="valg"><input type="checkbox" name="prio" value="2" checked> Middels (2)</label>
-            <label class="valg"><input type="checkbox" name="prio" value="3"> Lav (3)</label>
+            <label class="valg"><input type="checkbox" name="prio" value="1" checked> Høy</label>
+            <label class="valg"><input type="checkbox" name="prio" value="2" checked> Middels</label>
+            <label class="valg"><input type="checkbox" name="prio" value="3"> Lav</label>
           </fieldset>
 
-          <div class="felt">
+          <fieldset class="felt">
+            <legend>Øvrige valg</legend>
             <label class="valg"><input type="checkbox" id="regionpart" name="regionpart" value="1"> Bare høringer der regionen er høringspart</label>
-          </div>
-
-          <div class="felt">
             <label class="valg"><input type="checkbox" id="mottatt" name="mottatt" value="1"> Bare høringer mottatt av Gjøvik kommune</label>
-          </div>
-
-          <div class="felt">
             <label class="valg"><input type="checkbox" id="utlopte" name="utlopte" value="1"> Vis høringer med utløpt frist (siste 30 dager)</label>
-          </div>
+          </fieldset>
 
           <button type="button" class="knapp knapp-stille" id="nullstill">Fjern alle filtre</button>
         </form>
@@ -71,28 +96,6 @@
 
     <main id="hoved">
       <p id="utskrift-info" class="utskrift-info"></p>
-      <div class="verktoy">
-        <p id="antall" class="antall" role="status" aria-live="polite"></p>
-        <div class="handlinger">
-          <label class="sortering" for="sortering">Sorter etter
-            <select id="sortering">
-              <option value="frist">Frist, nærmeste først</option>
-              <option value="nye">Nyeste først</option>
-              <option value="prioritet">Foreslått prioritet</option>
-              <option value="avsender">Høringsinstans A–Å</option>
-              <option value="tema">Tema</option>
-            </select>
-          </label>
-          <button type="button" class="knapp knapp-stille" id="skriv-ut">Skriv ut</button>
-          <button type="button" class="knapp" id="eksport">Last ned som CSV</button>
-        </div>
-      </div>
-
-      <ul class="forklaring" aria-label="Fargene på fristene">
-        <li><span class="prikk snart" aria-hidden="true"></span>Under 14 dager igjen</li>
-        <li><span class="prikk middels" aria-hidden="true"></span>14–30 dager igjen</li>
-        <li><span class="prikk godtid" aria-hidden="true"></span>Mer enn 30 dager igjen</li>
-      </ul>
 
       <ol id="liste" class="liste" tabindex="-1" aria-label="Høringer"></ol>
 

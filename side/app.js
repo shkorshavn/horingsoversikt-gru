@@ -157,6 +157,113 @@
 
   function normaliser(t) { return String(t || "").toLocaleLowerCase("nb"); }
 
+  // ---------- Søk (sprint 10) ----------
+  // Søket tåler ulike skrivemåter («rv4», «Rv.4», «rv. 4») og små skrivefeil («barnehave»,
+  // «barnehahgre» finner «barnehageloven»). Tall og korte ord må stemme nøyaktig.
+
+  /** Sammenlignbar form: små bokstaver, tegnsetting blir mellomrom, og bokstav + mellomrom + tall
+      skrives sammen, slik at «Rv. 4», «rv 4» og «RV-4» alle blir «rv4». */
+  function sokeform(t) {
+    return normaliser(t)
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .replace(/(\p{L}) (?=\p{N})/gu, "$1")
+      .trim();
+  }
+
+  /** Antall redigeringer (sett inn, slett, bytt ut, bytt plass på to naboer) mellom a og b,
+      eller maks + 1 når det er flere enn maks. */
+  function avstand(a, b, maks) {
+    if (Math.abs(a.length - b.length) > maks) return maks + 1;
+    var forrige2 = null, forrige = [], i, j;
+    for (j = 0; j <= b.length; j++) forrige.push(j);
+    for (i = 1; i <= a.length; i++) {
+      var rad = [i], minst = i;
+      for (j = 1; j <= b.length; j++) {
+        var kost = a[i - 1] === b[j - 1] ? 0 : 1;
+        var d = Math.min(forrige[j] + 1, rad[j - 1] + 1, forrige[j - 1] + kost);
+        if (forrige2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) d = Math.min(d, forrige2[j - 2] + 1);
+        rad.push(d);
+        if (d < minst) minst = d;
+      }
+      if (minst > maks) return maks + 1;
+      forrige2 = forrige; forrige = rad;
+    }
+    return forrige[b.length];
+  }
+
+  /** Tillatte skrivefeil for et søkeord: 0 for tall og ord under 4 tegn, 1 for 4–9, 2 for 10+.
+      Grensene er prøvd ut mot de ekte høringene (28.10.2026), slik at f.eks. «barnehave» ikke
+      finner «barnevern». */
+  function tillatteFeil(ord) {
+    if (/\p{N}/u.test(ord) || ord.length < 4) return 0;
+    return ord.length >= 10 ? 2 : 1;
+  }
+
+  /** Om søkeordet ligner ordet i teksten, eller starten av det (sammensatte ord som
+      «barnehageloven»). De to første bokstavene må stemme. Bare søkeord på 6 tegn eller mer
+      sammenlignes med starten av lengre ord, og bare de lengste (2 feil) med en kortere start.
+      Slik finner «sitat» ikke «statens», og «samer» ikke «samarbeid». */
+  function ligner(sok, ord, maks) {
+    if (/\p{N}/u.test(ord) || sok.slice(0, 2) !== ord.slice(0, 2)) return false;
+    if (avstand(sok, ord, maks) <= maks) return true;
+    if (sok.length < 6) return false;
+    var fra = maks >= 2 ? sok.length - maks : sok.length;
+    for (var l = fra; l <= Math.min(ord.length - 1, sok.length + maks); l++) {
+      if (avstand(sok, ord.slice(0, l), maks) <= maks) return true;
+    }
+    return false;
+  }
+
+  /** Om søkeordet står i teksten. Tall må stå alene, slik at «rv4» ikke finner «rv40». */
+  function inneholder(tekst, sok) {
+    var tall = /\p{N}/u;
+    var fra = tekst.indexOf(sok);
+    while (fra !== -1) {
+      var for_ = tekst.charAt(fra - 1), etter = tekst.charAt(fra + sok.length);
+      var start = !tall.test(sok.charAt(0)) || !tall.test(for_);
+      var slutt = !tall.test(sok.charAt(sok.length - 1)) || !tall.test(etter);
+      if (start && slutt) return true;
+      fra = tekst.indexOf(sok, fra + 1);
+    }
+    return false;
+  }
+
+  var likhet = {};  // søkeord → { ord i teksten → true/false }, så hvert par regnes én gang
+
+  function sokData(h) {
+    if (!h._sok) {
+      var tekst = sokeform([h.tittel, h.instans, h.ingress, h.sammendrag, h.hvorfor_relevant, h.kilde,
+        h.frist_tekst, h.kategori, (h.ogsa || []).map(function (o) { return o.kilde; }).join(" "),
+        (h.saksfelt || []).join(" "), (h.horingsparter || []).join(" ")].join(" "));
+      var ord = {};
+      tekst.split(" ").forEach(function (o) { if (o) ord[o] = true; });
+      h._sok = { tekst: tekst, ord: Object.keys(ord) };
+    }
+    return h._sok;
+  }
+
+  /** Om høringen passer alle ordene i søket. */
+  function sokTreff(h, q) {
+    var data = sokData(h);
+    var sokeord = sokeform(q).split(" ").filter(Boolean);
+    for (var i = 0; i < sokeord.length; i++) {
+      var s = sokeord[i];
+      if (inneholder(data.tekst, s)) continue;
+      var maks = tillatteFeil(s);
+      if (!maks) return false;
+      if (Object.keys(likhet).length > 200) likhet = {};
+      var minne = likhet[s] || (likhet[s] = {});
+      var funnet = false;
+      for (var j = 0; j < data.ord.length && !funnet; j++) {
+        var o = data.ord[j];
+        if (!(o in minne)) minne[o] = ligner(s, o, maks);
+        funnet = minne[o];
+      }
+      if (!funnet) return false;
+    }
+    return true;
+  }
+
   function passer(h, v) {
     if (v.kategori.length && v.kategori.indexOf(h.kategori) === -1) return false;
     if (v.niva.length && v.niva.indexOf(h.niva) === -1) return false;
@@ -164,13 +271,7 @@
     if (v.regionpart && !(h.regionflagg || []).length) return false;
     if (v.mottatt && !sikkerPostliste(h)) return false;
     if (h.dager !== null && h.dager < 0 && (!v.utlopte || h.dager < -ARKIV_DAGER)) return false;
-    if (v.q) {
-      var tekst = normaliser([h.tittel, h.instans, h.ingress, h.sammendrag, h.hvorfor_relevant, h.kilde, h.frist_tekst, h.kategori,
-        (h.ogsa || []).map(function (o) { return o.kilde; }).join(" "),
-        (h.saksfelt || []).join(" "), (h.horingsparter || []).join(" ")].join(" "));
-      var ord = normaliser(v.q).split(/\s+/);
-      for (var i = 0; i < ord.length; i++) if (tekst.indexOf(ord[i]) === -1) return false;
-    }
+    if (v.q && !sokTreff(h, v.q)) return false;
     return true;
   }
 
@@ -232,6 +333,12 @@
     return e;
   }
 
+  /** Lenke til en ekstern side. Åpnes i ny fane, slik at siden med filtrene blir stående
+      (Svein 28.10.2026). Skjermlesere får beskjed via #ny-fane i index.html. */
+  function lenke(href, tekst) {
+    return el("a", { href: href, tekst: tekst, target: "_blank", rel: "noopener", "aria-describedby": "ny-fane" });
+  }
+
   function fristblokk(h) {
     var klasse = fristklasse(h.dager);
     var blokk = el("div", { klasse: "frist " + klasse });
@@ -262,7 +369,7 @@
     var span = el("span", { klasse: "ogsa" }, [document.createTextNode("Også på ")]);
     ogsa.forEach(function (o, i) {
       if (i) span.appendChild(document.createTextNode(" og "));
-      span.appendChild(el("a", { href: o.lenke, tekst: o.kilde }));
+      span.appendChild(lenke(o.lenke, o.kilde));
     });
     return span;
   }
@@ -279,15 +386,15 @@
   function partblokk(h) {
     var parter = h.horingsparter || [];
     var merknad = h.horingsparter_merknad || "";
-    var lenke = /^https?:\/\//i.test(String(h.horingsparter_lenke || "")) ? h.horingsparter_lenke : "";
+    var listeLenke = /^https?:\/\//i.test(String(h.horingsparter_lenke || "")) ? h.horingsparter_lenke : "";
     if (!parter.length && !merknad) return null;
     var tekst = parter.length ? kategoritekst(h) : merknad;
     if (parter.length && merknad) tekst += ". " + merknad;
     var linje = el("p", { klasse: "parter-kort" }, [
       el("span", { klasse: "etikett", tekst: "Høringsparter: " }),
       document.createTextNode(tekst),
-      !parter.length && lenke ? document.createTextNode(" – ") : null,
-      !parter.length && lenke ? el("a", { href: lenke, tekst: "se høringslisten" }) : null
+      !parter.length && listeLenke ? document.createTextNode(" – ") : null,
+      !parter.length && listeLenke ? lenke(listeLenke, "se høringslisten") : null
     ]);
     if (!parter.length) return linje;
     var liste = el("ul", { klasse: "parter-liste" });
@@ -295,7 +402,7 @@
     var utvid = el("details", { klasse: "parter" }, [
       el("summary", { tekst: "Vis alle høringsparter (" + parter.length + ")" }),
       liste,
-      lenke ? el("p", { klasse: "parter-kilde" }, [el("a", { href: lenke, tekst: "Høringslisten hos kilden" })]) : null
+      listeLenke ? el("p", { klasse: "parter-kilde" }, [lenke(listeLenke, "Høringslisten hos kilden")]) : null
     ]);
     return el("div", { klasse: "parter-blokk" }, [linje, utvid]);
   }
@@ -313,7 +420,7 @@
     var tekst = (sikker ? "Mottatt av " + p.kommune + " kommune " : "Mulig treff i " + p.kommune + " kommunes postliste ") + norskDato(p.dato);
     var trygg = /^https?:\/\//i.test(String(p.lenke || ""));
     return el("p", { klasse: "mottatt" + (sikker ? "" : " mottatt-mulig") }, [
-      trygg ? el("a", { href: p.lenke, tekst: tekst }) : el("span", { tekst: tekst })
+      trygg ? lenke(p.lenke, tekst) : el("span", { tekst: tekst })
     ]);
   }
 
@@ -350,7 +457,7 @@
     // Bare vanlige nettadresser blir lenker (beskytter mot f.eks. «javascript:» i dataene).
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
     var tittel = el("h2", null, [
-      trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel }),
+      trygg ? lenke(h.lenke, h.tittel) : el("span", { tekst: h.tittel }),
       h.ny ? document.createTextNode(" ") : null,
       h.ny ? el("span", { klasse: "ny-merke", tekst: "Ny" }) : null
     ]);
@@ -399,7 +506,7 @@
     var trygg = /^https?:\/\//i.test(String(h.lenke || ""));
     var frist = h.frist ? (h.frist_maned ? "Frist " + MANEDER[deler(h.frist).maned - 1] + " " + deler(h.frist).ar : "Frist " + norskDato(h.frist)) : "";
     return el("li", { "data-id": h.id }, [
-      trygg ? el("a", { href: h.lenke, tekst: h.tittel }) : el("span", { tekst: h.tittel }),
+      trygg ? lenke(h.lenke, h.tittel) : el("span", { tekst: h.tittel }),
       el("span", { klasse: "utelatt-meta", tekst: [h.instans, frist].filter(Boolean).join(". ") }),
       h.hvorfor_relevant ? el("span", { klasse: "utelatt-grunn", tekst: "Utelatt: " + h.hvorfor_relevant }) : null
     ]);
@@ -558,7 +665,7 @@
       liste.appendChild(el("li", null, [
         el("span", { klasse: "postliste-dato", tekst: norskDato(j.dato) }),
         el("span", { klasse: "postliste-avsender", tekst: j.avsender || "Avsender ikke vist" }),
-        trygg ? el("a", { href: j.lenke, tekst: j.tittel }) : el("span", { tekst: j.tittel })
+        trygg ? lenke(j.lenke, j.tittel) : el("span", { tekst: j.tittel })
       ]));
     });
     document.getElementById("postliste-ingress").textContent = uten.length
@@ -730,7 +837,7 @@
   }
 
   // Gjøres tilgjengelig for testene.
-  window.Horinger = { feilforklaring: feilforklaring, fristklasse: fristklasse, dagerMellom: dagerMellom, lagCsv: lagCsv, norskDato: norskDato };
+  window.Horinger = { sokeform: sokeform, inneholder: inneholder, avstand: avstand, feilforklaring: feilforklaring, fristklasse: fristklasse, dagerMellom: dagerMellom, lagCsv: lagCsv, norskDato: norskDato };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();

@@ -697,7 +697,8 @@ def test_utskrift(side):
 
 
 def test_utskrift_er_kompakt(nettleser, server, tmp_path):
-    """60 høringer skal få plass på høyst tre A4-sider (minst 20 per side)."""
+    """60 høringer skal få plass på høyst fem A4-sider (minst 12 per side). Sprint 10 ga mer
+    luft og større skrift (Svein 28.10.2026), derfor fem og ikke tre."""
     mange = {
         **HORINGER,
         "horinger": [
@@ -708,7 +709,7 @@ def test_utskrift_er_kompakt(nettleser, server, tmp_path):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=mange)))
     pdf = side.pdf(format="A4", print_background=True, prefer_css_page_size=True)
     sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
-    assert 1 <= sider <= 3, sider
+    assert 1 <= sider <= 5, sider
     side.close()
 
 
@@ -862,7 +863,8 @@ def test_utskrift_viser_flagg_og_kategorier_men_ikke_listen(side):
 
 
 def test_utskrift_med_hoeringsparter(nettleser, server, tmp_path):
-    """Med flagg og kategorier får hver høring én linje til: 60 høringer på høyst fire sider."""
+    """Med flagg og kategorier får hver høring én linje til: 60 høringer på høyst seks sider
+    (sprint 10: mer luft og større skrift)."""
     mange = {
         **HORINGER,
         "horinger": [
@@ -880,7 +882,7 @@ def test_utskrift_med_hoeringsparter(nettleser, server, tmp_path):
     side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=mange)))
     pdf = side.pdf(format="A4", print_background=True, prefer_css_page_size=True)
     sider = pdf.count(b"/Type /Page") - pdf.count(b"/Type /Pages")
-    assert 1 <= sider <= 4, sider
+    assert 1 <= sider <= 6, sider
     side.close()
 
 
@@ -1178,3 +1180,106 @@ def test_utelatte_vises_ikke_paa_utskrift(nettleser, server, tmp_path):
     side.emulate_media(media="print")
     assert side.locator("#utelatte").is_hidden()
     side.close()
+
+
+# ---------- Sprint 10: brukervennlighet ----------
+
+
+def _med_veger():
+    hs = {**HORINGER, "horinger": [dict(h) for h in HORINGER["horinger"]]}
+    hs["horinger"] += [
+        _h("v1", "2026-11-20", tittel="Utbedring av Rv. 4 ved Gjøvik"),
+        _h("v2", "2026-11-21", tittel="Reguleringsplan rv. 40 Hunndalen"),
+        _h("v3", "2026-11-22", tittel="Fv. 33 Skreia–Bilitt"),
+    ]
+    return hs
+
+
+@pytest.mark.parametrize("sok", ["rv4", "Rv.4", "rv. 4", "rv 4", "RV-4", "rv.  4"])
+def test_sok_tåler_skrivemaater_for_vegnummer(nettleser, server, tmp_path, sok):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_veger())))
+    side.fill("#sok", sok)
+    # «rv4» skal ikke finne «rv. 40». «Tretti dager» har «rv. 4» i ingressen.
+    assert _titler(side) == ["Tretti dager", "Utbedring av Rv. 4 ved Gjøvik"]
+    side.close()
+
+
+@pytest.mark.parametrize(
+    "sok", ["barnehage", "Barnehave", "barnehahgre", "barnhage", "barnehagelovn"]
+)
+def test_sok_taaler_smaa_skrivefeil(side, sok):
+    side.fill("#sok", sok)
+    assert _titler(side) == ["Høring om barnehageloven"]
+
+
+@pytest.mark.parametrize("sok", ["sitat", "fv33", "fv. 33"])
+def test_sok_uten_falske_treff(nettleser, server, tmp_path, sok):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_veger())))
+    side.fill("#sok", sok)
+    forventet = {
+        "sitat": ['Høring om æ, ø og å; «sitat» og "anførsel"'],
+        "fv33": ["Fv. 33 Skreia–Bilitt"],
+        "fv. 33": ["Fv. 33 Skreia–Bilitt"],
+    }[sok]
+    assert _titler(side) == forventet
+    side.close()
+
+
+def test_korte_ord_maa_stemme(side):
+    # «hør» finnes som starten av «høring», men «hxr» (3 tegn) skal ikke gi treff med feil.
+    side.fill("#sok", "hxr")
+    assert _titler(side) == []
+
+
+def test_lenker_aapnes_i_ny_fane(nettleser, server, tmp_path):
+    hs = _med_relevans()
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=hs, postliste=None)))
+    lenker = side.locator("#liste a[href^='http'], #utelatte-liste a")
+    assert lenker.count() > 5
+    for i in range(lenker.count()):
+        a = lenker.nth(i)
+        assert a.get_attribute("target") == "_blank"
+        assert a.get_attribute("rel") == "noopener"
+        assert a.get_attribute("aria-describedby") == "ny-fane"
+    assert side.locator("#ny-fane").text_content() == "Åpnes i ny fane"
+    side.close()
+
+
+def test_verktoylinjen_staar_i_toppen(side):
+    for sel in ("#antall", "#sortering", "#skriv-ut", "#eksport", ".forklaring"):
+        assert side.locator(f"header.topp {sel}").count() == 1, sel
+    # Står i ro når listen rulles.
+    for_ = side.locator("#eksport").bounding_box()["y"]
+    side.locator("#hoved").evaluate("e => e.scrollTop = 600")
+    assert side.locator("#eksport").bounding_box()["y"] == for_
+    # Verktøylinjen står over listen, ikke over filtrene.
+    assert (
+        side.locator("#antall").bounding_box()["x"]
+        >= side.locator("#hoved").bounding_box()["x"] - 1
+    )
+
+
+def test_filtrene_uten_fet_og_prioritet_uten_tall(side):
+    vekt = side.locator("label.valg").first.evaluate("e => getComputedStyle(e).fontWeight")
+    assert vekt == "400"
+    assert side.locator("legend", has_text="Øvrige valg").count() == 1
+    prio = [t.strip() for t in side.locator('input[name="prio"] >> xpath=..').all_inner_texts()]
+    assert prio == ["Høy", "Middels", "Lav"]
+    tekst = side.inner_text("fieldset:has(legend:text('Øvrige valg'))")
+    assert "regionen er høringspart" in tekst and "utløpt frist" in tekst
+
+
+def test_utskrift_har_hvorfor_relevant(nettleser, server, tmp_path):
+    side = _apne(nettleser, server(_lag_nettsted(tmp_path, horinger=_med_relevans())))
+    side.emulate_media(media="print")
+    assert side.locator('.hoering[data-id="d30"] .relevans').is_visible()
+    assert not side.locator("#eksport").is_visible()
+    assert side.locator("#antall").is_visible()
+    side.close()
+
+
+def test_avkrysningsboksene_krymper_ikke_ved_lange_valg(side):
+    bredder = side.locator("#kategori input").evaluate_all(
+        "l => l.map(e => Math.round(e.getBoundingClientRect().width))"
+    )
+    assert len(set(bredder)) == 1, bredder

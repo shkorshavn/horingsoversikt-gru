@@ -64,7 +64,7 @@ a:hover { text-decoration-thickness: 2px; }
 .topp { border-bottom: 1px solid var(--linje); background: var(--hvit); }
 .topp-indre {
   max-width: var(--bredde); margin: 0 auto;
-  padding: 1.5rem var(--rom) 1.75rem;
+  padding: 1.25rem var(--rom) 1.1rem;
   display: grid; gap: 1.25rem; grid-template-columns: auto 1fr; align-items: start;
 }
 .logo { display: block; width: 12.5rem; height: auto; margin-top: 0.35rem; }
@@ -77,6 +77,17 @@ h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.35rem; font-weight: 700; 
   background: var(--oransje-100); color: var(--burgunder); border-left: 6px solid var(--oransje-700);
   font-size: 0.9375rem; font-weight: 600;
 }
+
+/* Verktøylinjen i toppen (Svein 28.10.2026): samme kolonner som filtrene og listen under, så
+   antall, sortering, knapper og fargeforklaring står rett over listen. */
+.verktoy-band { border-top: 1px solid var(--linje); background: var(--beige); }
+.verktoy-indre {
+  max-width: var(--bredde); margin: 0 auto; padding: 0.75rem var(--rom) 0.6rem;
+  display: grid; grid-template-columns: 16rem 1fr; gap: 2rem;
+}
+.verktoy-boks { grid-column: 2; min-width: 0; }
+.verktoy-band .verktoy { margin-bottom: 0.4rem; }
+.verktoy-band .forklaring { margin: 0; }
 
 /* ---------- Ramme ---------- */
 
@@ -98,7 +109,7 @@ table { table-layout: auto; }
 .filtre h2 { font-size: 1.125rem; margin: 0 0 0.75rem; }
 
 .felt { margin: 0 0 1.1rem; padding: 0; border: 0; }
-.felt > label,
+.felt > label:not(.valg),
 legend { display: block; font-weight: 600; margin-bottom: 0.3rem; font-size: 0.9375rem; padding: 0; }
 
 input[type="search"],
@@ -109,10 +120,12 @@ select {
 }
 input[type="search"]::placeholder { color: var(--skog-300); }
 
-.valg { display: flex; gap: 0.5rem; align-items: center; padding: 0.2rem 0; font-size: 0.9375rem; cursor: pointer; }
+/* Valgene: vanlig skriftvekt og litt mindre skrift, slik at overskriftene skiller seg ut
+   (Svein 28.10.2026). */
+.valg { display: flex; gap: 0.5rem; align-items: center; padding: 0.15rem 0; font-size: 0.875rem; font-weight: 400; cursor: pointer; }
 .flervalg .hint { margin: 0 0 0.2rem; font-size: 0.8125rem; color: var(--skog-300); }
 .flervalg .valg { align-items: flex-start; line-height: 1.3; }
-.valg input { width: 1.15rem; height: 1.15rem; accent-color: var(--skog-700); margin: 0; }
+.valg input { flex: none; width: 1.15rem; height: 1.15rem; accent-color: var(--skog-700); margin: 0; }
 
 .knapp {
   font: inherit; font-weight: 600; font-size: 0.9375rem;
@@ -306,6 +319,8 @@ thead th { background: var(--turkis-300); }
 /* ---------- Smal skjerm ---------- */
 
 @media (max-width: 52rem) {
+  .verktoy-indre { grid-template-columns: 1fr; }
+  .verktoy-boks { grid-column: 1; }
   .ramme { grid-template-columns: 1fr; gap: 1rem; padding-top: 1rem; }
   .filtre { position: static; border: 1px solid var(--linje); border-radius: 6px; background: var(--hvit); padding: 0 0.9rem; }
   .filtre details > summary { cursor: pointer; padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; }
@@ -328,15 +343,18 @@ thead th { background: var(--turkis-300); }
 }
 
 /* ---------- Utskrift ----------
-   Samme utvalg og rekkefølge som på skjermen, i farger, med liten skrift og tette rader
-   slik at flest mulig høringer får plass per side. */
+   Samme utvalg og rekkefølge som på skjermen, i farger. Fristen står i egen kolonne, alt under
+   tittelen har fast innrykk, og det er luft og en tynn strek mellom høringene (Svein
+   28.10.2026). */
 
 @page { size: A4; margin: 11mm 10mm 12mm; }
 
 @media print {
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  html { font-size: 7.5pt; }
-  body { background: #fff; line-height: 1.22; }
+  html { font-size: 8.5pt; }
+  body { background: #fff; line-height: 1.3; }
+  .verktoy-band { border: 0; background: #fff; }
+  .verktoy-indre { display: block; max-width: none; padding: 0; }
   .filtre, .handlinger, .hopp, #inaktive, .status, .bunn, #tom { display: none !important; }
   .forklaring { font-size: 0.9rem; margin: 0 0 0.3rem; }
   .ramme { display: block; max-width: none; padding: 0; }
@@ -353,15 +371,17 @@ thead th { background: var(--turkis-300); }
   /* Én tett rad per høring: fristen til venstre, tittel øverst, og instans, prioritet, tema
      og fristtekst på samme linje under. */
   .hoering {
-    grid-template-columns: 5.2rem 1fr; gap: 0.6rem; padding: 0.22rem 0;
+    grid-template-columns: 5.6rem 1fr; gap: 0.9rem; padding: 0.55rem 0 1.1rem;
+    border-bottom: 0.5pt solid #b8b8b8;
     break-inside: avoid; page-break-inside: avoid;
   }
   .frist { padding: 0.1rem 0.15rem 0.15rem; border-left-width: 3px; border-radius: 3px; }
   .frist .dag { display: inline; font-size: 1.15rem; }
   .frist .maned { display: inline; font-size: 0.9rem; margin: 0 0 0 0.15rem; }
   .frist .igjen { font-size: 0.8rem; margin-top: 0; white-space: nowrap; }
-  .innhold { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 0.7rem; }
-  .innhold h2 { flex-basis: 100%; font-size: 1.1rem; line-height: 1.25; margin: 0; }
+  /* Fast innrykk (som en tabulator) for alt under tittelen. */
+  .innhold { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 0.7rem; row-gap: 0.15rem; padding-left: 1.4rem; }
+  .innhold h2 { flex-basis: 100%; font-size: 1.15rem; line-height: 1.25; margin: 0 0 0.1rem -1.4rem; }
   .instans { margin: 0; font-size: 0.95rem; }
   .detaljer { font-size: 0.85rem; gap: 0 0.55rem; }
   .beskrivelse { order: 5; flex-basis: 100%; margin: 0; max-width: none; font-size: 0.9rem; }
@@ -377,6 +397,8 @@ thead th { background: var(--turkis-300); }
   .parter { display: none; }
   .ingress-kilde { display: none; }
   .beskrivelse-blokk { order: 5; flex-basis: 100%; }
+  /* «KI: Hvorfor relevant» på egen linje under sammendraget (Svein 28.10.2026). */
+  .relevans { order: 6; flex-basis: 100%; margin: 0; font-size: 0.9rem; }
   .ki-merke { font-size: 0.7rem; padding: 0 0.25rem; }
   .mottatt { order: 1; margin: 0; padding: 0 0.3rem; font-size: 0.85rem; }
   .postliste, .utelatte { display: none; }

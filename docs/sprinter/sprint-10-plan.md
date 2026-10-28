@@ -93,3 +93,9 @@ Status: Plan til godkjenning · 28. oktober 2026
 2. **«Begrunnelse» i utskriften:** jeg tolker det som «KI: Hvorfor relevant». Skal også
    foreslått prioritet med begrunnelse (f.eks. «høy (regionen er høringspart)») med? Den står
    der allerede i dag.
+
+## Sveins svar 28.10.2026 kl. 09.11
+1. **Deloverskrift:** «Øvrige valg». Tolkes som en deloverskrift i filtrene over de tre
+   avkrysningsboksene: «Bare høringer der regionen er høringspart», «Bare høringer mottatt av
+   Gjøvik kommune» og «Vis høringer med utløpt frist».
+2. **Begrunnelse i utskriften:** «KI: Hvorfor relevant», slik den står på nettsiden.

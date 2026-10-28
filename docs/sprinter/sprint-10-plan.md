@@ -1,6 +1,6 @@
 # Sprint 10 – Brukervennlighet på nettsiden: plan
 
-Status: Plan til godkjenning · 28. oktober 2026
+Status: Godkjent · 28. oktober 2026 (Sveins svar nederst, «plan godkjent» kl. 09.13)
 
 ## Bakgrunn
 Ønsker fra Svein 28.10.2026 kl. 09.07, med skjermbilde av verktøylinjen over listen.

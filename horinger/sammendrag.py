@@ -119,6 +119,10 @@ class Sammendrag:
         """Sjekksum av det som avgjør svaret. Endres den, lages svaret på nytt."""
         return sjekksum(grunnlag(h))
 
+    def hopp_over(self, h: dict) -> bool:
+        """Sann når høringen ikke skal sendes til API-et (f.eks. fast regel)."""
+        return False
+
     def felter(self, h: dict) -> dict:
         """Feltene som lagres i bufferen for én høring."""
         return {"tekst": self.lag(h)}
@@ -128,8 +132,12 @@ class Sammendrag:
 
         Gir tilbake oppsummering: antall nye, gjenbrukte, feil og hoppet over.
         """
-        teller = {"nye": 0, "gjenbrukt": 0, "feil": 0, "uten_nokkel": 0, "utsatt": 0}
+        teller = {"nye": 0, "gjenbrukt": 0, "feil": 0, "uten_nokkel": 0, "utsatt": 0, "regel": 0}
         for h in horinger:
+            if self.hopp_over(h):
+                buffer.pop(h["id"], None)  # et eldre svar skal ikke ligge igjen
+                teller["regel"] += 1
+                continue
             sum_ = self.sjekksum(h)
             lagret = buffer.get(h["id"])
             if lagret and lagret.get("sjekksum") == sum_ and lagret.get("versjon") == self.versjon:

@@ -182,3 +182,60 @@ def test_main_lager_begge_og_det_ene_stopper_ikke_det_andre(tmp_path, monkeypatc
     assert "Sammendragene kunne ikke oppdateres: brudd" in caplog.text
     assert les_json(tmp_path / "relevans.json")["relevans"]["a"]["relevant"] is True
     assert "sk-ant-hemmelig-test" not in caplog.text
+
+
+# ---------- Sprint 9: faste regler ----------
+
+REP = "Representantforslag om en nasjonal strategi for datasenterindustrien"
+
+
+@pytest.mark.parametrize(
+    ("tittel", "treff"),
+    [
+        (REP, True),
+        ("representantforslag om noe", True),
+        ("  Representantforslag om noe", True),
+        ("Innstilling om representantforslag om noe", False),
+        ("Grunnlovsforslag om endring i § 96", False),
+        ("", False),
+    ],
+)
+def test_fast_regel(tittel, treff):
+    grunn = rv.fast_regel({"tittel": tittel}, KONFIG["felles"]["relevans"])
+    assert grunn == ("Representantforslag fra stortingsrepresentanter." if treff else None)
+
+
+@pytest.mark.parametrize(
+    "ekstra",
+    [{}, {"regionflagg": ["Alle kommuner"]}, {"postliste": [{"niva": "sikker"}]}],
+)
+def test_fast_regel_gaar_foran_ki_og_vern(ekstra):
+    svar = {"relevant": True, "hvorfor": "Kan påvirke kraftforsyningen."}
+    resultat = rv.vurder(_h("a", tittel=REP, **ekstra), svar, KONFIG["felles"]["relevans"])
+    assert resultat == {
+        "relevant": False,
+        "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter.",
+    }
+
+
+def test_fast_regel_gir_ingen_api_kall_og_fjerner_gammelt_svar(tmp_path):
+    mappe = _kilde(tmp_path, [_h("a"), _h("b", tittel=REP)])
+    # Et eldre KI-svar for representantforslaget skal fjernes fra bufferen.
+    (tmp_path / "relevans.json").write_text(
+        '{"relevans": {"b": {"relevant": true, "hvorfor": "x", "versjon": 1}}}', "utf-8"
+    )
+    klient = _Klient()
+    teller = rv.kjor(_konfig(), mappe, tmp_path, klient, DAG)
+    assert teller["nye"] == 1 and teller["regel"] == 1
+    assert len(klient.kall) == 1 and REP not in klient.kall[0]["messages"][0]["content"]
+    assert set(les_json(tmp_path / "relevans.json")["relevans"]) == {"a"}
+    bygg(_konfig(), mappe, tmp_path)
+    hs = {h["id"]: h for h in les_json(tmp_path / "horinger.json")["horinger"]}
+    assert hs["b"]["relevant"] is False
+    assert hs["b"]["hvorfor_relevant"] == "Representantforslag fra stortingsrepresentanter."
+    assert hs["a"]["relevant"] is True
+
+
+def test_sammendrag_lages_fortsatt_for_representantforslag(tmp_path):
+    mappe = _kilde(tmp_path, [_h("b", tittel=REP)])
+    assert sm.kjor(_konfig(), mappe, tmp_path, _Klient(), DAG)["nye"] == 1

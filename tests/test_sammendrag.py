@@ -86,7 +86,14 @@ def test_lager_og_bufrer_sammendrag(tmp_path):
     assert lagret["modell"] == "claude-sonnet-5-5"
     # Neste kjøring: samme grunnlag gir ingen nye kall.
     teller = sm.kjor(_konfig(), mappe, tmp_path, klient, DAG)
-    assert teller == {"nye": 0, "gjenbrukt": 1, "feil": 0, "uten_nokkel": 0, "utsatt": 0}
+    assert teller == {
+        "nye": 0,
+        "gjenbrukt": 1,
+        "feil": 0,
+        "uten_nokkel": 0,
+        "utsatt": 0,
+        "regel": 0,
+    }
     assert len(klient.kall) == 1
 
 

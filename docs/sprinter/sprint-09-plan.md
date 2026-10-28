@@ -1,6 +1,6 @@
 # Sprint 9 – Faste regler for utelatte høringer: plan
 
-Status: Plan til godkjenning · 28. oktober 2026
+Status: Godkjent · 28. oktober 2026 (Sveins svar nederst)
 
 ## Bakgrunn
 Svein 28.10.2026 kl. 07.49: «Høring av alle Representantforslag skal legges i seksjonen
@@ -54,3 +54,8 @@ KI-en har utelatt 2 av dem, og 14 står i listen.
    mottatt brevet? Forslag: ja, siden du skrev «alle».
 2. **Grunnlovsforslag:** skal de behandles på samme måte? I dag står 6 åpne, og KI-en har
    utelatt 5. Forslag: nei, ikke nå. Regelen kan legges til i `sources.yaml` når som helst.
+
+## Sveins svar 28.10.2026 kl. 08.42
+1. **Vern:** Ja, regelen gjelder også når regionen er høringspart eller Gjøvik kommune har
+   mottatt brevet.
+2. **Grunnlovsforslag:** Nei, ikke nå.

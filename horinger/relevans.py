@@ -94,6 +94,11 @@ class Relevans(Sammendrag):
     def __init__(self, konfig: dict, relevanskonfig: dict, klient=None) -> None:
         super().__init__(konfig, klient)
         self.instruks = instruks(relevanskonfig)
+        self.relevanskonfig = relevanskonfig
+
+    def hopp_over(self, h: dict) -> bool:
+        """Høringer som treffer en fast regel, vurderes ikke av KI-en."""
+        return fast_regel(h, self.relevanskonfig) is not None
 
     def sjekksum(self, h: dict) -> str:
         """Sjekksum av grunnlaget og instruksen, slik at nye eksempler gir ny vurdering."""
@@ -113,13 +118,30 @@ def kjor(
     return kjor_oppgave(oppgave, "relevans", konfig, kildemappe, utdata, dag)
 
 
+def fast_regel(h: dict, konfig: dict) -> str | None:
+    """Begrunnelsen fra første faste regel i `alltid_utelat` som treffer, ellers None.
+
+    En regel treffer når tittelen begynner med `tittel_starter_med` (store og små bokstaver
+    spiller ingen rolle). Faste regler går foran både KI-en og vernet (Svein 28.10.2026).
+    """
+    tittel = (h.get("tittel") or "").strip().casefold()
+    for regel in konfig.get("alltid_utelat") or []:
+        start = str(regel.get("tittel_starter_med") or "").strip().casefold()
+        if start and tittel.startswith(start):
+            return str(regel.get("grunn") or "Utelatt etter fast regel.")
+    return None
+
+
 def vurder(h: dict, svar: dict | None, konfig: dict) -> dict:
     """Feltene nettsiden får for én høring: `relevant` og `hvorfor_relevant`.
 
-    Høringer der regionen er høringspart, som Gjøvik kommune har mottatt, eller som kommer fra
-    et nivå i `aldri_utelat_niva` (Innlandet fylkeskommune og Statsforvalteren), utelates
-    aldri. Mangler vurderingen, er høringen med.
+    Høringer som treffer en fast regel (`alltid_utelat`), utelates alltid. Ellers utelates
+    aldri høringer der regionen er høringspart, som Gjøvik kommune har mottatt, eller som kommer
+    fra et nivå i `aldri_utelat_niva` (Innlandet fylkeskommune og Statsforvalteren). Mangler
+    vurderingen, er høringen med.
     """
+    if (grunn := fast_regel(h, konfig)) is not None:
+        return {"relevant": False, "hvorfor_relevant": grunn}
     svar = svar or {}
     relevant = svar.get("relevant", True) is not False
     vernet = (

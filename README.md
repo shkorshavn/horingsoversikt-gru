@@ -27,6 +27,7 @@ Sprint 6: høringsparter, regionflagg («Regionen er høringspart») og tester v
 Sprint 7: Gjøvik kommunes postliste: «Mottatt av Gjøvik kommune» og høringsbrev uten treff.
 Sprint 8: KI-sammendrag, «Hvorfor relevant» og «Utelatte høringer», delt visning (filtrene og
 listen ruller hver for seg) og ferdigstilling.
+Sprint 9: faste regler for utelatte høringer (alle representantforslag).
 
 ## Etatens side eller regjeringen.no
 
@@ -134,6 +135,11 @@ modell og nøkkel som sammendraget.
 - **Vern:** høringer der regionen er høringspart, som er funnet i Gjøvik kommunes postliste,
   eller som kommer fra Innlandet fylkeskommune eller Statsforvalteren
   (`aldri_utelat_niva`), utelates aldri.
+- **Faste regler** (`alltid_utelat`): høringer der tittelen begynner med et bestemt ord, legges
+  alltid under «Utelatte høringer» med en fast begrunnelse. Reglene går foran både KI-en og
+  vernet, og slike høringer sendes ikke til KI-en for relevansvurdering (sammendraget lages som
+  før). Nå: alle representantforslag (Svein 28.10.2026). Ny regel:
+  `- tittel_starter_med: Grunnlovsforslag` og `grunn: …` under `alltid_utelat`.
 - **Buffer:** `data/relevans.json`, på samme måte som sammendragene.
 - **På siden:** relevante høringer får linjen «KI: Hvorfor relevant …» under sammendraget.
   Høringer som ikke er relevante, står ikke i listen, men i den sammenfoldede seksjonen

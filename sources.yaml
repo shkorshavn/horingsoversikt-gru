@@ -206,6 +206,13 @@ felles:
     # Høringer fra disse avsendernivåene utelates aldri. Det gjelder heller ikke høringer der
     # regionen er høringspart, eller som er funnet i Gjøvik kommunes postliste.
     aldri_utelat_niva: [Fylkeskommunen, Statsforvalteren]
+    # Faste regler (sprint 9, Svein 28.10.2026): høringer der tittelen begynner med
+    # `tittel_starter_med` (store og små bokstaver spiller ingen rolle), legges alltid under
+    # «Utelatte høringer» med `grunn` som begrunnelse. Reglene går foran både KI-en og vernet
+    # over, og slike høringer sendes ikke til KI-en for relevansvurdering.
+    alltid_utelat:
+      - tittel_starter_med: Representantforslag
+        grunn: Representantforslag fra stortingsrepresentanter.
 
   # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
   # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar

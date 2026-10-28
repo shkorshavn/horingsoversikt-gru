@@ -1,6 +1,6 @@
 # Sprint 11 – Verktøylinjen over filtrene: plan
 
-Status: Plan til godkjenning · 28. oktober 2026
+Status: Godkjent · 28. oktober 2026 («plan godkjent» kl. 10.21)
 
 ## Bakgrunn
 Svein 28.10.2026 kl. 10.17, med skjermbilde: «jeg ønsker at seksjonen med antall høringer,

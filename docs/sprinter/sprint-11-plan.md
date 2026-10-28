@@ -53,3 +53,7 @@ filtre».
 ## Spørsmål til Svein
 1. Skal verktøylinjen stå fast øverst mens filtrene ruller under (forslag), eller rulle bort
    sammen med filtrene?
+
+## Sveins svar 28.10.2026 kl. 10.21
+1. «verktøylinjen skal stå fast over filterne». Verktøylinjen står fast øverst i venstre
+   kolonne, og filtrene ruller under.

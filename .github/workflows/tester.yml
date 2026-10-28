@@ -43,4 +43,13 @@ jobs:
           ruff format --check .
 
       - name: Tester (pytest)
-        run: pytest -v
+        shell: bash
+        run: |
+          set -o pipefail
+          pytest -v -rf 2>&1 | tee pytest.log
+
+      # Feilede tester vises som merknader på kjøringen, slik at de kan leses uten hele loggen.
+      - name: Vis feilede tester
+        if: ${{ failure() }}
+        shell: bash
+        run: grep -E "^(FAILED|ERROR) " pytest.log | cut -c1-900 | sed 's/^/::error::/' || true

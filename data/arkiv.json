@@ -1,7 +1,127 @@
 {
-  "generert": "2026-10-27T22:11:17+01:00",
-  "antall": 79,
+  "generert": "2026-10-28T08:45:21+01:00",
+  "antall": 83,
   "horinger": [
+    {
+      "kilde": "Stortinget",
+      "kategori": "Stortinget",
+      "prioritet": 1,
+      "instans": "Stortinget, Justiskomiteen",
+      "tittel": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser",
+      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006005",
+      "frist": "2026-10-27",
+      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 23:59",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "Skriftlig høring. Dokument 8:14 S (2026–2027).",
+      "hentet": "2026-10-27T18:00:32+01:00",
+      "niva": "Stortinget",
+      "horingsparter": [],
+      "horingsparter_merknad": "Åpen for alle",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 0,
+      "id": "b40b58e8e0b2",
+      "partkategorier": {},
+      "regionflagg": [],
+      "prioritet_grunn": "",
+      "forst_sett": "2026-10-23",
+      "ny": false,
+      "utlopt": "2026-10-27",
+      "sammendrag": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser. Hvilke tiltak som foreslås, går ikke fram av teksten.",
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
+    },
+    {
+      "kilde": "Stortinget",
+      "kategori": "Stortinget",
+      "prioritet": 1,
+      "instans": "Stortinget, Næringskomiteen",
+      "tittel": "Representantforslag om innføring av rullerende maksimal tillatt biomasse (MTB) for å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og økt verdiskaping",
+      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005978",
+      "frist": "2026-10-27",
+      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "Skriftlig høring. Dokument 8:304 S (2025–2026).",
+      "hentet": "2026-10-27T18:00:32+01:00",
+      "niva": "Stortinget",
+      "horingsparter": [],
+      "horingsparter_merknad": "Åpen for alle",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 0,
+      "id": "67ec81a017fe",
+      "partkategorier": {},
+      "regionflagg": [],
+      "prioritet_grunn": "",
+      "forst_sett": "2026-10-17",
+      "ny": false,
+      "utlopt": "2026-10-27",
+      "sammendrag": "Representantforslag om å innføre rullerende maksimal tillatt biomasse (MTB). Formålet er å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og gi økt verdiskaping.",
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
+    },
+    {
+      "kilde": "Stortinget",
+      "kategori": "Stortinget",
+      "prioritet": 1,
+      "instans": "Stortinget, Næringskomiteen",
+      "tittel": "Representantforslag om en nasjonal strategi for datasenterindustrien",
+      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005979",
+      "frist": "2026-10-27",
+      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "Skriftlig høring. Dokument 8:321 S (2025–2026).",
+      "hentet": "2026-10-27T18:00:32+01:00",
+      "niva": "Stortinget",
+      "horingsparter": [],
+      "horingsparter_merknad": "Åpen for alle",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 0,
+      "id": "e9a14bdd7b62",
+      "partkategorier": {},
+      "regionflagg": [],
+      "prioritet_grunn": "",
+      "forst_sett": "2026-10-17",
+      "ny": false,
+      "utlopt": "2026-10-27",
+      "sammendrag": "Representantforslag om en nasjonal strategi for datasenterindustrien.",
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
+    },
+    {
+      "kilde": "Miljødirektoratet",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "Miljødirektoratet",
+      "tittel": "Forbud mot bruk av fossil gass til oppvarming",
+      "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/juni-2026/forbud-mot-bruk-av-fossil-gass-til-oppvarming/",
+      "frist": "2026-10-27",
+      "frist_tekst": "Høringsfrist: 27.10.2026",
+      "frist_maned": "",
+      "publisert": "2026-06-24",
+      "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/5812.",
+      "hentet": "2026-10-27T18:01:10+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke tilgjengelig",
+      "horingsparter_lenke": "https://hss.miljodirektoratet.no/api/1/publisert/hoering/vedlegg/38899",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "id": "b2c43c21458e",
+      "partkategorier": {},
+      "regionflagg": [],
+      "prioritet_grunn": "",
+      "forst_sett": "2026-10-25",
+      "ny": false,
+      "utlopt": "2026-10-27",
+      "sammendrag": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger, foreslått fra 1. januar 2028, med de samme unntakene som for mineralolje. Det foreslås også egne regler for gassrørledningsnett som leverer en blanding av fossil og fornybar gass.",
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonalt forbud mot fossil gass (i praksis propan) til oppvarming av bygninger fra 2028 kan gjelde bolig-, nærings- og landbruksbygg i kommunene."
+    },
     {
       "kilde": "Stortinget",
       "kategori": "Stortinget",
@@ -86,8 +206,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-26",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -115,8 +235,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-26",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -144,8 +264,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-26",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -173,8 +293,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-26",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Regjeringen.no",
@@ -566,8 +686,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-21",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -624,8 +744,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -653,8 +773,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -682,8 +802,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-20",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Regjeringen.no",
@@ -914,8 +1034,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -943,8 +1063,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -972,8 +1092,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-15",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Mattilsynet",
@@ -1088,8 +1208,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1117,8 +1237,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1146,8 +1266,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1175,8 +1295,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1204,8 +1324,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1233,8 +1353,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1262,8 +1382,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1291,8 +1411,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1320,8 +1440,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1349,8 +1469,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1378,8 +1498,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1407,8 +1527,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-13",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1581,8 +1701,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-12",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1871,8 +1991,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-07",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1900,8 +2020,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-07",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Skatteetaten",
@@ -2016,8 +2136,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "utlopt": "2026-10-01",
-      "relevant": true,
-      "hvorfor_relevant": ""
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Statens vegvesen",

@@ -1,123 +1,7 @@
 {
-  "generert": "2026-10-27T22:11:17+01:00",
-  "antall": 127,
+  "generert": "2026-10-28T08:45:21+01:00",
+  "antall": 123,
   "horinger": [
-    {
-      "kilde": "Miljødirektoratet",
-      "kategori": "Miljø, klima, energi og beredskap",
-      "prioritet": 1,
-      "instans": "Miljødirektoratet",
-      "tittel": "Forbud mot bruk av fossil gass til oppvarming",
-      "lenke": "https://www.miljodirektoratet.no/hoeringer/2026/juni-2026/forbud-mot-bruk-av-fossil-gass-til-oppvarming/",
-      "frist": "2026-10-27",
-      "frist_tekst": "Høringsfrist: 27.10.2026",
-      "frist_maned": "",
-      "publisert": "2026-06-24",
-      "ingress": "Tema: Klima, Regelverk. Saksnummer 2026/5812.",
-      "hentet": "2026-10-27T18:01:10+01:00",
-      "niva": "Direktorater og etater",
-      "horingsparter": [],
-      "horingsparter_merknad": "Ikke tilgjengelig",
-      "horingsparter_lenke": "https://hss.miljodirektoratet.no/api/1/publisert/hoering/vedlegg/38899",
-      "saksfelt": [],
-      "detalj_versjon": 4,
-      "id": "b2c43c21458e",
-      "partkategorier": {},
-      "regionflagg": [],
-      "prioritet_grunn": "",
-      "forst_sett": "2026-10-25",
-      "ny": true,
-      "sammendrag": "Forbud mot bruk av fossil gass til permanent oppvarming av bygninger, foreslått fra 1. januar 2028, med de samme unntakene som for mineralolje. Det foreslås også egne regler for gassrørledningsnett som leverer en blanding av fossil og fornybar gass.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forbud mot fossil gass (i praksis propan) til oppvarming av bygninger fra 2028 kan gjelde bolig-, nærings- og landbruksbygg i kommunene."
-    },
-    {
-      "kilde": "Stortinget",
-      "kategori": "Stortinget",
-      "prioritet": 1,
-      "instans": "Stortinget, Næringskomiteen",
-      "tittel": "Representantforslag om en nasjonal strategi for datasenterindustrien",
-      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005979",
-      "frist": "2026-10-27",
-      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
-      "frist_maned": "",
-      "publisert": null,
-      "ingress": "Skriftlig høring. Dokument 8:321 S (2025–2026).",
-      "hentet": "2026-10-27T18:00:32+01:00",
-      "niva": "Stortinget",
-      "horingsparter": [],
-      "horingsparter_merknad": "Åpen for alle",
-      "horingsparter_lenke": "",
-      "saksfelt": [],
-      "detalj_versjon": 0,
-      "id": "e9a14bdd7b62",
-      "partkategorier": {},
-      "regionflagg": [],
-      "prioritet_grunn": "",
-      "forst_sett": "2026-10-17",
-      "ny": false,
-      "sammendrag": "Representantforslag om en nasjonal strategi for datasenterindustrien.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealplanlegging og næringsutvikling i kommunene, og regionen har teknologibedrifter og arbeider med energi og næringsutvikling."
-    },
-    {
-      "kilde": "Stortinget",
-      "kategori": "Stortinget",
-      "prioritet": 1,
-      "instans": "Stortinget, Næringskomiteen",
-      "tittel": "Representantforslag om innføring av rullerende maksimal tillatt biomasse (MTB) for å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og økt verdiskaping",
-      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10005978",
-      "frist": "2026-10-27",
-      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 12:00",
-      "frist_maned": "",
-      "publisert": null,
-      "ingress": "Skriftlig høring. Dokument 8:304 S (2025–2026).",
-      "hentet": "2026-10-27T18:00:32+01:00",
-      "niva": "Stortinget",
-      "horingsparter": [],
-      "horingsparter_merknad": "Åpen for alle",
-      "horingsparter_lenke": "",
-      "saksfelt": [],
-      "detalj_versjon": 0,
-      "id": "67ec81a017fe",
-      "partkategorier": {},
-      "regionflagg": [],
-      "prioritet_grunn": "",
-      "forst_sett": "2026-10-17",
-      "ny": false,
-      "sammendrag": "Representantforslag om å innføre rullerende maksimal tillatt biomasse (MTB). Formålet er å sikre helårsarbeidsplasser, bidra til bedre miljø og dyrevelferd og gi økt verdiskaping.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder bare regulering av maksimal tillatt biomasse i havbruk, en kystnæring som knapt finnes i regionen."
-    },
-    {
-      "kilde": "Stortinget",
-      "kategori": "Stortinget",
-      "prioritet": 1,
-      "instans": "Stortinget, Justiskomiteen",
-      "tittel": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser",
-      "lenke": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Horing/horing/?h=10006005",
-      "frist": "2026-10-27",
-      "frist_tekst": "Frist for skriftlig innspill: 27.10.2026 kl. 23:59",
-      "frist_maned": "",
-      "publisert": null,
-      "ingress": "Skriftlig høring. Dokument 8:14 S (2026–2027).",
-      "hentet": "2026-10-27T18:00:32+01:00",
-      "niva": "Stortinget",
-      "horingsparter": [],
-      "horingsparter_merknad": "Åpen for alle",
-      "horingsparter_lenke": "",
-      "saksfelt": [],
-      "detalj_versjon": 0,
-      "id": "b40b58e8e0b2",
-      "partkategorier": {},
-      "regionflagg": [],
-      "prioritet_grunn": "",
-      "forst_sett": "2026-10-23",
-      "ny": true,
-      "sammendrag": "Representantforslag om tiltak for å motarbeide tvangsekteskap og kjønnslemlestelser. Hvilke tiltak som foreslås, går ikke fram av teksten.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonale tiltak mot tvangsekteskap og kjønnslemlestelse kan gi føringer for kommunenes arbeid, for eksempel i skole, helsetjenester og barnevern."
-    },
     {
       "kilde": "Stortinget",
       "kategori": "Stortinget",
@@ -392,8 +276,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Representantforslag om å få kriminelle aktører ut fra barnevernet.",
-      "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder barnevernet, som kommunene har ansvar for, og kan påvirke kommunenes bruk av private barnevernstilbud og tjenester til barn."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -421,8 +305,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer. Teksten oppgir ikke hvilke konkrete tiltak som foreslås.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forslag om oppfølging etter katastrofer som kan gjelde kommunenes helse- og omsorgstjenester og beredskap overfor overlevende og etterlatte."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -449,8 +333,8 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-17",
       "ny": false,
-      "relevant": true,
-      "hvorfor_relevant": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, journalsystemer og IKT-løsninger, samt sykehuset i regionen."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -479,7 +363,7 @@
       "ny": false,
       "sammendrag": "Representantforslag om at stortingsrepresentanter og regjeringsmedlemmer skal få vigselsrett, altså rett til å forrette borgerlige vielser.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, uten merkbar betydning for kommuner eller næringsliv."
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -507,8 +391,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag.",
-      "relevant": true,
-      "hvorfor_relevant": "Digitale lotterier kan gi frivillige organisasjoner og idrettslag i kommunene nye inntekter, og saken berører kommunenes forhold til lokalt frivillig- og idrettsliv."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1325,8 +1209,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Representantforslag om raskere og skånsom utbygging av solenergi, behandlet i en skriftlig høring på Stortinget.",
-      "relevant": true,
-      "hvorfor_relevant": "Forslaget om raskere og mer skånsom utbygging av solenergi kan påvirke kommunenes arealplanlegging, saksbehandling og energiutbygging i Innlandet."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1354,8 +1238,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Representantforslag om å forby jakt på ekorn.",
-      "relevant": true,
-      "hvorfor_relevant": "Forslaget gjelder jaktregler for hele landet og kan berøre jegere og viltforvaltningen i regionens kommuner."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1383,8 +1267,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Representantforslag om å forby reklame for fossil energi.",
-      "relevant": true,
-      "hvorfor_relevant": "Et nasjonalt reklameforbud for fossil energi kan ramme bedrifter i regionen som markedsfører fossile energiprodukter, og angår energi- og klimapolitikken."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1412,8 +1296,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Et representantforslag på Stortinget går ut på å lovliggjøre og legge til rette for pluggbare solceller og batterier.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forslag om pluggbare solceller og batterier kan gi innbyggere og bedrifter i regionen nye muligheter for egen strømproduksjon og påvirke energiregelverket."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1441,8 +1325,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Representantforslag om å stanse opptrappingsplanen for CO2-avgiften.",
-      "relevant": true,
-      "hvorfor_relevant": "Endret CO2-avgift påvirker drivstoffpriser og kostnader for transport, landbruk og industri i regionen, og dermed næringslivet og innbyggerne."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1469,8 +1353,8 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "relevant": true,
-      "hvorfor_relevant": "Barnevern er en kommunal oppgave, og forslag om institusjonsbarnevern kan påvirke kommunenes ansvar, kostnader og samarbeid med statlige barnevernstjenester."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Stortinget",
@@ -1498,8 +1382,8 @@
       "forst_sett": "2026-10-23",
       "ny": true,
       "sammendrag": "Representantforslag om å forby koranskoler med overnatting og å innføre et nytt straffebud mot negativ sosial kontroll.",
-      "relevant": true,
-      "hvorfor_relevant": "Nytt straffebud og forbud mot overnattingsskoler er nasjonale regler som kan angå kommunenes arbeid mot negativ sosial kontroll og tilbud til barn og unge."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2654,8 +2538,8 @@
       "prioritet_grunn": "",
       "forst_sett": "2026-10-23",
       "ny": true,
-      "relevant": true,
-      "hvorfor_relevant": "Gjelder stemmerett ved kommune- og fylkestingsvalg, et nasjonalt regelverk som gjelder alle kommuner og som kommunene bruker når de gjennomfører valg."
+      "relevant": false,
+      "hvorfor_relevant": "Representantforslag fra stortingsrepresentanter."
     },
     {
       "kilde": "Regjeringen.no",

@@ -1,9 +1,10 @@
 {
   "kilde": "Nasjonalarkivet",
-  "status": "ok",
-  "hentet": "2026-10-27T18:03:08+01:00",
-  "antall": 2,
-  "sekunder": 6.4,
+  "status": "feil",
+  "hentet": "2026-11-02T20:06:39+01:00",
+  "antall": 0,
+  "feil": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "sekunder": 6.2,
   "horinger": [
     {
       "kilde": "Nasjonalarkivet",

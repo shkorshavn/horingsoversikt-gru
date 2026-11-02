@@ -1,10 +1,32 @@
 {
   "kilde": "DSB",
   "status": "ok",
-  "hentet": "2026-10-27T18:02:56+01:00",
-  "antall": 1,
-  "sekunder": 5.3,
+  "hentet": "2026-11-02T20:06:22+01:00",
+  "antall": 2,
+  "sekunder": 6.2,
   "horinger": [
+    {
+      "kilde": "DSB",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+      "tittel": "Høring om ADR og RID 2027 og forslag til endringer i landtransportforskriften §§ 2 og 3",
+      "lenke": "https://www.dsb.no/horinger/horinger/horing-om-adr-og-rid-2027-og-forslag-til-endringer-i-landtransportforskriften--2-og-3/",
+      "frist": "2026-12-15",
+      "frist_tekst": "Høringsfrist: 15.12.2026",
+      "frist_maned": "",
+      "publisert": "2026-11-02",
+      "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender endringene som skal inngå i 2027-utgavene av ADR og RID, på høring. DSB foreslår samtidig endringer i §§ 2 og 3 i forskrift om landtransport av farlig gods.",
+      "hentet": "2026-11-02T20:06:22+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Høring om ADR og RID 2027 og forslag til endringer i landtransportforskriften §§ 2 og 3 Direktoratet for samfunnssikkerhet og beredskap (DSB) sender endringene som skal inngå i 2027-utgavene av ADR og RID, på høring. DSB foreslår samtidig endringer i §§ 2 og 3 i forskrift om landtransport av farlig gods. Høringssvar Høring åpnet 02.11.2026 ADR og RID revideres annethvert år. Endringene for 2027 bygger blant annet på utviklingen i FNs modellregelverk, ny teknologi, erfaringer fra transport og kontroll og behovet for harmonisering mellom transportformene. Endringene er vedtatt internasjonalt og forventes å tre i kraft 1. januar 2027. DSB foreslår samtidig å erstatte dagens dynamiske henvisning til ADR og RID i landtransportforskriften med en statisk henvisning til 2027-utgavene. Formålet er å gjøre det tydelig hvilken utgave som gjelder som norsk forskrift, og dermed gjøre regelverket mer forutsigbart og lettere å anvende. DSB ber om eventuelle kommentarer til høringen innen 15. desember 2026. Høringsfrist 15.12.2026 Les og svar på høringen Se svar 02.11.2026 BG nor as",
+      "id": "a9dfa91fa88a"
+    },
     {
       "kilde": "DSB",
       "kategori": "Miljø, klima, energi og beredskap",
@@ -17,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender med dette forslag til endringer i forskrift om sivilforsvar på høring. Bakgrunnen for forskriftsendringen er et forslag om endringer i skatteloven som innebærer at ulempetillegg og ledertillegg til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027.",
-      "hentet": "2026-10-27T18:02:56+01:00",
+      "hentet": "2026-11-02T20:06:22+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -28,5 +50,5 @@
       "id": "c8305ff88bfd"
     }
   ],
-  "sist_ok": "2026-10-27T18:02:56+01:00"
+  "sist_ok": "2026-11-02T20:06:22+01:00"
 }

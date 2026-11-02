@@ -1,9 +1,9 @@
 {
   "kilde": "Innlandet fylkeskommune",
   "status": "ok",
-  "hentet": "2026-10-27T18:04:03+01:00",
+  "hentet": "2026-11-02T20:07:34+01:00",
   "antall": 5,
-  "sekunder": 4.8,
+  "sekunder": 3.3,
   "horinger": [
     {
       "kilde": "Innlandet fylkeskommune",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Varsel om oppstart for fredning av Oddentunet. Frist for å komme med innspill er 11. desember 2026.",
-      "hentet": "2026-10-27T18:04:03+01:00",
+      "hentet": "2026-11-02T20:07:34+01:00",
       "niva": "Fylkeskommunen",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Hensikten med planforslaget er å legge til rette for en fremtidig utbedring av fv. 33. Frist for innspill er 4. desember 2026.",
-      "hentet": "2026-10-27T18:04:03+01:00",
+      "hentet": "2026-11-02T20:07:34+01:00",
       "niva": "Fylkeskommunen",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -61,7 +61,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Målet er å legge til rette for å bygge sykkelveg med fortau langs Ringgata mellom Solvangvegen og Disenvegen.",
-      "hentet": "2026-10-27T18:04:03+01:00",
+      "hentet": "2026-11-02T20:07:34+01:00",
       "niva": "Fylkeskommunen",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -83,7 +83,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Målet er å skifte ut eksisterende Skog bru med ny bru eller kulvert i samme trasé. Frist for innspill til planarbeidet er 13. november 2026.",
-      "hentet": "2026-10-27T18:04:03+01:00",
+      "hentet": "2026-11-02T20:07:34+01:00",
       "niva": "Fylkeskommunen",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -105,7 +105,7 @@
       "frist_maned": "",
       "publisert": null,
       "ingress": "Planprogrammet er første fase av arbeidet med regional plan. Høringsfrist er 11. november 2026.",
-      "hentet": "2026-10-27T18:04:03+01:00",
+      "hentet": "2026-11-02T20:07:34+01:00",
       "niva": "Fylkeskommunen",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -116,5 +116,5 @@
       "id": "defdb6b438fe"
     }
   ],
-  "sist_ok": "2026-10-27T18:04:03+01:00"
+  "sist_ok": "2026-11-02T20:07:34+01:00"
 }

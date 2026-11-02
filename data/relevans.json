@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-02T20:09:25+01:00",
+  "generert": "2026-11-02T20:14:13+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -17,6 +17,14 @@
       "hvorfor": "Gjelder bare laktosereduksjon og merking av kondensert melk og melkepulver.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:46+01:00"
+    },
+    "00fe173a1b01": {
+      "versjon": 1,
+      "sjekksum": "2731ff35b3485196",
+      "relevant": true,
+      "hvorfor": "Nasjonal gebyrøkning på 10 prosent for akkrediteringstjenester kan gi høyere kostnader for laboratorier, sertifiserings- og prøvingsvirksomheter og bedrifter som bruker dem.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:51+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 1,
@@ -442,6 +450,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:09:50+01:00"
     },
+    "88d94ba45eb6": {
+      "versjon": 1,
+      "sjekksum": "d57a03acc33ff946",
+      "relevant": true,
+      "hvorfor": "Nasjonale endringer i regelverket for arbeidsinnvandring kan påvirke lokale bedrifters tilgang på faglært arbeidskraft og NTNU i Gjøvik gjennom stipendiaters og nyutdannedes arbeidsrett.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:08+01:00"
+    },
     "8a36813bcbc4": {
       "versjon": 1,
       "sjekksum": "a4ca20db0ef466be",
@@ -465,6 +481,14 @@
       "hvorfor": "Gjelder politiets frist for innbringelse av barn og skikkethetskrav ved Politihøgskolen, ikke kommunale oppgaver.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:18+01:00"
+    },
+    "8fa66d956d05": {
+      "versjon": 1,
+      "sjekksum": "8402196e89d4cabc",
+      "relevant": true,
+      "hvorfor": "Nasjonal strategi for pensjonsinformasjon berører innbyggerne i regionen, også brukere med svake digitale eller norskkunnskaper, og kommunene som arbeidsgivere med tjenestepensjon og som veiledere for innbyggerne.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:06+01:00"
     },
     "90ebc00576f2": {
       "versjon": 1,
@@ -497,6 +521,14 @@
       "hvorfor": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde landbruket i regionen, og kan også berøre kommunale grøntarealer og idrettsanlegg.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:36+01:00"
+    },
+    "9659d443a8c3": {
+      "versjon": 1,
+      "sjekksum": "29961f719b0c2b5c",
+      "relevant": false,
+      "hvorfor": "Gjelder straffebestemmelser og PSTs metoder mot etterretningsvirksomhet, ikke kommunale oppgaver.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:56+01:00"
     },
     "9663429b6c14": {
       "versjon": 1,
@@ -572,11 +604,11 @@
     },
     "a707facb1eff": {
       "versjon": 1,
-      "sjekksum": "c7f70c46213d3f14",
+      "sjekksum": "34f87365939f6232",
       "relevant": true,
-      "hvorfor": "Alle kommuner er høringsinstanser, og rapporten vurderer klimatilpasning for jordbruk, skogbruk, samferdsel, vann og avløp, kraft og beredskap, som angår kommunenes ansvar og infrastruktur.",
+      "hvorfor": "Gjelder klimatilpasning i blant annet jordbruk, skogbruk, vann og avløp, samferdsel og beredskap, og alle kommuner er høringsinstanser.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:11+01:00"
+      "laget": "2026-11-02T20:14:13+01:00"
     },
     "a9dfa91fa88a": {
       "versjon": 1,
@@ -674,6 +706,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:55+01:00"
     },
+    "ba7b7b67492e": {
+      "versjon": 1,
+      "sjekksum": "8473349e51725bf8",
+      "relevant": true,
+      "hvorfor": "Nasjonale krav til lade- og fyllestasjoner, inkludert private ladepunkter og kontrollrutiner hos myndighetene, kan berøre innbyggere, sameier, ladeoperatører og elbilinfrastruktur i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:02+01:00"
+    },
     "c8305ff88bfd": {
       "versjon": 1,
       "sjekksum": "fac0394308eb76c4",
@@ -690,6 +730,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:48+01:00"
     },
+    "cb6aea2f3df9": {
+      "versjon": 1,
+      "sjekksum": "df10954c8fbd38a2",
+      "relevant": true,
+      "hvorfor": "Utvalget vurderer ansvarsfordelingen mellom kommunale helse- og omsorgstjenester og spesialisthelsetjenesten, og kan endre kommunenes oppgaver, styring og finansiering.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:49+01:00"
+    },
     "cb9a1cb566ff": {
       "versjon": 1,
       "sjekksum": "bf6b440f812360a8",
@@ -705,6 +753,14 @@
       "hvorfor": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:09:08+01:00"
+    },
+    "ce8e3ec22955": {
+      "versjon": 1,
+      "sjekksum": "4ef388cd1c2438de",
+      "relevant": false,
+      "hvorfor": "Gjelder bare en teknisk omregningstabell for IB-karakterer ved opptak til høyere utdanning.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:04+01:00"
     },
     "d0438f3adce5": {
       "versjon": 1,
@@ -762,6 +818,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:06+01:00"
     },
+    "de1f796bb02e": {
+      "versjon": 1,
+      "sjekksum": "0a9c7316dbc291b0",
+      "relevant": true,
+      "hvorfor": "Endringer i KI-forordningen gjelder nasjonalt regelverk for KI og kan påvirke kommunenes bruk av KI i tjenester, samt teknologibedrifter og NTNU i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:00+01:00"
+    },
     "defdb6b438fe": {
       "versjon": 1,
       "sjekksum": "c021411e300d2bee",
@@ -769,6 +833,14 @@
       "hvorfor": "Regional plan for strømnettet i Innlandet skal sikre nettkapasitet og kraft til omstilling og utvikling, og kan påvirke kommunenes planlegging og næringslivets tilgang til energi.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:11:16+01:00"
+    },
+    "dfe6bb642266": {
+      "versjon": 1,
+      "sjekksum": "79ca912ef2e02ae2",
+      "relevant": true,
+      "hvorfor": "Endrede regler for tilskudd til avløsning ved sykdom og fødsel, blant annet egenmelding ved barns sykdom, kan gi regionens jordbrukere nye rettigheter fra 1. januar 2027.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:14:10+01:00"
     },
     "e4f7f112e5d1": {
       "versjon": 1,

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-02T20:08:54+01:00",
+  "generert": "2026-11-02T20:13:47+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -15,6 +15,13 @@
       "tekst": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:17+01:00"
+    },
+    "00fe173a1b01": {
+      "versjon": 3,
+      "sjekksum": "023e48e847deed5b",
+      "tekst": "Forslag om å øke alle gebyrsatsene i forskriften om gebyrer for Norsk akkrediterings tjenester med 10 prosent fra dagens nivå. Endringen skal gjøre akkrediteringstjenestene mer selvfinansierende gjennom gebyrer.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:25+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 3,
@@ -415,6 +422,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:21+01:00"
     },
+    "88d94ba45eb6": {
+      "versjon": 3,
+      "sjekksum": "2f04fcec44773028",
+      "tekst": "Forslag om endringer i utlendingsforskriften kapittel 6 for å motvirke misbruk av arbeidsinnvandringsregelverket og gi raskere saksbehandling. Blant annet skal oppholdstillatelse som faglært og som selvstendig næringsdrivende bli «kan-bestemmelser», og tilbud om arbeid skal bekreftes digitalt.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:37+01:00"
+    },
     "8a36813bcbc4": {
       "versjon": 3,
       "sjekksum": "554252ddc66e4ddc",
@@ -435,6 +449,13 @@
       "tekst": "Fristen for politiets innbringelse av barn under 18 år foreslås utvidet fra fire til seks timer (politiloven § 8). Politihøgskolen foreslås også kunne sette krav om skikkethet for opptak, blant annet når studiet kvalifiserer for arbeid i politiet (§ 24 b).",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:29+01:00"
+    },
+    "8fa66d956d05": {
+      "versjon": 3,
+      "sjekksum": "9e583524ea2b12f7",
+      "tekst": "Utkast til en helhetlig strategi for pensjonsinformasjon, som skal gjøre det enklere å forstå økonomiske konsekvenser av valg som uttakstidspunkt, bidra til tillit til pensjonssystemet og sikre oppslutning om pensjonsreformen. Utkastet tar også for seg brukere som ikke er fortrolige med digitale verktøy, og brukere med begrensede norskkunnskaper.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:35+01:00"
     },
     "90ebc00576f2": {
       "versjon": 3,
@@ -470,6 +491,13 @@
       "tekst": "Endringer i forskrift om plantevernmidler som innfører krav til elektronisk sprøytejournal, gjennom innlemming av forordning (EU) 2023/564. Forslaget er justert fra høringen i 2024 på grunn av utsatt frist i EU og endret løsning for elektronisk journalføring.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:08+01:00"
+    },
+    "9659d443a8c3": {
+      "versjon": 3,
+      "sjekksum": "cddad203d1851d65",
+      "tekst": "Nye straffebestemmelser i straffeloven mot bidrag til og deltakelse i potensielt skadelig etterretningsvirksomhet, og høyere strafferammer for dagens etterretningsbestemmelser. PST foreslås å få bruke skjulte tvangsmidler for å etterforske, avverge og forebygge overtredelser av de nye bestemmelsene.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:27+01:00"
     },
     "9663429b6c14": {
       "versjon": 3,
@@ -536,10 +564,10 @@
     },
     "a707facb1eff": {
       "versjon": 3,
-      "sjekksum": "95cd450cd60f7eee",
-      "tekst": "Rapporten fra ekspertutvalget om klimatilpasning, «Norge i hardt vær», vurderer samfunnsøkonomiske konsekvenser av klimaendringene og tilpasningsbehov i en rekke sektorer. Den drøfter også tiltak og virkemidler som kan redusere risiko og styrke robustheten.",
+      "sjekksum": "555099ad9bf70270",
+      "tekst": "Rapporten fra ekspertutvalget om klimatilpasning vurderer samfunnsøkonomiske konsekvenser av klimaendringer og tilpasningsbehov i sektorer som jordbruk, kraft, samferdsel og vann og avløp, og hvordan tiltak og virkemidler kan redusere risiko og styrke robustheten.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:35+01:00"
+      "laget": "2026-11-02T20:13:46+01:00"
     },
     "a9dfa91fa88a": {
       "versjon": 3,
@@ -632,6 +660,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:23+01:00"
     },
+    "ba7b7b67492e": {
+      "versjon": 3,
+      "sjekksum": "82c3c61cb9815e05",
+      "tekst": "Forslag til ny forskrift som gjennomfører fire EU-forordninger om tekniske krav til infrastruktur for alternativt drivstoff, blant annet datakrav og standarder for lading. Departementet ber særlig om innspill til kravene til private ladere.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:31+01:00"
+    },
     "c8305ff88bfd": {
       "versjon": 3,
       "sjekksum": "22f5db30ebc4d8e3",
@@ -646,6 +681,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:52+01:00"
     },
+    "cb6aea2f3df9": {
+      "versjon": 3,
+      "sjekksum": "026e7e3465315d56",
+      "tekst": "Et utvalg har utredet og foreslått modeller for hvordan helse- og omsorgstjenesten i Norge kan organiseres, styres og finansieres som en sammenhengende tjeneste. Utvalget vurderer også ansvarsfordelingen mellom kommune, fylkeskommune og spesialisthelsetjenesten, og samarbeid med private aktører.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:23+01:00"
+    },
     "cb9a1cb566ff": {
       "versjon": 3,
       "sjekksum": "0f6fa5065eec58ae",
@@ -659,6 +701,13 @@
       "tekst": "Forslag til forskrift som skal gi hjemmel for deling av taushetsbelagte opplysninger og behandling av personopplysninger mellom organer i arbeidet mot økonomisk kriminalitet. Forslaget kommer fra en arbeidsgruppe nedsatt etter stortingsmeldingen om å forebygge og bekjempe slik kriminalitet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:29:30+01:00"
+    },
+    "ce8e3ec22955": {
+      "versjon": 3,
+      "sjekksum": "7c92e2261882a41e",
+      "tekst": "Ny omrekningstabell for International Baccalaureate i vedlegg II i opptaksforskrifta, som skal gjelde fra og med opptak til studieåret 2030–2031. Tabellen er utarbeidd av HK-dir.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:33+01:00"
     },
     "d0438f3adce5": {
       "versjon": 3,
@@ -716,12 +765,26 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:22+01:00"
     },
+    "de1f796bb02e": {
+      "versjon": 3,
+      "sjekksum": "523005569029f70a",
+      "tekst": "EUs KI-omnibus (forordning 2026/1744) foreslår målrettede endringer i KI-forordningen for å fremme innovasjon og konkurranseevne. Kravene til menneskers sikkerhet og grunnleggende rettigheter skal samtidig opprettholdes.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:29+01:00"
+    },
     "defdb6b438fe": {
       "versjon": 3,
       "sjekksum": "130157314f533910",
       "tekst": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal beskrive status for nettet og prioritere utvalgte linjer, traséer og områder for installasjoner, som får en overordnet konsekvensanalyse for miljø og samfunn, for å få raskere nettkapasitet og ny produksjon.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:44+01:00"
+    },
+    "dfe6bb642266": {
+      "versjon": 3,
+      "sjekksum": "76372dab5546fdbc",
+      "tekst": "Forslag om å tillate egenmelding ved tilskudd til avløsning ved barns sykdom og å utvide ordningen når jordbrukeren får pleiepenger eller opplæringspenger fra Nav. Departementet foreslår også flere egne endringer i forskriften om avløsning ved sykdom og fødsel mv.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:13:44+01:00"
     },
     "e4f7f112e5d1": {
       "versjon": 3,

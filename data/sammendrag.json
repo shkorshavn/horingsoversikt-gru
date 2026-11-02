@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-27T22:05:29+01:00",
+  "generert": "2026-11-02T20:08:54+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -15,13 +15,6 @@
       "tekst": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:17+01:00"
-    },
-    "06015c8343c1": {
-      "versjon": 3,
-      "sjekksum": "2d37bf56e9664ee9",
-      "tekst": "Stortinget bes samtykke til godkjenning av EØS-komiteens beslutning nr. 70/2026 om å innlemme en forordning i EØS-avtalen. Det gjelder S-delen av saken.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:16+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 3,
@@ -135,13 +128,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:55+01:00"
     },
-    "29760107df50": {
-      "versjon": 3,
-      "sjekksum": "bfb239149104b0f3",
-      "tekst": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:05+01:00"
-    },
     "2bcea3dfa851": {
       "versjon": 3,
       "sjekksum": "a97cc1a1ac82ba92",
@@ -191,13 +177,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:27+01:00"
     },
-    "3c2212288d2f": {
-      "versjon": 3,
-      "sjekksum": "e7aaa2421973e853",
-      "tekst": "Nye bestemmelser i jernbaneloven og yrkestransportloven skal gi behandlingsgrunnlag for personopplysninger og for bruk av forretningshemmeligheter i digital nasjonal infrastruktur for reiseplanlegging, billettering og kollektivdata. Statens ansvar for denne infrastrukturen foreslås også regulert nærmere.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:48+01:00"
-    },
     "3e967a8c63c8": {
       "versjon": 3,
       "sjekksum": "a5994199b18221b0",
@@ -225,6 +204,13 @@
       "tekst": "Forslag om endringer i forskriftene om tilbakebetaling av utdanningslån og godkjenning for utdanningsstøtte, blant annet renteslette i tolv måneder for trafikkflygerlåntakere som avbrøt utdanningen på grunn av konkurs, og at hjemmelen for godkjenning av nettskoler oppheves.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:14+01:00"
+    },
+    "47ba366df44c": {
+      "versjon": 3,
+      "sjekksum": "c6d06b114f5be7da",
+      "tekst": "Endring i Reach-forskriften som forbyr omsetning og bruk av fiskeutstyr med blyinnhold på 1 % eller mer: søkker under 1 kg, sluker, «drop-in sinkers» og «fishing wire». Bakgrunnen er et tilsvarende forslag fra EU.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:08:44+01:00"
     },
     "48b91a5d6241": {
       "versjon": 3,
@@ -260,13 +246,6 @@
       "tekst": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:31+01:00"
-    },
-    "50813f1d030f": {
-      "versjon": 3,
-      "sjekksum": "d82ff4be8c0ef274",
-      "tekst": "Forslag til justerte rutetider for kystruten Bergen–Kirkenes, med minst 20 minutters liggetid i havner med godshåndtering nord for Bodø og lavere snittfart. Det skal også vurderes om rederiene kan gå før avgangstid, og om det skal være egen sommer- og vinterrute.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:37+01:00"
     },
     "51bf7e74bd34": {
       "versjon": 3,
@@ -310,20 +289,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:05+01:00"
     },
-    "63cc40b248f7": {
-      "versjon": 3,
-      "sjekksum": "877b54d642f8952e",
-      "tekst": "Representantforslag om å få kriminelle aktører ut fra barnevernet.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:10+01:00"
-    },
-    "643a43b304c3": {
-      "versjon": 3,
-      "sjekksum": "dc3d9ed7b4f2cb52",
-      "tekst": "Endringer i lov om medisinsk utstyr for å gjennomføre EU-forordning 2024/568 om gebyrer og avgifter som skal betales til Det europeiske legemiddelbyrå (EMA).",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:20+01:00"
-    },
     "66471a7d439a": {
       "versjon": 3,
       "sjekksum": "d0e5fcf229e261a3",
@@ -333,10 +298,10 @@
     },
     "6657b3de2e69": {
       "versjon": 3,
-      "sjekksum": "0da3239e93c64252",
-      "tekst": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det bes særlig om innspill på om 5 mm-grensen også skal gjelde i kapittel 23A.",
+      "sjekksum": "7ec070f95d19044a",
+      "tekst": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det skal vurderes om størrelsesgrensen på 5 mm også skal gjelde, eller om reglene skal gjelde uavhengig av størrelse.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:45+01:00"
+      "laget": "2026-11-02T20:08:45+01:00"
     },
     "67ec81a017fe": {
       "versjon": 3,
@@ -352,12 +317,12 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:26:38+01:00"
     },
-    "6998327d63dc": {
+    "6916c1dd7f57": {
       "versjon": 3,
-      "sjekksum": "89105d07acac0697",
-      "tekst": "Representantforslag om bedre oppfølging av overlevende og etterlatte etter katastrofer. Teksten oppgir ikke hvilke konkrete tiltak som foreslås.",
+      "sjekksum": "29e6ad782025c0b4",
+      "tekst": "Endringer i utlendingsloven om å flytte driften av utlendingsinternatet fra politiet til kriminalomsorgen. Forslaget omfatter også restriksjoner under oppholdet og andre endringer.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:27+01:00"
+      "laget": "2026-11-02T20:08:22+01:00"
     },
     "6a72fcd2b2b8": {
       "versjon": 3,
@@ -380,12 +345,12 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:57+01:00"
     },
-    "6db50eabb3aa": {
+    "70e0705c9492": {
       "versjon": 3,
-      "sjekksum": "2118c948491350b5",
-      "tekst": "Utlendingsloven foreslås endret slik at driften av utlendingsinternatet overføres fra politiet til kriminalomsorgen. Endringene omfatter også restriksjoner under oppholdet og flere andre forhold.",
+      "sjekksum": "0ef475a5352c8daa",
+      "tekst": "Ny forskrift om satser for frakttilskudd til transport av kraftfôr foreslås. Satsene justeres fra 2027 som følge av Jordbruksavtalen 2027.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:27:30+01:00"
+      "laget": "2026-11-02T20:08:52+01:00"
     },
     "72aaf5ad5099": {
       "versjon": 3,
@@ -394,13 +359,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:42+01:00"
     },
-    "75567d8c825c": {
-      "versjon": 3,
-      "sjekksum": "b27b7a2eed11ec05",
-      "tekst": "Endringer i trossamfunnsloven og andre lover når det gjelder taushetsplikt, slik det er lagt fram i Prop. 102 L (2025–2026).",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:25:34+01:00"
-    },
     "77e746e4c4a7": {
       "versjon": 3,
       "sjekksum": "eb649517862af6e4",
@@ -408,12 +366,19 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:03+01:00"
     },
+    "7936397b92ca": {
+      "versjon": 3,
+      "sjekksum": "b293ace3268b5aaa",
+      "tekst": "Forslag om å indeksregulere og kostnadsregulere gebyrene for tjenester på trafikant- og kjøretøyområdet fra 1. januar 2027. Det gjelder gebyrene i tre forskrifter: gebyrforskriften, forskriften om kjøre- og hviletid og fartsskriver, og yrkestransportforskriften.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:08:30+01:00"
+    },
     "7bdc37294b5b": {
       "versjon": 3,
-      "sjekksum": "96358a73db09e985",
-      "tekst": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte nye § 7 a i vegtrafikkloven.",
+      "sjekksum": "62354b6f87429d3e",
+      "tekst": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte § 7 a i vegtrafikkloven.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:58+01:00"
+      "laget": "2026-11-02T20:08:24+01:00"
     },
     "81abe04a558c": {
       "versjon": 3,
@@ -450,12 +415,12 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:21+01:00"
     },
-    "87dd3c9c6a6a": {
+    "8a36813bcbc4": {
       "versjon": 3,
-      "sjekksum": "8fb0ea82890e5e43",
-      "tekst": "Utredning av behovet for og konsekvensene av å la deltakere i arbeidsmarkedstiltaket varig tilrettelagt arbeid (VTA) fortsette i tiltaket etter fylte 67 år. Den omfatter aldersgrensen mot diskrimineringsregelverket, antall deltakere og kostnader i offentlige budsjetter.",
+      "sjekksum": "554252ddc66e4ddc",
+      "tekst": "3B-Fibreglass søker om endret tillatelse etter forurensningsloven: økt produksjon fra 67 000 til 76 000 tonn smeltet glass per år, høyere SO2-utslippsgrense for ovn 66-01 og 66-03 (0,9 til 1,6 kg/TMG) og lavere for ovn 66-02 (0,4 kg/TMG).",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:44+01:00"
+      "laget": "2026-11-02T20:08:42+01:00"
     },
     "8af939d61ec0": {
       "versjon": 3,
@@ -541,13 +506,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:29:28+01:00"
     },
-    "9cc5afca6a10": {
-      "versjon": 3,
-      "sjekksum": "c559932161707209",
-      "tekst": "Representantforslag om at stortingsrepresentanter og regjeringsmedlemmer skal få vigselsrett, altså rett til å forrette borgerlige vielser.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:25:49+01:00"
-    },
     "9cf0a0c2008e": {
       "versjon": 3,
       "sjekksum": "ad201057fe3420e3",
@@ -561,13 +519,6 @@
       "tekst": "Forslag om å lovfeste en plikt for offentlige og private skoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning. Samtidig foreslås det å oppheve plikten til å tilby leksehjelp.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:25+01:00"
-    },
-    "a1692dc49017": {
-      "versjon": 3,
-      "sjekksum": "15747b99d501c270",
-      "tekst": "Endringer i trafikkreglene § 2 nr. 2 for å klargjøre hvordan hestebrukere skal følge reglene og når unntak kan gjøres. Ny plikt for kjørende til særlig forsiktighet ved passering av hest, og nye krav til reflekser, varselskilt og lys på dyretrukne kjøretøy.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:11+01:00"
     },
     "a1a10035e181": {
       "versjon": 3,
@@ -590,12 +541,12 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:29:35+01:00"
     },
-    "a9743acce7d8": {
+    "a9dfa91fa88a": {
       "versjon": 3,
-      "sjekksum": "6ccfd320bc907d2e",
-      "tekst": "Ny bestemmelse i finanstilsynsforskriften om at Finanstilsynets tilsynsutgifter for folkefinansieringsforetak skal fordeles etter størrelsen på inntekt fra den konsesjonspliktige virksomheten, slik regelen allerede gjelder blant annet for verdipapirforetak.",
+      "sjekksum": "6f91bcfa97efbcf4",
+      "tekst": "Endringene som skal inngå i 2027-utgavene av ADR og RID, og endringer i §§ 2 og 3 i landtransportforskriften. Den dynamiske henvisningen til ADR og RID foreslås erstattet med en statisk henvisning til 2027-utgavene, for å gjøre det tydelig hvilken utgave som gjelder.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:07+01:00"
+      "laget": "2026-11-02T20:08:47+01:00"
     },
     "ab01fdcf2eec": {
       "versjon": 3,
@@ -625,6 +576,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:48+01:00"
     },
+    "b2b1f962e64b": {
+      "versjon": 3,
+      "sjekksum": "9919d7b58cf99334",
+      "tekst": "Foreslåtte regelendringer for hest i trafikken: klarere ordlyd om hvordan hestebrukere skal følge trafikkreglene, plikt for sjåfører til å vise særlig forsiktighet ved passering av hest, og krav til reflekser, varselskilt og lys på vogner trukket av dyr.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:08:39+01:00"
+    },
     "b2c43c21458e": {
       "versjon": 3,
       "sjekksum": "49501b9496d815a1",
@@ -653,26 +611,12 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:32+01:00"
     },
-    "b58acb7cbf72": {
-      "versjon": 3,
-      "sjekksum": "7572bd9c7ac490e0",
-      "tekst": "Representantforslag om å tillate digitale lotterier for frivillige organisasjoner og idrettslag.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:25:52+01:00"
-    },
     "b5d10c057333": {
       "versjon": 3,
       "sjekksum": "6edd7f3627d343f7",
       "tekst": "Ny modell for fordeling av skatt mellom skattekreditorene, der fordelingstall baseres på samlet fastsatt skatt for personlige skattytere i hele landet i stedet for per kommune. Marginordningen, som holder tilbake en andel av forskuddstrekk og forskuddsskatt, foreslås avviklet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:29+01:00"
-    },
-    "b70f48dec37e": {
-      "versjon": 3,
-      "sjekksum": "cb5598373a561c67",
-      "tekst": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:25:38+01:00"
     },
     "b7139428bdd0": {
       "versjon": 3,
@@ -687,34 +631,6 @@
       "tekst": "Forslaget endrer særavgiftsforskriften slik at den reduserte CO2-avgiftssatsen for kvotepliktig sjøfart også gjelder større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel utenfor innsatsfordelingsforordningen foreslås fritatt.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:23+01:00"
-    },
-    "c3023dcf4511": {
-      "versjon": 3,
-      "sjekksum": "7d5fc7d2cb147596",
-      "tekst": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:23+01:00"
-    },
-    "c516cdc946d6": {
-      "versjon": 3,
-      "sjekksum": "f7f0094b6a4a114a",
-      "tekst": "Meld. St. 12 (2025–2026) om eksport av forsvarsmateriell fra Norge og eksportkontroll i 2025 skal behandles i en muntlig høring i Stortinget.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:27:16+01:00"
-    },
-    "c51b51b3b5cc": {
-      "versjon": 3,
-      "sjekksum": "ba85f261b2894495",
-      "tekst": "Forslag til ny forskrift under sivilbeskyttelsesloven som regulerer tilfluktssteder. Forslaget skal gi sivilbefolkningen vern mot skader ved krigshandlinger og gjøre at kritiske virksomheter kan holde nødvendig drift i gang i krig.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:46+01:00"
-    },
-    "c5afff646a52": {
-      "versjon": 3,
-      "sjekksum": "57902cbfe8bc0fe3",
-      "tekst": "Forslag om endringer i straffegjennomføringslovens regler om kontrolltiltak i kriminalomsorgen. Det foreslås en ny overordnet bestemmelse for alle kontrolltiltak, og reglene om kontroll av lokaler, innsattes rom og eiendeler, personer og kontakt med omverdenen samles i egne bestemmelser.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:42+01:00"
     },
     "c8305ff88bfd": {
       "versjon": 3,
@@ -828,6 +744,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:26:03+01:00"
     },
+    "e9e2c299ec51": {
+      "versjon": 3,
+      "sjekksum": "11fcb6ad56225f62",
+      "tekst": "Det foreslås endringer i bilforskriften med flere nye tekniske krav til typegodkjenning av bil.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:08:28+01:00"
+    },
     "eb7e8a64289f": {
       "versjon": 3,
       "sjekksum": "121eb2e6387bc854",
@@ -855,6 +778,13 @@
       "tekst": "Rapporten vurderer hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres tilgjengelige utenfor kliniske studier for pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter. Den foreslår blant annet endringer i regelverket om godkjenningsfritak.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:27+01:00"
+    },
+    "f55d4f113aff": {
+      "versjon": 3,
+      "sjekksum": "98644ec15b049ab6",
+      "tekst": "Forslag om å ta inn tre EU-forordninger i økologiforskriften om import av økologiske produkter fra tredjeland: endret liste over anerkjente tredjeland, en ny liste over høyrisikoprodukter og endrede regler om rapportering fra ekvivalente tredjeland.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:08:53+01:00"
     },
     "f644746b0c53": {
       "versjon": 3,

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-10-27T22:11:17+01:00",
+  "generert": "2026-11-02T20:09:25+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -17,14 +17,6 @@
       "hvorfor": "Gjelder bare laktosereduksjon og merking av kondensert melk og melkepulver.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:46+01:00"
-    },
-    "06015c8343c1": {
-      "versjon": 1,
-      "sjekksum": "52c3255bd79a479c",
-      "relevant": true,
-      "hvorfor": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:08+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 1,
@@ -154,22 +146,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:44+01:00"
     },
-    "29760107df50": {
-      "versjon": 1,
-      "sjekksum": "9edd37e4f6aab2b9",
-      "relevant": true,
-      "hvorfor": "Statsbudsjettet for næringsområdet setter rammer som kan påvirke næringslivet, arbeidsplassene og kommunenes handlingsrom i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:04+01:00"
-    },
-    "2bcea3dfa851": {
-      "versjon": 1,
-      "sjekksum": "5e55186e9eef4562",
-      "relevant": true,
-      "hvorfor": "Forslaget om raskere og mer skånsom utbygging av solenergi kan påvirke kommunenes arealplanlegging, saksbehandling og energiutbygging i Innlandet.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:05:30+01:00"
-    },
     "2d365b86661f": {
       "versjon": 1,
       "sjekksum": "695929a96b8a5fcf",
@@ -218,14 +194,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:11:05+01:00"
     },
-    "3c2212288d2f": {
-      "versjon": 1,
-      "sjekksum": "58447a266bb26fe2",
-      "relevant": true,
-      "hvorfor": "Nasjonale lovendringer om kollektivdata, reiseplanlegging og billettering berører fylkeskommunal kollektivtransport og passasjerene, og gjelder dermed også kollektivtilbudet i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:20+01:00"
-    },
     "3e967a8c63c8": {
       "versjon": 1,
       "sjekksum": "2471008171efbf1c",
@@ -258,13 +226,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:02+01:00"
     },
-    "48b91a5d6241": {
+    "47ba366df44c": {
       "versjon": 1,
-      "sjekksum": "f65b68117b1c8677",
+      "sjekksum": "50190228ebe7038e",
       "relevant": true,
-      "hvorfor": "Gjelder stemmerett ved kommune- og fylkestingsvalg, et nasjonalt regelverk som gjelder alle kommuner og som kommunene bruker når de gjennomfører valg.",
+      "hvorfor": "Nasjonalt forbud mot omsetning og bruk av blyholdig fiskeutstyr som søkker og sluker gjelder også fiskere og utstyrsforhandlere i regionen, men økonomisk virkning antas liten.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:40+01:00"
+      "laget": "2026-11-02T20:09:17+01:00"
     },
     "4b0dae140bf8": {
       "versjon": 1,
@@ -273,14 +241,6 @@
       "hvorfor": "Nasjonale endringer i pengespillforskriften om nettpoker hos Norsk Tipping og utbetaling av Belago-midler fra bingo gjelder hele landet, også innbyggere i regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:30+01:00"
-    },
-    "4b2b143e613d": {
-      "versjon": 1,
-      "sjekksum": "6c8a1317b883d51c",
-      "relevant": true,
-      "hvorfor": "Barnevern er en kommunal oppgave, og forslag om institusjonsbarnevern kan påvirke kommunenes ansvar, kostnader og samarbeid med statlige barnevernstjenester.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:48+01:00"
     },
     "4de54c79db37": {
       "versjon": 1,
@@ -297,14 +257,6 @@
       "hvorfor": "Nasjonal lov om konkurranse og regulering av store digitale plattformer, som kan påvirke næringsliv, innbyggere og kommuner som brukere av digitale tjenester.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:24+01:00"
-    },
-    "50813f1d030f": {
-      "versjon": 1,
-      "sjekksum": "6a7dba312f4453d9",
-      "relevant": false,
-      "hvorfor": "Gjelder bare rutetider for kystruten Bergen–Kirkenes.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:13+01:00"
     },
     "51bf7e74bd34": {
       "versjon": 1,
@@ -354,22 +306,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:55+01:00"
     },
-    "63cc40b248f7": {
-      "versjon": 1,
-      "sjekksum": "1b18785a7dbafe15",
-      "relevant": true,
-      "hvorfor": "Forslaget gjelder barnevernet, som kommunene har ansvar for, og kan påvirke kommunenes bruk av private barnevernstilbud og tjenester til barn.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:06+01:00"
-    },
-    "643a43b304c3": {
-      "versjon": 1,
-      "sjekksum": "a5bb9cb6bcc24a5b",
-      "relevant": false,
-      "hvorfor": "Gjelder tekniske gebyrer til EMA etter regelverket for medisinsk utstyr.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:13+01:00"
-    },
     "66471a7d439a": {
       "versjon": 1,
       "sjekksum": "bd2f224994464d29",
@@ -380,11 +316,11 @@
     },
     "6657b3de2e69": {
       "versjon": 1,
-      "sjekksum": "edbd3486c5c0fb36",
+      "sjekksum": "815b0db85ac9c638",
       "relevant": true,
-      "hvorfor": "Nasjonal forskriftsendring som kan endre hvilke krav som gjelder for granulat på idrettsbaner, som kommunene har ansvar for å følge opp.",
+      "hvorfor": "Nasjonalt regelverk om plastholdig fyllmateriale, som granulat på idrettsbaner, kan endre krav til kommunene som baneeiere og myndighet.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:10:16+01:00"
+      "laget": "2026-11-02T20:09:19+01:00"
     },
     "67ec81a017fe": {
       "versjon": 1,
@@ -394,21 +330,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:05:55+01:00"
     },
-    "6852b0df3344": {
+    "6916c1dd7f57": {
       "versjon": 1,
-      "sjekksum": "32b30d0cae26ed09",
-      "relevant": true,
-      "hvorfor": "Et nasjonalt reklameforbud for fossil energi kan ramme bedrifter i regionen som markedsfører fossile energiprodukter, og angår energi- og klimapolitikken.",
+      "sjekksum": "d230ff60c56c3931",
+      "relevant": false,
+      "hvorfor": "Gjelder driften av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver eller regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:33+01:00"
-    },
-    "6998327d63dc": {
-      "versjon": 1,
-      "sjekksum": "d01437cb43a75bbd",
-      "relevant": true,
-      "hvorfor": "Nasjonalt forslag om oppfølging etter katastrofer som kan gjelde kommunenes helse- og omsorgstjenester og beredskap overfor overlevende og etterlatte.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:20+01:00"
+      "laget": "2026-11-02T20:08:57+01:00"
     },
     "6a72fcd2b2b8": {
       "versjon": 1,
@@ -434,13 +362,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:51+01:00"
     },
-    "6db50eabb3aa": {
+    "70e0705c9492": {
       "versjon": 1,
-      "sjekksum": "032f09ff45541c3e",
-      "relevant": false,
-      "hvorfor": "Gjelder statlig drift av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver.",
+      "sjekksum": "c4ee88387296864f",
+      "relevant": true,
+      "hvorfor": "Nye satser for frakttilskudd til kraftfôr kan påvirke fraktkostnadene og økonomien for husdyrbønder i regionen, der landbruket er en viktig næring.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:07:22+01:00"
+      "laget": "2026-11-02T20:09:23+01:00"
     },
     "72aaf5ad5099": {
       "versjon": 1,
@@ -450,14 +378,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:11:14+01:00"
     },
-    "75567d8c825c": {
-      "versjon": 1,
-      "sjekksum": "e3608a6d0221c9c6",
-      "relevant": true,
-      "hvorfor": "Nasjonale endringer i trossamfunnsloven om taushetsplikt gjelder trossamfunn og innbyggere over hele landet, også i regionens kommuner.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:05:37+01:00"
-    },
     "77e746e4c4a7": {
       "versjon": 1,
       "sjekksum": "cdea93d254dff7a8",
@@ -466,13 +386,21 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:32+01:00"
     },
+    "7936397b92ca": {
+      "versjon": 1,
+      "sjekksum": "6bde7ea843e660bc",
+      "relevant": true,
+      "hvorfor": "Høyere gebyrer for førerkort, kjøretøy og yrkestransport fra 2027 kan ramme innbyggere og transportbedrifter i regionen, og gjelder hele landet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:09:07+01:00"
+    },
     "7bdc37294b5b": {
       "versjon": 1,
-      "sjekksum": "fc0e86fb61ee7764",
+      "sjekksum": "d6ea5ca59e2f18ef",
       "relevant": true,
-      "hvorfor": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan påvirke kommunene som vegeiere og vegmyndighet, og entreprenører som jobber på og ved veg.",
+      "hvorfor": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan gjelde kommunene som vegeiere og byggherrer, og entreprenører i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:26+01:00"
+      "laget": "2026-11-02T20:09:02+01:00"
     },
     "81abe04a558c": {
       "versjon": 1,
@@ -514,13 +442,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:09:50+01:00"
     },
-    "87dd3c9c6a6a": {
+    "8a36813bcbc4": {
       "versjon": 1,
-      "sjekksum": "651acfc9b698610f",
-      "relevant": true,
-      "hvorfor": "Nasjonal regel om VTA-deltakere over 67 år kan påvirke kommunenes tjenester og budsjetter, tiltaksbedrifter og innbyggere med nedsatt arbeidsevne.",
+      "sjekksum": "a4ca20db0ef466be",
+      "relevant": false,
+      "hvorfor": "Gjelder én bedrifts utslippstillatelse i Agder, med utslipp til Tovdalselva.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:16+01:00"
+      "laget": "2026-11-02T20:09:11+01:00"
     },
     "8af939d61ec0": {
       "versjon": 1,
@@ -545,14 +473,6 @@
       "hvorfor": "Gjelder statens påtalemyndighet og Grunnloven, ikke kommunenes oppgaver eller tjenester.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:02+01:00"
-    },
-    "922068c3201e": {
-      "versjon": 1,
-      "sjekksum": "6b4f2a05f617a5ec",
-      "relevant": true,
-      "hvorfor": "Nasjonalt forslag om pluggbare solceller og batterier kan gi innbyggere og bedrifter i regionen nye muligheter for egen strømproduksjon og påvirke energiregelverket.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:21+01:00"
     },
     "929e7e070e99": {
       "versjon": 1,
@@ -618,14 +538,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:09:05+01:00"
     },
-    "9cc5afca6a10": {
-      "versjon": 1,
-      "sjekksum": "fe3f67e78d5310f7",
-      "relevant": false,
-      "hvorfor": "Gjelder bare vigselsrett for stortingsrepresentanter og regjeringsmedlemmer, uten merkbar betydning for kommuner eller næringsliv.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:05:48+01:00"
-    },
     "9cf0a0c2008e": {
       "versjon": 1,
       "sjekksum": "0010d87c5054a138",
@@ -641,14 +553,6 @@
       "hvorfor": "Kommunene som skoleeiere får ny plikt til smågruppeundervisning på 1.–2. trinn og slipper plikten til å tilby leksehjelp, noe som påvirker skoletilbud, økonomi og bemanning.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:09+01:00"
-    },
-    "a1692dc49017": {
-      "versjon": 1,
-      "sjekksum": "8455083272a2663a",
-      "relevant": true,
-      "hvorfor": "Nasjonale trafikkregler om hest i trafikken gjelder alle veger, også i landbrukspregede kommuner, og påvirker både bilister og hestebrukere.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:37+01:00"
     },
     "a1a10035e181": {
       "versjon": 1,
@@ -674,13 +578,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:09:11+01:00"
     },
-    "a9743acce7d8": {
+    "a9dfa91fa88a": {
       "versjon": 1,
-      "sjekksum": "7eb67a3b72420064",
-      "relevant": false,
-      "hvorfor": "Gjelder bare hvordan Finanstilsynets utgifter fordeles på folkefinansieringsforetak.",
+      "sjekksum": "c7ae0949110b0679",
+      "relevant": true,
+      "hvorfor": "Nasjonale regler for transport av farlig gods på vei og bane gjelder hele landet, og kan berøre transportører, industribedrifter og kommunal beredskap.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:08:52+01:00"
+      "laget": "2026-11-02T20:09:21+01:00"
     },
     "ab01fdcf2eec": {
       "versjon": 1,
@@ -698,14 +602,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:53+01:00"
     },
-    "af2e157b59ab": {
-      "versjon": 1,
-      "sjekksum": "35e7e388f8139742",
-      "relevant": true,
-      "hvorfor": "Endret CO2-avgift påvirker drivstoffpriser og kostnader for transport, landbruk og industri i regionen, og dermed næringslivet og innbyggerne.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:35+01:00"
-    },
     "af99c30570fd": {
       "versjon": 1,
       "sjekksum": "0d304087abcc0150",
@@ -713,6 +609,14 @@
       "hvorfor": "Opphevingen av rammeplanen for ingeniørutdanning endrer styringen av alle treårige ingeniørutdanninger i landet, som berører ingeniørmiljøet ved NTNU i Gjøvik og teknologibedriftene.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:39+01:00"
+    },
+    "b2b1f962e64b": {
+      "versjon": 1,
+      "sjekksum": "7f7bebd18795fab4",
+      "relevant": true,
+      "hvorfor": "Nye trafikkregler om hest i trafikken gjelder alle veier og kan påvirke bilister og hestebrukere på kommunale, fylkeskommunale og statlige veier i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:09:09+01:00"
     },
     "b2c43c21458e": {
       "versjon": 1,
@@ -746,14 +650,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:04+01:00"
     },
-    "b58acb7cbf72": {
-      "versjon": 1,
-      "sjekksum": "6e8c3f7dbbd81f6c",
-      "relevant": true,
-      "hvorfor": "Digitale lotterier kan gi frivillige organisasjoner og idrettslag i kommunene nye inntekter, og saken berører kommunenes forhold til lokalt frivillig- og idrettsliv.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:05:50+01:00"
-    },
     "b5d10c057333": {
       "versjon": 1,
       "sjekksum": "a5401d4003323444",
@@ -761,14 +657,6 @@
       "hvorfor": "Ny modell for fordeling av skatt mellom skattekreditorene, med fordelingstall basert på landstotalen i stedet for kommunens egen skatt, kan endre kommunenes skatteinntekter og likviditet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:11:07+01:00"
-    },
-    "b70f48dec37e": {
-      "versjon": 1,
-      "sjekksum": "25d084fe3c090823",
-      "relevant": true,
-      "hvorfor": "Statsbudsjettet for familie- og kulturfeltet kan påvirke kommunenes økonomi og tjenester på disse områdene, siden bevilgningene gjelder alle kommuner.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:05:41+01:00"
     },
     "b7139428bdd0": {
       "versjon": 1,
@@ -785,38 +673,6 @@
       "hvorfor": "Gjelder bare CO2-avgift for kvotepliktig sjøfart og offshore-fartøy, en næring som knapt finnes i regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:10:55+01:00"
-    },
-    "c3023dcf4511": {
-      "versjon": 1,
-      "sjekksum": "04b34fbccb112429",
-      "relevant": true,
-      "hvorfor": "Forslaget om nasjonal kontroll over digital helseinfrastruktur kan påvirke kommunenes helse- og omsorgstjenester, journalsystemer og IKT-løsninger, samt sykehuset i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:15+01:00"
-    },
-    "c516cdc946d6": {
-      "versjon": 1,
-      "sjekksum": "7fbe29ed4484e42b",
-      "relevant": true,
-      "hvorfor": "Meldingen om eksport av forsvarsmateriell og eksportkontroll kan påvirke industri- og teknologibedrifter i regionen som leverer til forsvarsmarkedet.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:07:07+01:00"
-    },
-    "c51b51b3b5cc": {
-      "versjon": 1,
-      "sjekksum": "fdb01434f2d07f19",
-      "relevant": true,
-      "hvorfor": "Forskriften regulerer tilfluktssteder og beskyttelse av sivilbefolkningen i krig, noe som kan gi kommunene nye oppgaver, krav og kostnader innen beredskap og planlegging.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:18+01:00"
-    },
-    "c5afff646a52": {
-      "versjon": 1,
-      "sjekksum": "1c870120dc6f94c9",
-      "relevant": false,
-      "hvorfor": "Gjelder bare kontrolltiltak overfor innsatte og besøkende i kriminalomsorgens enheter, som er et statlig ansvar.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:15+01:00"
     },
     "c8305ff88bfd": {
       "versjon": 1,
@@ -882,21 +738,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:28+01:00"
     },
-    "da794dfc23c7": {
-      "versjon": 1,
-      "sjekksum": "6cb9b115ee73991c",
-      "relevant": true,
-      "hvorfor": "Forslaget gjelder jaktregler for hele landet og kan berøre jegere og viltforvaltningen i regionens kommuner.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:06:27+01:00"
-    },
     "db984834479b": {
       "versjon": 1,
-      "sjekksum": "26cb3cf35f1c1446",
+      "sjekksum": "2b43e0a6838f7953",
       "relevant": true,
-      "hvorfor": "Nasjonalt register for selvmordskartlegging kan på sikt utvides til å omfatte opplysninger fra kommunal helse- og omsorgstjeneste, og kommunene står på høringslisten.",
+      "hvorfor": "Kartleggingen kan på sikt utvides til kommunal helse- og omsorgstjeneste, og kommunene står på høringslisten som høringsinstans.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:01:52+01:00"
+      "laget": "2026-11-02T20:09:00+01:00"
     },
     "ddda7ca52c53": {
       "versjon": 1,
@@ -930,14 +778,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:07:42+01:00"
     },
-    "e8b18a9a7937": {
-      "versjon": 1,
-      "sjekksum": "c2b81c848f016583",
-      "relevant": true,
-      "hvorfor": "Nytt straffebud og forbud mot overnattingsskoler er nasjonale regler som kan angå kommunenes arbeid mot negativ sosial kontroll og tilbud til barn og unge.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:07:13+01:00"
-    },
     "e9a14bdd7b62": {
       "versjon": 1,
       "sjekksum": "5fdd83e63f4f387d",
@@ -945,6 +785,14 @@
       "hvorfor": "Nasjonal datasenterstrategi kan påvirke kraftforsyning, arealplanlegging og næringsutvikling i kommunene, og regionen har teknologibedrifter og arbeider med energi og næringsutvikling.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:05:57+01:00"
+    },
+    "e9e2c299ec51": {
+      "versjon": 1,
+      "sjekksum": "dd41f8fb67c286ce",
+      "relevant": true,
+      "hvorfor": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:09:05+01:00"
     },
     "eb7e8a64289f": {
       "versjon": 1,
@@ -977,6 +825,14 @@
       "hvorfor": "Gjelder smal legemiddelregulering om godkjenningsfritak for alvorlig syke, uten merkbar virkning for kommunene.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:08:15+01:00"
+    },
+    "f55d4f113aff": {
+      "versjon": 1,
+      "sjekksum": "61b9a96731c54a81",
+      "relevant": true,
+      "hvorfor": "Endrer reglene for import av økologiske produkter til Norge, noe som kan påvirke økologiske bedrifter, matprodusenter og landbruket i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-02T20:09:25+01:00"
     },
     "f644746b0c53": {
       "versjon": 1,

@@ -1,9 +1,9 @@
 {
   "kilde": "Gjøvik kommunes postliste",
   "status": "ok",
-  "hentet": "2026-11-02T20:07:39+01:00",
-  "antall": 9,
-  "sekunder": 15.0,
+  "hentet": "2026-11-03T21:04:31+01:00",
+  "antall": 8,
+  "sekunder": 12.2,
   "journalposter": [
     {
       "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588299!ZVQrHG",
@@ -76,16 +76,7 @@
       "tittel": "Høring – Forslag til ny lov om fylkeskommunale tannhelsetjenester mv.",
       "avsender": "Helse- Og Omsorgsdepartementet",
       "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021031723!H4Ot3W/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586173!4OjK9p"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586093!50iG03",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/85572",
-      "dato": "2026-10-19",
-      "tittel": "Høring - Forslag til indeksregulering av kontrollsanksjoner i parkeringsforskriften § 36",
-      "avsender": "Statens vegvesen",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2017009930!canK4i/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586093!50iG03"
     }
   ],
-  "sist_ok": "2026-11-02T20:07:39+01:00"
+  "sist_ok": "2026-11-03T21:04:31+01:00"
 }

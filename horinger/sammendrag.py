@@ -152,7 +152,11 @@ class Sammendrag:
             try:
                 felter = self.felter(h)
             except Exception as feil:  # noqa: BLE001 – én høring skal ikke stoppe resten
-                log.warning("Sammendrag for %s feilet: %s", h["id"], feil)
+                log.warning("KI-svar for %s feilet: %s", h["id"], feil)
+                if os.environ.get("GITHUB_ACTIONS"):
+                    # Vises som merknad på kjøringen, siden loggene ikke kan leses utenfra.
+                    melding = " ".join(str(feil).split())[:300]
+                    print(f"::warning::{type(self).__name__} {h['id']}: {melding}", flush=True)
                 teller["feil"] += 1
                 continue
             buffer[h["id"]] = {

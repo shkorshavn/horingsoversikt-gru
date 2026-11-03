@@ -210,3 +210,9 @@ def test_detaljteksten_lagres_fra_siden():
     assert "tilfluktssteder" in tekst
     assert len(tekst) <= 6000
     assert "<" not in tekst and "function(" not in tekst
+
+
+def test_feil_vises_som_merknad_paa_github(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    sm.kjor(_konfig(), _kilde(tmp_path, [_h("a")]), tmp_path, _Klient(feil={"tilflukt"}), DAG)
+    assert "::warning::Sammendrag a: tidsavbrudd" in capsys.readouterr().out

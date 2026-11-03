@@ -227,3 +227,14 @@ def test_nye_kilder_i_sources_yaml():
     for navn in ("Sjøfartsdirektoratet", "Forsvarsbygg", "Vannportalen", "Folkehelseinstituttet"):
         assert kilder[navn]["aktiv"] is False
         assert "03.11.2026" in kilder[navn]["merknad"]
+
+
+def test_tolk_svar_taaler_tekst_og_klammer_etter_json():
+    from horinger.relevans import tolk_svar
+
+    svar = '{"relevant": true, "hvorfor": "Gjelder nettleien."}\n\nMerk: {usikker} vurdering.'
+    assert tolk_svar(svar) == {"relevant": True, "hvorfor": "Gjelder nettleien."}
+    assert (
+        tolk_svar('Forklaring {x} så {"relevant": false, "hvorfor": "Bare havet."}')["relevant"]
+        is False
+    )

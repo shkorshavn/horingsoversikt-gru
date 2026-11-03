@@ -83,11 +83,24 @@ def instruks(konfig: dict) -> str:
 
 
 def tolk_svar(tekst: str) -> dict:
-    """Gjør svaret om til {"relevant": bool, "hvorfor": str}. Ugyldig svar gir ValueError."""
-    funn = re.search(r"\{.*\}", tekst or "", re.S)
-    if not funn:
-        raise ValueError(f"svaret er ikke JSON: {tekst[:80]!r}")
-    data = json.loads(funn.group(0))
+    """Gjør svaret om til {"relevant": bool, "hvorfor": str}. Ugyldig svar gir ValueError.
+
+    Første JSON-objekt med «relevant» i svaret brukes, også når modellen skriver tekst eller
+    flere objekter rundt (sprint 12: et svar med ekstra tekst etter JSON-en ble avvist).
+    """
+    tekst = tekst or ""
+    dekoder = json.JSONDecoder()
+    data = None
+    for m in re.finditer(r"\{", tekst):
+        try:
+            kandidat, _ = dekoder.raw_decode(tekst, m.start())
+        except ValueError:
+            continue
+        if isinstance(kandidat, dict) and "relevant" in kandidat:
+            data = kandidat
+            break
+    if data is None:
+        raise ValueError(f"svaret er ikke JSON med «relevant»: {tekst[:80]!r}")
     relevant = data.get("relevant")
     if not isinstance(relevant, bool):
         raise ValueError(f"«relevant» mangler eller er ikke true/false: {relevant!r}")

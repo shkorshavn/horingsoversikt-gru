@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-02T20:14:14+01:00",
+  "generert": "2026-11-03T21:00:36+01:00",
   "kjoretid_sekunder": 269.5,
   "kilder": [
     {
@@ -8,7 +8,7 @@
       "status": "ok",
       "hentet": "2026-11-02T20:03:51+01:00",
       "sist_ok": "2026-11-02T20:03:51+01:00",
-      "antall": 16,
+      "antall": 11,
       "sekunder": 7.6
     },
     {
@@ -296,6 +296,30 @@
     },
     {
       "kilde": "Sivilombudet",
+      "kjoring": "github",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Kystverket",
+      "kjoring": "github",
+      "status": "ikke hentet",
+      "antall": 0
+    },
+    {
+      "kilde": "Sjøfartsdirektoratet",
+      "kjoring": "github",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Forsvarsbygg",
+      "kjoring": "github",
+      "status": "ikke overvåket",
+      "antall": 0
+    },
+    {
+      "kilde": "Vannportalen",
       "kjoring": "github",
       "status": "ikke overvåket",
       "antall": 0

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:10:01+01:00",
+  "generert": "2026-11-03T21:14:25+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -780,11 +780,11 @@
     },
     "ce28d7268a81": {
       "versjon": 1,
-      "sjekksum": "2bde7853a75247cc",
+      "sjekksum": "62760c0e72d465eb",
       "relevant": true,
-      "hvorfor": "Forskriften regulerer deling av taushetsbelagte opplysninger mellom offentlige organer i arbeidet mot økonomisk kriminalitet, og kommunene står på høringslisten.",
+      "hvorfor": "Nasjonal forskrift om deling av taushetsbelagte opplysninger i arbeidet mot økonomisk kriminalitet; kommunene er høringsinstanser og kan bli berørt av reglene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T22:09:08+01:00"
+      "laget": "2026-11-03T21:14:25+01:00"
     },
     "ce8e3ec22955": {
       "versjon": 1,

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:02:10+01:00",
+  "generert": "2026-11-03T21:09:44+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -128,6 +128,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:47+01:00"
     },
+    "268f6cd2b4ee": {
+      "versjon": 3,
+      "sjekksum": "24321135048e4437",
+      "tekst": "Representantforslag om å flytte Statkraft fra kategori 1 til kategori 2 i statens eierskapsforvaltning.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:41+01:00"
+    },
     "2914c81e932e": {
       "versjon": 3,
       "sjekksum": "a2588e053b435628",
@@ -226,6 +233,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:08:44+01:00"
     },
+    "47fc5e492a6f": {
+      "versjon": 3,
+      "sjekksum": "5459a239d75ab7a2",
+      "tekst": "Representantforslag om at kommunene skal få reell vetorett når det skal etableres asylmottak.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:18+01:00"
+    },
     "48b91a5d6241": {
       "versjon": 3,
       "sjekksum": "0f2c03846f16c59d",
@@ -310,6 +324,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:05+01:00"
     },
+    "657d50d25f90": {
+      "versjon": 3,
+      "sjekksum": "69669cc21158d320",
+      "tekst": "Et utkast til nasjonalt faglig råd om fysisk aktivitet ved osteoporose, som del av reviderte råd om fysisk aktivitet i forebygging og behandling. Det bes om innspill på om rådet er tydelig, logisk oppbygd, klinisk relevant og faglig dekkende og balansert.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:43+01:00"
+    },
     "66471a7d439a": {
       "versjon": 3,
       "sjekksum": "d0e5fcf229e261a3",
@@ -366,6 +387,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:57+01:00"
     },
+    "6edd744fa054": {
+      "versjon": 3,
+      "sjekksum": "5ff3d9aab399ce58",
+      "tekst": "Representantforslag på Stortinget om å få luftambulansen tilbake i statlig regi.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:28+01:00"
+    },
     "70e0705c9492": {
       "versjon": 3,
       "sjekksum": "0ef475a5352c8daa",
@@ -379,6 +407,13 @@
       "tekst": "Det varsles oppstart av reguleringsplan for fv. 213 ved Skog bru i Ringsaker. Planen skal erstatte dagens bru med ny bru eller kulvert i samme trasé, og vegen justeres for bedre trafikksikkerhet fordi brua ligger i en risikokurve.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:42+01:00"
+    },
+    "76c57462c73d": {
+      "versjon": 3,
+      "sjekksum": "c35944341d5a1132",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:25+01:00"
     },
     "77e746e4c4a7": {
       "versjon": 3,
@@ -569,6 +604,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:25+01:00"
     },
+    "9fa4876283fb": {
+      "versjon": 3,
+      "sjekksum": "2ba2bb604c365858",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:34+01:00"
+    },
     "a1a10035e181": {
       "versjon": 3,
       "sjekksum": "0bfc1cb696dec029",
@@ -695,6 +737,20 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:13:31+01:00"
     },
+    "bb581c6140b5": {
+      "versjon": 3,
+      "sjekksum": "cff42446bc150ce8",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:20+01:00"
+    },
+    "bb771f9e94f4": {
+      "versjon": 3,
+      "sjekksum": "265a7a2ed0d82189",
+      "tekst": "Et representantforslag på Stortinget om å gjennomgå og modernisere norsk alkoholpolitikk.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:32+01:00"
+    },
     "c8305ff88bfd": {
       "versjon": 3,
       "sjekksum": "22f5db30ebc4d8e3",
@@ -814,6 +870,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:13:44+01:00"
     },
+    "e4c1d2b9f2fa": {
+      "versjon": 3,
+      "sjekksum": "53e46e35472b27d2",
+      "tekst": "Forslag om midlertidig forbud mot KI-briller og andre former for kroppsbåret teknologi som gjør det mulig å overvåke andre skjult.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:15+01:00"
+    },
     "e4f7f112e5d1": {
       "versjon": 3,
       "sjekksum": "99033e49380f2310",
@@ -862,6 +925,13 @@
       "tekst": "Forslag til ny svalbardmatforskrift som gjør matlovsforskriften, næringsmiddelhygieneforskriften, animaliehygieneforskriften, internkontrollforskriften, smilefjesforskriften, matinformasjonsforskriften og drikkevannsforskriften helt eller delvis gjeldende for Svalbard.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:06+01:00"
+    },
+    "f18cff8350a6": {
+      "versjon": 3,
+      "sjekksum": "ec5db41b01d921fe",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:09:37+01:00"
     },
     "f4d08a80ccc3": {
       "versjon": 3,

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:07:48+01:00",
+  "generert": "2026-11-03T21:10:01+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -330,6 +330,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:45+01:00"
     },
+    "657d50d25f90": {
+      "versjon": 1,
+      "sjekksum": "1809baab7329fb02",
+      "relevant": true,
+      "hvorfor": "Nasjonale faglige råd om fysisk aktivitet ved osteoporose er rettet mot helsepersonell, og alle kommuner og kommunale frisklivssentraler er invitert til å gi innspill.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:10:00+01:00"
+    },
     "66471a7d439a": {
       "versjon": 1,
       "sjekksum": "1f592dc3d848795a",
@@ -412,11 +420,11 @@
     },
     "7936397b92ca": {
       "versjon": 1,
-      "sjekksum": "6bde7ea843e660bc",
+      "sjekksum": "90b3281115efb3a1",
       "relevant": true,
-      "hvorfor": "Høyere gebyrer for førerkort, kjøretøy og yrkestransport fra 2027 kan ramme innbyggere og transportbedrifter i regionen, og gjelder hele landet.",
+      "hvorfor": "Nasjonale gebyrer for førerkort, kjøretøy og yrkestransport øker fra 2027 og kan gi høyere kostnader for innbyggere og transportnæringen i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-02T20:09:07+01:00"
+      "laget": "2026-11-03T21:09:58+01:00"
     },
     "7bdc37294b5b": {
       "versjon": 1,

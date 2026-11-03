@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:10:01+01:00",
+  "generert": "2026-11-03T21:13:17+01:00",
   "antall": 106,
   "horinger": [
     {
@@ -2298,7 +2298,7 @@
       "id": "dc65ea5ef83d",
       "partkategorier": {},
       "regionflagg": [],
-      "alltid_med": "drikkevann",
+      "alltid_med": "drikkevann*",
       "prioritet_grunn": "gjelder Mjøsa og vann",
       "forst_sett": "2026-10-25",
       "ny": false,

@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:10:01+01:00",
+  "generert": "2026-11-03T21:13:17+01:00",
   "antall": 132,
   "horinger": [
     {
@@ -10541,8 +10541,8 @@
         "Alle fylkeskommuner",
         "KS"
       ],
-      "alltid_med": "Mjøsa",
-      "prioritet_grunn": "gjelder Mjøsa og vann",
+      "alltid_med": "",
+      "prioritet_grunn": "regionen er høringspart",
       "forst_sett": "2026-11-03",
       "ny": true,
       "sammendrag": "Ny forskrift om opprinnelsesgarantier skal erstatte dagens forskrift og utvide ordningen, slik at det også kan utstedes garantier for biogass, fornybar gass av ikke-biologisk opprinnelse, og fornybar varme og kjøling, i tillegg til elektrisitet.",

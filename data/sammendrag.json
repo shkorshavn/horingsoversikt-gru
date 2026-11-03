@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-02T20:13:47+01:00",
+  "generert": "2026-11-03T21:02:10+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -184,6 +184,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:27+01:00"
     },
+    "3d1c8b72b3cb": {
+      "versjon": 3,
+      "sjekksum": "2382e361891d0741",
+      "tekst": "Nettselskapene foreslås å kunne sette tak på kraftprisen som brukes til å beregne energileddet i nettleien også i 2027, med en kraftpris på minimum 45 øre per kWh. Kravet om at energileddet skal dekke marginale tapskostnader i distribusjonsnettet foreslås ikke å gjelde ut 2027.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:02:05+01:00"
+    },
     "3e967a8c63c8": {
       "versjon": 3,
       "sjekksum": "a5994199b18221b0",
@@ -289,6 +296,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:44+01:00"
     },
+    "5cc6f5d64fc6": {
+      "versjon": 3,
+      "sjekksum": "b3c95f473747c15c",
+      "tekst": "Forlengelse av den midlertidige forskriften om bruk av flaskehalsinntekter, slik at ordningen gjelder ut 2027. Ordningen omfordeler flaskehalsinntekter fra Statnett SF til regionale og lokale nettselskaper, for å redusere sannsynligheten for økt nettleie.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:01:57+01:00"
+    },
     "5d1498fe43bd": {
       "versjon": 3,
       "sjekksum": "0c0f87be000204c2",
@@ -386,6 +400,13 @@
       "tekst": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte § 7 a i vegtrafikkloven.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:08:24+01:00"
+    },
+    "7c7e234fbd4e": {
+      "versjon": 3,
+      "sjekksum": "f308693b9105ca0f",
+      "tekst": "Foreldre som deler en søskenflokk mellom seg, slik at begge har minst ett felles barn boende fast hos seg, foreslås å dele én utvidet barnetrygd. I dag kan de få én utvidet barnetrygd hver. Formålet er likebehandling uavhengig av bostedsordning.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:02:09+01:00"
     },
     "81abe04a558c": {
       "versjon": 3,
@@ -603,6 +624,13 @@
       "tekst": "Forslag om å oppheve forskriften om rammeplan for ingeniørutdanning, og om å endre universitets- og høyskoleforskriften slik at det kan gis fireårig bachelor i militære ingeniørfag og ledelse. Forsvarets høgskole foreslås å få rett til å tildele graden.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:48+01:00"
+    },
+    "afa07904cb23": {
+      "versjon": 3,
+      "sjekksum": "6b60fcc06202800d",
+      "tekst": "Ny forskrift om opprinnelsesgarantier skal erstatte dagens forskrift og utvide ordningen, slik at det også kan utstedes garantier for biogass, fornybar gass av ikke-biologisk opprinnelse, og fornybar varme og kjøling, i tillegg til elektrisitet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:01:59+01:00"
     },
     "b2b1f962e64b": {
       "versjon": 3,
@@ -876,6 +904,13 @@
       "tekst": "Forslag til ny forskrift som oppretter en tilskuddsordning for å øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:40+01:00"
+    },
+    "fc3deb246645": {
+      "versjon": 3,
+      "sjekksum": "d82f90e0cc45c191",
+      "tekst": "Forslag om å videreføre dagens maksimalprisregulering av fjernvarme, med tydeligere regler for hvem som omfattes og hvordan maksimalprisen beregnes. Det foreslås også tidsbegrensede avtaler som avviker fra reguleringen, en hjemmel for prisregulering av nærvarme og regler om fortsatt leveranse ved konkurs hos konsesjonær.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-03T21:02:07+01:00"
     },
     "ff02aceeac6b": {
       "versjon": 3,

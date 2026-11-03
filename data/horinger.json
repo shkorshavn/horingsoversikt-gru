@@ -1,6 +1,6 @@
 {
-  "generert": "2026-11-03T21:00:36+01:00",
-  "antall": 117,
+  "generert": "2026-11-03T21:07:48+01:00",
+  "antall": 122,
   "horinger": [
     {
       "kilde": "Stortinget",
@@ -73,7 +73,7 @@
       "frist_maned": "",
       "publisert": "2026-09-17",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring forslag til en særordning om overgang til annen oppholdsstatus på grunnlag av arbeid for fordrevne fra Ukraina med midlertidig kollektiv beskyttelse. Til orientering: Departementet",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -177,7 +177,7 @@
       "ny": false,
       "sammendrag": "Forslag om en særordning der fordrevne fra Ukraina med midlertidig kollektiv beskyttelse, som er i arbeid og har hatt tilstrekkelig arbeidsinntekt siste tolv måneder, kan søke om oppholdstillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse.",
       "relevant": true,
-      "hvorfor_relevant": "Gjelder ukrainske flyktninger i arbeid som kan få permanent opphold, noe som kan påvirke kommunenes bosetting, integreringsarbeid og lokale arbeidsgivere; kommunene er høringsinstans."
+      "hvorfor_relevant": "Gjelder ukrainske flyktninger i arbeid som kan få permanent opphold, noe som kan påvirke kommunenes bosetting, integreringsarbeid og arbeidsgivere i regionen."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -207,7 +207,7 @@
       "ny": false,
       "sammendrag": "Forslag til forskrift som utfyller den foreslåtte CBAM-forskriften, med regler om beregning av utslipp og antall CBAM-sertifikater som skal leveres, og nasjonale bestemmelser som supplerer CBAM-forordningen. Målet er at CBAM gjelder fullt ut i Norge fra 1. januar 2027.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal CBAM-forskrift gir nye rapporterings- og dokumentasjonskrav for virksomheter som importerer CBAM-varer, og kan dermed berøre industri og teknologibedrifter i regionen."
+      "hvorfor_relevant": "Nasjonal forskrift om CBAM gir nye rapporterings- og dokumentasjonskrav som kan ramme industri- og teknologibedrifter i regionen som importerer varer fra utlandet."
     },
     {
       "kilde": "Stortinget",
@@ -237,7 +237,7 @@
       "ny": false,
       "sammendrag": "To grunnlovsforslag om endring av Grunnloven § 96. Det ene gjelder uavhengig påtalemyndighet, det andre uavhengig offentlig påtale.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder statens påtalemyndighet og Grunnloven, ikke kommunenes oppgaver eller tjenester."
+      "hvorfor_relevant": "Gjelder Grunnlovens regler om påtalemyndighetens uavhengighet, som ikke berører kommunene eller regionen merkbart."
     },
     {
       "kilde": "Regjeringen.no",
@@ -251,7 +251,7 @@
       "frist_maned": "",
       "publisert": "2026-09-25",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring forslag til endringer i trygderettsloven og rettshjelpsloven.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -414,8 +414,8 @@
       "forst_sett": "2026-10-25",
       "ny": false,
       "sammendrag": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner, gjennom endringer i grossistforskriften §§ 5 og 5a.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonal beredskapslagring av vaksiner og immunglobuliner hos grossister kan påvirke legemiddelforsyning og helseberedskap for kommunene, sykehuset og innbyggerne."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder beredskapslagring av vaksiner hos legemiddelgrossister, ikke kommunenes oppgaver eller regionen."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -445,7 +445,7 @@
       "ny": false,
       "sammendrag": "Endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip foreslås, hovedsakelig som presiseringer, forenklinger og tekniske justeringer. Blant annet tydeliggjøres reglene om avfallsgebyr, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder mottak og håndtering av avfall fra skip i havner."
+      "hvorfor_relevant": "Gjelder mottak av skipsavfall i havner og avfallsplaner for havner, uten omtale av innsjøer eller kommunenes oppgaver."
     },
     {
       "kilde": "Stortinget",
@@ -475,7 +475,7 @@
       "ny": true,
       "sammendrag": "Endringer i utlendingsloven om å flytte driften av utlendingsinternatet fra politiet til kriminalomsorgen. Forslaget omfatter også restriksjoner under oppholdet og andre endringer.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder driften av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver eller regionen."
+      "hvorfor_relevant": "Gjelder drift av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -505,7 +505,7 @@
       "ny": false,
       "sammendrag": "Søknad om å etablere et havneanlegg i Kålvik i Strömstad kommune i Sverige, om lag 1 kilometer fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, vindturbiner og andre komponenter til havbasert vindkraft.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare et havneanlegg for havbasert vindkraft i Strömstad kommune i Sverige, nær svenskegrensen."
+      "hvorfor_relevant": "Gjelder bare et havneanlegg for havbasert vindkraft i Strömstad kommune i Sverige, ved kysten."
     },
     {
       "kilde": "Regjeringen.no",
@@ -519,7 +519,7 @@
       "frist_maned": "",
       "publisert": "2026-10-14",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i utlendingsloven § 34 om kollektiv beskyttelse i en massefluktsituasjon.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -622,7 +622,7 @@
       "ny": false,
       "sammendrag": "Midlertidig kollektiv beskyttelse i en massefluktsituasjon foreslås utvidet fra fem til totalt syv år, gitt for ett år om gangen. Ny tillatelse etter syv år skal gi permanent opphold etter to år, ikke tre, og adgangen til å sette asylsøknaden i bero utvides til syv år.",
       "relevant": true,
-      "hvorfor_relevant": "Forlenget kollektiv beskyttelse for fordrevne fra Ukraina gjelder alle kommuner og kan påvirke bosetting, integreringstjenester og kommunenes økonomi."
+      "hvorfor_relevant": "Nasjonal regel om opphold for fordrevne fra Ukraina i inntil sju år kan påvirke kommunenes bosetting, integreringsarbeid og tjenester, og tilgangen på arbeidskraft."
     },
     {
       "kilde": "Regjeringen.no",
@@ -636,7 +636,7 @@
       "frist_maned": "",
       "publisert": "2026-08-11",
       "ingress": "Klima- og miljødepartementet sender rapporten fra ekspertutvalget om klimatilpasning på høring. Høringsfristen for kommuner og fylkeskommuner er utvidet til 30.11.2026.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "A/S Norske Shell",
@@ -930,7 +930,7 @@
       "ny": false,
       "sammendrag": "Rapporten fra ekspertutvalget om klimatilpasning vurderer samfunnsøkonomiske konsekvenser av klimaendringer og tilpasningsbehov i sektorer som jordbruk, kraft, samferdsel og vann og avløp, og hvordan tiltak og virkemidler kan redusere risiko og styrke robustheten.",
       "relevant": true,
-      "hvorfor_relevant": "Gjelder klimatilpasning i blant annet jordbruk, skogbruk, vann og avløp, samferdsel og beredskap, og alle kommuner er høringsinstanser."
+      "hvorfor_relevant": "Ekspertutvalgets rapport om klimatilpasning gjelder blant annet vann og avløp, samferdsel, jord- og skogbruk og beredskap, og alle kommuner er høringsinstanser."
     },
     {
       "kilde": "Skatteetaten",
@@ -959,8 +959,8 @@
       "forst_sett": "2026-10-25",
       "ny": false,
       "sammendrag": "Forskriftsbestemmelsene om overgangen til nytt regelverk for utlegg mv. foreslås endret fordi utrullingsperioden forlenges ut mars 2027. Det foreslås også enkelte andre forskriftsendringer, blant annet fordi systemstøtte for noen prosesser kommer senere enn planlagt.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder teknisk utrulling av Skatteetatens systemer for utlegg, uten merkbar effekt på kommuner eller næringsliv."
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale overgangsregler for utlegg og innkreving, med forlenget utrulling til mars 2027, gjelder skyldnere over hele landet, også innbyggere og næringsliv i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -990,7 +990,7 @@
       "ny": false,
       "sammendrag": "Forslag til planprogram for en regional plan for nettinfrastrukturen for energi i Innlandet. Planen skal beskrive status for nettet og prioritere utvalgte linjer, traséer og områder for installasjoner, som får en overordnet konsekvensanalyse for miljø og samfunn, for å få raskere nettkapasitet og ny produksjon.",
       "relevant": true,
-      "hvorfor_relevant": "Regional plan for strømnettet i Innlandet skal sikre nettkapasitet og kraft til omstilling og utvikling, og kan påvirke kommunenes planlegging og næringslivets tilgang til energi."
+      "hvorfor_relevant": "Regional plan for strømnettet i Innlandet gjelder nettkapasitet og ny kraftproduksjon, som påvirker kommunal planlegging, næringsutvikling og tilgang til energi i hele fylket."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1004,7 +1004,7 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Forslagene skal legge til rette for at eksisterende innholdskonsesjoner for lokalradio på FM kan forlenges, og at senderanleggskonsesjoner kan tildeles, for perioden 1. januar 2027 til og med 31. desember 2031.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Akademikerne",
@@ -1272,7 +1272,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Finansdepartementet fastsatte i desember 2019 midlertidige gulv for gjennomsnittlig risikovekting av boliglån og næringseiendomslån på henholdsvis 20 og 35 prosent for IRB-bankene, med virkning i to år fra desember 2020.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -1397,7 +1397,7 @@
       "ny": false,
       "sammendrag": "Finanstilsynet foreslår å videreføre gulvene for gjennomsnittlig risikovekting av boliglån og næringseiendomslån uendret fra utgangen av 2026, med 25 prosent for boliglån og 35 prosent for næringseiendomslån. Gulvene gjelder IRB-bankene.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare kapitalkrav for store banker (IRB-banker), uten merkbar virkning for kommunene eller regionen."
+      "hvorfor_relevant": "Gjelder bare kapitalkrav for IRB-banker, ikke kommunenes oppgaver, tjenester eller økonomi."
     },
     {
       "kilde": "Nkom",
@@ -1427,7 +1427,7 @@
       "ny": false,
       "sammendrag": "Forslag til utlysningsvilkår og tildelingsregler for lokale FM-sendernett 2027–2031, med frekvenstillatelser og senderanleggskonsesjoner. Ved én kvalifisert søker tildeles direkte, ved flere foreslås loddtrekning. Innspill søkes om kvalifikasjonskrav, tildelingsmodell, vilkår og overgangsordninger.",
       "relevant": true,
-      "hvorfor_relevant": "Gjelder nasjonale vilkår og tildeling av lokale FM-sendernett for lokalradio 2027–2031, som kan berøre lokale radioaktører og lokalt medietilbud i regionen."
+      "hvorfor_relevant": "Gjelder frekvenstillatelser og senderkonsesjoner for lokalradio på FM i 2027–2031, som kan berøre lokale radioaktører og lokalradiotilbudet til innbyggerne i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -1487,7 +1487,7 @@
       "ny": false,
       "sammendrag": "Forsvarsministeren redegjør for styring og kontroll i forsvarssektoren i en kontrollhøring i Stortingets kontroll- og konstitusjonskomité.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder Stortingets kontrollhøring om intern styring og kontroll i forsvarssektoren, uten direkte følger for kommuner eller næringsliv."
+      "hvorfor_relevant": "Gjelder Stortingets kontroll med statlig styring i forsvarssektoren, ikke kommuner eller regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -1501,7 +1501,7 @@
       "frist_maned": "",
       "publisert": "2026-06-09",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring Baneheia-utvalgets utredninger NOU 2024: 24 Prøvd på nytt og NOU 2026: 3 Straffeforfølgelsen av Viggo Kristiansen. Utvalget ble oppnevnt 10. februar 2023 for å granske alle sider av",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -1618,7 +1618,7 @@
       "ny": false,
       "sammendrag": "Forslagene i Baneheia-utvalgets to utredninger, med lovutkast, etter granskingen av straffesaken mot Viggo Kristiansen og av Gjenopptakelseskommisjonen. Granskingen skulle finne læringspunkter for å redusere risikoen for uriktige domfellelser og sikre et godt gjenåpningsinstitutt.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder gjenopptakelse av straffesaker og risiko for uriktige domfellelser, som ikke berører kommunene eller regionen."
+      "hvorfor_relevant": "Gjelder gjenopptakelse av straffesaker og risiko for uriktige domfellelser, ikke kommunenes oppgaver."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1648,7 +1648,7 @@
       "ny": false,
       "sammendrag": "Endring i produktforskriften for å gjennomføre en EU-endringsforordning til forordning (EU) 2019/1021. Endringen gjelder oppføringen av stoffet klorpyrifos i vedlegg I.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare oppføring av ett plantevernstoff i EU-regelverket om persistente organiske forbindelser, uten merkbare konsekvenser."
+      "hvorfor_relevant": "Gjelder bare at stoffet klorpyrifos føres inn i en liste i produktforskriften, uten vesentlige konsekvenser."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -1678,7 +1678,7 @@
       "ny": false,
       "sammendrag": "Endring av produktforskriften § 4-1 for å gjennomføre forordning (EU) 2025/2457 om omfordeling av vitenskapelige og tekniske oppgaver og bedre samarbeid mellom EU-byråene på kjemikalieområdet i norsk rett.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder omfordeling av oppgaver mellom EU-byråer på kjemikalieområdet, uten konsekvenser utover tekniske regelverksendringer."
+      "hvorfor_relevant": "Teknisk endring i produktforskriften om oppgavefordeling mellom EU-byråer på kjemikalieområdet, uten konsekvenser."
     },
     {
       "kilde": "Stortinget",
@@ -1708,7 +1708,7 @@
       "ny": false,
       "sammendrag": "Forslag om endring i Grunnloven § 96, som handler om uavhengig offentlig påtale. Forslaget er behandlet som Dokument 12:36 (2023–2024).",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder Grunnlovens regel om uavhengig offentlig påtale, uten merkbar betydning for kommunene eller regionen."
+      "hvorfor_relevant": "Gjelder bare grunnlovsfesting av uavhengig påtalemyndighet, uten merkbar virkning for kommuner eller næringsliv."
     },
     {
       "kilde": "Stortinget",
@@ -1737,7 +1737,7 @@
       "forst_sett": "2026-10-23",
       "ny": false,
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare påtalemyndighetens uavhengighet i Grunnloven, ikke kommunenes oppgaver eller regionen."
+      "hvorfor_relevant": "Gjelder uavhengighet for påtalemyndigheten i Grunnloven, uten merkbar virkning for kommuner, innbyggere eller næringsliv."
     },
     {
       "kilde": "Stortinget",
@@ -1767,7 +1767,7 @@
       "ny": false,
       "sammendrag": "Grunnlovsforslag om en ny paragraf, § 112 a, som skal handle om viltlevende marine ressurser.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare grunnlovsfesting av viltlevende marine ressurser, altså havet og fiskeri."
+      "hvorfor_relevant": "Gjelder grunnlovsfesting av viltlevende marine ressurser, altså havet og fisket."
     },
     {
       "kilde": "Stortinget",
@@ -1797,7 +1797,7 @@
       "ny": false,
       "sammendrag": "Forslag om å innføre en ny § 112 a i Grunnloven, som slår fast at de viltlevende marine ressursene tilhører fellesskapet og skal komme kystsamfunnene til gode.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare grunnlovsfesting av marine ressurser og kystsamfunn, ikke kommunene i Gjøvikregionen."
+      "hvorfor_relevant": "Gjelder bare viltlevende marine ressurser og kystsamfunn, ikke kommunene i Gjøvikregionen."
     },
     {
       "kilde": "Stortinget",
@@ -1827,7 +1827,7 @@
       "ny": false,
       "sammendrag": "Grunnlovsforslag om en ny § 120 b, som gjelder norsk som nasjonalt hovedspråk.",
       "relevant": true,
-      "hvorfor_relevant": "Grunnlovsfesting av norsk som nasjonalt hovedspråk kan gjelde alle kommuner og offentlig språkbruk, og dermed også kommunene i regionen."
+      "hvorfor_relevant": "Grunnlovsfesting av norsk som hovedspråk er en nasjonal regel som kan påvirke språkbruk og språkansvar i kommunene og i offentlig forvaltning."
     },
     {
       "kilde": "Mattilsynet",
@@ -1857,7 +1857,7 @@
       "ny": false,
       "sammendrag": "Forslag om endret nasjonal listeføring av blåtunge, kverke og ringorm, meldeplikt ved aborter hos sau og geit, og oppdatert oversikt over sykdomsfri status. Dessuten gjennomføres vedtatte EØS-endringer, blant annet ny kategori for blåtunge og unntak fra helsesertifikat for hestedyr i transitt.",
       "relevant": true,
-      "hvorfor_relevant": "Endret håndtering av blåtunge, kverke og ringorm og ny meldeplikt for aborter hos sau og geit kan berøre husdyrbønder i regionen."
+      "hvorfor_relevant": "Endrer nasjonale dyrehelseforskrifter for blåtunge, kverke og ringorm og innfører meldeplikt ved aborter hos sau og geit, noe som berører landbruket i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -1901,7 +1901,7 @@
       "frist_maned": "",
       "publisert": "2026-10-08",
       "ingress": "Nærings- og fiskeridepartementet sender med dette på høring et revidert forslag til forskrift om oppdragsgivers plikt til å sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget er en oppfølging av departementets",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "A/S Norske Shell",
@@ -1988,7 +1988,7 @@
       "ny": false,
       "sammendrag": "Revidert forslag til forskrift om at oppdragsgiver skal sørge for lønnsvilkår på skip i tråd med landsomfattende tariffavtaler. Forslaget følger opp en tidligere høring 28. november 2025.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare lønnsvilkår på skip, en næring som knapt finnes i regionen."
+      "hvorfor_relevant": "Gjelder bare lønnsvilkår på skip i tråd med landsomfattende tariffavtaler."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2002,7 +2002,7 @@
       "frist_maned": "",
       "publisert": "2026-08-19",
       "ingress": "Samferdselsdepartementet sender med dette på høring to forslag til risikoreduserende tiltak i bussanskaffelser.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -2081,7 +2081,7 @@
       "ny": false,
       "sammendrag": "Forslag om en veileder som anbefaler at fylkeskommuner og andre oppdragsgivere vurderer sikkerhet og beredskap ved bussanskaffelser, og om et unntak i nullutslippsforskriften for kjøretøy der det er nødvendig av hensyn til sikkerhet og beredskap.",
       "relevant": true,
-      "hvorfor_relevant": "Forslagene gjelder fylkeskommunale bussanskaffelser og endrer nullutslippsforskriften, noe som kan påvirke kollektivtilbudet og busstjenestene i Innlandet."
+      "hvorfor_relevant": "Gjelder bussanskaffelser i fylkeskommunal kollektivtransport og et unntak fra nullutslippsforskriften, noe som kan påvirke busstilbudet og anskaffelser i Innlandet."
     },
     {
       "kilde": "Mattilsynet",
@@ -2125,7 +2125,7 @@
       "frist_maned": "",
       "publisert": "2026-09-28",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i utlendingsforskriften.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -2229,7 +2229,7 @@
       "ny": false,
       "sammendrag": "Forslag om å tydeliggjøre utlendingsmyndighetenes adgang til å behandle innhentede personopplysninger til utvikling og testing av IT-systemer, også systemer med kunstig intelligens. Den nye hjemmelen regulerer ikke senere bruk av systemet. Det foreslås også mindre følgeendringer etter Eurodac-forordningen 2024.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder utlendingsmyndighetenes IT-utvikling og testing av systemer, og følgeendringer etter Eurodac-forordningen."
+      "hvorfor_relevant": "Gjelder utlendingsmyndighetenes bruk av personopplysninger til utvikling og testing av IT-systemer, ikke kommunenes oppgaver."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2243,7 +2243,7 @@
       "frist_maned": "",
       "publisert": "2026-08-20",
       "ingress": "I kjølvannet av Meld. St. 15 (2023-2024) Felles verdier - felles ansvar Styrket innsats for forebygging og bekjempelse av økonomisk kriminalitet ble det nedsatt en arbeidsgruppe av Justis- og beredskapsdepartementet, i samråd med Arbeid- og",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -2381,7 +2381,7 @@
       "frist_maned": "",
       "publisert": "2026-10-26",
       "ingress": "Landbruks- og matdepartementet sender med dette på forslag til endringer i forskrift om tilskudd til avløsning ved sykdom og fødsel mv. på høring. Forslagene gjelder den regeltekniske oppfølgingen av flere av avtalepunktene fra jordbruksoppgjøret",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Landbruksdirektoratet",
@@ -2787,7 +2787,7 @@
       "ny": true,
       "sammendrag": "Forslag om å tillate egenmelding ved tilskudd til avløsning ved barns sykdom og å utvide ordningen når jordbrukeren får pleiepenger eller opplæringspenger fra Nav. Departementet foreslår også flere egne endringer i forskriften om avløsning ved sykdom og fødsel mv.",
       "relevant": true,
-      "hvorfor_relevant": "Endrede regler for tilskudd til avløsning ved sykdom og fødsel, blant annet egenmelding ved barns sykdom, kan gi regionens jordbrukere nye rettigheter fra 1. januar 2027."
+      "hvorfor_relevant": "Endrer avløsningstilskuddet ved sykdom og fødsel for jordbrukere, blant annet egenmelding ved barns sykdom, og kan dermed berøre landbruket i regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -2817,7 +2817,7 @@
       "ny": false,
       "sammendrag": "Endringer i forskrift om plantevernmidler som innfører krav til elektronisk sprøytejournal, gjennom innlemming av forordning (EU) 2023/564. Forslaget er justert fra høringen i 2024 på grunn av utsatt frist i EU og endret løsning for elektronisk journalføring.",
       "relevant": true,
-      "hvorfor_relevant": "Krav om elektronisk sprøytejournal for plantevernmidler vil gjelde landbruket i regionen, og kan også berøre kommunale grøntarealer og idrettsanlegg."
+      "hvorfor_relevant": "Nye krav til elektronisk sprøytejournal for plantevernmidler gjelder nasjonalt og kan berøre landbruket i regionen, som må føre sprøytejournal digitalt."
     },
     {
       "kilde": "Regjeringen.no",
@@ -2831,7 +2831,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Kunnskapsdepartementet sender med dette på offentleg høyring forslag til endringar i forskrift om tilbakebetaling av utdanningslån (tilbakebetalingsforskrifta) og i forskrift om godkjenning for utdanningsstøtte i Norge (godkjenningsforskrifta), med",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "22. juli-senteret",
@@ -3087,7 +3087,7 @@
       "ny": false,
       "sammendrag": "Forslag om endringer i forskriftene om tilbakebetaling av utdanningslån og godkjenning for utdanningsstøtte, blant annet renteslette i tolv måneder for trafikkflygerlåntakere som avbrøt utdanningen på grunn av konkurs, og at hjemmelen for godkjenning av nettskoler oppheves.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i regler for tilbakebetaling av studielån og godkjenning av nettskoler for utdanningsstøtte kan påvirke innbyggere og studenter, blant dem NTNU-studenter."
+      "hvorfor_relevant": "Nasjonale endringer i reglene for tilbakebetaling av studielån og godkjenning av utdanninger, som gjelder alle landets studenter, lånetakere og lærestader, også NTNU i Gjøvik og Fagskolen Innlandet."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3116,8 +3116,8 @@
       "forst_sett": "2026-10-25",
       "ny": false,
       "sammendrag": "Carbon Centric søker om tillatelse etter forurensningsloven til et karbonfangstanlegg ved Solør Bioenergi på Kirkenær i Grue. Anlegget skal rense karbondioksid ut av røykgass fra en ovn, og la deler av utslippene gå til vann i stedet for luft, med litt aminer til luft.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder utslippstillatelse for ett karbonfangstanlegg ved Solør Bioenergi i Kirkenær, Grue kommune."
+      "relevant": true,
+      "hvorfor_relevant": "Karbonfangstanlegg ved et bioenergianlegg i Innlandet, med utslipp av tungmetaller og nitrogenforbindelser til vann og aminer til luft."
     },
     {
       "kilde": "Mattilsynet",
@@ -3147,7 +3147,7 @@
       "ny": false,
       "sammendrag": "Endring i animaliebiproduktforskriften: Romania føres inn i listen over land som er godkjent for fôring av utrydningstruede eller beskyttede åtselsfugler med kategori 1-materiale. Det foreslås også regler om avhending, bruk og merking av produkter fra metodene M og N for bearbeiding til biodiesel.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder Romania på listen for fôring av åtselsfugler og tekniske regler for biodiesel fra animalske biprodukter."
+      "hvorfor_relevant": "Gjelder Romania på liste for åtselfuglfôring og tekniske regler for enkelte biodieselmetoder."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3177,7 +3177,7 @@
       "ny": false,
       "sammendrag": "Forslaget er å utvide restriksjonene i Reach-forskriften for stoffer som kan forårsake kreft, endre arvestoffet eller skade forplantningsevnen (CMR-stoffer), slik at stoffene som hovedregel ikke kan omsettes til forbrukere over fastsatte konsentrasjonsgrenser. Det gjelder stoffer som nylig er klassifisert i EU.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare kjemikalierestriksjoner for CMR-stoffer i forbrukerprodukter, som er et smalt, teknisk regelverk."
+      "hvorfor_relevant": "Gjelder EU-restriksjoner på CMR-stoffer i forbrukerprodukter, uten merkbare konsekvenser for kommunene."
     },
     {
       "kilde": "Mattilsynet",
@@ -3207,7 +3207,7 @@
       "ny": false,
       "sammendrag": "Forslag om å tillate sukkerreduksjon i fruktjuice, med tre nye produktdefinisjoner der naturlig sukker er redusert med minst 30 %. Det åpnes også for påstanden «inneholder bare naturlig forekommende sukker», og tillatt tilsatt sukker i fruktnektar reduseres.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare merking og sammensetning av fruktjuice, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen."
+      "hvorfor_relevant": "Gjelder bare produktdefinisjoner og merking av fruktjuice og fruktnektar, uten merkbar betydning for kommunene eller regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -3236,8 +3236,8 @@
       "forst_sett": "2026-10-25",
       "ny": false,
       "sammendrag": "Forskriften om honning foreslås endret for å gjennomføre EU-direktiv 2024/1438. Honningblandinger skal merkes med hvert opprinnelsesland og prosentandel, og «filtrert honning» fjernes som varebetegnelse og legges under «bakehonning».",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder bare opprinnelsesmerking og varebetegnelser for honning, et smalt produktregelverk uten merkbar betydning for kommuner eller regionen."
+      "relevant": true,
+      "hvorfor_relevant": "Nye nasjonale krav til opprinnelsesmerking av honningblandinger kan gjelde birøktere og matprodusenter i regionen."
     },
     {
       "kilde": "Mattilsynet",
@@ -3267,7 +3267,7 @@
       "ny": false,
       "sammendrag": "Forskriften om kondensert melk og melkepulver foreslås endret, slik at det blir tillatt å redusere laktoseinnholdet ved å omdanne laktose til glukose og galaktose. Redusert laktose må angis godt synlig og lesbart på emballasjen, og ordlyden justeres for bedre lesbarhet.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare laktosereduksjon og merking av kondensert melk og melkepulver."
+      "hvorfor_relevant": "Gjelder teknisk produktregel og merking for kondensert melk og melkepulver, uten merkbar virkning for kommuner eller innbyggere."
     },
     {
       "kilde": "Mattilsynet",
@@ -3297,7 +3297,7 @@
       "ny": false,
       "sammendrag": "Forskriften om syltetøy og lignende produkter foreslås endret for å gjennomføre EU-direktivet: mer frukt i syltetøy og gelé (også «ekstra»), og Norges strengere unntak fra kravet om 60 % løselig tørrstoff fjernes. «Marmelade» endres til «sitrusmarmelade».",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder tekniske krav til fruktinnhold og betegnelser på syltetøy og gelé, uten merkbar betydning for kommuner eller innbyggere."
+      "hvorfor_relevant": "Gjelder bare produktkrav til fruktinnhold og betegnelser i syltetøy, uten merkbar betydning for kommuner eller innbyggere."
     },
     {
       "kilde": "DSB",
@@ -3326,8 +3326,8 @@
       "forst_sett": "2026-10-25",
       "ny": false,
       "sammendrag": "DSB foreslår å øke satsene for ulempetillegg og ledertillegg i forskrift om sivilforsvar. Bakgrunnen er at tilleggene til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027, og målet er å opprettholde dagens kompensasjon etter skatt.",
-      "relevant": true,
-      "hvorfor_relevant": "Forskriften øker satsene for ulempe- og ledertillegg til tjenestepliktige i Sivilforsvaret og kan dermed berøre innbyggere i regionen som har slik tjeneste."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder bare satser for skattepliktige tillegg til tjenestepliktige i Sivilforsvaret, uten merkbar virkning for kommunene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3341,7 +3341,7 @@
       "frist_maned": "",
       "publisert": "2026-09-29",
       "ingress": "Departementet foreslår å åpne for at Norsk Tipping kan tilby et nett pengespilltilbud i form av nettpoker. I tillegg foreslås det å ta inn krav om avviksrapportering for de største aktørene i pengespillmarkedet. Departementet foreslår også mindre",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "4H Norge",
@@ -3514,7 +3514,7 @@
       "ny": false,
       "sammendrag": "Norsk Tipping foreslås å få tilby nettpoker. Det foreslås også krav om avviksrapportering for de største aktørene i pengespillmarkedet, og mindre endringer i reglene for utbetaling av Belago-midler fra bingo.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i pengespillforskriften om nettpoker hos Norsk Tipping og utbetaling av Belago-midler fra bingo gjelder hele landet, også innbyggere i regionen."
+      "hvorfor_relevant": "Nasjonale endringer i pengespillforskriften, blant annet nye regler for utbetaling av Belago-midler fra bingo, kan berøre lag og foreninger i alle kommuner."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -3544,7 +3544,7 @@
       "ny": true,
       "sammendrag": "3B-Fibreglass søker om endret tillatelse etter forurensningsloven: økt produksjon fra 67 000 til 76 000 tonn smeltet glass per år, høyere SO2-utslippsgrense for ovn 66-01 og 66-03 (0,9 til 1,6 kg/TMG) og lavere for ovn 66-02 (0,4 kg/TMG).",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder én bedrifts utslippstillatelse i Agder, med utslipp til Tovdalselva."
+      "hvorfor_relevant": "Gjelder én bedrifts utslipp til luft og til Tovdalselva i Agder."
     },
     {
       "kilde": "Statens vegvesen",
@@ -3583,7 +3583,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal indeksregulering av kontrollsatser for private parkeringsreguleringer gjelder hele landet og kan påvirke parkeringsaktører og bilister i kommunene."
+      "hvorfor_relevant": "Indeksregulering av kontrollsatser (gebyrer) i parkeringsforskriften gjelder hele landet og kan påvirke kommunale parkeringsordninger, private parkeringsselskaper og bilister i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3597,7 +3597,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender på høyring utkast til teknisk revisjon av forskriftene til petroleumsskattelova.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Energidepartementet",
@@ -3623,7 +3623,7 @@
       "ny": false,
       "sammendrag": "Føresegnene i forskriftene til petroleumsskattelova foreslås flytta til Finansdepartementets forskrift til skatteloven (FSFIN), mens én forskrift fortsatt skal fastsettes av Energidepartementet. Forslaget er rent teknisk og antas ikke å ha provenyvirkning.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder teknisk flytting av forskrifter til petroleumsskattelova, uten provenyverknad."
+      "hvorfor_relevant": "Gjelder bare teknisk flytting av petroleumsskatteforskrifter, uten proveny- eller andre virkninger for kommuner."
     },
     {
       "kilde": "NVE",
@@ -3653,7 +3653,7 @@
       "ny": false,
       "sammendrag": "Endringer i økodesignforskriften og energimerkeforskriften for produkter som skal innføre tre EU-forordninger i norsk rett. De gjelder eksterne strømkilder, trådløse ladere, batteriladere, USB-C-kabler, hviletilstand for husholdnings- og kontorutstyr og husholdningstørketromler.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder tekniske produktkrav til strømkilder, ladere og tørketromler for produsenter og importører, uten merkbar virkning for kommunene."
+      "hvorfor_relevant": "Gjelder tekniske produktkrav til ladere, strømkilder og tørketromler, rettet mot produsenter og importører."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3667,7 +3667,7 @@
       "frist_maned": "",
       "publisert": "2026-09-01",
       "ingress": "Landbruks- og matdepartementet sender med dette på høring forslag til endringer i forskrift om Omsetningsrådets myndighet vedrørende markedsregulering for jordbruksråvarer (rammeforskriften).",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Arbeids- og inkluderingsdepartementet",
@@ -3736,7 +3736,7 @@
       "forst_sett": "2026-10-23",
       "ny": false,
       "relevant": true,
-      "hvorfor_relevant": "Endringer i regelverket for Omsetningsrådets markedsregulering av jordbruksråvarer kan påvirke bønder og landbruksbasert næringsliv i regionen, som har landbruk som en viktig næring."
+      "hvorfor_relevant": "Endringer i markedsreguleringen for jordbruksråvarer kan påvirke bønder og landbruksbasert næringsliv i regionen, som har landbruk som en viktig næring."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3750,7 +3750,7 @@
       "frist_maned": "",
       "publisert": "2026-10-07",
       "ingress": "Kommunal- og distriktsdepartementet sender med dette forslag til endringer i forskrift nr. 342 av 6 mars 2026, om Kommunal- og distriktsdepartementets tilskuddsmidler til Arktis 2030 på høring.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -3902,7 +3902,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Forsvarsdepartementet sender med dette på høring forslag til forskriftsfestet tilskuddordning for økt produksjonskapasitet i norsk forsvarsindustri.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "RADIONOR COMMUNICATIONS AS",
@@ -3947,7 +3947,7 @@
       "ny": false,
       "sammendrag": "Forslag til ny forskrift som oppretter en tilskuddsordning for å øke produksjonskapasiteten i norsk forsvarsindustri. Ordningen skal forvalte midlene regjeringen har satt av til formålet.",
       "relevant": true,
-      "hvorfor_relevant": "Tilskuddsordningen for økt produksjonskapasitet i forsvarsindustrien kan gi investeringer og arbeidsplasser for industri- og teknologibedrifter, også i regionen."
+      "hvorfor_relevant": "Tilskuddsordningen for økt produksjonskapasitet i forsvarsindustrien kan gi industri- og teknologibedrifter i regionen støtte til å bygge ut produksjonen og dermed påvirke arbeidsplasser."
     },
     {
       "kilde": "Regjeringen.no",
@@ -3961,7 +3961,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag om å oppheve forskrift om rammeplan for ingeniørutdanning og forslag om endringer i universitets- og høyskoleforskriften for at det kan gis bachelorutdanning med normert tid på fire år,",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -4019,7 +4019,7 @@
       "ny": false,
       "sammendrag": "Forslag om å oppheve forskriften om rammeplan for ingeniørutdanning, og om å endre universitets- og høyskoleforskriften slik at det kan gis fireårig bachelor i militære ingeniørfag og ledelse. Forsvarets høgskole foreslås å få rett til å tildele graden.",
       "relevant": true,
-      "hvorfor_relevant": "Opphevingen av rammeplanen for ingeniørutdanning endrer styringen av alle treårige ingeniørutdanninger i landet, som berører ingeniørmiljøet ved NTNU i Gjøvik og teknologibedriftene."
+      "hvorfor_relevant": "Oppheving av rammeplanen for ingeniørutdanning gir NTNU i Gjøvik og andre ingeniørutdanninger mer frihet over faglig innhold, og berører kompetansemiljøet og teknologibedriftene i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4033,7 +4033,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Europakommisjonen fremmet 9. september forslag til ny anskaffelsesforordning, COM(2026) 590 Proposal for a regulation on public contracts and concessions. Forslag til forordning er publisert på Europakommisjonen hjemmeside her.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
@@ -4060,7 +4060,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny anskaffelsesforordning kan endre regelverket for offentlige innkjøp og konsesjoner som alle kommuner i regionen må følge, og påvirke lokalt næringsliv som leverer til det offentlige."
+      "hvorfor_relevant": "Nye EU-regler for offentlige anskaffelser og konsesjoner kan endre hvordan kommunene kjøper inn varer og tjenester, og hvordan lokalt næringsliv konkurrerer om kommunale kontrakter."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4074,7 +4074,7 @@
       "frist_maned": "",
       "publisert": "2026-10-21",
       "ingress": "Nærings- og fiskeridepartementet sender med dette på høring forslag til endringer i Forskrift om midlertidig tilskudd som kompensasjon for CO2-avgift på drivstoff for fiske og fangst. Endringer i ordningen vil tre i kraft 1. januar 2027, og gjøres",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Bellona",
@@ -4156,7 +4156,7 @@
       "ny": false,
       "sammendrag": "Avgiftsfritaket for sukker som brukes i ervervsmessig produksjon av andre varer foreslås utvidet noe, slik at små håndverksbakerier og kafeer med produksjon, salg og servering i samme lokale likebehandles med større produsenter. Forslaget innebærer også forenklinger.",
       "relevant": true,
-      "hvorfor_relevant": "Avgiftsfritaket for sukker utvides til å gjelde også små håndverksbakerier og kafeer, som finnes i alle kommunene og får endrede avgiftskostnader."
+      "hvorfor_relevant": "Nasjonal endring i sukkeravgiften som utvider fritaket for mindre håndverksbakerier og kafeer, noe som kan berøre slike virksomheter i regionens næringsliv."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4170,7 +4170,7 @@
       "frist_maned": "",
       "publisert": "2026-10-23",
       "ingress": "Digitaliserings- og forvaltningsdepartementet sender med dette på høyring forslag til lov om digitale marknader som gjennomfører Europaparlaments- og rådsforordning (EU) 20222/1925 om opne og rettferdige marknader i den digitale sektoren, i norsk",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -4307,7 +4307,7 @@
       "ny": false,
       "sammendrag": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal lov om konkurranse og regulering av store digitale plattformer, som kan påvirke næringsliv, innbyggere og kommuner som brukere av digitale tjenester."
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Helsedirektoratet",
@@ -4413,7 +4413,7 @@
       "ny": false,
       "sammendrag": "Utkast til ny nasjonal faglig retningslinje for mat, måltider og ernæring i helse- og omsorgstjenesten, som erstatter Kosthåndboken. Det ønskes innspill på bakgrunn og metode, om anbefalingene er klare, tiltak for implementering og retningslinjen som helhet.",
       "relevant": true,
-      "hvorfor_relevant": "Ny nasjonal retningslinje for mat og ernæring i helse- og omsorgstjenesten kan påvirke kommunenes sykehjem og hjemmetjenester, bemanning og organisering, og kommunene er direkte høringsinstanser."
+      "hvorfor_relevant": "Nasjonal retningslinje for mat og ernæring i helse- og omsorgstjenesten kan gi kommunene nye faglige krav til sykehjem og hjemmetjenester, med personellmessige og organisatoriske konsekvenser."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4443,7 +4443,7 @@
       "ny": false,
       "sammendrag": "Forslaget samler og tydeliggjør kravene til metodene som skal brukes for å dokumentere at bærekrafts- og utslippsreduksjonskriterier er oppfylt i klimakvoteregelverket. Det kommer detaljerte krav til innhold og revisor for dokumentasjonsmetoden «annen dokumentasjon», og kravene knyttes til en ny forskrift.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder dokumentasjonskrav for operatører i EUs kvotesystem, uten endring i hvilke kriterier som gjelder."
+      "hvorfor_relevant": "Gjelder dokumentasjonskrav for operatører i EUs klimakvotesystem, ikke kommunene eller regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -4473,7 +4473,175 @@
       "ny": false,
       "sammendrag": "Reguleringsplan for utbedring av fv. 33 ved Bilitt: bedre kurver, bakker og grøfter, bredere veg (7,5 meter), omlegging mellom Vennevoldkrysset og Bernsgutua, endrede private avkjørsler og ombygde kryssingspunkter for gående og syklende.",
       "relevant": true,
-      "hvorfor_relevant": "Reguleringsplan for utbedring av fv. 33 i Østre Toten berører kommunens planlegging, trafikksikkerhet, private avkjørsler og grunneiere, og kommunestyret skal sluttbehandle planen."
+      "hvorfor_relevant": "Reguleringsplan for utbedring av fv. 33 i Østre Toten gjelder kommunens planlegging, trafikksikkerhet, private avkjørsler og gang- og sykkelveg, og kommunestyret sluttbehandler planen."
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 1,
+      "instans": "Energidepartementet",
+      "tittel": "Høring om forslag til endring i forskrift om tariffer og rapporteringsplikt for omsetningskonsesjonærer - adgang til å begrense størrelsen på energileddet i nettleien",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/horing-om-forslag-til-endring-i-forskrift-om-tariffer-og-rapporteringsplikt-for-omsetningskonsesjonarer-adgang-til-a-begrense-storrelsen-pa-energileddet-i-nettleien/id3177359/",
+      "frist": "2026-12-04",
+      "frist_tekst": "Høringsfrist: 04.12.2026",
+      "frist_maned": "",
+      "publisert": "2026-10-14",
+      "ingress": "Energidepartementet sender med dette på høring forslag til endringer i forskrift om tariffer og rapporteringsplikt for omsetningskonsesjonærer.",
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [
+        "Agder Energi Nett AS",
+        "Agder fylkeskommune",
+        "Akershus fylkeskommune",
+        "Alta Kraftlag SA",
+        "Arbeids- og inkluderingsdepartementet",
+        "Area Nett AS",
+        "Arva",
+        "Austevoll Kraftlag SA",
+        "Barne- og familiedepartementet",
+        "Bergenshalvøens Kommunale Kraftselskap AS",
+        "BKK Nett AS",
+        "Buskerud fylkeskommune",
+        "Clemens Kraft AS",
+        "Dalane Kraft AS",
+        "Digitaliserings- og forvaltningsdepartementet",
+        "DistriktsEnergi",
+        "Dragefossen Kraftanlegg AS",
+        "Drivkraft Norge",
+        "Eidsiva Vannkraft AS",
+        "Elverum Nett AS",
+        "Fagne AS",
+        "Finansdepartementet",
+        "Finnmark fylkeskommune",
+        "Finnmark Kraft AS",
+        "Finnås Kraftlag",
+        "Fjordkraft AS",
+        "Forbrukerrådet",
+        "Forbrukertilsynet",
+        "Fornybar Norge",
+        "Forsvarsdepartementet",
+        "Fosenkraft AS",
+        "Glomma Kraftproduksjon AS",
+        "Hafslund ASA",
+        "Hafslund Eco Vannkraft AS",
+        "Hallingdal Kraftnett AS",
+        "Haugaland Kraft AS",
+        "Haugaland Kraft Fiber AS",
+        "Helgeland Kraft AS",
+        "Helgeland Kraft Vannkraft AS",
+        "Helse- og omsorgsdepartementet",
+        "Herøya Nett AS",
+        "Hovedorganisasjonen Virke",
+        "Hydro Energi AS",
+        "Industri EL",
+        "Innlandet fylkeskommune",
+        "Istad Nett AS",
+        "Justis- og beredskapsdepartementet",
+        "Klima- og miljødepartementet",
+        "Kommunal- og distriktsdepartementet",
+        "Konkurransetilsynet",
+        "Konsesjonskraft IKS",
+        "Kraftfylka",
+        "Kultur - og likestillingsdepartementet",
+        "Kunnskapsdepartementet",
+        "Kvænangen Kraftverk AS",
+        "Landbruks- og matdepartementet",
+        "Landbruksdirektoratet",
+        "Landsorganisasjonen i Norge",
+        "Landssammenslutninga av norske vindkraftkommuner",
+        "Lnett AS",
+        "Lofotkraft AS",
+        "Lyse Elnett AS",
+        "Lyse Produksjon AS",
+        "Miljødirektoratet",
+        "Miljøstiftelsen Bellona",
+        "Møre og Romsdal fylkeskommune",
+        "Nasjonal kommunikasjonsmyndighet",
+        "Natur og Ungdom",
+        "Noranett Andøy AS",
+        "Noranett AS",
+        "Nord Pool AS",
+        "Nord Troms Kraftlag AS",
+        "Nord Universitet",
+        "Nordisk Energiforskning",
+        "Nordkraft AS",
+        "Nordland fylkeskommune",
+        "Nordlandsnett AS",
+        "Nordlink Norge AS",
+        "Norges vassdrags- og energidirektorat",
+        "Norsk Hydro ASA",
+        "Norsk Industri",
+        "Norsk institutt for naturforskning",
+        "Norsk institutt for bioøkonomi NIBIO",
+        "Norsk institutt for vannforskning - NIVA",
+        "Norsk Kjernekraft AS",
+        "NTE Nett AS",
+        "Nærings- og fiskeridepartementet",
+        "Næringslivets Hovedorganisasjon",
+        "Rauland Kraftforsyningslag",
+        "Reguleringsmyndigheten for energi - RME",
+        "Rogaland fylkeskommune",
+        "SABIMA - Samarbeidsrådet for biologisk mangfold",
+        "Sametinget / Sámediggi",
+        "Samferdselsdepartementet",
+        "Samfunnsbedriftene",
+        "SINTEF Energi AS",
+        "Skatteetaten",
+        "Småkraft AS",
+        "Småkraftforeninga",
+        "Statistisk Sentralbyrå",
+        "Statkraft AS",
+        "Statnett SF",
+        "Statsforvalteren i Agder",
+        "Statsforvalteren i Innlandet",
+        "Statsforvalteren i Møre og Romsdal",
+        "Statsforvalteren i Nordland",
+        "Statsforvalteren i Rogaland",
+        "Statsforvalteren i Troms og Finnmark",
+        "Statsforvalteren i Trøndelag",
+        "Statsforvalteren i Vestfold og Telemark",
+        "Statsforvalteren i Vestland",
+        "Buskerud, Oslo og Akershus Statsforvalteren i Østfold",
+        "Stiftelsen Norsk Institutt for Naturforskning",
+        "Tekna - Teknisk-naturvitenskapelig forening",
+        "Telemark fylkeskommune",
+        "TendraNett AS",
+        "Tensio TS AS",
+        "Tinn Energi Nett AS",
+        "Troms fylkeskommune",
+        "Trøndelag fylkeskommune",
+        "Utenriksdepartementet",
+        "Vesterålskraft Nett AS",
+        "Vestfold fylkeskommune",
+        "Vestland fylkeskommune",
+        "Zero Emission Resource Organisation",
+        "Østfold Energi AS",
+        "Øvre Eiker Energi AS",
+        "Øvre Eiker Nett AS",
+        "Å Energi Vannkraft AS"
+      ],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "id": "3d1c8b72b3cb",
+      "partkategorier": {
+        "Statsforvaltere": 10,
+        "Kommuner og fylkeskommuner": 14,
+        "Departementer og direktorater": 24,
+        "Organisasjoner": 7,
+        "Andre": 74
+      },
+      "regionflagg": [
+        "Innlandet fylkeskommune"
+      ],
+      "alltid_med": "",
+      "prioritet_grunn": "regionen er høringspart",
+      "forst_sett": "2026-11-03",
+      "ny": true,
+      "sammendrag": "Nettselskapene foreslås å kunne sette tak på kraftprisen som brukes til å beregne energileddet i nettleien også i 2027, med en kraftpris på minimum 45 øre per kWh. Kravet om at energileddet skal dekke marginale tapskostnader i distribusjonsnettet foreslås ikke å gjelde ut 2027.",
+      "relevant": true,
+      "hvorfor_relevant": "Forslaget om tak på kraftprisen i energileddet i 2027 kan påvirke nettleien for innbyggere og næringsliv, og inntektene til nettselskapene i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4487,7 +4655,7 @@
       "frist_maned": "",
       "publisert": "2026-09-11",
       "ingress": "Helse- og omsorgsdepartementet sender på høring forslag til lov- og forskriftsendringer om nasjonale e-helseløsninger, behandling av helseopplysninger, smittevern m.m.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -4636,7 +4804,7 @@
       "ny": false,
       "sammendrag": "Forslag om endringer i lov og forskrifter om nasjonale e-helseløsninger, behandling av helseopplysninger og smittevern, blant annet betaling for e-helseløsningene i 2027, helsekort for gravide i kjernejournalen og CPO og C. auris som allmennfarlige smittsomme sykdommer.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale e-helseløsninger, kjernejournal, smittevern og helseopplysninger gjelder landets kommuner, med nye plikter for helsetjenesten og hjemmel for kommunenes behandling av opplysninger om asylsøkere."
+      "hvorfor_relevant": "Nasjonale e-helseløsninger, kjernejournal, smittevern og opplysninger om asylsøkere gir kommunene nye plikter og endrede betalingskrav for helse- og omsorgstjenestene."
     },
     {
       "kilde": "Regjeringen.no",
@@ -4650,7 +4818,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Finansdepartementet sender med dette på høring et høringsnotat utarbeidet av Finanstilsynet om adgang til valutasikring av verdipapirfonds investeringer på andelsklassenivå.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokatforeningen",
@@ -4776,7 +4944,7 @@
       "ny": false,
       "sammendrag": "Forskriftsendring som utvider adgangen til andelsklasser i verdipapirfond med ulike vilkår. Et fond skal kunne ha andelsklasser med ulike vilkår for valutasikring av investeringene mot fondets basisvaluta, uavhengig av om andelsklassene har ulik utstedelsesvaluta.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare valutasikring i verdipapirfond, en teknisk forskriftsendring for fondsforvaltere."
+      "hvorfor_relevant": "Gjelder bare valutasikring i verdipapirfond, en teknisk finansregulering uten merkbar betydning for kommuner, innbyggere eller næringsliv."
     },
     {
       "kilde": "Statens vegvesen",
@@ -4806,7 +4974,309 @@
       "ny": true,
       "sammendrag": "Foreslåtte regelendringer for hest i trafikken: klarere ordlyd om hvordan hestebrukere skal følge trafikkreglene, plikt for sjåfører til å vise særlig forsiktighet ved passering av hest, og krav til reflekser, varselskilt og lys på vogner trukket av dyr.",
       "relevant": true,
-      "hvorfor_relevant": "Nye trafikkregler om hest i trafikken gjelder alle veier og kan påvirke bilister og hestebrukere på kommunale, fylkeskommunale og statlige veier i regionen."
+      "hvorfor_relevant": "Nasjonale trafikkregler om hest i trafikken gjelder alle veier, og kan berøre hestebrukere og bilister på veiene i kommunene."
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 1,
+      "instans": "Energidepartementet",
+      "tittel": "Høring av forslag til endringer i energiloven og energilovforskriften om prisregulering av fjernvarme med mer",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/horing-av-forslag-til-endringer-i-energiloven-og-energilovforskriften-om-prisregulering-av-fjernvarme-med-mer/id3176605/",
+      "frist": "2026-12-08",
+      "frist_tekst": "Høringsfrist: 08.12.2026",
+      "frist_maned": "",
+      "publisert": "2026-10-08",
+      "ingress": "Energidepartementet foreslår endringer i energiloven og energilovforskriften om prisregulering av fjernvarme med mer, se vedlagt høringsnotat",
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [
+        "ABP Fjernvarme Drift AS",
+        "Agder fylkeskommune",
+        "Agva Kraft AS",
+        "Akershus Energi Varme",
+        "Akershus fylkeskommune",
+        "Aktieselskabet Saudefaldene",
+        "Alut AS",
+        "Aneo AS",
+        "Angarde AS",
+        "Arbeids- og inkluderingsdepartementet",
+        "Area Nett AS",
+        "Asker Nett AS",
+        "Avinor AS",
+        "Barents Nett AS",
+        "Barne- og familiedepartementet",
+        "BE Varme AS",
+        "Bindal Kraftlag SA",
+        "Bio Energy AS",
+        "BKK Nett AS",
+        "Bodø Energi AS",
+        "BOLIGBYGG OSLO KF",
+        "Breheim Nett AS",
+        "Buskerud fylkeskommune",
+        "Bærum Energiomsetning AS",
+        "Bømlo Kraftnett AS",
+        "CMS Kluge Advokatfirma AS",
+        "Datatilsynet",
+        "DE Nett AS",
+        "Den norske Advokatforening",
+        "Digitaliserings- og forvaltningsdepartementet",
+        "Direktoratet for byggkvalitet",
+        "DistriktsEnergi",
+        "Drammen Fjernvarme",
+        "Eidefoss Strøm AS",
+        "Eidsiva Bioenergi AS",
+        "Eiker Energi AS",
+        "EL & IT Forbundet",
+        "Elinett AS",
+        "Elmea AS",
+        "Elvenett AS",
+        "Elvia AS",
+        "ENAKTIVA AS",
+        "Enebakk Bioenergi",
+        "Enebakk Bioenergi AS",
+        "Enida AS",
+        "Enova SF",
+        "Etna Nett AS",
+        "Everket AS",
+        "Eviny Termo AS",
+        "Fagne AS",
+        "Finans Norge",
+        "Finansdepartementet",
+        "Finnmark fylkeskommune",
+        "Finnsnes Fjernvarme AS",
+        "Fjellnett AS",
+        "Fjordkraft AS",
+        "Follo Bioenergi AS",
+        "Follo Fjernvarme AS",
+        "Forbrukerrådet",
+        "Forbrukertilsynet",
+        "Fornybar Norge",
+        "Forsvarsbygg",
+        "Forsvarsdepartementet",
+        "Fortum Strøm AS",
+        "FORUS NÆRINGSPARK A/S",
+        "FOSENKRAFT ENERGI AS",
+        "Fredrikstad Fjernvarme AS",
+        "FREVAR KF",
+        "Fritzøe Energi AS",
+        "Føie AS",
+        "Glitre Nett AS",
+        "Green Bio Sør AS",
+        "Griug AS",
+        "Grønn Byggallianse",
+        "Gudbrandsdal Energi AS",
+        "Hafslund Celsio AS",
+        "Hafslund E-CO AS",
+        "Hammerfest Energi Kraftomsetning AS",
+        "Haringnett AS",
+        "Haugaland Kraft Energi AS",
+        "Havnett AS",
+        "Helgeland Kraft Strøm AS",
+        "Helse- og omsorgsdepartementet",
+        "HELSE SØR-ØST RHF",
+        "Herøya Nett AS",
+        "Hurum Kraft AS",
+        "Husbanken",
+        "Huseiernes Landsforbund",
+        "Hydro Energi AS",
+        "Høland og Setskog Elverk AS",
+        "Indre Hordaland KraftNett AS",
+        "Innlandet fylkeskommune",
+        "Inntre Energi AS",
+        "Ishavskraft AS",
+        "Istad Kraft AS",
+        "JotunKraft AS",
+        "Justis- og beredskapsdepartementet",
+        "Jæren Everk AS",
+        "KE Nett AS",
+        "Kilden Kraft AS",
+        "KLEPP ENERGI AS",
+        "Klima- og miljødepartementet",
+        "Klive AS",
+        "Klæbu Bioenergi AS",
+        "Kommunal- og distriktsdepartementet",
+        "Kongsberg Teknologipark",
+        "Konkurransetilsynet",
+        "Kraftriket AS",
+        "KS - Kommunesektorens organisasjon",
+        "Kultur - og likestillingsdepartementet",
+        "Kunnskapsdepartementet",
+        "Kvitebjørn Varme AS",
+        "Kystnett AS",
+        "Landbruks- og matdepartementet",
+        "Landbruksdirektoratet",
+        "Landsorganisasjonen i Norge",
+        "Lede AS",
+        "Linea AS",
+        "Linja AS",
+        "Lnett AS",
+        "Lucerna AS",
+        "Lunera Energi AS",
+        "Lyse Energi AS",
+        "Lyse Neo AS",
+        "Lysna AS",
+        "Mellom AS",
+        "Meløy Energi AS",
+        "Midtnett AS",
+        "Miljøstiftelsen Bellona",
+        "Miljøvarme VSEB",
+        "Mo Fjernvarme AS",
+        "Modalen Kraftlag AS",
+        "Moelven Bioenergi AS",
+        "Motkraft AS",
+        "Multiconsult ASA",
+        "Møre og Romsdal fylkeskommune",
+        "Naturvernforbundet",
+        "Nettselskapet AS",
+        "NHO Elektro",
+        "Noranett Andøy AS",
+        "Noranett Hadsel AS",
+        "Noranett Hålogaland AS",
+        "NORD ENERGI AS",
+        "Nordland fylkeskommune",
+        "Nordvest Nett AS",
+        "Nord-Østerdal Kraftlag SA",
+        "Norefjell Nett AS",
+        "Norges Hytteforbund",
+        "Norges Miljøvernforbund",
+        "Norgesnett AS",
+        "Norsk Bioenergiforening - NoBio",
+        "Norsk Eiendom",
+        "Norsk elbilforening",
+        "Norsk Fjernvarme",
+        "Norsk Klimastiftelse",
+        "Norsk solenergiforening",
+        "Norsk Varmepumpeforening",
+        "NorskBioVarme",
+        "Norske Boligbyggelag Landsforbund SA",
+        "Nydalen Energi AS",
+        "Nærings- og fiskeridepartementet",
+        "Næringslivets Hovedorganisasjon",
+        "NØK Biovarme AS",
+        "OBOS",
+        "Orkland Energi Varme AS",
+        "Oslo kommune",
+        "Oslofjord Varme AS",
+        "Polarkraft AS",
+        "Polyteknisk Forening",
+        "Rakkestad Energi AS",
+        "Rauland Kraft AS",
+        "Rauma Energi AS",
+        "Regelrådet",
+        "RK Nett AS",
+        "R-Nett AS",
+        "Rogaland fylkeskommune",
+        "Romsdalsnett AS",
+        "Rørentreprenørene Norge",
+        "Røros E-verk Nett AS",
+        "Røstad Biovarme AS",
+        "Råde Fjernvarme AS",
+        "Saga Energi AS",
+        "Sameiet Fjell Fyrings- og servicesentral",
+        "Sametinget / Sámediggi",
+        "Samferdselsdepartementet",
+        "Samfunnsbedriftene",
+        "Sandnessjøen Fjernvarme AS",
+        "SAUDA ENERGI AS",
+        "SFE Produksjon AS",
+        "SINTEF Energi AS",
+        "Sira Kvina Kraftselskap",
+        "Skagerak Varme AS",
+        "Skatteetaten",
+        "Skiakernett AS",
+        "SLEMMESTAD ENERGI AS",
+        "S-Nett AS",
+        "SOGNEKRAFT PRODUKSJON AS",
+        "Solør Bioenergi Varme AS",
+        "Stannum AS",
+        "Statistisk Sentralbyrå",
+        "Statkraft AS",
+        "Statkraft Varme AS",
+        "Statnett SF",
+        "Statsforvalteren i Agder",
+        "Statsforvalteren i Innlandet",
+        "Statsforvalteren i Møre og Romsdal",
+        "Statsforvalteren i Nordland",
+        "Statsforvalteren i Rogaland",
+        "Statsforvalteren i Troms og Finnmark",
+        "Statsforvalteren i Trøndelag",
+        "Statsforvalteren i Vestfold og Telemark",
+        "Statsforvalteren i Vestland",
+        "Statsforvalteren i Østfold Buskerud, Oslo og Akershus",
+        "Stjørdal Fjernvarme AS",
+        "Stram AS",
+        "Straumen Nett AS",
+        "Straumnett AS",
+        "Strøyma AS",
+        "Stølslie Biovarme AS",
+        "SuNett AS",
+        "Sunndal Energi AS",
+        "Svabo Industrinett",
+        "Svorka Energi AS",
+        "Sygnir AS",
+        "Sør Aurdal Energi AS",
+        "Sør Norge Aluminium AS",
+        "Tafjord Kraftvarme AS",
+        "Telemark fylkeskommune",
+        "Telemark Nett AS",
+        "Tensio TN AS",
+        "Tensio TS AS",
+        "Thermokraft AS",
+        "Tibber AS",
+        "Tinfos AS",
+        "Trebio AS",
+        "Troms fylkeskommune",
+        "Troms Kraft AS",
+        "Trøndelag fylkeskommune",
+        "Trøndelagkraft AS",
+        "Utenriksdepartementet",
+        "Uvdal Kraftforsyning SA",
+        "Valdres Biovarme AS",
+        "Varanger Kraft AS",
+        "Vardar Varme AS",
+        "VEFSN KOMMUNE",
+        "Vestall AS",
+        "Vesterålskraft AS",
+        "Vestland fylkeskommune",
+        "Vestmar Nett AS",
+        "Vevig AS",
+        "Vibb AS",
+        "Vissi AS",
+        "Voss Energi Kraft AS",
+        "Wattn AS",
+        "WESSEL ENERGI AS",
+        "Zero Emission Resource Organisation",
+        "Østfold Energi AS",
+        "Østfold fylkeskommune",
+        "Øvre Eiker Fjernvarme AS",
+        "Å Energi Varme AS",
+        "Å Strøm AS",
+        "Årdal Kraftlag AS"
+      ],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "id": "fc3deb246645",
+      "partkategorier": {
+        "Statsforvaltere": 10,
+        "Kommuner og fylkeskommuner": 16,
+        "Departementer og direktorater": 25,
+        "Organisasjoner": 18,
+        "Andre": 193
+      },
+      "regionflagg": [
+        "KS",
+        "Innlandet fylkeskommune"
+      ],
+      "alltid_med": "",
+      "prioritet_grunn": "regionen er høringspart",
+      "forst_sett": "2026-11-03",
+      "ny": true,
+      "sammendrag": "Forslag om å videreføre dagens maksimalprisregulering av fjernvarme, med tydeligere regler for hvem som omfattes og hvordan maksimalprisen beregnes. Det foreslås også tidsbegrensede avtaler som avviker fra reguleringen, en hjemmel for prisregulering av nærvarme og regler om fortsatt leveranse ved konkurs hos konsesjonær.",
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale endringer i prisregulering av fjernvarme, med regler om fastprisavtaler og sikring av leveranse ved konkurs, kan berøre kommuner, innbyggere og næringsliv som bruker fjernvarme."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4836,7 +5306,7 @@
       "ny": false,
       "sammendrag": "Endringer i Reach-forskriften som skjerper reglene for kreosot og kreosotbehandlet trevirke, med begrensede bruksområder og strengere krav til omsetning, merking og risikohåndtering. For Norge innebærer det forbud mot både førstegangsbruk og gjenbruk, med ett års overgangsperiode.",
       "relevant": true,
-      "hvorfor_relevant": "Forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner og kan berøre kommunal drift, anlegg, innbyggere og næringsliv."
+      "hvorfor_relevant": "Nasjonalt forbud mot bruk og gjenbruk av kreosotbehandlet trevirke gjelder alle kommuner, profesjonelle og forbrukere, og kan berøre kommunal bygge- og anleggsvirksomhet og avfallshåndtering."
     },
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -4958,7 +5428,7 @@
       "ny": false,
       "sammendrag": "Forslag til endringer i forskrift om medisinsk utstyr, som skal gjennomføre EU-forordning 2026/977 i norsk rett. Den fastsetter ensartede krav til kvalitetsstyring og prosedyrer for meldte organers samsvarsvurderinger, blant annet pristilbud, tidsfrister, kostnadsovervåking og resertifisering.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare meldte organers prosedyrer og forholdet til produsenter av medisinsk utstyr, ikke kommunene."
+      "hvorfor_relevant": "Gjelder meldte organers prosedyrer og tidsfrister overfor produsenter av medisinsk utstyr."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -4988,7 +5458,7 @@
       "ny": false,
       "sammendrag": "Søknad om tillatelse etter forurensningsloven til et karbonfangstanlegg ved avfallsforbrenningsanlegget på Trehørningen i Hamar. Anlegget skal rense røykgassen og fange rundt 70 000 tonn karbondioksid i året, og det vil gi nye utslipp av amin og nedbrytningsprodukter.",
       "relevant": true,
-      "hvorfor_relevant": "Karbonfangstanlegget ligger i Hamar i Innlandet, og renset kondensat går via HIAS sitt renseanlegg til Mjøsa, som regionen grenser til."
+      "hvorfor_relevant": "Kondensat fra karbonfangstanlegget i Hamar renses og slippes ut til Mjøsa via HIAS sitt renseanlegg, og det oppstår nye utslipp som amin."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5002,7 +5472,7 @@
       "frist_maned": "",
       "publisert": "2026-09-10",
       "ingress": "Helse- og omsorgsdepartementet sender på høring forslag til lov- og forskriftsendringer for å få en varig hjemmel for det nasjonale kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementa",
@@ -5370,7 +5840,7 @@
       "ny": false,
       "sammendrag": "Forslag til endringer i helseregisterloven § 11 og Dødsårsaksregisterforskriften, slik at kartleggingssystemet for selvmord i psykisk helsevern og tverrfaglig spesialisert rusbehandling kan bli et varig kvalitetsregister under Dødsårsaksregisteret. Det foreslås også at registeret på sikt kan utvides til å omfatte flere pasientgrupper.",
       "relevant": true,
-      "hvorfor_relevant": "Kartleggingen kan på sikt utvides til kommunal helse- og omsorgstjeneste, og kommunene står på høringslisten som høringsinstans."
+      "hvorfor_relevant": "Nasjonal lov- og forskriftsendring om selvmordskartlegging kan på sikt utvides til kommunal helse- og omsorgstjeneste, og kommunene står på høringslisten."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5384,7 +5854,7 @@
       "frist_maned": "",
       "publisert": "2026-10-29",
       "ingress": "Samferdselsdepartementet sender med dette på høring forslag til ny forskrift for gjennomføring av fire forordninger med utfyllende bestemmelser til lov om infrastruktur for alternativt drivstoff (AFIR).",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Agder Energi Nett AS",
@@ -5471,7 +5941,7 @@
       "ny": true,
       "sammendrag": "Forslag til ny forskrift som gjennomfører fire EU-forordninger om tekniske krav til infrastruktur for alternativt drivstoff, blant annet datakrav og standarder for lading. Departementet ber særlig om innspill til kravene til private ladere.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale krav til lade- og fyllestasjoner, inkludert private ladepunkter og kontrollrutiner hos myndighetene, kan berøre innbyggere, sameier, ladeoperatører og elbilinfrastruktur i regionen."
+      "hvorfor_relevant": "Nasjonale krav til offentlige og private ladepunkter for elbil og hydrogen, med datakrav og kontrollrutiner, kan berøre kommuner som ladeeiere, innbyggere og næringsliv."
     },
     {
       "kilde": "Landbruksdirektoratet",
@@ -5537,7 +6007,7 @@
       "ny": true,
       "sammendrag": "Ny forskrift om satser for frakttilskudd til transport av kraftfôr foreslås. Satsene justeres fra 2027 som følge av Jordbruksavtalen 2027.",
       "relevant": true,
-      "hvorfor_relevant": "Nye satser for frakttilskudd til kraftfôr kan påvirke fraktkostnadene og økonomien for husdyrbønder i regionen, der landbruket er en viktig næring."
+      "hvorfor_relevant": "Nye satser for frakttilskudd til kraftfôr kan påvirke fraktkostnadene og økonomien for landbruket i regionen, som har landbruk og skog som næring."
     },
     {
       "kilde": "Regjeringen.no",
@@ -5551,7 +6021,7 @@
       "frist_maned": "",
       "publisert": "2026-10-29",
       "ingress": "Kunnskapsdepartementet sender med dette ut ei høyring med forslag til endringar i vedlegg II i opptaksforskrifta. Departementet foreslår å innføre ein ny omrekningstabell for International Baccalaureate frå og med opptak til studieåret 2030-2031.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -5714,7 +6184,7 @@
       "frist_maned": "",
       "publisert": "2026-10-30",
       "ingress": "Digitaliserings- og forvaltningsdepartementet (DFD) sender med dette den digitale omnibusen om KI (forordning (EU) 2026/1744) på nasjonal høring.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -5886,7 +6356,300 @@
       "ny": true,
       "sammendrag": "EUs KI-omnibus (forordning 2026/1744) foreslår målrettede endringer i KI-forordningen for å fremme innovasjon og konkurranseevne. Kravene til menneskers sikkerhet og grunnleggende rettigheter skal samtidig opprettholdes.",
       "relevant": true,
-      "hvorfor_relevant": "Endringer i KI-forordningen gjelder nasjonalt regelverk for KI og kan påvirke kommunenes bruk av KI i tjenester, samt teknologibedrifter og NTNU i regionen."
+      "hvorfor_relevant": "Endringer i KI-forordningen gjelder nasjonale regler for hele landet og kan påvirke kommuner som bruker KI i tjenester, samt teknologibedrifter i regionen."
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 1,
+      "instans": "Barne- og familiedepartementet",
+      "tittel": "Høring - Forslag om endringer i vilkårene for utvidet barnetrygd – fjerning av muligheten for dobbelt mottak",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-om-endringer-i-vilkarene-for-utvidet-barnetrygd-fjerning-av-muligheten-for-dobbelt-mottak/id3173109/",
+      "frist": "2026-12-11",
+      "frist_tekst": "Høringsfrist: 11.12.2026",
+      "frist_maned": "",
+      "publisert": "2026-09-18",
+      "ingress": "Barne- og familiedepartementet sender med dette på høring forslag til endringer i barnetrygdlovens vilkår for mottak av utvidet barnetrygd.",
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [
+        "Departementene",
+        "Høyesterett",
+        "Lagmannsrettene",
+        "Tingrettene",
+        "Arbeids- og velferdsdirektoratet",
+        "Arbeidstilsynet",
+        "Barne-, ungdoms- og familiedirektoratet (Bufdir)",
+        "Barneombudet",
+        "Barnesakkyndig kommisjon",
+        "Barneverns- og helsenemnda",
+        "Digitaliseringsdirektoratet",
+        "Direktoratet for forvaltning og økonomi styring (DFØ)",
+        "Diskrimineringsnemda",
+        "Domstoladministrasjonen",
+        "Finanstilsynet",
+        "Helsedirektoratet",
+        "Integrerings- og mangfoldsdirektoratet (IMDi)",
+        "Likestillings- og diskrimineringsombudet",
+        "Regjeringsadvokaten",
+        "Skattedirektoratet",
+        "Språkrådet",
+        "Statens sivilrettsforvaltning",
+        "Statistisk sentralbyrå (SSB)",
+        "Statsforvalterne",
+        "Sysselmesteren på Svalbard",
+        "Trygderetten",
+        "Universitetene",
+        "Utdanningsdirektoratet",
+        "Utlendingsdirektoratet",
+        "Norges institusjon for menneskerettigheter",
+        "Riksrevisjonen",
+        "Sametinget",
+        "Sivilombudet",
+        "Fylkeskommunene",
+        "Kommunene",
+        "De regionale kunnskapssentrene for barn og unge",
+        "Advokatforeningen",
+        "Aleneforeldreforeningen",
+        "Amnesty International Norge",
+        "Barnevakten",
+        "Childwatch International",
+        "Dommerforeningen",
+        "Foreningen 2 foreldre",
+        "Forskningsstiftelsen FAFO",
+        "Forum for barnekonvensjonen",
+        "Forum for menn og omsorg",
+        "Frelsesarmeen",
+        "Frelsesarmeens barne- og familievern",
+        "Gatejuristen – Kirkens bymisjon",
+        "Helsetilsynet",
+        "Human Rights Service",
+        "Institutt for samfunnsforskning",
+        "Junior- og barneorganisasjonen (JUBA)",
+        "Juridisk rådgivning for kvinner (JURK)",
+        "Juristforbundet",
+        "Juss-buss",
+        "Jussformidlingen",
+        "Jusshjelpa",
+        "Kirkens bymisjon",
+        "Kommunesektorens organisasjon (KS)",
+        "Kompetansesenter for brukererfaring og tjenesteutvikling (KBT)",
+        "Krisesentersekretariatet",
+        "Kvinnefronten",
+        "Landsforeningen 1001 dager – mental helse under graviditet og etter fødsel",
+        "Landsforeningen for barnevernsbarn",
+        "Landsorganisasjonen i Norge (LO)",
+        "Landsrådet for Norges barne- og ungdomsorganisasjoner",
+        "Likestilling, integrering, mangfold (LIM)",
+        "Likestillingssenteret",
+        "Mannsforum",
+        "Mental Helse Norge",
+        "MIRA-senteret",
+        "Nasjonalt kunnskapssenter om vold og traumatisk stress",
+        "Nasjonalt utviklingssenter for barn og unge",
+        "Norges forskningsråd",
+        "Norges kvinne- og familieforbund",
+        "Norsk folkehjelp",
+        "Norsk innvandrerforum",
+        "Norske kvinners sanitetsforening",
+        "Norske samers riksforbund",
+        "Norwegian Institute for International Affairs (NUPI)",
+        "Næringslivets hovedorganisasjon (NHO)",
+        "Omsorgsjuss",
+        "Organisasjonen mot offentlig diskriminering",
+        "Organisasjonen voksne for barn",
+        "Private barnehagers landsforbund",
+        "Redd barna",
+        "Rettspolitisk forening",
+        "Røde kors",
+        "Senter for kunnskap og likestilling (KUN)",
+        "Stiftelsen kirkens familievern",
+        "Stine Sofies stiftelse",
+        "Teknologirådet",
+        "UNICEF Norge",
+        "Velferdsforskningsinstituttet NOVA",
+        "VID vitenskapelige høgskole"
+      ],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "https://www.regjeringen.no/contentassets/050a90ffacd842eb9a9b4cce9bf3acb6/liste-over-horingsinstanser.pdf",
+      "saksfelt": [
+        "Familie og barn"
+      ],
+      "detalj_versjon": 4,
+      "id": "7c7e234fbd4e",
+      "partkategorier": {
+        "Alle kommuner": 1,
+        "Alle fylkeskommuner": 1,
+        "Statsforvaltere": 1,
+        "Kommuner og fylkeskommuner": 1,
+        "Departementer og direktorater": 21,
+        "Organisasjoner": 18,
+        "Andre": 53
+      },
+      "regionflagg": [
+        "Alle kommuner",
+        "Alle fylkeskommuner",
+        "KS"
+      ],
+      "alltid_med": "",
+      "prioritet_grunn": "regionen er høringspart",
+      "forst_sett": "2026-11-03",
+      "ny": true,
+      "sammendrag": "Foreldre som deler en søskenflokk mellom seg, slik at begge har minst ett felles barn boende fast hos seg, foreslås å dele én utvidet barnetrygd. I dag kan de få én utvidet barnetrygd hver. Formålet er likebehandling uavhengig av bostedsordning.",
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale regler om utvidet barnetrygd gjelder hele landet og kan påvirke foreldre og barnefamilier som bor i kommunene i regionen."
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 1,
+      "instans": "Energidepartementet",
+      "tittel": "Høring av forlengelse av midlertidig ordning for bruk av flaskehalsinntekter",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/ny-side/id3179022/",
+      "frist": "2026-12-11",
+      "frist_tekst": "Høringsfrist: 11.12.2026",
+      "frist_maned": "",
+      "publisert": "2026-10-30",
+      "ingress": "Energidepartementet sender på høring et forslag om å forlenge midlertidig forskrift 27. oktober 2022 nr. 1806 om bruk av flaskehalsinntekter.",
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [
+        "Samtlige departementer",
+        "Samtlige fylkeskommuner",
+        "Samtlige statsforvaltere",
+        "Sametinget / Sámediggi",
+        "Agder Energi Nett AS",
+        "Alta Kraftlag SA",
+        "Area Nett AS",
+        "Arva",
+        "Asker Nett AS",
+        "Austevoll Kraftlag SA",
+        "BA-nettverket",
+        "Barents Nett AS",
+        "BKK Nett AS",
+        "Breheim Nett AS",
+        "Bømlo Kraftnett AS",
+        "Clemens Kraft AS",
+        "Dalane Kraft AS",
+        "DE Nett AS",
+        "DistriktsEnergi",
+        "Dragefossen Kraftanlegg AS",
+        "Eidsiva Vannkraft AS",
+        "Elinett AS",
+        "Elvenett AS",
+        "Elverum Nett AS",
+        "Etna Nett AS",
+        "Eviny Fornybar AS",
+        "Fagne AS",
+        "Finnmark Kraft AS",
+        "Finnås Kraftlag",
+        "Fjellnett AS",
+        "Forbrukerrådet",
+        "Forbrukertilsynet",
+        "Fornybar Norge",
+        "Fosenkraft AS",
+        "Fredrikstad Energi Nett AS",
+        "Glitre Nett",
+        "Glomma Kraftproduksjon AS",
+        "Hafslund ASA",
+        "Hafslund Eco Vannkraft AS",
+        "Hallingdal Kraftnett AS",
+        "Haugaland Kraft AS",
+        "Haugaland Kraft Fiber AS",
+        "Helgeland Kraft AS",
+        "Helgeland Kraft Vannkraft AS",
+        "Hemsil Nett AS",
+        "Herøya Nett AS",
+        "Hovedorganisasjonen Virke",
+        "Hydro Energi AS",
+        "Indre Hordaland Kraftnett AS",
+        "Industri EL",
+        "Istad Nett AS",
+        "KE Nett AS",
+        "Konkurransetilsynet",
+        "Konsesjonskraft IKS",
+        "Kraftfylka",
+        "Kvam Energi Nett AS",
+        "Kvænangen Kraftverk AS",
+        "Kystnett AS",
+        "Landsorganisasjonen i Norge",
+        "Landssamanslutninga av vasskraftkommunar",
+        "Landssammenslutninga av norske vindkraftkommuner",
+        "Lede AS",
+        "Lnett AS",
+        "Lofotkraft AS",
+        "Lyse AS",
+        "Lyse Elnett AS",
+        "Midtnett AS",
+        "Miljødirektoratet",
+        "Miljøstiftelsen Bellona",
+        "Natur og Ungdom",
+        "Nettselskapet AS",
+        "Noranett Andøy AS",
+        "Noranett Hadsel AS",
+        "NoranettHålogaland AS",
+        "Nord Pool AS",
+        "Nordisk Energiforskning",
+        "Nordkraft AS",
+        "Nordlandsnett AS",
+        "Norefjell Nett AS",
+        "Norges vassdrags- og energidirektorat",
+        "Norsk Hydro ASA",
+        "Norsk Industri",
+        "Norsk institutt for naturforskning",
+        "Norsk Kjernekraft AS",
+        "Næringslivets Hovedorganisasjon",
+        "Oslo kommune",
+        "Rauland Kraftforsyningslag",
+        "Reguleringsmyndigheten for energi - RME",
+        "RK-Nett AS",
+        "R-Nett AS",
+        "Romsdalsnett AS",
+        "Røros E-verk Nett AS",
+        "SABIMA - Samarbeidsrådet for biologisk mangfold",
+        "Samfunnsbedriftene",
+        "SINTEF Energi AS",
+        "Småkraft AS",
+        "Småkraftforeninga",
+        "S-Nett AS",
+        "Statkraft AS",
+        "Statnett SF",
+        "Straumen Nett AS",
+        "Straumnett AS",
+        "Tekna - Teknisk-naturvitenskapelig forening",
+        "Telemark Nett AS",
+        "TendraNett AS",
+        "Tensio TS AS",
+        "Tinn Energi Nett AS",
+        "Vesterålskraft Nett AS",
+        "Vestmar Nett AS",
+        "Zero Emission Resource Organisation",
+        "Østfold Energi AS",
+        "Å Energi Vannkraft AS"
+      ],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "id": "5cc6f5d64fc6",
+      "partkategorier": {
+        "Alle fylkeskommuner": 1,
+        "Statsforvaltere": 1,
+        "Kommuner og fylkeskommuner": 2,
+        "Departementer og direktorater": 7,
+        "Organisasjoner": 7,
+        "Andre": 94
+      },
+      "regionflagg": [
+        "Alle fylkeskommuner"
+      ],
+      "alltid_med": "",
+      "prioritet_grunn": "regionen er høringspart",
+      "forst_sett": "2026-11-03",
+      "ny": true,
+      "sammendrag": "Forlengelse av den midlertidige forskriften om bruk av flaskehalsinntekter, slik at ordningen gjelder ut 2027. Ordningen omfordeler flaskehalsinntekter fra Statnett SF til regionale og lokale nettselskaper, for å redusere sannsynligheten for økt nettleie.",
+      "relevant": true,
+      "hvorfor_relevant": "Forlenger ordningen som omfordeler flaskehalsinntekter til regionale og lokale nettselskaper for å dempe nettleia, noe som kan påvirke innbyggere og næringsliv i regionen."
     },
     {
       "kilde": "Innlandet fylkeskommune",
@@ -5960,7 +6723,7 @@
       "frist_maned": "",
       "publisert": "2026-09-24",
       "ingress": "Arbeids- og inkluderingsdepartementet sender på høring forslag til permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven for å håndtere en eventuell fremtidig situasjon med høye",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -6182,7 +6945,7 @@
       "ny": false,
       "sammendrag": "Forslag om permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven, til bruk ved en eventuell fremtidig situasjon med høye ankomster av asylsøkere. Forslagene bygger i hovedsak på dagens midlertidige hjemler og regler.",
       "relevant": true,
-      "hvorfor_relevant": "Permanente beredskapshjemler i integreringsloven, barnehageloven, opplæringsloven, plan- og bygningsloven og husleieloven kan gi kommunene nye oppgaver og endre regelverket ved høye asylankomster."
+      "hvorfor_relevant": "Permanente beredskapshjemler i integrerings-, barnehage-, opplærings-, plan- og bygnings- og husleieloven gir kommunene nye regler og oppgaver ved høye ankomster av asylsøkere."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -6212,7 +6975,7 @@
       "ny": true,
       "sammendrag": "Endring i Reach-forskriften som forbyr omsetning og bruk av fiskeutstyr med blyinnhold på 1 % eller mer: søkker under 1 kg, sluker, «drop-in sinkers» og «fishing wire». Bakgrunnen er et tilsvarende forslag fra EU.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forbud mot omsetning og bruk av blyholdig fiskeutstyr som søkker og sluker gjelder også fiskere og utstyrsforhandlere i regionen, men økonomisk virkning antas liten."
+      "hvorfor_relevant": "Forbud mot bly i søkker, sluker og annet fiskeutstyr gjelder hele landet og kan redusere blyutslipp til innsjøer og vassdrag."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6226,7 +6989,7 @@
       "frist_maned": "",
       "publisert": "2026-09-15",
       "ingress": "Samferdselsdepartementet sender i dag en transportfaglig utredning om FOT-rutene i Nord-Norge ut på høring. Utredningen inneholder blant annet vurderinger om ruteføring, kapasitet, frekvens, korrespondanser og andre krav til flytilbudet. Sammen med",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Amapola Flyg AB dba populAir",
@@ -6288,7 +7051,7 @@
       "frist_maned": "",
       "publisert": "2026-11-02",
       "ingress": "Nærings- og fiskeridepartementet sender med dette på høring forslag til endringer i forskrift 19. juli 2021 nr. 2432 om gebyrer for Norsk akkrediterings tjenester. Departementet foreslår å øke alle gebyrsatsene fra dagens nivå med 10 pst. Endringene",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokatforeningen",
@@ -6369,8 +7132,8 @@
       "forst_sett": "2026-11-02",
       "ny": true,
       "sammendrag": "Forslag om å øke alle gebyrsatsene i forskriften om gebyrer for Norsk akkrediterings tjenester med 10 prosent fra dagens nivå. Endringen skal gjøre akkrediteringstjenestene mer selvfinansierende gjennom gebyrer.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonal gebyrøkning på 10 prosent for akkrediteringstjenester kan gi høyere kostnader for laboratorier, sertifiserings- og prøvingsvirksomheter og bedrifter som bruker dem."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder bare 10 prosent høyere gebyrer for Norsk akkrediterings tjenester, en smal teknisk sak."
     },
     {
       "kilde": "DSB",
@@ -6400,7 +7163,7 @@
       "ny": true,
       "sammendrag": "Endringene som skal inngå i 2027-utgavene av ADR og RID, og endringer i §§ 2 og 3 i landtransportforskriften. Den dynamiske henvisningen til ADR og RID foreslås erstattet med en statisk henvisning til 2027-utgavene, for å gjøre det tydelig hvilken utgave som gjelder.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale regler for transport av farlig gods på vei og bane gjelder hele landet, og kan berøre transportører, industribedrifter og kommunal beredskap."
+      "hvorfor_relevant": "Nasjonale regler for landtransport av farlig gods gjelder hele landet og kan påvirke transportnæringen og industribedrifter i regionen, samt kommunale brann- og beredskapsoppgaver."
     },
     {
       "kilde": "Statens vegvesen",
@@ -6430,7 +7193,7 @@
       "ny": false,
       "sammendrag": "Det foreslås endringer i forskrift om bruk av kjøretøy (bruksforskriften) for å håndtere at mange vil fornye rettigheter til personlige kjennemerker. Rettighetene gjelder i ti år, og de første utløper i juni 2027.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i bruksforskriften om fornyelse av personlige kjennemerker gjelder alle bilister, også innbyggerne i regionen, og er ikke avgrenset til andre områder."
+      "hvorfor_relevant": "Nasjonale endringer i bruksforskriften om fornyelse av personlige kjennemerker gjelder alle kjøretøyeiere, også innbyggere og bedrifter i regionen, når de første rettighetene utløper i juni 2027."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6444,7 +7207,7 @@
       "frist_maned": "",
       "publisert": "2026-09-18",
       "ingress": "Nærings- og fiskeridepartementet sender med dette forslag til forskrift om fullsortimentsgrossister i dagligvarebransjen på offentlig høring.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokatfirma Dla Piper Norway DA",
@@ -6677,7 +7440,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Kunnskapsdepartementet sender med dette NOU 2026: 10 Fellesskolen - Bærebjelken i framtidens samfunn på høring.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -6841,7 +7604,7 @@
       "ny": false,
       "sammendrag": "Et utvalg foreslår flere tiltak for å rustes fellesskolen for framtiden, slik at den beholder god kvalitet og ivaretar det brede samfunnsoppdraget. Tiltakene skal gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn.",
       "relevant": true,
-      "hvorfor_relevant": "Utredningen om fellesskolen kan gi nye krav til kommunene som skoleeiere, og kommunene kan sende felles høringsuttalelse med innspill fra egne skoler."
+      "hvorfor_relevant": "Utvalgets forslag om fellesskolen kan påvirke kommunenes ansvar for grunnskolen, skoletjenestene og økonomien, og kommunene kan sende felles høringsuttalelse."
     },
     {
       "kilde": "Regjeringen.no",
@@ -6855,7 +7618,7 @@
       "frist_maned": "",
       "publisert": "2026-09-22",
       "ingress": "Forsvarsdepartementet sender med dette rapport fra utvalget for evaluering av lov om Etterretningstjenestens virke på høring.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "ABELIA",
@@ -6998,7 +7761,7 @@
       "ny": false,
       "sammendrag": "Rapporten fra utvalget som har evaluert hvordan lov om Etterretningstjenesten fungerer, sendes på høring. Utvalget ble oppnevnt i mars 2025 som oppfølging av et anmodningsvedtak fra Stortinget.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder evaluering av lov om Etterretningstjenesten, uten merkbar betydning for kommuner, innbyggere eller næringsliv i regionen."
+      "hvorfor_relevant": "Gjelder evaluering av etterretningstjenesteloven, som ikke berører kommunene, innbyggerne eller næringslivet i regionen merkbart."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7012,7 +7775,7 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring forslag til endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner. Endringene foreslås gjennomført ved endringer i forskrift om rekvirering og utlevering av legemidler m.m.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -7120,7 +7883,7 @@
       "ny": false,
       "sammendrag": "Forslag om endringer i sykepleieres og farmasøyters rett til å rekvirere vaksiner, gjennom endringer i forskrift om rekvirering og utlevering av legemidler m.m. og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp.",
       "relevant": true,
-      "hvorfor_relevant": "Utvidet rekvireringsrett for sykepleiere og farmasøyter til flere vaksiner kan endre hvordan kommunene organiserer vaksinasjon, for eksempel i helsetjenesten og på helsestasjoner."
+      "hvorfor_relevant": "Nasjonale forskriftsendringer om hvem som kan rekvirere vaksiner kan påvirke vaksinasjonstilbudet og oppgavefordelingen i kommunehelsetjenesten og apotek, og kommunene er høringsinstanser."
     },
     {
       "kilde": "Mattilsynet",
@@ -7150,7 +7913,7 @@
       "ny": true,
       "sammendrag": "Forslag om å ta inn tre EU-forordninger i økologiforskriften om import av økologiske produkter fra tredjeland: endret liste over anerkjente tredjeland, en ny liste over høyrisikoprodukter og endrede regler om rapportering fra ekvivalente tredjeland.",
       "relevant": true,
-      "hvorfor_relevant": "Endrer reglene for import av økologiske produkter til Norge, noe som kan påvirke økologiske bedrifter, matprodusenter og landbruket i regionen."
+      "hvorfor_relevant": "Nasjonale endringer i økologiforskriften om import av økologiske produkter kan berøre landbruket, matprodusenter og importører i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7164,7 +7927,7 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "Strategi for besøkssentre for natur 2027-2037 er på åpen høring. Målet med strategien er å fastsette en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [],
       "horingsparter_merknad": "Åpen for alle",
@@ -7182,7 +7945,7 @@
       "ny": false,
       "sammendrag": "Strategi for 2027–2037 skal gi en enhetlig metodikk og prosess for autorisering og reautorisering av besøkssentre for natur. Antallet sentre skal ikke endres vesentlig, men flere kan søke, og alle autoriserte sentre må oppfylle kriterier for geografisk plassering og kvalitet.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal strategi med kriterier for autorisering og plassering av besøkssentre for natur, som kan gi regionen mulighet til å søke eller beholde et senter."
+      "hvorfor_relevant": "Nasjonal strategi med kriterier for geografisk plassering og kvalitet kan påvirke om og hvordan besøkssentre for natur kan autoriseres og få statlig tilskudd i regionen."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -7212,7 +7975,7 @@
       "ny": false,
       "sammendrag": "Endringer i forurensningsforskriften kapittel 10 om utslipp fra krematorier: Reglene gjøres tydeligere, og nye krematorier må bygges med rensekrav tilsvarende kategori I. Forslaget gir lavere temperaturkrav i etterbrennkammer og røykgass og nye krav til prøvetaking.",
       "relevant": true,
-      "hvorfor_relevant": "Nye utslipps- og rensekrav for krematorier kan gjelde krematorier i regionen, og berører forurensningsmyndighet og drift, ofte kommunal eller kirkelig."
+      "hvorfor_relevant": "Nasjonale endringer i utslipps- og rensekrav for krematorier, med krav til nye anlegg og mindre dispensasjonsbehov, kan gjelde krematorier og forurensningsmyndighet også i regionen."
     },
     {
       "kilde": "Statens vegvesen",
@@ -7241,8 +8004,8 @@
       "forst_sett": "2026-10-17",
       "ny": false,
       "sammendrag": "Forslag om å oppheve adgangen til å fornye dispensasjon fra helsekravene for tunge førerkortklasser for personer med syn på bare ett øye, fra 1. juli 2028. Dispensasjoner som allerede er gitt, gjelder til datoen i vedtaket.",
-      "relevant": true,
-      "hvorfor_relevant": "Nasjonal regelendring som kan frata yrkessjåfører med syn på ett øye retten til tunge førerkort, noe som kan berøre transportnæringen og arbeidsplasser i regionen."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder bare fornyelse av individuelle dispensasjoner for førere med syn på ett øye i tunge førerkortklasser."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7256,7 +8019,7 @@
       "frist_maned": "",
       "publisert": "2026-10-02",
       "ingress": "Finansdepartementet sender på høyring utkast til endringar i forskrift 1. juli 2009 nr. 956 om samtykke til overdraging av løyve og interesseoverføring etter petroleumsskattelova § 10 (§10-forskrifta).",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Den norske advokatforening",
@@ -7300,7 +8063,7 @@
       "ny": false,
       "sammendrag": "Utvidet virkeområde for §10-forskriften, slik at reglene erstatter individuell saksbehandling for flere typer transaksjoner. Det foreslås også endringer i reglene om vilkårsbundet betaling, effektiv dato og samtykkeår, og klarere plikter til å gi opplysninger og sende inn dokumentasjon ved overdragelser.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare skatteregler for overdraging av petroleumsløyver, en næring som ikke finnes i regionen."
+      "hvorfor_relevant": "Gjelder bare petroleumsskatt og overdragelse av utvinningstillatelser på sokkelen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7314,7 +8077,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender med dette på høring et høringsnotat utarbeidet av Finanstilsynet med forslag til endringer i eiendomsmeglingsloven og eiendomsmeglingsforskriften.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -7438,8 +8201,8 @@
       "forst_sett": "2026-10-23",
       "ny": false,
       "sammendrag": "Forslag om å oppheve plikten til å gi timepristilbud, begrense regningsplikten til oppdrag med timebasert vederlag, endre reglene om etterutdanning, lempe kravene til ansvarlig megler ved utleiemegling og redusere rapporteringen til Finanstilsynet. Forbudet mot vederlag for boligselgerforsikring foreslås opphevet.",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder forenklinger i regler for eiendomsmeglingsforetak, ikke kommunenes oppgaver, tjenester eller planlegging."
+      "relevant": true,
+      "hvorfor_relevant": "Nasjonale endringer i eiendomsmeglingsloven om timepristilbud, utleiemegling og etterutdanning gjelder meglerforetak og boligselgere over hele landet, også i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7453,7 +8216,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Finansdepartementet sender med dette på høring et notat utarbeidet av Finanstilsynet med forslag om at det for hele finanssektoren skal være krav om tilknytning til godkjent klagenemd for å løse forbrukertvister.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Advokattilsynet",
@@ -7578,8 +8341,8 @@
       "forst_sett": "2026-10-23",
       "ny": false,
       "sammendrag": "Forslag om at alle i finanssektoren skal måtte være tilknyttet en godkjent klagenemd for å løse forbrukertvister. Finanstilsynet foreslår endringer i flere lover og forskrifter, også for tjenesteområder der EØS-regelverket ikke krever slik tilknytning.",
-      "relevant": true,
-      "hvorfor_relevant": "Alle aktører i finanssektoren skal tilknyttes en godkjent klagenemd, noe som gir innbyggerne som forbrukere en sikrere klagemulighet i tvister med finansaktører."
+      "relevant": false,
+      "hvorfor_relevant": "Gjelder krav til finansforetak om tilknytning til klagenemd i forbrukertvister, uten merkbar virkning for kommunene eller regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7593,7 +8356,7 @@
       "frist_maned": "",
       "publisert": "2026-10-05",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til to innbyrdes uavhengige endringer i politiloven.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -7713,8 +8476,8 @@
       "forst_sett": "2026-10-23",
       "ny": false,
       "sammendrag": "Fristen for politiets innbringelse av barn under 18 år foreslås utvidet fra fire til seks timer (politiloven § 8). Politihøgskolen foreslås også kunne sette krav om skikkethet for opptak, blant annet når studiet kvalifiserer for arbeid i politiet (§ 24 b).",
-      "relevant": false,
-      "hvorfor_relevant": "Gjelder politiets frist for innbringelse av barn og skikkethetskrav ved Politihøgskolen, ikke kommunale oppgaver."
+      "relevant": true,
+      "hvorfor_relevant": "Forslaget om å utvide politiets frist for innbringelse av barn under 18 år fra fire til seks timer gjelder hele landet, også barn og unge i regionen."
     },
     {
       "kilde": "Nye Veier",
@@ -7744,7 +8507,7 @@
       "ny": false,
       "sammendrag": "Forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, med rundkjøring i krysset mellom E6 og rv.15 på Otta. Mellom Nordre Eide og Ny-Sandbu er to alternative traseer foreslått, og det ønskes særlig innspill til valget mellom dem.",
       "relevant": true,
-      "hvorfor_relevant": "Planforslaget gjelder ny E6 mellom Sjoa og Otta og rundkjøring mot rv. 15, altså samferdselsinfrastruktur i Innlandet."
+      "hvorfor_relevant": "Detaljregulering av E6 mellom Sjoa og Otta, med rundkjøring mot rv. 15, gjelder viktig veiinfrastruktur i Innlandet."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7758,7 +8521,7 @@
       "frist_maned": "",
       "publisert": "2026-10-05",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring rapporten Tidlig tilgang til legemidler for alvorlig syke med kort forventet levetid. I rapporten vurderes det hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Arbeids- og inkluderingsdepartementet",
@@ -7850,7 +8613,7 @@
       "ny": false,
       "sammendrag": "Rapporten vurderer hvordan legemidler med begrenset dokumentasjon av sikkerhet og effekt kan gjøres tilgjengelige utenfor kliniske studier for pasienter med alvorlig sykdom, kort forventet levetid og uten behandlingsmuligheter. Den foreslår blant annet endringer i regelverket om godkjenningsfritak.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder smal legemiddelregulering om godkjenningsfritak for alvorlig syke, uten merkbar virkning for kommunene."
+      "hvorfor_relevant": "Gjelder nasjonalt regelverk om godkjenningsfritak for legemidler, uten merkbar betydning for kommunene eller næringslivet i regionen."
     },
     {
       "kilde": "Regjeringen.no",
@@ -7864,7 +8627,7 @@
       "frist_maned": "",
       "publisert": "2026-09-30",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til endringer i opplæringsloven § 14-5 om å presisere at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -8012,7 +8775,7 @@
       "ny": false,
       "sammendrag": "Endring i opplæringsloven § 14-5 som presiserer at skolene kan tilby elevene å være med på gudstjenester og andre seremonier knyttet til religioner og livssyn.",
       "relevant": true,
-      "hvorfor_relevant": "Presiseringen i opplæringsloven § 14-5 gjelder alle grunnskoler og videregående skoler, og kommunene som skoleeiere må vurdere hvordan skolene skal tilby og håndtere gudstjenester og religiøse seremonier."
+      "hvorfor_relevant": "Endringen i opplæringsloven § 14-5 gjelder alle skoler, og kommunene som skoleeiere må forholde seg til hva skolene kan tilby elevene av gudstjenester og seremonier."
     },
     {
       "kilde": "Statens vegvesen",
@@ -8056,7 +8819,7 @@
       "frist_maned": "",
       "publisert": "2026-10-07",
       "ingress": "Kunnskapsdepartementet sender på høring forslag til endringer i lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringsloven) og lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot (privatskoleloven",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia – Forum for friskoler",
@@ -8195,7 +8958,7 @@
       "ny": false,
       "sammendrag": "Forslag om å lovfeste en plikt for offentlige og private skoler til å organisere deler av opplæringen i lesing, skriving og regning på 1.–2. trinn som smågruppeundervisning. Samtidig foreslås det å oppheve plikten til å tilby leksehjelp.",
       "relevant": true,
-      "hvorfor_relevant": "Kommunene som skoleeiere får ny plikt til smågruppeundervisning på 1.–2. trinn og slipper plikten til å tilby leksehjelp, noe som påvirker skoletilbud, økonomi og bemanning."
+      "hvorfor_relevant": "Kommunene og de offentlige skolene får plikt til smågruppeundervisning på 1.–2. trinn og mister plikten til å tilby leksehjelp, noe som påvirker tjenester, organisering og økonomi."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8209,7 +8972,7 @@
       "frist_maned": "",
       "publisert": "2026-10-21",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til endringer i lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova) og lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot (",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -8360,7 +9123,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i opplæringsloven om klage på standpunktkarakterer, permisjon fra grunnskolen og automatiserte vedtak om inntak til videregående berører kommunenes skoler og saksbehandling."
+      "hvorfor_relevant": "Nasjonale endringer i opplæringsloven om klagerett på standpunktkarakterer, permisjon og automatiserte inntaksvedtak berører kommuner som skoleeiere og fylkeskommunen som ansvarlig for videregående opplæring."
     },
     {
       "kilde": "Statens vegvesen",
@@ -8390,7 +9153,7 @@
       "ny": false,
       "sammendrag": "Forslag om å gjøre unntak fra forvaltningsloven og gi egne saksbehandlingsregler for varslings- og sikringsplaner ved arbeid på og ved offentlig veg. Det er en tilføyelse til den tidligere foreslåtte § 7 a i vegtrafikkloven.",
       "relevant": true,
-      "hvorfor_relevant": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan gjelde kommunene som vegeiere og byggherrer, og entreprenører i regionen."
+      "hvorfor_relevant": "Nye saksbehandlingsregler for varslings- og sikringsplaner ved vegarbeid kan gjelde kommunene som vegeiere og entreprenører som utfører arbeid på og ved offentlig veg."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8404,7 +9167,7 @@
       "frist_maned": "",
       "publisert": "2026-09-21",
       "ingress": "Kunnskapsdepartementet sender med dette på høring forslag til to nye rammeplaner for lærerutdanningene: Forskrift om rammeplan for lærerutdanningene og forskrift om rammeplan for de samiske lærerutdanningene. Kunnskapsdepartementet foreslår at de to",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -8597,7 +9360,7 @@
       "ny": false,
       "sammendrag": "Forslag om to nye forskrifter, én rammeplan for lærerutdanningene og én for de samiske lærerutdanningene, som skal erstatte dagens elleve rammeplaner for lærerutdanning.",
       "relevant": true,
-      "hvorfor_relevant": "Nye nasjonale rammeplaner for alle lærerutdanninger kan påvirke lærerutdanningen ved NTNU i Gjøvik og kommunenes tilgang på lærere i skole og barnehage."
+      "hvorfor_relevant": "Nye nasjonale rammeplaner for alle lærerutdanninger kan påvirke lærerutdanningen ved NTNU i Gjøvik og kommunenes tilgang på kvalifiserte lærere i skoler og barnehager."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8611,7 +9374,7 @@
       "frist_maned": "",
       "publisert": "2026-10-12",
       "ingress": "Kultur- og likestillingsdepartementet sender med dette på høring rapporten om regulering av pengespill-lignende elementer i dataspill. Rapporten er utarbeidet av Lotteri- og stiftelsestilsynet, i samarbeid med Medietilsynet, Norsk Filminstitutt og",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -8755,7 +9518,7 @@
       "ny": false,
       "sammendrag": "Lotteri- og stiftelsestilsynet foreslår endringer i pengespillregelverket slik at flere pengespill-lignende elementer i dataspill, som lootbokser, omfattes av pengespilloven. Utredningen beskriver tre alternative modeller og forslag til hva som skal regnes som innsats og premie.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan gjelde barn og unge i alle kommuner, og KS er blant høringsinstansene."
+      "hvorfor_relevant": "Nasjonale endringer i pengespillregelverket for lootbokser i dataspill kan berøre barn og unge i regionen og kommunenes forebyggende arbeid mot spillproblemer."
     },
     {
       "kilde": "Skatteetaten",
@@ -8794,7 +9557,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny modell for fordeling av skatt mellom skattekreditorene, med fordelingstall basert på landstotalen i stedet for kommunens egen skatt, kan endre kommunenes skatteinntekter og likviditet."
+      "hvorfor_relevant": "Ny fordelingsmodell for skatt mellom skattekreditorene, der kommunene er en av dem, kan endre hvordan og når kommunenes skatteinntekter fordeles og hvor stabile de blir."
     },
     {
       "kilde": "Regjeringen.no",
@@ -8808,7 +9571,7 @@
       "frist_maned": "",
       "publisert": "2026-10-14",
       "ingress": "Kunnskapsdepartementet sender med dette på offentlig høring forslag til endringer i forskrift om utdanningsstøtte med virkning fra studieåret 2027- 2028. Forslagene er basert på regjeringens budsjettforslag for 2027 som omtalt i Prop. 1 S (2026‒2027",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "22. juli-senteret",
@@ -9065,7 +9828,7 @@
       "ny": false,
       "sammendrag": "Forslag om tre endringer i forskrift om utdanningsstøtte: avkastning på erstatning eller forsikringsutbetaling for kritisk sykdom og personskade unntas behovsprøvingen av stipend, reglene om utstyrsstipend til elever som også er lærlinger oppdateres, og omgjøringen fra lån til stipend ved fullført folkehøgskole reduseres.",
       "relevant": true,
-      "hvorfor_relevant": "Endringer i regelverket for utdanningsstøtte i Lånekassen gjelder studenter og elever, blant andre ved NTNU i Gjøvik, og lærlinger og folkehøgskoleelever i regionen."
+      "hvorfor_relevant": "Nasjonale endringer i stipend og lån i Lånekassen, blant annet for folkehøgskole og lærlinger, kan berøre studenter og elever, blant annet ved NTNU i Gjøvik."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9079,7 +9842,7 @@
       "frist_maned": "",
       "publisert": "2026-10-15",
       "ingress": "Finansdepartementet sender med dette på høyring NOU 2026: 11 En ansvarlig, finansiell forvaltning, frå utvalet som har vurdert det etiske rammeverket for Statens pensjonsfond utland (SPU).",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "ACCR",
@@ -9218,7 +9981,307 @@
       "ny": false,
       "sammendrag": "Utvalgets vurderinger og forslag til endringer i det etiske rammeverket for Statens pensjonsfond utland, medregnet relevante deler av den ansvarlige forvaltningen. Utredningen foreslår også endringer i sentralbankloven om unntak fra innsyn etter offentleglova for visse saksdokumenter.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder det etiske rammeverket for Statens pensjonsfond utland, ikke kommunenes oppgaver, økonomi eller regionens næringsliv."
+      "hvorfor_relevant": "Gjelder det etiske rammeverket for Statens pensjonsfond utland, ikke kommunene eller regionen."
+    },
+    {
+      "kilde": "Regjeringen.no",
+      "kategori": "Regjeringen og departementene",
+      "prioritet": 1,
+      "instans": "Energidepartementet",
+      "tittel": "Høring - Forslag til ny forskrift om opprinnelsesgarantier",
+      "lenke": "https://www.regjeringen.no/no/dokumenter/horing-forslag-til-ny-forskrift-om-opprinnelsesgarantier/id3179002/",
+      "frist": "2027-01-18",
+      "frist_tekst": "Høringsfrist: 18.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-10-19",
+      "ingress": "Energidepartementet sender med dette på høring forslag til ny forskrift om opprinnelsesgarantier for produksjon av fornybar energi (forskrift om opprinnelsesgarantier).",
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "niva": "Regjeringen",
+      "horingsparter": [
+        "Samtlige departementer",
+        "Samtlige fylkeskommuner",
+        "Samtlige statsforvaltere",
+        "Sametinget / Sámediggi",
+        "ABP Fjernvarme Drift AS",
+        "Agva Kraft AS",
+        "Akershus Energi Varme",
+        "Aktieselskabet Saudefaldene",
+        "Alut AS",
+        "Andersen Bio",
+        "Aneo AS",
+        "Angarde AS",
+        "Antec Biogas",
+        "Area Nett AS",
+        "Asker Nett AS",
+        "Avinor AS",
+        "Barents NaturGass",
+        "Barents Nett AS",
+        "BE Varme AS",
+        "Bindal Kraftlag SA",
+        "Bio Energy AS",
+        "Biogass Norge",
+        "BIR Ressurs, biogassanlegg",
+        "BKK Nett AS",
+        "Bodø Energi AS",
+        "BOLIGBYGG OSLO KF",
+        "Breheim Nett AS",
+        "Bærum Energiomsetning AS",
+        "Bømlo Kraftnett AS",
+        "Cambi",
+        "CMS Kluge Advokatfirma AS",
+        "Datatilsynet",
+        "DE Nett AS",
+        "Den Magiske Fabrikken",
+        "Den norske Advokatforening",
+        "Direktoratet for byggkvalitet",
+        "DistriktsEnergi",
+        "Drammen Fjernvarme",
+        "Ecopro",
+        "Eidefoss Strøm AS",
+        "Eidsiva Bioenergi AS",
+        "Eiker Energi AS",
+        "EL & IT Forbundet",
+        "Elinett AS",
+        "Elmea AS",
+        "Elvenett AS",
+        "Elvia AS",
+        "ENAKTIVA AS",
+        "Enida AS",
+        "Enova SF",
+        "Etna Nett AS",
+        "Everket AS",
+        "Eviny Termo AS",
+        "Fagne AS",
+        "Felleskjøpet Rogaland Agder",
+        "Finans Norge",
+        "Finnsnes Fjernvarme AS",
+        "Fjellnett AS",
+        "Fjordkraft AS",
+        "Float Biogass",
+        "Follo Bioenergi AS",
+        "Follo Fjernvarme AS",
+        "Forbrukerrådet",
+        "Forbrukertilsynet",
+        "Fornybar Norge",
+        "Forsvarsbygg",
+        "Fortum Strøm AS",
+        "FORUS NÆRINGSPARK A/S",
+        "FOSENKRAFT ENERGI AS",
+        "Fredrikstad Fjernvarme AS",
+        "FREVAR",
+        "FREVAR KF",
+        "Fritzøe Energi AS",
+        "Føie AS",
+        "Gasum AS",
+        "Glitre Nett",
+        "Green Bio Sør AS",
+        "Griug AS",
+        "Grønn Byggallianse",
+        "GRØNN VEKST AS",
+        "Gudbrandsdal Energi AS",
+        "Hafslund Celsio AS",
+        "Hafslund E-CO AS",
+        "Hammerfest Energi Kraftomsetning AS",
+        "Haringnett AS",
+        "Haugaland Kraft Energi AS",
+        "Havila Biogass",
+        "Havnett AS",
+        "Helgeland Kraft Strøm AS",
+        "HELSE SØR-ØST RHF",
+        "Herøya Nett AS",
+        "Heygaz Norway AS",
+        "HRA",
+        "Hurum Kraft AS",
+        "Husbanken",
+        "Huseiernes Landsforbund",
+        "Hydro Energi AS",
+        "Hydro Husnes",
+        "Hyperthermics",
+        "Høland og Setskog Elverk AS",
+        "Indre Hordaland KraftNett AS",
+        "Inntre Energi AS",
+        "Ishavskraft AS",
+        "Istad Kraft AS",
+        "IVAR",
+        "JotunKraft AS",
+        "Jæren Everk AS",
+        "KE Nett AS",
+        "Kilden Kraft AS",
+        "KLEPP ENERGI AS",
+        "Klive AS",
+        "Klæbu Bioenergi AS",
+        "Kongsberg Teknologipark",
+        "Konkurransetilsynet",
+        "Kraftriket AS",
+        "KS - Kommunesektorens organisasjon",
+        "Kvitebjørn Varme AS",
+        "Kystnett AS",
+        "Landbruksdirektoratet",
+        "Landsorganisasjonen i Norge",
+        "Lede AS",
+        "Lindum",
+        "Linea AS",
+        "Linja AS",
+        "Lnett AS",
+        "Lucerna AS",
+        "Lunera Energi AS",
+        "Lyse Bio",
+        "Lyse Energi AS",
+        "Lyse Neo AS",
+        "Lysna AS",
+        "Mellom AS",
+        "Meløy Energi AS",
+        "Midtnett AS",
+        "Miljøstiftelsen Bellona",
+        "Miljøvarme VSEB",
+        "Mjøsanlegget",
+        "Mo Fjernvarme AS",
+        "Modalen Kraftlag AS",
+        "Moelven Bioenergi AS",
+        "Molgas Norway AS",
+        "Motkraft AS",
+        "Multiconsult ASA",
+        "Naturvernforbundet",
+        "Nettselskapet AS",
+        "NHO Elektro",
+        "Nippon Sanso Norge AS",
+        "Noranett Andøy AS",
+        "Noranett Hadsel AS",
+        "Noranett Hålogaland AS",
+        "NORD ENERGI AS",
+        "Nordvest Nett AS",
+        "Nord-Østerdal Kraftlag SA",
+        "Norefjell Nett AS",
+        "Norges Bondelag",
+        "Norges Hytteforbund",
+        "Norges Miljøvernforbund",
+        "Norsk Bioenergiforening - NoBio",
+        "Norsk Biogass AS",
+        "Norsk Eiendom",
+        "Norsk elbilforening",
+        "Norsk Fjernvarme",
+        "Norsk Klimastiftelse",
+        "Norsk solenergiforening",
+        "Norsk Varmepumpeforening",
+        "NorskBioVarme",
+        "Norske Boligbyggelag Landsforbund SA",
+        "Nortura",
+        "NRVA IKS",
+        "Nydalen Energi AS",
+        "Nærenergi",
+        "Næringslivets Hovedorganisasjon",
+        "NØK Biovarme AS",
+        "OBOS",
+        "Orkland Energi Varme AS",
+        "Oslo kommune",
+        "Oslofjord Varme AS",
+        "Pitel Energy AS",
+        "Polarkraft AS",
+        "Polyteknisk Forening",
+        "Rakkestad Energi AS",
+        "Rauland Kraft AS",
+        "Rauma Energi AS",
+        "Redo Biosolutions",
+        "Renevo / Heygaz",
+        "Renovasjons- og gjenvinningsetaten, Oslo",
+        "RK Nett AS",
+        "R-Nett AS",
+        "Rogaland Biogassnettverk",
+        "Romsdalsnett AS",
+        "Rørentreprenørene Norge",
+        "Røros E-verk Nett AS",
+        "Røstad Biovarme AS",
+        "Rå Biopark",
+        "Råde Fjernvarme AS",
+        "Saga Energi AS",
+        "Sameiet Fjell Fyrings- og servicesentral",
+        "Samfunnsbedriftene",
+        "Sandnessjøen Fjernvarme AS",
+        "SAUDA ENERGI AS",
+        "SFE Produksjon AS",
+        "SINTEF Energi AS",
+        "Sira Kvina Kraftselskap",
+        "Skagerak Energipartner",
+        "Skagerak Varme AS",
+        "Skatteetaten",
+        "SLEMMESTAD ENERGI AS",
+        "S-Nett AS",
+        "SOGNEKRAFT PRODUKSJON AS",
+        "Solør Bioenergi Varme AS",
+        "St1 Biokraft",
+        "Stannum AS",
+        "Statistisk Sentralbyrå",
+        "Statkraft AS",
+        "Statkraft Varme AS",
+        "Statnett SF",
+        "Stram AS",
+        "Straumen Nett AS",
+        "Straumnett AS",
+        "Strøyma AS",
+        "Stølslie Biovarme AS",
+        "Sunndal Energi AS",
+        "Svabo Industrinett",
+        "Svorka Energi AS",
+        "Sygnir AS",
+        "Sømna Biogass",
+        "Sør Aurdal Energi AS",
+        "Tafjord Kraftvarme AS",
+        "Telemark Nett AS",
+        "Tensio TN AS",
+        "Tensio TS AS",
+        "TERRAMARINE AS",
+        "Thermokraft AS",
+        "Tibber AS",
+        "TINE",
+        "Tinfos AS",
+        "Trebio AS",
+        "Troms Kraft AS",
+        "Trøndelagkraft AS",
+        "Uvdal Kraftforsyning SA",
+        "Valdres Biovarme AS",
+        "Varanger Kraft AS",
+        "Vardar Varme AS",
+        "VEAS / Veas Marked AS",
+        "VEFSN KOMMUNE",
+        "Vestall AS",
+        "Vesterålskraft AS",
+        "Vestmar Nett AS",
+        "Vevig AS",
+        "Vibb AS",
+        "Vireo",
+        "Vissi AS",
+        "Voss Energi Kraft AS",
+        "Wattn AS",
+        "Zero Emission Resource Organisation",
+        "Østfold Energi AS",
+        "Øvre Eiker Fjernvarme AS",
+        "Å Energi Varme AS",
+        "Årdal Kraftlag AS"
+      ],
+      "horingsparter_merknad": "",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "id": "afa07904cb23",
+      "partkategorier": {
+        "Alle fylkeskommuner": 1,
+        "Statsforvaltere": 1,
+        "Kommuner og fylkeskommuner": 3,
+        "Departementer og direktorater": 11,
+        "Organisasjoner": 19,
+        "Andre": 224
+      },
+      "regionflagg": [
+        "Alle fylkeskommuner",
+        "KS"
+      ],
+      "alltid_med": "Mjøsa",
+      "prioritet_grunn": "gjelder Mjøsa og vann",
+      "forst_sett": "2026-11-03",
+      "ny": true,
+      "sammendrag": "Ny forskrift om opprinnelsesgarantier skal erstatte dagens forskrift og utvide ordningen, slik at det også kan utstedes garantier for biogass, fornybar gass av ikke-biologisk opprinnelse, og fornybar varme og kjøling, i tillegg til elektrisitet.",
+      "relevant": true,
+      "hvorfor_relevant": ""
     },
     {
       "kilde": "Regjeringen.no",
@@ -9232,7 +10295,7 @@
       "frist_maned": "",
       "publisert": "2026-10-20",
       "ingress": "Helse- og omsorgsdepartementet sender på høring rapporten Likeverdige spesialisthelsetjenester til samene i Norge. Ekspertutvalget for samiske spesialisthelsetjenester ble nedsatt 24. juni 2025 for å gjennomføre en utredning for blant annet å",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Kommunal- og distriktsdepartementet",
@@ -9391,7 +10454,7 @@
       "ny": false,
       "sammendrag": "Rapporten fra ekspertutvalget vurderer om statens forpliktelser overfor den samiske befolkningen blir ivaretatt i spesialisthelsetjenesten. Den anbefaler en nasjonal struktur med nasjonal enhet for samisk helse, samiske helseteam og samiske sykehusprogram.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder organisering av samiske spesialisthelsetjenester, hovedsakelig i samiske områder og under staten og de regionale helseforetakene."
+      "hvorfor_relevant": "Gjelder organisering av samiske spesialisthelsetjenester, med vekt på samiske områder i nord og midt i landet."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9405,7 +10468,7 @@
       "frist_maned": "",
       "publisert": "2026-10-19",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring forslag til ny lov om fylkeskommunale tannhelsetjenester, med tilhørende regelverksendringer i pasient- og brukerrettighetsloven, helse- og omsorgstjenesteloven, spesialisthelsetjenesteloven,",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -9805,7 +10868,7 @@
         }
       ],
       "relevant": true,
-      "hvorfor_relevant": "Ny lov om fylkeskommunale tannhelsetjenester med endringer i helse- og omsorgstjenesteloven berører grensegangen mot kommunale helsetjenester og tannhelsetilbudet til innbyggerne, og kommunene er høringsinstans."
+      "hvorfor_relevant": "Ny lov om tannhelsetjenester endrer helse- og omsorgstjenesteloven og grensegangen mot kommunale helsetjenester, og kommunene er høringsinstanser."
     },
     {
       "kilde": "Statens vegvesen",
@@ -9835,7 +10898,7 @@
       "ny": false,
       "sammendrag": "Forslag til endringer i vegtrafikkloven og førerkort- og trafikkopplæringsforskriften som følge av fjerde førerkortdirektiv, blant annet ledsaget kjøring for 17-åringer i klasse B og høyere vektgrense for klasse B og BE med alternativt drivstoff. Også regler om mindreåriges handleevne i førerkortsaker.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale førerkortregler om ledsaget kjøring fra 17 år og høyere vektgrense for alternativt drivstoff berører innbyggere, trafikkopplæring og transportnæringen i regionen."
+      "hvorfor_relevant": "Nasjonale førerkortregler som ledsaget kjøring fra 17 år og høyere vektgrense for alternativt drivstoff gjelder alle kommuner, innbyggere og transportnæring."
     },
     {
       "kilde": "Regjeringen.no",
@@ -9849,7 +10912,7 @@
       "frist_maned": "",
       "publisert": "2026-10-28",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring forslag til endringer i utlendingsforskriften kapittel 6 for å motvirke misbruk av arbeidsinnvandringsregelverket og for å legge til rette for en raskere og mer ressurseffektiv",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Abelia",
@@ -9964,7 +11027,7 @@
       "ny": true,
       "sammendrag": "Forslag om endringer i utlendingsforskriften kapittel 6 for å motvirke misbruk av arbeidsinnvandringsregelverket og gi raskere saksbehandling. Blant annet skal oppholdstillatelse som faglært og som selvstendig næringsdrivende bli «kan-bestemmelser», og tilbud om arbeid skal bekreftes digitalt.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonale endringer i regelverket for arbeidsinnvandring kan påvirke lokale bedrifters tilgang på faglært arbeidskraft og NTNU i Gjøvik gjennom stipendiaters og nyutdannedes arbeidsrett."
+      "hvorfor_relevant": "Endrede regler for arbeidsinnvandring og oppholdstillatelse for faglærte og selvstendig næringsdrivende kan påvirke bedrifter i regionen som rekrutterer utenlandsk arbeidskraft, og NTNU i Gjøvik gjennom doktorgradsstipendiater og nyutdannede."
     },
     {
       "kilde": "Miljødirektoratet",
@@ -9994,7 +11057,7 @@
       "ny": false,
       "sammendrag": "Definisjonen av plastholdig løst fyllmateriale i forurensningsforskriften kapittel 23A foreslås harmonisert med Reach-forskriftens definisjon av syntetiske polymere mikropartikler. Det skal vurderes om størrelsesgrensen på 5 mm også skal gjelde, eller om reglene skal gjelde uavhengig av størrelse.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt regelverk om plastholdig fyllmateriale, som granulat på idrettsbaner, kan endre krav til kommunene som baneeiere og myndighet."
+      "hvorfor_relevant": "Nasjonal endring i forurensningsforskriften som gjelder alle kommuner, blant annet regler for plastholdig fyllmateriale på idrettsbaner og hindring av spredning til miljøet."
     },
     {
       "kilde": "Regjeringen.no",
@@ -10008,7 +11071,7 @@
       "frist_maned": "",
       "publisert": "2026-10-28",
       "ingress": "Arbeids- og inkluderingsdepartementet sender med dette på høring utkast til en helhetlig strategi for informasjon om pensjon.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -10091,7 +11154,7 @@
       "ny": true,
       "sammendrag": "Utkast til en helhetlig strategi for pensjonsinformasjon, som skal gjøre det enklere å forstå økonomiske konsekvenser av valg som uttakstidspunkt, bidra til tillit til pensjonssystemet og sikre oppslutning om pensjonsreformen. Utkastet tar også for seg brukere som ikke er fortrolige med digitale verktøy, og brukere med begrensede norskkunnskaper.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonal strategi for pensjonsinformasjon berører innbyggerne i regionen, også brukere med svake digitale eller norskkunnskaper, og kommunene som arbeidsgivere med tjenestepensjon og som veiledere for innbyggerne."
+      "hvorfor_relevant": "Nasjonal strategi for pensjonsinformasjon gjelder alle innbyggere, også brukere med svake digitale eller norskspråklige ferdigheter, og kan berøre kommunene som arbeidsgivere og tjenesteytere."
     },
     {
       "kilde": "Arbeidstilsynet",
@@ -10121,7 +11184,7 @@
       "ny": false,
       "sammendrag": "Arbeidstilsynet foreslår å fjerne kravet om obligatorisk røntgenundersøkelse av lungene for personer som skal utføre bergarbeid. Kravet står i dag i forskrift om utførelse av arbeid (FUA) § 27-29.",
       "relevant": true,
-      "hvorfor_relevant": "Nasjonalt forskriftskrav om røntgenundersøkelse av lungene for alle som utfører bergarbeid kan berøre bedrifter og arbeidstakere i regionen som driver slikt arbeid."
+      "hvorfor_relevant": "Forslaget endrer nasjonalt helsekrav for alle som utfører bergarbeid, og kan derfor berøre arbeidsgivere og arbeidstakere i bergarbeid og anlegg i regionen."
     },
     {
       "kilde": "Helsedirektoratet",
@@ -10167,7 +11230,7 @@
       "ny": false,
       "sammendrag": "Forslag til hvordan legespesialiseringen og legespesialitetene i større grad kan rettes mot breddekompetanse og behovene i kommunal helse- og omsorgstjeneste. Utredningen prioriterer spesialiteter med felles kirurgisk eller indremedisinsk del.",
       "relevant": true,
-      "hvorfor_relevant": "Endringer i legenes spesialistutdanning mot breddekompetanse og behov i den kommunale helse- og omsorgstjenesten kan påvirke legetilgang og tjenester til eldre i kommunene."
+      "hvorfor_relevant": "Legespesialiseringen skal innrettes mot behov i kommunal helse- og omsorgstjeneste, noe som kan påvirke legetilgang og kompetanse i kommunene, særlig for eldre pasienter."
     },
     {
       "kilde": "Regjeringen.no",
@@ -10181,7 +11244,7 @@
       "frist_maned": "",
       "publisert": "2026-11-02",
       "ingress": "Helse- og omsorgsdepartementet sender med dette på høring NOU 2026: 12 - Én helsetjeneste fra utvalget som fikk i oppdrag å utrede og foreslå modeller for å sikre en sammenhengende og bærekraftig helse- og omsorgstjeneste i Norge.",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Aldring og helse",
@@ -10465,7 +11528,7 @@
       "ny": true,
       "sammendrag": "Et utvalg har utredet og foreslått modeller for hvordan helse- og omsorgstjenesten i Norge kan organiseres, styres og finansieres som en sammenhengende tjeneste. Utvalget vurderer også ansvarsfordelingen mellom kommune, fylkeskommune og spesialisthelsetjenesten, og samarbeid med private aktører.",
       "relevant": true,
-      "hvorfor_relevant": "Utvalget vurderer ansvarsfordelingen mellom kommunale helse- og omsorgstjenester og spesialisthelsetjenesten, og kan endre kommunenes oppgaver, styring og finansiering."
+      "hvorfor_relevant": "Utvalget vurderer ansvarsfordeling mellom kommunal helse- og omsorgstjeneste og spesialisthelsetjenesten, samt organisering, styring og finansiering, noe som kan endre kommunenes oppgaver og økonomi."
     },
     {
       "kilde": "Regjeringen.no",
@@ -10479,7 +11542,7 @@
       "frist_maned": "",
       "publisert": "2026-11-02",
       "ingress": "Justis- og beredskapsdepartementet sender med dette på høring forslag til endringer i straffeloven, straffeprosessloven og politiloven",
-      "hentet": "2026-11-02T20:12:32+01:00",
+      "hentet": "2026-11-03T21:00:39+01:00",
       "niva": "Regjeringen",
       "horingsparter": [
         "Departementene",
@@ -10656,7 +11719,7 @@
       "ny": false,
       "sammendrag": "Forslaget endrer særavgiftsforskriften slik at den reduserte CO2-avgiftssatsen for kvotepliktig sjøfart også gjelder større offshore-fartøy. Kvotepliktig sjøfart fra norsk til utenlandsk havn via installasjoner på norsk sokkel utenfor innsatsfordelingsforordningen foreslås fritatt.",
       "relevant": false,
-      "hvorfor_relevant": "Gjelder bare CO2-avgift for kvotepliktig sjøfart og offshore-fartøy, en næring som knapt finnes i regionen."
+      "hvorfor_relevant": "Gjelder CO2-avgift for kvotepliktig sjøfart og offshore-fartøy, som ikke finnes i regionen."
     }
   ]
 }

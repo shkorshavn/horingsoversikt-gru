@@ -1,6 +1,6 @@
 {
-  "generert": "2026-11-03T21:00:36+01:00",
-  "kjoretid_sekunder": 269.5,
+  "generert": "2026-11-03T21:07:48+01:00",
+  "kjoretid_sekunder": 267.5,
   "kilder": [
     {
       "kilde": "Stortinget",
@@ -15,10 +15,10 @@
       "kilde": "Regjeringen.no",
       "kjoring": "pc",
       "status": "ok",
-      "hentet": "2026-11-02T20:12:32+01:00",
-      "sist_ok": "2026-11-02T20:12:32+01:00",
-      "antall": 54,
-      "sekunder": 25.9
+      "hentet": "2026-11-03T21:00:39+01:00",
+      "sist_ok": "2026-11-03T21:00:39+01:00",
+      "antall": 59,
+      "sekunder": 23.9
     },
     {
       "kilde": "Statens vegvesen",

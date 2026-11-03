@@ -226,47 +226,48 @@ felles:
       ord:
         # Mjøsa og elvene rundt
         - Mjøsa
+        - Mjøsas
         - Vorma
-        - Gudbrandsdalslågen
+        - Gudbrandsdalslågen*
         - Hunnselva
         - Lenaelva
         # Innsjøer og vannforvaltning
-        - innsjø
-        - vannforskrift
-        - vannforvaltning
-        - vannområde
-        - vannregion
+        - innsjø*
+        - vannforskrift*
+        - vannforvaltning*
+        - vannområde*
+        - vannregion*
         # Ammunisjon
-        - ammunisjon + Mjøsa
-        - ammunisjon + innsjø
-        - dumpet ammunisjon
+        - ammunisjon* + Mjøsa
+        - ammunisjon* + innsjø*
+        - dumpet ammunisjon*
         # Regulering
-        - vassdragsregulering
-        - reguleringskonsesjon
-        - manøvreringsreglement
+        - vassdragsregulering*
+        - reguleringskonsesjon*
+        - manøvreringsreglement*
       # Treffer bare i tittel og ingress. Ordene er vanlige i lange tekster om noe annet (f.eks.
       # nevnte høringen om Svalbard drikkevann på høringssiden, en vegplan nevnte flom, og
       # Kystverkets fartsgrenser på sjøen nevnte kommunale fartsforskrifter).
       ord_tittel:
-        - vannkvalitet
-        - vannmiljø
-        - overvåking + vassdrag
-        - avrenning
-        - utslipp til vann
-        - utslipp til vassdrag
-        - utslipp til innsjø
-        - fartsforskrift
-        - fartsgrense + innsjø
-        - fartsgrense + vassdrag
-        - fartsgrense + båt
-        - båttrafikk
-        - fritidsbåt
-        - småbåt
-        - vannscooter
-        - drikkevann
-        - vannverk
-        - vannforsyning
-        - flom
+        - vannkvalitet*
+        - vannmiljø*
+        - overvåking* + vassdrag*
+        - avrenning*
+        - utslipp til vann*
+        - utslipp til vassdrag*
+        - utslipp til innsjø*
+        - fartsforskrift*
+        - fartsgrense* + innsjø*
+        - fartsgrense* + vassdrag*
+        - fartsgrense* + båt*
+        - båttrafikk*
+        - fritidsbåt*
+        - småbåt*
+        - vannscooter*
+        - drikkevann*
+        - vannverk*
+        - vannforsyning*
+        - flom*
 
   # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
   # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar

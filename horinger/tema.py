@@ -6,9 +6,9 @@ flom eller vassdragsregulering skal alltid være med. Ordene står i
 `felles.relevans.alltid_med` i sources.yaml: `ord` treffer i tittel, ingress og teksten fra
 høringssiden, og `ord_tittel` bare i tittel og ingress (vanlige ord som ellers gir falske treff).
 
-Et ord treffer når teksten har et ord som begynner slik (store og små bokstaver spiller ingen
-rolle), slik at «innsjø» også treffer «innsjøer». Et oppslag med « + » krever at alle delene
-står i teksten, f.eks. «ammunisjon + Mjøsa».
+Store og små bokstaver spiller ingen rolle. Et ord med * treffer ord som begynner slik
+(«innsjø*» treffer «innsjøer»), og et ord uten * må stå som helt ord («Mjøsa»). Et oppslag med
+« + » krever at alle delene står i teksten, f.eks. «ammunisjon* + Mjøsa».
 """
 
 from __future__ import annotations
@@ -17,7 +17,12 @@ import re
 
 
 def _monster(ord_: str) -> re.Pattern[str]:
-    return re.compile(rf"(?<![\wæøå]){re.escape(ord_.strip())}", re.IGNORECASE)
+    """«innsjø*» treffer ord som begynner slik («innsjøer»). Uten * må hele ordet stemme, slik at
+    «Mjøsa» ikke treffer firmanavn som «Mjøsanlegget» i lister over høringsparter."""
+    ord_ = ord_.strip()
+    if ord_.endswith("*"):
+        return re.compile(rf"(?<![\wæøå]){re.escape(ord_[:-1])}", re.IGNORECASE)
+    return re.compile(rf"(?<![\wæøå]){re.escape(ord_)}(?![\wæøå])", re.IGNORECASE)
 
 
 class AlltidMed:

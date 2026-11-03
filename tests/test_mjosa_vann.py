@@ -31,16 +31,16 @@ AM = fra_felles(FELLES)
     ("tittel", "detaljtekst", "treff"),
     [
         ("Tiltak mot dumpet ammunisjon i Mjøsa", "", "Mjøsa"),
-        ("Mjøsas vannkvalitet", "", "Mjøsa"),
-        ("Overvåking av innsjøer i Innlandet", "", "innsjø"),
-        ("Endringer i vannforskriften", "", "vannforskrift"),
-        ("Lokal fartsforskrift for Randsfjorden", "", "fartsforskrift"),
-        ("Nye regler for fritidsbåter", "", "fritidsbåt"),
-        ("Fartsgrense for båter på elva", "", "fartsgrense + båt"),
-        ("Grenseverdi for PFAS i drikkevannsforskriften", "", "drikkevann"),
-        ("Revisjon av vilkår for vassdragsregulering i Lågen", "", "vassdragsregulering"),
-        ("Sikringstiltak for flom og skred", "", "flom"),
-        ("Overtredelsesgebyr for avrenning", "", "avrenning"),
+        ("Mjøsas vannkvalitet", "", "Mjøsas"),
+        ("Overvåking av innsjøer i Innlandet", "", "innsjø*"),
+        ("Endringer i vannforskriften", "", "vannforskrift*"),
+        ("Lokal fartsforskrift for Randsfjorden", "", "fartsforskrift*"),
+        ("Nye regler for fritidsbåter", "", "fritidsbåt*"),
+        ("Fartsgrense for båter på elva", "", "fartsgrense* + båt*"),
+        ("Grenseverdi for PFAS i drikkevannsforskriften", "", "drikkevann*"),
+        ("Revisjon av vilkår for vassdragsregulering i Lågen", "", "vassdragsregulering*"),
+        ("Sikringstiltak for flom og skred", "", "flom*"),
+        ("Overtredelsesgebyr for avrenning", "", "avrenning*"),
         # Detaljteksten: bare `ord`, ikke `ord_tittel`.
         ("Karbonfangstanlegg på Trehørningen", "Kondensat slippes ut til Mjøsa.", "Mjøsa"),
         ("Næringsmiddelforskrifter for Svalbard", "Gjelder også drikkevann.", ""),
@@ -50,7 +50,9 @@ AM = fra_felles(FELLES)
         ("Endringer i CO2-avgiften", "Utslipp av CO2.", ""),
         ("Ammunisjon til Forsvaret", "", ""),
         ("Fartsgrense på vei ved Gjøvik", "", ""),
-        ("Flomberegning", "", "flom"),
+        ("Flomberegning", "", "flom*"),
+        # Hele ord uten *: firmanavn i lister over høringsparter treffer ikke.
+        ("Opprinnelsesgarantier", "Høringsparter: Mjøsanlegget, Lyse", ""),
     ],
 )
 def test_alltid_med_ordene(tittel, detaljtekst, treff):
@@ -58,8 +60,8 @@ def test_alltid_med_ordene(tittel, detaljtekst, treff):
 
 
 def test_alltid_med_krever_alle_deler():
-    am = AlltidMed({"ord": ["ammunisjon + Mjøsa"]})
-    assert am.treff("Ammunisjon i Mjøsa") == "ammunisjon + Mjøsa"
+    am = AlltidMed({"ord": ["ammunisjon* + Mjøsa"]})
+    assert am.treff("Ammunisjonen i Mjøsa") == "ammunisjon* + Mjøsa"
     assert am.treff("Ammunisjon") == ""
     assert am.treff("Mjøsa") == ""
     assert AlltidMed(None).treff("Mjøsa") == ""

@@ -20,6 +20,7 @@ from datetime import date
 from pathlib import Path
 
 from horinger.sammendrag import Sammendrag, grunnlag, kjor_oppgave, sjekksum
+from horinger.tema import AlltidMed
 
 # Økes når tolkingen endres. Instruksen selv inngår i sjekksummen.
 VERSJON = 1
@@ -37,6 +38,14 @@ Relevant er høringer som kan påvirke
 - innbyggerne, næringslivet, arbeidsplassene eller kompetansemiljøene i regionen
 - samferdsel, energi, natur, landbruk eller annen infrastruktur i Innlandet.
 Nasjonale regler som gjelder alle kommuner eller hele landet, er relevante.
+
+Høringer om disse temaene er ALLTID relevante, uansett avsender:
+- Mjøsa, innsjøer og elvene i Innlandet
+- vannkvalitet, vannforvaltning og overvåking av innsjøer og vassdrag
+- fartsgrenser og regler for båttrafikk på innsjøer og elver
+- utslipp og avrenning til innsjøer og vassdrag
+- ammunisjon eller annet avfall i Mjøsa eller andre innsjøer
+- drikkevann og vannverk, flom og vassdragsregulering.
 
 Ikke relevant er høringer som
 - bare gjelder et annet område, f.eks. Svalbard, Nord-Norge, kysten eller havet
@@ -97,7 +106,10 @@ class Relevans(Sammendrag):
         self.relevanskonfig = relevanskonfig
 
     def hopp_over(self, h: dict) -> bool:
-        """Høringer som treffer en fast regel, vurderes ikke av KI-en."""
+        """Høringer som treffer en fast regel om å utelate, vurderes ikke av KI-en. Høringer som
+        også treffer «alltid med», vurderes likevel, slik at de får «Hvorfor relevant»."""
+        if AlltidMed(self.relevanskonfig.get("alltid_med")).treff_hoering(h):
+            return False
         return fast_regel(h, self.relevanskonfig) is not None
 
     def sjekksum(self, h: dict) -> str:
@@ -135,14 +147,20 @@ def fast_regel(h: dict, konfig: dict) -> str | None:
 def vurder(h: dict, svar: dict | None, konfig: dict) -> dict:
     """Feltene nettsiden får for én høring: `relevant` og `hvorfor_relevant`.
 
-    Høringer som treffer en fast regel (`alltid_utelat`), utelates alltid. Ellers utelates
-    aldri høringer der regionen er høringspart, som Gjøvik kommune har mottatt, eller som kommer
-    fra et nivå i `aldri_utelat_niva` (Innlandet fylkeskommune og Statsforvalteren). Mangler
-    vurderingen, er høringen med.
+    Rekkefølgen (Svein 28.10. og 03.11.2026):
+    1. «Alltid med» for Mjøsa og vann (`alltid_med`, sprint 12): alltid med. Treffet er lagret i
+       `h["alltid_med"]` av bygg.py, ellers vurderes tittel og ingress her.
+    2. Faste regler (`alltid_utelat`), f.eks. representantforslag: alltid utelatt.
+    3. Vern: høringer der regionen er høringspart, som Gjøvik kommune har mottatt, eller som
+       kommer fra et nivå i `aldri_utelat_niva`, utelates aldri.
+    4. KI-vurderingen. Mangler den, er høringen med.
     """
+    svar = svar or {}
+    if h.get("alltid_med") or AlltidMed(konfig.get("alltid_med")).treff_hoering(h):
+        hvorfor = svar.get("hvorfor", "") if svar.get("relevant", True) is not False else ""
+        return {"relevant": True, "hvorfor_relevant": hvorfor}
     if (grunn := fast_regel(h, konfig)) is not None:
         return {"relevant": False, "hvorfor_relevant": grunn}
-    svar = svar or {}
     relevant = svar.get("relevant", True) is not False
     vernet = (
         bool(h.get("regionflagg"))

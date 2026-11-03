@@ -118,7 +118,11 @@ class Vegvesen(Kilde):
         return resultat
 
     def er_relevant(self, felter: dict, filter_: GeografiFilter) -> bool:
-        """Vurderer listen først, og detaljsiden bare hvis listen ikke gir treff."""
+        """Vurderer listen først, og detaljsiden bare hvis listen ikke gir treff. Høringer som
+        treffer «alltid med» (Mjøsa og vann, sprint 12), er alltid relevante."""
+        if grunn := self.alltid_med(felter["tittel"]):
+            log.info("Relevant prosjekthøring (alltid med: %s): %s", grunn, felter["tittel"])
+            return True
         treff = filter_.vurder(f"{felter['tittel']} {felter['lenke']}")
         if not treff.relevant:
             try:

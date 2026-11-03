@@ -20,12 +20,15 @@ API = BASE + "hearingslistpage/gethearings?skip={skip}&searchTerm=&searchExpired
 MAKS_SIDER = 10
 
 
-def tolk(data: dict, utelat_tema: set[str]) -> list[dict]:
-    """Gjør én side fra API-et om til høringsfelt. Utelatte temaer hoppes over."""
+def tolk(data: dict, utelat_tema: set[str], alltid_med=None) -> list[dict]:
+    """Gjør én side fra API-et om til høringsfelt. Utelatte temaer hoppes over, unntatt
+    høringer som treffer «alltid med» (Mjøsa og vann, sprint 12)."""
     resultat = []
     for h in data.get("hearings") or []:
         tema = [t.strip() for t in h.get("subjects") or []]
-        if utelat_tema & {t.lower() for t in tema}:
+        if utelat_tema & {t.lower() for t in tema} and not (
+            alltid_med and alltid_med(h.get("title") or "")
+        ):
             continue
         frist = h.get("deadline") or ""
         ingress = "Tema: " + ", ".join(tema) + "." if tema else ""
@@ -57,7 +60,7 @@ class Miljodirektoratet(Kilde):
             data = self.nett.hent(API.format(skip=side * 20)).json()
             antall = len(data.get("hearings") or [])
             sett += antall
-            felt += tolk(data, utelat)
+            felt += tolk(data, utelat, self.alltid_med)
             if antall == 0 or sett >= int(data.get("totalMatching") or 0):
                 break
         return [self.lag_hoering(**f) for f in felt]

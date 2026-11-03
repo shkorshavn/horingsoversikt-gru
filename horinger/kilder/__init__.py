@@ -11,6 +11,7 @@ from horinger.kilder.etater import (
     Arbeidstilsynet,
     Dmp,
     EnkeltSide,
+    Kystverket,
     Landbruksdirektoratet,
     Mattilsynet,
     Nasjonalarkivet,
@@ -57,4 +58,6 @@ KILDER: dict[str, type[Kilde]] = {
     "politiet": Politiet,
     "skatteetaten": Skatteetaten,
     "enkeltside": EnkeltSide,
+    # Sprint 12: Mjøsa og vann
+    "kystverket": Kystverket,
 }

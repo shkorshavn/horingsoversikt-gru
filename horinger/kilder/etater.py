@@ -19,6 +19,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from horinger import OSLO
 from horinger.datoer import (
     frist_etter_ord,
     fristtekst,
@@ -289,6 +290,27 @@ def tolk_nasjonalarkivet(html: str, base: str) -> list[dict]:
     return resultat
 
 
+def tolk_kystverket(html: str, base: str) -> list[dict]:
+    """Kystverket: kort med tittel, kort ingress og publiseringsdato. Fristen står på
+    detaljsiden. Alle høringene, også tidligere, står på én side (sprint 12)."""
+    suppe = BeautifulSoup(html, "html.parser")
+    resultat, sett = [], set()
+    for kort in suppe.select(".card__inner"):
+        a = kort.select_one("a.card__headline-link[href]")
+        if a is None:
+            continue
+        lenke = urljoin(base, a["href"])
+        if lenke in sett or "/regelverk/horinger/" not in lenke:
+            continue
+        sett.add(lenke)
+        tid = kort.select_one(".card__pubdate time[datetime]")
+        tidspunkt = tolk_iso(tid["datetime"].replace(" ", "T")) if tid else None
+        publisert = tidspunkt.astimezone(OSLO).date() if tidspunkt else None
+        # Ingressen i listen er kuttet midt i et ord. Ingressen fra detaljsiden brukes i stedet.
+        resultat.append({"tittel": _tekst(a), "lenke": lenke, "publisert": publisert})
+    return resultat
+
+
 # ---------- Kildene ----------
 
 
@@ -467,6 +489,24 @@ class Skatteetaten(ListeMedDetalj):
             if h["publisert"] and h["publisert"] >= i_dag() - NYHET_MAKS_ALDER
         ]
         return sorted(nye, key=lambda h: h["publisert"], reverse=True)
+
+
+class Kystverket(ListeMedDetalj):
+    """Kystverkets høringer (sprint 12). Bare høringer om Mjøsa og vann («alltid med») eller
+    som nevner et sted i geografien tas med, siden de fleste gjelder kysten og havet."""
+
+    instans = "Kystverket"
+
+    def tolk_liste(self, html, base):
+        return tolk_kystverket(html, base)
+
+    def godta(self, h):
+        tekst = f"{h['tittel']} {h.get('ingress', '')}"
+        detaljtekst = h.get("_tekst", "")
+        if self.alltid_med(tekst, detaljtekst):
+            return True
+        geografi = GeografiFilter(self.felles.get("geografi", {}))
+        return geografi.vurder(f"{tekst} {detaljtekst}").relevant
 
 
 class EnkeltSide(Kilde):

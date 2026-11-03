@@ -80,13 +80,16 @@ def tolk_forskriftsdetalj(html: str, publisert: date | None) -> tuple[date | Non
     return frist, setning_med_frist(tekst), ingress
 
 
-def tolk_konsesjoner(data: dict, geografi: GeografiFilter) -> list[dict]:
-    """Konsesjonssaker på høring i kommunene geografien omfatter."""
+def tolk_konsesjoner(data: dict, geografi: GeografiFilter, alltid_med=None) -> list[dict]:
+    """Konsesjonssaker på høring i kommunene geografien omfatter, og saker som treffer
+    «alltid med» (Mjøsa og vann, sprint 12)."""
     resultat = []
     for sak in data.get("Licenses") or []:
         kommune = (sak.get("Kommune") or "").strip()
         tittel = (sak.get("Tittel") or "").strip()
-        if not geografi.vurder(f"{kommune} {tittel}").relevant:
+        if not geografi.vurder(f"{kommune} {tittel}").relevant and not (
+            alltid_med and alltid_med(tittel)
+        ):
             continue
         frist = tolk_iso(sak.get("Hoeringsfrist"))
         tiltakshaver = (sak.get("Tiltakshaver") or "").strip()
@@ -114,7 +117,7 @@ class Nve(Kilde):
         """Henter begge delkildene."""
         felt = self._forskrifter()
         geografi = GeografiFilter(self.felles.get("geografi", {}))
-        felt += tolk_konsesjoner(self.nett.hent(KONSESJONER).json(), geografi)
+        felt += tolk_konsesjoner(self.nett.hent(KONSESJONER).json(), geografi, self.alltid_med)
         return [self.lag_hoering(**f) for f in felt]
 
     def _forskrifter(self) -> list[dict]:

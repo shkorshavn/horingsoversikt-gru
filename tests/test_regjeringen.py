@@ -5,7 +5,11 @@ from horinger.kilder.regjeringen import Regjeringen, er_apen, tolk_side, velg
 
 FIXTURES = Path(__file__).parent / "fixtures"
 BASE = "https://www.regjeringen.no/no/dokument/hoyringar/id1763/"
-EKSKLUDER = {"Energidepartementet", "Barne- og familiedepartementet", "Utenriksdepartementet"}
+EKSKLUDER = {
+    "Energidepartementet",
+    "Barne- og familiedepartementet",
+    "Utenriksdepartementet",
+}  # som før sprint 12
 
 
 def _rader():

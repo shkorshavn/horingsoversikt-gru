@@ -63,12 +63,14 @@ def tolk_side(html: str, base: str) -> list[dict]:
     return resultat
 
 
-def velg(rader: list[dict], ekskluder: set[str]) -> list[dict]:
-    """Beholder åpne høringer fra departementer som ikke er ekskludert."""
+def velg(rader: list[dict], ekskluder: set[str], alltid_med=None) -> list[dict]:
+    """Beholder åpne høringer fra departementer som ikke er ekskludert. Høringer som treffer
+    «alltid med» (Mjøsa og vann, sprint 12), beholdes uansett departement."""
     return [
         {k: v for k, v in r.items() if k != "status"}
         for r in rader
-        if er_apen(r["status"]) and r["instans"] not in ekskluder
+        if er_apen(r["status"])
+        and (r["instans"] not in ekskluder or (alltid_med and alltid_med(r["tittel"])))
     ]
 
 
@@ -91,7 +93,7 @@ class Regjeringen(Kilde):
                 sider_uten_apne += 1
                 if sider_uten_apne >= SIDER_UTEN_APNE_FOR_STOPP:
                     break
-            resultat.extend(self.lag_hoering(**f) for f in velg(rader, ekskluder))
+            resultat.extend(self.lag_hoering(**f) for f in velg(rader, ekskluder, self.alltid_med))
         return resultat
 
     def detaljfelt(self, suppe: BeautifulSoup) -> dict:

@@ -21,6 +21,7 @@ from horinger.horingsparter import (
 from horinger.modell import Hoering
 from horinger.nett import Nett, SperretAvRobots
 from horinger.sokeord import Sokeord
+from horinger.tema import fra_felles
 
 # Kilder der høringene står i en nyhetsstrøm eller RSS (DSB, Nye Veier, Jernbanedirektoratet,
 # Bane NOR): oppslag eldre enn dette åpnes ikke. Holder antall kall nede, og hindrer at gamle
@@ -72,15 +73,31 @@ class Kilde(ABC):
         Samme regel som løftet til høy prioritet: ordene i `felles.prioritet_loft.ord`
         (kommunene, fylkeskommunen, plan- og bygningsloven …) eller et sted i geografien.
         Brukes av etater uten egen høringsliste, som bare skal være med når det er aktuelt.
+        Høringer om Mjøsa og vann («alltid med», sprint 12) regnes også som aktuelle.
         """
         ord_ = Sokeord(self.felles.get("prioritet_loft", {}).get("ord", []))
         geografi = GeografiFilter(self.felles.get("geografi", {}))
-        return bool(ord_.treff(tekst)) or geografi.vurder(tekst).relevant
+        return (
+            bool(ord_.treff(tekst))
+            or geografi.vurder(tekst).relevant
+            or bool(self.alltid_med(tekst))
+        )
+
+    def alltid_med(self, tekst: str, detaljtekst: str = "") -> str:
+        """Treff for «alltid med» (Mjøsa og vann, sprint 12), eller tom tekst. Kildenes egne
+        filtre (departementer, temaer, geografi) slipper slike høringer gjennom."""
+        return fra_felles(self.felles).treff(tekst, detaljtekst)
+
+    def krav_alltid_med(self, tekst: str) -> bool:
+        """Krav for kilder som bare skal ha høringer om Mjøsa og vann (`krav: alltid_med`)."""
+        return bool(self.alltid_med(tekst))
 
     def krav_oppfylt(self, tekst: str) -> bool:
         """Kildens krav fra sources.yaml (`krav: aktuell_for_regionen`), ellers alltid sant."""
         if self.konfig.get("krav") == "aktuell_for_regionen":
             return self.aktuell_for_regionen(tekst)
+        if self.konfig.get("krav") == "alltid_med":
+            return self.krav_alltid_med(tekst)
         return True
 
     @abstractmethod

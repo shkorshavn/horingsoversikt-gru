@@ -10,6 +10,9 @@ Reglene (Svein 25.10.2026):
    plan- og bygningsloven …) eller en kommune i geografien.
 4. En høring der regionen er høringspart (regionflagg, sprint 6), løftes til 1 med grunnen
    «regionen er høringspart». Denne regelen vurderes før regel 3.
+5. En høring som treffer «alltid med» for Mjøsa og vann (sprint 12, Svein 03.11.2026), får
+   prioritet 1 med grunnen «gjelder Mjøsa og vann». Denne regelen vurderes først, også når
+   kildens prioritet allerede er 1, slik at grunnen vises.
 
 Grunnen lagres i `prioritet_grunn`, slik at siden kan vise hvorfor en høring er løftet.
 """
@@ -18,6 +21,7 @@ from __future__ import annotations
 
 from horinger.geografi import GeografiFilter
 from horinger.sokeord import Sokeord
+from horinger.tema import fra_felles
 
 
 class Prioritet:
@@ -27,9 +31,12 @@ class Prioritet:
         loft = felles.get("prioritet_loft", {})
         self.kommuneord = Sokeord(loft.get("ord", []))
         self.geografi = GeografiFilter(felles.get("geografi", {}))
+        self.alltid_med = fra_felles(felles)
 
     def vurder(self, hoering: dict, kilde_konfig: dict) -> tuple[int, str]:
         """Gir (prioritet, grunn). Grunnen er tom når prioriteten er kildens vanlige."""
+        if self.alltid_med.treff_hoering(hoering):
+            return 1, self.alltid_med.grunn
         prioritet = int(kilde_konfig.get("prioritet", 3))
         instans = hoering.get("instans", "")
         for verdi, instanser in (kilde_konfig.get("prioritet_instans") or {}).items():

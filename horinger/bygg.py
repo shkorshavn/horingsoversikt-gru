@@ -27,6 +27,7 @@ from horinger.kobling import koble_postlister
 from horinger.lager import les_kilde
 from horinger.prioritet import Prioritet
 from horinger.relevans import vurder as vurder_relevans
+from horinger.tema import fra_felles
 
 log = logging.getLogger("horinger")
 
@@ -108,6 +109,7 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
     alle: dict[str, dict] = {}
     prioritet = Prioritet(konfig.get("felles", {}))
     parter = Partvurdering(konfig.get("felles", {}).get("horingsparter", {}))
+    alltid_med = fra_felles(konfig.get("felles", {}))
     for kilde_konfig in konfig["kilder"]:
         lagret = None
         if kilde_konfig.get("aktiv") and kilde_konfig.get("modul") in KILDER:
@@ -123,6 +125,8 @@ def bygg(konfig: dict, kildemappe: Path, utdata: Path, naa: datetime | None = No
             h = {**h, **fra_konfig}
             # Kategorier og regionflagg beregnes før prioriteten, som løftes ved flagg.
             h.update(parter.vurder(h))
+            # «Alltid med» (sprint 12) vurderes her, mens teksten fra høringssiden finnes.
+            h["alltid_med"] = alltid_med.treff_hoering(h)
             h["prioritet"], h["prioritet_grunn"] = prioritet.vurder(h, kilde_konfig)
             alle[h["id"]] = h
     # Samme høring fra flere kilder vises én gang (etatens versjon, med lenke til den andre).

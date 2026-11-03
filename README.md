@@ -30,6 +30,9 @@ listen ruller hver for seg) og ferdigstilling.
 Sprint 9: faste regler for utelatte høringer (alle representantforslag).
 Sprint 10: søk som tåler skrivefeil, lenker i ny fane og luftigere utskrift.
 Sprint 11: verktøylinjen (antall, sortering, utskrift, CSV og fargeforklaring) over filtrene.
+Sprint 12: «alltid med» for Mjøsa og vann, Energidepartementet og Barne- og familiedepartementet
+tatt inn igjen, og Kystverket som ny kilde (Sjøfartsdirektoratet, Forsvarsbygg og Vannportalen
+undersøkt og satt som inaktive med begrunnelse i `sources.yaml`).
 
 ## Etatens side eller regjeringen.no
 
@@ -137,6 +140,14 @@ modell og nøkkel som sammendraget.
 - **Vern:** høringer der regionen er høringspart, som er funnet i Gjøvik kommunes postliste,
   eller som kommer fra Innlandet fylkeskommune eller Statsforvalteren
   (`aldri_utelat_niva`), utelates aldri.
+- **Alltid med: Mjøsa og vann** (`alltid_med`, sprint 12): høringer om Mjøsa, innsjøer,
+  vannkvalitet og vannforvaltning, fart og båttrafikk på innsjøer og elver, utslipp og avrenning
+  til vann, ammunisjon i Mjøsa, drikkevann, vannverk, flom og vassdragsregulering står alltid i
+  listen og får høy prioritet («gjelder Mjøsa og vann»). Regelen går foran KI-en, de faste
+  reglene under, vernet og filtrene i kildene (departementer, temaer og geografi). `ord` treffer
+  i tittel, ingress og teksten fra høringssiden, `ord_tittel` bare i tittel og ingress (vanlige
+  ord som ellers gir falske treff). « + » betyr at alle delene må stå i teksten. KI-instruksen
+  har de samme temaene, slik at også høringer uten ordene fanges.
 - **Faste regler** (`alltid_utelat`): høringer der tittelen begynner med et bestemt ord, legges
   alltid under «Utelatte høringer» med en fast begrunnelse. Reglene går foran både KI-en og
   vernet, og slike høringer sendes ikke til KI-en for relevansvurdering (sammendraget lages som
@@ -342,7 +353,8 @@ Alle kilder står i `sources.yaml`. En kilde hentes når den har `aktiv: true` o
 `modul` som finnes i `horinger/kilder/`. Der står også:
 
 - `felles.user_agent`, `pause_sekunder` og `tidsavbrudd_sekunder` for alle kall
-- `felles.ekskluder_departementer`: departementer på regjeringen.no som ikke tas med
+- `felles.ekskluder_departementer`: departementer på regjeringen.no som ikke tas med (nå bare Utenriksdepartementet; høringer om Mjøsa og vann tas med uansett)
+- `felles.relevans.alltid_med`: ordene for «alltid med» (Mjøsa og vann, sprint 12)
 - `felles.geografi`: kommunene og vegene som avgjør om en vegprosjekthøring er relevant
 - `felles.horingsparter`: regionflagg og kategorier for høringsparter
 - `kjoring` per kilde: `github` (standard) eller `pc` (hentes på GRUs PC)

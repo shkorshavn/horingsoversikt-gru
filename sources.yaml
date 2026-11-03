@@ -24,10 +24,11 @@ felles:
   pause_sekunder: 1.5
   tidsavbrudd_sekunder: 30
 
-  # Departementer på regjeringen.no som ikke skal tas med (Svein 16.10.2026).
+  # Departementer på regjeringen.no som ikke skal tas med (Svein 16.10.2026). Energi-
+  # departementet og Barne- og familiedepartementet er tatt inn igjen (Svein 03.11.2026,
+  # sprint 12): KI-vurderingen legger det som ikke er relevant, under «Utelatte høringer».
+  # Høringer som treffer «alltid med» (felles.relevans.alltid_med), tas med uansett.
   ekskluder_departementer:
-    - Energidepartementet
-    - Barne- og familiedepartementet
     - Utenriksdepartementet
 
   # Løft til høy prioritet (Svein 25.10.2026): høringer med middels eller lav prioritet blir
@@ -213,6 +214,59 @@ felles:
     alltid_utelat:
       - tittel_starter_med: Representantforslag
         grunn: Representantforslag fra stortingsrepresentanter.
+    # «Alltid med» (sprint 12, Svein 03.11.2026): høringer om Mjøsa og vann står alltid i listen
+    # og får høy prioritet. Regelen går foran KI-vurderingen, `alltid_utelat` over, vernet og
+    # filtrene i kildene (departementer, temaer og geografi). Teksten som vurderes er tittel,
+    # ingress og teksten fra høringssiden. Et ord treffer også ord som begynner slik («innsjø»
+    # treffer «innsjøer»). « + » betyr at alle delene må stå i teksten. Ordene er prøvd mot alle
+    # høringene og arkivet 03.11.2026; unngå vide ord som «utslipp» eller «elv» alene.
+    alltid_med:
+      grunn: gjelder Mjøsa og vann
+      # Treffer i tittel, ingress og teksten fra høringssiden.
+      ord:
+        # Mjøsa og elvene rundt
+        - Mjøsa
+        - Vorma
+        - Gudbrandsdalslågen
+        - Hunnselva
+        - Lenaelva
+        # Innsjøer og vannforvaltning
+        - innsjø
+        - vannforskrift
+        - vannforvaltning
+        - vannområde
+        - vannregion
+        # Ammunisjon
+        - ammunisjon + Mjøsa
+        - ammunisjon + innsjø
+        - dumpet ammunisjon
+        # Regulering
+        - vassdragsregulering
+        - reguleringskonsesjon
+        - manøvreringsreglement
+      # Treffer bare i tittel og ingress. Ordene er vanlige i lange tekster om noe annet (f.eks.
+      # nevnte høringen om Svalbard drikkevann på høringssiden, en vegplan nevnte flom, og
+      # Kystverkets fartsgrenser på sjøen nevnte kommunale fartsforskrifter).
+      ord_tittel:
+        - vannkvalitet
+        - vannmiljø
+        - overvåking + vassdrag
+        - avrenning
+        - utslipp til vann
+        - utslipp til vassdrag
+        - utslipp til innsjø
+        - fartsforskrift
+        - fartsgrense + innsjø
+        - fartsgrense + vassdrag
+        - fartsgrense + båt
+        - båttrafikk
+        - fritidsbåt
+        - småbåt
+        - vannscooter
+        - drikkevann
+        - vannverk
+        - vannforsyning
+        - flom
 
   # Postlister (sprint 7). Inngående dokumenter de siste `vindu_dager` dagene der tittelen har
   # et søkeord. Titler som begynner med et ord i `utelat_ord` (etter «Kopi -»), er høringssvar
@@ -565,7 +619,7 @@ kilder:
     aktiv: false
     anbefalt: inaktiv
     sprint: 5
-    merknad: "Undersøkt på nytt 25.10.2026 (Svein ønsket den med når aktuelt): sitemapet har 61 sider om høringer, alle egne høringssvar (/om/fhi/uttalelser/). FHI sender ikke ut egne høringer. Høringene på feltet sendes av HOD og er med via regjeringen.no."
+    merknad: "Undersøkt på nytt 25.10.2026 (Svein ønsket den med når aktuelt): sitemapet har 61 sider om høringer, alle egne høringssvar (/om/fhi/uttalelser/). FHI sender ikke ut egne høringer. Høringene på feltet sendes av HOD og er med via regjeringen.no. Vurdert igjen 03.11.2026 for drikkevann (sprint 12): drikkevannsforskriften høres av Mattilsynet og HOD, som overvåkes, og «alltid med» fanger dem."
 
   - navn: Mattilsynet
     kategori: Helse, omsorg og velferd
@@ -761,6 +815,55 @@ kilder:
     anbefalt: inaktiv
     sprint: 5
     merknad: "Publiserer bare høringsuttalelser."
+
+  # --- Mjøsa og vann (sprint 12, Svein 03.11.2026) ---
+  # Etater som ellers ikke anses som aktuelle. Bare høringer som treffer «alltid med»
+  # (felles.relevans.alltid_med) eller nevner et sted i geografien, tas med.
+  - navn: Kystverket
+    kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
+    prioritet: 3
+    url: https://www.kystverket.no/regelverk/horinger/
+    metode: html
+    modul: kystverket
+    aktiv: true
+    horingsparter: {detalj: true}
+    anbefalt: aktiv
+    sprint: 12
+    merknad: "HTML-liste (alle høringer på én side) + detaljside for fristen. Bare Mjøsa og vann eller steder i geografien. robots.txt har bare sitemap (ingen sperrer), undersøkt 03.11.2026."
+
+  - navn: Sjøfartsdirektoratet
+    kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
+    prioritet: 3
+    url: https://www.sdir.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 12
+    merknad: "Undersøkt 03.11.2026: robots.txt er «Disallow: /» (hele nettstedet sperret), og /regelverk/horinger/ finnes ikke (404). Kan ikke hentes. Høringer om fritidsbåter som også sendes ut via departementet på regjeringen.no, fanges der av «alltid med»."
+
+  - navn: Forsvarsbygg
+    kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
+    prioritet: 3
+    url: https://www.forsvarsbygg.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 12
+    merknad: "Undersøkt 03.11.2026: ingen høringsside. Sitemapet har ingen sider om høringer. Forsvarsbyggs saker høres av andre: utslippstillatelser hos Miljødirektoratet og Statsforvalteren, og planer hos kommunene. Saker om ammunisjon i Mjøsa fanges av «alltid med» hos disse."
+
+  - navn: Vannportalen
+    kategori: Miljø, klima, energi og beredskap
+    niva: Direktorater og etater
+    prioritet: 2
+    url: https://www.vannportalen.no/
+    metode: html
+    aktiv: false
+    anbefalt: inaktiv
+    sprint: 12
+    merknad: "Undersøkt 03.11.2026: siden er en JavaScript-app uten innhold i HTML-en, og sitemapet gir samme tomme side. Ingen maskinlesbar høringsliste. Regionale vannforvaltningsplaner høres av vannregionmyndigheten (en fylkeskommune) og Statsforvalteren; Innlandet fylkeskommune og Statsforvalteren i Innlandet overvåkes, og «alltid med» fanger dem."
 
   # --- Regionale ledd ---
   - navn: Innlandet fylkeskommune

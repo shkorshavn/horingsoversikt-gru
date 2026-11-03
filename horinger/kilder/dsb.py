@@ -67,7 +67,11 @@ class Dsb(Kilde):
         for h in tolk_rss(self.nett.hent(self.konfig["url"]).text):
             if h["publisert"] and h["publisert"] < grense:
                 continue
-            if h["samtykke"] and not geografi.vurder(h["tittel"]).relevant:
+            if (
+                h["samtykke"]
+                and not geografi.vurder(h["tittel"]).relevant
+                and not self.alltid_med(h["tittel"])
+            ):
                 continue
             frist, fristtekst, ingress = tolk_detalj(
                 self.nett.hent(h["lenke"]).text, h["publisert"]

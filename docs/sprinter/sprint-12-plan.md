@@ -1,6 +1,6 @@
 # Sprint 12 – Mjøsa og vann alltid med, flere departementer og nye kilder: plan
 
-Status: Plan til godkjenning · 3. november 2026
+Status: Godkjent · 3. november 2026 («OK plan for sprint 12 godkjent» kl. 20.49)
 
 ## Bakgrunn
 Svein 03.11.2026 kl. 20.40: høringer som gjelder Mjøsa, vannkvalitet, overvåking av innsjøer,
@@ -32,7 +32,9 @@ virksomheter som ellers ikke anses som aktuelle. Svarene på spørsmål 1–5 st
    (svar 3). Utenriksdepartementet holdes fortsatt utenfor. KI-en legger høringer som ikke er
    relevante under «Utelatte høringer». De nye høringene får KI-sammendrag og relevansvurdering
    ved neste ukentlige oppdatering.
-3. **Nye kilder: Sjøfartsdirektoratet, Kystverket og Forsvarsbygg** (svar 2).
+3. **Nye kilder: Sjøfartsdirektoratet, Kystverket, Forsvarsbygg, Vannportalen
+   (vannforvaltningsplaner, blant annet for Mjøsa) og Folkehelseinstituttet (drikkevann)**
+   (svar 2, og tillegg godkjent 03.11.2026 kl. 20.49).
    - Hver kilde undersøkes: høringsside, robots.txt, struktur og frist.
    - Kilder som kan hentes, bygges med filter, slik at bare høringer som treffer «alltid med»
      (innlandsvann og Mjøsa) tas med. Andre høringer fra disse kildene tas ikke med.
@@ -83,3 +85,9 @@ virksomheter som ellers ikke anses som aktuelle. Svarene på spørsmål 1–5 st
    utenfor.
 4. **Flere ord:** ja, som foreslått: drikkevann, vannverk, flom og vassdragsregulering.
 5. **Høy prioritet for «alltid med»:** ja.
+
+## Tillegg godkjent 03.11.2026 kl. 20.49
+Etter gjennomgang av droppede og inaktive kilder: Vannportalen og Folkehelseinstituttet tas med
+i undersøkelsen av nye kilder, med samme filter for Mjøsa og vann. Avinor, Kartverket og DSA
+holdes utenfor (lav relevans for Mjøsa). Kommunene rundt Mjøsa (lokale forskrifter, flere
+postlister) tas i en senere sprint.

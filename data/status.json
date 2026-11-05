@@ -1,6 +1,6 @@
 {
-  "generert": "2026-11-03T21:16:21+01:00",
-  "kjoretid_sekunder": 253.3,
+  "generert": "2026-11-05T10:01:03+01:00",
+  "kjoretid_sekunder": 229.4,
   "kilder": [
     {
       "kilde": "Stortinget",
@@ -8,17 +8,18 @@
       "status": "ok",
       "hentet": "2026-11-03T21:00:54+01:00",
       "sist_ok": "2026-11-03T21:00:54+01:00",
-      "antall": 20,
+      "antall": 18,
       "sekunder": 7.6
     },
     {
       "kilde": "Regjeringen.no",
       "kjoring": "pc",
-      "status": "ok",
-      "hentet": "2026-11-03T21:00:39+01:00",
+      "status": "feil",
+      "hentet": "2026-11-05T10:00:40+01:00",
       "sist_ok": "2026-11-03T21:00:39+01:00",
       "antall": 59,
-      "sekunder": 23.9
+      "feil": "SimulertFeil: Simulert feil for Regjeringen.no (HORINGER_SIMULER_FEIL)",
+      "sekunder": 0.0
     },
     {
       "kilde": "Statens vegvesen",

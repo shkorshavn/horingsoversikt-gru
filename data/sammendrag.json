@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-03T21:16:11+01:00",
+  "generert": "2026-11-05T10:01:02+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -253,13 +253,6 @@
       "tekst": "Norsk Tipping foreslås å få tilby nettpoker. Det foreslås også krav om avviksrapportering for de største aktørene i pengespillmarkedet, og mindre endringer i reglene for utbetaling av Belago-midler fra bingo.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:39+01:00"
-    },
-    "4b2b143e613d": {
-      "versjon": 3,
-      "sjekksum": "e65a55df4c90bb02",
-      "tekst": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:26:57+01:00"
     },
     "4de54c79db37": {
       "versjon": 3,
@@ -883,13 +876,6 @@
       "tekst": "Forslag til ny lov om fylkeskommunale tannhelsetjenester som regulerer alle offentlig finansierte tannhelsetjenester, med tilhørende endringer i flere helselover. Det er første steg i en tannhelsereform og åpner for gradvis utvidelse av det offentlige ansvaret.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:50+01:00"
-    },
-    "e8b18a9a7937": {
-      "versjon": 3,
-      "sjekksum": "2cf554ee2e290e40",
-      "tekst": "Representantforslag om å forby koranskoler med overnatting og å innføre et nytt straffebud mot negativ sosial kontroll.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:27:19+01:00"
     },
     "e9a14bdd7b62": {
       "versjon": 3,

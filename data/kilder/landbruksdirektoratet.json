@@ -1,9 +1,9 @@
 {
   "kilde": "Landbruksdirektoratet",
   "status": "ok",
-  "hentet": "2026-11-03T21:03:20+01:00",
+  "hentet": "2026-11-08T22:16:15+01:00",
   "antall": 1,
-  "sekunder": 3.8,
+  "sekunder": 4.0,
   "horinger": [
     {
       "kilde": "Landbruksdirektoratet",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-10-29",
       "ingress": "Landbruksdirektoratet sender med dette forslag til ny forskrift om satser for frakttilskudd til transport av kraftfôr, gjeldende fra 1. januar 2017, på høring. Det vil bli justeringer i satsene fra 2027 som følge av Jordbruksavtalen 2027",
-      "hentet": "2026-11-03T21:03:20+01:00",
+      "hentet": "2026-11-08T22:16:15+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Landbruksdirektoratet",
@@ -60,5 +60,5 @@
       "id": "70e0705c9492"
     }
   ],
-  "sist_ok": "2026-11-03T21:03:20+01:00"
+  "sist_ok": "2026-11-08T22:16:15+01:00"
 }

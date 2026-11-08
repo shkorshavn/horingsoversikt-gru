@@ -1,9 +1,9 @@
 {
   "kilde": "NVE",
   "status": "ok",
-  "hentet": "2026-11-03T21:01:35+01:00",
-  "antall": 3,
-  "sekunder": 100.1,
+  "hentet": "2026-11-08T22:14:10+01:00",
+  "antall": 4,
+  "sekunder": 120.3,
   "horinger": [
     {
       "kilde": "NVE",
@@ -17,7 +17,7 @@
       "frist_maned": "2026-12",
       "publisert": "2026-10-05",
       "ingress": "På vegne av Energidepartementet (ED) og Klima- og miljødepartementet (KLD) sender Norges vassdrags- og energidirektorat (NVE) med dette på høring forslag til endringer i forskrift av 23.2.2011 nr. 190 om miljøvennlig utforming av produkter (økodesignforskriften). NVE foreslår også endringer i forskrift av 27. mai 2013 nr. 534 om energimerking av energirelaterte produkter (energimerkeforskriften…",
-      "hentet": "2026-11-03T21:01:35+01:00",
+      "hentet": "2026-11-08T22:14:10+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2025-12-19",
       "ingress": "Norges vassdrags- og energidirektorat (NVE) har sendt på høring forslag om endring av kraftberedskapsforskriften § 4-1 om reparasjonsberedskap. Formålet med de foreslåtte endringene er å styrke reparasjonsberedskapen i kraftforsyningen. Styrking av reparasjonsberedskapen er nødvendig for å møte dagens sikkerhetspolitiske situasjon og redusere risikoen for langvarige strømbrudd.",
-      "hentet": "2026-11-03T21:01:35+01:00",
+      "hentet": "2026-11-08T22:14:10+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -61,7 +61,7 @@
       "frist_maned": "",
       "publisert": "2025-12-17",
       "ingress": "NVE har sendt på høring et forslag om å gjennomføre to EU-forordninger i norsk rett. Forordningene stiller krav om miljøvennlig utforming av produkter. Forordningene stiller både krav som skal fremme energieffektivitet og krav som skal fremme en mer sirkulær økonomi.",
-      "hentet": "2026-11-03T21:01:35+01:00",
+      "hentet": "2026-11-08T22:14:10+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -70,7 +70,29 @@
       "detalj_versjon": 0,
       "detaljtekst": "",
       "id": "826ad62ca581"
+    },
+    {
+      "kilde": "NVE",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "NVE (konsesjonssak)",
+      "tittel": "132 kV Åbjøra-Bagn- Dokka",
+      "lenke": "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=26232&type=A-1",
+      "frist": "2027-01-11",
+      "frist_tekst": "Høringsfrist: 11.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-11-06",
+      "ingress": "Konsesjonssøknad i ELVIA AS.",
+      "hentet": "2026-11-08T22:14:10+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "132 kV Åbjøra-Bagn- Dokka Tiltakshaver ELVIA AS Sakstype(r) Nett Saksnummer 202602672 Status Høring Dato 06.11.2026 Fylke Kommune Send høringsuttalelse Høringsfrist: 11.01.2027 Vi foretrekker at du bruker det elektroniske skjemaet, ved å trykke på knappen «send høringsuttalelse». Det er også mulig å sende uttalelsen per epost, til nve@nve.no. Merk emnefeltet med «Høringsuttalelse 202602672» , og oppgi navn og eventuelt organisasjonsnummer innledningsvis. Du kan også sende inn uttalelse per brevpost. NVE har sendt søknaden på høring. Gjennom høring av konsesjonssøknaden ønsker vi å motta synspunkter på planene og forslag til tiltak som kan redusere eventuelle negative virkninger. Høringsfristen er satt til 11. januar 2027. Elvia søker om å bygge en ny ca. 43,5 km lang 132 kV luftledning mellom Åbjøra og Dokka, en ny ca. 15,3 km lang 132 kV luftledning mellom Åbjøra og Bagn, en ny ca. 32, 6 km lang 132 kV luftledning mellom Bagn og Dokka, og en ca. 3.5 km lang luftledning mellom Bagn og Myre. I tillegg søker Elvia om å rive eksisterende 132 kV luftledninger på de samme strekningene. Elvia begrunner tiltaket med at de eksisterende kraftledningene nærmer seg sin tekniske levetid og må erstattes. De nye kraftledningene er nødvendige for å sikre forsyningssikkerheten i området, samt legge til rette for økt forbruk. Saksbehandler konsesjon Christian Solheim chso@nve.no Konsesjon Ny 132 kV-forbindelse Åbjøra - Bagn - Dokka - konsesjonssøknad 15-12-25 12 MB Vedlegg 1 trasekart m mastepunkt 6 MB Vedlegg 2 KU-rapport_132 kV-ledning Åbjøra-Dokka J03 10.11.25 8 MB Vedlegg 3 Kryssing av Begna naturreservat 3 MB Vedlegg 5 Ny 132 kV-ledning Åbjøra_Dokka_Naturfare J02 med vedlegg 15 MB Vedlegg 5 Ny 132 kV-ledning Åbjøra - Dokka - Notat Anleggsplan 551 KB",
+      "id": "aad1320ee7c1"
     }
   ],
-  "sist_ok": "2026-11-03T21:01:35+01:00"
+  "sist_ok": "2026-11-08T22:14:10+01:00"
 }

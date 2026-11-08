@@ -1,10 +1,46 @@
 {
   "kilde": "Gjøvik kommunes postliste",
   "status": "ok",
-  "hentet": "2026-11-03T21:04:31+01:00",
-  "antall": 8,
-  "sekunder": 12.2,
+  "hentet": "2026-11-08T22:17:27+01:00",
+  "antall": 7,
+  "sekunder": 10.8,
   "journalposter": [
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590799!A75Nqf",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90278",
+      "dato": "2026-11-03",
+      "tittel": "Høring NOU 2026:12 - Én helsetjeneste - Helsereformutvalgets rapport",
+      "avsender": "Helse- Og Omsorgsdepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077541!1k1HCL/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590799!A75Nqf"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590647!QCioru",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90126",
+      "dato": "2026-11-02",
+      "tittel": "Høring av regionale planer for vannforvaltning i Glomma og Västerhavet vannregioner - høringsfrist 20.04.2027",
+      "avsender": "Østfold Fylkeskommune",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2018009866!yaoF8K/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590647!QCioru"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590490!9N889p",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/89969",
+      "dato": "2026-11-02",
+      "tittel": "Høring – Endringer i straffeloven, straffeprosessloven og politiloven (styrket vern mot skadelig etterretningsvirksomhet)",
+      "avsender": "Justis- Og Beredskapsdepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021066477!9WaMUc/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590490!9N889p"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588327!fsuOrM",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/87806",
+      "dato": "2026-11-02",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - Fontenehuset Gjøvik",
+      "avsender": "Fontenehuset Gjøvik As",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588327!fsuOrM"
+    },
     {
       "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588299!ZVQrHG",
       "kommune": "Gjøvik",
@@ -31,52 +67,7 @@
       "tittel": "Høring - Forslag til endring i forskrift om tilskudd til avløsning ved sykdom og fødsel mv. - Oppfølging av jordbruksoppgjøret 2026 mm.",
       "avsender": "Landbruks- Og Matdepartementet",
       "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021004845!jfHryl/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587776!JyWVqn"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587340!1Wds5A",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/86819",
-      "dato": "2026-10-23",
-      "tittel": "212/2 - Midtre Onsrud, Snertingal - Kommentarer til høringsuttalelser vedrørende dispensasjonssak",
-      "avsender": "",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021071135!YI5Aao/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587340!1Wds5A"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587131!DIV8Yo",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/86610",
-      "dato": "2026-10-22",
-      "tittel": "Høringsbrev - Skiltplan for prosjekt Gang og sykkelveg Kollsvegen til Lundstein skole - Fv. 2410 og fv. 2412",
-      "avsender": "Statens vegvesen",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077094!kRLLb6/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587131!DIV8Yo"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586809!3r8E7b",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/86288",
-      "dato": "2026-10-21",
-      "tittel": "Høring om forslag til endringer i enkelte saksbehandlings- og klageregler i opplæringsloven og opplæringsforskriften mv.",
-      "avsender": "Kunnskapsdepartementet",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2017004884!WP0y3a/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586809!3r8E7b"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586791!yLDNdh",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/86270",
-      "dato": "2026-10-21",
-      "tittel": "Høring av Europakommisjonens forslag til ny anskaffelsesforordning",
-      "avsender": "Nærings- Og Fiskeridepartementet",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077034!7hSwsW/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586791!yLDNdh"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586173!4OjK9p",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/85652",
-      "dato": "2026-10-20",
-      "tittel": "Høring – Forslag til ny lov om fylkeskommunale tannhelsetjenester mv.",
-      "avsender": "Helse- Og Omsorgsdepartementet",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021031723!H4Ot3W/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021586173!4OjK9p"
     }
   ],
-  "sist_ok": "2026-11-03T21:04:31+01:00"
+  "sist_ok": "2026-11-08T22:17:27+01:00"
 }

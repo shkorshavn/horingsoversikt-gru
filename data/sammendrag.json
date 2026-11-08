@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-05T10:01:02+01:00",
+  "generert": "2026-11-08T22:15:36+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -79,13 +79,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:31:19+01:00"
     },
-    "17796e18616d": {
-      "versjon": 3,
-      "sjekksum": "e679c37f18698dd5",
-      "tekst": "Forslag om en særordning der fordrevne fra Ukraina med midlertidig kollektiv beskyttelse, som er i arbeid og har hatt tilstrekkelig arbeidsinntekt siste tolv måneder, kan søke om oppholdstillatelse som gir grunnlag for permanent opphold. Nære familiemedlemmer kan få avledet tillatelse.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:13+01:00"
-    },
     "187fb3b88761": {
       "versjon": 3,
       "sjekksum": "7fea4a2b1f87a3a2",
@@ -107,19 +100,19 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:40+01:00"
     },
+    "1fbbcb07b6cd": {
+      "versjon": 3,
+      "sjekksum": "c4652fc6463eea44",
+      "tekst": "NOU 2026:13 om det norske matsystemet mot 2050 er på høring. Utvalget har vurdert utfordringer, dilemmaer og muligheter for å styrke bærekraften, og matsystemets motstandsdyktighet i en endret sikkerhetspolitisk situasjon. Det bes om syn på vurderingene og anbefalingene.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:23+01:00"
+    },
     "1ff7317cae1d": {
       "versjon": 3,
       "sjekksum": "aa68d89b577c0df6",
       "tekst": "Det foreslås endringer i forskrift om bruk av kjøretøy (bruksforskriften) for å håndtere at mange vil fornye rettigheter til personlige kjennemerker. Rettighetene gjelder i ti år, og de første utløper i juni 2027.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:30:09+01:00"
-    },
-    "20fd07d6b54e": {
-      "versjon": 3,
-      "sjekksum": "07b39938678deb2d",
-      "tekst": "Forslagene i Baneheia-utvalgets to utredninger, med lovutkast, etter granskingen av straffesaken mot Viggo Kristiansen og av Gjenopptakelseskommisjonen. Granskingen skulle finne læringspunkter for å redusere risikoen for uriktige domfellelser og sikre et godt gjenåpningsinstitutt.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:29:54+01:00"
     },
     "23eea50c7f1b": {
       "versjon": 3,
@@ -148,6 +141,13 @@
       "tekst": "Representantforslag om raskere og skånsom utbygging av solenergi, behandlet i en skriftlig høring på Stortinget.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:25:28+01:00"
+    },
+    "2bf569067edd": {
+      "versjon": 3,
+      "sjekksum": "9f65c586a34fbe00",
+      "tekst": "",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:33+01:00"
     },
     "2d365b86661f": {
       "versjon": 3,
@@ -464,13 +464,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:28:37+01:00"
     },
-    "87b13fc8a9cd": {
-      "versjon": 3,
-      "sjekksum": "c3594b4034e7e453",
-      "tekst": "Forslag til forskrift som utfyller den foreslåtte CBAM-forskriften, med regler om beregning av utslipp og antall CBAM-sertifikater som skal leveres, og nasjonale bestemmelser som supplerer CBAM-forordningen. Målet er at CBAM gjelder fullt ut i Norge fra 1. januar 2027.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:21+01:00"
-    },
     "88d94ba45eb6": {
       "versjon": 3,
       "sjekksum": "2f04fcec44773028",
@@ -543,10 +536,10 @@
     },
     "9659d443a8c3": {
       "versjon": 3,
-      "sjekksum": "cddad203d1851d65",
-      "tekst": "Nye straffebestemmelser i straffeloven mot bidrag til og deltakelse i potensielt skadelig etterretningsvirksomhet, og høyere strafferammer for dagens etterretningsbestemmelser. PST foreslås å få bruke skjulte tvangsmidler for å etterforske, avverge og forebygge overtredelser av de nye bestemmelsene.",
+      "sjekksum": "3a9bbd50a9080a32",
+      "tekst": "Forslag om nye straffebestemmelser i straffeloven mot bidrag til potensielt skadelig etterretningsvirksomhet, og høyere strafferammer for dagens etterretningsbestemmelser. PST foreslås også å få bruke skjulte tvangsmidler for å etterforske, avverge og forebygge brudd på de nye bestemmelsene.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-02T20:13:27+01:00"
+      "laget": "2026-11-08T22:15:35+01:00"
     },
     "9663429b6c14": {
       "versjon": 3,
@@ -638,6 +631,13 @@
       "tekst": "Et utvalg foreslår flere tiltak for å rustes fellesskolen for framtiden, slik at den beholder god kvalitet og ivaretar det brede samfunnsoppdraget. Tiltakene skal gi alle elever likeverdige muligheter, uavhengig av kjønn og bakgrunn.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:29:04+01:00"
+    },
+    "ab8848957a28": {
+      "versjon": 3,
+      "sjekksum": "02150ef236b48ea3",
+      "tekst": "Endringer i energiloven, plan- og bygningsloven, vannressursloven, vassdragsreguleringsloven og havenergilova foreslås. De gjelder vindkraft på land, innsigelsesordningen for energi- og vassdragstiltak, batterier i kraftsystemet og hjemmel til forskrift om frister for søknadsbehandling.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:25+01:00"
     },
     "adee425af343": {
       "versjon": 3,
@@ -743,6 +743,13 @@
       "tekst": "Et representantforslag på Stortinget om å gjennomgå og modernisere norsk alkoholpolitikk.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:09:32+01:00"
+    },
+    "c391122dd550": {
+      "versjon": 3,
+      "sjekksum": "ff5da7d351831aaf",
+      "tekst": "Forslag til ny lov om innsamling og deling av data knyttet til korttidsutleie av overnattingssteder. Loven skal gjennomføre EU-forordning 2024/1028 om innsamling og deling av data om korttidsutleie i norsk rett.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:30+01:00"
     },
     "c8305ff88bfd": {
       "versjon": 3,
@@ -967,6 +974,13 @@
       "tekst": "Forslag om å videreføre dagens maksimalprisregulering av fjernvarme, med tydeligere regler for hvem som omfattes og hvordan maksimalprisen beregnes. Det foreslås også tidsbegrensede avtaler som avviker fra reguleringen, en hjemmel for prisregulering av nærvarme og regler om fortsatt leveranse ved konkurs hos konsesjonær.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:07+01:00"
+    },
+    "fc4f94afee75": {
+      "versjon": 3,
+      "sjekksum": "6ddfc7f23cd81527",
+      "tekst": "Utredning av en pilotordning for beboerrabatt på FOT-ruter i Lofoten og Vesterålen, som kan innføres fra 1. november 2028. Det skal vurderes om ordningen er et egnet tiltak og hvordan den best kan innrettes for å bedre tilgjengeligheten for lokalbefolkningen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:28+01:00"
     },
     "ff02aceeac6b": {
       "versjon": 3,

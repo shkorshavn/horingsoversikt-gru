@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-05T10:01:02+01:00",
+  "generert": "2026-11-08T22:15:52+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -90,14 +90,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:07:15+01:00"
     },
-    "17796e18616d": {
-      "versjon": 1,
-      "sjekksum": "b07e436c6a5e4de4",
-      "relevant": true,
-      "hvorfor": "Gjelder ukrainske flyktninger i arbeid som kan få permanent opphold, noe som kan påvirke kommunenes bosetting, integreringsarbeid og arbeidsgivere i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:04:53+01:00"
-    },
     "187fb3b88761": {
       "versjon": 1,
       "sjekksum": "7a341d526238aa27",
@@ -122,6 +114,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:18+01:00"
     },
+    "1fbbcb07b6cd": {
+      "versjon": 1,
+      "sjekksum": "fc0df05734de297b",
+      "relevant": true,
+      "hvorfor": "Utredningen om fremtidens matsystem omfatter landbrukspolitikk, matberedskap, klima og natur, som berører landbruket, matindustrien og kommunenes rolle i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:38+01:00"
+    },
     "1ff7317cae1d": {
       "versjon": 1,
       "sjekksum": "fb80c922435db666",
@@ -129,14 +129,6 @@
       "hvorfor": "Nasjonale endringer i bruksforskriften om fornyelse av personlige kjennemerker gjelder alle kjøretøyeiere, også innbyggere og bedrifter i regionen, når de første rettighetene utløper i juni 2027.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:05:26+01:00"
-    },
-    "20fd07d6b54e": {
-      "versjon": 1,
-      "sjekksum": "e52ca6bd1ef9b4ed",
-      "relevant": false,
-      "hvorfor": "Gjelder gjenopptakelse av straffesaker og risiko for uriktige domfellelser, ikke kommunenes oppgaver.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:12+01:00"
     },
     "23eea50c7f1b": {
       "versjon": 1,
@@ -153,6 +145,14 @@
       "hvorfor": "Gjelder evaluering av etterretningstjenesteloven, som ikke berører kommunene, innbyggerne eller næringslivet i regionen merkbart.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:37+01:00"
+    },
+    "2bf569067edd": {
+      "versjon": 1,
+      "sjekksum": "14abf51e7f761889",
+      "relevant": false,
+      "hvorfor": "Gjelder tilskudd til sysselsetting av sjøfolk, en maritim næring som knapt finnes i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:46+01:00"
     },
     "2d365b86661f": {
       "versjon": 1,
@@ -474,14 +474,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:21+01:00"
     },
-    "87b13fc8a9cd": {
-      "versjon": 1,
-      "sjekksum": "382a92efa0ab926a",
-      "relevant": true,
-      "hvorfor": "Nasjonal forskrift om CBAM gir nye rapporterings- og dokumentasjonskrav som kan ramme industri- og teknologibedrifter i regionen som importerer varer fra utlandet.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:48+01:00"
-    },
     "88d94ba45eb6": {
       "versjon": 1,
       "sjekksum": "5b37a5a01c78962c",
@@ -556,11 +548,11 @@
     },
     "9659d443a8c3": {
       "versjon": 1,
-      "sjekksum": "7c4541a17befd49b",
+      "sjekksum": "bb681306b323146c",
       "relevant": false,
-      "hvorfor": "Gjelder straffebestemmelser mot etterretningsvirksomhet og PSTs tvangsmidler, uten merkbar virkning for kommuner eller næringsliv.",
+      "hvorfor": "Gjelder straffebestemmelser og PSTs tvangsmidler mot etterretningsvirksomhet, uten merkbar virkning for kommuner eller næringsliv.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:02:53+01:00"
+      "laget": "2026-11-08T22:15:51+01:00"
     },
     "9663429b6c14": {
       "versjon": 1,
@@ -658,6 +650,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:45+01:00"
     },
+    "ab8848957a28": {
+      "versjon": 1,
+      "sjekksum": "55dec0db716ffb2b",
+      "relevant": true,
+      "hvorfor": "Endringer i plan- og bygningsloven og innsigelsesordningen for vindkraft, vannkraft og batterier gjelder kommunenes planmyndighet, og lovendringene gjelder kommuner i hele landet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:40+01:00"
+    },
     "adee425af343": {
       "versjon": 1,
       "sjekksum": "3331925d37f2624a",
@@ -753,6 +753,14 @@
       "hvorfor": "Nasjonale krav til offentlige og private ladepunkter for elbil og hydrogen, med datakrav og kontrollrutiner, kan berøre kommuner som ladeeiere, innbyggere og næringsliv.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:00+01:00"
+    },
+    "c391122dd550": {
+      "versjon": 1,
+      "sjekksum": "77d81b9b821e8389",
+      "relevant": true,
+      "hvorfor": "Nasjonal lov om registrering og datadeling for korttidsutleie, som gjelder alle kommuner og kan gi kommunene nye oppgaver og bedre data om utleie og reiseliv.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:44+01:00"
     },
     "c8305ff88bfd": {
       "versjon": 1,
@@ -985,6 +993,14 @@
       "hvorfor": "Nasjonale endringer i prisregulering av fjernvarme, med regler om fastprisavtaler og sikring av leveranse ved konkurs, kan berøre kommuner, innbyggere og næringsliv som bruker fjernvarme.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:02+01:00"
+    },
+    "fc4f94afee75": {
+      "versjon": 1,
+      "sjekksum": "ca1713fa0d45c90d",
+      "relevant": false,
+      "hvorfor": "Gjelder bare beboerrabatt på flyruter i Lofoten og Vesterålen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:15:42+01:00"
     },
     "ff02aceeac6b": {
       "versjon": 1,

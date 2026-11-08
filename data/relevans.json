@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-08T22:15:52+01:00",
+  "generert": "2026-11-08T22:18:37+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -25,6 +25,14 @@
       "hvorfor": "Gjelder bare 10 prosent høyere gebyrer for Norsk akkrediterings tjenester, en smal teknisk sak.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:47+01:00"
+    },
+    "048a957ae914": {
+      "versjon": 1,
+      "sjekksum": "079ae9a312d7bf70",
+      "relevant": false,
+      "hvorfor": "Gjelder bare regulering av sølv i pulverform i kosmetikk, en smal teknisk produktregel.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:18:36+01:00"
     },
     "0a21171f7c9c": {
       "versjon": 1,
@@ -458,6 +466,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:00+01:00"
     },
+    "844da0e250f9": {
+      "versjon": 1,
+      "sjekksum": "08ef4f38db24a4a6",
+      "relevant": true,
+      "hvorfor": "Nasjonal regel som gjelder alle kommuner: høyere aldersgrense for elsparkesykkel (12 til 16 år) berører barn og unge, trafikksikkerhet og skoleveier i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:18:24+01:00"
+    },
     "8590425183d7": {
       "versjon": 1,
       "sjekksum": "9f5d6fa14bf6d867",
@@ -642,6 +658,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:38+01:00"
     },
+    "aad1320ee7c1": {
+      "versjon": 1,
+      "sjekksum": "9ae02f04c77b49e7",
+      "relevant": true,
+      "hvorfor": "Ny 132 kV-ledning mot Dokka og riving av eksisterende ledninger angår strømforsyning, plass til økt forbruk og arealbruk i Innlandet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:18:27+01:00"
+    },
     "ab01fdcf2eec": {
       "versjon": 1,
       "sjekksum": "8b9a7c755ea54c89",
@@ -665,6 +689,14 @@
       "hvorfor": "Gjelder det etiske rammeverket for Statens pensjonsfond utland, ikke kommunene eller regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:43+01:00"
+    },
+    "ae67dee84f55": {
+      "versjon": 1,
+      "sjekksum": "50818e426218159a",
+      "relevant": true,
+      "hvorfor": "Gjelder risikovurdering av fiskemel i kraftfôr til drøvtyggere, som kan påvirke fôrregler og drift for husdyrbønder i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:18:32+01:00"
     },
     "af99c30570fd": {
       "versjon": 1,
@@ -833,6 +865,14 @@
       "hvorfor": "Grunnlovsfesting av norsk som hovedspråk er en nasjonal regel som kan påvirke språkbruk og språkansvar i kommunene og i offentlig forvaltning.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:16+01:00"
+    },
+    "d5d8c62f1cf0": {
+      "versjon": 1,
+      "sjekksum": "51d6b6973c6da59e",
+      "relevant": false,
+      "hvorfor": "Gjelder prosessregler for inndragning i straffesaker, uten merkbar betydning for kommuner, innbyggere eller næringsliv.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-08T22:18:22+01:00"
     },
     "d6878ef0e7f4": {
       "versjon": 1,

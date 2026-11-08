@@ -1,6 +1,54 @@
 {
-  "generert": "2026-11-08T22:15:53+01:00",
+  "generert": "2026-11-08T22:18:37+01:00",
   "journalposter": [
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590799!A75Nqf",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90278",
+      "dato": "2026-11-03",
+      "tittel": "Høring NOU 2026:12 - Én helsetjeneste - Helsereformutvalgets rapport",
+      "avsender": "Helse- Og Omsorgsdepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077541!1k1HCL/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590799!A75Nqf",
+      "hoering_id": "cb6aea2f3df9",
+      "poeng": 95.0,
+      "niva": "sikker"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590647!QCioru",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90126",
+      "dato": "2026-11-02",
+      "tittel": "Høring av regionale planer for vannforvaltning i Glomma og Västerhavet vannregioner - høringsfrist 20.04.2027",
+      "avsender": "Østfold Fylkeskommune",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2018009866!yaoF8K/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590647!QCioru",
+      "hoering_id": "",
+      "poeng": 31.8,
+      "niva": ""
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590490!9N889p",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/89969",
+      "dato": "2026-11-02",
+      "tittel": "Høring – Endringer i straffeloven, straffeprosessloven og politiloven (styrket vern mot skadelig etterretningsvirksomhet)",
+      "avsender": "Justis- Og Beredskapsdepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021066477!9WaMUc/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590490!9N889p",
+      "hoering_id": "9659d443a8c3",
+      "poeng": 100.0,
+      "niva": "sikker"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588327!fsuOrM",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/87806",
+      "dato": "2026-11-02",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - Fontenehuset Gjøvik",
+      "avsender": "Fontenehuset Gjøvik As",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588327!fsuOrM",
+      "hoering_id": "",
+      "poeng": 31.8,
+      "niva": ""
+    },
     {
       "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588299!ZVQrHG",
       "kommune": "Gjøvik",

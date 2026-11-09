@@ -1,9 +1,9 @@
 {
   "kilde": "DSB",
   "status": "ok",
-  "hentet": "2026-11-08T22:16:10+01:00",
+  "hentet": "2026-11-09T20:28:23+01:00",
   "antall": 2,
-  "sekunder": 4.9,
+  "sekunder": 5.8,
   "horinger": [
     {
       "kilde": "DSB",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-11-02",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender endringene som skal inngå i 2027-utgavene av ADR og RID, på høring. DSB foreslår samtidig endringer i §§ 2 og 3 i forskrift om landtransport av farlig gods.",
-      "hentet": "2026-11-08T22:16:10+01:00",
+      "hentet": "2026-11-09T20:28:23+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender med dette forslag til endringer i forskrift om sivilforsvar på høring. Bakgrunnen for forskriftsendringen er et forslag om endringer i skatteloven som innebærer at ulempetillegg og ledertillegg til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027.",
-      "hentet": "2026-11-08T22:16:10+01:00",
+      "hentet": "2026-11-09T20:28:23+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -50,5 +50,5 @@
       "id": "c8305ff88bfd"
     }
   ],
-  "sist_ok": "2026-11-08T22:16:10+01:00"
+  "sist_ok": "2026-11-09T20:28:23+01:00"
 }

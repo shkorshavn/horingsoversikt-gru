@@ -1,10 +1,28 @@
 {
   "kilde": "Gjøvik kommunes postliste",
   "status": "ok",
-  "hentet": "2026-11-08T22:17:27+01:00",
-  "antall": 7,
+  "hentet": "2026-11-09T20:29:40+01:00",
+  "antall": 9,
   "sekunder": 10.8,
   "journalposter": [
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591460!PrrAps",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90939",
+      "dato": "2026-11-04",
+      "tittel": "Forslag på høring - innsamling av data knyttet til korttidsutleie av overnattingssteder - høringsfrist 14.01.2027",
+      "avsender": "Nærings- Og Fiskeridepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077781!3DzRHY/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591460!PrrAps"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591370!qRYEhF",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90849",
+      "dato": "2026-11-04",
+      "tittel": "Høring av råd om fysisk aktivitet ved osteoporose - høringsfrist 02.02.2027",
+      "avsender": "Helsedirektoratet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077742!Wuj5sY/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591370!qRYEhF"
+    },
     {
       "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590799!A75Nqf",
       "kommune": "Gjøvik",
@@ -69,5 +87,5 @@
       "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021004845!jfHryl/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587776!JyWVqn"
     }
   ],
-  "sist_ok": "2026-11-08T22:17:27+01:00"
+  "sist_ok": "2026-11-09T20:29:40+01:00"
 }

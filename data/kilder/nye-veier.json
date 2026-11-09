@@ -1,9 +1,9 @@
 {
   "kilde": "Nye Veier",
   "status": "ok",
-  "hentet": "2026-11-08T22:13:54+01:00",
+  "hentet": "2026-11-09T20:26:22+01:00",
   "antall": 1,
-  "sekunder": 3.1,
+  "sekunder": 3.2,
   "horinger": [
     {
       "kilde": "Nye Veier",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-10-27",
       "ingress": "27.10.2026 | Nye Veier har utarbeidet forslag til detaljregulering med konsekvensutredning for E6 mellom Sjoa, Bredevangen og Solhjem, samt rundkjøring i krysset mellom E6 og rv.15 på Otta. Planforslaget er nå lagt ut til høring og offentlig ettersyn. Fristen for å komme med innspill er 4. januar 2027.",
-      "hentet": "2026-11-08T22:13:54+01:00",
+      "hentet": "2026-11-09T20:26:22+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -28,5 +28,5 @@
       "id": "9c040c5439f5"
     }
   ],
-  "sist_ok": "2026-11-08T22:13:54+01:00"
+  "sist_ok": "2026-11-09T20:26:22+01:00"
 }

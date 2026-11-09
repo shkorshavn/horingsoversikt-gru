@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-08T22:18:19+01:00",
+  "generert": "2026-11-09T20:30:20+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -274,6 +274,13 @@
       "tekst": "Forslag til ny lov om digitale marknader som gjennomfører EUs forordning 2022/1925 om opne og rettferdige marknader i den digitale sektoren i norsk rett.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:27:31+01:00"
+    },
+    "5088a78cf15d": {
+      "versjon": 3,
+      "sjekksum": "08517a66906ba993",
+      "tekst": "Endring av økodesignkravene til mobiltelefoner, trådløse telefoner og nettbrett i økodesignforskriften § 40: justert virkeområde, rettede henvisninger og tekniske korrigeringer i vedleggene, blant annet om leveringstid for reservedeler og bytte av deler.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:15+01:00"
     },
     "51bf7e74bd34": {
       "versjon": 3,
@@ -641,10 +648,10 @@
     },
     "aad1320ee7c1": {
       "versjon": 3,
-      "sjekksum": "207bcda9cd6ad387",
-      "tekst": "Elvia søker om å bygge nye 132 kV luftledninger mellom Åbjøra, Bagn og Dokka, og mellom Bagn og Myre, og å rive de eksisterende 132 kV-ledningene på de samme strekningene. Ledningene er i ferd med å nå teknisk levetid.",
+      "sjekksum": "9552e915b7646f28",
+      "tekst": "Elvia søker om å bygge nye 132 kV luftledninger mellom Åbjøra, Bagn og Dokka, og mellom Bagn og Myre, og om å rive de eksisterende 132 kV-ledningene på de samme strekningene. Ledningene må erstattes fordi de nærmer seg teknisk levetid.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-08T22:18:13+01:00"
+      "laget": "2026-11-09T20:30:17+01:00"
     },
     "ab01fdcf2eec": {
       "versjon": 3,
@@ -904,6 +911,20 @@
       "tekst": "Forslag om å tillate egenmelding ved tilskudd til avløsning ved barns sykdom og å utvide ordningen når jordbrukeren får pleiepenger eller opplæringspenger fra Nav. Departementet foreslår også flere egne endringer i forskriften om avløsning ved sykdom og fødsel mv.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:13:44+01:00"
+    },
+    "e005f25a4377": {
+      "versjon": 3,
+      "sjekksum": "9ebb11ab1b883824",
+      "tekst": "Søknad om tillatelse til å slippe ut vaskevann fra spyling av ca. 300 fritidsbåter i året ved Son Marina, anslått til 30 m³. Vannet skal renses i eget renseanlegg før det slippes ut i Garderbekken, som renner ut i Oslofjorden.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:13+01:00"
+    },
+    "e251041aa021": {
+      "versjon": 3,
+      "sjekksum": "bc6f6ab1fd22dbd5",
+      "tekst": "Forslag til forskrift som fastsetter minstekvantum av epleråstoff til bearbeidingsindustrien for 2026.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:20+01:00"
     },
     "e4c1d2b9f2fa": {
       "versjon": 3,

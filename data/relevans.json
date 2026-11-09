@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-08T22:18:37+01:00",
+  "generert": "2026-11-09T20:30:33+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -281,6 +281,14 @@
       "hvorfor": "Gjelder konkurranseregler for store digitale plattformer, uten merkbar virkning for kommunene eller regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:13+01:00"
+    },
+    "5088a78cf15d": {
+      "versjon": 1,
+      "sjekksum": "f9e2b808aeb9ea10",
+      "relevant": false,
+      "hvorfor": "Tekniske rettelser i produktkrav til mobiltelefoner og nettbrett, rettet mot produsenter og importører.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:26+01:00"
     },
     "51bf7e74bd34": {
       "versjon": 1,
@@ -660,11 +668,11 @@
     },
     "aad1320ee7c1": {
       "versjon": 1,
-      "sjekksum": "9ae02f04c77b49e7",
+      "sjekksum": "f64f3e3b5ab52cd4",
       "relevant": true,
-      "hvorfor": "Ny 132 kV-ledning mot Dokka og riving av eksisterende ledninger angår strømforsyning, plass til økt forbruk og arealbruk i Innlandet.",
+      "hvorfor": "Ny 132 kV-ledning til Dokka i Nordre Land erstatter gamle ledninger og skal sikre forsyningen og gi rom for økt forbruk i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-08T22:18:27+01:00"
+      "laget": "2026-11-09T20:30:28+01:00"
     },
     "ab01fdcf2eec": {
       "versjon": 1,
@@ -929,6 +937,22 @@
       "hvorfor": "Endrer avløsningstilskuddet ved sykdom og fødsel for jordbrukere, blant annet egenmelding ved barns sykdom, og kan dermed berøre landbruket i regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:10+01:00"
+    },
+    "e005f25a4377": {
+      "versjon": 1,
+      "sjekksum": "4883ccefe7198b82",
+      "relevant": false,
+      "hvorfor": "Gjelder bare utslipp fra båtvask ved Son Marina til Garderbekken, som renner ut i Oslofjorden.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:21+01:00"
+    },
+    "e251041aa021": {
+      "versjon": 1,
+      "sjekksum": "0d259be889409d9c",
+      "relevant": true,
+      "hvorfor": "Nasjonal forskrift om minstekvantum av epleråstoff kan påvirke eplebønder og bearbeidingsindustri i landbruket, også i Innlandet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-09T20:30:33+01:00"
     },
     "e4f7f112e5d1": {
       "versjon": 1,

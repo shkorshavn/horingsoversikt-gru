@@ -1,9 +1,10 @@
 {
   "kilde": "Regjeringen.no",
-  "status": "ok",
-  "hentet": "2026-11-08T22:13:59+01:00",
-  "antall": 62,
-  "sekunder": 59.9,
+  "status": "feil",
+  "hentet": "2026-11-11T19:27:12+01:00",
+  "antall": 0,
+  "feil": "SimulertFeil: Simulert feil for Regjeringen.no (HORINGER_SIMULER_FEIL)",
+  "sekunder": 0.0,
   "horinger": [
     {
       "kilde": "Regjeringen.no",

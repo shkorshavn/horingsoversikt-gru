@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-09T20:30:33+01:00",
+  "generert": "2026-11-11T19:27:35+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -34,14 +34,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-08T22:18:36+01:00"
     },
-    "0a21171f7c9c": {
-      "versjon": 1,
-      "sjekksum": "f8e08d273cb33d2f",
-      "relevant": true,
-      "hvorfor": "Nasjonal regel om opphold for fordrevne fra Ukraina i inntil sju år kan påvirke kommunenes bosetting, integreringsarbeid og tjenester, og tilgangen på arbeidskraft.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:03:48+01:00"
-    },
     "0bc5a4b145ee": {
       "versjon": 1,
       "sjekksum": "651ab860ea3602dc",
@@ -57,14 +49,6 @@
       "hvorfor": "Gjelder bussanskaffelser i fylkeskommunal kollektivtransport og et unntak fra nullutslippsforskriften, noe som kan påvirke busstilbudet og anskaffelser i Innlandet.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:05:07+01:00"
-    },
-    "0fac555760ba": {
-      "versjon": 1,
-      "sjekksum": "5b7a164955617d35",
-      "relevant": false,
-      "hvorfor": "Gjelder klagebehandling av sakskostnader i Nav-saker hos Trygderetten, uten merkbar effekt for kommunene.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:04:28+01:00"
     },
     "10f5a678155b": {
       "versjon": 1,
@@ -218,14 +202,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:50+01:00"
     },
-    "3e967a8c63c8": {
-      "versjon": 1,
-      "sjekksum": "4ee7b47ea543345b",
-      "relevant": false,
-      "hvorfor": "Gjelder beredskapslagring av vaksiner hos legemiddelgrossister, ikke kommunenes oppgaver eller regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:06:53+01:00"
-    },
     "3fd5999d299f": {
       "versjon": 1,
       "sjekksum": "0c5110055ab53116",
@@ -378,14 +354,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T22:05:55+01:00"
     },
-    "6916c1dd7f57": {
-      "versjon": 1,
-      "sjekksum": "57c45a5ecc86ddb0",
-      "relevant": false,
-      "hvorfor": "Gjelder drift av utlendingsinternatet og restriksjoner for internerte, ikke kommunale oppgaver.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:02:41+01:00"
-    },
     "6a72fcd2b2b8": {
       "versjon": 1,
       "sjekksum": "0eafa13a1aa9eea8",
@@ -482,14 +450,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-08T22:18:24+01:00"
     },
-    "8590425183d7": {
-      "versjon": 1,
-      "sjekksum": "9f5d6fa14bf6d867",
-      "relevant": false,
-      "hvorfor": "Gjelder mottak av skipsavfall i havner og avfallsplaner for havner, uten omtale av innsjøer eller kommunenes oppgaver.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:53+01:00"
-    },
     "868dbad65877": {
       "versjon": 1,
       "sjekksum": "99ec62da956d776d",
@@ -537,14 +497,6 @@
       "hvorfor": "Nasjonal strategi for pensjonsinformasjon gjelder alle innbyggere, også brukere med svake digitale eller norskspråklige ferdigheter, og kan berøre kommunene som arbeidsgivere og tjenesteytere.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:05+01:00"
-    },
-    "90ebc00576f2": {
-      "versjon": 1,
-      "sjekksum": "3315527b044ef13b",
-      "relevant": false,
-      "hvorfor": "Gjelder Grunnlovens regler om påtalemyndighetens uavhengighet, som ikke berører kommunene eller regionen merkbart.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:02:36+01:00"
     },
     "929e7e070e99": {
       "versjon": 1,
@@ -977,14 +929,6 @@
       "hvorfor": "",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:05:30+01:00"
-    },
-    "eb7e8a64289f": {
-      "versjon": 1,
-      "sjekksum": "c55d1cc001dfec7a",
-      "relevant": false,
-      "hvorfor": "Gjelder bare et havneanlegg for havbasert vindkraft i Strömstad kommune i Sverige, ved kysten.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:55+01:00"
     },
     "ef6918aedd9c": {
       "versjon": 1,

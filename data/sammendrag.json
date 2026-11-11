@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-09T20:30:20+01:00",
+  "generert": "2026-11-11T19:27:35+01:00",
   "modell": "claude-sonnet-5-5",
   "sammendrag": {
     "006cf69022a8": {
@@ -30,13 +30,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-08T22:18:18+01:00"
     },
-    "0a21171f7c9c": {
-      "versjon": 3,
-      "sjekksum": "f7c23ddc2c950df9",
-      "tekst": "Midlertidig kollektiv beskyttelse i en massefluktsituasjon foreslås utvidet fra fem til totalt syv år, gitt for ett år om gangen. Ny tillatelse etter syv år skal gi permanent opphold etter to år, ikke tre, og adgangen til å sette asylsøknaden i bero utvides til syv år.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:28:07+01:00"
-    },
     "0bc5a4b145ee": {
       "versjon": 3,
       "sjekksum": "1cef1f76d73823fc",
@@ -50,13 +43,6 @@
       "tekst": "Forslag om en veileder som anbefaler at fylkeskommuner og andre oppdragsgivere vurderer sikkerhet og beredskap ved bussanskaffelser, og om et unntak i nullutslippsforskriften for kjøretøy der det er nødvendig av hensyn til sikkerhet og beredskap.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:29:33+01:00"
-    },
-    "0fac555760ba": {
-      "versjon": 3,
-      "sjekksum": "f65a21dd8397a791",
-      "tekst": "Avslag på krav om sakskostnader etter forvaltningsloven § 36, fattet av Arbeids- og velferdsdirektoratet, foreslås brakt inn for Trygderetten til annengangsbehandling som anker. Det foreslås også unntak fra fri sakførsel i rettshjelpsloven for slike saker.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:28:43+01:00"
     },
     "10f5a678155b": {
       "versjon": 3,
@@ -204,13 +190,6 @@
       "tekst": "Nettselskapene foreslås å kunne sette tak på kraftprisen som brukes til å beregne energileddet i nettleien også i 2027, med en kraftpris på minimum 45 øre per kWh. Kravet om at energileddet skal dekke marginale tapskostnader i distribusjonsnettet foreslås ikke å gjelde ut 2027.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:05+01:00"
-    },
-    "3e967a8c63c8": {
-      "versjon": 3,
-      "sjekksum": "a5994199b18221b0",
-      "tekst": "Legemiddelgrossister som leverer til apotek foreslås pålagt å beredskapslagre utvalgte vaksiner og immunglobuliner, gjennom endringer i grossistforskriften §§ 5 og 5a.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:58+01:00"
     },
     "3fd5999d299f": {
       "versjon": 3,
@@ -366,13 +345,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-10-27T18:26:38+01:00"
     },
-    "6916c1dd7f57": {
-      "versjon": 3,
-      "sjekksum": "29e6ad782025c0b4",
-      "tekst": "Endringer i utlendingsloven om å flytte driften av utlendingsinternatet fra politiet til kriminalomsorgen. Forslaget omfatter også restriksjoner under oppholdet og andre endringer.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-02T20:08:22+01:00"
-    },
     "6a72fcd2b2b8": {
       "versjon": 3,
       "sjekksum": "57f8d34d8d6628ae",
@@ -471,13 +443,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-08T22:18:11+01:00"
     },
-    "8590425183d7": {
-      "versjon": 3,
-      "sjekksum": "079019690986f0f4",
-      "tekst": "Endringer i forurensningsforskriften kapittel 20 om mottak og håndtering av avfall fra skip foreslås, hovedsakelig som presiseringer, forenklinger og tekniske justeringer. Blant annet tydeliggjøres reglene om avfallsgebyr, og nærliggende havner får større fleksibilitet til å lage felles avfallsplaner.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:23+01:00"
-    },
     "868dbad65877": {
       "versjon": 3,
       "sjekksum": "f66e4a4971c69854",
@@ -519,13 +484,6 @@
       "tekst": "Utkast til en helhetlig strategi for pensjonsinformasjon, som skal gjøre det enklere å forstå økonomiske konsekvenser av valg som uttakstidspunkt, bidra til tillit til pensjonssystemet og sikre oppslutning om pensjonsreformen. Utkastet tar også for seg brukere som ikke er fortrolige med digitale verktøy, og brukere med begrensede norskkunnskaper.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:13:35+01:00"
-    },
-    "90ebc00576f2": {
-      "versjon": 3,
-      "sjekksum": "d9fa1af550f99220",
-      "tekst": "To grunnlovsforslag om endring av Grunnloven § 96. Det ene gjelder uavhengig påtalemyndighet, det andre uavhengig offentlig påtale.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:27:11+01:00"
     },
     "922068c3201e": {
       "versjon": 3,
@@ -765,13 +723,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:13:31+01:00"
     },
-    "bb581c6140b5": {
-      "versjon": 3,
-      "sjekksum": "cff42446bc150ce8",
-      "tekst": "",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:09:20+01:00"
-    },
     "bb771f9e94f4": {
       "versjon": 3,
       "sjekksum": "265a7a2ed0d82189",
@@ -953,13 +904,6 @@
       "tekst": "Det foreslås endringer i bilforskriften med flere nye tekniske krav til typegodkjenning av bil.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-02T20:08:28+01:00"
-    },
-    "eb7e8a64289f": {
-      "versjon": 3,
-      "sjekksum": "121eb2e6387bc854",
-      "tekst": "Søknad om å etablere et havneanlegg i Kålvik i Strömstad kommune i Sverige, om lag 1 kilometer fra norskegrensen. Anlegget skal brukes til produksjon, montering, lagring og utskiping av fundamenter, vindturbiner og andre komponenter til havbasert vindkraft.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-10-27T18:30:25+01:00"
     },
     "ef6918aedd9c": {
       "versjon": 3,

@@ -1,10 +1,32 @@
 {
   "kilde": "Riksantikvaren",
   "status": "ok",
-  "hentet": "2026-11-09T20:28:39+01:00",
-  "antall": 1,
-  "sekunder": 2.6,
+  "hentet": "2026-11-16T20:14:22+01:00",
+  "antall": 2,
+  "sekunder": 4.0,
   "horinger": [
+    {
+      "kilde": "Riksantikvaren",
+      "kategori": "Oppvekst, utdanning, kultur og integrering",
+      "prioritet": 2,
+      "instans": "Riksantikvaren",
+      "tittel": "Viktig lovendringsforslag med betydning for forvaltning av kulturmiljø er på høring",
+      "lenke": "https://riksantikvaren.no/viktig-lovendringsforslag-med-betydning-for-forvaltning-av-kulturmiljo-er-pa-horing/",
+      "frist": "2027-01-15",
+      "frist_tekst": "Frist: 15.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-11-11",
+      "ingress": "Energidepartementet har lagt ut forslag til endringer i energilovgivningen og plan- og bygningsloven på høring, med frist for innspill den 15. januar 2027. Endringene vil berøre kulturmiljøfeltet på flere områder.",
+      "hentet": "2026-11-16T20:14:22+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Forslaget innebærer blant annet at det ikke lenger skal utarbeides områderegulering for vindkraftanlegg, at saksbehandlingsprosessen for konsesjonssøknader endres, NVE får utvidet sin rolle og at det ikke lenger skal kunne reises innsigelse til energikonsesjoner for statlige og regionale organer og kommuner. Kun Sametinget skal få anledning til å reise innsigelse. Også klageadgangen begrenses på samme måte som innsigelser. De foreslåtte endringene vil ha betydning for kulturmiljøforvaltningens behandling av energikonsesjonssøknader (vind, vann, sol og nett). Høringsnotat med mer finner du her Høring av forslag til lovendringer – vindkraft på land, innsigelsesordningen i energi- og vassdragssaker mv. – regjeringen.no Utlysning: europeisk forskningssamarbeid om kulturarv og klimaendringer Det europeiske partnerskapet Resilient Cultural Heritage (RCH) har publisert sin første utlysning som er åpen for norske aktører. Meld deg på webinar 17. november. Viktig lovendringsforslag med betydning for forvaltning av kulturmiljø er på høring Energidepartementet har lagt ut forslag til endringer i energilovgivningen og plan- og bygningsloven på høring, med frist for innspill den 15. januar 2027. Endringene vil berøre kulturmiljøfeltet på flere områder. Kulturminneprisen 2026 til Sygard Grytting Årets kulturminnepris går til Hilde og Stig Grytting på garden Sygard Grytting i Sør-Fron kommune i Gudbrandsdalen.",
+      "id": "da5c3c327785"
+    },
     {
       "kilde": "Riksantikvaren",
       "kategori": "Oppvekst, utdanning, kultur og integrering",
@@ -17,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2026-01-12",
       "ingress": "Berørte parter gis en høringsfrist på 6 uker for å komme med innspill. Høringsfrist er 16. februar 2026.",
-      "hentet": "2026-11-09T20:28:39+01:00",
+      "hentet": "2026-11-16T20:14:22+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -28,5 +50,5 @@
       "id": "75cb1a1bde8f"
     }
   ],
-  "sist_ok": "2026-11-09T20:28:39+01:00"
+  "sist_ok": "2026-11-16T20:14:22+01:00"
 }

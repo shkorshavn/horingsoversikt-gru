@@ -1,9 +1,9 @@
 {
   "kilde": "NVE",
   "status": "ok",
-  "hentet": "2026-11-09T20:26:43+01:00",
-  "antall": 4,
-  "sekunder": 100.2,
+  "hentet": "2026-11-16T20:12:06+01:00",
+  "antall": 5,
+  "sekunder": 120.5,
   "horinger": [
     {
       "kilde": "NVE",
@@ -17,7 +17,7 @@
       "frist_maned": "2026-12",
       "publisert": "2026-10-05",
       "ingress": "På vegne av Energidepartementet (ED) og Klima- og miljødepartementet (KLD) sender Norges vassdrags- og energidirektorat (NVE) med dette på høring forslag til endringer i forskrift av 23.2.2011 nr. 190 om miljøvennlig utforming av produkter (økodesignforskriften). NVE foreslår også endringer i forskrift av 27. mai 2013 nr. 534 om energimerking av energirelaterte produkter (energimerkeforskriften…",
-      "hentet": "2026-11-09T20:26:43+01:00",
+      "hentet": "2026-11-16T20:12:06+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -39,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2025-12-19",
       "ingress": "Norges vassdrags- og energidirektorat (NVE) har sendt på høring forslag om endring av kraftberedskapsforskriften § 4-1 om reparasjonsberedskap. Formålet med de foreslåtte endringene er å styrke reparasjonsberedskapen i kraftforsyningen. Styrking av reparasjonsberedskapen er nødvendig for å møte dagens sikkerhetspolitiske situasjon og redusere risikoen for langvarige strømbrudd.",
-      "hentet": "2026-11-09T20:26:43+01:00",
+      "hentet": "2026-11-16T20:12:06+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -61,7 +61,7 @@
       "frist_maned": "",
       "publisert": "2025-12-17",
       "ingress": "NVE har sendt på høring et forslag om å gjennomføre to EU-forordninger i norsk rett. Forordningene stiller krav om miljøvennlig utforming av produkter. Forordningene stiller både krav som skal fremme energieffektivitet og krav som skal fremme en mer sirkulær økonomi.",
-      "hentet": "2026-11-09T20:26:43+01:00",
+      "hentet": "2026-11-16T20:12:06+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -83,7 +83,7 @@
       "frist_maned": "",
       "publisert": "2026-11-06",
       "ingress": "Konsesjonssøknad i Nordre Land, Sør-Aurdal, Etnedal, Nord-Aurdal kommune, ELVIA AS.",
-      "hentet": "2026-11-09T20:26:43+01:00",
+      "hentet": "2026-11-16T20:12:06+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -92,7 +92,29 @@
       "detalj_versjon": 4,
       "detaljtekst": "132 kV Åbjøra-Bagn- Dokka Tiltakshaver ELVIA AS Sakstype(r) Nett Saksnummer 202602672 Status Høring Dato 06.11.2026 Fylke Kommune Send høringsuttalelse Høringsfrist: 11.01.2027 Vi foretrekker at du bruker det elektroniske skjemaet, ved å trykke på knappen «send høringsuttalelse». Det er også mulig å sende uttalelsen per epost, til nve@nve.no. Merk emnefeltet med «Høringsuttalelse 202602672» , og oppgi navn og eventuelt organisasjonsnummer innledningsvis. Du kan også sende inn uttalelse per brevpost. NVE har sendt søknaden på høring. Gjennom høring av konsesjonssøknaden ønsker vi å motta synspunkter på planene og forslag til tiltak som kan redusere eventuelle negative virkninger. Høringsfristen er satt til 11. januar 2027. Elvia søker om å bygge en ny ca. 43,5 km lang 132 kV luftledning mellom Åbjøra og Dokka, en ny ca. 15,3 km lang 132 kV luftledning mellom Åbjøra og Bagn, en ny ca. 32, 6 km lang 132 kV luftledning mellom Bagn og Dokka, og en ca. 3.5 km lang luftledning mellom Bagn og Myre. I tillegg søker Elvia om å rive eksisterende 132 kV luftledninger på de samme strekningene. Elvia begrunner tiltaket med at de eksisterende kraftledningene nærmer seg sin tekniske levetid og må erstattes. De nye kraftledningene er nødvendige for å sikre forsyningssikkerheten i området, samt legge til rette for økt forbruk. Saksbehandler konsesjon Christian Solheim chso@nve.no Konsesjon Ny 132 kV-forbindelse Åbjøra - Bagn - Dokka - konsesjonssøknad 15-12-25 12 MB Vedlegg 1 trasekart m mastepunkt 6 MB Vedlegg 2 KU-rapport_132 kV-ledning Åbjøra-Dokka J03 10.11.25 8 MB Vedlegg 3 Kryssing av Begna naturreservat 3 MB Vedlegg 5 Ny 132 kV-ledning Åbjøra_Dokka_Naturfare J02 med vedlegg 15 MB Vedlegg 5 Ny 132 kV-ledning Åbjøra - Dokka - Notat Anleggsplan 551 KB",
       "id": "aad1320ee7c1"
+    },
+    {
+      "kilde": "NVE",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "NVE (konsesjonssak)",
+      "tittel": "Stordalselva og Hundåga kraftverk, samt uttak av vann til kommunal drikkevannsforsyning og settefiskanlegg",
+      "lenke": "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=9632&type=V-1",
+      "frist": "2027-01-15",
+      "frist_tekst": "Høringsfrist: 15.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-11-13",
+      "ingress": "Konsesjonssøknad i Lurøy kommune, STOKKVÅGEN UTVIKLING AS.",
+      "hentet": "2026-11-16T20:12:06+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Stordalselva og Hundåga kraftverk, samt uttak av vann til kommunal drikkevannsforsyning og settefiskanlegg Registreringsnummer 9632 Saksnummer 202506883 Overordnet sakstype Vannkraft Sakstype Ny vannkraft Underordnet sakstype Småkraft Status Søknad Tiltakshaver STOKKVÅGEN UTVIKLING AS Fylke Nordland Kommune Lurøy Vassdragsområde 157.53Z Søkt produksjon 10,80 GWh Se stort kart i NVE Temakart Send høringsuttalelse Høringsfrist: 15.01.2027 Vi foretrekker at du bruker det elektroniske skjemaet, ved å trykke på knappen «send høringsuttalelse». Det er også mulig å sende uttalelsen per epost, til nve@nve.no. Merk emnefeltet med «Høringsuttalelse 202506883» , og oppgi navn og eventuelt organisasjonsnummer innledningsvis. Du kan også sende inn uttalelse per brevpost. Du kan også sende høringsinnspill via: § e-post til nve@nve.no (merk e-posten med «Høringsuttalelse 202506883» i emnefeltet, og oppgi navn og organisasjonsnummer i innledningen om du representerer en virksomhet) § brev til NVE, Postboks 5091, Majorstuen, 0301 OSLO (merk brevet med «Høringsuttalelse 202506883», og oppgi navn og organisasjonsnummer i innledningen om du representerer en virksomhet) NVE har mottatt en søknad fra Stokkvågen Utvikling AS om tillatelse etter vannressursloven til å bygge Stordalen kraftverk og Hundåga kraftverk, regulere Stordalsvatnet og Hundågsvatnet, regulere inntaksbasseng til Stordalselva, overføre vann fra Hundåga kraftverk til Stordalselva, og vannuttak til landbasert settefiskanlegg og drikkevann. Etter energiloven søker Stokkvågen Utvikling AS om tillatelse til å bygge og drifte Stordalselva kraftverk og Hundåga kraftverk, begge med tilhørende nettanlegg, og anleggskonsesjon for nedgravd jordkabel. Stordalen kraftverk planlegges med inntak på kote 433,7, inntaksbassenget til Stordalselva skal reguleres mellom LRV på kote 431,7 og HRV på kote 433,7. Stordalsvannet planlegges regulert mellom LRV på kote 454,0 og HRV på kote 458,0. Foreslått minstevannføringsslipp forbi reguleringsdammen er 8 l/s sommer og 6 l/s vinter. Fra inntaksbassenget er det planlagt 1750 m nedgravd rør med diameter på 500 mm frem til felles kraftstasjon. Hundåga kraftverk planlegges med inntak på kote 275,0, reguleringen av Hundågsvatnet mellom LRV 321,1 og HRV på kote 325,1. Foreslått minstevannføringsslipp forbi reguleringsdammen er 18 l/s sommer og 13 l/s vinter. Foreslått minstevannføringsslipp forbi inntaksdammen er 15 l/s sommer og 11 l/s vinter. Fra inntaksdammen i Hundåga er det planlagt 1600 m retningsstyrt boring over til Stordalen. Nedre del av vannveien til Hundåga kraftverk planlegges som 340 m nedgravd rør. Rørene for Hundåga og Stordalselva samles i en felles grøft ned mot kraftstasjonen. Det er planlagt en felles kraftstasjonsbygning for begge kraftverkene på kote 30 i Stordalselva. Produksjonsvann fra Hundåga kraftverk til Stordalselva skal overføres på samme kote. Det søkes om å ta ut inntil 120 l/s til settefiskanlegg og 10 l/s til drikkevann fra kraftstasjonen. Gjennomsnittlig vannuttak til settefiskanlegget er beregnet til 70 l/s. Fra utløpskummen ved kraftstasjonen er det planlagt en vannledning, med naturlig fall og en lengde på 2,3 km og diameter 300 mm, ned til Stokkvågodden industri- og næringsområde. Begge kraftverkene kan koples på eksisterende nettverk med vilkår som begrenser innmatingen til 4,21 MW. Det søkes om anleggskonsesjon mellom kraftstasjon til grenseskille mot områdekonsesjon eksisterende distribusjonsnett. For vannuttak til drikkevannsforsyning og settefiskanlegg planlegges det en vannledning på 2,3 km fra utløpskummen ved kraftstasjonen til Stokkvågodden industriområde. Vannledningen vil bli lagt i kombinert grøft langs eksisterende veier og eksisterende trasé for dagens vannforsyning. Saksbehandler konsesjon Malin Solheim Høstmark msh@nve.no Konsesjon HØRINGSBREV 566 KB Klassifisering Hundåga.pdf 2 MB Klassifisering Stordalselva.pdf 3 MB VEDLEGG hydrologiskjema.pdf 3 MB VEDLEGG grunneiere.pdf 15 KB VEDLEGG til konsesjonssøknad.pdf 27 MB KONSESJONSSØKNAD 8 MB informasjon om vedtatt detaljreguleringsplan 89 KB Detaljreguleringsplan - Planvedtak KST 21 KB Detaljreguleringsplan - Plankart 680 KB Tilleggsinformasjon til konsesjonssøknad 2 MB Tilleggsinformasjon til konsesjonssøknad 2 2 MB",
+      "id": "26201343322c"
     }
   ],
-  "sist_ok": "2026-11-09T20:26:43+01:00"
+  "sist_ok": "2026-11-16T20:12:06+01:00"
 }

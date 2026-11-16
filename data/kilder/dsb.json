@@ -1,10 +1,32 @@
 {
   "kilde": "DSB",
   "status": "ok",
-  "hentet": "2026-11-09T20:28:23+01:00",
-  "antall": 2,
-  "sekunder": 5.8,
+  "hentet": "2026-11-16T20:14:07+01:00",
+  "antall": 3,
+  "sekunder": 7.7,
   "horinger": [
+    {
+      "kilde": "DSB",
+      "kategori": "Miljø, klima, energi og beredskap",
+      "prioritet": 1,
+      "instans": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
+      "tittel": "Høring om endringer i forskrift om landtransport av farlig gods – transport i tank med ekstra store kjøretøykombinasjoner m.m",
+      "lenke": "https://www.dsb.no/horinger/horinger/horing-om-endringer-i-forskrift-om-landtransport-av-farlig-gods--transport-i-tank-med-ekstra-store-kjoretoykombinasjoner-m.m",
+      "frist": "2027-01-04",
+      "frist_tekst": "Høringsfrist: 04.01.2027",
+      "frist_maned": "",
+      "publisert": "2026-11-16",
+      "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender på høring forslag til endringer i forskrift 1. april 2009 nr. 384 om landtransport av farlig gods, heretter landtransportforskriften. Hovedendringen er en ny adgang etter § 18 a andre ledd til å transportere farlig gods i tank med ekstra store kjøretøykombinasjoner som ikke er modulvogntog. For bestemte kjøretøy der risikoen for BLEVE og…",
+      "hentet": "2026-11-16T20:14:07+01:00",
+      "niva": "Direktorater og etater",
+      "horingsparter": [],
+      "horingsparter_merknad": "Ikke oppgitt",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Høring om endringer i forskrift om landtransport av farlig gods – transport i tank med ekstra store kjøretøykombinasjoner m.m Direktoratet for samfunnssikkerhet og beredskap (DSB) sender på høring forslag til endringer i forskrift 1. april 2009 nr. 384 om landtransport av farlig gods, heretter landtransportforskriften. Hovedendringen er en ny adgang etter § 18 a andre ledd til å transportere farlig gods i tank med ekstra store kjøretøykombinasjoner som ikke er modulvogntog. For bestemte kjøretøy der risikoen for BLEVE og annen alvorlig tanksvikt ved brann vurderes å være størst, foreslås det særskilte sikkerhetskrav. Høringssvar Høring åpnet 16.11.2026 Den foreslåtte adgangen gjelder ikke modulvogntog, og forbudet mot tanktransport med modulvogntog for FL- og AT-kjøretøy videreføres. Forslaget omfatter også en ny definisjon i § 3, en ny § 18 c som tydeliggjør adgangen til å transportere farlig gods i kolli eller bulk med modulvogntog, og en overgangsbestemmelse i § 24. Hovedspørsmålet ble hørt i 2024 i forbindelse med forslaget om å oppheve § 18 a. På bakgrunn av innspillene fra den tidligere høringen foreslår DSB nå en mer avgrenset løsning. DSB mener derfor at en høringsfrist på syv uker er tilstrekkelig. Høringen er åpen for alle. Høringssvar sendes inn i det elektroniske høringssystemet innen høringsfristen 4. januar 2027. Spørsmål kan rettes til Athina Rachlew Bjørnstad på e-post . Høringsfrist 04.01.2027 Les og svar på høringen Ingen høringssvar funnet.",
+      "id": "f87e7abc6d10"
+    },
     {
       "kilde": "DSB",
       "kategori": "Miljø, klima, energi og beredskap",
@@ -17,7 +39,7 @@
       "frist_maned": "",
       "publisert": "2026-11-02",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender endringene som skal inngå i 2027-utgavene av ADR og RID, på høring. DSB foreslår samtidig endringer i §§ 2 og 3 i forskrift om landtransport av farlig gods.",
-      "hentet": "2026-11-09T20:28:23+01:00",
+      "hentet": "2026-11-16T20:14:07+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -39,7 +61,7 @@
       "frist_maned": "",
       "publisert": "2026-10-16",
       "ingress": "Direktoratet for samfunnssikkerhet og beredskap (DSB) sender med dette forslag til endringer i forskrift om sivilforsvar på høring. Bakgrunnen for forskriftsendringen er et forslag om endringer i skatteloven som innebærer at ulempetillegg og ledertillegg til tjenestepliktige i Sivilforsvaret blir skattepliktige fra 1. januar 2027.",
-      "hentet": "2026-11-09T20:28:23+01:00",
+      "hentet": "2026-11-16T20:14:07+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "Ikke oppgitt",
@@ -50,5 +72,5 @@
       "id": "c8305ff88bfd"
     }
   ],
-  "sist_ok": "2026-11-09T20:28:23+01:00"
+  "sist_ok": "2026-11-16T20:14:07+01:00"
 }

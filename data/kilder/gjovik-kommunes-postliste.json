@@ -1,10 +1,145 @@
 {
   "kilde": "Gjøvik kommunes postliste",
   "status": "ok",
-  "hentet": "2026-11-09T20:29:40+01:00",
-  "antall": 9,
-  "sekunder": 10.8,
+  "hentet": "2026-11-16T20:15:37+01:00",
+  "antall": 21,
+  "sekunder": 14.2,
   "journalposter": [
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593821!k4Cq8n",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/93300",
+      "dato": "2026-11-11",
+      "tittel": "Høring - Pilegrimsstrategi - Strategi for Innlandet fylkeskommunes arbeid med pilegrimsleden 2027-2031",
+      "avsender": "Innlandet Fylkeskommune",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021078005!60QU6y/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593821!k4Cq8n"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593662!b0Ge8S",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/93141",
+      "dato": "2026-11-11",
+      "tittel": "Høringsbrev av søknad om anleggskonsesjon for nye 132kv kraftledninger Åbjøra-Bagn-Dokka og invitasjon til folkemøte",
+      "avsender": "Elvia As",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077852!emkI5k/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593662!b0Ge8S"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593566!vTcQwC",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/93045",
+      "dato": "2026-11-11",
+      "tittel": "Høring av forslag om opprettelse av dronerestriksjoner rundt landingsplasser ved norske sykehus",
+      "avsender": "Luftfartstilsynet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077992!rFgLN5/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021593566!vTcQwC"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590527!jBQiJB",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/90006",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - FAU Kopperud skole",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590527!jBQiJB"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590408!noN2HX",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/89887",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding til åpent høringsmøte 04.11.2026 - Sportsklubben Gjøvik Lyn",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590408!noN2HX"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590369!XZhr9x",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/89848",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - NF Gjøvik demensforening",
+      "avsender": "Nasjonalforeningen For Folkehelsen Gjøvik Demensforening",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590369!XZhr9x"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590351!Sjtvd5",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/89830",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - NTNUi Gjøvik hovedstyret",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021590351!Sjtvd5"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588795!1LJLKb",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/88274",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - FAU Lundstein skole",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588795!1LJLKb"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588325!z00yIK",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/87804",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - FAU Bjørnsveen/FAU Fredheim",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588325!z00yIK"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588321!38bqlN",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/87800",
+      "dato": "2026-11-11",
+      "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - Hverdag - Mat & Mening",
+      "avsender": "As Hverdag M M",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588321!38bqlN"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592674!cGzncj",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/92153",
+      "dato": "2026-11-09",
+      "tittel": "Høring - Utkast til norsk standard om varmebehandling av jord",
+      "avsender": "",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077889!LFmq6F/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592674!cGzncj"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592641!3nx2ih",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/92120",
+      "dato": "2026-11-09",
+      "tittel": "Høring av forslag til lovendringer om planlegging av vindkraft på land og behandling av batterier i kraftsystemet, innsigelsesordningen i energi- og vassdragssaker",
+      "avsender": "Energidepartementet",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077887!RsVPLd/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592641!3nx2ih"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592223!4TiEiK",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/91702",
+      "dato": "2026-11-06",
+      "tittel": "Høring av regional plan for vannforvaltning 2028-2033 for Vest-Viken vannregion",
+      "avsender": "Buskerud Fylkeskommune",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2018009866!yaoF8K/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592223!4TiEiK"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592216!wuZOVW",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/91695",
+      "dato": "2026-11-06",
+      "tittel": "Høring av søknad om anleggskonsesjon for nye 132kv kraftledninger Åbjøra-Bagn-Dokka og invitasjon til offentlige informasjonsmøter",
+      "avsender": "Norges Vassdrags- Og Energidirektorat (nve)",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077852!emkI5k/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021592216!wuZOVW"
+    },
+    {
+      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591862!8WcN0o",
+      "kommune": "Gjøvik",
+      "dokument_id": "2026/91341",
+      "dato": "2026-11-05",
+      "tittel": "81/1 - Lillehammervegen 660, Gjøvik - Høringsuttalelse - Søknad om dispensasjon fra reguleringsplan",
+      "avsender": "Statens vegvesen",
+      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021076508!HTJVmA/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591862!8WcN0o"
+    },
     {
       "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021591460!PrrAps",
       "kommune": "Gjøvik",
@@ -58,34 +193,7 @@
       "tittel": "Påmelding og innspill til åpent høringsmøte 04.11.2026 - Fontenehuset Gjøvik",
       "avsender": "Fontenehuset Gjøvik As",
       "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021069898!O6moGr/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588327!fsuOrM"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588299!ZVQrHG",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/87778",
-      "dato": "2026-10-27",
-      "tittel": "Høringsbrev - Endring av skilting - Rv. 4 Skulhusodden - Mjøsbrua",
-      "avsender": "Statens vegvesen",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2017009930!canK4i/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588299!ZVQrHG"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588250!NMEkvd",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/87729",
-      "dato": "2026-10-27",
-      "tittel": "Gi innspill til veiledende innholdslister - læreplaner i grunnskolen",
-      "avsender": "Utdanningsdirektoratet",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021077300!mySYch/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021588250!NMEkvd"
-    },
-    {
-      "id": "d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587776!JyWVqn",
-      "kommune": "Gjøvik",
-      "dokument_id": "2026/87255",
-      "dato": "2026-10-26",
-      "tittel": "Høring - Forslag til endring i forskrift om tilskudd til avløsning ved sykdom og fødsel mv. - Oppfølging av jordbruksoppgjøret 2026 mm.",
-      "avsender": "Landbruks- Og Matdepartementet",
-      "lenke": "https://www.gjovik.kommune.no/politikk-planer-og-organisasjon/postliste-dokumenter-og-vedtak/sok-i-postliste/#/details/a-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021004845!jfHryl/d-ee0f97cc__bfb2__4549__9555__c2dcc5131630-2021587776!JyWVqn"
     }
   ],
-  "sist_ok": "2026-11-09T20:29:40+01:00"
+  "sist_ok": "2026-11-16T20:15:37+01:00"
 }

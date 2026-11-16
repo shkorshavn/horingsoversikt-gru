@@ -1,9 +1,32 @@
 {
   "kilde": "Statsforvalteren i Innlandet",
   "status": "ok",
-  "hentet": "2026-11-09T20:29:37+01:00",
-  "antall": 0,
-  "sekunder": 2.6,
-  "horinger": [],
-  "sist_ok": "2026-11-09T20:29:37+01:00"
+  "hentet": "2026-11-16T20:15:34+01:00",
+  "antall": 1,
+  "sekunder": 3.9,
+  "horinger": [
+    {
+      "kilde": "Statsforvalteren i Innlandet",
+      "kategori": "Regionale ledd",
+      "prioritet": 1,
+      "instans": "Statsforvalteren i Innlandet",
+      "tittel": "Søknad om godkjenning av Nord-Sel, Høvringen, Bjølstadmo og Otta som typisk turiststed",
+      "lenke": "https://www.statsforvalteren.no/nb/innlandet/horinger/2026/11/soknad-om-godkjenning-av-nord-sel-hovringen-bjolstadmo-og-otta-som-typisk-turiststed/",
+      "frist": "2026-11-27",
+      "frist_tekst": "Høringsfrist: 27. november kl. 23:55",
+      "frist_maned": "",
+      "publisert": null,
+      "ingress": "Statsforvalteren sender forslag om å godkjenne Nord-Sel, Høvringen, Bjølstadmo i Heidal og Otta i Sel kommune som typisk turiststed, ut på offentlig høring.",
+      "hentet": "2026-11-16T20:15:34+01:00",
+      "niva": "Statsforvalteren",
+      "horingsparter": [],
+      "horingsparter_merknad": "Åpen for alle",
+      "horingsparter_lenke": "",
+      "saksfelt": [],
+      "detalj_versjon": 4,
+      "detaljtekst": "Høring Kommuneøkonomi Søk om å holde søndagsåpent Søknad om godkjenning av Nord-Sel, Høvringen, Bjølstadmo og Otta som typisk turiststed Publisert 10. november kl. 15:22 Statsforvalteren sender forslag om å godkjenne Nord-Sel, Høvringen, Bjølstadmo i Heidal og Otta i Sel kommune som typisk turiststed, ut på offentlig høring. Høringsfrist 27. november kl. 23:55 Berørte kommuner Sel kommune Send innspill Sel kommunestyre har i møte 4.5.26 i sak 25/2026 vedtatt å søke om at de ovennevnte stedene skal få status som typisk turiststed. Det søkes om status som typisk turiststed for Høvringen hele året, mens det for Nord-Sel, Bjølstadmo i Heidal og Otta søkes om slik status deler av året. Dersom søknaden blir godkjent av Statsforvalteren betyr dette at butikkene på disse stedene kan holde åpent på søndager og helligdager de aktuelle periodene. Statsforvalteren ber om at eventuelle kommentarer til søknaden sendes til oss innen 27.11.26. Statsforvalteren skal etter høringen vurdere søknaden og kommentarer fra høringsinstansene for å avgjøre om Nord-Sel, Høvringen, Bjølstadmo i Heidal og Otta skal få status som typisk turiststed. Se høringsbrev og vedlegg for nærmere informasjon om saken. Kontakt oss Kontakt oss gjerne for mer informasjon. Ingrid Skauge-Skogheim seniorrådgiver, Statsforvalteren i Innlandet 62 55 11 30 Innhold på siden Dokumenter Høring - søknad om godkjenning som typisk turiststed - Nord-Sel - Høvringen - Bjølstadmo i Heidal - Otta - Sel kommune.PDF Oversendelsesbrev - Sel kommune - søknad om typisk turiststed (PDF) Søknad fra Sel kommune (PDF) Faktaark om Sel kommune (PDF) Kartutsnitt kommuneplanens arealdel (PDF) Vedtak typisk turiststed Sel kommune (PDF) Salgsanalyse Sel 2023-2026 (PDF) Salgsanalyse Kiwi Heidal 2023-2024 (PDF) Salgsanalyse Høvringen 2023-2026 (PDF)",
+      "id": "aae5f5fcb169"
+    }
+  ],
+  "sist_ok": "2026-11-16T20:15:34+01:00"
 }

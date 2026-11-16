@@ -1,9 +1,9 @@
 {
   "kilde": "Direktoratet for medisinske produkter",
   "status": "ok",
-  "hentet": "2026-11-09T20:28:50+01:00",
-  "antall": 4,
-  "sekunder": 9.1,
+  "hentet": "2026-11-16T20:14:35+01:00",
+  "antall": 3,
+  "sekunder": 6.9,
   "horinger": [
     {
       "kilde": "Direktoratet for medisinske produkter",
@@ -17,7 +17,7 @@
       "frist_maned": "",
       "publisert": "2026-09-23",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender DMP på høring forslag til forskriftsendringer som innebærer at legemiddelgrossister som leverer legemidler til apotek, får ansvar for å beredskapslagre bestemte vaksiner og immunglobuliner.",
-      "hentet": "2026-11-09T20:28:50+01:00",
+      "hentet": "2026-11-16T20:14:35+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Arbeids- og sosialdepartementet",
@@ -86,7 +86,7 @@
       "frist_maned": "",
       "publisert": "2026-10-13",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-11-09T20:28:50+01:00",
+      "hentet": "2026-11-16T20:14:35+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [
         "Apotekforeningen",
@@ -195,7 +195,7 @@
       "frist_maned": "",
       "publisert": "2026-08-17",
       "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-11-09T20:28:50+01:00",
+      "hentet": "2026-11-16T20:14:35+01:00",
       "niva": "Direktorater og etater",
       "horingsparter": [],
       "horingsparter_merknad": "",
@@ -204,29 +204,7 @@
       "detalj_versjon": 0,
       "detaljtekst": "",
       "id": "caaa6b5c59e1"
-    },
-    {
-      "kilde": "Direktoratet for medisinske produkter",
-      "kategori": "Helse, omsorg og velferd",
-      "prioritet": 3,
-      "instans": "Direktoratet for medisinske produkter (DMP)",
-      "tittel": "Høring - endring av forskrift om medisinsk utstyr: Obligatorisk bruk av Eudamed og opphevelse av §§ 24 og 25",
-      "lenke": "https://www.dmp.no/nyheter/horing---forslag-til-endring-av-forskrift-9.-mai-2021-nr.-1476-om-medisinsk-utstyr-innforing-av-obligatorisk-bruk-av-eudamed-og-opphevelse-av--24-og-25-i-forskrift-om-medisinsk-utstyr",
-      "frist": "2026-08-24",
-      "frist_tekst": "Frist: 24.08.2026",
-      "frist_maned": "",
-      "publisert": "2026-07-14",
-      "ingress": "På vegne av Helse- og omsorgsdepartementet sender Direktoratet for medisinske produkter (DMP) på høring utkast til endringer i forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr.",
-      "hentet": "2026-11-09T20:28:50+01:00",
-      "niva": "Direktorater og etater",
-      "horingsparter": [],
-      "horingsparter_merknad": "",
-      "horingsparter_lenke": "",
-      "saksfelt": [],
-      "detalj_versjon": 0,
-      "detaljtekst": "",
-      "id": "3a5ee3b1f07e"
     }
   ],
-  "sist_ok": "2026-11-09T20:28:50+01:00"
+  "sist_ok": "2026-11-16T20:14:35+01:00"
 }

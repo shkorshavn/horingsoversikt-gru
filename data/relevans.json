@@ -1,5 +1,5 @@
 {
-  "generert": "2026-11-11T19:27:35+01:00",
+  "generert": "2026-11-16T20:17:54+01:00",
   "modell": "claude-sonnet-5-5",
   "relevans": {
     "006cf69022a8": {
@@ -90,6 +90,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:16:20+01:00"
     },
+    "1a2135220592": {
+      "versjon": 1,
+      "sjekksum": "f44462d391f482a7",
+      "relevant": true,
+      "hvorfor": "Vannforvaltningsplaner for vassdrag i Innlandet gir tiltak og krav som berører kommunene, og fylket ber særlig om innspill fra kommuner om kostnader og gjennomførbarhet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:50+01:00"
+    },
     "1cd059791b68": {
       "versjon": 1,
       "sjekksum": "006549ddfe98333a",
@@ -130,6 +138,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:36+01:00"
     },
+    "26201343322c": {
+      "versjon": 1,
+      "sjekksum": "462777afe2c10379",
+      "relevant": false,
+      "hvorfor": "Gjelder bare to småkraftverk og vannuttak i Lurøy kommune i Nordland.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:34+01:00"
+    },
     "2914c81e932e": {
       "versjon": 1,
       "sjekksum": "e31819c07ea4af8e",
@@ -146,14 +162,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-08T22:15:46+01:00"
     },
-    "2d365b86661f": {
-      "versjon": 1,
-      "sjekksum": "3ff2119731d8c37a",
-      "relevant": true,
-      "hvorfor": "Gjelder frekvenstillatelser og senderkonsesjoner for lokalradio på FM i 2027–2031, som kan berøre lokale radioaktører og lokalradiotilbudet til innbyggerne i regionen.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:46+01:00"
-    },
     "2f947152205b": {
       "versjon": 1,
       "sjekksum": "6b14def5daa8ca5d",
@@ -161,6 +169,14 @@
       "hvorfor": "Permanente beredskapshjemler i integrerings-, barnehage-, opplærings-, plan- og bygnings- og husleieloven gir kommunene nye regler og oppgaver ved høye ankomster av asylsøkere.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:30+01:00"
+    },
+    "31cf4071e6d1": {
+      "versjon": 1,
+      "sjekksum": "583fa88f5f0b6897",
+      "relevant": true,
+      "hvorfor": "Nytt automatiseringstilbud med både fagbrev og studiekompetanse ved Raufoss vgs. gir elever og teknologi- og industribedrifter i regionen nye muligheter for kompetanse og rekruttering.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:47+01:00"
     },
     "387a95279af5": {
       "versjon": 1,
@@ -186,13 +202,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:25+01:00"
     },
-    "3bcccf9aedbf": {
+    "394cdd33ae9e": {
       "versjon": 1,
-      "sjekksum": "76637ad191510d38",
+      "sjekksum": "49043b71c4dcc497",
       "relevant": true,
-      "hvorfor": "Nasjonale overgangsregler for utlegg og innkreving, med forlenget utrulling til mars 2027, gjelder skyldnere over hele landet, også innbyggere og næringsliv i regionen.",
+      "hvorfor": "Forbud mot omsetning og bruk av blyholdig hagleammunisjon gjelder hele landet, og dermed også brukere av slik ammunisjon og naturmiljøet i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:07:34+01:00"
+      "laget": "2026-11-16T20:17:31+01:00"
     },
     "3d1c8b72b3cb": {
       "versjon": 1,
@@ -273,6 +289,14 @@
       "hvorfor": "Gjelder grunnlovsfesting av viltlevende marine ressurser, altså havet og fisket.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:18+01:00"
+    },
+    "53e69422fe56": {
+      "versjon": 1,
+      "sjekksum": "bf6276b8917672fc",
+      "relevant": false,
+      "hvorfor": "Gjelder bare et planlagt kjernekraftverk i Helsinki, Finland, uten omtalt påvirkning på Norge.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:33+01:00"
     },
     "56e529a56a31": {
       "versjon": 1,
@@ -386,13 +410,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:42+01:00"
     },
-    "72aaf5ad5099": {
+    "759cb8d28267": {
       "versjon": 1,
-      "sjekksum": "2a71aef36f7d8fc5",
-      "relevant": false,
-      "hvorfor": "Gjelder lokal utskifting av Skog bru på fv. 213 i Ringsaker kommune.",
+      "sjekksum": "44817c9e62b1a9a9",
+      "relevant": true,
+      "hvorfor": "Endrer listen over aktive stoffer i plantevernmidler, noe som kan påvirke landbruket i regionen og vannforvaltning, drikkevann og avrenning til vassdrag.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:07:45+01:00"
+      "laget": "2026-11-16T20:17:45+01:00"
     },
     "77e746e4c4a7": {
       "versjon": 1,
@@ -473,14 +497,6 @@
       "hvorfor": "Gjelder én bedrifts utslipp til luft og til Tovdalselva i Agder.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:12+01:00"
-    },
-    "8af939d61ec0": {
-      "versjon": 1,
-      "sjekksum": "b863084cdf502ad6",
-      "relevant": true,
-      "hvorfor": "Nasjonale regler for forlengelse av FM-konsesjoner for lokalradio 2027–2031 gjelder lokalradioer over hele landet, og høringslisten nevner flere lokalradioer i Innlandet.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:16:17+01:00"
     },
     "8d5dcd0258a5": {
       "versjon": 1,
@@ -602,14 +618,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:47+01:00"
     },
-    "a707facb1eff": {
-      "versjon": 1,
-      "sjekksum": "fec1fc2488513add",
-      "relevant": true,
-      "hvorfor": "Ekspertutvalgets rapport om klimatilpasning gjelder blant annet vann og avløp, samferdsel, jord- og skogbruk og beredskap, og alle kommuner er høringsinstanser.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:05:10+01:00"
-    },
     "a9dfa91fa88a": {
       "versjon": 1,
       "sjekksum": "465b4ed7b0b70655",
@@ -626,6 +634,14 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-09T20:30:28+01:00"
     },
+    "aae5f5fcb169": {
+      "versjon": 1,
+      "sjekksum": "0b17014e5af62c57",
+      "relevant": false,
+      "hvorfor": "Gjelder søndagsåpne butikker på turiststeder i Sel kommune, som ligger utenfor regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:53+01:00"
+    },
     "ab01fdcf2eec": {
       "versjon": 1,
       "sjekksum": "8b9a7c755ea54c89",
@@ -633,6 +649,14 @@
       "hvorfor": "Utvalgets forslag om fellesskolen kan påvirke kommunenes ansvar for grunnskolen, skoletjenestene og økonomien, og kommunene kan sende felles høringsuttalelse.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:04:45+01:00"
+    },
+    "ab6741542403": {
+      "versjon": 1,
+      "sjekksum": "378a57f4e364b829",
+      "relevant": false,
+      "hvorfor": "Gjelder teknisk avtale om felles IT-plattform for EUs karbongrensejustering, uten merkbar virkning for kommuner eller innbyggere.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:18+01:00"
     },
     "ab8848957a28": {
       "versjon": 1,
@@ -721,6 +745,14 @@
       "hvorfor": "Ny fordelingsmodell for skatt mellom skattekreditorene, der kommunene er en av dem, kan endre hvordan og når kommunenes skatteinntekter fordeles og hvor stabile de blir.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:07:36+01:00"
+    },
+    "b6b8c9ed907b": {
+      "versjon": 1,
+      "sjekksum": "dce61b4cfb623489",
+      "relevant": false,
+      "hvorfor": "Gjelder en svensk anleggsplan for kjernekraftverk i Norrsundet, Gävleborg, uten omtalt virkning for Norge.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:26+01:00"
     },
     "b7139428bdd0": {
       "versjon": 1,
@@ -826,14 +858,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:16+01:00"
     },
-    "d5d8c62f1cf0": {
-      "versjon": 1,
-      "sjekksum": "51d6b6973c6da59e",
-      "relevant": false,
-      "hvorfor": "Gjelder prosessregler for inndragning i straffesaker, uten merkbar betydning for kommuner, innbyggere eller næringsliv.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-08T22:18:22+01:00"
-    },
     "d6878ef0e7f4": {
       "versjon": 1,
       "sjekksum": "8187ef7ec8bd8523",
@@ -841,6 +865,14 @@
       "hvorfor": "Nasjonale endringer i opplæringsloven om klagerett på standpunktkarakterer, permisjon og automatiserte inntaksvedtak berører kommuner som skoleeiere og fylkeskommunen som ansvarlig for videregående opplæring.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:18+01:00"
+    },
+    "da5c3c327785": {
+      "versjon": 1,
+      "sjekksum": "a459d2bfefb6f0dd",
+      "relevant": true,
+      "hvorfor": "Forslaget fjerner kommunenes innsigelsesrett og områdereguleringen for vindkraft, og endrer saksbehandlingen for vind-, vann-, sol- og nettkonsesjoner, noe som berører kommunenes planmyndighet og energiutbygging i Innlandet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:39+01:00"
     },
     "db984834479b": {
       "versjon": 1,
@@ -850,13 +882,13 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:05:00+01:00"
     },
-    "ddda7ca52c53": {
+    "dba2d12b23c6": {
       "versjon": 1,
-      "sjekksum": "aee93a8b13f912fc",
-      "relevant": false,
-      "hvorfor": "Gjelder Stortingets kontroll med statlig styring i forsvarssektoren, ikke kommuner eller regionen.",
+      "sjekksum": "e30c2802f53c5423",
+      "relevant": true,
+      "hvorfor": "Nasjonale dyrehelseregler om melding av sykdomsutbrudd som blåtunge, vaksinering ved sykdomsbekjempelse og import kan berøre husdyrnæringen og landbruket i regionen.",
       "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:02:14+01:00"
+      "laget": "2026-11-16T20:17:43+01:00"
     },
     "ddf56ca9d760": {
       "versjon": 1,
@@ -873,14 +905,6 @@
       "hvorfor": "Endringer i KI-forordningen gjelder nasjonale regler for hele landet og kan påvirke kommuner som bruker KI i tjenester, samt teknologibedrifter i regionen.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:02:58+01:00"
-    },
-    "defdb6b438fe": {
-      "versjon": 1,
-      "sjekksum": "83fa438fcf20e5b4",
-      "relevant": true,
-      "hvorfor": "Regional plan for strømnettet i Innlandet gjelder nettkapasitet og ny kraftproduksjon, som påvirker kommunal planlegging, næringsutvikling og tilgang til energi i hele fylket.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:07:47+01:00"
     },
     "dfe6bb642266": {
       "versjon": 1,
@@ -913,6 +937,22 @@
       "hvorfor": "Ny lov om tannhelsetjenester endrer helse- og omsorgstjenesteloven og grensegangen mot kommunale helsetjenester, og kommunene er høringsinstanser.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:03:31+01:00"
+    },
+    "e5349a487d06": {
+      "versjon": 1,
+      "sjekksum": "b83d68afac771623",
+      "relevant": true,
+      "hvorfor": "Strategien for pilegrimsledene i Innlandet, blant dem Gudbrandsdalsleden på begge sider av Mjøsa, berører kommunenes planlegging, infrastruktur, friluftsliv og reiseliv.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:52+01:00"
+    },
+    "e803a0d2da4f": {
+      "versjon": 1,
+      "sjekksum": "e0bae5c3c94577ff",
+      "relevant": true,
+      "hvorfor": "Nye maskinregler i arbeidsmiljøloven gjelder hele landet og kan påvirke industri- og teknologibedrifter, landbruk og kommuner som arbeidsgivere i regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:20+01:00"
     },
     "e9a14bdd7b62": {
       "versjon": 1,
@@ -962,14 +1002,6 @@
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:07:17+01:00"
     },
-    "f644746b0c53": {
-      "versjon": 1,
-      "sjekksum": "416eb527bd74553a",
-      "relevant": false,
-      "hvorfor": "Gjelder bare kapitalkrav for IRB-banker, ikke kommunenes oppgaver, tjenester eller økonomi.",
-      "modell": "claude-sonnet-5-5",
-      "laget": "2026-11-03T21:04:42+01:00"
-    },
     "f80136314e9f": {
       "versjon": 1,
       "sjekksum": "6d8bd9d6326f593f",
@@ -985,6 +1017,22 @@
       "hvorfor": "Nasjonal retningslinje for mat og ernæring i helse- og omsorgstjenesten kan gi kommunene nye faglige krav til sykehjem og hjemmetjenester, med personellmessige og organisatoriske konsekvenser.",
       "modell": "claude-sonnet-5-5",
       "laget": "2026-11-03T21:06:44+01:00"
+    },
+    "f87e7abc6d10": {
+      "versjon": 1,
+      "sjekksum": "2c3dbf7fc2cdd0a7",
+      "relevant": true,
+      "hvorfor": "Nasjonale regler for tanktransport av farlig gods med ekstra store vogntog gjelder veitransport, næringslivet og beredskapen også på riksveiene i Innlandet.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:37+01:00"
+    },
+    "f8b4fd856248": {
+      "versjon": 1,
+      "sjekksum": "bea124e4fe2a597b",
+      "relevant": false,
+      "hvorfor": "Gjelder bare vilkår for godkjenning av trafikklærere, ikke kommunene eller regionen.",
+      "modell": "claude-sonnet-5-5",
+      "laget": "2026-11-16T20:17:24+01:00"
     },
     "fa996d9148ed": {
       "versjon": 1,
